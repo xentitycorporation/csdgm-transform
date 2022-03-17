@@ -1,0 +1,18 @@
+Failed
+Input failed to pass either file structure, validation, or content requirements
+See following messages for further information
+Success - Input structure is valid
+Success - Input content passes schema definition
+Fail - Reader execution failed - see following message(s):
+
+Message: 1
+WARNING: FGDC reader: BIO geographic description is missing
+
+Message: 2
+WARNING: FGDC reader: BIO lineage methodology section is missing
+
+Message: 3
+ERROR: FGDC reader: Conversion of dateTime string to object failed
+
+Message: 4
+WARNING: FGDC reader: lineage procedure date is missing

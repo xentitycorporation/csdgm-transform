@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.fgdc.gov/metadata/fgdc-std-001-1998.xsd">
+   <Esri>
+      <PublishedDocID>{77801FCB-FE8A-4AD3-BF15-1AE2B301E71E}</PublishedDocID>
+   </Esri>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>US Environmental Protection Agency, Office of Water </origin>
+            <pubdate>20100701</pubdate>
+            <title>EPA Office of Water (OW): STORET Water Quality Monitoring Stations Source Dataset</title>
+            <edition>20100701</edition>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+               <publish>U.S. EPA Office of Water (OW)</publish>
+               <pubplace>Washington, DC</pubplace>
+            </pubinfo>
+            <onlink>https://www.waterqualitydata.us/</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>Storage and Retrieval for Water Quality Data (STORET and the Water Quality Exchange, WQX) defines the methods and the data systems by which EPA compiles monitoring data (typically water quality data, but not exclusively water quality data) that are collected by a number of entities. This dataset represents the monitoring locations contained within the STORET Data Warehouse, or put another way, the point locations of where data providers to the STORET Data Warehouse have performed water monitoring activities such as water sampling or taking field measurements.  The dataset's locations are based on the latitude and longitude that the source data owner submitted to the STORET Data Warehouse.  EPA has not performed Quality Assurance as to the accuracy of the latitudes and longitudes; this dataset provides the locations based on the data provided by the data owner.</abstract>
+         <purpose>v/storet. STORET consists of several components: 1) STORET Data Warehouse, 2) Distributed Data Entry Module, and 3) Water Quality Exchange (WQX). The Distributed Data Entry Module is being phased out by September 2009. WQX replaces the Distributed Data Entry Module as the means for submitting data to EPA.</purpose>
+         <supplinf>None</supplinf>
+      </descript>
+      <timeperd>
+         <current>Publication date</current>
+         <timeinfo>
+            <sngdate>
+               <caldate>19600101-Present</caldate>
+            </sngdate>
+         </timeinfo>
+      </timeperd>
+      <status>
+         <progress>In work</progress>
+         <update>Weekly</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-161</westbc>
+            <eastbc>-64</eastbc>
+            <northbc>50</northbc>
+            <southbc>17</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>ISO 19115 Topic Category</themekt>
+            <themekey>environment</themekey>
+            <themekey>monitoring</themekey>
+            <themekey>water quality</themekey>
+         </theme>
+         <theme>
+            <themekt>EPA GIS Keyword Thesaurus</themekt>
+            <themekey>Environment</themekey>
+            <themekey>Monitoring</themekey>
+            <themekey>Quality</themekey>
+            <themekey>Surface Water</themekey>
+            <themekey>Water</themekey>
+         </theme>
+         <place>
+            <placekt>None</placekt>
+            <placekey>United States</placekey>
+         </place>
+      </keywords>
+      <accconst>None.</accconst>
+      <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</useconst>
+      <secinfo>
+         <secsys>FIPS Pub 199</secsys>
+         <secclass>No Confidentiality</secclass>
+         <sechandl>Standard Technical Controls</sechandl>
+      </secinfo>
+      <ptcontac>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Environmental Protection Agency</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>1200 Pennsylvania Avenue, NW MC 4503T</address>
+               <city>Washington</city>
+               <state>DC</state>
+               <postal>20460</postal>
+            </cntaddr>
+            <cntvoice>1-800-424-9067</cntvoice>
+            <cntemail>storet@epa.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+   </idinfo>
+   <dataqual>
+      <logic>Not presently available</logic>
+      <complete>in Progress</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>Positional accuracy for the data set varies for individual features within the data set. Actual horizontal positional accuracy for the data set is unknown.</horizpar>
+         </horizpa>
+         <vertacc>
+            <vertaccr>Statements of vertical positional accuracy for elevation of water surfaces are based on accuracy statements made for USGS topographic quadrangle maps. These maps were compiled to meet National Map Accuracy Standards. For vertical accuracy, this standard is met if at least 90 percent of well-defined points tested are within one-half contour interval of the correct value. Elevations of water surface printed on the published map meet this standard; the contour intervals of the maps vary. These elevations were transcribed into the digital data; the accuracy of this transcription was checked by visual comparison between the data and the map. For more information, see the National Hydrography Dataset Concepts and Contents document (February 2000) available athttp://nhd.usgs.gov/chapter1/index.html.</vertaccr>
+         </vertacc>
+      </posacc>
+      <lineage>
+         <procstep>
+            <procdate>20100701</procdate>
+            <procdesc>Source dataset extracted from the EPA STORET system.</procdesc>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spref>
+      <horizsys>
+         <geograph>
+            <latres>0.000001</latres>
+            <longres>0.000001</longres>
+            <geogunit>Decimal degrees</geogunit>
+         </geograph>
+         <geodetic>
+            <horizdn>North American Datum of 1983</horizdn>
+            <ellips>Geodetic Reference System 1980</ellips>
+            <semiaxis>6378137.000000</semiaxis>
+            <denflat>298.257222</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>STORET_P</enttypl>
+            <enttypd>Point Source Table</enttypd>
+            <enttypds>STORET</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>PKISNIDENTIFIER</attrlabl>
+            <attrdef>A designator used to uniquely identify a unique business establishment within a context.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 38</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ORGANIZATIONIDENTIFIER</attrlabl>
+            <attrdef>A designator used to uniquely identify a unique business establishment within a context.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 30</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ORGANIZATIONFORMALNAME</attrlabl>
+            <attrdef>The legal designator (i.e. formal name) of an organization.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 120</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>MONITORINGLOCATIONIDENTIFIER</attrlabl>
+            <attrdef>A designator used to describe the unique name, number, or code assigned to identify the monitoring location.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 35</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>MONITORINGLOCATIONNAME</attrlabl>
+            <attrdef>The designator specified by the sampling organization for the site at which sampling or other activities are conducted.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 255</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>MONITORINGLOCATIONTYPENAME</attrlabl>
+            <attrdef>The descriptive name for a type of monitoring location.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values, string max 45</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>LATITUDEMEASURE</attrlabl>
+            <attrdef>The measure of the angular distance on a meridian north or south of the equator.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>Decimal 6-8 digits</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>LONGITUDEMEASURE</attrlabl>
+            <attrdef>The measure of the angular distance on a meridian east or west of the prime meridian.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>Decimal 6-9 digits</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HORIZONTALREFERENCEDATUMCODE</attrlabl>
+            <attrdef>The name that describes the reference datum used in determining latitude and longitude coordinates.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values, string max 6</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HORIZONTALREFERENCEDATUMNAME</attrlabl>
+            <attrdef>The name that identifies the method used to determine the latitude and longitude coordinates for a point on the earth.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values, string max 45</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HORIZONTALCOLLECTIONMETHODNAME</attrlabl>
+            <attrdef>The name that identifies the method used to determine the latitude and longitude coordinates for a point on the earth.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values, string max 70</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SOURCEMAPSCALENUMBER</attrlabl>
+            <attrdef>The number that represents the proportional distance on the ground for one unit of measure on the map or photo.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>non Negative Integer</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>VERTICALMEASUREVALUE</attrlabl>
+            <attrdef>The recorded dimension, capacity, quality, or amount of something ascertained by measuring or observing.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 12</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>VERTICALMEASUREVALUEUNITCODE</attrlabl>
+            <attrdef>The code that represents the unit for measuring the item.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values (MeasureUnitCode), string max 12</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>VERTICALREFERENCEDATUMCODE</attrlabl>
+            <attrdef>The name of the reference datum used to determine the vertical measure (i.e., the altitude).</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values, string max 10</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>VERTICALREFERENCEDATUMNAME</attrlabl>
+            <attrdef>The name of the reference datum used to determine the vertical measure (i.e., the altitude).</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values, string max 45</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>VERTICALCOLLECTIONMETHODTEXT</attrlabl>
+            <attrdef>The code that represents the method used to determine elevation of a point of interest.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values, string max 50</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>COUNTRYNAME</attrlabl>
+            <attrdef>A code designator.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values, string max 35</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>STATENAME</attrlabl>
+            <attrdef>A code designator used to identify a principal administrative subdivision of the United States, Canada, or Mexico.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values, string max 35</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>COUNTYNAME</attrlabl>
+            <attrdef>A code designator used to identify a U.S. county or county equivalent.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values, string max 50</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>COUNTRYCODE</attrlabl>
+            <attrdef>A code designator.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values, string max 2</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FIPSTATECODE</attrlabl>
+            <attrdef>A code designator used to identify a principal administrative subdivision of the United States, Canada, or Mexico.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values, string max 4</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FIPCOUNTYCODE</attrlabl>
+            <attrdef>A code designator used to identify a U.S. county or county equivalent.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>From domain values, string max 3</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HUCEIGHTDIGITCODE</attrlabl>
+            <attrdef>The 8 digit federal code used to identify the hydrologic unit of the monitoring location to the cataloging unit level of precision.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 8</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HUCEIGHTDIGITNAME</attrlabl>
+            <attrdef>The Federal Information Processing Standard (FIPS) name associated with code established for Hydrologic Units, as defined in FIPS Publication 103.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 200</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>RF1SEGMENTCODE</attrlabl>
+            <attrdef>RF1 is a reference to a numbering scheme for stream segments adopted by EPA during the 1970's to identify and logically connect the large streams of the United States.  RF1 stream segments are not applicable to streams in Canada or Mexico.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 3</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>RF1SEGMENTNAME</attrlabl>
+            <attrdef>RF1 stream segments Name. For Stations in the United States (only), the name of the stream containing the segment on which the Station is located.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 8</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>RF1MILEAGEMEASURE</attrlabl>
+            <attrdef>Where an RF1 segment is given, the mileage between the downstream end of the segment and the Station, or the point on the segment which best represents the Station.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 12</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ONREACHINDICATOR</attrlabl>
+            <attrdef>Y (yes) or N(no); is the Station actually on the reach segment to which it is ascribed.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 1</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>NRCSWATERSHEDIDENTIFIER</attrlabl>
+            <attrdef>The Natural Resources Conservation Service (NRCS), formerly known as the Soil Conservation Service (SCS), has standardized a method for subdividing the drainages defined by the HUC scheme, and where it has been implemented extends the HUC by 3 to 6 digits.  The NRCS Watershed identifying scheme is not available in Canada or Mexico, and it is not implemented by all states.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 8</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PRIMARYESTUARYNAME</attrlabl>
+            <attrdef>This field is valued at "S" for Surface, "G" for Ground, or "O" for Other based on Station Type.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 30</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SECONDARYESTUARYNAME</attrlabl>
+            <attrdef>This field is valued at "S" for Surface, "G" for Ground, or "O" for Other based on Station Type.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 30</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>OTHERESTUARYNAME</attrlabl>
+            <attrdef>This field is valued at "S" for Surface, "G" for Ground, or "O" for Other based on Station Type.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 30</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>GREATLAKENAME</attrlabl>
+            <attrdef>This field is valued at "S" for Surface, "G" for Ground, or "O" for Other based on Station Type.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 15</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>OCEANNAME</attrlabl>
+            <attrdef>This field is valued at "S" for Surface, "G" for Ground, or "O" for Other based on Station Type.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 14</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>NATIVEAMERICANLANDNAME</attrlabl>
+            <attrdef>The name of the Native American Land in which the Station is located, if applicable.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 40</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FRSKEYIDENTIFIER</attrlabl>
+            <attrdef>FRS is the Facility Registry System, a scheme adopted by EPA to uniquely identify facilities in which EPA has a regulatory or monitoring interest.  This identifier, if present, can be used as a link to the Facility Registry.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 36</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>STATIONSGOINDICATOR</attrlabl>
+            <attrdef>This field is valued at "S" for Surface, "G" for Ground, or "O" for Other based on Station Type.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 1</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>STATIONVISITED</attrlabl>
+            <attrdef>This field is valued at "YES" for Data Collected, "NO" for Data not collected at this station. Indicating a period of time spent at a station during which measurements, observations, and/or sampling activities may take place.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 3</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HUCTWELVEDIGITCODE</attrlabl>
+            <attrdef>The 12 digit federal code used to identify the hydrologic unit of the monitoring location to the subwatershed level of precision.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 12</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PROGRAMINDICATOR</attrlabl>
+            <attrdef>The code that represents a program or a set of comprehensive Federal, State, or local activities.</attrdef>
+            <attrdefs>STORET</attrdefs>
+            <attrdomv>
+               <udom>string max 256</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SHAPE</attrlabl>
+            <attrdef>ArcSDE managed geometry type</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Geometry Object</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>OBJECTID</attrlabl>
+            <attrdef>ArcSDE managed numeric key</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>2147483647</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <resdesc>Downloadable Data</resdesc>
+      <distliab>https://edg.epa.gov/EPA_Data_License.htm</distliab>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>US EPA Headquarters</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>1200 Pennsylvania Avenue, NW MC 4503T</address>
+               <city>Washington</city>
+               <state>DC</state>
+               <postal>20460</postal>
+            </cntaddr>
+            <cntvoice>1-800-424-9067</cntvoice>
+            <cntemail>storet@epa.gov</cntemail>
+         </cntinfo>
+      </distrib>
+   </distinfo>
+   <metainfo>
+      <metd>20220110</metd>
+      <metfrd>20120701</metfrd>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Environmental Protection Agency</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>1200 Pennsylvania Avenue, NW MC 4503T</address>
+               <city>Washington</city>
+               <state>DC</state>
+               <postal>20460</postal>
+            </cntaddr>
+            <cntvoice>1-800-424-9067</cntvoice>
+            <cntemail>storet@epa.gov</cntemail>
+         </cntinfo>
+      </metc>
+   </metainfo>
+   <mdDateSt>20100701</mdDateSt>
+</metadata>

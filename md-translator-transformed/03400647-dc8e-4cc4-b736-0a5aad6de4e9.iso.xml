@@ -1,0 +1,9 @@
+Failed
+Input failed to pass either file structure, validation, or content requirements
+See following messages for further information
+Success - Input structure is valid
+Fail - Input content did not pass schema validation - see following message(s):
+
+Message: 1
+ERROR: FGDC file did not contain a <metadata> tag
+Success - Reader execution successful

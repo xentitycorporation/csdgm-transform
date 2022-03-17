@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?><!--+########################################################################+--><!--+    This file was generated using an FGDC CSDGM to ISO19139 Transform   +--><!--+                                                                        +--><!--+ This is accomplished using an XML Style sheet that transforms metadata +--><!--+ conforming to the CSDGM to the ISO 19139.                              +--><!--#########################################################################+-->
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:saxon="http://saxon.sf.net/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd  http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd">
+   <gmd:fileIdentifier>
+      <gco:CharacterString>c714b337-d1e3-4cd1-b04c-79863e744984-csdgm</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+      <gco:CharacterString>eng; USA</gco:CharacterString>
+   </gmd:language>
+   <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+   <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName>
+            <gco:CharacterString>Bob Simpson</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:organisationName>
+            <gco:CharacterString>U.S. Environmental Protection Agency, Region 2, GIS Team</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName>
+            <gco:CharacterString>GIS Analyst</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>(212) 637-3335</gco:CharacterString>
+                     </gmd:voice>
+                     <gmd:facsimile>
+                        <gco:CharacterString>(212) 637-3358</gco:CharacterString>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>290 Broadway</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>New York</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>NY</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>10007</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>r2gisdata@epa.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:contactInstructions>
+                  <gco:CharacterString>http://www.epa.gov/region02/</gco:CharacterString>
+               </gmd:contactInstructions>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:dateStamp>
+      <gco:Date>2022-01-20</gco:Date>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+      <gco:CharacterString>ISO 19115:2003/Cor.1:2006(E)</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:spatialRepresentationInfo>
+      <gmd:MD_VectorSpatialRepresentation>
+         <gmd:geometricObjects>
+            <gmd:MD_GeometricObjects>
+               <gmd:geometricObjectType gco:nilReason="template"/>
+            </gmd:MD_GeometricObjects>
+         </gmd:geometricObjects>
+      </gmd:MD_VectorSpatialRepresentation>
+   </gmd:spatialRepresentationInfo>
+   <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>R2 Water Quality Portal Monitoring Stations</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2017-02-15</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>U.S. EPA Office of Environmental Information (OEI)</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:city>
+                                    <gco:CharacterString>New York</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString> NY</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>US Environmental Protection Agency</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName gco:nilReason="missing"/>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>https://www.waterqualitydata.us/portal/</gmd:URL>
+                                 </gmd:linkage>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role gco:nilReason="inapplicable"/>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName gco:nilReason="missing"/>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>https://www.epa.gov/geospatial/</gmd:URL>
+                                 </gmd:linkage>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role gco:nilReason="inapplicable"/>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>The Water Quality Data Portal (WQP) provides an easy way to access data stored in various large water quality databases. The WQP provides various input parameters on the form including location, site, sampling, and date parameters to filter and customize the returned results. The The Water Quality Portal (WQP) is a cooperative service sponsored by the United States Geological Survey (USGS), the Environmental Protection Agency (EPA) and the National Water Quality Monitoring Council (NWQMC) that integrates publicly available water quality data from the USGS National Water Information System (NWIS) the EPA STOrage and RETrieval (STORET) Data Warehouse, and the USDA ARS Sustaining The EarthÃ¢â‚¬â„¢s Watersheds - Agricultural Research Database System (STEWARDS).</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose>
+            <gco:CharacterString>The Water Quality Portal WQP can return site information (locations where samples were collected), or it can return sample results (analytical data of collected samples). This ArcGIS SDE point feature class (Geographic NAD83) was generated from a WQP down load of statons in the Region 2 geographic extent.</gco:CharacterString>
+         </gmd:purpose>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="underDevelopment">underDevelopment</gmd:MD_ProgressCode>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Bob Simpson</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>U.S. Environmental Protection Agency, Region 2, GIS Team</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName>
+                  <gco:CharacterString>GIS Analyst</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>(212) 637-3335</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:facsimile>
+                              <gco:CharacterString>(212) 637-3358</gco:CharacterString>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>290 Broadway</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>New York</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>NY</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>10007</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>r2gisdata@epa.gov</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:contactInstructions>
+                        <gco:CharacterString>http://www.epa.gov/region02/</gco:CharacterString>
+                     </gmd:contactInstructions>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="quarterly">quarterly</gmd:MD_MaintenanceFrequencyCode>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Ecology</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Environment</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Monitoring</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Quality</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Surface Water</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Water</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>EPA GIS Keyword Thesaurus</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_Constraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>https://edg.epa.gov/EPA_Data_License.html</gco:CharacterString>
+               </gmd:useLimitation>
+            </gmd:MD_Constraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:useConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Use Constraints: None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:accessConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Access Constraints: None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_SecurityConstraints>
+               <gmd:classification>
+                  <gmd:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="PUBLIC">PUBLIC</gmd:MD_ClassificationCode>
+               </gmd:classification>
+               <gmd:classificationSystem>
+                  <gco:CharacterString>http://project-open-data.github.io/schema/#accessLevel</gco:CharacterString>
+               </gmd:classificationSystem>
+               <gmd:handlingDescription>
+                  <gco:CharacterString>Standard Technical Controls</gco:CharacterString>
+               </gmd:handlingDescription>
+            </gmd:MD_SecurityConstraints>
+         </gmd:resourceConstraints>
+         <gmd:language>
+            <gco:CharacterString>eng; USA</gco:CharacterString>
+         </gmd:language>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent id="boundingExtent">
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-84.057143</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>82.724795</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>-89.972520</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>90.000000</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimeInstant gml:id="d1aAbHdB">
+                           <gml:timePosition>2017-02-15</gml:timePosition>
+                        </gml:TimeInstant>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+      </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:contentInfo><!-- translated from eainfo to MD_FeatureCatalogueDescription--><gmd:MD_FeatureCatalogueDescription>
+         <gmd:includedWithDataset>
+            <gco:Boolean>true</gco:Boolean>
+         </gmd:includedWithDataset>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="dynamic.R2GIS.R2_WATER_QUALITY_PORTAL_STATIONS"/>
+         </gmd:featureTypes>
+         <gmd:featureCatalogueCitation gco:nilReason="unknown"/>
+      </gmd:MD_FeatureCatalogueDescription>
+   </gmd:contentInfo>
+   <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Bob Simpson</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>U.S. Environmental Protection Agency, Region 2, GIS Team</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>GIS Analyst</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>(212) 637-3335</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>(212) 637-3358</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>290 Broadway</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>New York</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>NY</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>10007</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>r2gisdata@epa.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:contactInstructions>
+                              <gco:CharacterString>http://www.epa.gov/region02/</gco:CharacterString>
+                           </gmd:contactInstructions>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+               <!--CSDGM IMPORT MESSAGE: FGDC content not mapped to ISO. From Xpath: //distinfo/stdorder/resdesc--></gmd:MD_Distributor>
+         </gmd:distributor>
+      </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Horizontal Positional Accuracy Report</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="missing"/>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_CompletenessCommission>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>Features represented have not been tested for completeness</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="unknown"/>
+            </gmd:DQ_CompletenessCommission>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_CompletenessOmission>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>Features represented have not been tested for completeness</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="unknown"/>
+            </gmd:DQ_CompletenessOmission>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_ConceptualConsistency>
+               <gmd:measureDescription>
+                  <gco:CharacterString>Tests for integrity have not been performed.</gco:CharacterString>
+               </gmd:measureDescription>
+               <gmd:result gco:nilReason="unknown"/>
+            </gmd:DQ_ConceptualConsistency>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>This lineage was generated by the FGDC CSDGM to 19139 transformation</gco:CharacterString>
+               </gmd:statement>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Ran Site Data Only queries in the Water Quality Portal for NYS, NJ, PR and VI</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime>
+                        <gco:DateTime>9999-01-01T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName>
+                              <gco:CharacterString>Bob Simpson</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>U.S. Environmental Protection Agency, Region 2, GIS Team</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>GIS Analyst</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>(212) 637-3335</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>(212) 637-3358</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>290 Broadway</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>New York</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>NY</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>10007</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>r2gisdata@epa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:contactInstructions>
+                                    <gco:CharacterString>http://www.epa.gov/region02/</gco:CharacterString>
+                                 </gmd:contactInstructions>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Selected out stations in Puerto Rico that were migrated from legacy Storet. Created feature class of these records. and defined project</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime>
+                        <gco:DateTime>9999-01-01T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName>
+                              <gco:CharacterString>Bob Simpson</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>U.S. Environmental Protection Agency, Region 2, GIS Team</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>GIS Analyst</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>(212) 637-3335</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>(212) 637-3358</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>290 Broadway</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>New York</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>NY</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>10007</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>r2gisdata@epa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:contactInstructions>
+                                    <gco:CharacterString>http://www.epa.gov/region02/</gco:CharacterString>
+                                 </gmd:contactInstructions>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Defined projection of of these selected records as GCS-Puerto Rico Datum</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime>
+                        <gco:DateTime>9999-01-01T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName>
+                              <gco:CharacterString>Bob Simpson</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>U.S. Environmental Protection Agency, Region 2, GIS Team</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>GIS Analyst</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>(212) 637-3335</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>(212) 637-3358</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>290 Broadway</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>New York</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>NY</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>10007</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>r2gisdata@epa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:contactInstructions>
+                                    <gco:CharacterString>http://www.epa.gov/region02/</gco:CharacterString>
+                                 </gmd:contactInstructions>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Added XY coordinate values to attribute table of these 386 selected records.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime>
+                        <gco:DateTime>9999-01-01T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName>
+                              <gco:CharacterString>Bob Simpson</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>U.S. Environmental Protection Agency, Region 2, GIS Team</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>GIS Analyst</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>(212) 637-3335</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>(212) 637-3358</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>290 Broadway</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>New York</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>NY</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>10007</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>r2gisdata@epa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:contactInstructions>
+                                    <gco:CharacterString>http://www.epa.gov/region02/</gco:CharacterString>
+                                 </gmd:contactInstructions>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>)Created XY coordinate look-up table of these records. and joined table to main feature class (R2_WQP Stations)</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime>
+                        <gco:DateTime>9999-01-01T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName>
+                              <gco:CharacterString>Bob Simpson</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>U.S. Environmental Protection Agency, Region 2, GIS Team</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>GIS Analyst</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>(212) 637-3335</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>(212) 637-3358</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>290 Broadway</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>New York</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>NY</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>10007</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>r2gisdata@epa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:contactInstructions>
+                                    <gco:CharacterString>http://www.epa.gov/region02/</gco:CharacterString>
+                                 </gmd:contactInstructions>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Calculated new Shape values for these records in main feature class using Python expression.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime>
+                        <gco:DateTime>9999-01-01T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName>
+                              <gco:CharacterString>Bob Simpson</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>U.S. Environmental Protection Agency, Region 2, GIS Team</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>GIS Analyst</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>(212) 637-3335</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>(212) 637-3358</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>290 Broadway</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>New York</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>NY</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>10007</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>r2gisdata@epa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:contactInstructions>
+                                    <gco:CharacterString>http://www.epa.gov/region02/</gco:CharacterString>
+                                 </gmd:contactInstructions>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+   <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation>
+         <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown">unknown</gmd:MD_MaintenanceFrequencyCode>
+         </gmd:maintenanceAndUpdateFrequency>
+         <gmd:dateOfNextUpdate>
+            <gco:Date>2021-02-15</gco:Date>
+         </gmd:dateOfNextUpdate>
+         <gmd:maintenanceNote>
+            <gco:CharacterString> This metadata was automatically generated from the FGDC Content Standard for Digital Geospatial Metadata standard (version FGDC-STD-001-1998) using the 2019-08-12T11:11:00 version of the FGDC CSDGM to ISO 19139 transform.</gco:CharacterString>
+         </gmd:maintenanceNote>
+         <gmd:contact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Bob Simpson</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>U.S. Environmental Protection Agency, Region 2, GIS Team</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName>
+                  <gco:CharacterString>GIS Analyst</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>(212) 637-3335</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:facsimile>
+                              <gco:CharacterString>(212) 637-3358</gco:CharacterString>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>290 Broadway</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>New York</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>NY</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>10007</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>r2gisdata@epa.gov</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:contactInstructions>
+                        <gco:CharacterString>http://www.epa.gov/region02/</gco:CharacterString>
+                     </gmd:contactInstructions>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:contact>
+      </gmd:MD_MaintenanceInformation>
+   </gmd:metadataMaintenance>
+</gmd:MD_Metadata>

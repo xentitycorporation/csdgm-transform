@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<Esri>
+		<PublishedDocID>{6e7e0473-f67a-4119-b009-e541508b03ee}</PublishedDocID>
+	</Esri>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EPA GIS Keyword Thesaurus</themekt>
+				<themekey>Ecosystem</themekey>
+				<themekey>Environment</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Alabama</placekey>
+				<placekey>Arizona</placekey>
+				<placekey>Arkansas</placekey>
+				<placekey>California</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>Connecticut</placekey>
+				<placekey>Delaware</placekey>
+				<placekey>Florida</placekey>
+				<placekey>Georgia</placekey>
+				<placekey>Idaho</placekey>
+				<placekey>Illinois</placekey>
+				<placekey>Indiana</placekey>
+				<placekey>Iowa</placekey>
+				<placekey>Kansas</placekey>
+				<placekey>Kentucky</placekey>
+				<placekey>Louisiana</placekey>
+				<placekey>Maine</placekey>
+				<placekey>Maryland</placekey>
+				<placekey>Massachusetts</placekey>
+				<placekey>Michigan</placekey>
+				<placekey>Minnesota</placekey>
+				<placekey>Mississippi</placekey>
+				<placekey>Missouri</placekey>
+				<placekey>Montana</placekey>
+				<placekey>Nebraska</placekey>
+				<placekey>Nevada</placekey>
+				<placekey>New Hampshire</placekey>
+				<placekey>New Jersey</placekey>
+				<placekey>New Mexico</placekey>
+				<placekey>New York</placekey>
+				<placekey>North Carolina</placekey>
+				<placekey>North Dakota</placekey>
+				<placekey>Ohio</placekey>
+				<placekey>Oklahoma</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>Pennsylvania</placekey>
+				<placekey>Rhode Island</placekey>
+				<placekey>South Carolina</placekey>
+				<placekey>South Dakota</placekey>
+				<placekey>Tennessee</placekey>
+				<placekey>Texas</placekey>
+				<placekey>United States</placekey>
+				<placekey>Utah</placekey>
+				<placekey>Vermont</placekey>
+				<placekey>Virginia</placekey>
+				<placekey>Washington</placekey>
+				<placekey>Washington DC</placekey>
+				<placekey>West Virginia</placekey>
+				<placekey>Wisconsin</placekey>
+				<placekey>Wyoming</placekey>
+			</place>
+			<theme>
+				<themekt>User</themekt>
+				<themekey>12-digit HUCs</themekey>
+				<themekey>Agriculture</themekey>
+				<themekey>Ecosystem Services</themekey>
+				<themekey>EnviroAtlas</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Environmental Atlas</themekey>
+				<themekey>Green Space</themekey>
+				<themekey>Land Cover</themekey>
+				<themekey>Surface Water</themekey>
+				<themekey>Water</themekey>
+				<themekey>Wetlands</themekey>
+			</theme>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<origin>US Environmental Protection Agency (US EPA)</origin>
+				<title>EnviroAtlas - 2016 Riparian Tree Canopy Cover by 12-digit HUC for the Conterminous United States</title>
+				<pubinfo>
+					<publish>U.S. EPA Office of Research and Development (ORD) - Center for Public Health and Environmental Assessment (CPHEA)</publish>
+					<pubplace>Research Triangle Park, NC</pubplace>
+				</pubinfo>
+				<pubdate>20200916</pubdate>
+				<onlink>https://edg.epa.gov/data/PUBLIC/ORD/ENVIROATLAS/National</onlink>
+				<onlink>https://enviroatlas.epa.gov/arcgis/rest/services/National/National2017_metrics/MapServer</onlink>
+				<onlink>https://www.epa.gov/enviroatlas/enviroatlas-data</onlink>
+				<onlink>https://www.epa.gov/enviroatlas</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>Ground condition</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>2016</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-128.02839229</westbc>
+				<eastbc>-65.20336449</eastbc>
+				<northbc>51.6773602</northbc>
+				<southbc>22.7348894</southbc>
+			</bounding>
+		</spdom>
+		<accconst>None</accconst>
+		<useconst>None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+		<descript>
+			<abstract>This EnviroAtlas dataset represents the percentage of land area that is classified as tree canopy cover using the National Land Cover Database 2016 USFS Tree Canopy Cover dataset for each 12-digit hydrologic unit code (HUC) in the conterminous United States. Streams were derived from the National Hydrography Dataset (NHD) High Resolution dataset obtained June 2020.
+				This dataset was produced by the US EPA to support research and online mapping activities related to EnviroAtlas. EnviroAtlas (https://www.epa.gov/enviroatlas) allows the user to interact with a web-based, easy-to-use, mapping application to view and analyze multiple ecosystem services for the contiguous United States. The dataset is available as downloadable data (https://edg.epa.gov/data/Public/ORD/EnviroAtlas) or as an EnviroAtlas map service. Additional descriptive information about each attribute in this dataset can be found in its associated EnviroAtlas Fact Sheet (https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets).</abstract>
+			<purpose>This dataset is useful for evaluating the potential value of ecosystem services provided by vegetation communities, and the impacts of developed land cover. The overall goal of EnviroAtlas is to employ and develop the best available science to map indicators of ecosystem services production, demand, and drivers for the nation.</purpose>
+		</descript>
+		<secinfo>
+			<secsys>https://project-open-data.github.io/schema/#accessLevel</secsys>
+			<secclass>public</secclass>
+			<sechandl>Standard Technical Controls</sechandl>
+		</secinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development-Sustainable and Healthy Communities Research Program, EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntperp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<logic>Tests for integrity have not been performed.</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at https://epa.gov/geospatial/policies.html</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>20191030</procdate>
+				<procdesc>Obtained the NLCD 2016 USFS Tree Canopy Cover (CONUS) dataset (NLCD_2016_Tree_Canopy_L48_20190831.img)</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20191030</procdate>
+				<procdesc>Performed a setnull operation on the NLCD_2016_Tree_Canopy_L48_20190831.img to eliminate the edge areas (Value = 255). Output raster: CNPY2016_ND.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20191030</procdate>
+				<procdesc>Set areas in CNPY2016_ND to NoData that corresponded to areas of water (value = 111)  in the hybrid CDL-NLCD raster (cdlnlcd2016_EA_ND) using SETNULL. Output raster: CNPY2016_NoWater.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20160302</procdate>
+				<procdesc>Obtained the NHDPlusV2 Watershed Boundary Dataset (WBD) Snapshot, EnviroAtlas version (https://www.epa.gov/enviroatlas).</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200616</procdate>
+				<procdesc>Downloaded the NHD High Resolution datasets by HU-4 Subregions from https://www.usgs.gov/core-science-systems/ngp/national-hydrography/access-national-hydrography-products. </procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200618</procdate>
+				<procdesc>Processed each NHDFlowline feature class in the NHD with the StrmLine HiRes Iterative Tool in the AtlasAnalyses Toolbox (a self-created toolbox for the purpose of standardizing analyses for the EnviroAtlas). The StrmLine HiRes Iterative tool performs the following operations:</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200616</procdate>
+				<procdesc>Step 1 - Iterates through the NHD Workspace and processes each NHD High Resolution geodatabase found there.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200616</procdate>
+				<procdesc>Step 2 - From the current geodatabase, the NHDFlowline feature class is found in the Hydrography feature dataset.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200616</procdate>
+				<procdesc>Step 3 - Flowlines with "FTYPE" = 460 OR "FTYPE" = 334 OR "FTYPE" = 558 are then selected</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200616</procdate>
+				<procdesc>Step 4 - Those selected flowlines are then copied into a new feature class named, strmLineXXXX, where XXXX is the 4-digit HU code. Only the Permanent_Identified, Reachcode, Ftype, and Shape_Length fields are retained.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200616</procdate>
+				<procdesc>Step 5 - Identifying the end points of the flowline then begins by converting all vertices from the selected flowlines to points.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200616</procdate>
+				<procdesc>Step 6 - The ArcGIS Near (Analysis) tool is then employed using the vertices point layer as both the input features and the near features.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200616</procdate>
+				<procdesc>Step 7 - The StrmLine HiRes Iterative Tool concludes by copying points with a near distance greater than 0 into a new feature class named, strmEndXXXX, where XXXX is the 4-digit HU code. Only the Near_Dist field is retained from the Near operation.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Processed each NHDArea and NHDWaterbody feature class in the NHD with the StrmAreal HiRes Iterative Tool in the AtlasAnalyses Toolbox (a self-created toolbox for the purpose of standardizing analyses for the EnviroAtlas). The StrmAreal HiRes Iterative tool performs the following operations:</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 1 - Iterates through the NHD Workspace and processes each NHD High Resolution geodatabase found there.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 2 - From the current geodatabase, the NHDArea feature class is found in the Hydrography feature dataset.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 3 - NHDAreas with "FTYPE" = WASH are selected.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 4 - Select by Location is used to reduce the selected washes to only those that are within 1 Meters of features in the corresponding strmLineXXXX, where XXXX is the current 4-digit HU code.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 5 - NHDArea features with FTYPE = StreamRiver or Rapids or Lock Chamber are added to the selected Washes.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 6 - From the corresponding NHDWaterbody feature class, NHDWaterbodies with "FTYPE" = Reservoir or LakePond or Ice Mass are selected.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 7 - Select by Location is used to reduce the selected NHDWaterbodies to only those that are within 1 Meters of features in the corresponding strmLineXXXX, where XXXX is the current 4-digit HU code.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 8 - The selected NHDWaterbodies and selected NHDAreas are merged into a new feature class named, NHD_MergeXXXX, where XXXX is the current 4-digit HU code.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 9 - An integer type field named, "dummy", is added to NHD_MergeXXXX, and its value is calculated as 1.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 10 - NHD_MergeXXXX is then dissolved based on the "dummy" field. Multipart features are not created. Only boundaries between polygons immediately adjacent to each other are dissolved.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 11 - A second dissolve is performed on NHD_MergeXXXX, again using the "dummy" field and not opting for multipart output features. The second dissolve helps to reduce splits in polygons sometimes introduced when the GIS software resorts to tiling to process large datasets.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 12 - Select by Location is used to select areal water features in NHD_MergeXXXX that are within 1 Meters of features in the corresponding strmENDXXXX feature class.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 13 - Select by Location is used to add to the selected features in NHD_MergeXXXX any areal water feature that intersects the line features in the corresponding strmLineXXXX feature class.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200621</procdate>
+				<procdesc>Step 14 - The StrmAreal HiRes Iterative Tool ends by copying the selected features in NHD_MergeXXXX into a new feature class named, strmArealXXXX, where XXXX is the current 4-digit HU code.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200806</procdate>
+				<procdesc>For each strmLine#### feature class, all features where Ftype did not equal 558 (Artificial Paths) were selected and saved as strmLine####_NAP. NAP stands for No Artificial Paths and #### is the 4-digit HUC code from the NHD.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200806</procdate>
+				<procdesc>Buffer zones within 45 meters of streams, rivers, and other hydrologically connected waterbodies were generated using the Riparian Land Cover Proportions tool in the Riparian Characteristics toolset of the ATtILA for ArcGIS toolbox (ATtILA 10_0.tbx, 5/26/2016 version) in ArcGIS by selecting INTERMEDIATES from the Additional Options parameter. Used NHDPlusV2_WBDSnapshot_EnviroAtlas_CONUS as the reporting unit feature, cdlnlcd2016_EA_ND as the land cover grid, and the respective strmLine####_NAP and strmAreal#### shapefiles for each NHD 2-digit HUC region as the stream features. A user-defined land cover scheme for the hybrid CDL-NLCD dataset was used to identify land cover classes. Output buffer feature classes where saved in a separate geodatabase for each NHD 2-digit HUC region. The ATtILA tool was used because it restricts buffer zones from crossing HUC boundaries.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200813</procdate>
+				<procdesc>Merged the buffer themes separately for each NHD 2-digit HUC geodatabase. The output feature class naming convention was Buffers45_HU##, where ## is the 2-digit HUC code.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200813</procdate>
+				<procdesc>The Delete Identical (Data Management) tool was used on each merged buffer feature class, and the output renamed, Buffers45_HU##_NoDupes</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200815</procdate>
+				<procdesc>Merged all Buffers45_HU##_NoDupes into a single feature class named, Buffers45_NHD_HUCS</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200815</procdate>
+				<procdesc>Added a text field named, HUC_8, to the attribute table for Buffers45_NHD_HUCS, and calculated its values as !HUC_12![:8]</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200815</procdate>
+				<procdesc>For each 2-digit HUC region, used Select By Attribute to select all of the buffer segments with the same 2-digit HUC prefix in Buffers45_NHD_HUCS: HUC_12 LIKE '##%', where ## is the 2-digit HUC code.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200815</procdate>
+				<procdesc>For each 2-digit HUC region, exported the selected records into a temporary work geodatabase. The naming convention for the exported feature classes was, Buffers45_HU##_raw, where ## is the 2-digit HUC code.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200815</procdate>
+				<procdesc>For each 2-digit HUC region, performed a Frequency analysis on the HUC_8 field in the Buffers45_HU##_raw feature class. The frequency table was named, HUC##_List, where ## is the 2-digit HUC abbreviation.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200815</procdate>
+				<procdesc>For each 2-digit HUC region, ran the NHD HUC 2 WBD HUC tool from the AtlasAnalyses toolbox. This tool steps through the list of 8-digit HUC codes in the HUC##_List table and selects by attribute all of the buffer polygons in Buffers45_HU##_raw with matching values in the HUC_8 field. The selected buffer polygons are copied into a new feature class named, Buffer45_########, where ######## is the 8-digit HUC code. A separate feature class is created for each 8-digit HUC code record in the HUC##_List.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200815</procdate>
+				<procdesc>Performed Repair Geometry on all generated Buffer45_######## feature classes, where ######## is the 8-digit HUC code.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200815</procdate>
+				<procdesc>Performed a dissolve operation on each Buffer45_######## feature class using HUC_12 as the Dissolve Field. Create multipart features was selected. The output feature class was named, Buffer45_########_D.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200815</procdate>
+				<procdesc>Performed Repair Geometry on all Buffer45_########_D feature classes, where ######## is the 8-digit HUC code.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200817</procdate>
+				<procdesc>Merged the dissolved and repaired 12-digit HUC buffer feature classes into 2-digit HUC groups. The outputs were named, Buffers_HU##_WBD, where ## is the 2-digit HUC code.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200910</procdate>
+				<procdesc>Calculation for Percent Tree Canopy within the 45 meter riparian buffer zone for each 12-digit HUC was done using the Zonal Statistics as Table tool with Buffers45_HU##_WBD as the Input feature zone data, the HUC_12 field as the Zone field, and CNPY2016_NoWater as the Input value raster. The Ignore NoData checkbox was checked. This process was iterated for each Buffers45_HU##_WBD layer, where ## is the 2-digit NHD HUC region. The output tables were named, rCNPY2016_WBD##, where ## is the 2-digit HUC code.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200910</procdate>
+				<procdesc>Merged the rCNPY2016_WBD## output files into rCNPY2016_Merge1, using the field map to only retain the HUC_12 and MEAN fields.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200910</procdate>
+				<procdesc>Used Alter Field to change the MEAN field name in rCNPY2016_Merge1 to R45CANOPY.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200910</procdate>
+				<procdesc>Joined the rCNPY2016_Merge1 table to the HUC12_IDS table (a table with a record for each of the 12-digit HUC code in the NHDPlusV2_WBDSnapshot_EnviroAtlas_CONUS feature class) using the common HUC_12 field.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200910</procdate>
+				<procdesc>Turned off the joined OBJECTID and HUC_12 fields, and exported the joined table to R45CNPY2016_CONUS make the join permanent.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<plandu>meters</plandu>
+					<coordrep>
+						<absres>0.000001</absres>
+						<ordres>0.000001</ordres>
+					</coordrep>
+				</planci>
+				<mapproj>
+					<mapprojn>Albers Conical Equal Area</mapprojn>
+					<albers>
+						<stdparll>29.500000</stdparll>
+						<stdparll>45.500000</stdparll>
+						<longcm>-96.000000</longcm>
+						<latprjo>23.000000</latprjo>
+						<feast>0.000000</feast>
+						<fnorth>0.000000</fnorth>
+					</albers>
+				</mapproj>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metd>20210907</metd>
+		<metfrd>20240916</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>RiparianCanopy_CONUS</enttypl>
+				<enttypd>Percentage of land area within 45 meters of streams, rivers, and other hydrologically connected waterbodies that is covered by tree canopy within each 12-digit hydrologic unit code (HUC) in the conterminous United States. Null values indicate no land values in the CNPY2016_NoWater raster were located within the buffer zone in the HUC or that the HUC contained no NHDPlus V2 water features included in this analysis.</enttypd>
+				<enttypds>US EPA</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>HUC_12</attrlabl>
+				<attrdef>Twelve Digit Hydrologic Unit Code. This field provides a unique 12-digit code for each subwatershed. Numbers were assigned in an upstream to downstream fashion. Where no downstream/upstream relationship could be determined, numbers were assigned in a clockwise fashion.</attrdef>
+				<attrdefs>Federal Guidelines, Requirements, and Procedures for the National Watershed Boundary Dataset; Chapter 3 of Section A; Federal Standards, Book 11, Collection and Delineation of Spatial Data; Techniques and Methods 11-A3.</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>010000000000</rdommin>
+						<rdommax>999999999999</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>R45CANOPY</attrlabl>
+				<attrdef>Percentage of 45 m buffer zone of stream network within WBD 12-digit Hydrologic Unit that is covered by tree canopy. Null values indicate no land values in the CNPY2016_NoWater raster were located within the buffer zone in the HUC or that the HUC contained no NHDPlus V2 water features included in this analysis.</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eadetcit>https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets</eadetcit>
+			<eaover>The metric was generated using the Zonal Statistics as Table tool in ArcGIS 10.7 for Desktop. Buffer zones within 45 meters of streams, rivers, and other hydrologically connected waterbodies were generated using the Riparian Land Cover Proportions tool in the Riparian Characteristics toolset of the ATtILA for ArcGIS toolbox (ATtILA 10_0.tbx, 5/26/2016 version) in ArcGIS from select water features in the NHD High Resolution dataset obtained June 2020. The ATtILA tool was used because it restricts buffer zones from crossing HUC boundaries. CNPY2016_NoWater, derived from the NLCD 2016 USFS Tree Canopy Cover (https://www.mrlc.gov/data), was used as the Input value raster. A comprehensive list of metric creation steps is included in the Processing Steps.</eaover>
+		</overview>
+	</eainfo>
+</metadata>

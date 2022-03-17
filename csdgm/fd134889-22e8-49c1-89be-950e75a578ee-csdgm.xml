@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <PublishedDocID>{1F057D34-77FB-451E-A528-07954C31A2D8}</PublishedDocID>
+  </Esri>
+  <idinfo>
+    <keywords>
+      <theme>
+        <themekt>EPA GIS Keyword Thesaurus</themekt>
+        <themekey>Water</themekey>
+      </theme>
+    </keywords>
+    <citation>
+      <citeinfo>
+        <pubinfo>
+          <publish>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</publish>
+          <pubplace>Washington, DC</pubplace>
+        </pubinfo>
+        <pubdate>20150401</pubdate>
+        <title>ROE Gulf of Mexico Hypoxia Sample Locations</title>
+        <origin>US Environmental Protection Agency</origin>
+        <onlink>http://geodata.epa.gov/arcgis/rest/services/ORD/ROE_GulfofMexicoHypoxia/MapServer</onlink>
+        <onlink>http://www.epa.gov/roe/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset describes dissolved oxygen levels in the Gulf of Mexico. Individual sampling sites are represented by point data. The background polygon shows areas where the dissolved oxygen concentration is less than 2.0 milligrams per liter. The data were collected during the summer of 2014 by the Louisiana Universities Marine Consortium (LUMCON).</abstract>
+      <purpose>These data were created for use on the U.S. Environmental Protection Agency's Report on the Environment website.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-95.438333</westbc>
+        <eastbc>-89.076111</eastbc>
+        <northbc>29.885</northbc>
+        <southbc>27.742778</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+    <timeperd>
+      <current>Publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150401</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+  </idinfo>
+  <dataqual>
+    <complete>Unknown</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html</horizpar>
+      </horizpa>
+    </posacc>
+    <logic>Tests for integrity have not been performed.</logic>
+    <lineage>
+      <procstep>
+        <procdate>20150401</procdate>
+        <procdesc>Publication</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <metainfo>
+    <metd>20211117</metd>
+    <metfrd>20190401</metfrd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/roe/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <resdesc>Live Data and Maps</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/roe/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

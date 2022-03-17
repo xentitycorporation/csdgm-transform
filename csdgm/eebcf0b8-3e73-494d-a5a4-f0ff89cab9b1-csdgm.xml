@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE metadata SYSTEM "https://thor-f5.er.usgs.gov/ngtoc/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>U.S. Geological Survey, National Geospatial Technical Operations Center</origin>
+            <pubdate>2020</pubdate>
+            <title>USGS National Boundary Dataset (NBD) Downloadable Data Collection</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+               <pubplace>Reston, VA</pubplace>
+               <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://nationalmap.gov/boundaries.html</onlink>
+            <onlink>https://services.nationalmap.gov/bestpractices/model/acrodocs/Poster_BPGovtUnits_03_01_2006.pdf</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>The USGS Governmental Unit Boundaries dataset from The National Map (TNM) represents major civil areas for the Nation,
+            including States or Territories, counties (or equivalents), Federal and Native American areas, congressional districts, minor
+            civil divisions, incorporated places (such as cities and towns), and unincorporated places. Boundaries data are useful for
+            understanding the extent of jurisdictional or administrative areas for a wide range of applications, including mapping or
+            managing resources, and responding to natural disasters. Boundaries data also include extents of forest, grassland, park,
+            wilderness, wildlife, and other reserve areas useful for recreational activities, such as hiking and backpacking. Boundaries
+            data are acquired from a variety of government sources. The data represents the source data with minimal editing or review by
+            USGS. Please refer to the feature-level metadata for information on the data source. The National Map boundaries data is
+            commonly combined with other data themes, such as elevation, hydrography, structures, and transportation, to produce general
+            reference base maps. The National Map viewer allows free downloads of public domain boundaries data in either Esri File
+            Geodatabase or Shapefile formats. For additional information on the boundaries data model, go to
+            https://nationalmap.gov/boundaries.html. </abstract>
+         <purpose>It is a general purpose dataset for users who are not GIS experts. The geospatial data in this dataset are from selected
+            National Map data holdings and other government sources.</purpose>
+         <supplinf>Features of this dataset are various private and public man-made structures and installations.</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>2014</begdate>
+               <enddate>present</enddate>
+            </rngdates>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>Irregular</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-179.229655487448</westbc>
+            <eastbc>179.856674735386</eastbc>
+            <northbc>71.4395725901531</northbc>
+            <southbc>-14.4246950942767</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>USGS Metadata Identifier</themekt>
+            <themekey>USGS:6dcde538-1684-48a0-a8d6-cb671ca0a43e</themekey>
+         </theme>
+         <theme>
+            <themekt>ISO 19115 Topic Category</themekt>
+            <themekey>boundaries</themekey>
+         </theme>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>political and administrative boundaries</themekey>
+            <themekey>legal land descriptions</themekey>
+            <themekey>land use maps</themekey>
+            <themekey>zoning maps</themekey>
+            <themekey>cadastral surveys</themekey>
+            <themekey>land ownership</themekey>
+            <themekey>geographic names</themekey>
+            <themekey>boundary</themekey>
+            <themekey>Public Land Survey System</themekey>
+            <themekey>U.S. National Grid</themekey>
+            <themekey>County or Equivalent</themekey>
+            <themekey>Incorporated Place</themekey>
+            <themekey>Jurisdictional</themekey>
+            <themekey>Minor Civil Division</themekey>
+            <themekey>Native American Area</themekey>
+            <themekey>PLSS First Division</themekey>
+            <themekey>PLSS Special Survey</themekey>
+            <themekey>PLSS Township</themekey>
+            <themekey>Reserve</themekey>
+            <themekey>State or Territory</themekey>
+            <themekey>Unincorporated Place</themekey>
+         </theme>
+         <place>
+            <placekt>Geographic Names Information System</placekt>
+            <placekey>US</placekey>
+            <placekey>United States</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>None. However, users should be aware that temporal changes may have occurred since this data set was collected and that some
+         parts of this data may no longer represent actual surface conditions. Users should not use this data for critical applications
+         without a full awareness of its limitations. Acknowledgment of the U.S. Geological Survey would be appreciated for products derived
+         from these data. </useconst>
+      <browse>
+         <browsen>https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/boundaries_thumbnail.jpg</browsen>
+         <browsed>Thumbnail JPG image</browsed>
+         <browset>JPEG</browset>
+      </browse>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>Cartographic content is derived from USGS national geospatial databases. The data is owned and hosted by the USGS, but
+            does not preclude using data sources owned and hosted by other organizations, provided that these sources have been approved by
+            the USGS data program.</attraccr>
+      </attracc>
+      <logic>This product is a layered data datbase. The data is extracted and codified according to USGS standards.</logic>
+      <complete>Each layer is extracted from the USGS national geospatial databases.</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>This map product is compiled to meet National Map Accuracy Standards (NMAS). NMAS horizontal accuracy requires that at
+               least 90 percent of well-defined points tested are within 0.02 inch of the true position. In this product, the projection
+               line, grids, and orthoimage are believed to meet NMAS. Positional accuracy of the other data layers is less controllable
+               because of diversity of data sources, and may not meet NMAS.</horizpar>
+         </horizpa>
+         <vertacc>
+            <vertaccr>Vertical accuracy is not applicable to this dataset.</vertaccr>
+         </vertacc>
+      </posacc>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>State and Federal Partners</origin>
+                  <pubdate>20140401</pubdate>
+                  <title>Schools</title>
+                  <geoform>vector digital data</geoform>
+                  <othercit>The schools within this dataset are composed of Public elementary and secondary education in the US as defined
+                     and tracked by the National Center for Education Statistics (NCES), Common Core Dataset (CCD). Private schools in this
+                     dataset are composed of Private elementary and secondary education in the US as defined by the Private School Survey,
+                     NCES. The colleges and Universities are composed of postsecondary education facilities as defined by the Integrated
+                     Post Secondary Education System (IPEDS), NCES. Included are Doctoral and Research Universities, Masters Colleges and
+                     Universities, Baccalaureate Colleges, Associates Colleges, Theological seminaries, Medical schools and other health
+                     care professions, schools of engineering and technology, business and management, art, music, design, Law schools,
+                     Teachers colleges, Tribal colleges and other specialized institutions.</othercit>
+                  <onlink>https://nationalmap.usgs.gov</onlink>
+               </citeinfo>
+            </srccite>
+            <srcscale>24000</srcscale>
+            <typesrc>digital data</typesrc>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>2008</begdate>
+                     <enddate>20140218</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>ground condition</srccurr>
+            </srctime>
+            <srccitea>Structures - Schools</srccitea>
+            <srccontr>Image</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Geological Survey, National Geospatial Technical Operations Center</origin>
+                  <pubdate>20140401</pubdate>
+                  <title>Geographic Names Information System (GNIS)</title>
+                  <geoform>vector digital data</geoform>
+                  <othercit>The Geographic Names Information System (GNIS) is the Federal and national standard for geographic nomenclature.
+                     The U.S. Geological Survey developed the GNIS in support of the U.S. Board on Geographic Names as the official
+                     repository of domestic geographic names data, the official vehicle for geographic names use by all departments of the
+                     Federal Government, and the source for applying geographic names to Federal electronic and printed products.</othercit>
+                  <onlink>https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names</onlink>
+               </citeinfo>
+            </srccite>
+            <srcscale>24000</srcscale>
+            <typesrc>digital data</typesrc>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>2012</begdate>
+                     <enddate>20140218</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>Geographic Names</srccitea>
+            <srccontr>Geographic feature names</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>International Boundary Commission</origin>
+                  <pubdate>20140401</pubdate>
+                  <title>U.S.-Canada National Boundary</title>
+                  <geoform>vector digital data</geoform>
+                  <othercit>The international boundary dataset between Canada and the United States was provided by Maine Office of
+                     Geographic Information Systems (MEGIS), University of New Hampshire, Vermont Center for Geographic Information, Inc
+                     (VCGI). The dataset was collected from multiple source agencies such as the U.S. Geological Survey, U.S. Department of
+                     Commerce, Bureau of Census, Bureau of Parks and Lands, Coastal Island Registry (CIREG) and various state agencies. The
+                     data and attribution accuracy was tested by manual comparison of the source with hard copy printouts and/or symbolized
+                     display of digital files and corrected by each state GIS department for use at a scale not greater than
+                     1:24,000.</othercit>
+                  <onlink>http://www.internationalboundarycommission.org/</onlink>
+                  <onlink>http://www.internationalboundarycommission.org/products.html#nad83</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>digital data</typesrc>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>2006</begdate>
+                     <enddate>20140218</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>U.S. / Canada International Boundary</srccitea>
+            <srccontr>International Boundary between Canada and the United States</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin> U.S. Geological Survey, U.S. Department of Agriculture, and the Instituto Nacional de Estadistica y Geografia of
+                     Mexico. </origin>
+                  <pubdate>20140401</pubdate>
+                  <title>U.S.-Mexico National Boundary</title>
+                  <geoform>vector digital data</geoform>
+                  <othercit>The international boundary between Mexico and the United States, defined as a joint venture between the U.S.
+                     Department of Agriculture (USDA) and the Instituto Nacional de Estadistica y Geografia of Mexico (INEGI), resulted in
+                     an unofficial United States-Mexico boundary dataset that was further enhanced by the U.S. Geological Survey's Border
+                     Environmental Health Initiative (BEHI). With the data frame scale set to 1:5,000 in ArcMap, the center of the Rio
+                     Grande/Rio Bravo was digitized using the NAIP 2004 Imagery. In areas with dense stands of salt cedar (bounding box = UL
+                     -104.714 30.038, UR -104.664 30.037, LR -104.666 29.933, LL -104.717 29.934; NAD83), the center of the channel was
+                     difficult, and sometimes impossible, to easily determine. To determine the location of the boundary, the GIS analyst
+                     compared the location of the line in the INEGI 1:250K Limited feature class with the NAIP 2004 Imagery and adjusted the
+                     boundary to the image, thus, the delineation of the international boundary is less certain in these areas. The
+                     remaining part of the border was extracted from the INEGI 1:250K Limited feature class and appended to the line feature
+                     class created along the Rio Grande/Rio Bravo. The U.S. Geological Survey reviewed the original USDA data against 2007
+                     NAIP imagery and further edited 9 line segments in the Rio Grande areas to conform to National Map Accuracy
+                     Standards.</othercit>
+               </citeinfo>
+            </srccite>
+            <typesrc>digital data</typesrc>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>1972</begdate>
+                     <enddate>20140218</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>U.S. / Mexico International Boundary</srccitea>
+            <srccontr>International Boundary between Mexico and the United States</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin> U.S. Department of Agriculture (USDA) Forest Service - Washington Office Automated Lands Program (ALP). </origin>
+                  <pubdate>20140401</pubdate>
+                  <title>USDA Forest Service Boundary</title>
+                  <geoform>vector digital data</geoform>
+                  <othercit>The forest service boundaries defined by the USDA Forest Service encompassing the National Forest System (NFS)
+                     lands within the original proclaimed National Forests, along with lands added to the NFS which have taken on the status
+                     of 'reserved from the public domain' under the General Exchange Act. The following area types are included: National
+                     Forest, Experimental Area, Experimental Forest, Experimental Range, Land Utilization Project, National Grassland,
+                     Purchase Unit, and Special Management Area. The nationwide Proclaimed Forest dataset was created by the USDA Forest
+                     Service, Washington Office Automated Lands Program (ALP) staff from collected source data created by the Regional
+                     Offices. Only maps in USDA Forest Service areas will contain USDA Forest boundaries.</othercit>
+               </citeinfo>
+            </srccite>
+            <srcscale>24000</srcscale>
+            <typesrc>digital data</typesrc>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>2009</begdate>
+                     <enddate>20140218</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>USDA Forest Service Boundaries</srccitea>
+            <srccontr>National Forest Service Boundaries</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Census Bureau</origin>
+                  <pubdate>20140401</pubdate>
+                  <title>State and Equivalent Boundary</title>
+                  <geoform>vector digital data</geoform>
+                  <othercit>The Census Bureau collects boundaries from state and county governments through the Boundary and Annexation
+                     Survey (https://www.census.gov/), and publishes the results as TIGER files. The USGS uses
+                     the TIGER data without editing or alteration.</othercit>
+                  <onlink>https://www.census.gov/data.html</onlink>
+                  <onlink>ftp://ftp2.census.gov/geo/tiger/TIGER2010/STATE/2010/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>digital data</typesrc>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>2010</begdate>
+                     <enddate>20140218</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>State Boundaries</srccitea>
+            <srccontr>State and Equivalent Boundary</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Office of the Deputy Under Secretary of Defense for Installations and Environment, Business Enterprise Integration
+                     Directorate</origin>
+                  <pubdate>20140401</pubdate>
+                  <title>U.S. Military Installations, Ranges, and Training Areas</title>
+                  <geoform>vector digital data</geoform>
+                  <othercit>Authoritative locations of Department of Defense sites, commonly referred to as installations, ranges, and
+                     training areas. This dataset does not necessarily represent a comprehensive collection of all Department of Defense
+                     facilities, and only those in the fifty United States and US Territories were considered for inclusion. Some sites were
+                     not included because geospatial data were not available, or because it is a leased site.</othercit>
+               </citeinfo>
+            </srccite>
+            <srcscale>24000</srcscale>
+            <typesrc>digital data</typesrc>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>2011</begdate>
+                     <enddate>20140218</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>U.S. Department of Defense Military Installations</srccitea>
+            <srccontr>Boundary lines, installation names</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Dept. of Interior, Bureau of Land Management, Division of Support Services, Branch of Information Resource
+                     Management</origin>
+                  <pubdate>20140401</pubdate>
+                  <title>Public Land Survey System</title>
+                  <geoform>vector digital data</geoform>
+                  <othercit>Section boundaries were generated from geodetic latitude and longitude coordinate pairs as recorded on BLM's
+                     official protraction diagrams of the state of Alaska. The SDMS_PROD protraction tables were modified to include
+                     pro_pt83, section83, and township83. The latitude and longitude values in the pro_pt83 table were transformed from
+                     geographic NAD27 coordinates to geographic NAD83 coordinates using NADCON for Alaska. The Informix Section83 table is a
+                     spatially-enabled table that contains all of the protraction information for each of the 655,483 sections. Section
+                     shapes are stored as NAD83 geographic multipolygons. Each section was individually constructed from NAD83 geographic
+                     pro_pt (Protracted Point) table and is fully densified by including all township/section offset corners from adjacent
+                     township/sections.</othercit>
+                  <onlink>http://sdms.ak.blm.gov/sdms/data_protracted_grid_gis.html</onlink>
+               </citeinfo>
+            </srccite>
+            <srcscale>24000</srcscale>
+            <typesrc>digital data</typesrc>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>2012</begdate>
+                     <enddate>20140218</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>Public Land Survey System - BLM</srccitea>
+            <srccontr>Townships and ranges, sections</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Geological Survey, National Geospatial Technical Operations Center</origin>
+                  <pubdate>20140401</pubdate>
+                  <title>Grids and Coordinate System</title>
+                  <othercit>U.S. National Grid, UTM grid, and State Plane Coordinate System values are displayed along the map projection.
+                     State Plane Coordinate System State and Zone values are abbreviated per Appendix A in the following document: tem,
+                     J.E., 1990, 'State Plane Coordinate System of 1983', NOAA Manual NOS NGS 5, available at
+                     http://www.ngs.noaa.gov/PUBS_LIB/ManualNOSNGS5.pdf. </othercit>
+               </citeinfo>
+            </srccite>
+            <typesrc>raster data</typesrc>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>2012</begdate>
+                     <enddate>20140218</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>Grids and Coordinate Systems</srccitea>
+            <srccontr>2.5-minute geographic ticks, U.S. National Grid, UTM grid, State Plane Coordinate System ticks.</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>The data for this product are created as follows. All geospatial content is taken from national geospatial databases
+               under the stewardship of USGS data programs. The NAIP imagery is provided by a seamless tile service that delivers image data
+               at the resolution and quality of the source imagery. The vector data, including grids and collar information, are processed
+               using ESRI ArcGIS software and exported. Map formatting is performed using a custom application, which includes
+               post-processing to embed the metadata XML document.</procdesc>
+            <procdate>20121105</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <indspref>Public Land Survey System</indspref>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>Void polygon composed of rings</sdtstype>
+            <ptvctcnt>1012</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <geograph>
+            <latres>0.00001</latres>
+            <longres>0.00001</longres>
+            <geogunit>Decimal degrees</geogunit>
+         </geograph>
+         <geodetic>
+            <horizdn>North American Datum of 1983</horizdn>
+            <ellips>Geodetic Reference System 80</ellips>
+            <semiaxis>6378137</semiaxis>
+            <denflat>298.2572221</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>GU_Country</enttypl>
+            <enttypd>The geographic area of an independent, self-governing, political entity.</enttypd>
+            <enttypds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</enttypds>
+         </enttyp>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>GU_CountyOrEquivalent</enttypl>
+            <enttypd>The primary division of a state or state equivalent area. The primary divisions of 48 states are termed County, but
+               other terms are used such as Borough in Alaska, Parish in Louisiana, and Municipio in Puerto Rico. This feature includes
+               independent cities, which are incorporated places that are not part of any county.</enttypd>
+            <enttypds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</enttypds>
+         </enttyp>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>GU_IncorporatedPlace</enttypl>
+            <enttypd>A type of governmental unit, incorporated under state law as a city, town (except in New England, New York, and
+               Wisconsin), borough (except in Alaska and New York), or village, generally to provide a wide array of specific governmental
+               services for a concentration of people within legally prescribed boundaries. New for Census 2000 are "city and borough" and
+               "municipality," which serve as both place- and county-level entities in Alaska. A few incorporated places do not have a legal
+               description. See consolidated city, governmental unit, independent city, independent place, place.</enttypd>
+            <enttypds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</enttypds>
+         </enttyp>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>GU_Jurisdictional</enttypl>
+            <enttypd>An administrative unit that defines the scope of a public, private, or nonprofit organization jurisdiction for purposes
+               other than use regulation, zoning, or reserve.</enttypd>
+            <enttypds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</enttypds>
+         </enttyp>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>GU_MinorCivilDivision</enttypl>
+            <enttypd>A type of governmental unit that is the primary legal subdivision of a county or statistically equivalent entity in
+               many states and statistically equivalent entities, created to govern or administer an area rather than a specific population.
+               MCDs are identified by a variety of terms, such as town, township, or district. The U.S. Census Bureau recognizes MCDs in 28
+               states, the District of Columbia, Puerto Rico, and the Island Areas. In 20 states and American Samoa, all or many MCDs are
+               active general-purpose governmental units. Many MCDs are not general-purpose governmental units, and therefore do not have
+               elected officials to carry out legal functions; instead, they serve as nonfunctioning administrative entities.</enttypd>
+            <enttypds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</enttypds>
+         </enttyp>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>GU_NativeAmericanArea</enttypl>
+            <enttypd>A U.S. Census Bureau term referring to these entity types: American Indian reservation, American Indian off-reservation
+               trust land, tribal subdivision, Oklahoma tribal statistical area, state designated American Indian statistical area, Alaska
+               Native Regional Corporation, Alaska Native village, Alaska Native village statistical area, and Hawaiian home land.</enttypd>
+            <enttypds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</enttypds>
+         </enttyp>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>GU_PLSSFirstDivision</enttypl>
+            <enttypd>First set of divisions for a Public Land Survey System (PLSS) Township, commonly the section, but can also be lots or
+               tracts or protracted blocks.</enttypd>
+            <enttypds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</enttypds>
+         </enttyp>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>GU_PLSSSpecialSurvey</enttypl>
+            <enttypd>This feature class contains the Special Surveys that are nonrectangular components of the Public Land Survey System
+               (PLSS) from Bureau of Land Management (BLM) survey records</enttypd>
+            <enttypds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</enttypds>
+         </enttyp>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>GU_PLSSTownship</enttypl>
+            <enttypd>Public Land Survey System (PLSS) Townships, the primary unit of survey for the PLSS.</enttypd>
+            <enttypds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</enttypds>
+         </enttyp>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>GU_Reserve</enttypl>
+            <enttypd>Bounded land set aside for a particular purpose, generally having certain use restrictions.</enttypd>
+            <enttypds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</enttypds>
+         </enttyp>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>GU_StateOrTerritory</enttypl>
+            <enttypd>The geographic area of a primary governmental division of the United States.</enttypd>
+            <enttypds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</enttypds>
+         </enttyp>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>GU_UnincorporatedPlace</enttypl>
+            <enttypd>A geographic entity that serves as the statistical counterpart of an incorporated place for the purpose of presenting
+               census data for an area with a concentration of population, housing, and commercial structures that is identifiable by name,
+               but is not within an incorporated place.</enttypd>
+            <enttypds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</enttypds>
+         </enttyp>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>GU_BoundaryPoint</enttypl>
+            <enttypd>A feature class representing the location of a geographic area or boundary as a single point.</enttypd>
+            <enttypds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Polygon</edomv>
+                  <edomvd>2-dimensional element</edomvd>
+                  <edomvds>ESRI GIS software</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>OBJECTID</attrlabl>
+            <attrdef>Internal feature or event number.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Auto-generated number assigned by ESRI GIS software</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Permanent_Identifier</attrlabl>
+            <attrdef>A 40-character globally unique ID (GUID) value that uniquely identifies the occurrence of each feature or event in The
+               National Map.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Auto-generated by USGS</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_FeatureID</attrlabl>
+            <attrdef>Identifier of the feature or event in the source dataset.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Assigned according to source data organization's procedures</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_DatasetID</attrlabl>
+            <attrdef>Identifier of the source dataset.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Assigned according to source data organization's procedures</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_DataDesc</attrlabl>
+            <attrdef>Brief narrative of the source dataset.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>description of source dataset</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_Originator</attrlabl>
+            <attrdef>Name of the organization or individual that developed the source dataset.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Name of the organization or individual that developed the source dataset.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Data_Security</attrlabl>
+            <attrdef>A code from Executive Order 12958-Classified National Security Information (EO12958) used to describe the highest
+               classification of a United States document (e.g., confidential, secret, top secret, no markings).</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>0 = Unknown</edomv>
+                  <edomvd>Classification Unknown.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>1= Top Secret</edomv>
+                  <edomvd>Information, the unauthorized disclosure of which reasonably could be expected to cause exceptionally grave damage
+                     to national security.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>2 = Secret</edomv>
+                  <edomvd>Information, the unauthorized disclosure of which reasonably could be expected to cause serious damage to national
+                     security.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>3 = Confidential</edomv>
+                  <edomvd>Information, the unauthorized disclosure of which reasonably could be expected to cause damage to national
+                     security.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>4 = Restricted</edomv>
+                  <edomvd>Restricted.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>5 = Unclassified</edomv>
+                  <edomvd>Unclassified</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>6 = Sensitive</edomv>
+                  <edomvd>Sensitive.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Distribution_Policy</attrlabl>
+            <attrdef>Data access and use constraints.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>A1</edomv>
+                  <edomvd>Emergency Service Provider - Internal Use Only.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>A2</edomv>
+                  <edomvd>Emergency Service Provider - Bitmap Display via Web.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>A3</edomv>
+                  <edomvd>Emergency Service Provider - Free Distribution to Third Parties.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>A4</edomv>
+                  <edomvd>Emergency Service Provider - Free Distribution to Third Parties via Internet.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>B1</edomv>
+                  <edomvd>Government Agencies or Delegated Agents - Internal Use Only.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>B2</edomv>
+                  <edomvd>Government Agencies or Delegated Agents - Bitmap Display - Web.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>B3</edomv>
+                  <edomvd>Government Agencies or Delegated Agents - Free Distribution to Third Parties.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>B4</edomv>
+                  <edomvd>Government Agencies or Delegated Agents - Free Distribution to 3rd Parties via Internet.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>C1</edomv>
+                  <edomvd>Other Public or Educational Institutions - Internal Use Only.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>C2</edomv>
+                  <edomvd>Other Public or Educational Institutions - Bitmap Display via Web.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>C3</edomv>
+                  <edomvd>Other Public or Educational Institutions - Free Distribution to Third Parties.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>C4</edomv>
+                  <edomvd>Other Public or Educational Institutions - Free Distribution to 3rd Parties via Internet.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>D1</edomv>
+                  <edomvd>Data Contributors - Internal Use Only.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>D2</edomv>
+                  <edomvd>Data Contributors - Bitmap Display via Web.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>D3</edomv>
+                  <edomvd>Data Contributors - Free Distribution to Third Parties.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>D4</edomv>
+                  <edomvd>Data Contributors - Free Distribution to Third Parties via Internet.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>E1</edomv>
+                  <edomvd>Public Domain - Internal Use Only.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>E2</edomv>
+                  <edomvd>Public Domain - Bitmap Display via Web.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>E3</edomv>
+                  <edomvd>Public Domain - Free Distribution to Third Parties.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>E4</edomv>
+                  <edomvd>Public Domain - Free Distribution to Third Parties via Internet.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>LoadDate</attrlabl>
+            <attrdef>Date and time feature or event was loaded into the database. Timestamp indicating when the feature or event was last
+               edited.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>timestamp automatically generated during load</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Name</attrlabl>
+            <attrdef>Official name of the feature.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>May or maynot be Geographic Names Information System official name.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AdminType</attrlabl>
+            <attrdef>The type of organization with administrative responsibility for a feature.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>0 = Unknown</edomv>
+                  <edomvd>There is no information specified regarding the attribute value.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>1 = Federal</edomv>
+                  <edomvd>Federal government entity.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>2 = Tribal</edomv>
+                  <edomvd>Tribal entity.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>3 = State</edomv>
+                  <edomvd>State government entity.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>4 = Regional</edomv>
+                  <edomvd>Regional government entity.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>5 = County</edomv>
+                  <edomvd>County government entity.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>6 = Municipal</edomv>
+                  <edomvd>Municipal government entity.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>7 = Private</edomv>
+                  <edomvd>Individual or a business.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CensusCode</attrlabl>
+            <attrdef>A five-digit numeric place code used to identify legal and statistical entities for county subdivisions, places, and
+               American Indian areas/Alaska Native areas/Hawaiian home lands. The Census Code is the same as the former Federal Information
+               Processing Standard (FIPS) 55-3 Place Code, which was withdrawn by NIST in 2005 and replaced with the Geographic Names
+               Information System feature identifier code (GNIS ID).</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>00001</rdommin>
+                  <rdommax>99999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>IsCapitalCity</attrlabl>
+            <attrdef>Indicates whether or not the featuret is the capital city.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>0 = Unknown</edomv>
+                  <edomvd>Unknown. There is no information specified regarding the attribute value.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>1 = Yes</edomv>
+                  <edomvd>Yes, the condition is true for this attribute.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>2 = No</edomv>
+                  <edomvd>No, the condition is not true for this attribute.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>IsCountySeat</attrlabl>
+            <attrdef>Indicates whether or not the boundary point is the county seat.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>0 = Unknown</edomv>
+                  <edomvd>Unknown. There is no information specified regarding the attribute value.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>1 = Yes</edomv>
+                  <edomvd>Yes, the condition is true for this attribute.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>2 = No</edomv>
+                  <edomvd>No, the condition is not true for this attribute.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>GNIS_ID</attrlabl>
+            <attrdef>A permanent, unique number assigned by the Geographic Names Information System (GNIS) to a geographic feature name for
+               the sole purpose of uniquely identifying that name application as a record in any information system database, dataset, file,
+               or document</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>9,999,999,999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>GNIS_Name</attrlabl>
+            <attrdef>The Geographic Names Information System (GNIS) assigned proper name, specific term, or expression by which a particular
+               geographic entity is known.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Principles, Policies, and Procedures: Domestic Geographic Names</codesetn>
+                  <codesets>Principles, Policies, and Procedures: Domestic Geographic Names, By Donald J. Orth, Executive Secretary,
+                     Domestic Geographic Names (emeritus) and Roger L. Payne, Executive Secretary, United States Board on Geographic Names
+                     and Domestic Geographic Names, Third printing (revised) and Preliminary Online Edition, 1997
+                     (https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names).</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AreaSqKm</attrlabl>
+            <attrdef>Area of feature in square kilometers. Calculated when feature in Albers Equal Area projection.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Number representing the area of the feature.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape_Length</attrlabl>
+            <attrdef>Length of the feature, which may differ from the field measured length due to differences in calculation. Units are map
+               units.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Number auto-calculated in ESRI GIS</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape_Area</attrlabl>
+            <attrdef>Area of feature in map units squared.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Number auto-calculated in ESRI GIS</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Country_Name</attrlabl>
+            <attrdef>The name of the country.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Name of the country</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Population</attrlabl>
+            <attrdef>Population estimate for the feature.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Number representing the population of the feature.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>State_FIPSCode</attrlabl>
+            <attrdef>A two-digit Federal Information Processing Series (FIPS) numeric code that uniquely identifies States, the District of
+               Columbia, Puerto Rico and the Insular Areas of the United States.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Codes for the Identification of the States, the District of Columbia, Puerto Rico, and the Insular Areas of the
+                     United States.</codesetn>
+                  <codesets> INCITS 38:200x, (Formerly FIPS 5-2) Codes for the Identification of the States, the District of Columbia,
+                     Puerto Rico, and the Insular Areas of the United States. </codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>State_Name</attrlabl>
+            <attrdef>The name of the state.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Codes for the Identification of the States, the District of Columbia, Puerto Rico, and the Insular Areas of the
+                     United States.</codesetn>
+                  <codesets>Codeset_Source</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>County_FIPSCode</attrlabl>
+            <attrdef>A three-digit Federal Information Processing Series (FIPS) numeric code that uniquely identifies Counties and
+               Equivalent Entities of the United States, Its Possessions, and Insular Areas.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Codes for the Identification of Counties and Equivalent Entities of the United States, its Possessions, and
+                     Insular Areas.</codesetn>
+                  <codesets> INCITS 31:200x, (Formerly FIPS 6-4) Codes for the Identification of Counties and Equivalent Entities of the
+                     United States, its Possessions, and Insular Areas. </codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>County_Name</attrlabl>
+            <attrdef>The name of the county.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Codes for the Identification of Counties and Equivalent Entities of the United States, its Possessions, and
+                     Insular Areas.</codesetn>
+                  <codesets> INCITS 31:200x, (Formerly FIPS 6-4) Codes for the Identification of Counties and Equivalent Entities of the
+                     United States, its Possessions, and Insular Areas. </codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>StCo_FIPSCode</attrlabl>
+            <attrdef>A five-digit Federal Information Processing Standard (FIPS) numeric code that uniquely identifies counties and
+               equivalent entities in the United States, Its possessions, and Associated states. The first two digits are the numeric code
+               for a US State and the last three digits are the numeric code for a county within the state or possession.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Codes for the Identification of Counties and Equivalent Entities of the United States, its Possessions, and
+                     Insular Areas.</codesetn>
+                  <codesets>Codeset_Source</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Place_FIPSCode</attrlabl>
+            <attrdef>A five-digit Federal Information Processing Series (FIPS) numeric code that uniquely identifies populated places,
+               primary county divisions, and other locational entities within a state. The codes are assigned based on the alphabetic
+               sequence of the entity names within a state. The Place FIPS Code values used in this model are the values reported by US
+               Census.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Codes for the Identification of the States, the District of Columbia, Puerto Rico, and the Insular Areas of the
+                     United States.</codesetn>
+                  <codesets>INCITS 38:200x, (Formerly FIPS 5-2) Codes for the Identification of the States, the District of Columbia, Puerto
+                     Rico, and the Insular Areas of the United States.</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Place_Name</attrlabl>
+            <attrdef>The name of the place in which the feature is located.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Name of the place.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FRSTDIVID</attrlabl>
+            <attrdef>This is a unique identifier for the first division that is built by appending the first division elements on the
+               Township identifier.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Derived from first division elements and township identifier.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FRSTDIVNO</attrlabl>
+            <attrdef>This is the number, letter or designator for the first division of the PLSS Township.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Number or character designator for first division</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FRSTDIVDUP</attrlabl>
+            <attrdef>This is a code to indicate whether the first division is a duplicated area or identifier.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>unknown BLM domain used to indicate if the first division is a duplicated area or identifier</codesetn>
+                  <codesets>Bureau of Land Management (BLM)</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FRSTDIVTYP</attrlabl>
+            <attrdef>This is the type of first division and is commonly the section but may be a lot, parcel, tract or other
+               division.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>BLM table "LU_PLSSFirstDiv" has a list for the first division types and codes</codesetn>
+                  <codesets>Bureau of Land Management (BLM), LU_PLSSFirstDiv table.</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FRSTDIVTXT</attrlabl>
+            <attrdef>This is the first division type as a text field.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>text for BLM first division type</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PLSSID</attrlabl>
+            <attrdef>Concatenation of the state, principal meridian, township, range, and duplicate code that forms a unique ID for the PLSS
+               Township.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>value derived from the values for state, principal meridian, township, range, and duplicate code</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FRSTDIVLAB</attrlabl>
+            <attrdef>This is the label for the first division that is used for cartographic of web display purposes.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>text used for labeling the first division</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SURVTYP</attrlabl>
+            <attrdef>Code for the type of special survey.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>BLM table "LU_SurveyType" has a list for the special survey types and codes</codesetn>
+                  <codesets> Bureau of Land Management (BLM), LU_SurveyType table. </codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SURVTYPTXT</attrlabl>
+            <attrdef>Special survey type code text description.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>BLM table "LU_SurveyType" has a list for the special survey types and codes</codesetn>
+                  <codesets>Bureau of Land Management (BLM), LU_SurveyType table.</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SURVNO</attrlabl>
+            <attrdef>The number of the special survey.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>integer or text represeing the special survey number</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SURVSUF</attrlabl>
+            <attrdef>Special survey suffix designation that makes the identification of the area unique.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>text representing the suffix designation of the special survey</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SURVNOTE</attrlabl>
+            <attrdef>Notes about the polygon feature that are important for using or understanding the feature.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>A</edomv>
+                  <edomvd>Approximate acreage</edomvd>
+                  <edomvds>Bureau of Land Management, PLSS metadata.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>C</edomv>
+                  <edomvd>Conflict or Questionable</edomvd>
+                  <edomvds>Bureau of Land Management, PLSS metadata.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>D</edomv>
+                  <edomvd>No Add Acreage</edomvd>
+                  <edomvds>Bureau of Land Management, PLSS metadata.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>E</edomv>
+                  <edomvd>Exception to survey type coding</edomvd>
+                  <edomvds>Bureau of Land Management, PLSS metadata.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>M</edomv>
+                  <edomvd>Negative Acreage</edomvd>
+                  <edomvds>Bureau of Land Management, PLSS metadata.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>N</edomv>
+                  <edomvd>Not Coded</edomvd>
+                  <edomvds>Bureau of Land Management, PLSS metadata.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>P</edomv>
+                  <edomvd>Records Problem Acreage</edomvd>
+                  <edomvds>Bureau of Land Management, PLSS metadata.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>R</edomv>
+                  <edomvd>Replacement</edomvd>
+                  <edomvds>Bureau of Land Management, PLSS metadata.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>S</edomv>
+                  <edomvd>Salt Water</edomvd>
+                  <edomvds>Bureau of Land Management, PLSS metadata.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>X</edomv>
+                  <edomvd>Exception to standard surveys</edomvd>
+                  <edomvds>Bureau of Land Management, PLSS metadata.</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ACRES</attrlabl>
+            <attrdef>Area of the feature in acres. The survey note needs to be consulted to determine the type of acres (approximate,
+               official etc).</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>number represesnting the area of hte feature.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SURVLAB</attrlabl>
+            <attrdef>Label that is used for cartographic output or web display.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>text for the display label</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>REVISEDDATE</attrlabl>
+            <attrdef>Survey revision date.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>date representing the last date of any revision in the township</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>STATEABBR</attrlabl>
+            <attrdef>State abbreviation code two letter postal code.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>USPS two character abbreviation for state name</codesetn>
+                  <codesets>US Postal Service. https://www.usps.com/send/official-abbreviations.htm</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PRINMERCD</attrlabl>
+            <attrdef>Principal meridian code from the BLM PM Code list.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>BLM PM Code list. </codesetn>
+                  <codesets>Bureau of Land Management (BLM). LU_PrincipalMeridian table.</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PRINMER</attrlabl>
+            <attrdef>Principal meridian name as a text.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>BLM PM Code list. </codesetn>
+                  <codesets>Bureau of Land Management (BLM). LU_PrincipalMeridian table.</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>TWNSHPNO</attrlabl>
+            <attrdef>Township number. The Township Number indicates the number of rows of townships, north or south from a Public Land
+               Survey System Origin.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>number representing township row, based on PLSS origin</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>TWNSHPFRAC</attrlabl>
+            <attrdef>Township fraction. Township Fractions are created when there are gaps between surveyed Township boundaries or due to
+               excess size in Townships that arose from executing original surveys.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>text representing township fraction</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>TWNSHPDIR</attrlabl>
+            <attrdef>Township direction. The direction of a row of Townships from a Public Land Survey System Origin. These are typcially
+               North and South in the West but may be East and West in Ohio.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>text representing North, South, East or West direction.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>RANGENO</attrlabl>
+            <attrdef>Range number. The Range Number indicates the number of columns of townships, east or west from a Public Land Survey
+               System Origin.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>text representing the number of columns of townships from a PLSS origin</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>RANGEFRAC</attrlabl>
+            <attrdef>Range fraction. Range Fractions are created when there are gaps between surveyed Township boundaries or due to excess
+               size in Townships that arose from executing original surveys.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>text representing range fraction</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>RANGEDIR</attrlabl>
+            <attrdef>Range direction. The direction of a column of townships from a Public Land Survey System Origin. These are typcially
+               East or West in the west but may be north or south in Ohio.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>text representing North, South, East or West direction.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>TWNSHPDPCD</attrlabl>
+            <attrdef>If there are multiple townships in a Public Land Survey System Origin, State and Survey Name, the Township Duplicate
+               Status is used to establish uniqueness. When more than one Public Land Survey System Township has the same Township and Range
+               numbers and directions and fractions, and are in the same State, this attribute is used to distinguish among duplicate
+               values.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>A</edomv>
+                  <edomvd>First Duplicate</edomvd>
+                  <edomvds>Bureau of Land Management (BLM), 2011. Cadastral PLSS Standardized Data - PLSSIntersected - Version 1.1
+                     Metadata.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>B</edomv>
+                  <edomvd>Second Duplicate</edomvd>
+                  <edomvds>Bureau of Land Management (BLM), 2011. Cadastral PLSS Standardized Data - PLSSIntersected - Version 1.1
+                     Metadata.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>0</edomv>
+                  <edomvd>no duplicate</edomvd>
+                  <edomvds>Bureau of Land Management (BLM), 2011. Cadastral PLSS Standardized Data - PLSSIntersected - Version 1.1
+                     Metadata.</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>STEWARD</attrlabl>
+            <attrdef>Data steward for the polygon.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>Text identifying the name of the data steward.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>TWNSHPLAB</attrlabl>
+            <attrdef>Township label that is used for cartographic output or web display.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>text used to label the township.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SRVNAME</attrlabl>
+            <attrdef>Survey name.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>text with the name of the survey</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SECSRVNAME</attrlabl>
+            <attrdef>Section survey name.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <udom>text with the name of the survey</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>NativeAmericanArea_FIPSCode</attrlabl>
+            <attrdef>A five-digit Federal Information Processing Series (FIPS) numeric code that uniquely identifies populated places,
+               primary county divisions, and other locational entities within a state. The codes are assigned based on the alphabetic
+               sequence of the entity names within a state. The FIPS 55 codes are state-based. Native American Areas in more than one state
+               will have multiple FIPS 55 codes; that is, a different FIPS 55 code for each state portion of the Native American Area
+               entity.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>National ANSI Code File for American Indian Areas</codesetn>
+                  <codesets>American National Standards Institute (ANSI). American Indian Areas.</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>OwnerOrManagingAgency</attrlabl>
+            <attrdef>The owner or managing agency.</attrdef>
+            <attrdefs>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>1 = Army Corps of Engineers</edomv>
+                  <edomvd>A federal agency and a major Army command that is the world's largest public engineering, design and construction
+                     management agency.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>2 = Bureau of Indian Affairs</edomv>
+                  <edomvd>An agency of the federal government of the United States within the US Department of the Interior charged with the
+                     administration and management of land held in trust by the United States for Native Americans in the United States,
+                     Native American Tribes and Alaska Natives.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>3 = Bureau of Land Management</edomv>
+                  <edomvd>An agency within the United States Department of the Interior which administers America's public lands and manages
+                     subsurface mineral estate underlying federal, state and private lands.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>4 = Bureau of Reclamation</edomv>
+                  <edomvd>An agency under the U.S. Department of the Interior that oversees water resource management, specifically as it
+                     applies to the oversight and/or operation of numerous water diversion, delivery, and storage and hydroelectric power
+                     generation projects it built throughout the western United States.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>5 = Department of Defense</edomv>
+                  <edomvd>The U.S. federal department charged with coordinating and supervising all agencies and functions of the government
+                     relating directly to national security and the United States armed forces.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>6 = Department of Energy</edomv>
+                  <edomvd>A Cabinet-level department of the United States government concerned with the United States' policies regarding
+                     energy and safety in handling nuclear material; its responsibilities include the nation's nuclear weapons program,
+                     nuclear reactor production for the United States Navy, energy conservation, energy-related research, radioactive waste
+                     disposal, and domestic energy production.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>7 = Department of Homeland Security</edomv>
+                  <edomvd>A Cabinet department of the United States federal government with the primary responsibilities of protecting the
+                     territory of the U.S. from terrorist attacks and responding to natural disasters.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>8 = Department of Transportation</edomv>
+                  <edomvd>A federal Cabinet department of the United States government concerned with transportation.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>9 = Department of Veteran Affairs</edomv>
+                  <edomvd>A Cabinet department of the United States government responsible for administering programs of veterans' benefits
+                     for veterans, their families, and survivors.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>10 = Fish and Wildlife Service</edomv>
+                  <edomvd>A federal government agency within the U.S. Department of the Interior dedicated to the management of fish,
+                     wildlife, and habitats.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>11 = Forest Service</edomv>
+                  <edomvd>An agency of the United States Department of Agriculture that administers the nation's national forests and
+                     national grasslands, which encompass 193 million acres.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>12 = National Oceanic and Atmospheric Administration</edomv>
+                  <edomvd>A scientific agency within the United States Department of Commerce focused on the conditions of the oceans and
+                     the atmosphere.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>13 = National Park Service</edomv>
+                  <edomvd>A U.S. federal agency that manages all national parks, many national monuments, and other conservation and
+                     historical properties with various title designations.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>14 = Tennessee Valley Authority</edomv>
+                  <edomvd>A corporation owned by the U.S. government, that provides electricity for people in parts of seven southeastern
+                     state sand also provides flood control, navigation and land management for the Tennessee River system and assists
+                     utilities and state and local governments with economic development.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>15 = Bureau of Census</edomv>
+                  <edomvd>The government agency that is responsible for the United States Census and also gathers other national demographic
+                     and economic data.</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>99 = Not Applicable</edomv>
+                  <edomvd>Not applicable</edomvd>
+                  <edomvds>Data Dictionary for Govermental Units. Draft Standards Database, 2013. September 25.</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey, National Geospatial Technical Operations Center</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing and physical</addrtype>
+               <address>1400 Independence Road</address>
+               <city>Rolla</city>
+               <state>MO</state>
+               <postal>65401</postal>
+            </cntaddr>
+            <cntaddr>
+               <addrtype>mailing and physical</addrtype>
+               <address>Box 25046 Denver Federal Center</address>
+               <city>Lakewood</city>
+               <state>CO</state>
+               <postal>80225</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747</cntvoice>
+            <cntemail>tnm_help@usgs.gov</cntemail>
+            <hours>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</hours>
+            <cntinst>Please visit http://www.usgs.gov/ask/, call 1-888-ASK-USGS or email tnm_help@usgs.gov to contact us.</cntinst>
+         </cntinfo>
+      </distrib>
+      <resdesc>Downloadable Data</resdesc>
+      <distliab>No liability for content or accuracy is presumed by USGS for data.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>WAF</formname>
+               <formcont>Web Accessible Folder</formcont>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/boundaries/nbd/</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None.</fees>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>FileGDB</formname>
+               <formcont>ESRI File Geodatabase</formcont>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/GovtUnit/GDB/</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None.</fees>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Shapefile</formname>
+               <formcont>ESRI Shapefile</formcont>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/GovtUnit/Shape/</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None.</fees>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Boundaries Map Server (ArcGIS)</formname>
+               <formvern>10.71</formvern>
+               <formspec>http://www.geoplatform.gov/spec/esri-map-rest</formspec>
+               <formcont>An ArcGIS Map Service for visualizing boundary features.</formcont>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://carto.nationalmap.gov/arcgis/rest/services/govunits/MapServer</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>NONE</fees>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Boundaries Map Server (OGC WMS)</formname>
+               <formvern>1.3.0</formvern>
+               <formspec>http://opengis.net/spec/wms</formspec>
+               <formcont>An OGC WMS Map Service for visualizing boundary features.</formcont>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://carto.nationalmap.gov/arcgis/services/govunits/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>NONE</fees>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Boundaries Feature Server (OGC WFS)</formname>
+               <formvern>1.1.0</formvern>
+               <formspec>http://opengis.net/spec/wfs</formspec>
+               <formcont>An OGC WFS Service for accessing boundary features.</formcont>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://carto.nationalmap.gov/wfs/services/govunits/MapServer/WFSServer?request=GetCapabilities&amp;service=WFS</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>NONE</fees>
+      </stdorder>      
+   </distinfo>
+   <metainfo>
+      <metd>20201113</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey, National Geospatial Technical Operations Center</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing and physical</addrtype>
+               <address>1400 Independence Road</address>
+               <city>Rolla</city>
+               <state>MO</state>
+               <postal>65401</postal>
+            </cntaddr>
+            <cntaddr>
+               <addrtype>mailing and physical</addrtype>
+               <address>Box 25046 Denver Federal Center</address>
+               <city>Lakewood</city>
+               <state>CO</state>
+               <postal>80225</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747</cntvoice>
+            <cntemail>tnm_help@usgs.gov</cntemail>
+            <hours>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</hours>
+            <cntinst>Please visit http://www.usgs.gov/ask/, call 1-888-ASK-USGS or email tnm_help@usgs.gov to contact us.</cntinst>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>

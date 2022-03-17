@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<Esri>
+		<PublishedDocID>{3878cf33-1432-4170-a032-9e2d4268e46e}</PublishedDocID>
+	</Esri>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EPA GIS Keyword Thesaurus</themekt>
+				<themekey>Conservation</themekey>
+				<themekey>Ecosystem</themekey>
+				<themekey>Environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EnviroAtlas</themekt>
+				<themekey>12-digit HUCs</themekey>
+				<themekey>Biodiversity</themekey>
+				<themekey>Conservation</themekey>
+				<themekey>Ecology</themekey>
+				<themekey>Ecosystem Services</themekey>
+				<themekey>EnviroAtlas</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Environmental Atlas</themekey>
+				<themekey>Impact</themekey>
+				<themekey>Indicator</themekey>
+				<themekey>Land Cover</themekey>
+				<themekey>Management</themekey>
+				<themekey>Protected Lands</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Puerto Rico</placekey>
+				<placekey>United States</placekey>
+				<placekey>Virgin Islands</placekey>
+			</place>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Environmental Protection Agency (US EPA)</origin>
+				<title>EnviroAtlas - Protected Lands by 12-digit HUC for Puerto Rico and the US Virgin Islands</title>
+				<pubinfo>
+					<publish>U.S. EPA Office of Research and Development (ORD) - Center for Public Health and Environmental Assessment (CPHEA)</publish>
+					<pubplace>Research Triangle Park, NC</pubplace>
+				</pubinfo>
+				<pubdate>20210730</pubdate>
+				<onlink>https://edg.epa.gov/data/PUBLIC/ORD/ENVIROATLAS/National</onlink>
+				<onlink>https://enviroatlas.epa.gov/arcgis/rest/services/National/National2016_master/MapServer</onlink>
+				<onlink>https://www.epa.gov/enviroatlas/enviroatlas-data</onlink>
+				<onlink>https://www.epa.gov/enviroatlas</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>Publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>2020</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-67.951455</westbc>
+				<eastbc>-64.565191</eastbc>
+				<northbc>18.516091</northbc>
+				<southbc>17.673736</southbc>
+			</bounding>
+		</spdom>
+		<accconst>None</accconst>
+		<useconst>None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+		<descript>
+			<abstract>This dataset shows the percentage of each National Hydrography Dataset Plus (NHDPlus) V2 12-digit Hydrologic Unit (HUC) that is included in the USGS National Gap Analysis Program (GAP) or International Union for the Conservation of Nature (IUCN) protection categories in the Protected Areas Database of the United States (PADUS). Percentages for GAP status 1 and 2 combined, GAP status 3, and GAP status 1, 2, and 3 combined are provided. The percentages for IUCN categories Ia, Ib, II, III, IV, V, and VI are provided, as well as for all the categories combined. This dataset was produced by the US EPA to support research and online mapping activities related to EnviroAtlas. EnviroAtlas (https://www.epa.gov/enviroatlas) allows the user to interact with a web-based, easy-to-use, mapping application to view and analyze multiple ecosystem services for the contiguous United States. The dataset is available as downloadable data (https://edg.epa.gov/data/Public/ORD/EnviroAtlas) or as an EnviroAtlas map service. Additional descriptive information about each attribute in this dataset can be found in its associated EnviroAtlas Fact Sheet (https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets).</abstract>
+			<purpose>This dataset is useful for evaluating measures of sustainability. The overall goal of EnviroAtlas is to employ and develop the best available science to map indicators of ecosystem services production, demand, and drivers for the nation.</purpose>
+			<supplinf>For the 2021 update to this dataset, a new method for calculating the percentage of each HUC12 that is included in a protected category was used. In this update, the PAD-US data were updated from version 1.2 to version 2.1. In the previous process, the ATtILA toolbox was used to calculate the percentage of protected areas for each HUC. For this update, the Tabulate Intersection tool was used in ArcGIS Pro, a tool that was created since the last time this update was conducted. To get an accurate measure of the percentage of protected areas, each category of protected areas (such as GAP 1, 2, and 3) was Dissolved as a singlepart feature in order to prevent double counting areas where multiple GAP status areas overlapped. Protected area percentages were calculated using the HUC's total area to account for water-based protected areas.
+2011 - 2015 dataset created by Donald Ebert, EPA Landscape Ecology Branch. 2021 dataset update conducted by Eli Heetderks, EPA Student Services Contractor.</supplinf>
+		</descript>
+		<secinfo>
+			<secsys>https://project-open-data.github.io/schema/#accessLevel</secsys>
+			<secclass>public</secclass>
+			<sechandl>Standard Technical Controls</sechandl>
+		</secinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntperp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<logic>Tests for integrity have not been performed.</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at https://epa.gov/geospatial/policies.html</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>20210310</procdate>
+				<procdesc>Obtained GAP version 2.1 of the Protected Areas Database of the United States from https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap/science/pad-us-data-download?qt-science_center_objects=0#qt-science_center_objects</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20210310</procdate>
+				<procdesc>Split PADUS2_1Combined_Proclamation_Marine_Fee_Designation_Easement feature layer into appropriate categories (GAP1_2, GAP3, GAP123, IUCN_IA, IUCN_IB, IUCN_II, IUCN_III, IUCN_IV, IUCN_V, IUCN_VI, IUCN_Any_Status)</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20210310</procdate>
+				<procdesc>Used Dissolve tool (as singlepart) for each protection category</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20210310</procdate>
+				<procdesc>Used Tabulate Intersection tool for each Dissolved Layer to calculate the percent of each HUC12 that is in a protected category</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metd>20211005</metd>
+		<metfrd>20250730</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>Protection_PRVI</enttypl>
+				<enttypd>Percentage of NHDPlus 12-digit Hydrologic Unit that is included in the GAP or IUCN protection categories in the Protected Areas Database of the United States.</enttypd>
+				<enttypds>US EPA</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>HUC_12</attrlabl>
+				<attrdef>Twelve Digit Hydrologic Unit Code. This field provides a unique 12-digit code for each subwatershed. Numbers were assigned in an upstream to downstream fashion. Where no downstream/upstream relationship could be determined, numbers were assigned in a clockwise fashion.</attrdef>
+				<attrdefs>Federal Guidelines, Requirements, and Procedures for the National Watershed Boundary Dataset; Chapter 3 of Section A; Federal Standards, Book 11, Collection and Delineation of Spatial Data; Techniques and Methods 11-A3.</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>010000000000</rdommin>
+						<rdommax>999999999999</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PIUCN_IA</attrlabl>
+				<attrdef>Percentage of NHDPlus 12-digit Hydrologic Unit that is classified as IUCN category Ia in the Protected Areas Database of the United States (PAD-US) version 2.1 created by USGS GAP.</attrdef>
+				<attrdefs>U.S. EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PIUCN_II</attrlabl>
+				<attrdef>Percentage of NHDPlus 12-digit Hydrologic Unit that is classified as IUCN category II in the Protected Areas Database of the United States (PAD-US) version 2.1 created by USGS GAP.</attrdef>
+				<attrdefs>U.S. EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PIUCN_III</attrlabl>
+				<attrdef>Percentage of NHDPlus 12-digit Hydrologic Unit that is classified as IUCN category III in the Protected Areas Database of the United States (PAD-US) version 2.1 created by USGS GAP.</attrdef>
+				<attrdefs>U.S. EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PIUCN_IV</attrlabl>
+				<attrdef>Percentage of NHDPlus 12-digit Hydrologic Unit that is classified as IUCN category IV in the Protected Areas Database of the United States (PAD-US) version 2.1 created by USGS GAP.</attrdef>
+				<attrdefs>U.S. EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PIUCN_V</attrlabl>
+				<attrdef>Percentage of NHDPlus 12-digit Hydrologic Unit that is classified as IUCN category V in the Protected Areas Database of the United States (PAD-US) version 2.1 created by USGS GAP.</attrdef>
+				<attrdefs>U.S. EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PIUCN_VI</attrlabl>
+				<attrdef>Percentage of NHDPlus 12-digit Hydrologic Unit that is classified as IUCN category VI in the Protected Areas Database of the United States (PAD-US) version 2.1 created by USGS GAP.</attrdef>
+				<attrdefs>U.S. EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PIUCN_IB</attrlabl>
+				<attrdef>Percentage of NHDPlus 12-digit Hydrologic Unit that is classified as IUCN category Ib in the Protected Areas Database of the United States (PAD-US) version 2.1 created by USGS GAP.</attrdef>
+				<attrdefs>U.S. EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PGAPSTAT1_2</attrlabl>
+				<attrdef>Percentage of NHDPlus 12-digit Hydrologic Unit that is classified with GAP status 1 or 2 in the Protected Areas Database of the United States (PAD-US) version 2.1 created by USGS GAP.</attrdef>
+				<attrdefs>U.S. EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PIUCN_ALL</attrlabl>
+				<attrdef>Percentage of NHDPlus 12-digit Hydrologic Unit with any IUCN classified areas in the Protected Areas Database of the United States (PAD-US) version 2.1 created by USGS GAP.</attrdef>
+				<attrdefs>U.S. EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PGAPSTAT123</attrlabl>
+				<attrdef>Percentage of NHDPlus 12-digit Hydrologic Unit that is classified with GAP status 1, 2, or 3 in the Protected Areas Database of the United States (PAD-US) version 2.1 created by USGS GAP.</attrdef>
+				<attrdefs>U.S. EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PGAPSTAT3</attrlabl>
+				<attrdef>Percentage of NHDPlus 12-digit Hydrologic Unit that is classified with GAP status 3 in the Protected Areas Database of the United States (PAD-US) version 2.1 created by USGS GAP.</attrdef>
+				<attrdefs>U.S. EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eadetcit>https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets</eadetcit>
+			<eaover>The metric was generated using Tabulate Intersection in ArcGIS Pro (https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/tabulate-intersection.htm) in conjunction with version 2.1 of the Protected Areas Database of the United States (for metadata, see https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap/science/pad-us-data-overview?qt-science_center_objects=4#qt-science_center_objects; for information on GAP, see https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap).
+
+			A comprehensive list of metric creation steps is included in the Processing Steps.
+			</eaover>
+		</overview>
+	</eainfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>State Plane Coordinate System 1983</gridsysn>
+					<spcs>
+						<spcszone>5200</spcszone>
+						<lambertc>
+							<stdparll>18.0333333333333</stdparll>
+							<stdparll>18.4333333333333</stdparll>
+							<longcm>-66.43333333333334</longcm>
+							<latprjo>17.83333333333333</latprjo>
+							<feast>200000.0</feast>
+							<fnorth>200000.0</fnorth>
+						</lambertc>
+					</spcs>
+				</gridsys>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>2</absres>
+						<ordres>2</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257222101</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

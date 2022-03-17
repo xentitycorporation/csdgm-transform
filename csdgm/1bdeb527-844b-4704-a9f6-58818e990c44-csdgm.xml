@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<Esri>
+		<PublishedDocID>{70100219-c75f-473f-81e8-fc4abab28a00}</PublishedDocID>
+	</Esri>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>environment</themekey>
+				<themekey>geoscientificInformation</themekey>
+			</theme>
+			<theme>
+				<themekt>EPA GIS Keyword Thesaurus</themekt>
+				<themekey>Ecosystem</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Surface Water</themekey>
+			</theme>
+			<theme>
+				<themekt>EnviroAtlas</themekt>
+				<themekey>Ecosystem Services</themekey>
+				<themekey>EnviroAtlas</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Environmental Atlas</themekey>
+				<themekey>Surface Water</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Alabama</placekey>
+				<placekey>Arizona</placekey>
+				<placekey>Arkansas</placekey>
+				<placekey>California</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>Connecticut</placekey>
+				<placekey>Delaware</placekey>
+				<placekey>Florida</placekey>
+				<placekey>Georgia</placekey>
+				<placekey>Idaho</placekey>
+				<placekey>Illinois</placekey>
+				<placekey>Indiana</placekey>
+				<placekey>Iowa</placekey>
+				<placekey>Kansas</placekey>
+				<placekey>Kentucky</placekey>
+				<placekey>Louisiana</placekey>
+				<placekey>Maine</placekey>
+				<placekey>Maryland</placekey>
+				<placekey>Massachusetts</placekey>
+				<placekey>Michigan</placekey>
+				<placekey>Minnesota</placekey>
+				<placekey>Mississippi</placekey>
+				<placekey>Missouri</placekey>
+				<placekey>Montana</placekey>
+				<placekey>Nebraska</placekey>
+				<placekey>Nevada</placekey>
+				<placekey>New Hampshire</placekey>
+				<placekey>New Jersey</placekey>
+				<placekey>New Mexico</placekey>
+				<placekey>New York</placekey>
+				<placekey>North Carolina</placekey>
+				<placekey>North Dakota</placekey>
+				<placekey>Ohio</placekey>
+				<placekey>Oklahoma</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>Pennsylvania</placekey>
+				<placekey>Rhode Island</placekey>
+				<placekey>South Carolina</placekey>
+				<placekey>South Dakota</placekey>
+				<placekey>Tennessee</placekey>
+				<placekey>Texas</placekey>
+				<placekey>United States</placekey>
+				<placekey>Utah</placekey>
+				<placekey>Vermont</placekey>
+				<placekey>Virginia</placekey>
+				<placekey>Washington</placekey>
+				<placekey>Washington DC</placekey>
+				<placekey>West Virginia</placekey>
+				<placekey>Wisconsin</placekey>
+				<placekey>Wyoming</placekey>
+			</place>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Environmental Protection Agency (US EPA)</origin>
+				<title>EnviroAtlas - Stream Confluence Dataset - Indicators of geologic (lithosphere) conditions for stream confluence catchments for the Conterminous United States</title>
+				<pubinfo>
+					<publish>U.S. EPA Office of Research and Development (ORD) - Center for Public Health and Environmental Assessment (CPHEA)</publish>
+					<pubplace>Research Triangle Park, NC</pubplace>
+				</pubinfo>
+				<pubdate>20200901</pubdate>
+				<onlink>https://edg.epa.gov/data/PUBLIC/ORD/ENVIROATLAS/Other</onlink>
+				<onlink>https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Stream_Confluences/FeatureServer</onlink>
+				<onlink>https://www.epa.gov/enviroatlas/enviroatlas-data</onlink>
+				<onlink>https://www.epa.gov/enviroatlas</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This EnviroAtlas dataset contains indices of geologic (lithosphere) conditions in the upstream catchments of stream confluences. Stream confluences are important components of fluvial networks.  Hydraulic forces meeting at stream confluences often produce changes in streambed morphology and sediment distribution, and these changes often increase habitat heterogeneity relative to upstream and downstream locations.  Increases in habitat heterogeneity at stream confluences have led some to identify them as biological hotspots.  Despite their potential ecological importance, there are relatively few empirical studies documenting ecological patterns across the upstream-confluence-downstream gradient.  To facilitate more studies of the ecological value and role of stream confluences in fluvial networks, we have produced a database of stream confluences and their associated watershed attributes for the conterminous United States.  The database includes 1,085,629 stream confluences and 383 attributes for each confluence that are organized into 15 database tables for both tributary and mainstem upstream catchments ("local" watersheds) and watersheds.  Themes represented by the database tables include hydrology (e.g., stream order), land cover and land cover change, geology (e.g., calcium content of underlying lithosphere), physical condition (e.g., precipitation), measures of ecological integrity, and stressors (e.g., impaired streams).  We use measures of ecological integrity (Thornbrugh et al. 2018) from the StreamCat database (Hill et al. 2016) to classify stream confluences using disjoint clustering and validate the cluster results using decision tree analysis.
+				This dataset was produced by the US EPA to support research and online mapping activities related to EnviroAtlas. EnviroAtlas (https://www.epa.gov/enviroatlas) allows the user to interact with a web-based, easy-to-use, mapping application to view and analyze multiple ecosystem services for the contiguous United States. The dataset is available as downloadable data (https://edg.epa.gov/data/Public/ORD/EnviroAtlas) or as an EnviroAtlas map service. Additional descriptive information about each attribute in this dataset can be found in its associated EnviroAtlas Fact Sheet (https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets).
+			</abstract>
+			<purpose>The purpose of this dataset is to provide EPA stakeholders an extensive database on environmental condition of stream confluences.  Stream confluences are often biological hotspots and Clean Water Act (CWA) 305(b)/303(d) assessments are commonly based on stream biota.
+				The overall goal of EnviroAtlas is to employ and develop the best available science to map indicators of ecosystem services production, demand, and drivers for the nation.</purpose>
+			<supplinf>EPA-Created and EPA-Value-added</supplinf>
+		</descript>
+		<timeperd>
+			<current>Publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20151119</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>notPlanned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-125.00</westbc>
+				<eastbc>-66.95</eastbc>
+				<northbc>49.37</northbc>
+				<southbc>24.52</southbc>
+			</bounding>
+		</spdom>
+		<accconst>None</accconst>
+		<useconst>None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+		<secinfo>
+			<secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+			<secclass>public</secclass>
+			<sechandl>Standard Technical Controls</sechandl>
+		</secinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntperp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<logic>Valid values = 1;</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that are accurate to within 6-25 meters (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 3). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+				<qhorizpa>
+					<horizpav>30</horizpav>
+					<horizpae>visual inspection</horizpae>
+				</qhorizpa>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Vertical and horizontal accuracy are equivalent to that reported for NHDplus Version 2</vertaccr>
+				<qvertpa>
+					<vertaccv>25</vertaccv>
+					<vertacce>Test performed by NHD and MRLC</vertacce>
+				</qvertpa>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>20191115</procdate>
+				<procdesc>Copied the National Hydrography Dataset (NHD) Plus v2.1 datasets for the lower 48 United States from the internal EnviroAtlas data repository. For original NHD Plus v2.1 documentation and metadata, see: www.horizon-systems.com/nhdplus/NHDPlusV2_documentation.php</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180723</procdate>
+				<procdesc>Projected all NHDPlus version2 NHDFlowlines, NHDAreas, and NHDWaterbodies to the USGS Albers standard projection used for the National Land Cover Database (NLCD) dataset. The XY Resolution and Tolerance parameter within the Geoprocessing Environment Settings was set to 0.000001 Meters for the reprojection.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20190320</procdate>
+				<procdesc>For each of the 18 2-digit NHD HUC regions in the lower 48: 1)Selected the NHDFlowlines, NHDAreas, and NHDWaterbodies of interest (NHD flowlines were excluded if they did not have a catchment value attached to them; all coast flowlines and flowlines that occurred in lakes and ponds were also excluded. Flowlines that occurred in swamp areas were retained. Points where the remaining flowlines touched the coast were included in the dataset.); 2)Generated End Point vertices for the NHDFlowlines; 3) Selected the end points that either delimited an intersection between two or more flowlines, an intersection with a retained NHDWaterbody or NHDArea, or that intersected with a coastline. This is the NHD##_Confluence, where ## is the 2-digit NHD HUC region; 4) Deleted points from NHD##_Confluence layer that had the same XY coordinates. This is NHD##_Confluence_Pt; 5)Assigned the NHD##_Confluence_Pt ID to the NHD##_Confluence features that spatially overlapped; 6) Attributed the NHD##_Confluence_Pt layer with SRCount, SRTotArbol, and SRTotDASqk; 7) Assigned a BranchNum to each point in NHD##_Confluence; 8) Assigned CONFPT_ID values to NHD##_Confluence and NHD##_Confluence_Pt layers.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20190402</procdate>
+				<procdesc>Merged all 18 2-digit NHD HUC versions of NHD##_Confluence into NHD_CONUS_Confluence_v2; Merged all 18 2-digit NHD HUC versions of NHD##_Confluence_Pt into NHD_CONUS_Confluence_Pt_v2; Generated table, NHD_CONUS_COMID_v2, using a Pivot Table operation </procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20190501</procdate>
+				<procdesc>Associate attributes with points using data available through NHDplus V2 and StreamCat (https://www.epa.gov/national-aquatic-resource-surveys/streamcat)</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20190601</procdate>
+				<procdesc>Organize attributes by theme into theme-specific tables</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Point</direct>
+	</spdoinfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20211005</metd>
+		<metfrd>20250430</metfrd>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<plandu>meters</plandu>
+					<coordrep>
+						<absres>0.000001</absres>
+						<ordres>0.000001</ordres>
+					</coordrep>
+				</planci>
+				<mapproj>
+					<mapprojn>Albers Conical Equal Area</mapprojn>
+					<albers>
+						<stdparll>29.500000</stdparll>
+						<stdparll>45.500000</stdparll>
+						<longcm>-96.000000</longcm>
+						<latprjo>23.000000</latprjo>
+						<feast>0.000000</feast>
+						<fnorth>0.000000</fnorth>
+					</albers>
+				</mapproj>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>Geology_Cat</enttypl>
+				<enttypd>Indicators of geologic (lithosphere) conditions for stream confluence catchments. No data values = -9999 (integer) or -9999.00 (real)</enttypd>
+				<enttypds>EPA</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>Confpt_ID</attrlabl>
+				<attrdef>Unique ID for each stream confluence used to link to the other dataset tables</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Unique Code</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>COMID1</attrlabl>
+				<attrdef>Unique identifier linking to upstream catchment1 and watershed1.</attrdef>
+				<attrdefs>EPA, NHDPlus V2</attrdefs>
+				<attrdomv>
+					<udom>Unique Code</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>COMID2</attrlabl>
+				<attrdef>Unique identifier linking to upstream catchment2 and watershed2; COMID2 = -9999 if NumConfl=1.</attrdef>
+				<attrdefs>EPA, NHDPlusV2</attrdefs>
+				<attrdomv>
+					<udom>Unique Code</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>COMID3</attrlabl>
+				<attrdef>Unique identifier linking to upstream catchment3 and watershed3; COMID3 = -9999 if NumConfl=1 or 2.</attrdef>
+				<attrdefs>EPA, NHDPlusV2</attrdefs>
+				<attrdomv>
+					<udom>Unique Code</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CaO1</attrlabl>
+				<attrdef>Mean calcium oxide % of lithosphere for COMID1 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.079</rdommin>
+						<rdommax>53.400</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MgO1</attrlabl>
+				<attrdef>Mean magnesium oxide % of lithosphere for COMID1 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.100</rdommin>
+						<rdommax>35.628</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Phos1</attrlabl>
+				<attrdef>Mean phosphorus oxide % of lithosphere for COMID1 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.010</rdommin>
+						<rdommax>4.805</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Slfr1</attrlabl>
+				<attrdef>Mean % sulfur of lithosphere for COMID1 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.0005</rdommin>
+						<rdommax>54.490</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Nitr1</attrlabl>
+				<attrdef>Mean % nitrogen of lithosphere for COMID1 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.00002</rdommin>
+						<rdommax>1.94</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Hcon1</attrlabl>
+				<attrdef>Hydraulic conductivity (&#181;m/s) of lithosphere for COMID1 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.000004</rdommin>
+						<rdommax>484.437</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Cstrth1</attrlabl>
+				<attrdef>Mean uniaxial compressive strength (MPa) of lithosphere for COMID1 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.0275</rdommin>
+						<rdommax>257.333</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CaO2</attrlabl>
+				<attrdef>Mean calcium oxide % of lithosphere for COMID2 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.079</rdommin>
+						<rdommax>53.400</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MgO2</attrlabl>
+				<attrdef>Mean calcium oxide % of lithosphere for COMID2 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.100</rdommin>
+						<rdommax>36.795</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Phos2</attrlabl>
+				<attrdef>Mean phosphorus oxide % of lithosphere for COMID2 catchments. </attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.010</rdommin>
+						<rdommax>4.805</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Slfr2</attrlabl>
+				<attrdef>Mean % sulfur of lithosphere for COMID2 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.0005</rdommin>
+						<rdommax>54.490</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Nitr2</attrlabl>
+				<attrdef>Mean % nitrogen of lithosphere for COMID2 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.00002</rdommin>
+						<rdommax>1.94</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Hcon2</attrlabl>
+				<attrdef>Hydraulic conductivity (&#181;m/s) of lithosphere for COMID2 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat); derived from http://www.prism.oregonstate.edu/normals/</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.000004</rdommin>
+						<rdommax>484.437</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Cstrth2</attrlabl>
+				<attrdef>Mean uniaxial compressive strength (MPa) of lithosphere for COMID2 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.0275</rdommin>
+						<rdommax>257.333</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CaO3</attrlabl>
+				<attrdef>Mean calcium oxide % of lithosphere for COMID3 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.270</rdommin>
+						<rdommax>53.400</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MgO3</attrlabl>
+				<attrdef>Mean magnesium oxide % of lithosphere for COMID3 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.315</rdommin>
+						<rdommax>31.432</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Phos3</attrlabl>
+				<attrdef>Mean phosphorus oxide % of lithosphere for COMID3 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.020</rdommin>
+						<rdommax>4.805</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Slfr3</attrlabl>
+				<attrdef>Mean sulfur % of lithosphere for COMID3 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.003</rdommin>
+						<rdommax>13.000</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Nitr3</attrlabl>
+				<attrdef>Mean nitrogen % of lithosphere for for COMID3 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.00002</rdommin>
+						<rdommax>1.94</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Hcon3</attrlabl>
+				<attrdef>Hydraulic conductivity (&#181;m/s) of lithosphere for COMID2 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.000004</rdommin>
+						<rdommax>484.437</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Cstrth3</attrlabl>
+				<attrdef>Mean uniaxial compressive strength (MPa) of lithosphere for COMID3 catchments.</attrdef>
+				<attrdefs>EPA; StreamCat (ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.0275</rdommin>
+						<rdommax>224.007</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>        
+		</detailed>
+		<overview>
+			<eadetcit>https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets</eadetcit>
+			<eaover>Database contains landscape attributes at catchment and watershed scales for stream confluences defined from 2 or more inflowing streams.  Landscape attributes are divided into 15 tables covering land cover and change, stressors, hydrology, physical condition, and ecological integrity. 
+
+				Additional details about this dataset are described in Ebert, D., Wickham, J., Neale, A., Mehaffey, M. 2020. A landscape assessment and associated dataset of stream confluences for the conterminous United States.  Journal of the American Water Resources Association (JAWRA) 1 --13, https://doi.org/10.1111/1752-1688.12899.
+			</eaover></overview>
+	</eainfo>
+</metadata>

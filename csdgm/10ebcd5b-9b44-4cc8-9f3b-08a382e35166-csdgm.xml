@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <idinfo>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>EPA GIS Keyword Thesaurus</themekt>
+        <themekey>Cleanup</themekey>
+        <themekey>Contaminant</themekey>
+        <themekey>Environment</themekey>
+        <themekey>Facilities</themekey>
+        <themekey>Hazards</themekey>
+        <themekey>Regulatory</themekey>
+        <themekey>Remediation</themekey>
+        <themekey>Response</themekey>
+        <themekey>Sites</themekey>
+        <themekey>Waste</themekey>
+      </theme>
+    </keywords>
+    <citation>
+      <citeinfo>
+        <origin>US Environmental Protection Agency</origin>
+        <title>USEPA Geospatial Metadata </title>
+        <pubinfo>
+          <publish>U.S. Environmental Protection Agency, Region 2</publish>
+          <pubplace>New York, NY</pubplace>
+        </pubinfo>
+        <pubdate>20180420</pubdate>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Description:
+    Abstract:
+      The Superfund Enterprise Management System (SEMS) is EPA's "official record" for tracking hazardous waste sites, potentially hazardous waste sites, and remedial activities performed in support of the Superfund Program across the nation. This includes sites that are on the National Priorities List (NPL) or are being considered for the NPL. SEMS represents a joint development and ongoing collaboration between Superfund's Remedial, Removal, Federal Facilities, Enforcement, and Emergency Response programs. It provides its wide audience base with a means of ongoing analysis of Superfund Program activities and informational needs at the site, regional management, and national management levels. The customers of SEMS or SEMS data are five EPA Headquarters offices and regional staff, citizens, the regulated community, other Federal agencies, States, Tribes, local agencies, and industry. SEMS stakeholders are States, Congress, other Federal agencies, industry groups, and citizens. The informal partnerships established with Federal, State, local government, and industry groups are key to the reliability and tracking of environmental cleanup data and ultimate protection of human health and the environment. SEMS is an adaptive and tailored technical solution that is transforming the Superfund program by improving operational effectiveness, reducing costs, streamlining business processes, and enhancing information management capabilities. The solution serves as a model for how the Federal Government serves the public, the regulated community and partner agencies alike.
+      
+      The SEMS NPL [R2] GIS layer and SEMS NON NPL [R2] GIS layer are generated as the ArcGIS 10.5  [EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P] and [EPA_FACILITIES_PROJECTED_R2_SEMS_NON_NPL_P] POINT Feature Classes hosted in the R2 SQLServer 2016 geodatabase. The SEMS NPL [R2] layer contains only SEMS site records FOR R2 NPL sites. This GIS layer only has R2 SEMS records with the following NPL_STATUS designations:  'CURRENTLY ON FINAL NPL', 'DELETED FROM FINAL NPL', 'PROPOSED FOR NPL'. 
+      
+The SEMS NON NPL [R2] GIS layer only has unique R2 SEMS records with best available coordinates that are not included in the NPL layer as well as those records that do not have the Non_NPL_Status values of "Not a valid site or incident". There are 4310 records in this layer and 90 do not have coordinates.  
+      
+All data for EPA Region 2 SEMS layers are extracted from the SEMS database via the Oracle BI  Ad Hoc Query function. Tables queried are the SUPERFUND UNIVERSE. Geographic Coordinate table and SUPERFUND. Site table on a quarterly basis. This data as a tab delimited text file is then brought into our SQLServer 2012 database via a bulk insert operation. The locational data in this SEMS SQL Server table then undergoes two stages of automated data prep due to reversed coordinates, unsigned longitude, incorrectly located decimal points and datums that don't correspond to collection_methods where both exist. Users should keep in mind that much of the locational data for the NON NPL sites was acquired years ago without verification and should be used with caution. 
+
+Both our Region 2 NPL and NON NPL GIS layers include an ArcGIS relationship class (many to one on SITE_ID) with the look-up table R2_SEMS_SCAP_SITE_OU. This table provides information on any associated OPERARABLE UNITS at the Site of concern, usually an NPL Site. During cleanup, a site can be divided into a number of distinct areas depending on its complexity. These areas, called operable units (OUs), may address geographic areas, specific problems, or areas where a specific action is required. Examples of typical operable units include construction of a groundwater pump and treatment system or construction of a cap over a landfill.</abstract>
+      <purpose>Purpose: The EPA requires a wide variety of data to support environmental analysis and decision making. Envirofacts - Facility Registry System (FRS) is a publicly accessible single point of access to select U.S. EPA environmental data. In Region 2 (New York, New Jersey, Puerto Rico and the United States Virgin Islands), GIS staff worked closely with EPA entities and other organizations at the local, state and federal levels to share or jointly develop critical data sets for environmental analysis.</purpose>
+    </descript>
+    <accconst>None</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+    <secinfo>
+      <secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+          <cntper>Bob Simpson</cntper>
+        </cntperp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>290 Broadway</address>
+          <city>New York</city>
+          <state>NY </state>
+          <postal>10007</postal>
+        </cntaddr>
+        <cntvoice>(212) 637-3335</cntvoice>
+        <cntfax>(212) 637-3358</cntfax>
+        <cntemail>r2gisdata@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region02/</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <spdom>
+      <bounding>
+        <westbc>-84.664776</westbc>
+        <eastbc>66.621684</eastbc>
+        <northbc>90.000000</northbc>
+        <southbc>-29.475014</southbc>
+      </bounding>
+    </spdom>
+  </idinfo>
+  <dataqual>
+    <logic>Tests for integrity have not been performed.</logic>
+    <complete>Features represented have not been tested for completeness</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>20180420</procdate>
+        <procdesc>SEMS Oracle Business Objects based Ad Hoc Report for R2 Supefund Sites</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+              <cntper>Bob Simpson</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>290 Broadway</address>
+              <city>New York</city>
+              <state>NY </state>
+              <postal>10007</postal>
+            </cntaddr>
+            <cntvoice>(212) 637-3335</cntvoice>
+            <cntfax>(212) 637-3358</cntfax>
+            <cntemail>r2gisdata@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region02/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>20180420</procdate>
+        <procdesc>Bulk Insert of OBI Report to SQL Server 2016 Geodatabase</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+              <cntper>Bob Simpson</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>290 Broadway</address>
+              <city>New York</city>
+              <state>NY </state>
+              <postal>10007</postal>
+            </cntaddr>
+            <cntvoice>(212) 637-3335</cntvoice>
+            <cntfax>(212) 637-3358</cntfax>
+            <cntemail>r2gisdata@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region02/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>20180420</procdate>
+        <procdesc>Date Prep and Data Manipulation via SQLServer Stored Procedures</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+              <cntper>Bob Simpson</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>290 Broadway</address>
+              <city>New York</city>
+              <state>NY </state>
+              <postal>10007</postal>
+            </cntaddr>
+            <cntvoice>(212) 637-3335</cntvoice>
+            <cntfax>(212) 637-3358</cntfax>
+            <cntemail>r2gisdata@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region02/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>20180420</procdate>
+        <procdesc>Harmonize Geographic Datums to GCS-WGS84 and Project in R2ALBERS via ArcGIS Model Builder workflow.</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+              <cntper>Bob Simpson</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>290 Broadway</address>
+              <city>New York</city>
+              <state>NY </state>
+              <postal>10007</postal>
+            </cntaddr>
+            <cntvoice>(212) 637-3335</cntvoice>
+            <cntfax>(212) 637-3358</cntfax>
+            <cntemail>r2gisdata@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region02/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>20180420</procdate>
+        <procdesc>Inclusion of NPL and NON NPL GIS layers in our R2GIS Data Navigator.</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+              <cntper>Bob Simpson</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>290 Broadway</address>
+              <city>New York</city>
+              <state>NY </state>
+              <postal>10007</postal>
+            </cntaddr>
+            <cntvoice>(212) 637-3335</cntvoice>
+            <cntfax>(212) 637-3358</cntfax>
+            <cntemail>r2gisdata@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region02/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>20180420</procdate>
+        <procdesc>Publis and host  NPL and NON NPL GIS layers as Web Mapping Services  using ArcGIS for Server 2016 in GCS-WGS84 	</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+              <cntper>Bob Simpson</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>290 Broadway</address>
+              <city>New York</city>
+              <state>NY </state>
+              <postal>10007</postal>
+            </cntaddr>
+            <cntvoice>(212) 637-3335</cntvoice>
+            <cntfax>(212) 637-3358</cntfax>
+            <cntemail>r2gisdata@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region02/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <distinfo>
+    <resdesc>Monthly refreshed EPA R2  Regulatory Data and Maps</resdesc>
+    <distliab>Although these data have been processed successfully on a computer system at the Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+          <cntper>Bob Simpson</cntper>
+        </cntperp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>290 Broadway</address>
+          <city>New York</city>
+          <state>NY </state>
+          <postal>10007</postal>
+        </cntaddr>
+        <cntvoice>(212) 637-3335</cntvoice>
+        <cntfax>(212) 637-3358</cntfax>
+        <cntemail>r2gisdata@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region02/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20220303</metd>
+    <metfrd>20220420</metfrd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+          <cntper>Bob Simpson</cntper>
+        </cntperp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>290 Broadway</address>
+          <city>New York</city>
+          <state>NY </state>
+          <postal>10007</postal>
+        </cntaddr>
+        <cntvoice>(212) 637-3335</cntvoice>
+        <cntfax>(212) 637-3358</cntfax>
+        <cntemail>r2gisdata@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region02/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.0.12790</envirDesc>
+    <dataLang>
+      <languageCode value="eng" Sync="TRUE"/>
+      <countryCode value="USA" Sync="TRUE"/>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P</resTitle>
+      <presForm>
+        <PresFormCd value="005" Sync="TRUE"/>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd value="001" Sync="TRUE"/>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="search">
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+          <westBL Sync="TRUE">-84.664776</westBL>
+          <eastBL Sync="TRUE">66.621684</eastBL>
+          <northBL Sync="TRUE">90.000000</northBL>
+          <southBL Sync="TRUE">-29.475014</southBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode value="eng" Sync="TRUE"/>
+    <countryCode value="USA" Sync="TRUE"/>
+  </mdLang>
+  <Esri>
+    <DataProperties>
+      <itemProps>
+        <itemName Sync="TRUE">dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P</itemName>
+        <imsContentType Sync="TRUE">002</imsContentType>
+        <nativeExtBox>
+          <westBL Sync="TRUE">-673785.931100</westBL>
+          <eastBL Sync="TRUE">11459128.526400</eastBL>
+          <southBL Sync="TRUE">-1393390.002700</southBL>
+          <northBL Sync="TRUE">6382760.195300</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+        <relatedItems>
+          <item>
+            <itemName/>
+          </item>
+          <item>
+            <itemName Sync="TRUE">dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_RELATE_SEMS_SCAP_SITE_OU</itemName>
+            <itemType Sync="TRUE">Relationship</itemType>
+          </item>
+        </relatedItems>
+        <itemLocation>
+          <linkage Sync="TRUE">Server=x0202tnypksql1; Service=sde:sqlserver:x0202tnypksql1\gis; Database=dynamic; User=r2gis; Version=sde.DEFAULT</linkage>
+          <protocol Sync="TRUE">ArcSDE Connection</protocol>
+        </itemLocation>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Projected</type>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+        <projcsn Sync="TRUE">R2_Contiguous_Albers_Equal_Area_Conic</projcsn>
+        <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.8'&gt;&lt;WKT&gt;PROJCS[&amp;quot;R2_Contiguous_Albers_Equal_Area_Conic&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-72.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,18.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,42.0],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,30.0],UNIT[&amp;quot;Meter&amp;quot;,1.0]]&lt;/WKT&gt;&lt;XOrigin&gt;-19246600&lt;/XOrigin&gt;&lt;YOrigin&gt;-8202200&lt;/YOrigin&gt;&lt;XYScale&gt;10000&lt;/XYScale&gt;&lt;ZOrigin&gt;0&lt;/ZOrigin&gt;&lt;ZScale&gt;1&lt;/ZScale&gt;&lt;MOrigin&gt;0&lt;/MOrigin&gt;&lt;MScale&gt;1&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+      </coordRef>
+      <lineage>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20190708" Time="103104">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20190708" Time="103106">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20190813" Time="112143">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20190813" Time="112144">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20191007" Time="104610">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20191007" Time="104611">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20191105" Time="101021">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20191105" Time="101023">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20200113" Time="104857">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200113" Time="104859">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20200408" Time="115311">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200408" Time="115313">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20200610" Time="105821">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200610" Time="105823">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20200710" Time="102514">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200710" Time="102516">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20200803" Time="144254">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200803" Time="144256">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20200803" Time="145851">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200803" Time="145853">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20200904" Time="094743">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20200904" Time="094744">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20201007" Time="145914">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20201007" Time="145916">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20201202" Time="170701">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20201202" Time="170703">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20201203" Time="110301">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20201203" Time="110303">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20210105" Time="173509">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20210105" Time="173511">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20210217" Time="172555">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20210217" Time="172557">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20210408" Time="141935">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20210408" Time="141936">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20210504" Time="170330">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20210504" Time="170331">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20210615" Time="154219">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20210615" Time="154220">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20210615" Time="155641">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20210615" Time="155643">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20210707" Time="114748">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20210707" Time="114750">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20210803" Time="092050">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20210803" Time="092052">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20210908" Time="123930">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20210908" Time="123932">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20210908" Time="125915">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20210908" Time="125916">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20211013" Time="113650">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20211013" Time="113653">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20211109" Time="093019">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20211109" Time="093021">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20211208" Time="162420">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20211208" Time="162422">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20220103" Time="123311">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20220103" Time="123313">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20220209" Time="163006">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20220209" Time="163008">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+        <Process Name="Truncate Table (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\TruncateTable" Date="20220302" Time="174855">TruncateTable "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P"</Process>
+        <Process Name="Append (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20220302" Time="174856">Append R2_SEMS_SITES_ALL_MODEL_NPL_P "Database Connections\Connection to x0202tnypksql1_r2gis-dynamic.sde\dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P" TEST # #</Process>
+      </lineage>
+    </DataProperties>
+    <SyncDate>20211029</SyncDate>
+    <SyncTime>12544500</SyncTime>
+    <ModDate>20211029</ModDate>
+    <ModTime>12544500</ModTime>
+  </Esri>
+  <distInfo>
+    <distFormat>
+      <formatName Sync="TRUE">SDE Feature Class</formatName>
+    </distFormat>
+  </distInfo>
+  <mdHrLv>
+    <ScopeCd value="005" Sync="TRUE"/>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode code="0" Sync="TRUE"/>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs Name="dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P">
+        <geoObjTyp>
+          <GeoObjTypCd value="004" Sync="TRUE"/>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">302</geoObjCnt>
+      </geometObjs>
+      <topLvl>
+        <TopoLevCd value="001" Sync="TRUE"/>
+      </topLvl>
+    </VectSpatRep>
+  </spatRepInfo>
+  <spdoinfo>
+    <ptvctinf>
+      <esriterm Name="dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom code="1" Sync="TRUE"/>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">302</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed Name="dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P">
+      <enttyp>
+        <enttypl Sync="TRUE">dynamic.R2GIS.EPA_FACILITIES_PROJECTED_R2_SEMS_NPL_P</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">302</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">OBJECTID</attrlabl>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">Esri</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">REGION</attrlabl>
+        <attalias Sync="TRUE">REGION</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STATE</attrlabl>
+        <attalias Sync="TRUE">STATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CONGR_DISTRICT</attrlabl>
+        <attalias Sync="TRUE">CONGR_DISTRICT</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SITE_ID</attrlabl>
+        <attalias Sync="TRUE">SITE_ID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EPA_ID</attrlabl>
+        <attalias Sync="TRUE">EPA_ID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SITE_NAME</attrlabl>
+        <attalias Sync="TRUE">SITE_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NPL_STATUS_CODE</attrlabl>
+        <attalias Sync="TRUE">NPL_STATUS_CODE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NPL_STATUS</attrlabl>
+        <attalias Sync="TRUE">NPL_STATUS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">30</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NON_NPL_STATUS</attrlabl>
+        <attalias Sync="TRUE">NON_NPL_STATUS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NPL_COORDINATE_FLAG</attrlabl>
+        <attalias Sync="TRUE">NPL_COORDINATE_FLAG</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PRIMARY_FLAG</attrlabl>
+        <attalias Sync="TRUE">PRIMARY_FLAG</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FEDERAL_FACILITY_FLAG</attrlabl>
+        <attalias Sync="TRUE">FEDERAL_FACILITY_FLAG</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SITE_DISCOVERY_DATE</attrlabl>
+        <attalias Sync="TRUE">SITE_DISCOVERY_DATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">REMOVAL_INITIATION_DATE</attrlabl>
+        <attalias Sync="TRUE">REMOVAL_INITIATION_DATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STREET_ADDRESS</attrlabl>
+        <attalias Sync="TRUE">STREET_ADDRESS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STREET_ADDRESS_LINE2</attrlabl>
+        <attalias Sync="TRUE">STREET_ADDRESS_LINE2</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CITY</attrlabl>
+        <attalias Sync="TRUE">CITY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ZIP_CODE</attrlabl>
+        <attalias Sync="TRUE">ZIP_CODE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COUNTY</attrlabl>
+        <attalias Sync="TRUE">COUNTY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LATITUDE_DECIMAL_VALUE</attrlabl>
+        <attalias Sync="TRUE">LATITUDE_DECIMAL_VALUE</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LONGITUDE_DECIMAL_VALUE</attrlabl>
+        <attalias Sync="TRUE">LONGITUDE_DECIMAL_VALUE</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COLLECTION_METHOD</attrlabl>
+        <attalias Sync="TRUE">COLLECTION_METHOD</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">REFERENCE_DATUM</attrlabl>
+        <attalias Sync="TRUE">REFERENCE_DATUM</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">REFERENCE_POINT</attrlabl>
+        <attalias Sync="TRUE">REFERENCE_POINT</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COLLECTION_DATE</attrlabl>
+        <attalias Sync="TRUE">COLLECTION_DATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CREATED_DATE</attrlabl>
+        <attalias Sync="TRUE">CREATED_DATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">UNIQUE_ID</attrlabl>
+        <attalias Sync="TRUE">UNIQUE_ID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SEQNUM</attrlabl>
+        <attalias Sync="TRUE">SEQNUM</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SOURCE_FILE</attrlabl>
+        <attalias Sync="TRUE">SOURCE_FILE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SOURCE_DATE</attrlabl>
+        <attalias Sync="TRUE">SOURCE_DATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RUN_DATE</attrlabl>
+        <attalias Sync="TRUE">RUN_DATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">REF_SITE_DISCOVERY_DATE</attrlabl>
+        <attalias Sync="TRUE">REF_SITE_DISCOVERY_DATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">REF_REMOVAL_INITIATION_DATE</attrlabl>
+        <attalias Sync="TRUE">REF_REMOVAL_INITIATION_DATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LAT_EDIT</attrlabl>
+        <attalias Sync="TRUE">LAT_EDIT</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LON_EDIT</attrlabl>
+        <attalias Sync="TRUE">LON_EDIT</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">DATUM_EDIT</attrlabl>
+        <attalias Sync="TRUE">DATUM_EDIT</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LON_WGS84</attrlabl>
+        <attalias Sync="TRUE">LON_WGS84</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LAT_WGS84</attrlabl>
+        <attalias Sync="TRUE">LAT_WGS84</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">Esri</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdDateSt Sync="TRUE">20211029</mdDateSt>
+</metadata>

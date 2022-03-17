@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <PublishedDocID>{1B41276A-6B5E-4838-A39D-A42B22028C3D}</PublishedDocID>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubinfo>
+          <publish>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</publish>
+          <pubplace>Washington, DC</pubplace>
+        </pubinfo>
+        <pubdate>20130114</pubdate>
+        <title>ROE Wet Sulfate Deposition 2009-2011</title>
+        <origin>U.S. Environmental Protection Agency</origin>
+        <onlink>https://www.epa.gov/roe/</onlink>
+      </citeinfo>
+    </citation>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness, and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of EPA would be appreciated.</useconst>
+    <descript>
+      <purpose>These data were created to be used for the U.S. Environmental Protection Agency's Report on the Environment website.</purpose>
+      <abstract>The raster data represent the amount of wet sulfate deposition in kilograms per hectare from 2009 to 2011. Summary data in this indicator were provided by EPA&#226;??s Office of Atmospheric Programs. Wet deposition data are from the National Atmospheric Deposition Program/National Trends Network (NADP, 2012) (https://nadp.sws.uiuc.edu/). This indicator aggregates data across 3-year periods to avoid influences from short-term fluctuations in meteorological conditions, and wet deposition data were interpolated among monitoring stations to generate the map shown.
+
+      </abstract>
+    </descript>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+      </theme>
+    </keywords>
+    <timeperd>
+      <current>Publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20130114</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-151.682999</westbc>
+        <eastbc>-64.796204</eastbc>
+        <northbc>66.905997</northbc>
+        <southbc>18.320601</southbc>
+      </bounding>
+    </spdom>
+    <secinfo>
+      <secsys>FIPS Pub 199</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>https://www.epa.gov/roe/</cntinst>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Tests for integrity have not been performed.</logic>
+    <complete>Features represented have not been tested for completeness.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at https://epa.gov/geospatial/policies.html.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>20130114</procdate>
+        <procdesc>Data were projected into Web Mercator (auxiliary sphere) for use in Web maps for the ROE website.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <distinfo>
+    <resdesc>Live Data and Maps</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>https://www.epa.gov/roe/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20220121</metd>
+    <metfrd>20170114</metfrd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>https://www.epa.gov/roe/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>WetSulfateDeposition_2009_2011</enttypl>
+        <enttypd>ESRI Geodatabase Feature Class</enttypd>
+        <enttypds>Innovate</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Area</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SO4_D_0810</attrlabl>
+        <attrdef>Sulfate Deposition 0810</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SO4_D__811</attrlabl>
+        <attrdef>Sulfate Deposition 811</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SITE_ID</attrlabl>
+        <attrdef>Site ID</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LATITUDE</attrlabl>
+        <attrdef>Latitude</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LONGITUDE</attrlabl>
+        <attrdef>Longitude</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SO4_D</attrlabl>
+        <attrdef>Sulfate deposition</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CNT</attrlabl>
+        <attrdef>Count</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>POLYGONID</attrlabl>
+        <attrdef>Polygon ID</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SCALE</attrlabl>
+        <attrdef>Scale</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ANGLE</attrlabl>
+        <attrdef>Angle</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<Esri>
+		<PublishedDocID>{7c44dad0-98aa-45ee-8011-4e3d2332c5c7}</PublishedDocID>
+	</Esri>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EPA GIS Keyword Thesaurus</themekt>
+				<themekey>Ecosystem</themekey>
+				<themekey>Environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EnviroAtlas</themekt>
+				<themekey>Ecosystem Services</themekey>
+				<themekey>EnviroAtlas</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Environmental Atlas</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Alabama</placekey>
+				<placekey>Arizona</placekey>
+				<placekey>Arkansas</placekey>
+				<placekey>California</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>Connecticut</placekey>
+				<placekey>Delaware</placekey>
+				<placekey>Florida</placekey>
+				<placekey>Georgia</placekey>
+				<placekey>Idaho</placekey>
+				<placekey>Illinois</placekey>
+				<placekey>Indiana</placekey>
+				<placekey>Iowa</placekey>
+				<placekey>Kansas</placekey>
+				<placekey>Kentucky</placekey>
+				<placekey>Louisiana</placekey>
+				<placekey>Maine</placekey>
+				<placekey>Maryland</placekey>
+				<placekey>Massachusetts</placekey>
+				<placekey>Michigan</placekey>
+				<placekey>Minnesota</placekey>
+				<placekey>Mississippi</placekey>
+				<placekey>Missouri</placekey>
+				<placekey>Montana</placekey>
+				<placekey>Nebraska</placekey>
+				<placekey>Nevada</placekey>
+				<placekey>New Hampshire</placekey>
+				<placekey>New Jersey</placekey>
+				<placekey>New Mexico</placekey>
+				<placekey>New York</placekey>
+				<placekey>North Carolina</placekey>
+				<placekey>North Dakota</placekey>
+				<placekey>Ohio</placekey>
+				<placekey>Oklahoma</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>Pennsylvania</placekey>
+				<placekey>Rhode Island</placekey>
+				<placekey>South Carolina</placekey>
+				<placekey>South Dakota</placekey>
+				<placekey>Tennessee</placekey>
+				<placekey>Texas</placekey>
+				<placekey>United States</placekey>
+				<placekey>Utah</placekey>
+				<placekey>Vermont</placekey>
+				<placekey>Virginia</placekey>
+				<placekey>Washington</placekey>
+				<placekey>Washington DC</placekey>
+				<placekey>West Virginia</placekey>
+				<placekey>Wisconsin</placekey>
+				<placekey>Wyoming</placekey>
+			</place>
+			<theme>
+				<themekt>User</themekt>
+				<themekey>12-digit HUCs</themekey>
+				<themekey>Contaminant</themekey>
+				<themekey>Drinking Water</themekey>
+				<themekey>Ecosystem Services</themekey>
+				<themekey>EnviroAtlas</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Environmental Atlas</themekey>
+				<themekey>Ground Water</themekey>
+				<themekey>Modeling</themekey>
+				<themekey>Surface Water</themekey>
+				<themekey>Water</themekey>
+			</theme>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Environmental Protection Agency (US EPA)</origin>
+				<title>EnviroAtlas - Predicted drinking water nitrate violations by 12-Digit HUC for the Conterminous United States</title>
+				<pubinfo>
+					<publish>U.S. EPA Office of Research and Development (ORD) - National Exposure Research Laboratory (NERL)</publish>
+					<pubplace>Research Triangle Park, NC</pubplace>
+				</pubinfo>
+				<pubdate>20201229</pubdate>
+				<onlink>https://edg.epa.gov/data/PUBLIC/ORD/ENVIROATLAS/National</onlink>
+				<onlink>https://enviroatlas.epa.gov/arcgis/rest/services/National/National2017_metrics/MapServer</onlink>
+				<onlink>https://www.epa.gov/enviroatlas/enviroatlas-data</onlink>
+				<onlink>https://www.epa.gov/enviroatlas</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>Ground condition</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>2013-2017, 2011</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-128.028392</westbc>
+				<eastbc>-65.203364</eastbc>
+				<northbc>51.677360</northbc>
+				<southbc>22.734889</southbc>
+			</bounding>
+		</spdom>
+		<accconst>None</accconst>
+		<useconst>None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</useconst>
+		<descript>
+			<abstract>This map displays predicted probability of a 12-digit Hydrologic Unit (HUC12) being at risk of violating the drinking water nitrate standard. Risk is defined as there being greater than a 50% chance of having a drinking water violation. Observed violations of the nitrate standard in public drinking water was used to make predictions across the conterminous United States. The data on nitrate violations comes from the EPA's Safe Drinking Water Information System (SDWIS) and the data used as predictor variables in the prediction models comes from EPA's StreamCat database. The original predictions were made at the National Hydrography Dataset (NHD) Catchment scale and summarized at the HUC12 scale and/or 300 m pixel scale. The maps show that 19% of the conterminous United States is at risk of groundwater sourced drinking violations, while 16% of the U.S. is at risk of nitrate violations from surface water sources. Regions with the highest risk of nitrate drinking violations from groundwater sources are found in the southwest, south central plains, parts of north west, mid-Atlantic. Surface water sourced nitrate violations have the greatest risk primarily in the southwest and south-central areas of the U.S. This dataset was produced by the US EPA to support research and online mapping activities related to EnviroAtlas. EnviroAtlas (https://www.epa.gov/enviroatlas) allows the user to interact with a web-based, easy-to-use, mapping application to view and analyze multiple ecosystem services for the contiguous United States. The dataset is available as downloadable data (https://edg.epa.gov/data/Public/ORD/EnviroAtlas) or as an EnviroAtlas map service. Additional descriptive information about each attribute in this dataset can be found in its associated EnviroAtlas Fact Sheet (https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets).</abstract>
+			<purpose>This map can inform decisions of EPA's Office of Water and the Regions and States, NGOs and others throughout the U.S. involved in environmental management and protections activities. Specifically, the map predictions can help drinking water managers better target which systems or which states and regions need improved drinking water treatment or source water protection measures, to reduce the likelihood of drinking water violations, and thereby possibly reducing health impacts. The overall goal of EnviroAtlas is to employ and develop the best available science to map indicators of ecosystem services production, demand, and drivers for the nation.</purpose>
+			<supplinf>EnviroAtlas uses the best data available, but there are still limitations associated with these data. These data are based on models and large national geospatial databases. Calculations based on these data are estimations of the truth founded on the best available science. The percentage of catchments correctly classified by the random forest model was 79% for ground water (GW) public water systems and 90% for surface water (SW) public water systems, for the conterminous U.S. (CONUS), but this varied geographically. Typically, performance was better in areas with lower violation risk, such as the south east, north east, and parts of lower Mississippi watershed, but had greater false positive predictions in regions with higher violation risk. The predictions of nitrate violations and concentrations is not based on ambient surface or groundwater data, but "finished" water in drinking water systems that is ready to be distributed to the public. This means that there is not necessarily a direct relationship between environmental variables and nitrate concentration or violation data, due to the possibility that the source water has been treated. Additionally, the models used to create the map were only able to incorporate environmental or geologic factors in its predictions, and was not able to include "engineered" factors within the drinking water treatment plant (e.g., ability of a public water system (PWS) operator to switch to or mix with other water sources, use improved treatment technologies, or use other management strategies). This may explain why some regions had false positives (i.e. low observed nitrate violations but high predicted violation risk), due to the presence of nitrate treatment technologies helping to reduce the violation rate in the presence of environmental factors that create high risk. Lastly, it should be noted that the model predictions of drinking water nitrate concentrations were only made for NHD catchments that were predicted to have &gt;0.5 probability of having a nitrate violation, in the random forest classification model.</supplinf>
+		</descript>
+		<secinfo>
+			<secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+			<secclass>public</secclass>
+			<sechandl>Standard Technical Controls</sechandl>
+		</secinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development-Sustainable and Healthy Communities Research Program, EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntperp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<logic>Tests for integrity have not been performed.</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>20170101</procdate>
+				<procdesc>Obtained drinking water facility point location coordinates from EPA's Office of Water (Renee Morris at Office of Water).</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180101</procdate>
+				<procdesc>Obtained the model response variable: drinking water nitrate violations dataset from SDWIS (https://ofmpub.epa.gov/apex/sfdw/f?p=108:1:0::NO::P1_REPORT:WS).</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180105</procdate>
+				<procdesc>Downloaded predictor variables from StreamCat Website (which includes land use, geology, soil, weather, etc. (https://www.epa.gov/national-aquatic-resource-surveys/streamcat-dataset-0).</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180108</procdate>
+				<procdesc>Created the predictor variables for aquifer type by downloading the "us_aquifers" shapefile from the U.S. Geological Survey (USGS) (https://water.usgs.gov/GIS/metadata/usgswrd/XML/aquifers_us.xml#Top) and summarizing percent aquifer type (e.g. % sandstone, % semiconsolidated sand aquifers) per NHD catchment.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180112</procdate>
+				<procdesc>Calculated the predictor variable water input (kg2/cm): ratio of agricultural land that is irrigated divided by mean annual precipitation. Irrigation Data was obtained from: https://www.agcensus.usda.gov/Publications/2012/Full_Report/Volume_1,_Chapter_2_County_Level/. Percent irrigation on agricultural lands per catchment was calculated using the U.S. Department of Agriculture (USDA) agricultural census data allocated to National Land Cover Dataset (NLCD) agricultural lands (https://www.mrlc.gov/data).</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180112</procdate>
+				<procdesc>Calculated the predictor variable mean percent hillslope per catchment based on NHDPlusV2 elevation rasters (from here: https://www.epa.gov/waterdata/get-nhdplus-national-hydrography-dataset-plus-data).</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180116</procdate>
+				<procdesc>Calculated the predictor variable Hortonian Overland Flow per catchment, using zonal statistics, based on a raster from: https://water.usgs.gov/GIS/metadata/usgswrd/XML/gwava-dw_hor.xml</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180117</procdate>
+				<procdesc>Calculated the predictor variable precipitation surplus (precipitation minus evapotranspiration) for each NHD catchment and watershed using mean monthly precipitation and temperature data (1994-2016) from: http://www.prism.oregonstate.edu/</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180218</procdate>
+				<procdesc>Calculated the predictor variable NHD slope (longitudinally) along each stream within a catchment using data within NHDplusV2 (https://www.epa.gov/waterdata/nhdplus-national-hydrography-dataset-plus). Slope is calculated as the max elevation minus the min elevation divided by the stream length (with the following NHDPlusV2 variables: SlopeLenKm, MinElevSmo, MaxElevSmo.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180118</procdate>
+				<procdesc>Calculated the predictor variable density of septic systems per NHDPlusV2 catchment, based on 1991 Census dataset with number of septic systems per county (https://www.census.gov/main/www/cen1990.html).</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180129</procdate>
+				<procdesc>Calculated the predictor variable total fresh surface-water withdrawals in agricultural land per catchment area (L/day). Downloaded Excel File of USGS Water Use data for 2010 (https://water.usgs.gov/watuse/data/2010). Calculate the number of 30m-by-30m pixels that are agriculture per county. Merge withdrawal data with number of pixels per county and calculate withdrawal as mgd per pixel - by dividing the withdrawal per county by the number of pixels in each county. Use Raster Calculator (spatial analyst) to multiply the raster by agricultural NLCD raster to allocate withdrawal data to just agricultural land to produce final raster.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180612</procdate>
+				<procdesc>Calculated the predictor variable surface water nitrogen flux (kg N per HUC12 watershed) and summarized these values at the NHD catchment scale.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180710</procdate>
+				<procdesc>Calculated the predictor variable Nitrogen Surplus (kg N / yr) per catchment (excluding biological N Fixation), based on methods of Sabo et al. 2019 Journal of Geophysical Research (JGR) Biogeosciences. N surplus is the sum of agricultural fertilizer, urban fertilizer, total nitrogen deposition, combined biological nitrogen fixation (CBNF), N inputs from manure, and human waste N, minus crop N removal. All variables were obtained or calculated from StreamCat variables, except urban fertilizer and crop N removal. Based on Sabo et al. 2019 JGR Biogeosciences, human waste = 4.7 * population density. Crop N removal per catchment is calculated using the N crop removal per county dataset from http://nugis.ipni.net/About%20NuGIS/, and allocating the crop removal values to agricultural lands only, using NLCD 2011 (values 81 and 82) data (https://www.mrlc.gov/data). Urban fertilizer per catchment was based off county level data (https://www.sciencebase.gov/catalog/item/5851b2d1e4b0f99207c4f238) that was allocated to developed lands based on NLCD 2011 data values (21, 22, 23) and then converted to a raster summarize the values per catchment and watershed.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180711</procdate>
+				<procdesc>Calculated predictor variables based on 2010 Census block group data (e.g. median household income, percent with high school education, etc.) by summarizing the block group data at the NHDplusV2 catchment scale.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180711</procdate>
+				<procdesc>Calculated the predictor variable Net Anthropogenic Nitrogen (NANI) within catchments, based on the sum of farm fertilizer, urban fertilizer, NOx deposition, combined biological nitrogen fixation (CBNF), Human and Livestock N demand, minus Livestock N content, and minus crop N removal. All variables were from existing StreamCat variables except urban fertilizer, human ans livestock food demand, and crop N removal. Based on Sabo et al. 2019 JGR Biogeosciences, Human N demand is calculated as population density by a constant 6.21, livestock N demand is calculated as manure N inputs times a constant 1.37, and livestock N content is calculated as one fourth of livestock N demand. Crop N removal per catchment is calculated using the N crop removal per county dataset from http://nugis.ipni.net/About%20NuGIS/, and allocating the crop removal values to agricultural lands only, using NLCD 2011 (values 81 and 82) data (https://www.mrlc.gov/data).</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180718</procdate>
+				<procdesc>Calculated the predictor variable wastewater treatment plants density per catchment (number/ km2). This data was obtained from: https://catalog.data.gov/dataset/epa-facility-registry-service-frs-wastewater-treatment-plants. The data was filtered down to just active WWTPs and then saved as either all, major, and minor WWTPs.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180720</procdate>
+				<procdesc>Obtained rock N (kg per square km) (N from rock weathering) from Ben Houlton (Houlton et al. 2018 in Science) as raster dataset and summarize rock N per NHD catchment.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20190721</procdate>
+				<procdesc>Downloaded treatment information from the Safe Drinking Water Information System (https://ofmpub.epa.gov/apex/sfdw/f?p=108:1:0::NO::P1_REPORT:WS) and summarized the number of public water systems with nitrate treatment technologies (e.g. reverse osmosis, ion exchange) per catchment. Note that SDWIS does not provide a complete list of sites with nitrate treatment technology, thus this predictor variable was not a complete dataset and was not used in the full model.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180801</procdate>
+				<procdesc>All predictor variables were prepossessed to create raster layers in order to perform a type of zonal statistics (through the StreamCat algorithm) to average the variables per NHDPlusV2 catchment and upstream watershed.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180801</procdate>
+				<procdesc>Used drinking water facility information to calculate nitrate violations and mean concentrations per NHDPlusV2 catchment, which were used as response variables in the models.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180811</procdate>
+				<procdesc>Compiled and prepared predictor and response variable datasets for modeling.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180813</procdate>
+				<procdesc>Completed random forest classification modeling to make predictions of nitrate drinking water violation risk for all 2.6 million NHDPlusV2 catchments.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20180813</procdate>
+				<procdesc>Completed random forest regression modeling to make predictions of violation risk for all 2.6 million NHDPlusV2 catchments.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20181120</procdate>
+				<procdesc>Created a 300-meter raster from the catchment level predictions</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20190606</procdate>
+				<procdesc>Summarized model predictions at HUC12 scale.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200305</procdate>
+				<procdesc>Publish manuscript in STOTEN. Predicted probabilities (Pred_Viol_Prob_GW and Pred_Viol_Prob_SW) were calculated as the average of all catchment values within a HUC12. For predicted violation risks (Pred_Viol_Risk_GW and Pred_Viol_Risk_SW), the most frequent category within a HUC12 was used. </procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<plandu>meters</plandu>
+					<coordrep>
+						<absres>0.000001</absres>
+						<ordres>0.000001</ordres>
+					</coordrep>
+				</planci>
+				<mapproj>
+					<mapprojn>Albers Conical Equal Area</mapprojn>
+					<albers>
+						<stdparll>29.500000</stdparll>
+						<stdparll>45.500000</stdparll>
+						<longcm>-96.000000</longcm>
+						<latprjo>23.000000</latprjo>
+						<feast>0.000000</feast>
+						<fnorth>0.000000</fnorth>
+					</albers>
+				</mapproj>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development-Sustainable and Healthy Communities Research Program, EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metd>20210831</metd>
+		<metfrd>20250122</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development-Sustainable and Healthy Communities Research Program, EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>DrinkingWaterNitratePredictions_CONUS</enttypl>
+				<enttypd>Predicted drinking water nitrate violations by 12-Digit HUC for the Conterminous United States</enttypd>
+				<enttypds>Entity definition source</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>HUC_12</attrlabl>
+				<attrdef>Twelve Digit Hydrologic Unit Code. This field provides a unique 12-digit code for each subwatershed. Numbers were assigned in an upstream to downstream fashion. Where no downstream/upstream relationship could be determined, numbers were assigned in a clockwise fashion.</attrdef>
+				<attrdefs>Federal Guidelines, Requirements, and Procedures for the National Watershed Boundary Dataset; Chapter 3 of Section A; Federal Standards, Book 11, Collection and Delineation of Spatial Data; Techniques and Methods 11-A3.</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>010000000000</rdommin>
+						<rdommax>999999999999</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Pred_Viol_Prob_GW</attrlabl>
+				<attrdef>Values between 0 and 1 represent the predicted probability of a nitrate violation, where values &gt; 0.5 have a greater probability or risk of violation for groundwater systems. Null indicates missing data.</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>1</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Pred_Viol_Prob_SW</attrlabl>
+				<attrdef>Values between 0 and 1 represent the predicted probability of a nitrate violation, where values &gt; 0.5 have a greater probability or risk of violation for surface water systems. Null indicates missing data.</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>1</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Pred_Viol_Risk_GW</attrlabl>
+				<attrdef>Predicted violation risk for groundwater systems. PWS = Public Water System(s). Null indicates missing data.</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-1</edomv>
+						<edomvd>Low Risk with PWS - Correct negative or correctly predicted HUCs non-violation</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>Low Risk without PWS - Predicted no violations in HUCs without public water systems</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>High Risk with PWS - False positive or predicting violations in HUCs with PWS, but not observed to be in violation</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>High Risk without PWS - predicted HUC to have violation, but the HUC has no PWS</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Observed Violators - correct positive or correctly predicted HUC to be in violation when its PWS were observed to be in violation</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Pred_Viol_Risk_SW</attrlabl>
+				<attrdef>Predicted violation risk for surface water systems. PWS = Public Water System(s). Null indicates missing data.</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-1</edomv>
+						<edomvd>Low Risk with PWS - Correct negative or correctly predicted HUCs non-violation</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>Low Risk without PWS - Predicted no violations in HUCs without public water systems</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>High Risk with PWS - False positive or predicting violations in HUCs with PWS, but not observed to be in violation</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>High Risk without PWS - predicted HUC to have violation, but the HUC has no PWS</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Observed Violators - correct positive or correctly predicted HUC to be in violation when its PWS were observed to be in violation</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eadetcit>https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets</eadetcit>
+			<eaover>Citation: Pennino, M. J., S. G. Leibowitz, J. E. Compton, Ryan A. Hill, and Robert A. Sabo. 2020. Predicting drinking water nitrate violations across the conterminous United States. Science of the Total Environment. 722. doi.org/10.1016/j.scitotenv.2020.137661. The original catchment data can be downloaded from https://www.sciencedirect.com/science/article/pii/S0048969720311724?via%3Dihub#ec-research-data.</eaover>
+		</overview>
+	</eainfo>
+</metadata>

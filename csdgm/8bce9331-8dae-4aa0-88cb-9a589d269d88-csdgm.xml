@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <PublishedDocID>{CFF66255-659B-4ABB-AD29-0B4C335CC2EA}</PublishedDocID>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubinfo>
+          <publish>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</publish>
+          <pubplace>Washington, DC</pubplace>
+        </pubinfo>
+        <pubdate>20130114</pubdate>
+        <title>ROE Ecoregions Data</title>
+        <origin>U.S. Environmental Protection Agency</origin>
+        <onlink>http://www.epa.gov/roe/</onlink>
+      </citeinfo>
+    </citation>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness, and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of EPA would be appreciated.</useconst>
+    <descript>
+      <purpose>These data were created to be used for the U.S. Environmental Protection Agency's Report on the Environment website.</purpose>
+      <abstract>
+        This web service layer group contains multiple layers at various scale dependencies which enhances the cartographic display of ecoregion data. Each layer depicts ecoregion features drawn at specific scales as detailed in the layer name. IMPORTANT information regarding proper legend rendering in ArcMap: Due to the limitations of Graphical Device Interface (GDI) resources per application on Windows, ArcMap does not display the legend in the Table of Contents for the ArcGIS Server service layer if the legend has more than 100 items. As of December 2011, there are 968 unique legend items in the Level IV Ecoregion Polygon legend. Follow this link (http://support.esri.com/en/knowledgebase/techarticles/detail/33741) for instructions about how to increase the maximum number of ArcGIS Server service layer legend items allowed for display in ArcMap. Note the instructions at this link provide a slightly incorrect path to "Maximum Legend Count". The correct path is HKEY_CURRENT_USER &gt; Software &gt; ESRI &gt; ArcMap &gt; Server &gt; MapServerLayer &gt; Maximum Legend Count. When editing the "Maximum Legend Count", update the field, "Value data" to 1000. To download a PDF version of the Level IV ecoregion map and legend, go to ftp://ftp.epa.gov/wed/ecoregions/us/Eco_Level_IV_US_pg.pdf. Please read the remainder of this layer description for general information about Level IV Omernik Ecoregions. This layer represents Level IV Omernik Ecoregions. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. Compilation of the level IV maps, performed at 1:250,000 scale, has been a part of collaborative projects between US Environmental Protection Agency, National Health and Environmental Effects Laboratory (NHEERL)--Corvallis, OR, the US Forest Service, Natural Resources Conservation Service, and a variety of other state and federal resource agencies. The ecoregions and subregions are designed to serve as a spatial framework for environmental resource management. The most immediate needs by the states are for developing regional biological criteria and water resource standards, and for setting management goals for nonpoint-source pollution. Level IV ecoregions are intended for large geographic extents (i.e. states, multiple counties, or river basins). Use for smaller areas, such as individual counties or a 1:24,000 scale map boundary, is not recommended. Explanation of the methods used to delineate the ecoregions are given in Omernik (1995), Griffith et al. (1994), and Gallant et al. (1989). For more information about Omernik ecoregions or to download ecoregion maps and GIS data, go to: http://www.epa.gov/wed/pages/ecoregions.htm.
+      </abstract>
+    </descript>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+      </theme>
+    </keywords>
+    <timeperd>
+      <current>Publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20100101</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-135.923076</westbc>
+        <eastbc>-55.478846</eastbc>
+        <northbc>53.006908</northbc>
+        <southbc>19.913981</southbc>
+      </bounding>
+    </spdom>
+    <secinfo>
+      <secsys>FIPS Pub 199</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/roe/</cntinst>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Tests for integrity have not been performed.</logic>
+    <complete>Features represented have not been tested for completeness.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>20130114</procdate>
+        <procdesc>Data were projected into Web Mercator (auxiliary sphere) for use in Web maps for the ROE website.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <distinfo>
+    <resdesc>Live Data and Maps</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/roe/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20220304</metd>
+    <metfrd>20170114</metfrd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/roe/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>VAT_WetSulfateDeposition_2009_2011Raster</enttypl>
+        <enttypd>ESRI Geodatabase Raster</enttypd>
+        <enttypds>Innovate</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Wet Sulfate Deposition Value</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef>Wet Sulfate Deposition Count</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

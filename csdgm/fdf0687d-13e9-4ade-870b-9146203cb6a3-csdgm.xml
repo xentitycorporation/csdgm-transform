@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <PublishedDocID>{235B12CF-9C83-47B8-B0BF-9AD89710F5C5}</PublishedDocID>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubinfo>
+          <publish>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</publish>
+          <pubplace>Washington, DC</pubplace>
+        </pubinfo>
+        <pubdate>20150401</pubdate>
+        <origin>U.S. Environmental Protection Agency</origin>
+        <title>ROE National Land Cover Data (NLCD)</title>
+        <onlink>https://www.epa.gov/roe/</onlink>
+      </citeinfo>
+    </citation>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness, and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</useconst>
+    <descript>
+      <purpose>These data were created to be used for the U.S. Environmental Protection Agency's Report on the Environment website.</purpose>
+      <abstract>This raster dataset comes from the National Land Cover Database (NLCD), 2011 version. It represents land cover across the contiguous 48 states, circa 2011. Each 30-meter-square pixel has been classified using a standard land cover classification scheme, and some of these categories have been aggregated further according to procedures outlined in EPA's Report on the Environment (www.epa.gov/roe). Data were originally processed and compiled by the Multi-Resolution Land Characteristics Consortium (MRLC), a U.S. federal inter-agency group, based on Landsat satellite imagery.</abstract>
+    </descript>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+      </theme>
+    </keywords>
+    <timeperd>
+      <current>publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150401</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-130.232828</westbc>
+        <eastbc>-63.671977</eastbc>
+        <northbc>52.877264</northbc>
+        <southbc>21.742250</southbc>
+      </bounding>
+    </spdom>
+    <secinfo>
+      <secsys>FIPS Pub 199</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>https://www.epa.gov/roe/</cntinst>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Tests for integrity have not been performed.</logic>
+    <complete>Features represented have not been tested for completeness.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at https://epa.gov/geospatial/policies.html.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>20150401</procdate>
+        <procdesc>Data were projected into Web Mercator (auxiliary sphere) for use in Web maps for the ROE website.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <distinfo>
+    <resdesc>Live data and maps</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>https://www.epa.gov/roe/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20220121</metd>
+    <metfrd>20190401</metfrd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>https://www.epa.gov/roe/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>NLCD</enttypl>
+        <enttypd>ESRI Geodatabase Raster</enttypd>
+        <enttypds>Innovate</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Value</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef>Count</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

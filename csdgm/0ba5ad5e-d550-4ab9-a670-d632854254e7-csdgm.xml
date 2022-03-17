@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<Esri>
+		<PublishedDocID>{6b37a605-0e72-48be-915e-7f9d09fb9ff2}</PublishedDocID>
+	</Esri>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EPA GIS Keyword Thesaurus</themekt>
+				<themekey>Ecosystem</themekey>
+				<themekey>Environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EnviroAtlas</themekt>
+				<themekey>Ecosystem Services</themekey>
+				<themekey>EnviroAtlas</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Environmental Atlas</themekey>
+				<themekey>Land Cover</themekey>
+				<themekey>Management</themekey>
+				<themekey>Riparian</themekey>
+				<themekey>Surface Water</themekey>
+				<themekey>Water</themekey>
+				<themekey>Wetlands</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Alabama</placekey>
+				<placekey>Arizona</placekey>
+				<placekey>Arkansas</placekey>
+				<placekey>California</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>Connecticut</placekey>
+				<placekey>Delaware</placekey>
+				<placekey>Florida</placekey>
+				<placekey>Georgia</placekey>
+				<placekey>Idaho</placekey>
+				<placekey>Illinois</placekey>
+				<placekey>Indiana</placekey>
+				<placekey>Iowa</placekey>
+				<placekey>Kansas</placekey>
+				<placekey>Kentucky</placekey>
+				<placekey>Louisiana</placekey>
+				<placekey>Maine</placekey>
+				<placekey>Maryland</placekey>
+				<placekey>Massachusetts</placekey>
+				<placekey>Michigan</placekey>
+				<placekey>Minnesota</placekey>
+				<placekey>Mississippi</placekey>
+				<placekey>Missouri</placekey>
+				<placekey>Montana</placekey>
+				<placekey>Nebraska</placekey>
+				<placekey>Nevada</placekey>
+				<placekey>New Hampshire</placekey>
+				<placekey>New Jersey</placekey>
+				<placekey>New Mexico</placekey>
+				<placekey>New York</placekey>
+				<placekey>North Carolina</placekey>
+				<placekey>North Dakota</placekey>
+				<placekey>Ohio</placekey>
+				<placekey>Oklahoma</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>Pennsylvania</placekey>
+				<placekey>Rhode Island</placekey>
+				<placekey>South Carolina</placekey>
+				<placekey>South Dakota</placekey>
+				<placekey>Tennessee</placekey>
+				<placekey>Texas</placekey>
+				<placekey>United States</placekey>
+				<placekey>Utah</placekey>
+				<placekey>Vermont</placekey>
+				<placekey>Virginia</placekey>
+				<placekey>Washington</placekey>
+				<placekey>Washington DC</placekey>
+				<placekey>West Virginia</placekey>
+				<placekey>Wisconsin</placekey>
+				<placekey>Wyoming</placekey>
+			</place>
+			<theme>
+				<themekt>User</themekt>
+				<themekey>Ecosystem Services</themekey>
+				<themekey>EnviroAtlas</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Environmental Atlas</themekey>
+				<themekey>Land Cover</themekey>
+				<themekey>Management</themekey>
+				<themekey>Riparian</themekey>
+				<themekey>Surface Water</themekey>
+				<themekey>Water</themekey>
+				<themekey>Wetlands</themekey>
+			</theme>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<origin>US Environmental Protection Agency (US EPA)</origin>
+				<title>EnviroAtlas - Watershed Index Online Riparian Zone Mask for the Conterminous United States</title>
+				<pubinfo>
+					<publish>U.S. EPA Office of Research &amp; Development (ORD) - National Exposure Research Laboratory (NERL)</publish>
+					<pubplace>Research Triangle Park, NC</pubplace>
+				</pubinfo>
+				<pubdate>20161130</pubdate>
+				<onlink>https://edg.epa.gov/data/public/ORD/EnviroAtlas/National/ConterminousUS/</onlink>
+				<onlink>https://enviroatlas.epa.gov/arcgis/rest/services</onlink>
+				<onlink>https://www.epa.gov/enviroatlas/enviroatlas-data</onlink>
+				<onlink>https://www.epa.gov/enviroatlas</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>Ground condition</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>2011</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-128.02839229</westbc>
+				<eastbc>-65.20336449</eastbc>
+				<northbc>51.6773602</northbc>
+				<southbc>22.7348894</southbc>
+			</bounding>
+		</spdom>
+		<accconst>None</accconst>
+		<useconst>None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+		<descript>
+			<abstract>The Riparian Zone Mask represents surface water in the United States and its estimated riparian zone. These areas were determined using grid analysis of an approximate 100 meter buffer placed around the combined surface water features of the Cropland Data Layer-National Land Cover Dataset 2011 (CDL-NLCD) and the 1:100,000 scale National Hydrography Dataset (NHD) Plus version 2. Features from CDL-NLCD included are 'Open Water' (code 11), 'Woody Wetlands' (code 90) and 'Emergent Herbaceous Wetlands' (code 95). The combination of these two datasets and all cells with a distance of 108 meters or less from surface water are included in the Riparian Zone (RZ). This dataset was produced by the US EPA to support research and online mapping activities related to EnviroAtlas and the Watershed Index Online (WSIO). EnviroAtlas (https://www.epa.gov/enviroatlas) allows the user to interact with a web-based, easy-to-use, mapping application to view and analyze multiple ecosystem services for the contiguous United States. The dataset is available as downloadable data (https://edg.epa.gov/data/Public/ORD/EnviroAtlas) or as an EnviroAtlas map service. Additional descriptive information about each attribute in this dataset can be found in its associated EnviroAtlas Fact Sheet (https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets).</abstract>
+			<purpose>This data was produced for the Watershed Index Online and Recovery Potential Screening Tools. It was used to summarize landscape information within riparian zones and create indicators of water quality. This data could be used in conjunction with other data to identify potential riparian zones in the landscape or to summarize data within this zone. The overall goal of EnviroAtlas is to employ and develop the best available science to map indicators of ecosystem services production, demand, and drivers for the nation.</purpose>
+		</descript>
+		<secinfo>
+			<secsys>https://project-open-data.github.io/schema/#accessLevel</secsys>
+			<secclass>public</secclass>
+			<sechandl>Standard Technical Controls</sechandl>
+		</secinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development-Sustainable and Healthy Communities Research Program, EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntperp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<logic>Tests for integrity have not been performed.</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>20130618</procdate>
+				<procdesc>Acquired NHDPlusV2.1 catseed grid.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20151002</procdate>
+				<procdesc>Acquired 2011 CDL-NLCD raster. The CDL-NLCD, which was developed by the EnviroAtlas team, is a hybrid of the 2011 CDL produced by the National Agricultural Statistics Service (NASS) and the 2011 NLCD produced by the Multi-Resolution Land Characteristics Consortium</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20151102</procdate>
+				<procdesc>Reclassify CDL-NLCD 2011 water and wetland classes (11, 90, 95) to a value of 1, and all other classes to 0.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20151102</procdate>
+				<procdesc>Reclassify NHDPlusV2.1 catseed grid so that all NHD flowline cells have a value of 1 all other values are 0.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20151102</procdate>
+				<procdesc>Add the NHDPlus catseed grid and the reclassified CDL-NLCD grid using the Plus function in ArcGIS.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20151102</procdate>
+				<procdesc>In the new raster output by the Plus function, reclassify values 1 and 2 to 1, all other values to 0.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20151102</procdate>
+				<procdesc>Reclassify values 1 to 0, and all other values to nodata. The result is the Water Mask, a raster with values of 0 for water and NoData for all other cells.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20151102</procdate>
+				<procdesc>Calculate the distance to water for each grid pixel by calculating the Euclidean Distance to water using Water Mask raster.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20151102</procdate>
+				<procdesc>Create integer distance to water layer using Euclidean Distance raster. This step helps to reduce the storage space required by the grid.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20151102</procdate>
+				<procdesc>Reclassify values 0-108 to value 1 and all other cell values to 0.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20151102</procdate>
+				<procdesc>Reclassify values 1 to 1 and all other values to nodata to create the Riparian Zone Mask.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<plandu>meters</plandu>
+					<coordrep>
+						<absres>0.000001</absres>
+						<ordres>0.000001</ordres>
+					</coordrep>
+				</planci>
+				<mapproj>
+					<mapprojn>Albers Conical Equal Area</mapprojn>
+					<albers>
+						<stdparll>29.500000</stdparll>
+						<stdparll>45.500000</stdparll>
+						<longcm>-96.000000</longcm>
+						<latprjo>23.000000</latprjo>
+						<feast>0.000000</feast>
+						<fnorth>0.000000</fnorth>
+					</albers>
+				</mapproj>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development-Sustainable and Healthy Communities Research Program, EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metd>20210810</metd>
+		<metfrd>20201130</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development-Sustainable and Healthy Communities Research Program, EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>WSIO_rz_msk</enttypl>
+				<enttypd>Raster showing the riparian zone, defined as land within 108 meters of surface water identified in the NHDPlusV2 catseed grid or the CDL-NLCD (including 'Open Water', 'Woody Wetlands', and 'Emergent Herbaceous Wetlands').</enttypd>
+				<enttypds>US EPA</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>Value</attrlabl>
+				<attrdef>Value identifying land within the riparian zone.</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>The riparian zone: land within 108 meters of surface water</edomvd>
+						<edomvds>US EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NoData</edomv>
+						<edomvd>Land not within a 108-meter riparian zone</edomvd>
+						<edomvds>US EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eadetcit>https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets</eadetcit>
+			<eaover>A comprehensive list of metric creation steps is included in the Processing Steps metadata element.</eaover>
+		</overview>
+	</eainfo>
+</metadata>

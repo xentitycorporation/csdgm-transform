@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <idinfo>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>EPA GIS Keyword Thesaurus</themekt>
+        <themekey>Environment</themekey>
+        <themekey>Facilities</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>New Jersey</placekey>
+        <placekey>New York</placekey>
+        <placekey>Puerto Rico</placekey>
+        <placekey>United States</placekey>
+        <placekey>Virgin Islands</placekey>
+      </place>
+      <theme>
+        <themekt>EPA Region 2 GIS Keyword Thesaurus</themekt>
+        <themekey>facilitiesEPAR2GIS</themekey>
+        <themekey>EPAr2GIS</themekey>
+      </theme>
+    </keywords>
+    <citation>
+      <citeinfo>
+        <origin>US Environmental Protection Agency Region 2</origin>
+        <title>USEPA Region 2 Office Locations [EPA.EPAR2OFFICES] </title>
+        <pubinfo>
+          <publish>U.S. Environmental Protection Agency, Region 2</publish>
+          <pubplace>New York, NY</pubplace>
+        </pubinfo>
+        <pubdate>20081101</pubdate>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <current>Publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20080428</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+    <descript>
+      <abstract>Point locations for EPA Region 2 primary locatons and satellite offices.</abstract>
+      <purpose>For Region 2 basemaps and analysis.  Text description of office locations are at http://www.epa.gov/region02/regional_offices_and_facilities.html</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-78.890352</westbc>
+        <eastbc>-62.869985</eastbc>
+        <northbc>43.297682</northbc>
+        <southbc>18.338764</southbc>
+      </bounding>
+    </spdom>
+    <secinfo>
+      <secsys>FIPS Pub 199</secsys>
+      <secclass>No Confidentiality</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+          <cntper>Linda Timander</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>290 Broadway</address>
+          <city>New York</city>
+          <state>NY </state>
+          <postal>10007-1866</postal>
+        </cntaddr>
+        <cntvoice>(212) 637-3596</cntvoice>
+        <cntemail>r2gisdata@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region02/</cntinst>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <complete>Data are complete for the full geographic extent of the data.</complete>
+    <logic>Geocoded locations were compared to street network and imagery for accuracy.</logic>
+    <posacc>
+      <horizpa>
+        <horizpar>50-100 meters based on geocoding using ArcWeb Services.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>20080428</procdate>
+        <procdesc>Office locations geocoded using ArcWeb Services Teleatlas service.  VI Office location estimated based on 1990 TIGER roads and globexplorer imagery.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20080428</procdate>
+        <procdesc>Imported into Region 2 Oracle/SDE database</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <overview>
+      <eadetcit>Citation 1</eadetcit>
+      <eaover>NAME: Text, 38 - Description of Office location
+ADDRESS: Text 50 - Street Address
+CITY: Text, 9 - City
+STATE: TEXT, 2 - State Abbreviation
+ZIP: Text, 5 - 5-digit postal code
+ZIP4: Text, 4 - +4-digit postal code
+LONG: Double precision - Longitude in decimal degrees
+LAT: Double precision - Latitude in decimal degrees
+LOC_METH: Text, 11 - locational method description
+</eaover>
+    </overview>
+    <detailed Name="static.R2GIS.EPA_FACILITIES_PROJECTED_EPAR2OFFICES">
+      <enttyp>
+        <enttypl Sync="TRUE">static.R2GIS.EPA_FACILITIES_PROJECTED_EPAR2OFFICES</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">7</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">OBJECTID</attrlabl>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">Esri</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NAME</attrlabl>
+        <attalias Sync="TRUE">NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">38</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ADDRESS</attrlabl>
+        <attalias Sync="TRUE">ADDRESS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CITY</attrlabl>
+        <attalias Sync="TRUE">CITY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STATE</attrlabl>
+        <attalias Sync="TRUE">STATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ZIP</attrlabl>
+        <attalias Sync="TRUE">ZIP</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ZIP4</attrlabl>
+        <attalias Sync="TRUE">ZIP4</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LOC_METH</attrlabl>
+        <attalias Sync="TRUE">LOC_METH</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">11</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LONGITUDE</attrlabl>
+        <attalias Sync="TRUE">LONGITUDE</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">10</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LATITUDE</attrlabl>
+        <attalias Sync="TRUE">LATITUDE</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">10</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">Esri</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20220217</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+          <cntper>Linda Timander</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>290 Broadway</address>
+          <city>New York</city>
+          <state>NY </state>
+          <postal>10007-1866</postal>
+        </cntaddr>
+        <cntvoice>(212) 637-3596</cntvoice>
+        <cntemail>r2gisdata@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region02/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <resdesc>Live Data and Maps</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.htm</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+          <cntper>Linda Timander</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>290 Broadway</address>
+          <city>New York</city>
+          <state>NY </state>
+          <postal>10007-1866</postal>
+        </cntaddr>
+        <cntvoice>(212) 637-3596</cntvoice>
+        <cntemail>r2gisdata@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region02/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <mdLang>
+    <languageCode value="eng"/>
+    <countryCode value="USA" Sync="TRUE"/>
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004"/>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Harvey Simon</rpIndName>
+    <rpOrgName>U.S. Environmental Protection Agency, Region 2, GIS Team</rpOrgName>
+    <rpPosName>GIS Coordinator</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>(212) 637-3570</voiceNum>
+        <faxNum>(212) 637-5045</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>2-PPE</delPoint>
+        <delPoint>290 Broadway</delPoint>
+        <city>New York</city>
+        <adminArea>NY</adminArea>
+        <postCode>10007-1866</postCode>
+        <eMailAdd>r2gisdata@epa.gov</eMailAdd>
+      </cntAddress>
+      <cntInstr>http://www.epa.gov/region02/</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007"/>
+    </role>
+  </mdContact>
+  <mdDateSt>2018-06-27</mdDateSt>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpIndName>Harvey Simon</rpIndName>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 2, Office of Policy and Management, PPEB, GIS</rpOrgName>
+        <rpPosName>GIS Coordinator</rpPosName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(212) 637-3594</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>290 Broadway</delPoint>
+            <delPoint>2-PPE</delPoint>
+            <city>New York</city>
+            <adminArea>NY</adminArea>
+            <postCode>10007-1866</postCode>
+            <eMailAdd>r2gisdata@epa.gov</eMailAdd>
+          </cntAddress>
+          <cntInstr>http://www.epa.gov/region02/</cntInstr>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005"/>
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://r2notes3.r02.epa.gov/Intranet/iOPM-ISB.nsf/e0686959b32516a185256cd900531291/654bb9e2891d438585256d96006f357c?OpenDocument</linkage>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>Server=r2orany1.r02.epa.gov; Service=5151; Database=gisny102_r2oraNY1; User=staging; password: spatialuser; Version=SDE.DEFAULT</linkage>
+      </onLineSrc>
+    </distTranOps>
+    <distFormat>
+      <formatName Sync="TRUE">SDE Feature Class</formatName>
+    </distFormat>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>USEPA Region 2 Office Locations [EPA.EPAR2OFFICES]</resTitle>
+      <date>
+        <pubDate>2008-11-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>US Environmental Protection Agency Region 2</rpOrgName>
+        <role>
+          <RoleCd value="006"/>
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 2</rpOrgName>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint>New York, NY</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010"/>
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" Sync="TRUE"/>
+      </presForm>
+    </idCitation>
+    <idAbs>Point locations for EPA Region 2 primary locatons and satellite offices.</idAbs>
+    <idPurp>For Region 2 basemaps and analysis. Text description of office locations are at http://www.epa.gov/region02/regional_offices_and_facilities.html</idPurp>
+    <idStatus>
+      <ProgCd value="001"/>
+    </idStatus>
+    <idPoC>
+      <rpIndName>Harvey Simon</rpIndName>
+      <rpOrgName>U.S. Environmental Protection Agency, Region 2, GIS Team</rpOrgName>
+      <rpPosName>GIS Coordinator</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>(212) 637-3570</voiceNum>
+          <faxNum>(212) 637-5045</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>290 Broadway</delPoint>
+          <delPoint>2-PPE</delPoint>
+          <city>New York</city>
+          <adminArea>NY</adminArea>
+          <postCode>10007-1866</postCode>
+          <eMailAdd>r2gisdata@epa.gov</eMailAdd>
+        </cntAddress>
+        <cntInstr>http://www.epa.gov/region02/</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007"/>
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009"/>
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>New York</keyword>
+      <keyword>Puerto Rico</keyword>
+      <keyword>Virgin Islands</keyword>
+      <keyword>New Jersey</keyword>
+      <keyword>United States</keyword>
+    </placeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>EPA Region 2 GIS Keyword Thesaurus</resTitle>
+      </thesaName>
+      <keyword>facilitiesEPAR2GIS</keyword>
+      <keyword>EPAr2GIS</keyword>
+    </themeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Category</resTitle>
+      </thesaName>
+      <keyword>environment</keyword>
+    </themeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>EPA GIS Keyword Thesaurus</resTitle>
+      </thesaName>
+      <keyword>Environment</keyword>
+      <keyword>Facilities</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>New York</keyword>
+      <keyword>Environment</keyword>
+      <keyword>Puerto Rico</keyword>
+      <keyword>Facilities</keyword>
+      <keyword>facilitiesEPAR2GIS</keyword>
+      <keyword>Virgin Islands</keyword>
+      <keyword>EPAr2GIS</keyword>
+      <keyword>New Jersey</keyword>
+      <keyword>United States</keyword>
+      <keyword>environment</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>Although these data have been processed successfully on a computer system at the Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.these data to evaluate data set limitations, restrictions or intended use. The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <SecConsts>
+        <classSys>FIPS Pub 199</classSys>
+        <handDesc>Standard Technical Controls</handDesc>
+      </SecConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng"/>
+      <countryCode value="USA" Sync="TRUE"/>
+    </dataLang>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-78.890352</westBL>
+          <eastBL>-62.869985</eastBL>
+          <southBL>18.338764</southBL>
+          <northBL>43.297682</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2008-04-28</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="search">
+          <exTypeCode>1</exTypeCode>
+          <westBL>-78.890352</westBL>
+          <eastBL>-62.869985</eastBL>
+          <northBL>43.297682</northBL>
+          <southBL>18.338764</southBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.0.12790</envirDesc>
+    <spatRpType>
+      <SpatRepTypCd value="001" Sync="TRUE"/>
+    </spatRpType>
+    <tpCat>
+      <TopicCatCd value="007"/>
+    </tpCat>
+  </dataIdInfo>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005"/>
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Geocoded locations were compared to street network and imagery for accuracy.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Data are complete for the full geographic extent of the data.</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>50-100 meters based on geocoding using ArcWeb Services.</measDesc>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Office locations geocoded using ArcWeb Services Teleatlas service. VI Office location estimated based on 1990 TIGER roads and globexplorer imagery.</stepDesc>
+        <stepDateTm>2008-04-28</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Imported into Region 2 Oracle/SDE database</stepDesc>
+        <stepDateTm>2008-04-28</stepDateTm>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.008333333333333333</absres>
+            <ordres>0.008333333333333333</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <Esri>
+    <DataProperties>
+      <itemProps>
+        <itemName Sync="TRUE">static.R2GIS.EPA_FACILITIES_PROJECTED_EPAR2OFFICES</itemName>
+        <imsContentType Sync="TRUE">002</imsContentType>
+        <nativeExtBox>
+          <westBL Sync="TRUE">-563063.936743</westBL>
+          <eastBL Sync="TRUE">746736.454923</eastBL>
+          <southBL Sync="TRUE">-1287822.105826</southBL>
+          <northBL Sync="TRUE">1495893.002508</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+        <itemLocation>
+          <linkage Sync="TRUE">Server=x0202tnypksql1; Service=sde:sqlserver:x0202tnypksql1\gis; Database=static; User=r2gis; Version=sde.DEFAULT</linkage>
+          <protocol Sync="TRUE">ArcSDE Connection</protocol>
+        </itemLocation>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Projected</type>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+        <projcsn Sync="TRUE">R2_Contiguous_Albers_Equal_Area_Conic</projcsn>
+        <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.8'&gt;&lt;WKT&gt;PROJCS[&amp;quot;R2_Contiguous_Albers_Equal_Area_Conic&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-72.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,18.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,42.0],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,30.0],UNIT[&amp;quot;Meter&amp;quot;,1.0]]&lt;/WKT&gt;&lt;XOrigin&gt;-563063.93674333801&lt;/XOrigin&gt;&lt;YOrigin&gt;-1287822.1058258&lt;/YOrigin&gt;&lt;XYScale&gt;120&lt;/XYScale&gt;&lt;ZOrigin&gt;0&lt;/ZOrigin&gt;&lt;ZScale&gt;1&lt;/ZScale&gt;&lt;MOrigin&gt;0&lt;/MOrigin&gt;&lt;MScale&gt;1&lt;/MScale&gt;&lt;XYTolerance&gt;0.016666666666666666&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+      </coordRef>
+    </DataProperties>
+    <SyncDate>20220216</SyncDate>
+    <SyncTime>13290500</SyncTime>
+    <ModDate>20220216</ModDate>
+    <ModTime>13290500</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISProfile>NAP</ArcGISProfile>
+  </Esri>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode code="0" Sync="TRUE"/>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs Name="static.R2GIS.EPA_FACILITIES_PROJECTED_EPAR2OFFICES">
+        <geoObjTyp>
+          <GeoObjTypCd value="004" Sync="TRUE"/>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">7</geoObjCnt>
+      </geometObjs>
+      <topLvl>
+        <TopoLevCd value="001" Sync="TRUE"/>
+      </topLvl>
+    </VectSpatRep>
+  </spatRepInfo>
+  <spdoinfo>
+    <ptvctinf>
+      <esriterm Name="static.R2GIS.EPA_FACILITIES_PROJECTED_EPAR2OFFICES">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom code="1" Sync="TRUE"/>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">7</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+</metadata>

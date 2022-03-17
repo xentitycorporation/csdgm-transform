@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <Esri>
+    <PublishedDocID>{7D591F85-633E-4381-B2E7-16D1D376C0FA}</PublishedDocID>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>hubs</title>
+        <geoform>vector digital data</geoform>
+        <origin>US Environmental Protection Agency</origin>
+        <pubinfo>
+          <publish>U.S. EPA Office of Research &amp; Development (ORD) - National Center for Environmental Assessment (NCEA)</publish>
+          <pubplace>Atlanta, GA</pubplace>
+        </pubinfo>
+        <pubdate>2011</pubdate>
+        <onlink>http://www.epa.gov/roe/</onlink>
+      </citeinfo>
+    </citation>
+    <native> Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.2.6.1500</native>
+    <spdom>
+      <bounding>
+        <westbc>-127.868637</westbc>
+        <eastbc>-65.363544</eastbc>
+        <northbc>51.550479</northbc>
+        <southbc>23.084212</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>EPA GIS Keyword Thesaurus</themekt>
+        <themekey>Ecology</themekey>
+        <themekey>Environment</themekey>
+        <themekey>Land</themekey>
+        <themekey>Management</themekey>
+        <themekey>Natural Resources</themekey>
+        <themekey>Ecosystem Services</themekey>
+        <themekey>Ecosystem connectivity</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+      </place>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+      </theme>
+      <theme>
+        <themekt>User</themekt>
+      </theme>
+    </keywords>
+    <timeperd>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+    <descript>
+      <abstract>
+        NEF hubs were region grouped and then converted to polygons.
+        Analysis was done with the region grouped grid data and then joined to the polygon
+      </abstract>
+      <purpose>To display information about the NEF hubs.</purpose>
+    </descript>
+    <secinfo>
+      <secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+  </idinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage>file://\\D0404JJRICHA02\d\NEF\NatEcoFramework\PolyNEF\nefpoly.gdb</linkage>
+          <protocol>Local Area Network</protocol>
+          <orDesc>002</orDesc>
+        </onLineSrc>
+        <transSize>942.737</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName>File Geodatabase Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <dataqual>
+    <logic>Tests for integrity have not been performed.</logic>
+    <complete>Features represented have not been tested for completeness</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that are accurate to within 26-100 meters (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 4). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>11/22/1999</procdate>
+        <procdesc>Dataset copied.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <history>
+    <log>
+      <item>
+        <changeset>0</changeset>
+        <changetype>Data</changetype>
+        <user>D0404JJRICHA022\jricha02</user>
+        <date>9/22/2009 8:51:08 AM</date>
+        <comment/>
+      </item>
+      <item>
+        <changeset>1</changeset>
+        <changetype>Data</changetype>
+        <user>D0404JJRICHA022\jricha02</user>
+        <date>9/22/2009 2:48:38 PM</date>
+        <comment/>
+      </item>
+      <item>
+        <changeset>2</changeset>
+        <changetype>Data</changetype>
+        <user>D0404JJRICHA022\jricha02</user>
+        <date>9/25/2009 2:28:45 PM</date>
+        <comment/>
+      </item>
+      <item>
+        <changeset>3</changeset>
+        <changetype>Data</changetype>
+        <user>D0404JJRICHA022\jricha02</user>
+        <date>9/25/2009 4:28:40 PM</date>
+        <comment/>
+      </item>
+    </log>
+  </history>
+  <spdoinfo>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>96037</rowcount>
+      <colcount>158193</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>3534</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000100</absres>
+            <ordres>0.000100</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.500000</stdparll>
+            <stdparll>45.500000</stdparll>
+            <longcm>-96.000000</longcm>
+            <latprjo>23.000000</latprjo>
+            <feast>0.000000</feast>
+            <fnorth>0.000000</fnorth>
+          </albers>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <dataIdInfo>
+    <envirDesc> Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+    <dataLang>
+      <languageCode value="en"/>
+    </dataLang>
+    <idCitation>
+      <resTitle>hubs</resTitle>
+      <presForm>
+        <PresFormCd value="005"/>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd value="002"/>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL>-2356679.0998</westBL>
+          <eastBL>2258788.9453</eastBL>
+          <northBL>3166679.1005</northBL>
+          <southBL>293160.8789</southBL>
+          <exTypeCode>1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL>-127.868637</westBL>
+      <eastBL>-65.363544</eastBL>
+      <northBL>51.550479</northBL>
+      <southBL>23.084212</southBL>
+      <exTypeCode>1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <metainfo>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metd>20220304</metd>
+    <metfrd>20131110</metfrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>U.S. Environmental Protection Agency, Region 4</cntorg>
+          <cntper>John Richardson</cntper>
+        </cntperp>
+        <cntpos>Environmental Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Atlanta Federal Center</address>
+          <address>61 Forsyth Street, SW</address>
+          <city>Atlanta</city>
+          <state>GA</state>
+          <postal>30303-3104</postal>
+        </cntaddr>
+        <cntvoice>(404) 562-8290</cntvoice>
+        <cntfax>(404) 562-8269</cntfax>
+        <cntemail>richardson.john@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region04/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <mdLang>
+    <languageCode value="en"/>
+  </mdLang>
+  <mdStanName>ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer>DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd value="004"/>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdHrLvName>dataset</mdHrLvName>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode>NAD_1983_Albers</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <GridSpatRep>
+      <numDims>2</numDims>
+      <cellGeo>
+        <CellGeoCd value="002"/>
+      </cellGeo>
+      <tranParaAv>1</tranParaAv>
+      <axDimProps>
+        <Dimen>
+          <dimName>
+            <DimNameTypCd value="002"/>
+          </dimName>
+          <dimSize>158193</dimSize>
+          <dimResol>
+            <value>30</value>
+            <uom>
+              <UomLength>
+                <uomName>Meter</uomName>
+                <conversionToISOstandardUnit>1 Meter = 1 Meter(s)</conversionToISOstandardUnit>
+              </UomLength>
+            </uom>
+          </dimResol>
+        </Dimen>
+        <Dimen>
+          <dimName>
+            <DimNameTypCd value="001"/>
+          </dimName>
+          <dimSize>96037</dimSize>
+          <dimResol>
+            <value>30</value>
+            <uom>
+              <UomLength>
+                <uomName>Meter</uomName>
+                <conversionToISOstandardUnit>1 Meter = 1 Meter(s)</conversionToISOstandardUnit>
+              </UomLength>
+            </uom>
+          </dimResol>
+        </Dimen>
+      </axDimProps>
+    </GridSpatRep>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd value="001"/>
+      </topLvl>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="001"/>
+        </geoObjTyp>
+        <geoObjCnt>3534</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>hubs</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>VALUE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GRIDCODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CODE_ABCD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_1stords</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PC_1ordst5</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_cecgrln</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PC_cecpad</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PC_div</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_fwschab</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_hsiplu</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_matfor5</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_matfrst</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_nlcdwet</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_rdls5k</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_upptm20</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_usgspad</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_wetndx8</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_tncport</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>sumall</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID_12</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_11</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_12</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_21</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_31</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_41</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_42</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_43</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_52</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_71</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_81</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_90</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_95</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_127</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>sum</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_water</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_upforst</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_wetland</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_2181</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_ag82</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_urban</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_undx</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>hA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>acres</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pc_upnofor</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>catagory</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID_12_13</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VALUE_12_13</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNT_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Hub_disturbance_AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MAX</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MEAN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUM_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HA_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACRES_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>pc_nndx</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Entity Attribute Overview 1: Insert your overview in the database table 2e_Citation</eaover>
+      <eadetcit>Citation 1: Insert your citations in the database table 2e_Citation</eadetcit>
+    </overview>
+  </eainfo>
+  <mdDateSt>20120709</mdDateSt>
+  <distinfo>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+  </distinfo>
+</metadata>

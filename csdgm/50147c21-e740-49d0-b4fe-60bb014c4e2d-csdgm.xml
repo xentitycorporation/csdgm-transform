@@ -1,0 +1,1710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <Esri>
+    <PublishedDocID>{E88BBDAD-C0F0-4099-936C-BECDF6FBE300}</PublishedDocID>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <DataProperties>
+      <itemProps>
+        <imsContentType>003</imsContentType>
+      </itemProps>
+    </DataProperties>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>NAP</ArcGISProfile>
+    <ModDate>20170915</ModDate>
+    <ModTime>7233700</ModTime>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>US Environmental Protection Agency, Region 9</origin>
+        <pubdate>20110406</pubdate>
+        <title>Social Vulnerability Index, Region 9, 2011, US EPA Region 9</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>San Francisco, CA</pubplace>
+          <publish>U.S. Environmental Protection Agency, Region 9</publish>
+        </pubinfo>
+        <onlink>https://edg.epa.gov</onlink>
+        <onlink>https://www.epa.gov/geospatial/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Social Vulnerability Index is derived from the 2000 US Census data. The fields included are percent minority, median household income, age (under 18 and over 64), population without a high school diploma, linguistically isolated households, and single female head of households with own children under 18 (single moms). The data is at the block group level. Each field for each block group is assigned an index score of 0-3, based on whether the value of that dataset falls in the top quartile (score=3), second quartile (score=2), third quartile (score=1), or bottom quartile (score=0). The scores for each field are then added together to assign a comprehensive score to each block group (0-21). The highest scores are block groups that have the highest percentage of sensitive populations (highest percent minority, lowest per capita income, highest percent of population under 18 and over 64, highest percentage of population without a high school degree, highest percent of linguistically isolated households, and highest percent of single female head of households). Zoe Heller of the US EPA Region 9's Communities and Ecosystems Division, is responsible for the design and development of the Social Vulnerability Index data set.</abstract>
+      <purpose>The social vulnerability index was developed to determine where the most socially vulnerable populations are within Region 9.</purpose>
+    </descript>
+    <timeperd>
+      <current>Publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20110404</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-114.798453</westbc>
+        <eastbc>-109.045223</eastbc>
+        <northbc>37.004261</northbc>
+        <southbc>31.332178</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arizona</placekey>
+        <placekey>California</placekey>
+        <placekey>Hawaii</placekey>
+        <placekey>Nevada</placekey>
+      </place>
+      <theme>
+        <themekey>society</themekey>
+        <themekey>Human</themekey>
+      </theme>
+    </keywords>
+    <accconst>Check with Zoe Heller, EPA Region 9, before distributing</accconst>
+    <useconst>please do not use until consulting with Zoe Heller in the EJ program and Cheryl Henley, GIS Coordinator</useconst>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</native>
+    <secinfo>
+      <secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+      <secclass>non-public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Tests for integrity have not been performed.</logic>
+    <complete>Features represented have not been tested for completeness</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Dataset copied.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Dataset copied.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Downloaded California, Arizona, Hawaii, and Nevadas SF3 data (ascii text file) from the US Census Bureau (http://www2.census.gov/census_2000/datasets/Summary_File_3/)</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Downloaded Summary File 3 template files  (http://www.census.gov/support/cen2000_sf3ASCII.html#Access)</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Imported each states relevant SF3 data into Access including (SF3, P6), median household income (SF3, P53), percent population younger than 18 years old and percent population older than 64 years old (SF3, P8), percent population older than 25 without a high school diploma (SF3, P37), percent of linguistically isolated households (SF3, P20), percent single female head of household with own children under 18 (SF3, P10), and (SF3, P1) total weighted population.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Import the geo table from the ascii SF3 data into the SF3 template.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Create a field called STCO_BG that combines the state, county, tract and block group codes for each census tract.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Query to create a table with just the relevant SF3 data.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Export the data into excel.  Each state separately.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Sum total minority population, calculate percent minority</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Sum total under 18, calculate percent under 18</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Sum total over 64, calculate percent over 64</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Sum total population over 25 without a high school diploma, calculate percent of total population over 25 without a high school diploma</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Sum total number of linguistically isolated households, calculate percent of linguistically isolated households.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Sum total number of single female head of households with own children under 18 living in the home, calculate percent of single female head of households with own children under 18 living in the home.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Used quartile function in Excel to identify quartile cut offs for each field.  Assigned a zero to the least vulnerable quartile for each field (lowest percent minority, least population under 18, least population over 64, least population over 25 without a high school diploma, lowest percent of linguistically isolated households, lowest percent of single female head of households, highest median household income).  Assigned a 1 to the next quartile.  Assigned a 2 to the next quartile.  Assigned a 3 to the most vulnerable quartile.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Summed the quartile scores together to get a Social Vulnerability Index Score (1-21)</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110218</procdate>
+        <procdesc>Imported to ArcMap and joined with existing census block group data.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110406</procdate>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110406</procdate>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110802</procdate>
+        <procdesc>Dataset copied.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110802</procdate>
+        <procdesc>Dataset copied.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110928</procdate>
+        <procdesc>Dataset copied.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <esriterm>
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom code="4" Sync="TRUE"/>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">27314</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000001</latres>
+        <longres>0.000001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 1980</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>R9_SVIv2</enttypl>
+        <enttypd>2000 census block group information to deteremine which census tracts in EPA, Region 9 are the most socially vulnerable</enttypd>
+        <enttypds>US EPA Region 9</enttypds>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">27314</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>STCO_BG</attrlabl>
+        <attrdef>Block Group ID</attrdef>
+        <attrdefs>US Census 2000</attrdefs>
+        <attrdomv>
+          <udom>block group id</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">STCO_BG</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>STUSAB</attrlabl>
+        <attrdef>two letter abbreviation of the state</attrdef>
+        <attrdefs>US Census 2000</attrdefs>
+        <attrdomv>
+          <udom>state abbreviation</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">STUSAB</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>LOGRECNO</attrlabl>
+        <attrdef>unique logical record number</attrdef>
+        <attrdefs>US Census 2000</attrdefs>
+        <attrdomv>
+          <udom>unique record number</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">LOGRECNO</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>numerical state code</attrdef>
+        <attrdefs>US Census 2000</attrdefs>
+        <attrdomv>
+          <udom>state code from census</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">STATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>numerical county code</attrdef>
+        <attrdefs>US Census 2000</attrdefs>
+        <attrdomv>
+          <udom>county code from census</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">COUNTY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>TRACT</attrlabl>
+        <attrdef>numerical tract code</attrdef>
+        <attrdefs>US Census 2000</attrdefs>
+        <attrdomv>
+          <udom>tract code from census</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">TRACT</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>BLKGRP</attrlabl>
+        <attrdef>numerical block group code</attrdef>
+        <attrdefs>US Census 2000</attrdefs>
+        <attrdomv>
+          <udom>block group code from census</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">BLKGRP</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>AREALAND</attrlabl>
+        <attrdef>land area in census block group</attrdef>
+        <attrdefs>US Census 2000</attrdefs>
+        <attrdomv>
+          <udom>area land</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">AREALAND</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>AREAWATR</attrlabl>
+        <attrdef>water area in census block group</attrdef>
+        <attrdefs>US Census 2000</attrdefs>
+        <attrdomv>
+          <udom>area water</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">AREAWATR</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>TotalPop</attrlabl>
+        <attrdef>Total population in the block group (SF3, P001001)</attrdef>
+        <attrdefs>US Census 2000</attrdefs>
+        <attrdomv>
+          <udom>total population</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">TotalPop</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>MinPop</attrlabl>
+        <attrdef>Block group's population that is not white (SF3, P007001-P007003)</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>total minority population</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">MinPop</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PerMinPop</attrlabl>
+        <attrdef>Percent of block group's population that is not white. (MinPop/P007001)</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>percent minority population</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">PerMinPop</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>MinSVI</attrlabl>
+        <attrdef>Percent minority is divided into quartiles.  The lowest percent minority quartile (least vulnerable) scores a 0, the next highest scores a 1, the next highest scores a 2, and the highest (most vulnerable) scores a 3.</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>indicator score (0-3)</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">MinSVI</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PopUnd18</attrlabl>
+        <attrdef>Total population in the block group under the age 18 (sf3, sum(P008003:P008020)+sum(P008042:P008059))</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>population under age 18</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">PopUnd18</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PerPopUn18</attrlabl>
+        <attrdef>Percent of block group's population that is under the age 18 (PopUnd18/P008001)</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>percent of population under age 18</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">PerPopUn18</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Und18SVI</attrlabl>
+        <attrdef>Percent under 18 is divided into quartiles.  The lowest percent under 18 quartile (least vulnerable) scores a 0, the next highest scores a 1, the next highest scores a 2, and the highest (most vulnerable) scores a 3.</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>indicator score (0-3)</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Und18SVI</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PopOver64</attrlabl>
+        <attrdef>Population over 64</attrdef>
+        <attrdefs>US Census 2000</attrdefs>
+        <attrdomv>
+          <udom>population over age 64</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">PopOver64</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PerPopOv64</attrlabl>
+        <attrdef>Total population in the block group over the age of 64 (sf3, sum(P008035:P008040)+sum(P008074:P008079))</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>percent of population over age 64</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">PerPopOv64</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Ov64SVI</attrlabl>
+        <attrdef>Percent over 64 is divided into quartiles.  The lowest percent over 64 quartile (least vulnerable) scores a 0, the next highest scores a 1, the next highest scores a 2, and the highest (most vulnerable) scores a 3.</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>indicator score (0-3)</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Ov64SVI</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>TotalHH</attrlabl>
+        <attrdef>Total number of households in the block group (sf3, P010001)</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>total number of households</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">TotalHH</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>SingMom</attrlabl>
+        <attrdef>Total number of households in the block group with female head of household, no husband present, with own children under 18 years (sf3, P010015)</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>households with single mothers</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">SingMom</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PerSingMom</attrlabl>
+        <attrdef>Percent of households in the block group with female head of household, no husband present, with own childen under 18 years (SingMom/PO10001)</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>percent of households with single mothers</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">PerSingMom</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>SingMomSVI</attrlabl>
+        <attrdef>Percent of single mothers is divided into quartiles.  The lowest quartile (least vulnerable) scores a 0, the next highest scores a 1, the next highest scores a 2, and the highest (most vulnerable) scores a 3.</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>indicator score (0-3)</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">SingMomSVI</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>LingIso</attrlabl>
+        <attrdef>Total number of households in the block group that are liguistically isolated, a household where all members 14 and over have some difficulty with English (sf3, P020004+P020007+P020010+P010013)</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>linguistically isolated households</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">LingIso</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PerLingIso</attrlabl>
+        <attrdef>Percent of households in the block group that are linguistically isolated (LingIso/P020001)</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>percentage of linguistically isolated households</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">PerLingIso</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>LingIsoSVI</attrlabl>
+        <attrdef>Percent of linguistically isolated households is divided into quartiles.  The lowest percent of linguistically isolated households quartile (least vulnerable) scores a 0, the next highest scores a 1, the next highest scores a 2, and the highest (most vulnerable) scores a 3.</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>indicator score (0-3)</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">LingIsoSVI</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PopOver25</attrlabl>
+        <attrdef>Total population in the block group over 25 (sf3, P037001)</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>total population over 25</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">PopOver25</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>WOHSDip</attrlabl>
+        <attrdef>Total population in the block group over 25 without a high school diploma (sf3, sum(P037003:P037010)+sum(P037020:P037027)</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>total population over 25 without a high school diploma</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">WOHSDip</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PerWOHSDip</attrlabl>
+        <attrdef>Percent of population in the block group that is over 25 and does not have a high school diploma (WOSHDip/P037001)</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>percent of total population over 25 without a high school diploma</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">PerWOHSDip</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>WOHSDipSVI</attrlabl>
+        <attrdef>Percent without a high school diploma is divided into quartiles.  The lowest percent without a high school diploma quartile (least vulnerable) scores a 0, the next highest scores a 1, the next highest scores a 2, and the highest (most vulnerable) scores a 3.</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>indicator score (0-3)</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">WOHSDipSVI</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>MedHHInc</attrlabl>
+        <attrdef>Median Household Income (sf3, P53001)</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>median household income</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">MedHHInc</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>MdHHIncSVI</attrlabl>
+        <attrdef>Median houseold income is divided into quartiles.  The highest median household income quartile (least vulnerable) scores a 0, the next lowest scores a 1, the next lowest scores a 2, and the lowest (most vulnerable) scores a 3.</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>indicator score (0-3)</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">MdHHIncSVI</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>SVIScore</attrlabl>
+        <attrdef>This number represents the social vulnerability index score.  The sum of MinSVI, Und18SVI, Ov64SVI, SingMomSVI, LingIsoSVI, WOHSDipSVI, and MedHHIncSVI.</attrdef>
+        <attrdefs>US EPA Region 9</attrdefs>
+        <attrdomv>
+          <udom>sum of all indicators (0-21)</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">SVIScore</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Shape.area</attrlabl>
+        <attalias Sync="TRUE">Shape.area</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Shape.len</attrlabl>
+        <attalias Sync="TRUE">Shape.len</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>Offline Data</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20211215</metd>
+    <metfrd>20150404</metfrd>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <DataProperties>
+      <itemProps>
+        <itemName Sync="TRUE">R9GDL.R9GDL.R9_SVIv2</itemName>
+        <nativeExtBox>
+          <westBL Sync="TRUE">-160.246932</westBL>
+          <eastBL Sync="TRUE">-109.045223</eastBL>
+          <southBL Sync="TRUE">18.913394</southBL>
+          <northBL Sync="TRUE">42.009247</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+        <itemLocation>
+          <linkage Sync="TRUE">Server=e0909psfpk003.aa.ad.epa.gov; Service=5151; Database=R9GDL; User=R9GDL; Version=sde.DEFAULT</linkage>
+          <protocol Sync="TRUE">ArcSDE Connection</protocol>
+        </itemLocation>
+        <imsContentType>003</imsContentType>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Geographic</type>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <csUnits Sync="TRUE">Angular Unit: Degree (0.017453)</csUnits>
+        <peXml Sync="TRUE">&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433],AUTHORITY[&amp;quot;EPSG&amp;quot;,4269]]&lt;/WKT&gt;&lt;XOrigin&gt;-400&lt;/XOrigin&gt;&lt;YOrigin&gt;-400&lt;/YOrigin&gt;&lt;XYScale&gt;999999999.99999988&lt;/XYScale&gt;&lt;ZOrigin&gt;0&lt;/ZOrigin&gt;&lt;ZScale&gt;1&lt;/ZScale&gt;&lt;MOrigin&gt;0&lt;/MOrigin&gt;&lt;MScale&gt;1&lt;/MScale&gt;&lt;XYTolerance&gt;8.9831528411952133e-009&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;WKID&gt;4269&lt;/WKID&gt;&lt;/GeographicCoordinateSystem&gt;</peXml>
+      </coordRef>
+    </DataProperties>
+    <SyncDate>20111213</SyncDate>
+    <SyncTime>10265700</SyncTime>
+    <ModDate>20170606</ModDate>
+    <ModTime>12100600</ModTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng"/>
+    <countryCode value="US"/>
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004"/>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Cheryl Henley</rpIndName>
+    <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+    <rpPosName>GIS Coordinator</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>415-972-3586</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>75 Hawthorne Street</delPoint>
+        <delPoint>MTS-6-1</delPoint>
+        <city>San Francisco</city>
+        <adminArea>CA</adminArea>
+        <postCode>94105</postCode>
+        <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+      </cntAddress>
+      <cntInstr>http://www.epa.gov/region09/</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007"/>
+    </role>
+  </mdContact>
+  <mdDateSt>20170915</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpIndName>Cheryl Henley</rpIndName>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+        <rpPosName>GIS Coordinator</rpPosName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>415-972-3586</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>75 Hawthorne Street</delPoint>
+            <delPoint>MTS-6-1</delPoint>
+            <city>San Francisco</city>
+            <adminArea>CA</adminArea>
+            <postCode>94105</postCode>
+            <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+          </cntAddress>
+          <cntInstr>http://www.epa.gov/region09/</cntInstr>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005"/>
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>https://edg.epa.gov</linkage>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>https://www.epa.gov/geospatial/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Social Vulnerability Index Polygons, Region 9, 2011, US EPA Region 9</resTitle>
+      <date>
+        <pubDate>2011-04-06</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>US Environmental Protection Agency, Region 9</rpOrgName>
+        <role>
+          <RoleCd value="006"/>
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint>San Francisco, CA</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010"/>
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005"/>
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>The Social Vulnerability Index is derived from the 2000 US Census data. The fields included are percent minority, median household income, age (under 18 and over 64), population without a high school diploma, linguistically isolated households, and single female head of households with own children under 18 (single moms). The data is at the block group level. Each field for each block group is assigned an index score of 0-3, based on whether the value of that dataset falls in the top quartile (score=3), second quartile (score=2), third quartile (score=1), or bottom quartile (score=0). The scores for each field are then added together to assign a comprehensive score to each block group (0-21). The highest scores are block groups that have the highest percentage of sensitive populations (highest percent minority, lowest per capita income, highest percent of population under 18 and over 64, highest percentage of population without a high school degree, highest percent of linguistically isolated households, and highest percent of single female head of households). Zoe Heller of the US EPA Region 9's Communities and Ecosystems Division, is responsible for the design and development of the Social Vulnerability Index data set.</idAbs>
+    <idPurp>The social vulnerability index was developed to determine where the most socially vulnerable populations are within Region 9.</idPurp>
+    <idStatus>
+      <ProgCd value="001"/>
+    </idStatus>
+    <idPoC>
+      <rpIndName>Cheryl Henley</rpIndName>
+      <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+      <rpPosName>GIS Coordinator</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>415-972-3586</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>75 Hawthorne Street</delPoint>
+          <delPoint>MTS-6-1</delPoint>
+          <city>San Francisco</city>
+          <adminArea>CA</adminArea>
+          <postCode>94105</postCode>
+          <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+        </cntAddress>
+        <cntInstr>http://www.epa.gov/region09/</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007"/>
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009"/>
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>Arizona</keyword>
+      <keyword>Hawaii</keyword>
+      <keyword>Nevada</keyword>
+      <keyword>California</keyword>
+    </placeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Category</resTitle>
+      </thesaName>
+      <keyword>society</keyword>
+    </themeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>EPA GIS Keyword Thesaurus</resTitle>
+      </thesaName>
+      <keyword>Human</keyword>
+    </themeKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>Check with Zoe Heller, EPA Region 9, before distributing</useLimit>
+        <othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <SecConsts>
+        <classSys>http://project-open-data.github.io/schema/#accessLevel</classSys>
+        <handDesc>Standard Technical Controls</handDesc>
+        <class>
+          <ClasscationCd value="001">Unclassified</ClasscationCd>
+        </class>
+      </SecConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>please do not use until consulting with Zoe Heller in the EJ program and Cheryl Henley, GIS Coordinator</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001"/>
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng"/>
+    </dataLang>
+    <envirDesc>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-114.798453</westBL>
+          <eastBL>-109.045223</eastBL>
+          <southBL>31.332178</southBL>
+          <northBL>37.004261</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>Publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2011-04-04</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <idCredit>US Census Bureau</idCredit>
+    <idPoC>
+      <editorSource>EPA Directory</editorSource>
+      <editorDigest>17adc5c57f0c424c9c462988bc540418</editorDigest>
+      <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+      <rpIndName>Cheryl Henley</rpIndName>
+      <rpPosName>GIS Coordinator</rpPosName>
+      <rpCntInfo>
+        <cntAddress addressType="both">
+          <delPoint>75 Hawthorne Street</delPoint>
+          <delPoint>MTS-6-1</delPoint>
+          <city>San Francisco</city>
+          <adminArea>CA</adminArea>
+          <postCode>94105</postCode>
+          <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+        </cntAddress>
+        <cntPhone>
+          <voiceNum>415-972-3586</voiceNum>
+        </cntPhone>
+        <cntOnlineRes>
+          <linkage>http://www.epa.gov/region09/</linkage>
+          <protocol>website</protocol>
+          <orFunct>
+            <OnFunctCd value="002"/>
+          </orFunct>
+        </cntOnlineRes>
+      </rpCntInfo>
+      <editorSave>True</editorSave>
+      <displayName>[EPA Directory]   Cheryl Henley</displayName>
+      <role>
+        <RoleCd value="010"/>
+      </role>
+    </idPoC>
+    <tpCat>
+      <TopicCatCd value="016"/>
+    </tpCat>
+  </dataIdInfo>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="012"/>
+    </maintFreq>
+    <dateNext>20150404</dateNext>
+  </mdMaint>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005"/>
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Tests for integrity have not been performed.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Features represented have not been tested for completeness</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</measDesc>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Sum total number of linguistically isolated households, calculate percent of linguistically isolated households.</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Export the data into excel. Each state separately.</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Sum total over 64, calculate percent over 64</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Sum total minority population, calculate percent minority</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Imported each states relevant SF3 data into Access including (SF3, P6), median household income (SF3, P53), percent population younger than 18 years old and percent population older than 64 years old (SF3, P8), percent population older than 25 without a high school diploma (SF3, P37), percent of linguistically isolated households (SF3, P20), percent single female head of household with own children under 18 (SF3, P10), and (SF3, P1) total weighted population.</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Downloaded Summary File 3 template files (http://www.census.gov/support/cen2000_sf3ASCII.html#Access)</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Create a field called STCO_BG that combines the state, county, tract and block group codes for each census tract.</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Sum total population over 25 without a high school diploma, calculate percent of total population over 25 without a high school diploma</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Downloaded California, Arizona, Hawaii, and Nevadas SF3 data (ascii text file) from the US Census Bureau (http://www2.census.gov/census_2000/datasets/Summary_File_3/)</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Summed the quartile scores together to get a Social Vulnerability Index Score (1-21)</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Imported to ArcMap and joined with existing census block group data.</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Sum total under 18, calculate percent under 18</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Sum total number of single female head of households with own children under 18 living in the home, calculate percent of single female head of households with own children under 18 living in the home.</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Used quartile function in Excel to identify quartile cut offs for each field. Assigned a zero to the least vulnerable quartile for each field (lowest percent minority, least population under 18, least population over 64, least population over 25 without a high school diploma, lowest percent of linguistically isolated households, lowest percent of single female head of households, highest median household income). Assigned a 1 to the next quartile. Assigned a 2 to the next quartile. Assigned a 3 to the most vulnerable quartile.</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Import the geo table from the ascii SF3 data into the SF3 template.</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Query to create a table with just the relevant SF3 data.</stepDesc>
+        <stepDateTm>2011-02-18</stepDateTm>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="21365605acc997745fadda02f0b190b6" EsriPropertyType="Base64" SourceMetadataSchema="fgdc" SourceMetadataDocId="{E88BBDAD-C0F0-4099-936C-BECDF6FBE300}">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPEVz
+cmk+DQogICAgPFB1Ymxpc2hlZERvY0lEPntFODhCQkRBRC1DMEYwLTQwOTktOTM2Qy1CRUNERjZG
+QkUzMDB9PC9QdWJsaXNoZWREb2NJRD4NCiAgPC9Fc3JpPg0KICA8aWRpbmZvPg0KICAgIDxjaXRh
+dGlvbj4NCiAgICAgIDxjaXRlaW5mbz4NCiAgICAgICAgPG9yaWdpbj5VUyBFbnZpcm9ubWVudGFs
+IFByb3RlY3Rpb24gQWdlbmN5LCBSZWdpb24gOTwvb3JpZ2luPg0KICAgICAgICA8cHViZGF0ZT4y
+MDExMDQwNjwvcHViZGF0ZT4NCiAgICAgICAgPHRpdGxlPlJlZ2lvbiA5IC0gU29jaWFsIFZ1bG5l
+cmFiaWxpdHkgSW5kZXg8L3RpdGxlPg0KICAgICAgICA8Z2VvZm9ybT52ZWN0b3IgZGlnaXRhbCBk
+YXRhPC9nZW9mb3JtPg0KICAgICAgICA8cHViaW5mbz4NCiAgICAgICAgICA8cHVicGxhY2U+U2Fu
+IEZyYW5jaXNjbywgQ0E8L3B1YnBsYWNlPg0KICAgICAgICAgIDxwdWJsaXNoPlUuUy4gRW52aXJv
+bm1lbnRhbCBQcm90ZWN0aW9uIEFnZW5jeSwgUmVnaW9uIDk8L3B1Ymxpc2g+DQogICAgICAgIDwv
+cHViaW5mbz4NCiAgICAgICAgPG9ubGluaz5odHRwczovL2VkZy5lcGEuZ292PC9vbmxpbms+DQog
+ICAgICAgIDxvbmxpbms+aHR0cDovL3d3dy5lcGEuZ292L2dlb3NwYXRpYWwvPC9vbmxpbms+DQog
+ICAgICA8L2NpdGVpbmZvPg0KICAgIDwvY2l0YXRpb24+DQogICAgPGRlc2NyaXB0Pg0KICAgICAg
+PGFic3RyYWN0PlRoZSBTb2NpYWwgVnVsbmVyYWJpbGl0eSBJbmRleCBpcyBkZXJpdmVkIGZyb20g
+dGhlIDIwMDAgVVMgQ2Vuc3VzIGRhdGEuICBUaGUgZmllbGRzIGluY2x1ZGVkIGFyZSBwZXJjZW50
+IG1pbm9yaXR5LCBtZWRpYW4gaG91c2Vob2xkIGluY29tZSwgYWdlICh1bmRlciAxOCBhbmQgb3Zl
+ciA2NCksIHBvcHVsYXRpb24gd2l0aG91dCBhIGhpZ2ggc2Nob29sIGRpcGxvbWEsIGxpbmd1aXN0
+aWNhbGx5IGlzb2xhdGVkIGhvdXNlaG9sZHMsIGFuZCBzaW5nbGUgZmVtYWxlIGhlYWQgb2YgaG91
+c2Vob2xkcyB3aXRoIG93biBjaGlsZHJlbiB1bmRlciAxOCAoc2luZ2xlIG1vbXMpLiAgVGhlIGRh
+dGEgaXMgYXQgdGhlIGJsb2NrIGdyb3VwIGxldmVsLiAgRWFjaCBmaWVsZCBmb3IgZWFjaCBibG9j
+ayBncm91cCBpcyBhc3NpZ25lZCBhbiBpbmRleCBzY29yZSBvZiAwLTMsIGJhc2VkIG9uIHdoZXRo
+ZXIgdGhlIHZhbHVlIG9mIHRoYXQgZGF0YXNldCBmYWxscyBpbiB0aGUgdG9wIHF1YXJ0aWxlIChz
+Y29yZT0zKSwgc2Vjb25kIHF1YXJ0aWxlIChzY29yZT0yKSwgdGhpcmQgcXVhcnRpbGUgKHNjb3Jl
+PTEpLCBvciBib3R0b20gcXVhcnRpbGUgKHNjb3JlPTApLiAgVGhlIHNjb3JlcyBmb3IgZWFjaCBm
+aWVsZCBhcmUgdGhlbiBhZGRlZCB0b2dldGhlciB0byBhc3NpZ24gYSBjb21wcmVoZW5zaXZlIHNj
+b3JlICB0byBlYWNoIGJsb2NrIGdyb3VwICgwLTIxKS4gIFRoZSBoaWdoZXN0IHNjb3JlcyBhcmUg
+YmxvY2sgZ3JvdXBzIHRoYXQgaGF2ZSB0aGUgaGlnaGVzdCBwZXJjZW50YWdlIG9mIHNlbnNpdGl2
+ZSBwb3B1bGF0aW9ucyAoaGlnaGVzdCBwZXJjZW50IG1pbm9yaXR5LCBsb3dlc3QgcGVyIGNhcGl0
+YSBpbmNvbWUsIGhpZ2hlc3QgcGVyY2VudCBvZiBwb3B1bGF0aW9uIHVuZGVyIDE4IGFuZCBvdmVy
+IDY0LCBoaWdoZXN0IHBlcmNlbnRhZ2Ugb2YgcG9wdWxhdGlvbiB3aXRob3V0IGEgaGlnaCBzY2hv
+b2wgZGVncmVlLCBoaWdoZXN0IHBlcmNlbnQgb2YgbGluZ3Vpc3RpY2FsbHkgaXNvbGF0ZWQgaG91
+c2Vob2xkcywgYW5kIGhpZ2hlc3QgcGVyY2VudCBvZiBzaW5nbGUgZmVtYWxlIGhlYWQgb2YgaG91
+c2Vob2xkcykuICBab2UgSGVsbGVyIG9mIHRoZSBVUyBFUEEgUmVnaW9uIDkncyBDb21tdW5pdGll
+cyBhbmQgRWNvc3lzdGVtcyBEaXZpc2lvbiwgaXMgcmVzcG9uc2libGUgZm9yIHRoZSBkZXNpZ24g
+YW5kIGRldmVsb3BtZW50IG9mIHRoZSBTb2NpYWwgVnVsbmVyYWJpbGl0eSBJbmRleCBkYXRhIHNl
+dC48L2Fic3RyYWN0Pg0KICAgICAgPHB1cnBvc2U+VGhlIHNvY2lhbCB2dWxuZXJhYmlsaXR5IGlu
+ZGV4IHdhcyBkZXZlbG9wZWQgdG8gZGV0ZXJtaW5lIHdoZXJlIHRoZSBtb3N0IHNvY2lhbGx5IHZ1
+bG5lcmFibGUgcG9wdWxhdGlvbnMgYXJlIHdpdGhpbiBSZWdpb24gOS48L3B1cnBvc2U+DQogICAg
+PC9kZXNjcmlwdD4NCiAgICA8dGltZXBlcmQ+DQogICAgICA8Y3VycmVudD5QdWJsaWNhdGlvbiBk
+YXRlPC9jdXJyZW50Pg0KICAgICAgPHRpbWVpbmZvPg0KICAgICAgICA8c25nZGF0ZT4NCiAgICAg
+ICAgICA8Y2FsZGF0ZT4yMDExMDQwNDwvY2FsZGF0ZT4NCiAgICAgICAgPC9zbmdkYXRlPg0KICAg
+ICAgPC90aW1laW5mbz4NCiAgICA8L3RpbWVwZXJkPg0KICAgIDxzdGF0dXM+DQogICAgICA8cHJv
+Z3Jlc3M+Q29tcGxldGU8L3Byb2dyZXNzPg0KICAgICAgPHVwZGF0ZT5BcyBuZWVkZWQ8L3VwZGF0
+ZT4NCiAgICA8L3N0YXR1cz4NCiAgICA8c3Bkb20+DQogICAgICA8Ym91bmRpbmc+DQogICAgICAg
+IDx3ZXN0YmM+LTExNC43OTg0NTM8L3dlc3RiYz4NCiAgICAgICAgPGVhc3RiYz4tMTA5LjA0NTIy
+MzwvZWFzdGJjPg0KICAgICAgICA8bm9ydGhiYz4zNy4wMDQyNjE8L25vcnRoYmM+DQogICAgICAg
+IDxzb3V0aGJjPjMxLjMzMjE3ODwvc291dGhiYz4NCiAgICAgIDwvYm91bmRpbmc+DQogICAgPC9z
+cGRvbT4NCiAgICA8a2V5d29yZHM+DQogICAgICA8dGhlbWU+DQogICAgICAgIDx0aGVtZWt0PklT
+TyAxOTExNSBUb3BpYyBDYXRlZ29yeTwvdGhlbWVrdD4NCiAgICAgICAgPHRoZW1la2V5PnNvY2ll
+dHk8L3RoZW1la2V5Pg0KICAgICAgPC90aGVtZT4NCiAgICAgIDx0aGVtZT4NCiAgICAgICAgPHRo
+ZW1la3Q+RVBBIEdJUyBLZXl3b3JkIFRoZXNhdXJ1czwvdGhlbWVrdD4NCiAgICAgICAgPHRoZW1l
+a2V5Pkh1bWFuPC90aGVtZWtleT4NCiAgICAgIDwvdGhlbWU+DQogICAgICA8cGxhY2U+DQogICAg
+ICAgIDxwbGFjZWt0Pk5vbmU8L3BsYWNla3Q+DQogICAgICAgIDxwbGFjZWtleT5Bcml6b25hPC9w
+bGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PkNhbGlmb3JuaWE8L3BsYWNla2V5Pg0KICAgICAg
+ICA8cGxhY2VrZXk+SGF3YWlpPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5Pk5ldmFkYTwv
+cGxhY2VrZXk+DQogICAgICA8L3BsYWNlPg0KICAgIDwva2V5d29yZHM+DQogICAgPGFjY2NvbnN0
+PkNoZWNrIHdpdGggWm9lIEhlbGxlciwgRVBBIFJlZ2lvbiA5LCBiZWZvcmUgZGlzdHJpYnV0aW5n
+PC9hY2Njb25zdD4NCiAgICA8dXNlY29uc3Q+cGxlYXNlIGRvIG5vdCB1c2UgdW50aWwgY29uc3Vs
+dGluZyB3aXRoIFpvZSBIZWxsZXIgaW4gdGhlIEVKIHByb2dyYW0gYW5kIENoZXJ5bCBIZW5sZXks
+IEdJUyBDb29yZGluYXRvcjwvdXNlY29uc3Q+DQogICAgPG5hdGl2ZT5NaWNyb3NvZnQgV2luZG93
+cyBYUCBWZXJzaW9uIDUuMSAoQnVpbGQgMjYwMCkgU2VydmljZSBQYWNrIDM7IEVTUkkgQXJjQ2F0
+YWxvZyA5LjMuMC4xNzcwPC9uYXRpdmU+DQogICAgPHNlY2luZm8+DQogICAgICA8c2Vjc3lzPmh0
+dHA6Ly9wcm9qZWN0LW9wZW4tZGF0YS5naXRodWIuaW8vc2NoZW1hLyNhY2Nlc3NMZXZlbDwvc2Vj
+c3lzPg0KICAgICAgPHNlY2NsYXNzPm5vbi1wdWJsaWM8L3NlY2NsYXNzPg0KICAgICAgPHNlY2hh
+bmRsPlN0YW5kYXJkIFRlY2huaWNhbCBDb250cm9sczwvc2VjaGFuZGw+DQogICAgPC9zZWNpbmZv
+Pg0KICAgIDxwdGNvbnRhYz4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250cGVycD4NCiAg
+ICAgICAgICA8Y250b3JnPlUuUy4gRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uIEFnZW5jeSwgUmVn
+aW9uIDk8L2NudG9yZz4NCiAgICAgICAgICA8Y250cGVyPkNoZXJ5bCBIZW5sZXk8L2NudHBlcj4N
+CiAgICAgICAgPC9jbnRwZXJwPg0KICAgICAgICA8Y250cG9zPkdJUyBDb29yZGluYXRvcjwvY250
+cG9zPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQg
+cGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+NzUgSGF3dGhv
+cm5lIFN0cmVldDwvYWRkcmVzcz4NCiAgICAgICAgICA8YWRkcmVzcz5NVFMtNi0xPC9hZGRyZXNz
+Pg0KICAgICAgICAgIDxjaXR5PlNhbiBGcmFuY2lzY288L2NpdHk+DQogICAgICAgICAgPHN0YXRl
+PkNBPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjk0MTA1PC9wb3N0YWw+DQogICAgICAgIDwv
+Y250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPjQxNS05NzItMzU4NjwvY250dm9pY2U+DQogICAg
+ICAgIDxjbnRlbWFpbD5oZW5sZXkuY2hlcnlsQGVwYS5nb3Y8L2NudGVtYWlsPg0KICAgICAgICA8
+Y250aW5zdD5odHRwOi8vd3d3LmVwYS5nb3YvcmVnaW9uMDkvPC9jbnRpbnN0Pg0KICAgICAgPC9j
+bnRpbmZvPg0KICAgIDwvcHRjb250YWM+DQogIDwvaWRpbmZvPg0KICA8ZGF0YXF1YWw+DQogICAg
+PGxvZ2ljPlRlc3RzIGZvciBpbnRlZ3JpdHkgaGF2ZSBub3QgYmVlbiBwZXJmb3JtZWQuPC9sb2dp
+Yz4NCiAgICA8Y29tcGxldGU+RmVhdHVyZXMgcmVwcmVzZW50ZWQgaGF2ZSBub3QgYmVlbiB0ZXN0
+ZWQgZm9yIGNvbXBsZXRlbmVzczwvY29tcGxldGU+DQogICAgPHBvc2FjYz4NCiAgICAgIDxob3Jp
+enBhPg0KICAgICAgICA8aG9yaXpwYXI+RGF0YSB3ZXJlIGNvbGxlY3RlZCB1c2luZyBtZXRob2Rz
+IHRoYXQgaGF2ZSB1bmtub3duIGFjY3VyYWN5IChFUEEgTmF0aW9uYWwgR2Vvc3BhdGlhbCBEYXRh
+IFBvbGljeSBbTkdEUF0gQWNjdXJhY3kgVGllciAxMCkuIEZvciBtb3JlIGluZm9ybWF0aW9uLCBw
+bGVhc2Ugc2VlIEVQQSdzIE5HRFAgYXQgaHR0cDovL2VwYS5nb3YvZ2Vvc3BhdGlhbC9wb2xpY2ll
+cy5odG1sKTwvaG9yaXpwYXI+DQogICAgICA8L2hvcml6cGE+DQogICAgPC9wb3NhY2M+DQogICAg
+PGxpbmVhZ2U+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGF0ZT4yMDExMDIxODwv
+cHJvY2RhdGU+DQogICAgICAgIDxwcm9jZGVzYz5EYXRhc2V0IGNvcGllZC48L3Byb2NkZXNjPg0K
+ICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAgICAgPHByb2NkYXRlPjIw
+MTEwMjE4PC9wcm9jZGF0ZT4NCiAgICAgICAgPHByb2NkZXNjPkRhdGFzZXQgY29waWVkLjwvcHJv
+Y2Rlc2M+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJv
+Y2RhdGU+MjAxMTAyMTg8L3Byb2NkYXRlPg0KICAgICAgICA8cHJvY2Rlc2M+RG93bmxvYWRlZCBD
+YWxpZm9ybmlhLCBBcml6b25hLCBIYXdhaWksIGFuZCBOZXZhZGFzIFNGMyBkYXRhIChhc2NpaSB0
+ZXh0IGZpbGUpIGZyb20gdGhlIFVTIENlbnN1cyBCdXJlYXUgKGh0dHA6Ly93d3cyLmNlbnN1cy5n
+b3YvY2Vuc3VzXzIwMDAvZGF0YXNldHMvU3VtbWFyeV9GaWxlXzMvKTwvcHJvY2Rlc2M+DQogICAg
+ICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2RhdGU+MjAxMTAy
+MTg8L3Byb2NkYXRlPg0KICAgICAgICA8cHJvY2Rlc2M+RG93bmxvYWRlZCBTdW1tYXJ5IEZpbGUg
+MyB0ZW1wbGF0ZSBmaWxlcyAgKGh0dHA6Ly93d3cuY2Vuc3VzLmdvdi9zdXBwb3J0L2NlbjIwMDBf
+c2YzQVNDSUkuaHRtbCNBY2Nlc3MpPC9wcm9jZGVzYz4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAg
+ICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGF0ZT4yMDExMDIxODwvcHJvY2RhdGU+DQogICAg
+ICAgIDxwcm9jZGVzYz5JbXBvcnRlZCBlYWNoIHN0YXRlcyByZWxldmFudCBTRjMgZGF0YSBpbnRv
+IEFjY2VzcyBpbmNsdWRpbmcgKFNGMywgUDYpLCBtZWRpYW4gaG91c2Vob2xkIGluY29tZSAoU0Yz
+LCBQNTMpLCBwZXJjZW50IHBvcHVsYXRpb24geW91bmdlciB0aGFuIDE4IHllYXJzIG9sZCBhbmQg
+cGVyY2VudCBwb3B1bGF0aW9uIG9sZGVyIHRoYW4gNjQgeWVhcnMgb2xkIChTRjMsIFA4KSwgcGVy
+Y2VudCBwb3B1bGF0aW9uIG9sZGVyIHRoYW4gMjUgd2l0aG91dCBhIGhpZ2ggc2Nob29sIGRpcGxv
+bWEgKFNGMywgUDM3KSwgcGVyY2VudCBvZiBsaW5ndWlzdGljYWxseSBpc29sYXRlZCBob3VzZWhv
+bGRzIChTRjMsIFAyMCksIHBlcmNlbnQgc2luZ2xlIGZlbWFsZSBoZWFkIG9mIGhvdXNlaG9sZCB3
+aXRoIG93biBjaGlsZHJlbiB1bmRlciAxOCAoU0YzLCBQMTApLCBhbmQgKFNGMywgUDEpIHRvdGFs
+IHdlaWdodGVkIHBvcHVsYXRpb24uPC9wcm9jZGVzYz4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAg
+ICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGF0ZT4yMDExMDIxODwvcHJvY2RhdGU+DQogICAg
+ICAgIDxwcm9jZGVzYz5JbXBvcnQgdGhlIGdlbyB0YWJsZSBmcm9tIHRoZSBhc2NpaSBTRjMgZGF0
+YSBpbnRvIHRoZSBTRjMgdGVtcGxhdGUuPC9wcm9jZGVzYz4NCiAgICAgIDwvcHJvY3N0ZXA+DQog
+ICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGF0ZT4yMDExMDIxODwvcHJvY2RhdGU+DQog
+ICAgICAgIDxwcm9jZGVzYz5DcmVhdGUgYSBmaWVsZCBjYWxsZWQgU1RDT19CRyB0aGF0IGNvbWJp
+bmVzIHRoZSBzdGF0ZSwgY291bnR5LCB0cmFjdCBhbmQgYmxvY2sgZ3JvdXAgY29kZXMgZm9yIGVh
+Y2ggY2Vuc3VzIHRyYWN0LjwvcHJvY2Rlc2M+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHBy
+b2NzdGVwPg0KICAgICAgICA8cHJvY2RhdGU+MjAxMTAyMTg8L3Byb2NkYXRlPg0KICAgICAgICA8
+cHJvY2Rlc2M+UXVlcnkgdG8gY3JlYXRlIGEgdGFibGUgd2l0aCBqdXN0IHRoZSByZWxldmFudCBT
+RjMgZGF0YS48L3Byb2NkZXNjPg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxwcm9jc3RlcD4N
+CiAgICAgICAgPHByb2NkYXRlPjIwMTEwMjE4PC9wcm9jZGF0ZT4NCiAgICAgICAgPHByb2NkZXNj
+PkV4cG9ydCB0aGUgZGF0YSBpbnRvIGV4Y2VsLiAgRWFjaCBzdGF0ZSBzZXBhcmF0ZWx5LjwvcHJv
+Y2Rlc2M+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJv
+Y2RhdGU+MjAxMTAyMTg8L3Byb2NkYXRlPg0KICAgICAgICA8cHJvY2Rlc2M+U3VtIHRvdGFsIG1p
+bm9yaXR5IHBvcHVsYXRpb24sIGNhbGN1bGF0ZSBwZXJjZW50IG1pbm9yaXR5PC9wcm9jZGVzYz4N
+CiAgICAgIDwvcHJvY3N0ZXA+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGF0ZT4y
+MDExMDIxODwvcHJvY2RhdGU+DQogICAgICAgIDxwcm9jZGVzYz5TdW0gdG90YWwgdW5kZXIgMTgs
+IGNhbGN1bGF0ZSBwZXJjZW50IHVuZGVyIDE4PC9wcm9jZGVzYz4NCiAgICAgIDwvcHJvY3N0ZXA+
+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGF0ZT4yMDExMDIxODwvcHJvY2RhdGU+
+DQogICAgICAgIDxwcm9jZGVzYz5TdW0gdG90YWwgb3ZlciA2NCwgY2FsY3VsYXRlIHBlcmNlbnQg
+b3ZlciA2NDwvcHJvY2Rlc2M+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0K
+ICAgICAgICA8cHJvY2RhdGU+MjAxMTAyMTg8L3Byb2NkYXRlPg0KICAgICAgICA8cHJvY2Rlc2M+
+U3VtIHRvdGFsIHBvcHVsYXRpb24gb3ZlciAyNSB3aXRob3V0IGEgaGlnaCBzY2hvb2wgZGlwbG9t
+YSwgY2FsY3VsYXRlIHBlcmNlbnQgb2YgdG90YWwgcG9wdWxhdGlvbiBvdmVyIDI1IHdpdGhvdXQg
+YSBoaWdoIHNjaG9vbCBkaXBsb21hPC9wcm9jZGVzYz4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAg
+ICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGF0ZT4yMDExMDIxODwvcHJvY2RhdGU+DQogICAg
+ICAgIDxwcm9jZGVzYz5TdW0gdG90YWwgbnVtYmVyIG9mIGxpbmd1aXN0aWNhbGx5IGlzb2xhdGVk
+IGhvdXNlaG9sZHMsIGNhbGN1bGF0ZSBwZXJjZW50IG9mIGxpbmd1aXN0aWNhbGx5IGlzb2xhdGVk
+IGhvdXNlaG9sZHMuPC9wcm9jZGVzYz4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgICA8cHJvY3N0
+ZXA+DQogICAgICAgIDxwcm9jZGF0ZT4yMDExMDIxODwvcHJvY2RhdGU+DQogICAgICAgIDxwcm9j
+ZGVzYz5TdW0gdG90YWwgbnVtYmVyIG9mIHNpbmdsZSBmZW1hbGUgaGVhZCBvZiBob3VzZWhvbGRz
+IHdpdGggb3duIGNoaWxkcmVuIHVuZGVyIDE4IGxpdmluZyBpbiB0aGUgaG9tZSwgY2FsY3VsYXRl
+IHBlcmNlbnQgb2Ygc2luZ2xlIGZlbWFsZSBoZWFkIG9mIGhvdXNlaG9sZHMgd2l0aCBvd24gY2hp
+bGRyZW4gdW5kZXIgMTggbGl2aW5nIGluIHRoZSBob21lLjwvcHJvY2Rlc2M+DQogICAgICA8L3By
+b2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2RhdGU+MjAxMTAyMTg8L3By
+b2NkYXRlPg0KICAgICAgICA8cHJvY2Rlc2M+VXNlZCBxdWFydGlsZSBmdW5jdGlvbiBpbiBFeGNl
+bCB0byBpZGVudGlmeSBxdWFydGlsZSBjdXQgb2ZmcyBmb3IgZWFjaCBmaWVsZC4gIEFzc2lnbmVk
+IGEgemVybyB0byB0aGUgbGVhc3QgdnVsbmVyYWJsZSBxdWFydGlsZSBmb3IgZWFjaCBmaWVsZCAo
+bG93ZXN0IHBlcmNlbnQgbWlub3JpdHksIGxlYXN0IHBvcHVsYXRpb24gdW5kZXIgMTgsIGxlYXN0
+IHBvcHVsYXRpb24gb3ZlciA2NCwgbGVhc3QgcG9wdWxhdGlvbiBvdmVyIDI1IHdpdGhvdXQgYSBo
+aWdoIHNjaG9vbCBkaXBsb21hLCBsb3dlc3QgcGVyY2VudCBvZiBsaW5ndWlzdGljYWxseSBpc29s
+YXRlZCBob3VzZWhvbGRzLCBsb3dlc3QgcGVyY2VudCBvZiBzaW5nbGUgZmVtYWxlIGhlYWQgb2Yg
+aG91c2Vob2xkcywgaGlnaGVzdCBtZWRpYW4gaG91c2Vob2xkIGluY29tZSkuICBBc3NpZ25lZCBh
+IDEgdG8gdGhlIG5leHQgcXVhcnRpbGUuICBBc3NpZ25lZCBhIDIgdG8gdGhlIG5leHQgcXVhcnRp
+bGUuICBBc3NpZ25lZCBhIDMgdG8gdGhlIG1vc3QgdnVsbmVyYWJsZSBxdWFydGlsZS48L3Byb2Nk
+ZXNjPg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAgICAgPHByb2Nk
+YXRlPjIwMTEwMjE4PC9wcm9jZGF0ZT4NCiAgICAgICAgPHByb2NkZXNjPlN1bW1lZCB0aGUgcXVh
+cnRpbGUgc2NvcmVzIHRvZ2V0aGVyIHRvIGdldCBhIFNvY2lhbCBWdWxuZXJhYmlsaXR5IEluZGV4
+IFNjb3JlICgxLTIxKTwvcHJvY2Rlc2M+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2Nz
+dGVwPg0KICAgICAgICA8cHJvY2RhdGU+MjAxMTAyMTg8L3Byb2NkYXRlPg0KICAgICAgICA8cHJv
+Y2Rlc2M+SW1wb3J0ZWQgdG8gQXJjTWFwIGFuZCBqb2luZWQgd2l0aCBleGlzdGluZyBjZW5zdXMg
+YmxvY2sgZ3JvdXAgZGF0YS48L3Byb2NkZXNjPg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxw
+cm9jc3RlcD4NCiAgICAgICAgPHByb2NkYXRlPjIwMTEwNDA2PC9wcm9jZGF0ZT4NCiAgICAgICAg
+PHByb2NkZXNjPk1ldGFkYXRhIGltcG9ydGVkLjwvcHJvY2Rlc2M+DQogICAgICA8L3Byb2NzdGVw
+Pg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2RhdGU+MjAxMTA0MDY8L3Byb2NkYXRl
+Pg0KICAgICAgICA8cHJvY2Rlc2M+TWV0YWRhdGEgaW1wb3J0ZWQuPC9wcm9jZGVzYz4NCiAgICAg
+IDwvcHJvY3N0ZXA+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGF0ZT4yMDExMDgw
+MjwvcHJvY2RhdGU+DQogICAgICAgIDxwcm9jZGVzYz5EYXRhc2V0IGNvcGllZC48L3Byb2NkZXNj
+Pg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAgICAgPHByb2NkYXRl
+PjIwMTEwODAyPC9wcm9jZGF0ZT4NCiAgICAgICAgPHByb2NkZXNjPkRhdGFzZXQgY29waWVkLjwv
+cHJvY2Rlc2M+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8
+cHJvY2RhdGU+MjAxMTA5Mjg8L3Byb2NkYXRlPg0KICAgICAgICA8cHJvY2Rlc2M+RGF0YXNldCBj
+b3BpZWQuPC9wcm9jZGVzYz4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgPC9saW5lYWdlPg0KICA8
+L2RhdGFxdWFsPg0KICA8c3Bkb2luZm8+DQogICAgPGRpcmVjdD5WZWN0b3I8L2RpcmVjdD4NCiAg
+PC9zcGRvaW5mbz4NCiAgPHNwcmVmPg0KICAgIDxob3JpenN5cz4NCiAgICAgIDxnZW9ncmFwaD4N
+CiAgICAgICAgPGxhdHJlcz4wLjAwMDAwMTwvbGF0cmVzPg0KICAgICAgICA8bG9uZ3Jlcz4wLjAw
+MDAwMTwvbG9uZ3Jlcz4NCiAgICAgICAgPGdlb2d1bml0PkRlY2ltYWwgZGVncmVlczwvZ2VvZ3Vu
+aXQ+DQogICAgICA8L2dlb2dyYXBoPg0KICAgICAgPGdlb2RldGljPg0KICAgICAgICA8aG9yaXpk
+bj5Ob3J0aCBBbWVyaWNhbiBEYXR1bSBvZiAxOTgzPC9ob3JpemRuPg0KICAgICAgICA8ZWxsaXBz
+Pkdlb2RldGljIFJlZmVyZW5jZSBTeXN0ZW0gMTk4MDwvZWxsaXBzPg0KICAgICAgICA8c2VtaWF4
+aXM+NjM3ODEzNy4wMDAwMDA8L3NlbWlheGlzPg0KICAgICAgICA8ZGVuZmxhdD4yOTguMjU3MjIy
+PC9kZW5mbGF0Pg0KICAgICAgPC9nZW9kZXRpYz4NCiAgICA8L2hvcml6c3lzPg0KICA8L3NwcmVm
+Pg0KICA8ZWFpbmZvPg0KICAgIDxkZXRhaWxlZD4NCiAgICAgIDxlbnR0eXA+DQogICAgICAgIDxl
+bnR0eXBsPlI5X1NWSXYyPC9lbnR0eXBsPg0KICAgICAgICA8ZW50dHlwZD4yMDAwIGNlbnN1cyBi
+bG9jayBncm91cCBpbmZvcm1hdGlvbiB0byBkZXRlcmVtaW5lIHdoaWNoIGNlbnN1cyB0cmFjdHMg
+aW4gRVBBLCBSZWdpb24gOSBhcmUgdGhlIG1vc3Qgc29jaWFsbHkgdnVsbmVyYWJsZTwvZW50dHlw
+ZD4NCiAgICAgICAgPGVudHR5cGRzPlVTIEVQQSBSZWdpb24gOTwvZW50dHlwZHM+DQogICAgICAg
+IDxlbnR0eXB0IFN5bmM9IlRSVUUiPkZlYXR1cmUgQ2xhc3M8L2VudHR5cHQ+DQogICAgICAgIDxl
+bnR0eXBjIFN5bmM9IlRSVUUiPjI3MzE0PC9lbnR0eXBjPg0KICAgICAgPC9lbnR0eXA+DQogICAg
+ICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPk9CSkVDVElEPC9hdHRybGFibD4NCiAgICAgICAg
+PGF0dHJkZWY+SW50ZXJuYWwgZmVhdHVyZSBudW1iZXIuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0
+cmRlZnM+RVNSSTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRv
+bT5TZXF1ZW50aWFsIHVuaXF1ZSB3aG9sZSBudW1iZXJzIHRoYXQgYXJlIGF1dG9tYXRpY2FsbHkg
+Z2VuZXJhdGVkLjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0dGFsaWFz
+IFN5bmM9IlRSVUUiPk9CSkVDVElEPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9
+IlRSVUUiPk9JRDwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj40PC9h
+dHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjEwPC9hdHByZWNpcz4NCiAg
+ICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0K
+ICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5TaGFwZTwvYXR0cmxhYmw+DQogICAgICAg
+IDxhdHRyZGVmPkZlYXR1cmUgZ2VvbWV0cnkuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+
+RVNSSTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5Db29y
+ZGluYXRlcyBkZWZpbmluZyB0aGUgZmVhdHVyZXMuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212
+Pg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+U2hhcGU8L2F0dGFsaWFzPg0KICAgICAg
+ICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+R2VvbWV0cnk8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0
+d2lkdGggU3luYz0iVFJVRSI+NDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJU
+UlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNj
+YWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5TVENP
+X0JHPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+QmxvY2sgR3JvdXAgSUQ8L2F0dHJkZWY+
+DQogICAgICAgIDxhdHRyZGVmcz5VUyBDZW5zdXMgMjAwMDwvYXR0cmRlZnM+DQogICAgICAgIDxh
+dHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5ibG9jayBncm91cCBpZDwvdWRvbT4NCiAgICAgICAg
+PC9hdHRyZG9tdj4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNUQ09fQkc8L2F0dGFs
+aWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAg
+ICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjEyPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJl
+Y2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJV
+RSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0
+dHJsYWJsPlNUVVNBQjwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPnR3byBsZXR0ZXIgYWJi
+cmV2aWF0aW9uIG9mIHRoZSBzdGF0ZTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlVTIENl
+bnN1cyAyMDAwPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9t
+PnN0YXRlIGFiYnJldmlhdGlvbjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAg
+PGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNUVVNBQjwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlw
+ZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0i
+VFJVRSI+MjU0PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0
+cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkxPR1JFQ05PPC9hdHRy
+bGFibD4NCiAgICAgICAgPGF0dHJkZWY+dW5pcXVlIGxvZ2ljYWwgcmVjb3JkIG51bWJlcjwvYXR0
+cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlVTIENlbnN1cyAyMDAwPC9hdHRyZGVmcz4NCiAgICAg
+ICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPnVuaXF1ZSByZWNvcmQgbnVtYmVyPC91ZG9t
+Pg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+TE9H
+UkVDTk88L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9h
+dHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjI1NDwvYXR0d2lkdGg+DQog
+ICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNj
+YWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+
+DQogICAgICAgIDxhdHRybGFibD5TVEFURTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPm51
+bWVyaWNhbCBzdGF0ZSBjb2RlPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VVMgQ2Vuc3Vz
+IDIwMDA8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+c3Rh
+dGUgY29kZSBmcm9tIGNlbnN1czwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAg
+PGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNUQVRFPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBl
+IFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJU
+UlVFIj4yNTQ8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRw
+cmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAg
+IDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+Q09VTlRZPC9hdHRybGFi
+bD4NCiAgICAgICAgPGF0dHJkZWY+bnVtZXJpY2FsIGNvdW50eSBjb2RlPC9hdHRyZGVmPg0KICAg
+ICAgICA8YXR0cmRlZnM+VVMgQ2Vuc3VzIDIwMDA8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRv
+bXY+DQogICAgICAgICAgPHVkb20+Y291bnR5IGNvZGUgZnJvbSBjZW5zdXM8L3Vkb20+DQogICAg
+ICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5DT1VOVFk8L2F0
+dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4N
+CiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjI1NDwvYXR0d2lkdGg+DQogICAgICAgIDxh
+dHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9
+IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAg
+IDxhdHRybGFibD5UUkFDVDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPm51bWVyaWNhbCB0
+cmFjdCBjb2RlPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VVMgQ2Vuc3VzIDIwMDA8L2F0
+dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+dHJhY3QgY29kZSBm
+cm9tIGNlbnN1czwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0dGFsaWFz
+IFN5bmM9IlRSVUUiPlRSQUNUPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRS
+VUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4yNTQ8
+L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQog
+ICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4N
+CiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+QkxLR1JQPC9hdHRybGFibD4NCiAgICAg
+ICAgPGF0dHJkZWY+bnVtZXJpY2FsIGJsb2NrIGdyb3VwIGNvZGU8L2F0dHJkZWY+DQogICAgICAg
+IDxhdHRyZGVmcz5VUyBDZW5zdXMgMjAwMDwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4N
+CiAgICAgICAgICA8dWRvbT5ibG9jayBncm91cCBjb2RlIGZyb20gY2Vuc3VzPC91ZG9tPg0KICAg
+ICAgICA8L2F0dHJkb212Pg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+QkxLR1JQPC9h
+dHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+
+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4yNTQ8L2F0dHdpZHRoPg0KICAgICAgICA8
+YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5j
+PSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAg
+ICA8YXR0cmxhYmw+QVJFQUxBTkQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5sYW5kIGFy
+ZWEgaW4gY2Vuc3VzIGJsb2NrIGdyb3VwPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VVMg
+Q2Vuc3VzIDIwMDA8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVk
+b20+YXJlYSBsYW5kPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgICA8YXR0YWxp
+YXMgU3luYz0iVFJVRSI+QVJFQUxBTkQ8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3lu
+Yz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUi
+PjI1NDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNp
+cz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9h
+dHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5BUkVBV0FUUjwvYXR0cmxhYmw+
+DQogICAgICAgIDxhdHRyZGVmPndhdGVyIGFyZWEgaW4gY2Vuc3VzIGJsb2NrIGdyb3VwPC9hdHRy
+ZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VVMgQ2Vuc3VzIDIwMDA8L2F0dHJkZWZzPg0KICAgICAg
+ICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+YXJlYSB3YXRlcjwvdWRvbT4NCiAgICAgICAg
+PC9hdHRyZG9tdj4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPkFSRUFXQVRSPC9hdHRh
+bGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQog
+ICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4yNTQ8L2F0dHdpZHRoPg0KICAgICAgICA8YXRw
+cmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJU
+UlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+YXR0cmxhYmw+VG90YWxQb3A8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5Ub3RhbCBwb3B1
+bGF0aW9uIGluIHRoZSBibG9jayBncm91cCAoU0YzLCBQMDAxMDAxKTwvYXR0cmRlZj4NCiAgICAg
+ICAgPGF0dHJkZWZzPlVTIENlbnN1cyAyMDAwPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212
+Pg0KICAgICAgICAgIDx1ZG9tPnRvdGFsIHBvcHVsYXRpb248L3Vkb20+DQogICAgICAgIDwvYXR0
+cmRvbXY+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5Ub3RhbFBvcDwvYXR0YWxpYXM+
+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBlPg0KICAgICAg
+ICA8YXR0d2lkdGggU3luYz0iVFJVRSI+ODwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBT
+eW5jPSJUUlVFIj4zODwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj44
+PC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxh
+Ymw+TWluUG9wPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+QmxvY2sgZ3JvdXAncyBwb3B1
+bGF0aW9uIHRoYXQgaXMgbm90IHdoaXRlIChTRjMsIFAwMDcwMDEtUDAwNzAwMyk8L2F0dHJkZWY+
+DQogICAgICAgIDxhdHRyZGVmcz5VUyBFUEEgUmVnaW9uIDk8L2F0dHJkZWZzPg0KICAgICAgICA8
+YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+dG90YWwgbWlub3JpdHkgcG9wdWxhdGlvbjwvdWRv
+bT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPk1p
+blBvcDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0
+dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+ODwvYXR0d2lkdGg+DQogICAg
+ICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4zODwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2Fs
+ZSBTeW5jPSJUUlVFIj44PC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0K
+ICAgICAgICA8YXR0cmxhYmw+UGVyTWluUG9wPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+
+UGVyY2VudCBvZiBibG9jayBncm91cCdzIHBvcHVsYXRpb24gdGhhdCBpcyBub3Qgd2hpdGUuIChN
+aW5Qb3AvUDAwNzAwMSk8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5VUyBFUEEgUmVnaW9u
+IDk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+cGVyY2Vu
+dCBtaW5vcml0eSBwb3B1bGF0aW9uPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAg
+ICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+UGVyTWluUG9wPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0
+dHJ0eXBlIFN5bmM9IlRSVUUiPkRvdWJsZTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBT
+eW5jPSJUUlVFIj44PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjM4
+PC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjg8L2F0dHNjYWxlPg0K
+ICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5NaW5TVkk8L2F0
+dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5QZXJjZW50IG1pbm9yaXR5IGlzIGRpdmlkZWQgaW50
+byBxdWFydGlsZXMuICBUaGUgbG93ZXN0IHBlcmNlbnQgbWlub3JpdHkgcXVhcnRpbGUgKGxlYXN0
+IHZ1bG5lcmFibGUpIHNjb3JlcyBhIDAsIHRoZSBuZXh0IGhpZ2hlc3Qgc2NvcmVzIGEgMSwgdGhl
+IG5leHQgaGlnaGVzdCBzY29yZXMgYSAyLCBhbmQgdGhlIGhpZ2hlc3QgKG1vc3QgdnVsbmVyYWJs
+ZSkgc2NvcmVzIGEgMy48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5VUyBFUEEgUmVnaW9u
+IDk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+aW5kaWNh
+dG9yIHNjb3JlICgwLTMpPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgICA8YXR0
+YWxpYXMgU3luYz0iVFJVRSI+TWluU1ZJPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5
+bmM9IlRSVUUiPkRvdWJsZTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVF
+Ij44PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjM4PC9hdHByZWNp
+cz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjg8L2F0dHNjYWxlPg0KICAgICAgPC9h
+dHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5Qb3BVbmQxODwvYXR0cmxhYmw+
+DQogICAgICAgIDxhdHRyZGVmPlRvdGFsIHBvcHVsYXRpb24gaW4gdGhlIGJsb2NrIGdyb3VwIHVu
+ZGVyIHRoZSBhZ2UgMTggKHNmMywgc3VtKFAwMDgwMDM6UDAwODAyMCkrc3VtKFAwMDgwNDI6UDAw
+ODA1OSkpPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VVMgRVBBIFJlZ2lvbiA5PC9hdHRy
+ZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPnBvcHVsYXRpb24gdW5k
+ZXIgYWdlIDE4PC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgICA8YXR0YWxpYXMg
+U3luYz0iVFJVRSI+UG9wVW5kMTg8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0i
+VFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjg8
+L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+Mzg8L2F0cHJlY2lzPg0K
+ICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+ODwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+
+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlBlclBvcFVuMTg8L2F0dHJsYWJsPg0K
+ICAgICAgICA8YXR0cmRlZj5QZXJjZW50IG9mIGJsb2NrIGdyb3VwJ3MgcG9wdWxhdGlvbiB0aGF0
+IGlzIHVuZGVyIHRoZSBhZ2UgMTggKFBvcFVuZDE4L1AwMDgwMDEpPC9hdHRyZGVmPg0KICAgICAg
+ICA8YXR0cmRlZnM+VVMgRVBBIFJlZ2lvbiA5PC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212
+Pg0KICAgICAgICAgIDx1ZG9tPnBlcmNlbnQgb2YgcG9wdWxhdGlvbiB1bmRlciBhZ2UgMTg8L3Vk
+b20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5Q
+ZXJQb3BVbjE4PC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPkRvdWJs
+ZTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj44PC9hdHR3aWR0aD4N
+CiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjM4PC9hdHByZWNpcz4NCiAgICAgICAgPGF0
+dHNjYWxlIFN5bmM9IlRSVUUiPjg8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+dHI+DQogICAgICAgIDxhdHRybGFibD5VbmQxOFNWSTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRy
+ZGVmPlBlcmNlbnQgdW5kZXIgMTggaXMgZGl2aWRlZCBpbnRvIHF1YXJ0aWxlcy4gIFRoZSBsb3dl
+c3QgcGVyY2VudCB1bmRlciAxOCBxdWFydGlsZSAobGVhc3QgdnVsbmVyYWJsZSkgc2NvcmVzIGEg
+MCwgdGhlIG5leHQgaGlnaGVzdCBzY29yZXMgYSAxLCB0aGUgbmV4dCBoaWdoZXN0IHNjb3JlcyBh
+IDIsIGFuZCB0aGUgaGlnaGVzdCAobW9zdCB2dWxuZXJhYmxlKSBzY29yZXMgYSAzLjwvYXR0cmRl
+Zj4NCiAgICAgICAgPGF0dHJkZWZzPlVTIEVQQSBSZWdpb24gOTwvYXR0cmRlZnM+DQogICAgICAg
+IDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5pbmRpY2F0b3Igc2NvcmUgKDAtMyk8L3Vkb20+
+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5VbmQx
+OFNWSTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0
+dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+ODwvYXR0d2lkdGg+DQogICAg
+ICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4zODwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2Fs
+ZSBTeW5jPSJUUlVFIj44PC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0K
+ICAgICAgICA8YXR0cmxhYmw+UG9wT3ZlcjY0PC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+
+UG9wdWxhdGlvbiBvdmVyIDY0PC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VVMgQ2Vuc3Vz
+IDIwMDA8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+cG9w
+dWxhdGlvbiBvdmVyIGFnZSA2NDwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAg
+PGF0dGFsaWFzIFN5bmM9IlRSVUUiPlBvcE92ZXI2NDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRy
+dHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3lu
+Yz0iVFJVRSI+ODwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4zODwv
+YXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj44PC9hdHRzY2FsZT4NCiAg
+ICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+UGVyUG9wT3Y2NDwv
+YXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlRvdGFsIHBvcHVsYXRpb24gaW4gdGhlIGJsb2Nr
+IGdyb3VwIG92ZXIgdGhlIGFnZSBvZiA2NCAoc2YzLCBzdW0oUDAwODAzNTpQMDA4MDQwKStzdW0o
+UDAwODA3NDpQMDA4MDc5KSk8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5VUyBFUEEgUmVn
+aW9uIDk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+cGVy
+Y2VudCBvZiBwb3B1bGF0aW9uIG92ZXIgYWdlIDY0PC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212
+Pg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+UGVyUG9wT3Y2NDwvYXR0YWxpYXM+DQog
+ICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8
+YXR0d2lkdGggU3luYz0iVFJVRSI+ODwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5j
+PSJUUlVFIj4zODwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj44PC9h
+dHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+
+T3Y2NFNWSTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlBlcmNlbnQgb3ZlciA2NCBpcyBk
+aXZpZGVkIGludG8gcXVhcnRpbGVzLiAgVGhlIGxvd2VzdCBwZXJjZW50IG92ZXIgNjQgcXVhcnRp
+bGUgKGxlYXN0IHZ1bG5lcmFibGUpIHNjb3JlcyBhIDAsIHRoZSBuZXh0IGhpZ2hlc3Qgc2NvcmVz
+IGEgMSwgdGhlIG5leHQgaGlnaGVzdCBzY29yZXMgYSAyLCBhbmQgdGhlIGhpZ2hlc3QgKG1vc3Qg
+dnVsbmVyYWJsZSkgc2NvcmVzIGEgMy48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5VUyBF
+UEEgUmVnaW9uIDk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVk
+b20+aW5kaWNhdG9yIHNjb3JlICgwLTMpPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAg
+ICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+T3Y2NFNWSTwvYXR0YWxpYXM+DQogICAgICAgIDxh
+dHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGgg
+U3luYz0iVFJVRSI+ODwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4z
+ODwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj44PC9hdHRzY2FsZT4N
+CiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+VG90YWxISDwv
+YXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlRvdGFsIG51bWJlciBvZiBob3VzZWhvbGRzIGlu
+IHRoZSBibG9jayBncm91cCAoc2YzLCBQMDEwMDAxKTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJk
+ZWZzPlVTIEVQQSBSZWdpb24gOTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAg
+ICAgICA8dWRvbT50b3RhbCBudW1iZXIgb2YgaG91c2Vob2xkczwvdWRvbT4NCiAgICAgICAgPC9h
+dHRyZG9tdj4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlRvdGFsSEg8L2F0dGFsaWFz
+Pg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAg
+ICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjg8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMg
+U3luYz0iVFJVRSI+Mzg8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+
+ODwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJs
+YWJsPlNpbmdNb208L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5Ub3RhbCBudW1iZXIgb2Yg
+aG91c2Vob2xkcyBpbiB0aGUgYmxvY2sgZ3JvdXAgd2l0aCBmZW1hbGUgaGVhZCBvZiBob3VzZWhv
+bGQsIG5vIGh1c2JhbmQgcHJlc2VudCwgd2l0aCBvd24gY2hpbGRyZW4gdW5kZXIgMTggeWVhcnMg
+KHNmMywgUDAxMDAxNSk8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5VUyBFUEEgUmVnaW9u
+IDk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+aG91c2Vo
+b2xkcyB3aXRoIHNpbmdsZSBtb3RoZXJzPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAg
+ICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+U2luZ01vbTwvYXR0YWxpYXM+DQogICAgICAgIDxh
+dHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGgg
+U3luYz0iVFJVRSI+ODwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4z
+ODwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj44PC9hdHRzY2FsZT4N
+CiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+UGVyU2luZ01v
+bTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlBlcmNlbnQgb2YgaG91c2Vob2xkcyBpbiB0
+aGUgYmxvY2sgZ3JvdXAgd2l0aCBmZW1hbGUgaGVhZCBvZiBob3VzZWhvbGQsIG5vIGh1c2JhbmQg
+cHJlc2VudCwgd2l0aCBvd24gY2hpbGRlbiB1bmRlciAxOCB5ZWFycyAoU2luZ01vbS9QTzEwMDAx
+KTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlVTIEVQQSBSZWdpb24gOTwvYXR0cmRlZnM+
+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5wZXJjZW50IG9mIGhvdXNlaG9s
+ZHMgd2l0aCBzaW5nbGUgbW90aGVyczwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAg
+ICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlBlclNpbmdNb208L2F0dGFsaWFzPg0KICAgICAgICA8
+YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRo
+IFN5bmM9IlRSVUUiPjg8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+
+Mzg8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+ODwvYXR0c2NhbGU+
+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNpbmdNb21T
+Vkk8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5QZXJjZW50IG9mIHNpbmdsZSBtb3RoZXJz
+IGlzIGRpdmlkZWQgaW50byBxdWFydGlsZXMuICBUaGUgbG93ZXN0IHF1YXJ0aWxlIChsZWFzdCB2
+dWxuZXJhYmxlKSBzY29yZXMgYSAwLCB0aGUgbmV4dCBoaWdoZXN0IHNjb3JlcyBhIDEsIHRoZSBu
+ZXh0IGhpZ2hlc3Qgc2NvcmVzIGEgMiwgYW5kIHRoZSBoaWdoZXN0IChtb3N0IHZ1bG5lcmFibGUp
+IHNjb3JlcyBhIDMuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VVMgRVBBIFJlZ2lvbiA5
+PC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPmluZGljYXRv
+ciBzY29yZSAoMC0zKTwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0dGFs
+aWFzIFN5bmM9IlRSVUUiPlNpbmdNb21TVkk8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUg
+U3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRS
+VUUiPjg8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+Mzg8L2F0cHJl
+Y2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+ODwvYXR0c2NhbGU+DQogICAgICA8
+L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkxpbmdJc288L2F0dHJsYWJs
+Pg0KICAgICAgICA8YXR0cmRlZj5Ub3RhbCBudW1iZXIgb2YgaG91c2Vob2xkcyBpbiB0aGUgYmxv
+Y2sgZ3JvdXAgdGhhdCBhcmUgbGlndWlzdGljYWxseSBpc29sYXRlZCwgYSBob3VzZWhvbGQgd2hl
+cmUgYWxsIG1lbWJlcnMgMTQgYW5kIG92ZXIgaGF2ZSBzb21lIGRpZmZpY3VsdHkgd2l0aCBFbmds
+aXNoIChzZjMsIFAwMjAwMDQrUDAyMDAwNytQMDIwMDEwK1AwMTAwMTMpPC9hdHRyZGVmPg0KICAg
+ICAgICA8YXR0cmRlZnM+VVMgRVBBIFJlZ2lvbiA5PC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJk
+b212Pg0KICAgICAgICAgIDx1ZG9tPmxpbmd1aXN0aWNhbGx5IGlzb2xhdGVkIGhvdXNlaG9sZHM8
+L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVF
+Ij5MaW5nSXNvPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPkRvdWJs
+ZTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj44PC9hdHR3aWR0aD4N
+CiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjM4PC9hdHByZWNpcz4NCiAgICAgICAgPGF0
+dHNjYWxlIFN5bmM9IlRSVUUiPjg8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+dHI+DQogICAgICAgIDxhdHRybGFibD5QZXJMaW5nSXNvPC9hdHRybGFibD4NCiAgICAgICAgPGF0
+dHJkZWY+UGVyY2VudCBvZiBob3VzZWhvbGRzIGluIHRoZSBibG9jayBncm91cCB0aGF0IGFyZSBs
+aW5ndWlzdGljYWxseSBpc29sYXRlZCAoTGluZ0lzby9QMDIwMDAxKTwvYXR0cmRlZj4NCiAgICAg
+ICAgPGF0dHJkZWZzPlVTIEVQQSBSZWdpb24gOTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9t
+dj4NCiAgICAgICAgICA8dWRvbT5wZXJjZW50YWdlIG9mIGxpbmd1aXN0aWNhbGx5IGlzb2xhdGVk
+IGhvdXNlaG9sZHM8L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHRhbGlh
+cyBTeW5jPSJUUlVFIj5QZXJMaW5nSXNvPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5
+bmM9IlRSVUUiPkRvdWJsZTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVF
+Ij44PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjM4PC9hdHByZWNp
+cz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjg8L2F0dHNjYWxlPg0KICAgICAgPC9h
+dHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5MaW5nSXNvU1ZJPC9hdHRybGFi
+bD4NCiAgICAgICAgPGF0dHJkZWY+UGVyY2VudCBvZiBsaW5ndWlzdGljYWxseSBpc29sYXRlZCBo
+b3VzZWhvbGRzIGlzIGRpdmlkZWQgaW50byBxdWFydGlsZXMuICBUaGUgbG93ZXN0IHBlcmNlbnQg
+b2YgbGluZ3Vpc3RpY2FsbHkgaXNvbGF0ZWQgaG91c2Vob2xkcyBxdWFydGlsZSAobGVhc3QgdnVs
+bmVyYWJsZSkgc2NvcmVzIGEgMCwgdGhlIG5leHQgaGlnaGVzdCBzY29yZXMgYSAxLCB0aGUgbmV4
+dCBoaWdoZXN0IHNjb3JlcyBhIDIsIGFuZCB0aGUgaGlnaGVzdCAobW9zdCB2dWxuZXJhYmxlKSBz
+Y29yZXMgYSAzLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlVTIEVQQSBSZWdpb24gOTwv
+YXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5pbmRpY2F0b3Ig
+c2NvcmUgKDAtMyk8L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHRhbGlh
+cyBTeW5jPSJUUlVFIj5MaW5nSXNvU1ZJPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5
+bmM9IlRSVUUiPkRvdWJsZTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVF
+Ij44PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjM4PC9hdHByZWNp
+cz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjg8L2F0dHNjYWxlPg0KICAgICAgPC9h
+dHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5Qb3BPdmVyMjU8L2F0dHJsYWJs
+Pg0KICAgICAgICA8YXR0cmRlZj5Ub3RhbCBwb3B1bGF0aW9uIGluIHRoZSBibG9jayBncm91cCBv
+dmVyIDI1IChzZjMsIFAwMzcwMDEpPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VVMgRVBB
+IFJlZ2lvbiA5PC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9t
+PnRvdGFsIHBvcHVsYXRpb24gb3ZlciAyNTwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAg
+ICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlBvcE92ZXIyNTwvYXR0YWxpYXM+DQogICAgICAg
+IDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lk
+dGggU3luYz0iVFJVRSI+ODwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVF
+Ij4zODwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj44PC9hdHRzY2Fs
+ZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+V09IU0Rp
+cDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlRvdGFsIHBvcHVsYXRpb24gaW4gdGhlIGJs
+b2NrIGdyb3VwIG92ZXIgMjUgd2l0aG91dCBhIGhpZ2ggc2Nob29sIGRpcGxvbWEgKHNmMywgc3Vt
+KFAwMzcwMDM6UDAzNzAxMCkrc3VtKFAwMzcwMjA6UDAzNzAyNyk8L2F0dHJkZWY+DQogICAgICAg
+IDxhdHRyZGVmcz5VUyBFUEEgUmVnaW9uIDk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+
+DQogICAgICAgICAgPHVkb20+dG90YWwgcG9wdWxhdGlvbiBvdmVyIDI1IHdpdGhvdXQgYSBoaWdo
+IHNjaG9vbCBkaXBsb21hPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgICA8YXR0
+YWxpYXMgU3luYz0iVFJVRSI+V09IU0RpcDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBT
+eW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJV
+RSI+ODwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4zODwvYXRwcmVj
+aXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj44PC9hdHRzY2FsZT4NCiAgICAgIDwv
+YXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+UGVyV09IU0RpcDwvYXR0cmxh
+Ymw+DQogICAgICAgIDxhdHRyZGVmPlBlcmNlbnQgb2YgcG9wdWxhdGlvbiBpbiB0aGUgYmxvY2sg
+Z3JvdXAgdGhhdCBpcyBvdmVyIDI1IGFuZCBkb2VzIG5vdCBoYXZlIGEgaGlnaCBzY2hvb2wgZGlw
+bG9tYSAoV09TSERpcC9QMDM3MDAxKTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlVTIEVQ
+QSBSZWdpb24gOTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRv
+bT5wZXJjZW50IG9mIHRvdGFsIHBvcHVsYXRpb24gb3ZlciAyNSB3aXRob3V0IGEgaGlnaCBzY2hv
+b2wgZGlwbG9tYTwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0dGFsaWFz
+IFN5bmM9IlRSVUUiPlBlcldPSFNEaXA8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3lu
+Yz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUi
+Pjg8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+Mzg8L2F0cHJlY2lz
+Pg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+ODwvYXR0c2NhbGU+DQogICAgICA8L2F0
+dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPldPSFNEaXBTVkk8L2F0dHJsYWJs
+Pg0KICAgICAgICA8YXR0cmRlZj5QZXJjZW50IHdpdGhvdXQgYSBoaWdoIHNjaG9vbCBkaXBsb21h
+IGlzIGRpdmlkZWQgaW50byBxdWFydGlsZXMuICBUaGUgbG93ZXN0IHBlcmNlbnQgd2l0aG91dCBh
+IGhpZ2ggc2Nob29sIGRpcGxvbWEgcXVhcnRpbGUgKGxlYXN0IHZ1bG5lcmFibGUpIHNjb3JlcyBh
+IDAsIHRoZSBuZXh0IGhpZ2hlc3Qgc2NvcmVzIGEgMSwgdGhlIG5leHQgaGlnaGVzdCBzY29yZXMg
+YSAyLCBhbmQgdGhlIGhpZ2hlc3QgKG1vc3QgdnVsbmVyYWJsZSkgc2NvcmVzIGEgMy48L2F0dHJk
+ZWY+DQogICAgICAgIDxhdHRyZGVmcz5VUyBFUEEgUmVnaW9uIDk8L2F0dHJkZWZzPg0KICAgICAg
+ICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+aW5kaWNhdG9yIHNjb3JlICgwLTMpPC91ZG9t
+Pg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+V09I
+U0RpcFNWSTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8
+L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+ODwvYXR0d2lkdGg+DQog
+ICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4zODwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRz
+Y2FsZSBTeW5jPSJUUlVFIj44PC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRy
+Pg0KICAgICAgICA8YXR0cmxhYmw+TWVkSEhJbmM8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRl
+Zj5NZWRpYW4gSG91c2Vob2xkIEluY29tZSAoc2YzLCBQNTMwMDEpPC9hdHRyZGVmPg0KICAgICAg
+ICA8YXR0cmRlZnM+VVMgRVBBIFJlZ2lvbiA5PC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212
+Pg0KICAgICAgICAgIDx1ZG9tPm1lZGlhbiBob3VzZWhvbGQgaW5jb21lPC91ZG9tPg0KICAgICAg
+ICA8L2F0dHJkb212Pg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+TWVkSEhJbmM8L2F0
+dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4N
+CiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjg8L2F0dHdpZHRoPg0KICAgICAgICA8YXRw
+cmVjaXMgU3luYz0iVFJVRSI+Mzg8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0i
+VFJVRSI+ODwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAg
+PGF0dHJsYWJsPk1kSEhJbmNTVkk8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5NZWRpYW4g
+aG91c2VvbGQgaW5jb21lIGlzIGRpdmlkZWQgaW50byBxdWFydGlsZXMuICBUaGUgaGlnaGVzdCBt
+ZWRpYW4gaG91c2Vob2xkIGluY29tZSBxdWFydGlsZSAobGVhc3QgdnVsbmVyYWJsZSkgc2NvcmVz
+IGEgMCwgdGhlIG5leHQgbG93ZXN0IHNjb3JlcyBhIDEsIHRoZSBuZXh0IGxvd2VzdCBzY29yZXMg
+YSAyLCBhbmQgdGhlIGxvd2VzdCAobW9zdCB2dWxuZXJhYmxlKSBzY29yZXMgYSAzLjwvYXR0cmRl
+Zj4NCiAgICAgICAgPGF0dHJkZWZzPlVTIEVQQSBSZWdpb24gOTwvYXR0cmRlZnM+DQogICAgICAg
+IDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5pbmRpY2F0b3Igc2NvcmUgKDAtMyk8L3Vkb20+
+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5NZEhI
+SW5jU1ZJPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPkRvdWJsZTwv
+YXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj44PC9hdHR3aWR0aD4NCiAg
+ICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjM4PC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNj
+YWxlIFN5bmM9IlRSVUUiPjg8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+
+DQogICAgICAgIDxhdHRybGFibD5TVklTY29yZTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVm
+PlRoaXMgbnVtYmVyIHJlcHJlc2VudHMgdGhlIHNvY2lhbCB2dWxuZXJhYmlsaXR5IGluZGV4IHNj
+b3JlLiAgVGhlIHN1bSBvZiBNaW5TVkksIFVuZDE4U1ZJLCBPdjY0U1ZJLCBTaW5nTW9tU1ZJLCBM
+aW5nSXNvU1ZJLCBXT0hTRGlwU1ZJLCBhbmQgTWVkSEhJbmNTVkkuPC9hdHRyZGVmPg0KICAgICAg
+ICA8YXR0cmRlZnM+VVMgRVBBIFJlZ2lvbiA5PC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212
+Pg0KICAgICAgICAgIDx1ZG9tPnN1bSBvZiBhbGwgaW5kaWNhdG9ycyAoMC0yMSk8L3Vkb20+DQog
+ICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TVklTY29y
+ZTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0
+eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+ODwvYXR0d2lkdGg+DQogICAgICAg
+IDxhdHByZWNpcyBTeW5jPSJUUlVFIj4zODwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBT
+eW5jPSJUUlVFIj44PC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAg
+ICAgICA8YXR0cmxhYmw+U2hhcGUuYXJlYTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBT
+eW5jPSJUUlVFIj5TaGFwZS5hcmVhPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9
+IlRSVUUiPkRvdWJsZTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4w
+PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0K
+ICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+
+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNoYXBlLmxlbjwvYXR0cmxhYmw+DQog
+ICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TaGFwZS5sZW48L2F0dGFsaWFzPg0KICAgICAg
+ICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdp
+ZHRoIFN5bmM9IlRSVUUiPjA8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJV
+RSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2Fs
+ZT4NCiAgICAgIDwvYXR0cj4NCiAgICA8L2RldGFpbGVkPg0KICA8L2VhaW5mbz4NCiAgPGRpc3Rp
+bmZvPg0KICAgIDxyZXNkZXNjPk9mZmxpbmUgRGF0YTwvcmVzZGVzYz4NCiAgICA8ZGlzdGxpYWI+
+aHR0cHM6Ly9lZGcuZXBhLmdvdi9FUEFfRGF0YV9MaWNlbnNlLmh0bWw8L2Rpc3RsaWFiPg0KICAg
+IDxkaXN0cmliPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRwZXJwPg0KICAgICAgICAg
+IDxjbnRvcmc+VS5TLiBFbnZpcm9ubWVudGFsIFByb3RlY3Rpb24gQWdlbmN5LCBSZWdpb24gOTwv
+Y250b3JnPg0KICAgICAgICAgIDxjbnRwZXI+Q2hlcnlsIEhlbmxleTwvY250cGVyPg0KICAgICAg
+ICA8L2NudHBlcnA+DQogICAgICAgIDxjbnRwb3M+R0lTIENvb3JkaW5hdG9yPC9jbnRwb3M+DQog
+ICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNh
+bCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz43NSBIYXd0aG9ybmUgU3Ry
+ZWV0PC9hZGRyZXNzPg0KICAgICAgICAgIDxhZGRyZXNzPk1UUy02LTE8L2FkZHJlc3M+DQogICAg
+ICAgICAgPGNpdHk+U2FuIEZyYW5jaXNjbzwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+Q0E8L3N0
+YXRlPg0KICAgICAgICAgIDxwb3N0YWw+OTQxMDU8L3Bvc3RhbD4NCiAgICAgICAgPC9jbnRhZGRy
+Pg0KICAgICAgICA8Y250dm9pY2U+NDE1LTk3Mi0zNTg2PC9jbnR2b2ljZT4NCiAgICAgICAgPGNu
+dGVtYWlsPmhlbmxleS5jaGVyeWxAZXBhLmdvdjwvY250ZW1haWw+DQogICAgICAgIDxjbnRpbnN0
+Pmh0dHA6Ly93d3cuZXBhLmdvdi9yZWdpb24wOS88L2NudGluc3Q+DQogICAgICA8L2NudGluZm8+
+DQogICAgPC9kaXN0cmliPg0KICA8L2Rpc3RpbmZvPg0KICA8bWV0YWluZm8+DQogICAgPG1ldGQ+
+MjAxMTA0MDQ8L21ldGQ+DQogICAgPG1ldGZyZD4yMDE1MDQwNDwvbWV0ZnJkPg0KICAgIDxtZXRz
+dGRuPkZHREMgQ29udGVudCBTdGFuZGFyZHMgZm9yIERpZ2l0YWwgR2Vvc3BhdGlhbCBNZXRhZGF0
+YTwvbWV0c3Rkbj4NCiAgICA8bWV0c3Rkdj5GR0RDLVNURC0wMDEtMTk5ODwvbWV0c3Rkdj4NCiAg
+ICA8bWV0dGM+bG9jYWwgdGltZTwvbWV0dGM+DQogICAgPG1ldGM+DQogICAgICA8Y250aW5mbz4N
+CiAgICAgICAgPGNudG9yZ3A+DQogICAgICAgICAgPGNudG9yZz5VLlMuIEVudmlyb25tZW50YWwg
+UHJvdGVjdGlvbiBBZ2VuY3ksIFJlZ2lvbiA5PC9jbnRvcmc+DQogICAgICAgICAgPGNudHBlcj5D
+aGVyeWwgSGVubGV5PC9jbnRwZXI+DQogICAgICAgIDwvY250b3JncD4NCiAgICAgICAgPGNudHBv
+cz5HSVMgQ29vcmRpbmF0b3I8L2NudHBvcz4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAg
+PGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAg
+ICAgIDxhZGRyZXNzPjc1IEhhd3Rob3JuZSBTdHJlZXQ8L2FkZHJlc3M+DQogICAgICAgICAgPGFk
+ZHJlc3M+TVRTLTYtMTwvYWRkcmVzcz4NCiAgICAgICAgICA8Y2l0eT5TYW4gRnJhbmNpc2NvPC9j
+aXR5Pg0KICAgICAgICAgIDxzdGF0ZT5DQTwvc3RhdGU+DQogICAgICAgICAgPHBvc3RhbD45NDEw
+NTwvcG9zdGFsPg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxjbnR2b2ljZT40MTUtOTcy
+LTM1ODY8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZW1haWw+aGVubGV5LmNoZXJ5bEBlcGEuZ292
+PC9jbnRlbWFpbD4NCiAgICAgICAgPGNudGluc3Q+aHR0cDovL3d3dy5lcGEuZ292L3JlZ2lvbjA5
+LzwvY250aW5zdD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L21ldGM+DQogIDwvbWV0YWluZm8+
+DQogIDxtZERhdGVTdD4yMDExMDQwNjwvbWREYXRlU3Q+DQogIDxFc3JpPg0KICAgIDxTeW5jRGF0
+ZT4yMDExMTIxMzwvU3luY0RhdGU+DQogICAgPFN5bmNUaW1lPjEwMjY1NzAwPC9TeW5jVGltZT4N
+CiAgICA8TW9kRGF0ZT4yMDExMTIxMzwvTW9kRGF0ZT4NCiAgICA8TW9kVGltZT4xMDI2NTcwMDwv
+TW9kVGltZT4NCiAgPC9Fc3JpPg0KPC9tZXRhZGF0YT4=</Data>
+    </Enclosure>
+  </Binary>
+  <mdFileID>E88BBDAD-C0F0-4099-936C-BECDF6FBE300</mdFileID>
+</metadata>

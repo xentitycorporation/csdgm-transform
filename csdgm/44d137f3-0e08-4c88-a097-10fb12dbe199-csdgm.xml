@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<Esri>
+		<PublishedDocID>DC07B400-B9D0-4FBF-B2F8-8FC3356BF3F3</PublishedDocID>
+	</Esri>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>US Environmental Protection Agency</origin>
+				<title>Cleanups In My Community (CIMC) - RCRA and Base Realignment and Closure (BRAC) Federal Facilities, National Layer</title>
+				<pubinfo>
+					<publish>U.S. EPA Office of Land and Emergency Management (OLEM)</publish>
+					<pubplace>Washington, DC</pubplace>
+				</pubinfo>
+				<pubdate>2013</pubdate>
+				<onlink>https://edg.epa.gov/metadata/</onlink>
+				<onlink>https://map22.epa.gov/arcgis/rest/services/cimc/Cleanups/MapServer</onlink>
+				<onlink>https://www.epa.gov/cleanups/cleanups-my-community</onlink>
+			</citeinfo>
+		</citation>
+		<descript> 
+			<abstract> This data layer provides access to Resource Conservation and Recovery Act (RCRA) Base Realignment and Closure (BRAC) sites as part of the CIMC web service.  The Resource Conservation and Recovery Act, among other things, helps ensure that wastes are managed in an environmentally sound manner so as to protect human health and the environment from the potential hazards of waste disposal.
+In particular RCRA tightly regulates all hazardous waste from "cradle to grave." In general, all generators, transporters, treaters, storers, and disposers of hazardous waste are required to provide information about their activities to state environmental agencies. These agencies, in turn pass on the information to regional and national EPA offices. Accidents or other activities at facilities that treat, store or dispose of hazardous wastes have sometimes led to the release of hazardous waste or hazardous constituents into soil, ground water, surface water, or air. When that happens, the RCRA Corrective Action program is one program that may be used to accomplish the necessary cleanup.
+
+This data layer shows those RCRA sites that are located at BRAC Federal Facilities.   Additional RCRA sites and other BRAC sites (those that are not RCRA sites) are included in other data layers as part of this web service.
+
+Note: RCRA facilities which are not undergoing corrective action are not considered &#8220;Cleanups&#8221; in Cleanups in My Community. The complete set of RCRA facilities can be accessed via the EPA RCRA database in Envirofacts (https://www.epa.gov/enviro/rcrainfo-overview). 
+
+The CIMC web service was initially published in 2013, but the data are updated twice a month. The full schedule for data updates in CIMC is located here: https://ofmpub.epa.gov/frs_public2/frs_html_public_pages.frs_refresh_stats.
+
+			</abstract>
+			<purpose>This web service was developed for the CIMC web application, which provides the public with access to data from numerous cleanup programs, although the data can generally be more broadly applied. Accidents, spills, leaks, and past improper disposal and handling of hazardous materials and wastes have resulted in tens of thousands of sites across our country that have contaminated our land, water (groundwater and surface water), and air (indoor and outdoor). EPA and its state and territorial partners have developed a variety of cleanup programs to assess and, where necessary, clean up these contaminated sites. CIMC (https://www.epa.gov/cleanups/cleanups-my-community) brings together the data from many of these cleanup programs and lets people map, list and access cleanup progress profiles for sites across the US so that people can know what is going on in their communities. For more information on data uses, please visit https://www.epa.gov/cleanups/cleanups-my-community.</purpose>
+		</descript>
+		<timeperd>
+			<current>Ground Condition.  Please note that though the CIMC web service was initially published in 2013, the data are updated twice a month.  The full schedule for data updates in CIMC is located here: https://ofmpub.epa.gov/frs_public2/frs_html_public_pages.frs_refresh_stats.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>2015</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Twice Monthly</update>
+		</status>
+		<accconst>None.</accconst>
+		<useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EPA GIS Keyword Thesaurus</themekt>
+				<themekey>Sites</themekey>
+				<themekey>Cleanup</themekey>
+				<themekey>Emergency</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Facilities</themekey>
+				<themekey>Ground</themekey>
+				<themekey>Ground Water</themekey>
+				<themekey>Hazardous Waste</themekey>
+				<themekey>Health</themekey>
+				<themekey>Human</themekey>
+				<themekey>Impact</themekey>
+				<themekey>Land</themekey>
+				<themekey>Regulatory</themekey>
+				<themekey>Remediation</themekey>
+				<themekey>Emergency Response</themekey>
+				<themekey>Risk</themekey>
+				<themekey>Spills</themekey>
+				<themekey>Toxics</themekey>
+				<themekey>Waste</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>United States</placekey>
+			</place>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-176.652500</westbc>
+				<eastbc>151.783720</eastbc>
+				<northbc>70.455278</northbc>
+				<southbc>-14.360100</southbc>
+			</bounding>
+		</spdom>
+		<secinfo>
+			<secsys>FIPS Pub 199</secsys>
+			<secclass>No Confidentiality</secclass>
+			<sechandl>Standard Technical Controls</sechandl>
+		</secinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency</cntorg>
+					<cntper>James (Trip) Hook</cntper>
+				</cntperp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>1301 Constitution Avenue N.W.</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20004</postal>
+				</cntaddr>
+				<cntvoice/>
+				<cntemail>Hook.James@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/cleanups/cleanups-my-community</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<logic>Tests for integrity have not been performed.</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Location information for EPA data provided via the CIMC web service are collected using many techniques. The processes used to collect location information for each type of data are as follows: Incidents of National Significance are derived from the official epa.gov web pages for each incident. Locations are collected for each incident individually, and may have varying accuracy. In the case where the original EPA pages did not provide a lat/long, a coordinate was placed manually based on the description provided about the site. Location information for Resource Conservation and Recovery Act (RCRA) data are initially entered by the regulated facility. Location information for Brownfields data are originally entered by the Brownfields grantee. Location information for Superfund data are initially entered by the remedial project manager for each superfund site. Location information for Emergency Responses are initially entered by the On Scene Coordinator for each response. After initial data entry using the methods described above, locations are verified using a detailed process called the Facility Registry System (FRS) "Best Pick" Process. This process uses a number of routines and algorithms to validate location data for each site and to select the best location. Information regarding this process is available here: https://www.epa.gov/sites/production/files/2015-09/documents/frs_representative_point_processing.pdf 
+Because locations are assigned using numerous different methods, the accuracy level assigned to the data set is EPA National Geospatial Data Policy (NGDP) Tier 10 - Data were collected using methods that have unknown accuracy (EPA NGDP Accuracy Tier 10). For more information, please see EPA's NGDP at https://www.epa.gov/geospatial/geospatial-policies-and-standards.  
+				</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>2015</procdate>
+				<procdesc>The RCRA data in CIMC comes from the RCRAInfo webservice and have been flagged by states as both open to public access and on the Corrective Action 2020 Baseline. Data are updated twice a month from RCRAInfo in to CIMC.  For more information, please see: https://www.epa.gov/cleanups/cimc-about-data#rcra.</procdesc>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntorg>U.S. Environmental Protection Agency</cntorg>
+							<cntper>James (Trip) Hook</cntper>
+						</cntperp>
+						<cntpos>GIS Coordinator</cntpos>
+						<cntaddr>
+							<addrtype>mailing</addrtype>
+							<address>1301 Constitution Avenue N.W.</address>
+							<city>Washington</city>
+							<state>DC</state>
+							<postal>20004</postal>
+						</cntaddr>
+						<cntvoice/>
+						<cntemail>Hook.James@epa.gov</cntemail>
+						<cntinst>https://www.epa.gov/cimc</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<distinfo>
+		<resdesc>Live Data and Maps</resdesc>
+		<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency</cntorg>
+					<cntper>James (Trip) Hook</cntper>
+				</cntorgp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>1301 Constitution Avenue N.W.</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20004</postal>
+				</cntaddr>
+				<cntvoice/>
+				<cntemail>Hook.James@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/cleanups/cleanups-my-community</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20211110</metd>
+		<metfrd>201909</metfrd>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency</cntorg>
+					<cntper>James (Trip) Hook</cntper>
+				</cntperp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>1301 Constitution Avenue N.W.</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20004</postal>
+				</cntaddr>
+				<cntvoice/>
+				<cntemail>Hook.James@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/cleanups/cleanups-my-community</cntinst>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<eainfo>
+		<overview>
+			<eaover>Attribute fields for CIMC data are derived from many sources.  Each field is described in detail below. Not all fields are relevant for each layer.  Only the following fields are relevant to the RCRA and BRAC Federal Facility Data Layer: REGISTRY_ID, LOCATION_ADDRESS, CITY_NAME, STATE_CODE, POSTAL_CODE, COUNTY_NAME, EPA_REGION_CODE, LATITUDE, LONGITUDE, CAT_NUM, CAT_NAME, SUB_NAME, RCRA_HANDLER_ID, RCRA_CURRENT_IND, RCRA_REMEDY_SEL_IND, RCRA_CONSTR_COMPLT_IND, RCRA_EI_HE_CODE, RCRA_EI_GM_CODE, RCRA_REMEDY_COMPLT_IND, RCRA_EC_GW_IND, RCRA_EC_NG_IND, RCRA_IC_EP_IND, RCRA_IC_GC_IND, RCRA_IC_ID_IND, RCRA_IC_PR_IND, FF_RCRA_IND, RCRA_TRANSFER_CODE, RCRA_TRANSFER_DATE, RCRA_EC_CODE, RCRA_IC_CODE, MAP_SYMBOL_CODE, RCRA_REMEDY_NOT_SEL_IND, RCRA_GPRA_CA, PRIMARY_NAME, EPA_ID, URL, FF_AND_SITE, EJView Report URL, CONGRESSIONAL_DISTRICT, ACS_URL, FD_RCRA_GW_CONTROL, FD_RCRA_HE_CONTROL, FD_GMS_SURVEY_RESULT_CODE, FD_HES_SURVEY_RESULT_CODE.</eaover>
+			<eadetcit>For more information about Cleanups in My Community data, go to https://www.epa.gov/cleanups/cleanups-my-community</eadetcit>
+		</overview>
+		<detailed>
+			<enttyp>
+				<enttypl>sites</enttypl>
+				<enttypd>Feature class that contains all CIMC site points including superfund NPL, RCRA, brownfields properties, responses, and incidents of national signficance.</enttypd>
+				<enttypds>EPA</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>REGISTRY_ID</attrlabl>
+				<attrdef>EPA Registry ID for each site. The identification number assigned by the EPA Facility Registry System to uniquely identify a facility site.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>EPA Registry ID for each site.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PRIMARY_NAME</attrlabl>
+				<attrdef>The public or commercial name of a facility site (i.e., the full name that commonly appears on invoices, signs, or other business documents, or as assigned by the state when the name is ambiguous).</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>EPA Primary Name for each site.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LOCATION_ADDRESS</attrlabl>
+				<attrdef>Physical Address of each site. The address that describes the physical (geographic) location of the front door or main entrance of a facility site, including urban-style street address or rural address.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Physical Address of each site.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CITY_NAME</attrlabl>
+				<attrdef>City where each site is located. The name of the city, town, village or other locality, when identifiable, within whose boundaries (the majority of ) the facility site is located. This is not always the same as the city used for USPS mail delivery.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>City where each site is located.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STATE_CODE</attrlabl>
+				<attrdef>State where each site is located. The U.S. Postal Service abbreviation that represents the state or state equivalent for the U.S. and Canada.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>State where each site is located.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>POSTAL_CODE</attrlabl>
+				<attrdef>Zip Code where each site is located.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Zip Code where each site is located.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>COUNTY_NAME</attrlabl>
+				<attrdef>County where each site located.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>County where each site located.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>EPA_REGION_CODE</attrlabl>
+				<attrdef>EPA Region where a site is located. The code represents an EPA region.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>EPA Region where a site is located.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LATITUDE</attrlabl>
+				<attrdef>Latitude of each site.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Latitude of each site.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LONGITUDE</attrlabl>
+				<attrdef>Longitude of each site.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Longitude of each site.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IND_NAME</attrlabl>
+				<attrdef>Tribal Area where a site is located.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Tribal Area where a site is located.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CAT_NUM</attrlabl>
+				<attrdef>Watershed number where each site is located.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Watershed number where each site is located.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CAT_NAME</attrlabl>
+				<attrdef>Name of watershed where each site is located.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Name of watershed where each site is located.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SUB_NAME</attrlabl>
+				<attrdef>Name of sub-watershed where each site is located.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Name of sub-watershed where each site is located.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_HANDLER_ID</attrlabl>
+				<attrdef>EPA RCRA Handler Identification Number.  A unique RCRA identification number assigned by the implementing State or Region to each RCRA site (e.g., generators; transporters; and treatment, storage, disposal facilities). The ID can be a minimum of 4 characters and a maximum of 12 characters. The first two characters must be a valid state postal code which corresponds to the state in which the handler is located. Handlers associated with Navajo Nation should be assigned Handler IDs beginning with 'NN' regardless of where the handler is physically located.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>EPA RCRA Handler Identification Number</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_CURRENT_IND</attrlabl>
+				<attrdef>RCRA Current Corrective Action Sites</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA Current Corrective Action Sites.  Coded Values:&#160;Y=Yes,U=Unknown,N=No.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_REMEDY_SEL_IND</attrlabl>
+				<attrdef>RCRA sites where remedies to corrective actions have been selected. </attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA sites where remedies to corrective actions have been selected. Coded Values:&#160;Y=Yes,U=Unknown,N=No.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_CONSTR_COMPLT_IND</attrlabl>
+				<attrdef>RCRA sites where construction has been completed.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA sites where construction has been completed.Coded Values:&#160;Y=Yes,U=Unknown,N=No.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_EI_HE_CODE</attrlabl>
+				<attrdef>RCRA sites where there were human exposures as an environmental indicator.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Not Under Control</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No Control Information Reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Under Control</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_EI_GM_CODE</attrlabl>
+				<attrdef>RCRA sites code for groundwater migration as an environmental indicator.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Not Under Control</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No Control Information Reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Under Control</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_REMEDY_COMPLT_IND</attrlabl>
+				<attrdef>RCRA sites where remedy action has been completed.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA sites code for groundwater migration as an environmental indicator. Coded Values:Y=Yes,U=Unknown,N=No</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_EC_GW_IND</attrlabl>
+				<attrdef>RCRA sites with groundwater engineering controls.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No Control Information Reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Groundwater Controls</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_EC_NG_IND</attrlabl>
+				<attrdef>RCRA sites with non groundwater engineering controls.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No Control Information Reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Non Groundwater Controls</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_IC_EP_IND</attrlabl>
+				<attrdef>RCRA sites with enforcement/permitting institutional controls.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No controls in place, or no control information reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Controls are in place.</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_IC_GC_IND</attrlabl>
+				<attrdef>RCRA sites with governmental institutional controls.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No controls in place, or no control information reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Controls are in place</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_IC_ID_IND</attrlabl>
+				<attrdef>RCRA sites with institutional control informational devices.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No controls in place, or no control information reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Controls are in place</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_IC_PR_IND</attrlabl>
+				<attrdef>RCRA sites with proprietary institutional controls.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No controls are in place, or no control information reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Controls are in place</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FF_RCRA_IND</attrlabl>
+				<attrdef>RCRA sites that are Federal Facilities.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA sites that are Federal Facilities. Coded Values:&#160;Y=Yes,U=Unknown,N=No.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_TRANSFER_CODE</attrlabl>
+				<attrdef>RCRA Transfer Code. Type of entity to which site was transferred.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>O</edomv>
+						<edomvd>CA Referred to Another Non-RCRA Authority</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>S</edomv>
+						<edomvd>CA Referred to CERCLA</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>Undetermined</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_TRANSFER_DATE</attrlabl>
+				<attrdef>RCRA transfer date.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA transfer date. Date site was transferred to another entity.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_SITE_ID</attrlabl>
+				<attrdef>EPA Superfund Site Identification Number</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>EPA Superfund Site Identification Number</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_EC_IND</attrlabl>
+				<attrdef>Superfund NPL sites with Engineering Controls.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No Control Information Reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Controls in Place</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_EI_GM_CODE</attrlabl>
+				<attrdef>Code for Superfund NPL sites with groundwater migration as an environmental indicator.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Not Under Control</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No Control Information Reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Under Control</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_EI_HE_CODE</attrlabl>
+				<attrdef>Superfund NPL Sites Human Exposure Environmental Impact Code</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Not Under Control</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No Control Information Reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Under Control</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_IC_IND</attrlabl>
+				<attrdef>Superfund NPL sites with Institutional Controls.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Not Required</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Required</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Required and Implemented</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>No information is publicly available</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_NPL_CODE</attrlabl>
+				<attrdef>Archived Superfund NPL sites.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>A</edomv>
+						<edomvd>Archived</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>P</edomv>
+						<edomvd>Proposed</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FF_SF_IND</attrlabl>
+				<attrdef>Federal facilities that are Superfund NPL sites.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal facilities that are Superfund NPL sites.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_PROPERTY_ID</attrlabl>
+				<attrdef>EPA Brownfield Property Identification Number</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>EPA Brownfield Property Identification Number</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_RLF_GRANT_IND</attrlabl>
+				<attrdef>Brownfields properties RLF Grants.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields properties RLF Grants.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_RLF_PILOT_IND</attrlabl>
+				<attrdef>Brownfields properties RLF Pilots.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields properties RLF Pilots.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_ASSESS_PILOT_IND</attrlabl>
+				<attrdef>Brownfields properties Assessment Pilots.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields properties Assessment Pilots.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_CLEANUP_IND</attrlabl>
+				<attrdef>Brownfields properties cleanup grants.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields properties cleanup grants.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_TBA_IND</attrlabl>
+				<attrdef>Brownfields properties - Targeted Brownfields Assessments. EPAs Targeted Brownfields Assessment (TBA) program is designed to help states, tribes, and municipalities&#8212;especially those without EPA Brownfields Assessment Pilots/Grants&#8212;minimize the uncertainties of contamination often associated with brownfields.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields properties - Targeted Brownfields Assessments.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_128A_IND</attrlabl>
+				<attrdef>Brownfields properties state and tribal 128(a) grants. Section 128(a) of the Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), as amended, authorizes a noncompetitive $50 million grant program to establish and enhance state
+and tribal response programs. </attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields properties state and tribal 128(a) grants.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_IC_CODE</attrlabl>
+				<attrdef>Brownfields properties institutional controls status code.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Not Required</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No Control Information Reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Required</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_IC_GC_IND</attrlabl>
+				<attrdef>Brownfields properties with governmental institutional controls.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Not Required</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No Control Information Reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Required</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_IC_EP_IND</attrlabl>
+				<attrdef>Brownfields properties with Enforcement/Permitting institutional controls.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Not Required</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No Control Information Reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Required</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_IC_ID_IND</attrlabl>
+				<attrdef>Brownfields properties with institutional control Informational Devices.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Not Required</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No Control Information Reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Required</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_IC_PR_IND</attrlabl>
+				<attrdef>Brownfields properties with proprietary institutional controls.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Not Required</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No Control Information Reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Required</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FF_BRAC_IND</attrlabl>
+				<attrdef>Federal facilities that are part of the Base Realignment and Closure (BRAC) program.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal facilities that are part of the Base Realignment and Closure (BRAC) program.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_RLF_IND</attrlabl>
+				<attrdef>Brownfields properties that are part of the Revolving Loan Fund Grants (RLF) program.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields properties that are part of the Revolving Loan Fund Grants (RLF) program.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_ASSESS_IND</attrlabl>
+				<attrdef>Brownfields properties assessment grants.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields properties assessment grants.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STIMULUS_SF_IND</attrlabl>
+				<attrdef>Superfund NPL Stimulus Sites.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Superfund NPL Stimulus Sites.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STIMULUS_BF_IND</attrlabl>
+				<attrdef>Brownfields properties that are part of the stimulus act.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields properties that are part of the stimulus act.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_NPL_CODE_D</attrlabl>
+				<attrdef>Superfund NPL sites deleted.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>D</edomv>
+						<edomvd>Deleted</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_NPL_CODE_F</attrlabl>
+				<attrdef>Superfund NPL Final Sites</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>F</edomv>
+						<edomvd>Final</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_EC_CODE</attrlabl>
+				<attrdef>EPA RCRA Engineering Controls Code</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>B</edomv>
+						<edomvd>Both Groundwater and Non Groundwater Controls</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>G</edomv>
+						<edomvd>Groundwater Controls</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Non Groundwater Controls</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No Control Information Reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_IC_CODE</attrlabl>
+				<attrdef>EPA RCRA Institutional Controls Code</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>No controls in place, or no control information reported</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Controls are in place</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MAP_SYMBOL_CODE</attrlabl>
+				<attrdef>Map symbology field for the CIMC online application.  Indicates the program for each site.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>B</edomv>
+						<edomvd>Brownfields Properties</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>E</edomv>
+						<edomvd>Emergency Responses</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>INS</edomv>
+						<edomvd>Incidents of National Significance</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>R</edomv>
+						<edomvd>RCRA Hazardous Waste - Corrective Actions</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>S</edomv>
+						<edomvd>Superfund NPL Sites</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_REMEDY_NOT_SEL_IND</attrlabl>
+				<attrdef>RCRA sites with no remedy yet selected.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA sites with no remedy yet selected.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LUST_RELEASE_ID</attrlabl>
+				<attrdef>Leaking Underground Storage Tank (LUST) Release ID</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Leaking Underground Storage Tank (LUST) Release ID</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LUST_AWARD_ID</attrlabl>
+				<attrdef>Leaking Underground Storage Tank (LUST) Award ID</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Leaking Underground Storage Tank (LUST) Award ID</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LUST_STATE_TRIBAL</attrlabl>
+				<attrdef>Leaking Underground Storage Tank (LUST) on State or Tribal Lands.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Leaking Underground Storage Tank (LUST) on State or Tribal Lands.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>EPAOSC_SITE_ID</attrlabl>
+				<attrdef>EPA On-Scene Coordinators Site ID</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>EPA On-Scene Coordinators Site ID</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>EPAOSC_RESP_TYPE</attrlabl>
+				<attrdef>EPA On-Scene Coordinators Response Type</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>EMERGENCY</edomv>
+						<edomvd>Emergency</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>No Category</edomv>
+						<edomvd>No Category</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NON-TIME-CRITICAL</edomv>
+						<edomvd>Non-Time-Critical</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>PRE-DEPLOYMENT</edomv>
+						<edomvd>Pre-Deployment</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>PRP OVERSIGHT</edomv>
+						<edomvd>PRP Oversight</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>TIME-CRITICAL</edomv>
+						<edomvd>Time-Critical</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>EPAOSC_RESP_AUTH</attrlabl>
+				<attrdef>EPA On-Scene Coordinators Response Authority</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>CERCLA</edomv>
+						<edomvd>CERCLA</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CERCLA/OPA</edomv>
+						<edomvd>CERCLA/OPA</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CWA</edomv>
+						<edomvd>CWA</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>No Category</edomv>
+						<edomvd>No Category</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>OPA</edomv>
+						<edomvd>OPA</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>STAFFORD ACT</edomv>
+						<edomvd>Stafford Act</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>EPAOSC_STATUS</attrlabl>
+				<attrdef>EPA On-Scene Coordinator Status</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>ACTIVE</edomv>
+						<edomvd>Active</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>COMPLETE</edomv>
+						<edomvd>Complete</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>EPAOSC_INCI_CATEG</attrlabl>
+				<attrdef>EPA On-Scene Coordinator Category</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>No Category</edomv>
+						<edomvd>No Category</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>REMOVAL ACTION</edomv>
+						<edomvd>Removal Action</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>REMOVAL ASSESSMENT</edomv>
+						<edomvd>Removal Assessment</edomvd>
+						<edomvds>EPA</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_GPRA_CA</attrlabl>
+				<attrdef>RCRA GPRA Corrective Action Goals</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA GPRA Corrective Action Goals</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DELETE_</attrlabl>
+				<attrdef>Field used for geoprocessing.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Field used for geoprocessing.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>EPA_ID</attrlabl>
+				<attrdef>EPA Identification Number</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>EPA Identification Number</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>URL</attrlabl>
+				<attrdef>Internet address containing more information about a specific site in the Cleanups in my Community Application.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Internet address containing more information about a specific site in the Cleanups in my Community Application.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_MULTIPURPOSE_IND</attrlabl>
+				<attrdef>Brownfields properties Multi-Purpose ID</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields properties Multi-Purpose ID</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_128A_P_IND</attrlabl>
+				<attrdef>Brownfields Properties that belongs to State Tribal 128a Pilot grants.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields Properties that belongs to State Tribal 128a Pilot grants.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_AWP_IND</attrlabl>
+				<attrdef>Brownfields Properties that belongs to Area wide planning grants.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields Properties that belongs to Area wide planning grants.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_PROPERTY_NAME</attrlabl>
+				<attrdef>Brownfields Property Name</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields Property Name</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_SHOWCASE_IND</attrlabl>
+				<attrdef>Brownfields Properties that belongs to Showcase grants.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields Properties that belongs to Showcase grants.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CONGRESSIONAL_DISTRICT</attrlabl>
+				<attrdef>Congression district value for a given Site.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Congression district value for a given Site.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DATA_REFRESH_DT</attrlabl>
+				<attrdef>Date refreshed in CIMC</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Date refreshed in CIMC</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ERR_LAT_LONG</attrlabl>
+				<attrdef>Flag to denote either Latitude or Longitude or both are invalid in CIMC.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Flag to denote either Latitude or Longitude or both are invalid in CIMC.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_AGENCY_OWNER</attrlabl>
+				<attrdef>Federal Facility Docket flag to identify Agency Owner</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket flag to identify Agency Owner</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_BRAC_IND</attrlabl>
+				<attrdef>Federal Facility Docket's BRAC flag from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's BRAC flag from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_BRAC_ROUND</attrlabl>
+				<attrdef>Federal Facility Docket's BRAC Round value from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's BRAC Round value from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_EJ_CODE</attrlabl>
+				<attrdef>Federal Facility Docket's Environmental Justice code</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Environmental Justice code</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_FEDERAL_AGENCY</attrlabl>
+				<attrdef>Federal Facility Docket's Federal Agency information</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Federal Agency information</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_FF_IND</attrlabl>
+				<attrdef>Federal Facility Docket's Superfund Site Id from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Superfund Site Id from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_GMS_SURVEY_RESULT_CODE</attrlabl>
+				<attrdef>Federal Facility Docket's Ground Migration Survey Result code from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Ground Migration Survey Result code from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_HES_SURVEY_RESULT_CODE</attrlabl>
+				<attrdef>Federal Facility Docket's Human Exposure Survey Result code from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Human Exposure Survey Result code from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_HRS_SCORE</attrlabl>
+				<attrdef>Federal Facility Docket's HRS score from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's HRS score from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_LISTING_DATE</attrlabl>
+				<attrdef>Federal Facility Docket's Listing Date</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Listing Date</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_NON_NPL_STATUS</attrlabl>
+				<attrdef>Federal Facility Docket's Non NPL Status code from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Non NPL Status code from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_NON_NPL_STATUS_NAME</attrlabl>
+				<attrdef>Federal Facility Docket's Non NPL Status Name from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Non NPL Status Name from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_NPL_STATUS_NAME</attrlabl>
+				<attrdef>Federal Facility Docket's NPL Status Name from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's NPL Status Name from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_ONGOING_DISPUTE_IND</attrlabl>
+				<attrdef>Federal Facility Docket's Ongoing Dispute indicator from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Ongoing Dispute indicator from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_RCRA_CA_IND</attrlabl>
+				<attrdef>Federal Facility Docket's indicator for RCRA Corrective Action</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's indicator for RCRA Corrective Action</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_RCRA_GW_CONTROL</attrlabl>
+				<attrdef>Federal Facility Docket's flag for RCRA Ground Water Control</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's flag for RCRA Ground Water Control</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_RCRA_HANDLER_ID</attrlabl>
+				<attrdef>Federal Facility Docket's RCRA Handler Id</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's RCRA Handler Id</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_RCRA_HE_CONTROL</attrlabl>
+				<attrdef>Federal Facility Docket's flag for RCRA Human Exposure</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's flag for RCRA Human Exposure</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_SF_NPL_IND</attrlabl>
+				<attrdef>Federal Facility Docket's NPL Status code from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's NPL Status code from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_SF_SITE_ID</attrlabl>
+				<attrdef>Federal Facility Docket's Superfund Site Id from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Superfund Site Id from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>GIS_REFRESH_DT</attrlabl>
+				<attrdef>Date on which GIS refresh took place</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Date on which GIS refresh took place</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_DRUPAL_DOC_NODEID</attrlabl>
+				<attrdef>RCRA Regions Drupal Documents Nodeid for Profile pages</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA Regions Drupal Documents Nodeid for Profile pages</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_DRUPAL_SITE_NODEID</attrlabl>
+				<attrdef>RCRA Regions Drupal Site Nodeid for Profile pages</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA Regions Drupal Site Nodeid for Profile pages</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_HANDLER_NAME</attrlabl>
+				<attrdef>RCRA Site name</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA Site name</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_RAU_IND</attrlabl>
+				<attrdef>RCRA Ready for Anticipated Use Indicator</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA Ready for Anticipated Use Indicator</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>REPOW_BF</attrlabl>
+				<attrdef>Flag to identify Repowering Brownfields site</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Flag to identify Repowering Brownfields site</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>REPOW_RCRA</attrlabl>
+				<attrdef>Flag to identify Repowering RCRA site</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Flag to identify Repowering RCRA site</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>REPOW_REF_KEY</attrlabl>
+				<attrdef>Repowering Reference Key</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Repowering Reference Key</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>REPOW_REF_URL</attrlabl>
+				<attrdef>Repowering Profile URL</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Repowering Profile URL</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>REPOW_REF_URL_APEX</attrlabl>
+				<attrdef>Repowering Profile URL for Apex use</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Repowering Profile URL for Apex use</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>REPOW_SF</attrlabl>
+				<attrdef>Flag to identify Repowering Superfund site</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Flag to identify Repowering Superfund site</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SAA_SITE</attrlabl>
+				<attrdef>Flag to idenfity Superfund SAA site</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Flag to idenfity Superfund SAA site</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_ADMIN_FLAG</attrlabl>
+				<attrdef>Flag to identify Superfune Administrator/task force site</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Flag to identify Superfune Administrator/task force site</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_NON_NPL_STATUS_CATEGORY</attrlabl>
+				<attrdef>Superfund Non NPL Status Category</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Superfund Non NPL Status Category</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_NON_NPL_STATUS_SUBCATEG</attrlabl>
+				<attrdef>Superfund Non NPL Status Sub Category</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Superfund Non NPL Status Sub Category</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_NPL_CODE_ALL</attrlabl>
+				<attrdef>Superfund NPL Codes (all of them in one)</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Superfund NPL Codes (all of them in one)</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_SITE_NAME</attrlabl>
+				<attrdef>Superfund Site name</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Superfund Site name</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ACS_URL</attrlabl>
+				<attrdef>American Community Survey (Census) URL</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>American Community Survey (Census) URL</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DESC</attrlabl>
+				<attrdef>Description</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Description</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>New Site</attrlabl>
+				<attrdef>Site newly added to CIMC</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Site newly added to CIMC</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF Non NPL Code </attrlabl>
+				<attrdef>Superfund Non NPL code</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Superfund Non NPL code</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF Non NPL Status</attrlabl>
+				<attrdef>Superfund Non NPL Status</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Superfund Non NPL Status</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+					<mapprojp>
+						<otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+					</mapprojp>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.0001</absres>
+						<ordres>0.0001</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <PublishedDocID>{E7004446-7062-483F-96A2-65D6B8A69A6D}</PublishedDocID>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubinfo>
+          <publish>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</publish>
+          <pubplace>Washington, DC</pubplace>
+        </pubinfo>
+        <pubdate>20190806</pubdate>
+        <title>ROE Total Nitrogen Deposition 2014-2016</title>
+        <origin>U.S. Environmental Protection Agency</origin>
+        <onlink>https://www.epa.gov/report-environment</onlink>
+      </citeinfo>
+    </citation>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness, and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of EPA would be appreciated.</useconst>
+    <descript>
+      <purpose>These data were created to be used for the U.S. Environmental Protection Agency's Report on the Environment website.</purpose>
+      <abstract>This dataset identifies the amount of wet, dry, and total deposition of nitrogen in kilograms per hectare from 2014 to 2016 at a set of point locations across the contiguous 48 states. Summary data in this indicator were provided by EPA&#226;??s Office of Atmospheric Programs, based on deposition data from two sources. Wet deposition data are from the National Atmospheric Deposition Program/National Trends Network (NADP, 2018) (http://nadp.slh.wisc.edu/), and dry deposition data are from the Clean Air Status and Trends Network (U.S. EPA, 2018) (https://www.epa.gov/castnet). This indicator aggregates data across 3-year periods to avoid influences from short-term fluctuations in meteorological conditions.</abstract>
+    </descript>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>EPA GIS Keyword Thesaurus</themekt>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+      </place>
+      <theme>
+        <themekt>User</themekt>
+      </theme>
+    </keywords>
+    <timeperd>
+      <current>Publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20190806</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-148.963301</westbc>
+        <eastbc>-68.260802</eastbc>
+        <northbc>63.725798</northbc>
+        <southbc>25.391100</southbc>
+      </bounding>
+    </spdom>
+    <secinfo>
+      <secsys>FIPS Pub 199</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>https://www.epa.gov/report-environment</cntinst>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Tests for integrity have not been performed.</logic>
+    <complete>Features represented have not been tested for completeness.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at https://www.epa.gov/geospatial/geospatial-policies-and-standards.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>20190806</procdate>
+        <procdesc>Data were projected into Web Mercator (auxiliary sphere) for use in Web maps for the ROE website.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <distinfo>
+    <resdesc>Live Data and Maps</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>https://www.epa.gov/report-environment</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20220304</metd>
+    <metfrd>20190806</metfrd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Office of Research and Development, National Center for Environmental Assessment</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>EPA/NCEA (8601-P)</address>
+          <address>1200 Pennsylvania Ave NW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20460-0001</postal>
+        </cntaddr>
+        <cntvoice>703-347-8600</cntvoice>
+        <cntemail>roe@epa.gov</cntemail>
+        <cntinst>https://www.epa.gov/report-environment</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Average Total nitrogen deposition 2013 kg/hectare</enttypl>
+        <enttypd>ESRI Geodatabase Feature Class</enttypd>
+        <enttypds>Innovate</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SITE_ID</attrlabl>
+        <attrdef>Site ID</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LATITUDE</attrlabl>
+        <attrdef>Latitude</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LONGITUDE</attrlabl>
+        <attrdef>Longitude</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YEARS</attrlabl>
+        <attrdef>Years</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WET_NITROG</attrlabl>
+        <attrdef>Wet nitrogen</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DRY_NITROG</attrlabl>
+        <attrdef>Dry nitrogen</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOTAL_NITR</attrlabl>
+        <attrdef>Total nitrogen</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Wet_Sulfur</attrlabl>
+        <attrdef>Wet sulfur</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dry_Sulfur</attrlabl>
+        <attrdef>Dry sulfur</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOTAL_SULF</attrlabl>
+        <attrdef>Total sulfur</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PRECIPITAT</attrlabl>
+        <attrdef>Precipitation</attrdef>
+        <attrdefs>Innovate</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <idinfo>
+    <keywords>
+      <theme>
+        <themekt>EPA GIS Keyword Thesaurus</themekt>
+        <themekey>Air</themekey>
+        <themekey>Cleanup</themekey>
+        <themekey>Remediation</themekey>
+        <themekey>Sites</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>California</placekey>
+      </place>
+      <theme>
+        <themekey>VOC</themekey>
+        <themekey>Cleanup</themekey>
+        <themekey>Chemicals</themekey>
+        <themekey>Facilities</themekey>
+        <themekey>Hazards</themekey>
+        <themekey>Viper</themekey>
+        <themekey>Contaminants</themekey>
+        <themekey>Air</themekey>
+        <themekey>Superfund</themekey>
+        <themekey>health</themekey>
+        <themekey>Air</themekey>
+        <themekey>Cleanup</themekey>
+        <themekey>Remediation</themekey>
+        <themekey>Sites</themekey>
+        <themekey>020:109</themekey>
+      </theme>
+    </keywords>
+    <citation>
+      <citeinfo>
+        <origin>US Environmental Protection Agency</origin>
+        <title>AMCO Off-Site Air Monitoring Map Service, Oakland CA, 2017, US EPA Region 9</title>
+        <pubinfo>
+          <publish>U.S. Environmental Protection Agency, Region 9</publish>
+          <pubplace>San Francisco, CA</pubplace>
+        </pubinfo>
+        <pubdate>20170307</pubdate>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This map service contains a single layer: Off-Site Air Monitors. The layer draws at all scales. Full metadata record can be found here:A HREF="https://edg.epa.gov/metadata/catalog/search/resource/details.page?uuid={8DE586EF-D141-4872-81A8-AB421EA705C7} </abstract>
+      <purpose>These data provide support for the EPA non-time critical removal action (NTCRA) at the AMCO Chemical Superfund Site located in Oakland, California to address the portions of the Site with the highest concentrations of volatile organic compounds (VOCs) that pose a threat to human health or the environment. During the cleanup process, a series of live air monitoring sensors are used to ensure operations are protective of human health. The air monitoring status is available to the public at https://epa.maps.arcgis.com/apps/MapSeries/index.html?appid=2e0a0e3d5cc041feb0c19d9f04327bcb.</purpose>
+    </descript>
+    <timeperd>
+      <current>Ground condition</current>
+      <timeinfo>
+        <rngdates>
+          <begdate>20170225</begdate>
+          <enddate>20171231</enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>asNeeded</update>
+    </status>
+    <accconst>None</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+    <spdom>
+      <bounding>
+        <westbc>-122.295648</westbc>
+        <eastbc>-122.295171</eastbc>
+        <northbc>37.803092</northbc>
+        <southbc>37.802565</southbc>
+      </bounding>
+    </spdom>
+    <secinfo>
+      <secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>AMCO.DBO.IndoorSensors</enttypl>
+        <enttypd>AMCO Indoor Air Monitoring, Oakland CA, 2017, EPA, Region 9 Emergency Response</enttypd>
+        <enttypds>US Environmental Protection Agency</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Type</attrlabl>
+        <attrdef>Indicates that the air monitors are located indoors.</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Indoor</edomv>
+            <edomvd>all sensors are indoors</edomvd>
+            <edomvds>US EPA</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>graphURL</attrlabl>
+        <attrdef>Website link with archived sensor readings for indoor sensors.</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <udom>Url to the graph image.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <dataqual>
+    <logic>Tests for integrity have not been performed.</logic>
+    <complete>Features represented have not been tested for completeness</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that are accurate to within 26-100 meters (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 4). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>20170203</procdate>
+        <procdesc>Created new feature class based on imagery of indoor sensor sites.</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+              <cntper>Cheryl Henley</cntper>
+            </cntorgp>
+            <cntpos>GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>75 Hawthorne Street</address>
+              <address>MTS-6-1</address>
+              <city>San Francisco</city>
+              <state>CA</state>
+              <postal>94105</postal>
+            </cntaddr>
+            <cntvoice>415-972-3586</cntvoice>
+            <cntemail>henley.cheryl@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region09/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+  </spdoinfo>
+  <distinfo>
+    <resdesc>Live Data and Maps</resdesc>
+    <distliab>Although these data have been processed successfully on a computer system at the Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20211215</metd>
+    <metfrd>20210208</metfrd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>EMD-5-2</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000000899322</absres>
+            <ordres>0.000000000899322</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <Esri>
+    <DataProperties>
+      <copyHistory>
+        <copy source="C:\Users\Innovate\Documents\Region9\R9-AMCO\Metadata\AMCO Off-Site Air Monitoring Map Service, Oakland CA, 2017, US EPA Region 9" dest="\\INNOVATE-PC\Users\Innovate\Documents\Region9\R9-AMCO\MetadataEME5\AMCO Off-Site Air Monitoring Map Service, Oakland CA, 2017, US EPA Region 9" date="20170530" time="15193500"/>
+      </copyHistory>
+      <itemProps>
+        <imsContentType export="False">001</imsContentType>
+      </itemProps>
+    </DataProperties>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>ISO19115_3</ArcGISProfile>
+    <ModDate>20210510</ModDate>
+    <ModTime>12162800</ModTime>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng"/>
+    <countryCode value="US"/>
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004"/>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Cheryl Henley</rpIndName>
+    <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+    <rpPosName>GIS Coordinator</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>415-972-3586</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>EMD-5-1</delPoint>
+        <delPoint>75 Hawthorne Street</delPoint>
+        <city>San Francisco</city>
+        <adminArea>CA</adminArea>
+        <postCode>94105</postCode>
+        <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+      </cntAddress>
+      <cntInstr>http://www.epa.gov/region09/</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007"/>
+    </role>
+  </mdContact>
+  <mdDateSt Sync="FALSE">2021-05-10</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>https://epa.maps.arcgis.com/home/item.html?id=802c84c3dbf742218327f8ff95cf3452</linkage>
+        <orFunct>
+          <OnFunctCd value="002"/>
+        </orFunct>
+        <orName>GeoPlatform Item</orName>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>AMCO Off-Site Air Monitoring Map Service, Oakland CA, 2017, US EPA Region 9</resTitle>
+      <date>
+        <pubDate>2017-03-07</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>US Environmental Protection Agency</rpOrgName>
+        <role>
+          <RoleCd value="006"/>
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint>San Francisco, CA</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010"/>
+        </role>
+      </citRespParty>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;This map service contains a single layer: Off-Site Air Monitors. The layer draws at all scales. Full metadata record can be found here:A HREF="https://edg.epa.gov/metadata/catalog/search/resource/details.page?uuid={8DE586EF-D141-4872-81A8-AB421EA705C7} &lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>These data provide support for the EPA non-time critical removal action (NTCRA) at the AMCO Chemical Superfund Site located in Oakland, California to address the portions of the Site with the highest concentrations of volatile organic compounds (VOCs) that pose a threat to human health or the environment. During the cleanup process, a series of live air monitoring sensors are used to ensure operations are protective of human health. The air monitoring status is available to the public at https://epa.maps.arcgis.com/apps/MapSeries/index.html?appid=2e0a0e3d5cc041feb0c19d9f04327bcb.</idPurp>
+    <idStatus>
+      <ProgCd value="001"/>
+    </idStatus>
+    <idPoC>
+      <rpIndName>Cheryl Henley</rpIndName>
+      <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+      <rpPosName>GIS Coordinator</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum tddtty="">415-972-3586</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>75 Hawthorne Street</delPoint>
+          <delPoint>MTS-6-1</delPoint>
+          <city>San Francisco</city>
+          <adminArea>CA</adminArea>
+          <postCode>94105</postCode>
+          <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+        </cntAddress>
+        <cntInstr>http://www.epa.gov/region09/</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007"/>
+      </role>
+    </idPoC>
+    <placeKeys>
+      <thesaName>
+        <resTitle>EPA Place Names</resTitle>
+        <date>
+          <pubDate>2015-01-31T00:00:00</pubDate>
+        </date>
+        <citOnlineRes>
+          <linkage>https://ofmpub.epa.gov/sor_internet/registry/termreg/searchandretrieve/taxonomies/search.do?search=&amp;searchString=&amp;taxonomyName=WBT%20-%20Geographic%20Locations</linkage>
+          <orFunct>
+            <OnFunctCd value="002"/>
+          </orFunct>
+          <orName>Web Taxonomy - Geographic Locations</orName>
+        </citOnlineRes>
+      </thesaName>
+      <thesaLang>
+        <languageCode value="eng"/>
+        <countryCode value="US"/>
+      </thesaLang>
+      <keyword>California</keyword>
+    </placeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>User</resTitle>
+        <date>
+          <pubDate>2017-09-14T00:00:00</pubDate>
+        </date>
+      </thesaName>
+      <keyword>VOC</keyword>
+      <keyword>Cleanup</keyword>
+      <keyword>Chemicals</keyword>
+      <keyword>Facilities</keyword>
+      <keyword>Hazards</keyword>
+      <keyword>Viper</keyword>
+      <keyword>Contaminants</keyword>
+      <keyword>Air</keyword>
+      <keyword>Superfund</keyword>
+    </themeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Category</resTitle>
+        <date>
+          <pubDate>2017-09-14T00:00:00</pubDate>
+        </date>
+      </thesaName>
+      <thesaLang>
+        <languageCode value="eng"/>
+        <countryCode value="US"/>
+      </thesaLang>
+      <keyword>health</keyword>
+    </themeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>EPA GIS Keyword Thesaurus</resTitle>
+        <date>
+          <pubDate>2017-09-07T00:00:00</pubDate>
+        </date>
+        <citOnlineRes>
+          <linkage>https://www.epa.gov/geospatial/epa-metadata-technical-specification</linkage>
+          <orFunct>
+            <OnFunctCd value="002"/>
+          </orFunct>
+          <orName>EPA Metadata Technical Specification</orName>
+        </citOnlineRes>
+      </thesaName>
+      <keyword>Air</keyword>
+      <keyword>Cleanup</keyword>
+      <keyword>Remediation</keyword>
+      <keyword>Sites</keyword>
+    </themeKeys>
+    <resConst>
+      <SecConsts>
+        <classSys>http://project-open-data.github.io/schema/#accessLevel</classSys>
+        <handDesc>Standard Technical Controls</handDesc>
+        <class>
+          <ClasscationCd value="001">Unclassified</ClasscationCd>
+        </class>
+      </SecConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001"/>
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng"/>
+    </dataLang>
+    <dataExt>
+      <exDesc>Ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Period>
+              <tmBegin>2017-02-25</tmBegin>
+              <tmEnd>2017-12-31</tmEnd>
+            </TM_Period>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-122.295648</westBL>
+          <eastBL>-122.295171</eastBL>
+          <southBL>37.802565</southBL>
+          <northBL>37.803092</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <idPoC>
+      <editorSource>EPA Directory</editorSource>
+      <editorDigest>17adc5c57f0c424c9c462988bc540418</editorDigest>
+      <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+      <rpIndName>Cheryl Henley</rpIndName>
+      <rpPosName>GIS Coordinator</rpPosName>
+      <rpCntInfo>
+        <cntAddress addressType="both">
+          <delPoint>75 Hawthorne Street</delPoint>
+          <delPoint>MTS-6-1</delPoint>
+          <city>San Francisco</city>
+          <adminArea>CA</adminArea>
+          <postCode>94105</postCode>
+          <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+        </cntAddress>
+        <cntPhone>
+          <voiceNum tddtty="">415-972-3586</voiceNum>
+        </cntPhone>
+        <cntOnlineRes>
+          <linkage>http://www.epa.gov/region09/</linkage>
+          <protocol>website</protocol>
+          <orFunct>
+            <OnFunctCd value="002"/>
+          </orFunct>
+        </cntOnlineRes>
+      </rpCntInfo>
+      <editorSave>True</editorSave>
+      <displayName>[EPA Directory]   Cheryl Henley</displayName>
+      <role>
+        <RoleCd value="010"/>
+      </role>
+    </idPoC>
+    <themeKeys>
+      <thesaLang>
+        <languageCode value="eng"/>
+        <countryCode value="US"/>
+      </thesaLang>
+      <thesaName>
+        <resTitle>Federal Program Inventory</resTitle>
+        <date>
+          <pubDate>2013-09-16</pubDate>
+        </date>
+        <citOnlineRes>
+          <linkage>https://www.performance.gov/federalprograminventory</linkage>
+          <orFunct>
+            <OnFunctCd value="002"/>
+          </orFunct>
+          <orName>Federal Program Inventory</orName>
+        </citOnlineRes>
+      </thesaName>
+      <keyword>020:109</keyword>
+    </themeKeys>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="009">Unrestricted License</RestrictCd>
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="">Empty</RestrictCd>
+        </useConsts>
+        <othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+        <useLimit>EPA Public Domain License</useLimit>
+      </LegConsts>
+    </resConst>
+    <idCredit>U.S. EPA Region 9 Technology and Data Solutions Center</idCredit>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="011"/>
+      </maintFreq>
+    </resMaint>
+    <dataChar>
+      <CharSetCd value="004"/>
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="009"/>
+    </tpCat>
+  </dataIdInfo>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="011"/>
+    </maintFreq>
+    <dateNext>2023-02-01T00:00:00</dateNext>
+  </mdMaint>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005"/>
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Created new feature class based on imagery of indoor sensor sites.</stepDesc>
+        <stepDateTm>2017-02-03</stepDateTm>
+        <stepProc>
+          <rpIndName>Cheryl Henley</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+          <rpPosName>GIS Coordinator</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>415-972-3586</voiceNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>75 Hawthorne Street</delPoint>
+              <delPoint>MTS-6-1</delPoint>
+              <city>San Francisco</city>
+              <adminArea>CA</adminArea>
+              <postCode>94105</postCode>
+              <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region09/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009"/>
+          </role>
+        </stepProc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <mdFileID>8DE586EF-D141-4872-81A8-AB421EA705C7</mdFileID>
+  <refSysInfo>
+    <RefSystem dimension="horizontal">
+      <refSysID>
+        <identCode code="3857"/>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <Binary>
+    <Thumbnail>
+      <Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsK
+CwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCACgAHoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDzu+/s
+3wzot9drHOLiCb7ZtMim3MKruPygZDmTyxwdpye9eK6d4svWVrOKxk1V23MhtlJmCjk5AHzYH0xX
+p/xAvYNP+H6NZ3Vzc/bvLhWS8QLLwxeUEd/uxc991cZ8LpE0uHxF4iuY1RNLsThuxyC5/HEY9PvV
+5sKSq6SOPMsa8BhpV4q7VrLu20kvvZ1Vj4ktlzptvNbXTwFRLCyAuGACng4IGFHTrVu98RQ38dvZ
+i3i8m1BBcJgnJ6+v5n1ry21+PupXVup1/wAO6brlqOEZAYpT6kK4b9AOnUCtvTviN4B1ZhFImpeH
+bnAJ2gvGn4jdj/vkdOKf1dW91nEs1xVD/esJL1g1NfdpL8Du/DqR6nrdtGixpvcMAGwFA5PP/wBe
+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</Data>
+    </Thumbnail>
+  </Binary>
+</metadata>

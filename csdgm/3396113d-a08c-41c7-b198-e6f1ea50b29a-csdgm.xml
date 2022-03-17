@@ -1,0 +1,2308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE metadata SYSTEM "https://thor-f5.er.usgs.gov/ngtoc/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin>U.S. Geological Survey, National Geospatial Technical Operations
+                    Center</origin>
+                <pubdate>2020</pubdate>
+                <title>USGS National Transportation Dataset (NTD) Downloadable Data
+                    Collection</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace>Reston, VA</pubplace>
+                    <publish>U.S. Geological Survey</publish>
+                </pubinfo>
+                <onlink>https://nationalmap.gov/transport.html</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The USGS Transportation downloadable data from The National Map (TNM) is based
+                on TIGER/Line data provided through U.S. Census Bureau and supplemented with HERE
+                road data to create tile cache base maps. Some of the TIGER/Line data includes
+                limited corrections done by USGS. Transportation data consists of roads, railroads,
+                trails, airports, and other features associated with the transport of people or
+                commerce. The data include the name or route designator, classification, and
+                location. Transportation data support general mapping and geographic information
+                system technology analysis for applications such as traffic safety, congestion
+                mitigation, disaster planning, and emergency response. The National Map
+                transportation data is commonly combined with other data themes, such as boundaries,
+                elevation, hydrography, and structures, to produce general reference base maps. The
+                National Map viewer allows free downloads of public domain transportation data in
+                either Esri File Geodatabase or Shapefile formats. For additional information on the
+                transportation data model, go to https://nationalmap.gov/transport.html.</abstract>
+            <purpose>This dataset depicts geographic features on the surface of the earth. It is a
+                general purpose dataset for users who are not GIS experts. One intended purpose is
+                to support emergency response at all levels of government. The geospatial data are
+                from selected National Map data holdings and other government sources.</purpose>
+            <supplinf>See https://viewer.nationalmap.gov/help for assistance with The National Map
+                viewer, services, or metadata.</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>2014</begdate>
+                    <enddate>present</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Irregular</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-179.229655487448</westbc>
+                <eastbc>179.856674735386</eastbc>
+                <northbc>71.4395725901531</northbc>
+                <southbc>-14.4246950942767</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>USGS Metadata Identifier</themekt>
+                <themekey>USGS:ad3d631d-f51f-4b6a-91a3-e617d6a58b4e</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+                <themekey>transportation</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Roads</themekey>
+                <themekey>Airports</themekey>
+                <themekey>Airstrips</themekey>
+                <themekey>Railways</themekey>
+                <themekey>Airport Complex</themekey>
+                <themekey>Airport Point</themekey>
+                <themekey>Airport Runway</themekey>
+                <themekey>Geographic names</themekey>
+                <themekey>Juction</themekey>
+                <themekey>NavAid</themekey>
+                <themekey>TrailFeature</themekey>
+                <themekey>Transportation</themekey>
+                <themekey>Waterway</themekey>
+                <themekey>Trails</themekey>
+            </theme>
+            <place>
+                <placekt>Geographic Names Information System</placekt>
+                <placekey>US</placekey>
+                <placekey>United States</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None. However, users should be aware that temporal changes may have occurred since
+            this data set was collected and that some parts of this data may no longer represent
+            actual surface conditions. Users should not use this data for critical applications
+            without a full awareness of its limitations. Acknowledgment of the U.S. Geological
+            Survey would be appreciated for products derived from these data. </useconst>
+        <browse>
+            <browsen>https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/transportation_thumbnail.jpg</browsen>
+            <browsed>Thumbnail JPG image</browsed>
+            <browset>JPEG</browset>
+        </browse>
+        <datacred>USGS TNM - National Transportation Dataset; U.S. Census Bureau - TIGER/Line; HERE
+            Road Data</datacred>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Content is derived from USGS national geospatial databases. The data is owned and
+                hosted by the USGS, but does not preclude using data sources owned and hosted by other
+                organizations, provided that these sources have been approved by the USGS data
+                program.</attraccr>
+        </attracc>
+        <logic>The data was extracted and updated according to standards set by the USGS.</logic>
+        <complete>Each layer is extracted from the USGS national geospatial databases.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>This product is compiled to meet National Map Accuracy Standards (NMAS). NMAS
+                    horizontal accuracy requires that at least 90 percent of well-defined points tested are
+                    within 0.02 inch of the true position.</horizpar>
+            </horizpa>
+            <vertacc>
+                <vertaccr>Vertical accuracy is not applicable to this dataset.</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>Oak Ridge National Laboratory</origin>
+                        <pubdate>20160402</pubdate>
+                        <title>Transportation, Railroads</title>
+                        <geoform>Vector digital data</geoform>
+                        <othercit>Railroads are derived from an unpublished data set provided to USGS by Oak
+                            Ridge National Laboratory (ORNL) Geographic Information Science and Technology Group
+                            (GIST). Following is an excerpt from the GIST description of the data set; the
+                            original data contain attributes not used by US Topo: The rail lines layer represents
+                            the freight lines of the nation's railroad system. The data set covers all 50 states
+                            and the District of Columbia, as well as territories and possessions of the United
+                            States. No rail lines exist in American Samoa, Guam, Northern Mariana Islands, and the
+                            Virgin Islands of the US. Phase 1 of this product is a completed deliverable. This
+                            phase involved adding and validating network attribute data including railroad
+                            ownership, trackage and haulage rights, operational status, operating subdivisions,
+                            signaling systems, track class and traffic density. Phase 2 adjusted the topological
+                            alignment of the track using the best available remote sensing imagery. Information
+                            originally based on the Department of Transportation (DOT) Federal Railroad
+                            Administration (FRA) 1:100K rail network. The data have been updated by Oak Ridge
+                            National Laboratory (ORNL) Geographic Information Science and Technology Group
+                            (GIST).</othercit>
+                    </citeinfo>
+                </srccite>
+                <srcscale>24000</srcscale>
+                <typesrc>digital data</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>2014</begdate>
+                            <enddate>2014</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Railroads - Oak Ridge National Laboratory</srccitea>
+                <srccontr>Main track centerlines</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>Federal Aviation Administration</origin>
+                        <pubdate>20160402</pubdate>
+                        <title>Airports</title>
+                        <geoform>Vector digital data</geoform>
+                        <othercit>Runway outlines are for Federal Aviation Administration (FAA)-recognized
+                            public and private airports in the United States. The FAA runway coordinates,
+                            FAA_RunwayID, and Airport Location Codes were used by the USGS to digitize runway
+                            outlines on recent NAIP orthoimagery. The digitized data were inspected for accuracy
+                            and completeness then loaded into the USGS national transportation
+                            database.</othercit>
+                        <onlink>http://www.faa.gov</onlink>
+                    </citeinfo>
+                </srccite>
+                <srcscale>24000</srcscale>
+                <typesrc>digital data</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>2011</begdate>
+                            <enddate>2012</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Transportation - Airports</srccitea>
+                <srccontr>runways</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>Various government agencies and volunteer organizations</origin>
+                        <pubdate>20160402</pubdate>
+                        <title>Recreational Trails</title>
+                        <geoform>Vector digital data</geoform>
+                        <othercit>The first recreational trails were added to US Topo maps in 2013. The data for
+                            trails come from a variety of sources. Accuracy and currency is the responsibility of
+                            the data owner; USGS evaluates the authoritativeness of the source but does not
+                            independently verify data accuracy. Trails are not complete, and will not be complete
+                            for the foreseeable future. Trails will be added as data become available from land
+                            management agencies and other authoritative sources. All recreational trails
+                            information presented on US Topo maps is public domain, though the original source
+                            data is not necessarily public domain. This metadata section documents all data
+                            sources for all maps, not this specific map. Trails listed here are not guaranteed to
+                            be present on all relevant maps, due to schedule differences between data delivery and
+                            US Topo production schedules. Feature-level metadata is not provided in the US Topo
+                            product; there is no link between a line on the map and the source of that specific
+                            trail. Notes on data sources follow --------- For the 11 National Scenic Trails (NST):
+                            Ice Age National Scenic Trail: data provided by the volunteer organization Ice Age
+                            Trail Alliance, http://www.iceagetrail.org, in cooperation with National Park Service
+                            and Wisconsin Department of Natural Resources. - Pacific Crest National Scenic Trail:
+                            unpublished data provided by US Forest Service - Appalachian National Scenic Trail:
+                            data published by the Appalachian Trial Conservancy,
+                            http://appalachiantrail.org/about-the-trail/mapping-gis-data, in cooperation with
+                            National Park Service - North Country National Scenic Trail: unpublished dataset
+                            provided by National Park Service - Arizona National Scenic Trail: data from AZGEO
+                            Clearinghouse, https://azgeo.az.gov/azgeo/, in cooperation with U.S. Forest Service -
+                            Pacific Northwest National Scenic Trail: unpublished data provided by US Forest
+                            Service - Natchez Trace National Scenic Trail: unpublished dataset provided by
+                            National Park Service --------- For other trail types and sources: US Fish and
+                            Wildlife Service lands: the USFWS Hiking Trails Inventory is administered by the US
+                            Department of Transportation Federal Highway Administration, and Pacific Western
+                            Technologies, LTD. The purpose of the dataset is to create a baseline inventory of all
+                            non-motorized trails on US Fish and Wildlife Service Stations. - US Forest Service
+                            lands: trails within National Forests are from unpublished data provided by USFS.
+                            These data are developed from sources of differing accuracy. US Topo does not portray
+                            access and travel management information indicating which trails are managed for or
+                            open to specific modes of travel (motorized/non-motorized) or associated seasons of
+                            use. USFS trails (other than selected NSTs described above) are currently shown on US
+                            Topo only in Colorado. - The International Mountain Bicycling Association, IMBA,
+                            shares their bicycle trails data with USGS as part of an ongoing partnership.
+                            IMBA-collected trails are generally not shown inside delineated Federal lands (e.g.,
+                            National Forests) on US Topo maps.</othercit>
+                        <onlink>http://www.nps.gov/ncrc/programs/nts/nts_trails.html</onlink>
+                        <onlink>http://www.pnts.org</onlink>
+                        <onlink>http://www.fws.gov/gis/data/national/</onlink>
+                        <onlink>https://www.imba.com/</onlink>
+                    </citeinfo>
+                </srccite>
+                <srcscale>24000</srcscale>
+                <typesrc>digital data</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>2006</begdate>
+                            <enddate>2014</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Recreational Trails</srccitea>
+                <srccontr>Trail centerline</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>U.S. Census Bureau, Geography Division</origin>
+                        <pubdate>20160402</pubdate>
+                        <title>Transportation, Census Roads</title>
+                        <geoform>vector digital data</geoform>
+                        <othercit>Dataset source is Census Bureau MAF/TIGER database extracts in the form of
+                            TIGER/Line Shapefiles. The TIGER/Line shapefiles and related database files are an
+                            extract of selected geographic and cartographic information from the U.S. Census
+                            Bureau's Master Address File/Topologically Integrated Geographic Encoding and
+                            Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file
+                            with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed
+                            to stand alone as an independent dataset, or they can be combined to cover the entire
+                            nation. The U.S. Geological Survey filters Census roads to remove short road segments
+                            which are less than 500 feet in length, are not named and are classified as local
+                            roads. The USGS National Transportation Dataset functional road classification system
+                            is applied to the Census datasets. The original TIGER/Line Shapefile products are not
+                            copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S.
+                            Census Bureau. The horizontal spatial accuracy information present in the TIGER/Line
+                            shapefiles is provided for the purposes of statistical analysis and census operations
+                            only and the data may not be suitable for high-precision measurement applications.
+                            Full metadata for TIGER/Line shapefiles is available from U.S. Census
+                            Bureau</othercit>
+                    </citeinfo>
+                </srccite>
+                <srcscale>24000</srcscale>
+                <typesrc>digital data</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>2013</begdate>
+                            <enddate>2014</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Roads - Census</srccitea>
+                <srccontr>Road centerlines, route numbers, road classification, street names</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>Alaska Railroad Corporation</origin>
+                        <pubdate>20160402</pubdate>
+                        <title>Transportation, Railroads</title>
+                        <geoform>Vector digital data</geoform>
+                        <othercit>This record applies to Alaska data only. Railroad data is provided by the
+                            Alaska Railroad Corporation, and may not include other owner's rail features.
+                            Unpublished data provided directly to USGS. Current as of 2012. For more information,
+                            contact Alaska Railroad Corporation, 327 W. Ship Creek Ave., Anchorage, AK. 99501,
+                            phone 907-265-3100, or emailgrunwaldm@akrrr.com</othercit>
+                        <onlink> </onlink>
+                    </citeinfo>
+                </srccite>
+                <srcscale>25000</srcscale>
+                <typesrc>digital data</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>2012</begdate>
+                            <enddate>2012</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Railroads - Alaska Railroad Corporation</srccitea>
+                <srccontr>Main track centerlines</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>Alaska Department of Transportation</origin>
+                        <pubdate>20160402</pubdate>
+                        <title>Transportation, public domain roads</title>
+                        <geoform>Vector digital data</geoform>
+                        <othercit>This record applies to Alaska data only. Roads gathered from various state and
+                            local sources, integrated by the Alaska Department of Transportation (ADOT) and
+                            provided to USGS for use in USGS map products. This specific road dataset is
+                            unpublished, but earlier versions are published on the ADOT web site.</othercit>
+                        <onlink>http://www.dot.state.ak.us/stwdplng/mapping/</onlink>
+                    </citeinfo>
+                </srccite>
+                <srcscale>25000</srcscale>
+                <typesrc>digital data</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>2013</begdate>
+                            <enddate>2013</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Roads - Alaska Department of Transportation</srccitea>
+                <srccontr>Road centerlines, road classification, street names</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>All geospatial content is taken from national geospatial databases under the
+                    stewardship of USGS data programs. The NAIP imagery is provided by a seamless tile service
+                    that delivers image data at the resolution and quality of the source imagery. The raster
+                    and vector data, including grids and collar information, are processed using ESRI ArcGIS
+                    software and exported. Map formatting is performed using a custom application, which
+                    includes post-processing to embed the metadata XML document.</procdesc>
+                <procdate>20160402</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>    
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Void polygon composed of rings</sdtstype>
+            </sdtsterm>
+            <sdtsterm>
+                <sdtstype>Complete chain</sdtstype>
+            </sdtsterm>
+            <sdtsterm>
+                <sdtstype>Complete chain</sdtstype>
+                <ptvctcnt>1012</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <spref>
+        <horizsys>
+            <geograph>
+                <latres>0.00001</latres>
+                <longres>0.00001</longres>
+                <geogunit>Decimal degrees</geogunit>
+            </geograph>
+            <geodetic>
+                <horizdn>North American Datum of 1983</horizdn>
+                <ellips>Geodetic Reference System 80</ellips>
+                <semiaxis>6378137</semiaxis>
+                <denflat>298.2572221</denflat>
+            </geodetic>
+        </horizsys>
+    </spref>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Trans_AirportPoint</enttypl>
+                <enttypd>A feature class representing the location of an airport as a single
+                    point.</enttypd>
+                <enttypds>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    <udom>Feature geometry.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Data_Security</attrlabl>
+                <attrdef>A code from Executive Order 12958-Classified National Security Information
+                    (EO12958) used to describe the highest classification of a United States
+                    document (e.g., confidential, secret, top secret, no markings).</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A code from Executive Order 12958-Classified National Security
+                            Information (EO12958) used to describe the highest classification of a
+                            United States document (e.g., confidential, secret, top secret, no
+                            markings).</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Distribution_Policy</attrlabl>
+                <attrdef>Data access and use constraints.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Data access and use constraints.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FAA_Airport_Code</attrlabl>
+                <attrdef>A 3, 4 or 5 character code assigned by the Federal Aviation Administration
+                    used to identify the name and location of an airport.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A 3, 4 or 5 character code assigned by the Federal Aviation
+                            Administration used to identify the name and location of an
+                            airport.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FCode</attrlabl>
+                <attrdef>Feature Code. Numeric value that encodes a set of characteristics for a
+                    type of feature. This five-digit code has two parts: the first three digits
+                    encode the feature type (FType); the last two digits encode values for a unique
+                    set of characteristics associated with the feature type. The set of
+                    characteristics may be single valued or multi-valued.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Feature Code. Numeric value that encodes a set of characteristics
+                            for a type of feature. This five-digit code has two parts: the first
+                            three digits encode the feature type (FType); the last two digits encode
+                            values for a unique set of characteristics associated with the feature
+                            type. The set of characteristics may be single valued or
+                            multi-valued.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FType</attrlabl>
+                <attrdef>Part of the FCode's numeric value that encodes a set of characteristics for
+                    a type of feature. The first three digits encode the feature type (FType); the
+                    last two digits encode values for a unique set of characteristics associated
+                    with the feature type. The set of characteristics may be single valued or
+                    multi-valued.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Part of the FCode's numeric value that encodes a set of
+                            characteristics for a type of feature. The first three digits encode the
+                            feature type (FType); the last two digits encode values for a unique set
+                            of characteristics associated with the feature type. The set of
+                            characteristics may be single valued or multi-valued.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GNIS_ID</attrlabl>
+                <attrdef>A unique, permanent number assigned to a geographic feature in the USGS
+                    Geographic Names Information System (GNIS) database. The GNIS contains
+                    information about physical and cultural geographic features (excluding roads and
+                    highways), including: the Federally recognized name of each feature, a
+                    definition of the official feature location (by state, county, USGS topographic
+                    map, and geographic coordinates). The number, by design, carries no information
+                    or association to the content of the feature record and therefore is not subject
+                    to change as attribute values change. Once assigned to a feature, the number is
+                    never changed or withdrawn, and never reassigned. The purpose of the number is
+                    to uniquely identify that feature as a record in any information system
+                    database, dataset, file, or document and for distinguishing it from all other
+                    feature records so identified.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A unique, permanent number assigned to a geographic feature in the
+                            USGS Geographic Names Information System (GNIS) database. The GNIS
+                            contains information about physical and cultural geographic features
+                            (excluding roads and highways), including: the Federally recognized name
+                            of each feature, a definition of the official feature location (by
+                            state, county, USGS topographic map, and geographic coordinates). The
+                            number, by design, carries no information or association to the content
+                            of the feature record and therefore is not subject to change as
+                            attribute values change. Once assigned to a feature, the number is never
+                            changed or withdrawn, and never reassigned. The purpose of the number is
+                            to uniquely identify that feature as a record in any information system
+                            database, dataset, file, or document and for distinguishing it from all
+                            other feature records so identified.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LoadDate</attrlabl>
+                <attrdef>Date and time feature or event was loaded into the database. Timestamp
+                    indicating when the feature or event was last edited.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Date and time feature or event was loaded into the database.
+                            Timestamp indicating when the feature or event was last
+                            edited.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Name</attrlabl>
+                <attrdef>The primary official name of an airport complex and the federally
+                    recognized name for the airport complex as designated in the Geographic Names
+                    Information System (GNIS).</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>The primary official name of an airport complex and the federally
+                            recognized name for the airport complex as designated in the Geographic
+                            Names Information System (GNIS).</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Permanent_Identifier</attrlabl>
+                <attrdef>A globally unique and persistent identifier of an entity (for example:
+                    feature or event) instance.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A globally unique and persistent identifier of an entity (for
+                            example: feature or event) instance.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_DataDesc</attrlabl>
+                <attrdef>Brief narrative of the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Brief narrative of the source dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_DatasetID</attrlabl>
+                <attrdef>Identifier for the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Identifier for the source dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_FeatureID</attrlabl>
+                <attrdef>Internal ID number of the feature or event in the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Internal ID number of the feature or event in the source
+                            dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_Originator</attrlabl>
+                <attrdef>Name of the organization or individual that developed the source
+                    dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Name of the organization or individual that developed the source
+                            dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+        </detailed>
+        <detailed>
+            <enttyp>
+                <enttypl>Trans_AirportRunway</enttypl>
+                <enttypd>A feature class representing the location of a building or other structure
+                    as a single point.</enttypd>
+                <enttypds>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    <udom>Feature geometry.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FAA_Airport_Code</attrlabl>
+                <attrdef>A 3, 4 or 5 character code assigned by the Federal Aviation Administration
+                    used to identify the name and location of an airport.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A 3, 4 or 5 character code assigned by the Federal Aviation
+                            Administration used to identify the name and location of an
+                            airport.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FCode</attrlabl>
+                <attrdef>Feature Code. Numeric value that encodes a set of characteristics for a
+                    type of feature. This five-digit code has two parts: the first three digits
+                    encode the feature type (FType); the last two digits encode values for a unique
+                    set of characteristics associated with the feature type. The set of
+                    characteristics may be single valued or multi-valued.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Feature Code. Numeric value that encodes a set of characteristics
+                            for a type of feature. This five-digit code has two parts: the first
+                            three digits encode the feature type (FType); the last two digits encode
+                            values for a unique set of characteristics associated with the feature
+                            type. The set of characteristics may be single valued or
+                            multi-valued.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GNIS_ID</attrlabl>
+                <attrdef>A unique, permanent number assigned to a geographic feature in the USGS
+                    Geographic Names Information System (GNIS) database. The GNIS contains
+                    information about physical and cultural geographic features (excluding roads and
+                    highways), including: the Federally recognized name of each feature, a
+                    definition of the official feature location (by state, county, USGS topographic
+                    map, and geographic coordinates). The number, by design, carries no information
+                    or association to the content of the feature record and therefore is not subject
+                    to change as attribute values change. Once assigned to a feature, the number is
+                    never changed or withdrawn, and never reassigned. The purpose of the number is
+                    to uniquely identify that feature as a record in any information system
+                    database, dataset, file, or document and for distinguishing it from all other
+                    feature records so identified.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A unique, permanent number assigned to a geographic feature in the
+                            USGS Geographic Names Information System (GNIS) database. The GNIS
+                            contains information about physical and cultural geographic features
+                            (excluding roads and highways), including: the Federally recognized name
+                            of each feature, a definition of the official feature location (by
+                            state, county, USGS topographic map, and geographic coordinates). The
+                            number, by design, carries no information or association to the content
+                            of the feature record and therefore is not subject to change as
+                            attribute values change. Once assigned to a feature, the number is never
+                            changed or withdrawn, and never reassigned. The purpose of the number is
+                            to uniquely identify that feature as a record in any information system
+                            database, dataset, file, or document and for distinguishing it from all
+                            other feature records so identified.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LoadDate</attrlabl>
+                <attrdef>Date and time feature or event was loaded into the database. Timestamp
+                    indicating when the feature or event was last edited.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Date and time feature or event was loaded into the database.
+                            Timestamp indicating when the feature or event was last
+                            edited.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Name</attrlabl>
+                <attrdef>The primary official name of an airport complex and the federally
+                    recognized name for the airport complex as designated in the Geographic Names
+                    Information System (GNIS).</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>The primary official name of an airport complex and the federally
+                            recognized name for the airport complex as designated in the Geographic
+                            Names Information System (GNIS).</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Permanent_Identifier</attrlabl>
+                <attrdef>A globally unique and persistent identifier of an entity (for example:
+                    feature or event) instance.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A globally unique and persistent identifier of an entity (for
+                            example: feature or event) instance.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Runway_Length</attrlabl>
+                <attrdef>Length in feet of an airport runway.</attrdef>
+                <attrdefs>Personal communication from Scott McDougal, USGS-NGTOC Transportation
+                    Subject Matter Expert, 2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Length in feet of an airport runway.</codesetn>
+                        <codesets>Personal communication from Scott McDougal, USGS-NGTOC
+                            Transportation Subject Matter Expert, 2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Runway_Status</attrlabl>
+                <attrdef>Active Status of an airport runway</attrdef>
+                <attrdefs>Personal communication from Scott McDougal, USGS-NGTOC Transportation
+                    Subject Matter Expert, 2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Active Status of an airport runway</codesetn>
+                        <codesets>Communication from Scott McDougal, USGS-NGTOC Transportation
+                            Subject Matter Expert, 2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Runway_Width</attrlabl>
+                <attrdef>Width in feet of an airport runway.</attrdef>
+                <attrdefs>Personal communication from Scott McDougal, USGS-NGTOC Transportation
+                    Subject Matter Expert, 2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Width in feet of an airport runway.</codesetn>
+                        <codesets>Personal communication from Scott McDougal, USGS-NGTOC
+                            Transportation Subject Matter Expert, 2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Length of the feature, which may differ from the field measured length due
+                    to differences in calculation. Units are map units.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Length of the feature, which may differ from the field measured
+                            length due to differences in calculation. Units are map
+                            units.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Area</attrlabl>
+                <attrdef>Area of feature in map units squared.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Area of feature in map units squared.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Length</attrlabl>
+                <attrdef>Length of the feature, which may differ from the field measured length due
+                    to differences in calculation. Units are map units.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Length of the feature, which may differ from the field measured
+                            length due to differences in calculation. Units are map
+                            units.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_DataDesc</attrlabl>
+                <attrdef>Brief narrative of the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Brief narrative of the source dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_DatasetID</attrlabl>
+                <attrdef>Identifier for the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Identifier for the source dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_FeatureID</attrlabl>
+                <attrdef>Internal ID number of the feature or event in the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Internal ID number of the feature or event in the source
+                            dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_Originator</attrlabl>
+                <attrdef>Name of the organization or individual that developed the source
+                    dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Name of the organization or individual that developed the source
+                            dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>State_Route</attrlabl>
+                <attrdef>A numeric identifier designating the road segments that form a particular
+                    path through the transportation system, as attributed by a state-level
+                    transportation organization.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A numeric identifier designating the road segments that form a
+                            particular path through the transportation system, as attributed by a
+                            state-level transportation organization.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Surface_Material</attrlabl>
+                <attrdef>A description of of a transportation component's surface.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A description of of a transportation component's
+                            surface.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Width</attrlabl>
+                <attrdef>Width of the trail segment in meters. Dimension of feature taken
+                    perpendicular to its primary alignment of use and generally in the horizontal
+                    plane.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Width of the trail segment in meters. Dimension of feature taken
+                            perpendicular to its primary alignment of use and generally in the
+                            horizontal plane.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+        </detailed>
+        <detailed>
+            <enttyp>
+                <enttypl>Trans_RailFeature</enttypl>
+                <enttypd>A feature class representing the location of a building or other structure
+                    as a single point.</enttypd>
+                <enttypds>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    <udom>Feature geometry.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Data_Security</attrlabl>
+                <attrdef>A code from Executive Order 12958-Classified National Security Information
+                    (EO12958) used to describe the highest classification of a United States
+                    document (e.g., confidential, secret, top secret, no markings).</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A code from Executive Order 12958-Classified National Security
+                            Information (EO12958) used to describe the highest classification of a
+                            United States document (e.g., confidential, secret, top secret, no
+                            markings).</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Distribution_Policy</attrlabl>
+                <attrdef>Data access and use constraints.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Data access and use constraints.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FCode</attrlabl>
+                <attrdef>Feature Code. Numeric value that encodes a set of characteristics for a
+                    type of feature. This five-digit code has two parts: the first three digits
+                    encode the feature type (FType); the last two digits encode values for a unique
+                    set of characteristics associated with the feature type. The set of
+                    characteristics may be single valued or multi-valued.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Feature Code. Numeric value that encodes a set of characteristics
+                            for a type of feature. This five-digit code has two parts: the first
+                            three digits encode the feature type (FType); the last two digits encode
+                            values for a unique set of characteristics associated with the feature
+                            type. The set of characteristics may be single valued or
+                            multi-valued.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GNIS_ID</attrlabl>
+                <attrdef>A unique, permanent number assigned to a geographic feature in the USGS
+                    Geographic Names Information System (GNIS) database. The GNIS contains
+                    information about physical and cultural geographic features (excluding roads and
+                    highways), including: the Federally recognized name of each feature, a
+                    definition of the official feature location (by state, county, USGS topographic
+                    map, and geographic coordinates). The number, by design, carries no information
+                    or association to the content of the feature record and therefore is not subject
+                    to change as attribute values change. Once assigned to a feature, the number is
+                    never changed or withdrawn, and never reassigned. The purpose of the number is
+                    to uniquely identify that feature as a record in any information system
+                    database, dataset, file, or document and for distinguishing it from all other
+                    feature records so identified.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A unique, permanent number assigned to a geographic feature in the
+                            USGS Geographic Names Information System (GNIS) database. The GNIS
+                            contains information about physical and cultural geographic features
+                            (excluding roads and highways), including: the Federally recognized name
+                            of each feature, a definition of the official feature location (by
+                            state, county, USGS topographic map, and geographic coordinates). The
+                            number, by design, carries no information or association to the content
+                            of the feature record and therefore is not subject to change as
+                            attribute values change. Once assigned to a feature, the number is never
+                            changed or withdrawn, and never reassigned. The purpose of the number is
+                            to uniquely identify that feature as a record in any information system
+                            database, dataset, file, or document and for distinguishing it from all
+                            other feature records so identified.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LengthKM</attrlabl>
+                <attrdef>Length of the rail segment in kilometers (km).</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Length of the rail segment in kilometers (km).</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LoadDate</attrlabl>
+                <attrdef>Date and time feature or event was loaded into the database. Timestamp
+                    indicating when the feature or event was last edited.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Date and time feature or event was loaded into the database.
+                            Timestamp indicating when the feature or event was last
+                            edited.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Name</attrlabl>
+                <attrdef>The primary official name of an airport complex and the federally
+                    recognized name for the airport complex as designated in the Geographic Names
+                    Information System (GNIS).</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>The primary official name of an airport complex and the federally
+                            recognized name for the airport complex as designated in the Geographic
+                            Names Information System (GNIS).</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Owner</attrlabl>
+                <attrdef>The person(s) or organization(s) that possess the rail line.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>The person(s) or organization(s) that possess the rail
+                            line.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Permanent_Identifier</attrlabl>
+                <attrdef>A globally unique and persistent identifier of an entity (for example:
+                    feature or event) instance.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A globally unique and persistent identifier of an entity (for
+                            example: feature or event) instance.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Rail_Class</attrlabl>
+                <attrdef>A classification describing the area served by the rail feature.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A classification describing the area served by the rail
+                            feature.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Rail_Usage</attrlabl>
+                <attrdef>The use(s) to which a railway is put as part of a transportation
+                    system.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>The use(s) to which a railway is put as part of a transportation
+                            system.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Length of the feature, which may differ from the field measured length due
+                    to differences in calculation. Units are map units.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Length of the feature, which may differ from the field measured
+                            length due to differences in calculation. Units are map
+                            units.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Length</attrlabl>
+                <attrdef>Length of the feature, which may differ from the field measured length due
+                    to differences in calculation. Units are map units.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Length of the feature, which may differ from the field measured
+                            length due to differences in calculation. Units are map
+                            units.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_DataDesc</attrlabl>
+                <attrdef>Brief narrative of the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Brief narrative of the source dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_DatasetID</attrlabl>
+                <attrdef>Identifier for the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Identifier for the source dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_FeatureID</attrlabl>
+                <attrdef>Internal ID number of the feature or event in the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Internal ID number of the feature or event in the source
+                            dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_Originator</attrlabl>
+                <attrdef>Name of the organization or individual that developed the source
+                    dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Name of the organization or individual that developed the source
+                            dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+        </detailed>
+        <detailed>
+            <enttyp>
+                <enttypl>Trans_RoadSegment</enttypl>
+                <enttypd>A feature class representing the location of a building or other structure
+                    as a single point.</enttypd>
+                <enttypds>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    <udom>Feature geometry.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>County_Route</attrlabl>
+                <attrdef>A numeric identifier designating the road segments that form a particular
+                    path through the transportation system, as attributed by a state or county-level
+                    transportation organization.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A numeric identifier designating the road segments that form a
+                            particular path through the transportation system, as attributed by a
+                            state or county-level transportation organization.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Data_Security</attrlabl>
+                <attrdef>A code from Executive Order 12958-Classified National Security Information
+                    (EO12958) used to describe the highest classification of a United States
+                    document (e.g., confidential, secret, top secret, no markings).</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A code from Executive Order 12958-Classified National Security
+                            Information (EO12958) used to describe the highest classification of a
+                            United States document (e.g., confidential, secret, top secret, no
+                            markings).</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Distribution_Policy</attrlabl>
+                <attrdef>Data access and use constraints.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Data access and use constraints.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Full_Street_Name</attrlabl>
+                <attrdef>Official name of a street as assigned by a local governing authority, or an
+                    alternate (alias) name that is used and recognized. The full street name is the
+                    combination of the following data types: [Prefix_Dir] + [Prefix_Type] +
+                    [Base_Street_Name] + [Street_Type] + [Suffix_Dir] + [Suffix_Type]. For example,
+                    North Broadway Avenue or North Avenue A.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Official name of a street as assigned by a local governing
+                            authority, or an alternate (alias) name that is used and recognized. The
+                            full street name is the combination of the following data types:
+                            [Prefix_Dir] + [Prefix_Type] + [Base_Street_Name] + [Street_Type] +
+                            [Suffix_Dir] + [Suffix_Type]. For example, North Broadway Avenue or
+                            North Avenue A.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GNIS_ID</attrlabl>
+                <attrdef>A unique, permanent number assigned to a geographic feature in the USGS
+                    Geographic Names Information System (GNIS) database. The GNIS contains
+                    information about physical and cultural geographic features (excluding roads and
+                    highways), including: the Federally recognized name of each feature, a
+                    definition of the official feature location (by state, county, USGS topographic
+                    map, and geographic coordinates). The number, by design, carries no information
+                    or association to the content of the feature record and therefore is not subject
+                    to change as attribute values change. Once assigned to a feature, the number is
+                    never changed or withdrawn, and never reassigned. The purpose of the number is
+                    to uniquely identify that feature as a record in any information system
+                    database, dataset, file, or document and for distinguishing it from all other
+                    feature records so identified.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A unique, permanent number assigned to a geographic feature in the
+                            USGS Geographic Names Information System (GNIS) database. The GNIS
+                            contains information about physical and cultural geographic features
+                            (excluding roads and highways), including: the Federally recognized name
+                            of each feature, a definition of the official feature location (by
+                            state, county, USGS topographic map, and geographic coordinates). The
+                            number, by design, carries no information or association to the content
+                            of the feature record and therefore is not subject to change as
+                            attribute values change. Once assigned to a feature, the number is never
+                            changed or withdrawn, and never reassigned. The purpose of the number is
+                            to uniquely identify that feature as a record in any information system
+                            database, dataset, file, or document and for distinguishing it from all
+                            other feature records so identified.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>High_Address_Left</attrlabl>
+                <attrdef>The house number that is the low end of the range of addresses on the left
+                    side of the segment.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>The house number that is the low end of the range of addresses on
+                            the left side of the segment.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>High_Address_Right</attrlabl>
+                <attrdef>The house number that is the low end of the range of addresses on the left
+                    side of the segment.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>The house number that is the low end of the range of addresses on
+                            the left side of the segment.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Interstate</attrlabl>
+                <attrdef>A numeric or alphanumeric identifier designating the road segments that
+                    form a particular path through the transportation system, as attributed by the
+                    US Department of Transportation. It includes the Interstate number and Business,
+                    Bypass, Alternate, or Scenic designation.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A numeric or alphanumeric identifier designating the road segments
+                            that form a particular path through the transportation system, as
+                            attributed by the US Department of Transportation. It includes the
+                            Interstate number and Business, Bypass, Alternate, or Scenic
+                            designation.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>IsOneWay</attrlabl>
+                <attrdef>Indication that a road is intended to be used only in a single
+                    direction.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Indication that a road is intended to be used only in a single
+                            direction.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LoadDate</attrlabl>
+                <attrdef>Date and time feature or event was loaded into the database. Timestamp
+                    indicating when the feature or event was last edited.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Date and time feature or event was loaded into the database.
+                            Timestamp indicating when the feature or event was last
+                            edited.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Low_Address_Left</attrlabl>
+                <attrdef>The house number that is the low end of the range of addresses on the left
+                    side of the segment.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>The house number that is the low end of the range of addresses on
+                            the left side of the segment.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Low_Address_Right</attrlabl>
+                <attrdef>The house number that is the low end of the range of addresses on the right
+                    side of the segment.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>The house number that is the low end of the range of addresses on
+                            the right side of the segment.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OneWay_Direction</attrlabl>
+                <attrdef>Cardinal or ordinal direction of traffic flow on a one way road.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Cardinal or ordinal direction of traffic flow on a one way
+                            road.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Permanent_Identifier</attrlabl>
+                <attrdef>A globally unique and persistent identifier of an entity (for example:
+                    feature or event) instance.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A globally unique and persistent identifier of an entity (for
+                            example: feature or event) instance.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Rail_Class</attrlabl>
+                <attrdef>A classification describing the area served by the rail feature.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A classification describing the area served by the rail
+                            feature.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Road_Class</attrlabl>
+                <attrdef>The category of roads based on design, weatherability, their governmental
+                    designation, the character of service that they provide, and the importance of
+                    the role that the road or ferry connection performs in the connectivity of the
+                    total road network.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>The category of roads based on design, weatherability, their
+                            governmental designation, the character of service that they provide,
+                            and the importance of the role that the road or ferry connection
+                            performs in the connectivity of the total road network.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Length of the feature, which may differ from the field measured length due
+                    to differences in calculation. Units are map units.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Length of the feature, which may differ from the field measured
+                            length due to differences in calculation. Units are map
+                            units.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Area</attrlabl>
+                <attrdef>Area of feature in map units squared.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Area of feature in map units squared.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Length</attrlabl>
+                <attrdef>Length of the feature, which may differ from the field measured length due
+                    to differences in calculation. Units are map units.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Length of the feature, which may differ from the field measured
+                            length due to differences in calculation. Units are map
+                            units.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_DataDesc</attrlabl>
+                <attrdef>Brief narrative of the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Brief narrative of the source dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_DatasetID</attrlabl>
+                <attrdef>Identifier for the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Identifier for the source dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_FeatureID</attrlabl>
+                <attrdef>Internal ID number of the feature or event in the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Internal ID number of the feature or event in the source
+                            dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_Originator</attrlabl>
+                <attrdef>Name of the organization or individual that developed the source
+                    dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Name of the organization or individual that developed the source
+                            dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>State_Route</attrlabl>
+                <attrdef>A numeric identifier designating the road segments that form a particular
+                    path through the transportation system, as attributed by a state-level
+                    transportation organization.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A numeric identifier designating the road segments that form a
+                            particular path through the transportation system, as attributed by a
+                            state-level transportation organization.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>StCo_FIPSCode</attrlabl>
+                <attrdef>A five-digit Federal Information Processing Standard (FIPS) numeric code
+                    that uniquely identifies counties and equivalent entities in the United States,
+                    Its possessions, and Associated states. The first two digits are the numeric
+                    code for a US State (FIPS PUB 5-2) and the last three digits are the numeric
+                    code for a county (FIPS PUB 6-4) within the state or possession.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A five-digit Federal Information Processing Standard (FIPS)
+                            numeric code that uniquely identifies counties and equivalent entities
+                            in the United States, Its possessions, and Associated states. The first
+                            two digits are the numeric code for a US State (FIPS PUB 5-2) and the
+                            last three digits are the numeric code for a county (FIPS PUB 6-4)
+                            within the state or possession.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>US_Route</attrlabl>
+                <attrdef>A numeric or alphanumeric identifier designating the road segments that
+                    form a particular path through the transportation system, as attributed by the
+                    US Department of Transportation. It includes the US highway number and Business,
+                    Bypass, Alternate, or Scenic designation.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A numeric or alphanumeric identifier designating the road segments
+                            that form a particular path through the transportation system, as
+                            attributed by the US Department of Transportation. It includes the US
+                            highway number and Business, Bypass, Alternate, or Scenic
+                            designation.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Width</attrlabl>
+                <attrdef>Width of the trail segment in meters. Dimension of feature taken
+                    perpendicular to its primary alignment of use and generally in the horizontal
+                    plane.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Width of the trail segment in meters. Dimension of feature taken
+                            perpendicular to its primary alignment of use and generally in the
+                            horizontal plane.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Zip_Left</attrlabl>
+                <attrdef>ZIP code associated with the most inclusive address range on the left side
+                    of the segment.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>ZIP code associated with the most inclusive address range on the
+                            left side of the segment.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Zip_Right</attrlabl>
+                <attrdef>ZIP code associated with the most inclusive address range on the right side
+                    of the segment.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>ZIP code associated with the most inclusive address range on the
+                            right side of the segment.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+        </detailed>
+        <detailed>
+            <enttyp>
+                <enttypl>Trans_TrailSegment</enttypl>
+                <enttypd>A feature class representing the location of a building or other structure
+                    as a single point.</enttypd>
+                <enttypds>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    <udom>Feature geometry.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ATV</attrlabl>
+                <attrdef>Indicator of whether or not all-terrain vehicles (ATVs) are allowed on the
+                    trail.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Indicator of whether or not all-terrain vehicles (ATVs) are
+                            allowed on the trail.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Bike</attrlabl>
+                <attrdef>Indicator of whether or not bicycles are allowed on the trail.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Indicator of whether or not bicycles are allowed on the
+                            trail.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Data_Security</attrlabl>
+                <attrdef>A code from Executive Order 12958-Classified National Security Information
+                    (EO12958) used to describe the highest classification of a United States
+                    document (e.g., confidential, secret, top secret, no markings).</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A code from Executive Order 12958-Classified National Security
+                            Information (EO12958) used to describe the highest classification of a
+                            United States document (e.g., confidential, secret, top secret, no
+                            markings).</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Distribution_Policy</attrlabl>
+                <attrdef>Data access and use constraints.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Data access and use constraints.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GNIS_ID</attrlabl>
+                <attrdef>A unique, permanent number assigned to a geographic feature in the USGS
+                    Geographic Names Information System (GNIS) database. The GNIS contains
+                    information about physical and cultural geographic features (excluding roads and
+                    highways), including: the Federally recognized name of each feature, a
+                    definition of the official feature location (by state, county, USGS topographic
+                    map, and geographic coordinates). The number, by design, carries no information
+                    or association to the content of the feature record and therefore is not subject
+                    to change as attribute values change. Once assigned to a feature, the number is
+                    never changed or withdrawn, and never reassigned. The purpose of the number is
+                    to uniquely identify that feature as a record in any information system
+                    database, dataset, file, or document and for distinguishing it from all other
+                    feature records so identified.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A unique, permanent number assigned to a geographic feature in the
+                            USGS Geographic Names Information System (GNIS) database. The GNIS
+                            contains information about physical and cultural geographic features
+                            (excluding roads and highways), including: the Federally recognized name
+                            of each feature, a definition of the official feature location (by
+                            state, county, USGS topographic map, and geographic coordinates). The
+                            number, by design, carries no information or association to the content
+                            of the feature record and therefore is not subject to change as
+                            attribute values change. Once assigned to a feature, the number is never
+                            changed or withdrawn, and never reassigned. The purpose of the number is
+                            to uniquely identify that feature as a record in any information system
+                            database, dataset, file, or document and for distinguishing it from all
+                            other feature records so identified.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Hike</attrlabl>
+                <attrdef>Indicator of whether or not pedestrians are allowed on the trail.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Indicator of whether or not pedestrians are allowed on the
+                            trail.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Length</attrlabl>
+                <attrdef>Length of the trail segment in meters. Dimension of feature taken along its
+                    primary alignment of use and generally in the horizontal plane.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Length of the trail segment in meters. Dimension of feature taken
+                            along its primary alignment of use and generally in the horizontal
+                            plane.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LoadDate</attrlabl>
+                <attrdef>Date and time feature or event was loaded into the database. Timestamp
+                    indicating when the feature or event was last edited.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Date and time feature or event was loaded into the database.
+                            Timestamp indicating when the feature or event was last
+                            edited.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Motorcycle</attrlabl>
+                <attrdef>The house number that is the low end of the range of addresses on the right
+                    side of the segment.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>The house number that is the low end of the range of addresses on
+                            the right side of the segment.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Name</attrlabl>
+                <attrdef>The primary official name of an airport complex and the federally
+                    recognized name for the airport complex as designated in the Geographic Names
+                    Information System (GNIS).</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>The primary official name of an airport complex and the federally
+                            recognized name for the airport complex as designated in the Geographic
+                            Names Information System (GNIS).</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NonMotorizedOnly</attrlabl>
+                <attrdef>Indicator of whether or not motorized vehicles are allowed on the
+                    trail.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Indicator of whether or not motorized vehicles are allowed on the
+                            trail.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PackOrSaddle</attrlabl>
+                <attrdef>Indicator of whether or not horses with pack saddles carrying loads or with
+                    saddles carrying people are allowed on the trail.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Indicator of whether or not horses with pack saddles carrying
+                            loads or with saddles carrying people are allowed on the
+                            trail.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Permanent_Identifier</attrlabl>
+                <attrdef>A globally unique and persistent identifier of an entity (for example:
+                    feature or event) instance.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>A globally unique and persistent identifier of an entity (for
+                            example: feature or event) instance.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Length of the feature, which may differ from the field measured length due
+                    to differences in calculation. Units are map units.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Length of the feature, which may differ from the field measured
+                            length due to differences in calculation. Units are map
+                            units.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_DataDesc</attrlabl>
+                <attrdef>Brief narrative of the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Brief narrative of the source dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_DatasetID</attrlabl>
+                <attrdef>Identifier for the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Identifier for the source dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_FeatureID</attrlabl>
+                <attrdef>Internal ID number of the feature or event in the source dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Internal ID number of the feature or event in the source
+                            dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Source_Originator</attrlabl>
+                <attrdef>Name of the organization or individual that developed the source
+                    dataset.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Name of the organization or individual that developed the source
+                            dataset.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Width</attrlabl>
+                <attrdef>Width of the trail segment in meters. Dimension of feature taken
+                    perpendicular to its primary alignment of use and generally in the horizontal
+                    plane.</attrdef>
+                <attrdefs>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                    2013</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>Width of the trail segment in meters. Dimension of feature taken
+                            perpendicular to its primary alignment of use and generally in the
+                            horizontal plane.</codesetn>
+                        <codesets>USGS NGTOC archives' Data Dictionary: Trans_v11.xls, draft copy
+                            2013</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>U.S. Geological Survey, National Geospatial Technical Operations
+                        Center</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1400 Independence Road</address>
+                    <city>Rolla</city>
+                    <state>MO</state>
+                    <postal>65401</postal>
+                </cntaddr>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Box 25046 Denver Federal Center</address>
+                    <city>Lakewood</city>
+                    <state>CO</state>
+                    <postal>80225</postal>
+                </cntaddr>
+                <cntvoice>1-888-275-8747</cntvoice>
+                <cntemail>tnm_help@usgs.gov</cntemail>
+                <hours>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</hours>
+                <cntinst>Please visit http://www.usgs.gov/ask/, call 1-888-ASK-USGS or email tnm_help@usgs.gov to contact us.</cntinst>
+            </cntinfo>
+        </distrib>
+        <resdesc>Downloadable Data</resdesc>
+        <distliab>No liability for content or accuracy is presumed by USGS for data.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>WAF</formname>
+                    <formcont>Web Accessible Folder</formcont>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/transportation/ntd/</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None.</fees>
+        </stdorder>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>FileGDB</formname>
+                    <formcont>ESRI File Geodatabase</formcont>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Tran/GDB/</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None.</fees>
+        </stdorder>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Shapefile</formname>
+                    <formcont>ESRI Shapefile</formcont>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Tran/Shape/</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None.</fees>
+        </stdorder>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>USGS Transportation Map Server (ArcGIS)</formname>
+                    <formvern>10.71</formvern>
+                    <formspec>http://www.geoplatform.gov/spec/esri-map-rest</formspec>
+                    <formcont>An ArcGIS Map Service for visualizing GNIS features.</formcont>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://carto.nationalmap.gov/arcgis/rest/services/transportation/MapServer</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <digform>
+                <digtinfo>
+                    <formname>USGS Transportation Map Server (OGC WMS)</formname>
+                    <formvern>1.3.0</formvern>
+                    <formspec>http://opengis.net/spec/wms</formspec>
+                    <formcont>An OGC WMS Map Service for visualizing transportation features.</formcont>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://carto.nationalmap.gov/arcgis/services/transportation/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <digform>
+                <digtinfo>
+                    <formname>USGS Transportation Feature Server (OGC WFS)</formname>
+                    <formvern>2.0</formvern>
+                    <formspec>http://opengis.net/spec/wfs</formspec>
+                    <formcont>An OGC WFS Service for accessing transportation features.</formcont>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://carto-wfs.nationalmap.gov/arcgis/services/transportation/MapServer/WFSServer?request=GetCapabilities&amp;service=WFS</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>NONE</fees>
+        </stdorder>        
+    </distinfo>
+    <metainfo>
+        <metd>20201113</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>U.S. Geological Survey, National Geospatial Technical Operations
+                        Center</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1400 Independence Road</address>
+                    <city>Rolla</city>
+                    <state>MO</state>
+                    <postal>65401</postal>
+                </cntaddr>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Box 25046 Denver Federal Center</address>
+                    <city>Lakewood</city>
+                    <state>CO</state>
+                    <postal>80225</postal>
+                </cntaddr>
+                <cntvoice>1-888-275-8747</cntvoice>
+                <cntemail>tnm_help@usgs.gov</cntemail>
+                <hours>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</hours>
+                <cntinst>Please visit http://www.usgs.gov/ask/, call 1-888-ASK-USGS or email tnm_help@usgs.gov to contact us.</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+    </metainfo>
+</metadata>

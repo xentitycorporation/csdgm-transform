@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<Esri>
+<PublishedDocID>82EEBA4B-D9F7-4934-BCD9-311A61DC68D8</PublishedDocID>
+</Esri>
+<idinfo>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>geoscientificInformation</themekey>
+<themekey>health</themekey>
+</theme>
+<theme>
+<themekt>EPA GIS Keyword Thesaurus</themekt>
+<themekey>Air</themekey>
+<themekey>Disaster</themekey>
+<themekey>Emergency</themekey>
+<themekey>Exposure</themekey>
+<themekey>Hazards</themekey>
+<themekey>Health</themekey>
+<themekey>Monitoring</themekey>
+<themekey>Response</themekey>
+<themekey>Toxics</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Alabama</placekey>
+<placekey>Florida</placekey>
+<placekey>Louisiana</placekey>
+<placekey>Mississippi</placekey>
+</place>
+<theme>
+<themekt>User</themekt>
+</theme>
+</keywords>
+<citation>
+<citeinfo>
+<origin>U.S. Environmental Protection Agency</origin>
+<title>Trace Atmospheric Gas Analyzer (TAGA) Volatile Organic Compound (VOC) Data for BP Spill/Deepwater Horizon - August 2010</title>
+<pubinfo>
+<publish>U.S. EPA Office of Land and Emergency Management (OLEM) - Office of Emergency Management (OEM)</publish>
+<pubplace>Washington, DC</pubplace>
+</pubinfo>
+<pubdate>20100820</pubdate>
+<onlink>https://edg.epa.gov/data/Public/OLEM/DWH_TAGA_VOCs_August2010.zip</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The Trace Atmospheric Gas Analyzer (TAGA) buses are self-contained mobile laboratories that conduct instant-result monitoring of air quality at particular locations.
+
+In response to the BP Spill in 2010, equipment in the TAGA buses monitored for air toxics known as volatile organic compounds (VOCs). The specific VOCs being monitored were benzene, toluene, and xylene. These substances are also associated with facilities such as gas stations, oil refineries, paper mills, and autobody shops. The TAGA monitoring found that these substances are not present or are being detected at low levels in the areas monitored along the Gulf Coast and in New Orleans, LA. The levels found were well below levels that would cause temporary discomfort, irritation, or other minor effects.</abstract>
+<purpose>The purpose of this dataset is to show the route of the TAGA bus for the given dates, as well as the monitoring results it recorded on the route.
+
+**Only readings above the detection limit are shown**</purpose>
+<supplinf>**Only readings above the detection limit are shown**</supplinf>
+</descript>
+<spdom>
+<bounding>
+<westbc>-138.21454852</westbc>
+<eastbc>-12.68151645</eastbc>
+<northbc>61.7110157</northbc>
+<southbc>6.65223303</southbc>
+</bounding>
+</spdom>
+<accconst>None</accconst>
+<useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+<timeperd>
+<current>Publication date</current>
+<timeinfo>
+<rngdates>
+<begdate>20100803</begdate>
+<enddate>20100820</enddate>
+</rngdates>
+</timeinfo>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None Planned</update>
+</status>
+<secinfo>
+<secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+<secclass>public</secclass>
+<sechandl>Standard Technical Controls</sechandl>
+</secinfo>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</cntorg>
+<cntper>Josh Krochmal</cntper>
+</cntorgp>
+<cntpos>EDG Steward</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1200 Pennsylvania Avenue, N.W.</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>202.564.8753</cntvoice>
+<cntemail>krochmal.josh@epa.gov</cntemail>
+<cntinst>https://www.epa.gov/aboutepa/</cntinst>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<logic>Tests for integrity have not been performed.</logic>
+<complete>Features represented have not been tested for completeness</complete>
+<posacc>
+<horizpa>
+<horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<procstep>
+<procdate>20140610</procdate>
+<procdesc>Download data from epa.gov/bpspill</procdesc>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</cntorg>
+<cntper>Josh Krochmal</cntper>
+</cntorgp>
+<cntpos>EDG Steward</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1200 Pennsylvania Avenue, N.W.</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>202.564.8753</cntvoice>
+<cntemail>krochmal.josh@epa.gov</cntemail>
+<cntinst>https://www.epa.gov/aboutepa/</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.000001</latres>
+<longres>0.000001</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 1980</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<distinfo>
+<resdesc>Downloadable Data</resdesc>
+<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</cntorg>
+<cntper>Josh Krochmal</cntper>
+</cntorgp>
+<cntpos>EDG Steward</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1200 Pennsylvania Avenue, N.W.</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>202.564.8753</cntvoice>
+<cntemail>krochmal.josh@epa.gov</cntemail>
+<cntinst>https://www.epa.gov/aboutepa/</cntinst>
+</cntinfo>
+</distrib>
+</distinfo>
+<metainfo>
+<metd>20220122</metd>
+<metfrd>20200720</metfrd>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</cntorg>
+<cntper>Josh Krochmal</cntper>
+</cntorgp>
+<cntpos>EDG Steward</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1200 Pennsylvania Avenue, N.W.</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>202.564.8753</cntvoice>
+<cntemail>krochmal.josh@epa.gov</cntemail>
+<cntinst>https://www.epa.gov/aboutepa/</cntinst>
+</cntinfo>
+</metc>
+</metainfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>TAGA VOCs August 2010</enttypl>
+<enttypd>Trace Atmospheric Gas Analyzer (TAGA) Volatile Organic Compound (VOC) data for August 2010</enttypd>
+<enttypds>United States Environmental Protection Agency</enttypds>
+</enttyp>
+<attr>
+<attrlabl>Date_Time</attrlabl>
+<attrdef>Date and time of the reading</attrdef>
+<attrdefs>United States Environmental Protection Agency</attrdefs>
+<attrdomv>
+<udom>Acceptable values vary</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Toluene Avg</attrlabl>
+<attrdef>Average toluene reading in parts per billion</attrdef>
+<attrdefs>United States Environmental Protection Agency</attrdefs>
+<attrdomv>
+<udom>Acceptable values vary</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Xylene Avg</attrlabl>
+<attrdef>Average xylene reading in parts per billion</attrdef>
+<attrdefs>United States Environmental Protection Agency</attrdefs>
+<attrdomv>
+<udom>Acceptable values vary</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Latitude</attrlabl>
+<attrdef>Latitude coordinate associated with the TAGA reading</attrdef>
+<attrdefs>United States Environmental Protection Agency</attrdefs>
+<attrdomv>
+<udom>Acceptable values vary</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Longitude</attrlabl>
+<attrdef>Longtiude coordinate associated with the TAGA reading</attrdef>
+<attrdefs>United States Environmental Protection Agency</attrdefs>
+<attrdomv>
+<udom>Acceptable values vary</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Benzene Avg</attrlabl>
+<attrdef>Average benzene reading in parts per billion</attrdef>
+<attrdefs>United States Environmental Protection Agency</attrdefs>
+<attrdomv>
+<udom>Acceptable values vary</udom>
+</attrdomv>
+</attr>
+</detailed>
+<overview>
+<eaover>TAGA VOC readings for August 2010 in response to BP spill/Deepwater Horizon</eaover>
+<eadetcit>www.epa.gov/bpspill</eadetcit>
+</overview>
+</eainfo>
+</metadata>

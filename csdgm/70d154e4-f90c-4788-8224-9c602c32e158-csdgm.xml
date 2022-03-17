@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<Esri>
+		<PublishedDocID>{cd6197db-1c9f-44a3-8cb7-fec5e9f2c0d4}</PublishedDocID>
+	</Esri>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EPA GIS Keyword Thesaurus</themekt>
+				<themekey>Ecosystem</themekey>
+				<themekey>Environment</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Hawaii</placekey>
+				<placekey>United States</placekey>
+			</place>
+			<theme>
+				<themekt>EnviroAtlas</themekt>
+				<themekey>12-digit HUCs</themekey>
+				<themekey>Ecosystem Services</themekey>
+				<themekey>EnviroAtlas</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Environmental Atlas</themekey>
+				<themekey>Land Cover</themekey>
+				<themekey>Riparian</themekey>
+				<themekey>Surface Water</themekey>
+				<themekey>Water</themekey>
+			</theme>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<origin>US Environmental Protection Agency (US EPA)</origin>
+				<title>EnviroAtlas - 2005-2011 Riparian Land Cover Proportions by 12-digit HUC for Hawaii</title>
+				<pubinfo>
+					<publish>U.S. EPA Office of Research and Development (ORD) - Center for Public Health and Environmental Assessment (CPHEA)</publish>
+					<pubplace>Research Triangle Park, NC</pubplace>
+				</pubinfo>
+				<pubdate>20190801</pubdate>
+				<onlink>https://edg.epa.gov/data/PUBLIC/ORD/ENVIROATLAS/National</onlink>
+				<onlink>https://enviroatlas.epa.gov/arcgis/rest/services/National/National2016_master/MapServer</onlink>
+				<onlink>https://www.epa.gov/enviroatlas/enviroatlas-data</onlink>
+				<onlink>https://www.epa.gov/enviroatlas</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>Ground condition</current>
+			<timeinfo>
+				<rngdates>
+					<begdate>2005</begdate>
+					<enddate>2011</enddate>
+				</rngdates>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-160.250434</westbc>
+				<eastbc>-154.732119</eastbc>
+				<northbc>22.228151</northbc>
+				<southbc>18.893384</southbc>
+			</bounding>
+		</spdom>
+		<accconst>None</accconst>
+		<useconst>None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+		<descript>
+			<abstract>This EnviroAtlas dataset represents the percentage land area that is classified as forest (excluding wetlands), forest including woody wetlands, and natural land cover that occurs within 45 meters of streams for each 12-digit hydrologic unit code (HUC) in Hawaii. Land cover is defined using the EnviroAtlas merged version of the Coastal Change Analysis Program's (C-CAP) 2005 - 2010 layer for Hawaii. Steams were derived from the NHDPlus Version 2 dataset.
+
+This dataset was produced by the US EPA to support research and online mapping activities related to EnviroAtlas. EnviroAtlas (https://www.epa.gov/enviroatlas) allows the user to interact with a web-based, easy-to-use, mapping application to view and analyze multiple ecosystem services for the contiguous United States. The dataset is available as downloadable data (https://edg.epa.gov/data/Public/ORD/EnviroAtlas) or as an EnviroAtlas map service. Additional descriptive information about each attribute in this dataset can be found in its associated EnviroAtlas Fact Sheet (https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets).</abstract>
+			<purpose>This dataset is useful for evaluating the potential value of ecosystem services provided by vegetation communities, and the impacts of developed land cover. The overall goal of EnviroAtlas is to employ and develop the best available science to map indicators of ecosystem services production, demand, and drivers for the nation.</purpose>
+		</descript>
+		<secinfo>
+			<secsys>https://project-open-data.github.io/schema/#accessLevel</secsys>
+			<secclass>public</secclass>
+			<sechandl>Standard Technical Controls</sechandl>
+		</secinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntperp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<logic>Tests for integrity have not been performed.</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at https://epa.gov/geospatial/policies.html</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>20170815</procdate>
+				<procdesc>Obtained the  EnviroAtlas merged version of the Coastal Change Analysis Program's (C-CAP) 2005 - 2010 land cover raster for Hawaii (https://www.epa.gov/enviroatlas).</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20170815</procdate>
+				<procdesc>Obtained the NHDPlusV2 Watershed Boundary Dataset (WBD) 20170810 Snapshot, EnviroAtlas version for Hawaii (https://www.epa.gov/enviroatlas).</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20170828</procdate>
+				<procdesc>Obtained the NHDPlusV2 National Hydrography Dataset (NHD) for HI20 region (http://www.horizon-systems.com/NHDPlus/NHDPlusV2_20.php).</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20170828</procdate>
+				<procdesc>Processed NHDFlowline shapefile in the NHD with the strmLine Tool in the AtlasAnalyses Toolbox (a self-created toolbox for the purpose of standardizing analyses for the EnviroAtlas). The strmLine tool selects line segments from the NHDPlus NHDFlowline layer that are defined as FTYPE = Stream/River or Connector or Artificial Path. </procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20170828</procdate>
+				<procdesc>Processed NHDArea and NHDWaterbody layers in the NHD with the strmAreal Tool in the AtlasAnalyses Toolbox (a self-created toolbox for the purpose of standardizing analyses for the EnviroAtlas). The strmAreal tool extracts Reservoir, LakePond, and Ice Mass waterbodies that intersect the previously processed NHD flowlines and merges them with any NHDArea wash, rapids, streamriver, or lock chambers that also intersect the processed NHDFlowlines. </procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20160830</procdate>
+				<procdesc>Calculations were done using the Riparian Land Cover Proportions tool in the Riparian Characteristics toolset of the ATtILA for ArcGIS toolbox (ATtILA 10_0.tbx, 5/26/2016 version) in ArcGIS. Calculated rNI45, rfor45, and rfor9045. Used NHDPlusV2_WBDSnapshot_EnviroAtlas_HI as the reporting unit feature, HI_CCAP_Land_Cover_2005_2010_EnviroAtlasVersion as the land cover grid, and strmLineHI20 and strmArealHI20 as the stream features. Used a user-defined land cover scheme for the C-CAP dataset named, EnviroAtlas C-CAP LAND.xml.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20170920</procdate>
+				<procdesc>Renamed fields rNI45, rfor45, and rfor9045 to RNAT45, RFOR45, and RFOR9045, respectively.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<plandu>meters</plandu>
+					<coordrep>
+						<absres>0.000001</absres>
+						<ordres>0.000001</ordres>
+					</coordrep>
+				</planci>
+				<mapproj>
+					<mapprojn>Hawaii Albers Equal Area Conic</mapprojn>
+					<albers>
+						<stdparll>8.00000000</stdparll>
+						<stdparll>18.00000000</stdparll>
+						<longcm>-157.00000000</longcm>
+						<latprjo>13.00000000</latprjo>
+						<feast>0.00000000</feast>
+						<fnorth>0.00000000</fnorth>
+					</albers>
+				</mapproj>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257222101</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metd>20210831</metd>
+		<metfrd>20230801</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>RiparianLC_HI</enttypl>
+				<enttypd>Percentage of land area within 45 meters of stream features in 12-digit hydrologic units classified as various land cover super classes.</enttypd>
+				<enttypds>US EPA</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>HUC_12</attrlabl>
+				<attrdef>Twelve Digit Hydrologic Unit Code. This field provides a unique 12-digit code for each subwatershed. Numbers were assigned in an upstream to downstream fashion. Where no downstream/upstream relationship could be determined, numbers were assigned in a clockwise fashion.</attrdef>
+				<attrdefs>Federal Guidelines, Requirements, and Procedures for the National Watershed Boundary Dataset; Chapter 3 of Section A; Federal Standards, Book 11, Collection and Delineation of Spatial Data; Techniques and Methods 11-A3.</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>010000000000</rdommin>
+						<rdommax>999999999999</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RNAT45</attrlabl>
+				<attrdef>Percentage of WBD 12-digit Hydrologic Unit land area within 45 meters of a stream that is classified as natural land cover (8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 24). Null indicates that none of the NHDPlus V2 water features included in this analysis were present in the HUC12.</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RFOR45</attrlabl>
+				<attrdef>Percentage of WBD 12-digit Hydrologic Unit land area within 45 meters of a stream that is classified as forest (9, 10, 11). Null indicates that none of the NHDPlus V2 water features included in this analysis were present in the HUC12.</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RFOR9045</attrlabl>
+				<attrdef>Percentage of WBD 12-digit Hydrologic Unit land area with 45 meters of a stream that is classified as forest and/or woody wetland (9, 10, 11, 13, 14, 16, 17). Null indicates that none of the NHDPlus V2 water features included in this analysis were present in the HUC12.</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eadetcit>https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets</eadetcit>
+			<eaover>The metric was generated using the ATtILA tool (https://www.epa.gov/enviroatlas/attila-toolbox), an ArcGIS tool for calculating commonly used landscape metrics. The land cover input is the EnviroAtlas merged version of the Coastal Change Analysis Program's (C-CAP) 2005 - 2010 layers for Hawaii (https://coast.noaa.gov/digitalcoast/tools/lca). The stream inputs were derived from the NHDFlowline, NHDWaterbody, and NHDArea shapefiles in the NHDPlus Version 2 datasets (http://www.horizon-systems.com/NHDPlus/NHDPlusV2_home.php). For more information on the metric calculation, please see the ATtILA User's Manual included with the toolbox. A comprehensive list of metric creation steps is included in the Processing Steps.</eaover>
+		</overview>
+	</eainfo>
+</metadata>

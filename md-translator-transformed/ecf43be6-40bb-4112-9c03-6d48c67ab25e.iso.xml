@@ -1,0 +1,12 @@
+Failed
+Input failed to pass either file structure, validation, or content requirements
+See following messages for further information
+Fail - Structure of input file is invalid - see following message(s):
+
+Message: 1
+ERROR: XML file is not well formed
+
+Message: 2
+1:1: FATAL: Start tag expected, '<' not found
+Success - Input content passes schema definition
+Success - Reader execution successful

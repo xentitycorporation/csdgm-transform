@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE metadata SYSTEM "https://thor-f5.er.usgs.gov/ngtoc/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin>U.S. Geological Survey, National Geospatial Technical Operations
+                    Center</origin>
+                <pubdate>2020</pubdate>
+                <title>USGS Map Indices Downloadable Data Collection</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace>Reston, VA</pubplace>
+                    <publish>U.S. Geological Survey</publish>
+                </pubinfo>
+                <onlink>https://viewer.nationalmap.gov</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This data consists of data grids for the entire United States area, including
+                1 X 2 Degree, 1 X 1 Degree, 30 X 60 Minute, 15 X 15 Minute, 7.5 X 7.5 Minute, and
+                3.75 X 3.75 Minute. The grid was generated using ESRI ArcInfo GIS
+                software.</abstract>
+            <purpose>This dataset depicts delineations of area on the surface of the earth. It is
+                general purpose data for users who are not GIS experts.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>2014</begdate>
+                    <enddate>present</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Irregular</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-179.229655487448</westbc>
+                <eastbc>179.856674735386</eastbc>
+                <northbc>71.4395725901531</northbc>
+                <southbc>-14.4246950942767</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>USGS Metadata Identifier</themekt>
+                <themekey>USGS:e1c3618a-b210-475c-8b9d-b56439917b6f</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+                <themekey>boundaries</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>United States of America</themekey>
+                <themekey>grid</themekey>
+                <themekey>polygon grid</themekey>
+            </theme>
+            <place>
+                <placekt>Geographic Names Information System</placekt>
+                <placekey>US</placekey>
+                <placekey>United States</placekey>
+                <placekey>CA</placekey>
+                <placekey>California</placekey>
+                <placekey>1 X 2 Degree</placekey>
+                <placekey>1 X 1 Degree</placekey>
+                <placekey>30 X 60 Minute</placekey>
+                <placekey>15 X 15 Minute</placekey>
+                <placekey>7.5 X 7.5 Minute</placekey>
+                <placekey>3.75 X 3.75 Minute</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None. Acknowledgment of the U.S. Geological Survey would be appreciated for
+            products derived from these data.</useconst>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Cartographic content is derived from USGS national geospatial databases. The
+                data is owned and hosted by the USGS, but does not preclude using data sources owned
+                and hosted by other organizations, provided that these sources have been approved by
+                the USGS data program.</attraccr>
+        </attracc>
+        <logic>Data is comprised of polygons with segments making up inner and outer boundaris that
+            end to end completely enclose an area. No duplicate features exist.</logic>
+        <complete>Each layer is extracted from the USGS national geospatial databases.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>This US map product is compiled to meet National Map Accuracy Standards
+                    (NMAS). NMAS horizontal accuracy requires that at least 90 percent of
+                    well-defined points tested are within 0.02 inch of the true position. In this
+                    product, the projection line, and grids are believed to meet NMAS. Positional
+                    accuracy of the other data layers is less controllable because of diversity of
+                    data sources, and may not meet NMAS.</horizpar>
+            </horizpa>
+            <vertacc>
+                <vertaccr>The accuracy of the National Elevation Dataset (NED) is inherited from the
+                    source digital elevation models (DEMs). The overall absolute vertical accuracy
+                    expressed as the root mean square error (RMSE) is 2.44 meters. The measured
+                    vertical RMSE was converted to equivalent NMAS and NSSDA expressions. The
+                    accuracy is expressed in terms of the National Map Accuracy Standards (NMAS),
+                    which use a 90 percent confidence interval, and in terms of the National
+                    Standard for Spatial Data Accuracy (NSSDA), which uses a 95 percent confidence
+                    interval.</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>U.S. Geological Survey, National Geospatial Technical Operations
+                            Center</origin>
+                        <pubdate>20140416</pubdate>
+                        <title>Geographic Names Information System (GNIS)</title>
+                        <geoform>Vector digital data</geoform>
+                        <othercit>The Geographic Names Information System (GNIS) is the Federal and
+                            national standard for geographic nomenclature. The U.S. Geological
+                            Survey developed the GNIS in support of the U.S. Board on Geographic
+                            Names as the official repository of domestic geographic names data, the
+                            official vehicle for geographic names use by all departments of the
+                            Federal Government, and the source for applying geographic names to
+                            Federal electronic and printed products.</othercit>
+                        <onlink>https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names/domestic-names</onlink>
+                    </citeinfo>
+                </srccite>
+                <srcscale>24000</srcscale>
+                <typesrc>digital data</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>2012</begdate>
+                            <enddate>20140416</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Geographic Names</srccitea>
+                <srccontr>Geographic feature names</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>U.S. Geological Survey, National Geospatial Technical Operations
+                            Center - Grid Cells are a component of a comprehensive base geospatial
+                            data model.</origin>
+                        <pubdate>20140416</pubdate>
+                        <title>Hypsography</title>
+                        <geoform>Vector digital data</geoform>
+                        <othercit>This contour featureclass was generated as a series of reference
+                            base grids for various map data.</othercit>
+                        <onlink>https://www.usgs.gov/core-science-systems/ngp/3dep</onlink>
+                    </citeinfo>
+                </srccite>
+                <srcscale>24000</srcscale>
+                <typesrc>digital data</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>20020401</begdate>
+                            <enddate>20140416</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Hypsography</srccitea>
+                <srccontr>Contours</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>The data for this product are created as follows. All geospatial content
+                    is taken from national geospatial databases under the stewardship of USGS data
+                    programs. The vector data are processed using ESRI ArcGIS software.</procdesc>
+                <procdate>20121105</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <indspref>Public Land Survey System</indspref>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Void polygon composed of rings</sdtstype>
+                <ptvctcnt>1012</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <spref>
+        <horizsys>
+            <geograph>
+                <latres>0.00001</latres>
+                <longres>0.00001</longres>
+                <geogunit>Decimal degrees</geogunit>
+            </geograph>
+            <geodetic>
+                <horizdn>North American Datum of 1983</horizdn>
+                <ellips>Geodetic Reference System 80</ellips>
+                <semiaxis>6378137</semiaxis>
+                <denflat>298.2572221</denflat>
+            </geodetic>
+        </horizsys>
+    </spref>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>U.S. Geological Survey, National Geospatial Technical Operations
+                        Center</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1400 Independence Road</address>
+                    <city>Rolla</city>
+                    <state>MO</state>
+                    <postal>65401</postal>
+                </cntaddr>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Box 25046 Denver Federal Center</address>
+                    <city>Lakewood</city>
+                    <state>CO</state>
+                    <postal>80225</postal>
+                </cntaddr>
+                <cntvoice>1-888-275-8747</cntvoice>
+                <cntemail>tnm_help@usgs.gov</cntemail>
+                <hours>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</hours>
+                <cntinst>Please visit http://www.usgs.gov/ask/, call 1-888-ASK-USGS or email tnm_help@usgs.gov to contact us.</cntinst>
+            </cntinfo>
+        </distrib>
+        <resdesc>Downloadable Data</resdesc>
+        <distliab>No liability for content or accuracy is presumed by USGS for data.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>WAF</formname>
+                    <formcont>Web Accessible Folder</formcont>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/map_indices/</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None.</fees>
+        </stdorder>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>FileGDB</formname>
+                    <formcont>ESRI File Geodatabase</formcont>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/MapIndices/GDB/</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None.</fees>
+        </stdorder>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Shapefile</formname>
+                    <formcont>ESRI Shapefile</formcont>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/MapIndices/Shape/</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None.</fees>
+        </stdorder>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Map Indices Map Server (ArcGIS)</formname>
+                    <formvern>10.41</formvern>
+                    <formspec>http://www.geoplatform.gov/spec/esri-map-rest</formspec>
+                    <formcont>An ArcGIS Map Service for visualizing map index features.</formcont>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://carto.nationalmap.gov/arcgis/rest/services/map_indices/MapServer</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>NONE</fees>
+        </stdorder>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Map Indices Map Server (OGC WMS)</formname>
+                    <formvern>1.3.0</formvern>
+                    <formspec>http://opengis.net/spec/wms</formspec>
+                    <formcont>An OGC WMS Map Service for visualizing map index features.</formcont>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://carto.nationalmap.gov/arcgis/services/geonames/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>NONE</fees>
+        </stdorder>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Map Indices Feature Server (OGC WFS)</formname>
+                    <formvern>1.1.0</formvern>
+                    <formspec>http://opengis.net/spec/wfs</formspec>
+                    <formcont>An OGC WFS Service for accessing map index features.</formcont>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://carto.nationalmap.gov/wfs/services/geonames/MapServer/WFSServer?request=GetCapabilities&amp;service=WFS</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>NONE</fees>
+        </stdorder>        
+    </distinfo>
+    <metainfo>
+        <metd>20201113</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>U.S. Geological Survey, National Geospatial Technical Operations
+                        Center</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1400 Independence Road</address>
+                    <city>Rolla</city>
+                    <state>MO</state>
+                    <postal>65401</postal>
+                </cntaddr>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Box 25046 Denver Federal Center</address>
+                    <city>Lakewood</city>
+                    <state>CO</state>
+                    <postal>80225</postal>
+                </cntaddr>
+                <cntvoice>1-888-275-8747</cntvoice>
+                <cntemail>tnm_help@usgs.gov</cntemail>
+                <hours>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</hours>
+                <cntinst>Please visit http://www.usgs.gov/ask/, call 1-888-ASK-USGS or email tnm_help@usgs.gov to contact us.</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+    </metainfo>
+</metadata>

@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="UTF-8"?><!--+########################################################################+--><!--+    This file was generated using an FGDC CSDGM to ISO19139 Transform   +--><!--+                                                                        +--><!--+ This is accomplished using an XML Style sheet that transforms metadata +--><!--+ conforming to the CSDGM to the ISO 19139.                              +--><!--#########################################################################+-->
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:saxon="http://saxon.sf.net/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd  http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd">
+   <gmd:fileIdentifier>
+      <gco:CharacterString>eebcf0b8-3e73-494d-a5a4-f0ff89cab9b1-csdgm</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+      <gco:CharacterString>eng; USA</gco:CharacterString>
+   </gmd:language>
+   <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+   <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+            <gco:CharacterString>U.S. Geological Survey, National Geospatial Technical Operations Center</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>1-888-275-8747</gco:CharacterString>
+                     </gmd:voice>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>1400 Independence Road</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Rolla</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>MO</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>65401</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>tnm_help@usgs.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:hoursOfService>
+                  <gco:CharacterString>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</gco:CharacterString>
+               </gmd:hoursOfService>
+               <gmd:contactInstructions>
+                  <gco:CharacterString>Please visit http://www.usgs.gov/ask/, call 1-888-ASK-USGS or email tnm_help@usgs.gov to contact us.</gco:CharacterString>
+               </gmd:contactInstructions>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:dateStamp>
+      <gco:Date>2020-11-13</gco:Date>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+      <gco:CharacterString>ISO 19115:2003/Cor.1:2006(E)</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:spatialRepresentationInfo>
+      <gmd:MD_VectorSpatialRepresentation>
+         <gmd:geometricObjects>
+            <gmd:MD_GeometricObjects>
+               <gmd:geometricObjectType>
+                  <gmd:MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="complex">complex</gmd:MD_GeometricObjectTypeCode>
+               </gmd:geometricObjectType>
+               <gmd:geometricObjectCount>
+                  <gco:Integer>1012</gco:Integer>
+               </gmd:geometricObjectCount>
+            </gmd:MD_GeometricObjects>
+         </gmd:geometricObjects>
+      </gmd:MD_VectorSpatialRepresentation>
+   </gmd:spatialRepresentationInfo>
+   <!--CSDGM IMPORT MESSAGE: FGDC Content not mapped to ISO from Xpath: //spdoinfo/indspref--><gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>USGS National Boundary Dataset (NBD) Downloadable Data Collection</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2020-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:city>
+                                    <gco:CharacterString>Reston</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString> VA</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>U.S. Geological Survey, National Geospatial Technical Operations Center</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName gco:nilReason="missing"/>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>https://nationalmap.gov/boundaries.html</gmd:URL>
+                                 </gmd:linkage>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role gco:nilReason="inapplicable"/>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName gco:nilReason="missing"/>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>https://services.nationalmap.gov/bestpractices/model/acrodocs/Poster_BPGovtUnits_03_01_2006.pdf</gmd:URL>
+                                 </gmd:linkage>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role gco:nilReason="inapplicable"/>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:presentationForm>
+                  <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+               </gmd:presentationForm>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>The USGS Governmental Unit Boundaries dataset from The National Map (TNM) represents major civil areas for the Nation, including States or Territories, counties (or equivalents), Federal and Native American areas, congressional districts, minor civil divisions, incorporated places (such as cities and towns), and unincorporated places. Boundaries data are useful for understanding the extent of jurisdictional or administrative areas for a wide range of applications, including mapping or managing resources, and responding to natural disasters. Boundaries data also include extents of forest, grassland, park, wilderness, wildlife, and other reserve areas useful for recreational activities, such as hiking and backpacking. Boundaries data are acquired from a variety of government sources. The data represents the source data with minimal editing or review by USGS. Please refer to the feature-level metadata for information on the data source. The National Map boundaries data is commonly combined with other data themes, such as elevation, hydrography, structures, and transportation, to produce general reference base maps. The National Map viewer allows free downloads of public domain boundaries data in either Esri File Geodatabase or Shapefile formats. For additional information on the boundaries data model, go to https://nationalmap.gov/boundaries.html.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose>
+            <gco:CharacterString>It is a general purpose dataset for users who are not GIS experts. The geospatial data in this dataset are from selected National Map data holdings and other government sources.</gco:CharacterString>
+         </gmd:purpose>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+         </gmd:status>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="irregular">irregular</gmd:MD_MaintenanceFrequencyCode>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName>
+                  <gco:CharacterString>https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/boundaries_thumbnail.jpg</gco:CharacterString>
+               </gmd:fileName>
+               <gmd:fileDescription>
+                  <gco:CharacterString>Thumbnail JPG image</gco:CharacterString>
+               </gmd:fileDescription>
+               <gmd:fileType>
+                  <gco:CharacterString>JPEG</gco:CharacterString>
+               </gmd:fileType>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>USGS:6dcde538-1684-48a0-a8d6-cb671ca0a43e</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>USGS Metadata Identifier</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>political and administrative boundaries</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>legal land descriptions</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>land use maps</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>zoning maps</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>cadastral surveys</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>land ownership</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>geographic names</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>boundary</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Public Land Survey System</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>U.S. National Grid</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>County or Equivalent</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Incorporated Place</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Jurisdictional</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Minor Civil Division</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Native American Area</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PLSS First Division</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PLSS Special Survey</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>PLSS Township</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Reserve</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>State or Territory</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Unincorporated Place</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>None</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>US</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>United States</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>Geographic Names Information System</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_Constraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>No liability for content or accuracy is presumed by USGS for data.</gco:CharacterString>
+               </gmd:useLimitation>
+            </gmd:MD_Constraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:useConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Use Constraints: None. However, users should be aware that temporal changes may have occurred since this data set was collected and that some parts of this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full awareness of its limitations. Acknowledgment of the U.S. Geological Survey would be appreciated for products derived from these data.</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:accessConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Access Constraints: None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+         </gmd:spatialRepresentationType>
+         <gmd:language>
+            <gco:CharacterString>eng; USA</gco:CharacterString>
+         </gmd:language>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent id="boundingExtent">
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-179.229655487448</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>179.856674735386</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>-14.4246950942767</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>71.4395725901531</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent id="boundingTemporalExtent">
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="d1aAbFbB">
+                           <gml:beginPosition>2014-01-01</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="now"/>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>Features of this dataset are various private and public man-made structures and installations.</gco:CharacterString>
+         </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:contentInfo><!-- translated from eainfo to MD_FeatureCatalogueDescription--><gmd:MD_FeatureCatalogueDescription>
+         <gmd:includedWithDataset>
+            <gco:Boolean>true</gco:Boolean>
+         </gmd:includedWithDataset>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="GU_Country"/>
+         </gmd:featureTypes>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="GU_CountyOrEquivalent"/>
+         </gmd:featureTypes>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="GU_IncorporatedPlace"/>
+         </gmd:featureTypes>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="GU_Jurisdictional"/>
+         </gmd:featureTypes>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="GU_MinorCivilDivision"/>
+         </gmd:featureTypes>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="GU_NativeAmericanArea"/>
+         </gmd:featureTypes>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="GU_PLSSFirstDivision"/>
+         </gmd:featureTypes>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="GU_PLSSSpecialSurvey"/>
+         </gmd:featureTypes>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="GU_PLSSTownship"/>
+         </gmd:featureTypes>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="GU_Reserve"/>
+         </gmd:featureTypes>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="GU_StateOrTerritory"/>
+         </gmd:featureTypes>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="GU_UnincorporatedPlace"/>
+         </gmd:featureTypes>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="GU_BoundaryPoint"/>
+         </gmd:featureTypes>
+         <gmd:featureCatalogueCitation gco:nilReason="unknown"/>
+      </gmd:MD_FeatureCatalogueDescription>
+   </gmd:contentInfo>
+   <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>WAF</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>unknown</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>FileGDB</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>unknown</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>Shapefile</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>unknown</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>Boundaries Map Server (ArcGIS)</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>10.71</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>Boundaries Map Server (OGC WMS)</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>1.3.0</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>Boundaries Feature Server (OGC WFS)</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>1.1.0</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>U.S. Geological Survey, National Geospatial Technical Operations Center</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>1-888-275-8747</gco:CharacterString>
+                                 </gmd:voice>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>1400 Independence Road</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Rolla</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>MO</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>65401</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>tnm_help@usgs.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:hoursOfService>
+                              <gco:CharacterString>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</gco:CharacterString>
+                           </gmd:hoursOfService>
+                           <gmd:contactInstructions>
+                              <gco:CharacterString>Please visit http://www.usgs.gov/ask/, call 1-888-ASK-USGS or email tnm_help@usgs.gov to contact us.</gco:CharacterString>
+                           </gmd:contactInstructions>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+               <!--CSDGM IMPORT MESSAGE: FGDC content not mapped to ISO. From Xpath: //distinfo/stdorder/resdesc--><gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:fees>
+                        <gco:CharacterString>None.</gco:CharacterString>
+                     </gmd:fees>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+               <gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:fees>
+                        <gco:CharacterString>None.</gco:CharacterString>
+                     </gmd:fees>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+               <gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:fees>
+                        <gco:CharacterString>None.</gco:CharacterString>
+                     </gmd:fees>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+               <gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:fees>
+                        <gco:CharacterString>NONE</gco:CharacterString>
+                     </gmd:fees>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+               <gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:fees>
+                        <gco:CharacterString>NONE</gco:CharacterString>
+                     </gmd:fees>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+               <gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:fees>
+                        <gco:CharacterString>NONE</gco:CharacterString>
+                     </gmd:fees>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource><!--CSDGM IMPORT ERROR: One of digtinfo/formvern or digtinfo/formdate are required--><gmd:linkage>
+                        <gmd:URL>https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/boundaries/nbd/</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:name>
+                        <gco:CharacterString>WAF</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Web Accessible Folder</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource><!--CSDGM IMPORT ERROR: One of digtinfo/formvern or digtinfo/formdate are required--><gmd:linkage>
+                        <gmd:URL>https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/GovtUnit/GDB/</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:name>
+                        <gco:CharacterString>FileGDB</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>ESRI File Geodatabase</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource><!--CSDGM IMPORT ERROR: One of digtinfo/formvern or digtinfo/formdate are required--><gmd:linkage>
+                        <gmd:URL>https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/GovtUnit/Shape/</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:name>
+                        <gco:CharacterString>Shapefile</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>ESRI Shapefile</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://carto.nationalmap.gov/arcgis/rest/services/govunits/MapServer</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>http://www.geoplatform.gov/spec/esri-map-rest</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>Boundaries Map Server (ArcGIS)</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>An ArcGIS Map Service for visualizing boundary features.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search">search</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://carto.nationalmap.gov/arcgis/services/govunits/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>http://opengis.net/spec/wms</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>Boundaries Map Server (OGC WMS)</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>An OGC WMS Map Service for visualizing boundary features.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search">search</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://carto.nationalmap.gov/wfs/services/govunits/MapServer/WFSServer?request=GetCapabilities&amp;service=WFS</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>http://opengis.net/spec/wfs</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>Boundaries Feature Server (OGC WFS)</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>An OGC WFS Service for accessing boundary features.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search">search</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Horizontal Positional Accuracy Report</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>This map product is compiled to meet National Map Accuracy Standards (NMAS). NMAS horizontal accuracy requires that at least 90 percent of well-defined points tested are within 0.02 inch of the true position. In this product, the projection line, grids, and orthoimage are believed to meet NMAS. Positional accuracy of the other data layers is less controllable because of diversity of data sources, and may not meet NMAS.</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="missing"/>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Vertical Positional Accuracy Report</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>Vertical accuracy is not applicable to this dataset.</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="missing"/>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_CompletenessCommission>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>Each layer is extracted from the USGS national geospatial databases.</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="unknown"/>
+            </gmd:DQ_CompletenessCommission>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_CompletenessOmission>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>Each layer is extracted from the USGS national geospatial databases.</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="unknown"/>
+            </gmd:DQ_CompletenessOmission>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_ConceptualConsistency>
+               <gmd:measureDescription>
+                  <gco:CharacterString>This product is a layered data datbase. The data is extracted and codified according to USGS standards.</gco:CharacterString>
+               </gmd:measureDescription>
+               <gmd:result gco:nilReason="unknown"/>
+            </gmd:DQ_ConceptualConsistency>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>This lineage was generated by the FGDC CSDGM to 19139 transformation</gco:CharacterString>
+               </gmd:statement>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>The data for this product are created as follows. All geospatial content is taken from national geospatial databases under the stewardship of USGS data programs. The NAIP imagery is provided by a seamless tile service that delivers image data at the resolution and quality of the source imagery. The vector data, including grids and collar information, are processed using ESRI ArcGIS software and exported. Map formatting is performed using a custom application, which includes post-processing to embed the metadata XML document.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime>
+                        <gco:DateTime>2012-11-05T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:source>
+                  <gmd:LI_Source id="id_Structures_-_Schools">
+                     <gmd:description>
+                        <gco:CharacterString>Source Contribution: ImageSource Type: digital data</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:scaleDenominator>
+                        <gmd:MD_RepresentativeFraction>
+                           <gmd:denominator>
+                              <gco:Integer>24000</gco:Integer>
+                           </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                     </gmd:scaleDenominator>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>Schools</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2014-04-01</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>State and Federal Partners</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName gco:nilReason="missing"/>
+                                 <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                       <gmd:onlineResource>
+                                          <gmd:CI_OnlineResource>
+                                             <gmd:linkage>
+                                                <gmd:URL>https://nationalmap.usgs.gov</gmd:URL>
+                                             </gmd:linkage>
+                                          </gmd:CI_OnlineResource>
+                                       </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                 </gmd:contactInfo>
+                                 <gmd:role gco:nilReason="inapplicable"/>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:presentationForm>
+                              <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+                           </gmd:presentationForm>
+                           <gmd:otherCitationDetails>
+                              <gco:CharacterString>The schools within this dataset are composed of Public elementary and secondary education in the US as defined and tracked by the National Center for Education Statistics (NCES), Common Core Dataset (CCD). Private schools in this dataset are composed of Private elementary and secondary education in the US as defined by the Private School Survey, NCES. The colleges and Universities are composed of postsecondary education facilities as defined by the Integrated Post Secondary Education System (IPEDS), NCES. Included are Doctoral and Research Universities, Masters Colleges and Universities, Baccalaureate Colleges, Associates Colleges, Theological seminaries, Medical schools and other health care professions, schools of engineering and technology, business and management, art, music, design, Law schools, Teachers colleges, Tribal colleges and other specialized institutions.</gco:CharacterString>
+                           </gmd:otherCitationDetails>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                     <gmd:sourceExtent>
+                        <gmd:EX_Extent>
+                           <gmd:temporalElement>
+                              <gmd:EX_TemporalExtent>
+                                 <gmd:extent>
+                                    <gml:TimePeriod gml:id="d1aAdJbHbB">
+                                       <gml:beginPosition>2008-01-01</gml:beginPosition>
+                                       <gml:endPosition>2014-02-18</gml:endPosition>
+                                    </gml:TimePeriod>
+                                 </gmd:extent>
+                              </gmd:EX_TemporalExtent>
+                           </gmd:temporalElement>
+                        </gmd:EX_Extent>
+                     </gmd:sourceExtent>
+                  </gmd:LI_Source>
+               </gmd:source>
+               <gmd:source>
+                  <gmd:LI_Source id="id_Geographic_Names">
+                     <gmd:description>
+                        <gco:CharacterString>Source Contribution: Geographic feature namesSource Type: digital data</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:scaleDenominator>
+                        <gmd:MD_RepresentativeFraction>
+                           <gmd:denominator>
+                              <gco:Integer>24000</gco:Integer>
+                           </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                     </gmd:scaleDenominator>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>Geographic Names Information System (GNIS)</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2014-04-01</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>U.S. Geological Survey, National Geospatial Technical Operations Center</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName gco:nilReason="missing"/>
+                                 <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                       <gmd:onlineResource>
+                                          <gmd:CI_OnlineResource>
+                                             <gmd:linkage>
+                                                <gmd:URL>https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names</gmd:URL>
+                                             </gmd:linkage>
+                                          </gmd:CI_OnlineResource>
+                                       </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                 </gmd:contactInfo>
+                                 <gmd:role gco:nilReason="inapplicable"/>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:presentationForm>
+                              <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+                           </gmd:presentationForm>
+                           <gmd:otherCitationDetails>
+                              <gco:CharacterString>The Geographic Names Information System (GNIS) is the Federal and national standard for geographic nomenclature. The U.S. Geological Survey developed the GNIS in support of the U.S. Board on Geographic Names as the official repository of domestic geographic names data, the official vehicle for geographic names use by all departments of the Federal Government, and the source for applying geographic names to Federal electronic and printed products.</gco:CharacterString>
+                           </gmd:otherCitationDetails>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                     <gmd:sourceExtent>
+                        <gmd:EX_Extent>
+                           <gmd:temporalElement>
+                              <gmd:EX_TemporalExtent>
+                                 <gmd:extent>
+                                    <gml:TimePeriod gml:id="d1aAdJdHbB">
+                                       <gml:beginPosition>2012-01-01</gml:beginPosition>
+                                       <gml:endPosition>2014-02-18</gml:endPosition>
+                                    </gml:TimePeriod>
+                                 </gmd:extent>
+                              </gmd:EX_TemporalExtent>
+                           </gmd:temporalElement>
+                        </gmd:EX_Extent>
+                     </gmd:sourceExtent>
+                  </gmd:LI_Source>
+               </gmd:source>
+               <gmd:source>
+                  <gmd:LI_Source id="id_U.S._-_Canada_International_Boundary">
+                     <gmd:description>
+                        <gco:CharacterString>Source Contribution: International Boundary between Canada and the United StatesSource Type: digital data</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>U.S.-Canada National Boundary</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2014-04-01</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>International Boundary Commission</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName gco:nilReason="missing"/>
+                                 <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                       <gmd:onlineResource>
+                                          <gmd:CI_OnlineResource>
+                                             <gmd:linkage>
+                                                <gmd:URL>http://www.internationalboundarycommission.org/</gmd:URL>
+                                             </gmd:linkage>
+                                          </gmd:CI_OnlineResource>
+                                       </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                 </gmd:contactInfo>
+                                 <gmd:role gco:nilReason="inapplicable"/>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName gco:nilReason="missing"/>
+                                 <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                       <gmd:onlineResource>
+                                          <gmd:CI_OnlineResource>
+                                             <gmd:linkage>
+                                                <gmd:URL>http://www.internationalboundarycommission.org/products.html#nad83</gmd:URL>
+                                             </gmd:linkage>
+                                          </gmd:CI_OnlineResource>
+                                       </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                 </gmd:contactInfo>
+                                 <gmd:role gco:nilReason="inapplicable"/>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:presentationForm>
+                              <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+                           </gmd:presentationForm>
+                           <gmd:otherCitationDetails>
+                              <gco:CharacterString>The international boundary dataset between Canada and the United States was provided by Maine Office of Geographic Information Systems (MEGIS), University of New Hampshire, Vermont Center for Geographic Information, Inc (VCGI). The dataset was collected from multiple source agencies such as the U.S. Geological Survey, U.S. Department of Commerce, Bureau of Census, Bureau of Parks and Lands, Coastal Island Registry (CIREG) and various state agencies. The data and attribution accuracy was tested by manual comparison of the source with hard copy printouts and/or symbolized display of digital files and corrected by each state GIS department for use at a scale not greater than 1:24,000.</gco:CharacterString>
+                           </gmd:otherCitationDetails>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                     <gmd:sourceExtent>
+                        <gmd:EX_Extent>
+                           <gmd:temporalElement>
+                              <gmd:EX_TemporalExtent>
+                                 <gmd:extent>
+                                    <gml:TimePeriod gml:id="d1aAdJfFbB">
+                                       <gml:beginPosition>2006-01-01</gml:beginPosition>
+                                       <gml:endPosition>2014-02-18</gml:endPosition>
+                                    </gml:TimePeriod>
+                                 </gmd:extent>
+                              </gmd:EX_TemporalExtent>
+                           </gmd:temporalElement>
+                        </gmd:EX_Extent>
+                     </gmd:sourceExtent>
+                  </gmd:LI_Source>
+               </gmd:source>
+               <gmd:source>
+                  <gmd:LI_Source id="id_U.S._-_Mexico_International_Boundary">
+                     <gmd:description>
+                        <gco:CharacterString>Source Contribution: International Boundary between Mexico and the United StatesSource Type: digital data</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>U.S.-Mexico National Boundary</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2014-04-01</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>U.S. Geological Survey, U.S. Department of Agriculture, and the Instituto Nacional de Estadistica y Geografia of Mexico.</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:presentationForm>
+                              <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+                           </gmd:presentationForm>
+                           <gmd:otherCitationDetails>
+                              <gco:CharacterString>The international boundary between Mexico and the United States, defined as a joint venture between the U.S. Department of Agriculture (USDA) and the Instituto Nacional de Estadistica y Geografia of Mexico (INEGI), resulted in an unofficial United States-Mexico boundary dataset that was further enhanced by the U.S. Geological Survey's Border Environmental Health Initiative (BEHI). With the data frame scale set to 1:5,000 in ArcMap, the center of the Rio Grande/Rio Bravo was digitized using the NAIP 2004 Imagery. In areas with dense stands of salt cedar (bounding box = UL -104.714 30.038, UR -104.664 30.037, LR -104.666 29.933, LL -104.717 29.934; NAD83), the center of the channel was difficult, and sometimes impossible, to easily determine. To determine the location of the boundary, the GIS analyst compared the location of the line in the INEGI 1:250K Limited feature class with the NAIP 2004 Imagery and adjusted the boundary to the image, thus, the delineation of the international boundary is less certain in these areas. The remaining part of the border was extracted from the INEGI 1:250K Limited feature class and appended to the line feature class created along the Rio Grande/Rio Bravo. The U.S. Geological Survey reviewed the original USDA data against 2007 NAIP imagery and further edited 9 line segments in the Rio Grande areas to conform to National Map Accuracy Standards.</gco:CharacterString>
+                           </gmd:otherCitationDetails>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                     <gmd:sourceExtent>
+                        <gmd:EX_Extent>
+                           <gmd:temporalElement>
+                              <gmd:EX_TemporalExtent>
+                                 <gmd:extent>
+                                    <gml:TimePeriod gml:id="d1aAdJhFbB">
+                                       <gml:beginPosition>1972-01-01</gml:beginPosition>
+                                       <gml:endPosition>2014-02-18</gml:endPosition>
+                                    </gml:TimePeriod>
+                                 </gmd:extent>
+                              </gmd:EX_TemporalExtent>
+                           </gmd:temporalElement>
+                        </gmd:EX_Extent>
+                     </gmd:sourceExtent>
+                  </gmd:LI_Source>
+               </gmd:source>
+               <gmd:source>
+                  <gmd:LI_Source id="id_USDA_Forest_Service_Boundaries">
+                     <gmd:description>
+                        <gco:CharacterString>Source Contribution: National Forest Service BoundariesSource Type: digital data</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:scaleDenominator>
+                        <gmd:MD_RepresentativeFraction>
+                           <gmd:denominator>
+                              <gco:Integer>24000</gco:Integer>
+                           </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                     </gmd:scaleDenominator>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>USDA Forest Service Boundary</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2014-04-01</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>U.S. Department of Agriculture (USDA) Forest Service - Washington Office Automated Lands Program (ALP).</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:presentationForm>
+                              <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+                           </gmd:presentationForm>
+                           <gmd:otherCitationDetails>
+                              <gco:CharacterString>The forest service boundaries defined by the USDA Forest Service encompassing the National Forest System (NFS) lands within the original proclaimed National Forests, along with lands added to the NFS which have taken on the status of 'reserved from the public domain' under the General Exchange Act. The following area types are included: National Forest, Experimental Area, Experimental Forest, Experimental Range, Land Utilization Project, National Grassland, Purchase Unit, and Special Management Area. The nationwide Proclaimed Forest dataset was created by the USDA Forest Service, Washington Office Automated Lands Program (ALP) staff from collected source data created by the Regional Offices. Only maps in USDA Forest Service areas will contain USDA Forest boundaries.</gco:CharacterString>
+                           </gmd:otherCitationDetails>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                     <gmd:sourceExtent>
+                        <gmd:EX_Extent>
+                           <gmd:temporalElement>
+                              <gmd:EX_TemporalExtent>
+                                 <gmd:extent>
+                                    <gml:TimePeriod gml:id="d1aAdJjHbB">
+                                       <gml:beginPosition>2009-01-01</gml:beginPosition>
+                                       <gml:endPosition>2014-02-18</gml:endPosition>
+                                    </gml:TimePeriod>
+                                 </gmd:extent>
+                              </gmd:EX_TemporalExtent>
+                           </gmd:temporalElement>
+                        </gmd:EX_Extent>
+                     </gmd:sourceExtent>
+                  </gmd:LI_Source>
+               </gmd:source>
+               <gmd:source>
+                  <gmd:LI_Source id="id_State_Boundaries">
+                     <gmd:description>
+                        <gco:CharacterString>Source Contribution: State and Equivalent BoundarySource Type: digital data</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>State and Equivalent Boundary</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2014-04-01</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>U.S. Census Bureau</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName gco:nilReason="missing"/>
+                                 <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                       <gmd:onlineResource>
+                                          <gmd:CI_OnlineResource>
+                                             <gmd:linkage>
+                                                <gmd:URL>https://www.census.gov/data.html</gmd:URL>
+                                             </gmd:linkage>
+                                          </gmd:CI_OnlineResource>
+                                       </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                 </gmd:contactInfo>
+                                 <gmd:role gco:nilReason="inapplicable"/>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName gco:nilReason="missing"/>
+                                 <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                       <gmd:onlineResource>
+                                          <gmd:CI_OnlineResource>
+                                             <gmd:linkage>
+                                                <gmd:URL>ftp://ftp2.census.gov/geo/tiger/TIGER2010/STATE/2010/</gmd:URL>
+                                             </gmd:linkage>
+                                          </gmd:CI_OnlineResource>
+                                       </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                 </gmd:contactInfo>
+                                 <gmd:role gco:nilReason="inapplicable"/>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:presentationForm>
+                              <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+                           </gmd:presentationForm>
+                           <gmd:otherCitationDetails>
+                              <gco:CharacterString>The Census Bureau collects boundaries from state and county governments through the Boundary and Annexation Survey (https://www.census.gov/), and publishes the results as TIGER files. The USGS uses the TIGER data without editing or alteration.</gco:CharacterString>
+                           </gmd:otherCitationDetails>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                     <gmd:sourceExtent>
+                        <gmd:EX_Extent>
+                           <gmd:temporalElement>
+                              <gmd:EX_TemporalExtent>
+                                 <gmd:extent>
+                                    <gml:TimePeriod gml:id="d1aAdJlFbB">
+                                       <gml:beginPosition>2010-01-01</gml:beginPosition>
+                                       <gml:endPosition>2014-02-18</gml:endPosition>
+                                    </gml:TimePeriod>
+                                 </gmd:extent>
+                              </gmd:EX_TemporalExtent>
+                           </gmd:temporalElement>
+                        </gmd:EX_Extent>
+                     </gmd:sourceExtent>
+                  </gmd:LI_Source>
+               </gmd:source>
+               <gmd:source>
+                  <gmd:LI_Source id="id_U.S._Department_of_Defense_Military_Installations">
+                     <gmd:description>
+                        <gco:CharacterString>Source Contribution: Boundary lines, installation namesSource Type: digital data</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:scaleDenominator>
+                        <gmd:MD_RepresentativeFraction>
+                           <gmd:denominator>
+                              <gco:Integer>24000</gco:Integer>
+                           </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                     </gmd:scaleDenominator>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>U.S. Military Installations, Ranges, and Training Areas</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2014-04-01</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>Office of the Deputy Under Secretary of Defense for Installations and Environment, Business Enterprise Integration Directorate</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:presentationForm>
+                              <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+                           </gmd:presentationForm>
+                           <gmd:otherCitationDetails>
+                              <gco:CharacterString>Authoritative locations of Department of Defense sites, commonly referred to as installations, ranges, and training areas. This dataset does not necessarily represent a comprehensive collection of all Department of Defense facilities, and only those in the fifty United States and US Territories were considered for inclusion. Some sites were not included because geospatial data were not available, or because it is a leased site.</gco:CharacterString>
+                           </gmd:otherCitationDetails>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                     <gmd:sourceExtent>
+                        <gmd:EX_Extent>
+                           <gmd:temporalElement>
+                              <gmd:EX_TemporalExtent>
+                                 <gmd:extent>
+                                    <gml:TimePeriod gml:id="d1aAdJnHbB">
+                                       <gml:beginPosition>2011-01-01</gml:beginPosition>
+                                       <gml:endPosition>2014-02-18</gml:endPosition>
+                                    </gml:TimePeriod>
+                                 </gmd:extent>
+                              </gmd:EX_TemporalExtent>
+                           </gmd:temporalElement>
+                        </gmd:EX_Extent>
+                     </gmd:sourceExtent>
+                  </gmd:LI_Source>
+               </gmd:source>
+               <gmd:source>
+                  <gmd:LI_Source id="id_Public_Land_Survey_System_-_BLM">
+                     <gmd:description>
+                        <gco:CharacterString>Source Contribution: Townships and ranges, sectionsSource Type: digital data</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:scaleDenominator>
+                        <gmd:MD_RepresentativeFraction>
+                           <gmd:denominator>
+                              <gco:Integer>24000</gco:Integer>
+                           </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                     </gmd:scaleDenominator>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>Public Land Survey System</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2014-04-01</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>U.S. Dept. of Interior, Bureau of Land Management, Division of Support Services, Branch of Information Resource Management</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName gco:nilReason="missing"/>
+                                 <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                       <gmd:onlineResource>
+                                          <gmd:CI_OnlineResource>
+                                             <gmd:linkage>
+                                                <gmd:URL>http://sdms.ak.blm.gov/sdms/data_protracted_grid_gis.html</gmd:URL>
+                                             </gmd:linkage>
+                                          </gmd:CI_OnlineResource>
+                                       </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                 </gmd:contactInfo>
+                                 <gmd:role gco:nilReason="inapplicable"/>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:presentationForm>
+                              <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+                           </gmd:presentationForm>
+                           <gmd:otherCitationDetails>
+                              <gco:CharacterString>Section boundaries were generated from geodetic latitude and longitude coordinate pairs as recorded on BLM's official protraction diagrams of the state of Alaska. The SDMS_PROD protraction tables were modified to include pro_pt83, section83, and township83. The latitude and longitude values in the pro_pt83 table were transformed from geographic NAD27 coordinates to geographic NAD83 coordinates using NADCON for Alaska. The Informix Section83 table is a spatially-enabled table that contains all of the protraction information for each of the 655,483 sections. Section shapes are stored as NAD83 geographic multipolygons. Each section was individually constructed from NAD83 geographic pro_pt (Protracted Point) table and is fully densified by including all township/section offset corners from adjacent township/sections.</gco:CharacterString>
+                           </gmd:otherCitationDetails>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                     <gmd:sourceExtent>
+                        <gmd:EX_Extent>
+                           <gmd:temporalElement>
+                              <gmd:EX_TemporalExtent>
+                                 <gmd:extent>
+                                    <gml:TimePeriod gml:id="d1aAdJpHbB">
+                                       <gml:beginPosition>2012-01-01</gml:beginPosition>
+                                       <gml:endPosition>2014-02-18</gml:endPosition>
+                                    </gml:TimePeriod>
+                                 </gmd:extent>
+                              </gmd:EX_TemporalExtent>
+                           </gmd:temporalElement>
+                        </gmd:EX_Extent>
+                     </gmd:sourceExtent>
+                  </gmd:LI_Source>
+               </gmd:source>
+               <gmd:source>
+                  <gmd:LI_Source id="id_Grids_and_Coordinate_Systems">
+                     <gmd:description>
+                        <gco:CharacterString>Source Contribution: 2.5-minute geographic ticks, U.S. National Grid, UTM grid, State Plane Coordinate System ticks.Source Type: raster data</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>Grids and Coordinate System</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2014-04-01</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>U.S. Geological Survey, National Geospatial Technical Operations Center</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:otherCitationDetails>
+                              <gco:CharacterString>U.S. National Grid, UTM grid, and State Plane Coordinate System values are displayed along the map projection. State Plane Coordinate System State and Zone values are abbreviated per Appendix A in the following document: tem, J.E., 1990, 'State Plane Coordinate System of 1983', NOAA Manual NOS NGS 5, available at http://www.ngs.noaa.gov/PUBS_LIB/ManualNOSNGS5.pdf.</gco:CharacterString>
+                           </gmd:otherCitationDetails>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                     <gmd:sourceExtent>
+                        <gmd:EX_Extent>
+                           <gmd:temporalElement>
+                              <gmd:EX_TemporalExtent>
+                                 <gmd:extent>
+                                    <gml:TimePeriod gml:id="d1aAdJrFbB">
+                                       <gml:beginPosition>2012-01-01</gml:beginPosition>
+                                       <gml:endPosition>2014-02-18</gml:endPosition>
+                                    </gml:TimePeriod>
+                                 </gmd:extent>
+                              </gmd:EX_TemporalExtent>
+                           </gmd:temporalElement>
+                        </gmd:EX_Extent>
+                     </gmd:sourceExtent>
+                  </gmd:LI_Source>
+               </gmd:source>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+   <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation>
+         <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown">unknown</gmd:MD_MaintenanceFrequencyCode>
+         </gmd:maintenanceAndUpdateFrequency>
+         <gmd:maintenanceNote>
+            <gco:CharacterString> This metadata was automatically generated from the FGDC Content Standard for Digital Geospatial Metadata standard (version FGDC-STD-001-1998) using the 2019-08-12T11:11:00 version of the FGDC CSDGM to ISO 19139 transform.</gco:CharacterString>
+         </gmd:maintenanceNote>
+         <gmd:contact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:organisationName>
+                  <gco:CharacterString>U.S. Geological Survey, National Geospatial Technical Operations Center</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>1-888-275-8747</gco:CharacterString>
+                           </gmd:voice>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>1400 Independence Road</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Rolla</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>MO</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>65401</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>tnm_help@usgs.gov</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:hoursOfService>
+                        <gco:CharacterString>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</gco:CharacterString>
+                     </gmd:hoursOfService>
+                     <gmd:contactInstructions>
+                        <gco:CharacterString>Please visit http://www.usgs.gov/ask/, call 1-888-ASK-USGS or email tnm_help@usgs.gov to contact us.</gco:CharacterString>
+                     </gmd:contactInstructions>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:contact>
+      </gmd:MD_MaintenanceInformation>
+   </gmd:metadataMaintenance>
+</gmd:MD_Metadata>

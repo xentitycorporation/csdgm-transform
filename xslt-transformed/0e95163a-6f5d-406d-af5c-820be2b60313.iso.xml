@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?><!--+########################################################################+--><!--+    This file was generated using an FGDC CSDGM to ISO19139 Transform   +--><!--+                                                                        +--><!--+ This is accomplished using an XML Style sheet that transforms metadata +--><!--+ conforming to the CSDGM to the ISO 19139.                              +--><!--#########################################################################+-->
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:saxon="http://saxon.sf.net/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd  http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd">
+   <gmd:fileIdentifier>
+      <gco:CharacterString>0e95163a-6f5d-406d-af5c-820be2b60313-csdgm</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+      <gco:CharacterString>eng; USA</gco:CharacterString>
+   </gmd:language>
+   <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+   <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName>
+            <gco:CharacterString>Josh Krochmal</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:organisationName>
+            <gco:CharacterString>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName>
+            <gco:CharacterString>EDG Steward</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>202.564.8753</gco:CharacterString>
+                     </gmd:voice>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>1200 Pennsylvania Avenue, N.W.</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Washington</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>DC</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>20460</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>krochmal.josh@epa.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:contactInstructions>
+                  <gco:CharacterString>https://www.epa.gov/aboutepa/</gco:CharacterString>
+               </gmd:contactInstructions>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:dateStamp>
+      <gco:Date>2020-10-22</gco:Date>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+      <gco:CharacterString>ISO 19115:2003/Cor.1:2006(E)</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:spatialRepresentationInfo>
+      <gmd:MD_VectorSpatialRepresentation>
+         <gmd:geometricObjects>
+            <gmd:MD_GeometricObjects>
+               <gmd:geometricObjectType>
+                  <gmd:MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="complex">complex</gmd:MD_GeometricObjectTypeCode>
+               </gmd:geometricObjectType>
+               <gmd:geometricObjectCount>
+                  <gco:Integer>1270281</gco:Integer>
+               </gmd:geometricObjectCount>
+            </gmd:MD_GeometricObjects>
+         </gmd:geometricObjects>
+      </gmd:MD_VectorSpatialRepresentation>
+   </gmd:spatialRepresentationInfo>
+   <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>1:6000 Scale (6K) Quadrangles developed by USEPA to Support Reconnaissance, and Tactical and Strategic Planning for Emergency Responses and Homeland Security Events (Region 5 Extract)</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2006-01-04</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:edition>
+                  <gco:CharacterString>Draft</gco:CharacterString>
+               </gmd:edition>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>U.S. EPA Office of Land and Emergency Management (OLEM) - Office of Emergency Management (OEM)</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:city>
+                                    <gco:CharacterString>Washington</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString> DC</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>US Environmental Protection Agency</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>United States Environmental Protection Agency, Office of Land and Emergency Management (OLEM), Office of Emergency Management (OEM)</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName gco:nilReason="missing"/>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>https://edg.epa.gov/data/Public/OLEM/6kquadr5.zip</gmd:URL>
+                                 </gmd:linkage>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role gco:nilReason="inapplicable"/>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:presentationForm>
+                  <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+               </gmd:presentationForm>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>Reference quads for emergency response reconnaissance developed for use by the US Environmental Protection Agency. Grid cells are based on densification of the USGS Quarterquad (1:12,000 scale or 12K) grids for the continental United States, Alaska, Hawaii and Puerto Rico and are roughly equivalent to 1:6000 scale (6K) quadrangles approximately 2 miles long on each side. Note: This file is a regional subset that has been extracted from a national file 6K quad file. Each regional extract includes a 20 mile buffer of tiles around each EPA Region. To access the national layer (size is greater than 80MB), go to https://edg.epa.gov/data/Public/OLEM/6kquads_epa.zip.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose>
+            <gco:CharacterString>To provide a base reference grid system for the entire United States as a pre-staged resource for tracking and planning emergency response activities such as reconnaisance of debris after natural disasters, oil spill cleanups and planning of monitoring activities.</gco:CharacterString>
+         </gmd:purpose>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Josh Krochmal</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName>
+                  <gco:CharacterString>EDG Steward</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>202.564.8753</gco:CharacterString>
+                           </gmd:voice>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>1200 Pennsylvania Avenue, N.W.</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Washington</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>DC</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>20460</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>krochmal.josh@epa.gov</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:contactInstructions>
+                        <gco:CharacterString>https://www.epa.gov/aboutepa/</gco:CharacterString>
+                     </gmd:contactInstructions>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Disaster</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Response</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Spills</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>EPA GIS Keyword Thesaurus</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>emergency response</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>homeland security</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>reference grid</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>None</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>User</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>MN</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>WI</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MI</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>IL</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>IN</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>OH</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>None</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_Constraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>https://edg.epa.gov/EPA_Data_License.html</gco:CharacterString>
+               </gmd:useLimitation>
+            </gmd:MD_Constraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:useConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Use Constraints: None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:accessConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Access Constraints: None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_SecurityConstraints>
+               <gmd:classification>
+                  <gmd:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="PUBLIC">PUBLIC</gmd:MD_ClassificationCode>
+               </gmd:classification>
+               <gmd:classificationSystem>
+                  <gco:CharacterString>http://project-open-data.github.io/schema/#accessLevel</gco:CharacterString>
+               </gmd:classificationSystem>
+               <gmd:handlingDescription>
+                  <gco:CharacterString>Standard Technical Controls</gco:CharacterString>
+               </gmd:handlingDescription>
+            </gmd:MD_SecurityConstraints>
+         </gmd:resourceConstraints>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation>
+               <gmd:aggregateDataSetName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>1:6000 Scale (6K) Quadrangles developed by USEPA to Support Reconnaissance, and Tactical and Strategic Planning for Emergency Responses and Homeland Security Events (Downloadable Data)</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2014-01-01</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>United States Environmental Protection Agency, Office of Land and Emergency Management (OLEM), Office of Emergency Management (OEM)</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName gco:nilReason="missing"/>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>https://edg.epa.gov/metadata/catalog/search/resource/details.page?uuid=%7B722451B3-3B3C-41FD-A081-B307F47C47B3%7D</gmd:URL>
+                                       </gmd:linkage>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role gco:nilReason="inapplicable"/>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                  </gmd:CI_Citation>
+               </gmd:aggregateDataSetName>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+         </gmd:spatialRepresentationType>
+         <gmd:language>
+            <gco:CharacterString>eng; USA</gco:CharacterString>
+         </gmd:language>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <!--CSDGM IMPORT ERROR: Input contained an invalid ISO 19115 Topic Category [007] generating a regular keyword--><gmd:extent>
+            <gmd:EX_Extent id="boundingExtent">
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-97.531250</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-80.187500</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>36.687500</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>49.656250</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimeInstant gml:id="d1aAdFdB">
+                           <gml:timePosition>2006-08-01</gml:timePosition>
+                        </gml:TimeInstant>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>Developed by Weston Solutions for the United States Environmental Protection Agency. During an EPA response, 6K quad layer should be related to a look-up table (see example table in MS Access file included in the download file) tblMASTER_STATE_GRID_LU_4SDE100406) to update and map response status efforts. The Lookup table to be used in ArcSDE to relate many 6k quad grid cells to different geographies (State and County). 24k grids for Alaska and non-CONUS areas also included because their shapes boundaries do not exactly match with child 6k cells. Data elements of the lookup table: REC_NUM Number unique id - comes from unique record number created in parent grid layers. Initially named as 6k_ref, then Ref_6k Ref_ID Text Created by concatenating [STATE]-[Rec_Num]. Initially was named as Ref_6ks STATE Text State Name - there can be multiple records with same rec_num but different state name STATUS Text Current Grid Cell Status field. Default value is 'NA'. Other possible values are 'Open', 'Closed' and 'Active' LOCKSTATUS Text Indicates a locked value for record. Possible valuesare 'NA'(default), 'Open', 'Closed' and 'Active' LOCK_CMNT Text When LocakStatus field value is not NA then, a comment in this field indicates who implemented lockstatus, and why. QQQUAD_REF Number Value from Rec_num field of '24ksubquadbound.shp' or orginal SubQuad layer which was created only for gulf coast hurricane prone areas. QQQUADREFT Text Ref_ID value from '24ksubquadbound.shp' CONUS Yes/No identifies grid cells which will be part of final 6k quad layer but Continental US areas only SEL_12K Yes/No Identifies all cells that intersect with 12k layer. Initially named as 12k_sel</gco:CharacterString>
+         </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:contentInfo><!-- translated from eainfo to MD_FeatureCatalogueDescription--><gmd:MD_FeatureCatalogueDescription>
+         <gmd:includedWithDataset>
+            <gco:Boolean>false</gco:Boolean>
+         </gmd:includedWithDataset>
+         <gmd:featureCatalogueCitation gco:nilReason="unknown">
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Entity and Attribute Information</gco:CharacterString>
+               </gmd:title>
+               <gmd:date gco:nilReason="unknown"/>
+               <gmd:otherCitationDetails>
+                  <gco:CharacterString>Entity and Attribute Overview: Fields include unique identifiers and labeling information for use in linking to EPA response data and for referring to other spatial identifiers such as USGS Quarterquad identification, State, Zip Code and others. Entity and Attribute Detail Citation: Field Definitions for 6k Quad Layer: Field Name Type Length Description QQQUAD_REF Number 16 Value from Rec_num field of '24ksubquadbound.shp' or orginal SubQuad layer which was created only for gulf coast hurricane prone areas. QQQUADREFT Text 16 Ref_ID value from '24ksubquadbound.shp' FINAL_SEL Yes/No 1 Identifies grid cells which will be part of final 6k quad layer. CONUS Yes/No 1 identifies grid cells which will be part of final 6k quad layer but Continental US areas only REF_6K Number 16 Original unique id field. Identical to final unique id field, REC_NUM SEL_12K Yes/No 1 Identifies all cells that intersect with 12k (3.5 minute) quad layer. Initially named as 12k_sel REC_NUM Number 16 unique id - comes from unique record number created in parent grid layers. Initially named as 6k_ref, then Ref_6k Q24K_NAME Text 100 Name of parent 24k polygon - If available and if exists Q24K_ID Text 100 ID of parent 24k polygon -If available and if exists Q12K_ID Text 100 ID of parent 12k polygon - If available and if exists Q12K_NAME Text 100 Name of parent 12k polygon - If available and if exists SRCTHMNAME Text 100 name of parent GRID data shapefile. Current layer includes data from three shapefiles - Quads6k_us20060911.shp, Pacific_grid1sel.shp, and Pacific_grid2sel.shp NATGRID Text 254 US National Grid Coordinate of grid cell centerpoint LONG Number 16 Longitude in Decimal Degrees of center point of Grid Cell LONG_POS Number 16 Absolute value of longitude center point CTR_ZIP Text 10 Zip code of center point of grid cell CTR_ST Text 16 State abbreviation code for US State, commonwealth or territory either at center of grid cell or within related water features.</gco:CharacterString>
+               </gmd:otherCitationDetails>
+            </gmd:CI_Citation>
+         </gmd:featureCatalogueCitation>
+      </gmd:MD_FeatureCatalogueDescription>
+   </gmd:contentInfo>
+   <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Josh Krochmal</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>EDG Steward</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>202.564.8753</gco:CharacterString>
+                                 </gmd:voice>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>1200 Pennsylvania Avenue, N.W.</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Washington</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>DC</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>20460</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>krochmal.josh@epa.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:contactInstructions>
+                              <gco:CharacterString>https://www.epa.gov/aboutepa/</gco:CharacterString>
+                           </gmd:contactInstructions>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+               <!--CSDGM IMPORT MESSAGE: FGDC content not mapped to ISO. From Xpath: //distinfo/stdorder/resdesc--></gmd:MD_Distributor>
+         </gmd:distributor>
+      </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Horizontal Positional Accuracy Report</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="missing"/>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_CompletenessCommission>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>Features represented have not been tested for completeness</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="unknown"/>
+            </gmd:DQ_CompletenessCommission>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_CompletenessOmission>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>Features represented have not been tested for completeness</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="unknown"/>
+            </gmd:DQ_CompletenessOmission>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_ConceptualConsistency>
+               <gmd:measureDescription>
+                  <gco:CharacterString>Tests for integrity have not been performed.</gco:CharacterString>
+               </gmd:measureDescription>
+               <gmd:result gco:nilReason="unknown"/>
+            </gmd:DQ_ConceptualConsistency>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>This lineage was generated by the FGDC CSDGM to 19139 transformation</gco:CharacterString>
+               </gmd:statement>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>quads6k_us.shp layer is extracted from a base layer 'vectorgrid.shp'. Vectorgrid layer extents are as follows: MinX: -179 MaxX: -64 MinY: 17 MaxY: 72 These extents cover all CONUS, Alaska, Hawaii, and Puerto Rico. Total number of records in vectorgrid.shp is approx. 6.5 million. Grid Cell Height - .03125 degrees Grid Cell width - .03125 degrees quads6k_us.shp: This layer is slightly different from 12k or 24k quad layers. It is created strictly as 1/4th scale of a 24k quad grid, which is 1/4th of 7.5 Degrees X 7.5 Degrees i.e. 0.03125 degrees X 0.03125 degrees. Actual Quad map differ from strictly square grid shape, in some areas outside of CONUS. Field Definitions for 6k Quad Layer: Label (Text) - Label value (Unique). Sel_12k (T/F): Identifies all cells that intersect with 12k layer. Initially named as 12k_sel QQQuad_ref (Number): Value from Rec_num field of '24ksubquadbound.shp' or orginal SubQuad layer which was created only for gulf coast hurricane prone areas. QQQuadRefT (Text): Ref_ID value from '24ksubquadbound.shp' Final_sel (T/F): identifies grid cells which will be part of final 6k quad layer. Conus (T/F): identifies grid cells which will be part of final 6k quad layer but Continental US areas only Rec_num (Number): Unique id for each 6k tile. Initially named as 6k_ref, then Ref_6k Link table tblMASTER_STATE_GRID_LU_4SDE - this is a lookup table for identifying all 6k grid tiles that belong to each single state. This table has many duplicate records with same value for ref_num. However ref_id value is unique. State: State that each tile belongs to. This field is found in link table Ref_ID (string): a concatenated string id [State]-[Ref_6k]. Initially named as Ref_6ks</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime>
+                        <gco:DateTime>2006-08-01T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName>
+                              <gco:CharacterString>Josh Krochmal</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>EDG Steward</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>202.564.8753</gco:CharacterString>
+                                       </gmd:voice>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>1200 Pennsylvania Avenue, N.W.</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Washington</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>DC</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>20460</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>krochmal.josh@epa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:contactInstructions>
+                                    <gco:CharacterString>https://www.epa.gov/aboutepa/</gco:CharacterString>
+                                 </gmd:contactInstructions>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Metadata imported.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime>
+                        <gco:DateTime>2006-11-29T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName>
+                              <gco:CharacterString>Josh Krochmal</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>EDG Steward</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>202.564.8753</gco:CharacterString>
+                                       </gmd:voice>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>1200 Pennsylvania Avenue, N.W.</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Washington</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>DC</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>20460</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>krochmal.josh@epa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:contactInstructions>
+                                    <gco:CharacterString>https://www.epa.gov/aboutepa/</gco:CharacterString>
+                                 </gmd:contactInstructions>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Dataset copied.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime>
+                        <gco:DateTime>2007-01-04T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName>
+                              <gco:CharacterString>Josh Krochmal</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>EDG Steward</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>202.564.8753</gco:CharacterString>
+                                       </gmd:voice>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>1200 Pennsylvania Avenue, N.W.</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Washington</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>DC</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>20460</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>krochmal.josh@epa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:contactInstructions>
+                                    <gco:CharacterString>https://www.epa.gov/aboutepa/</gco:CharacterString>
+                                 </gmd:contactInstructions>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Assigned state abbreviation codes for grid cells whose centers that fell in coastal waters, large inland waters and for U.S. commonwealths, territories and associated areas such as Puerto Rico, US Virgin Islands and pacific islands and territories.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime>
+                        <gco:DateTime>2006-01-02T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName>
+                              <gco:CharacterString>Josh Krochmal</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>EDG Steward</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>202.564.8753</gco:CharacterString>
+                                       </gmd:voice>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>1200 Pennsylvania Avenue, N.W.</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Washington</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>DC</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>20460</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>krochmal.josh@epa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:contactInstructions>
+                                    <gco:CharacterString>https://www.epa.gov/aboutepa/</gco:CharacterString>
+                                 </gmd:contactInstructions>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+   <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation>
+         <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown">unknown</gmd:MD_MaintenanceFrequencyCode>
+         </gmd:maintenanceAndUpdateFrequency>
+         <gmd:dateOfNextUpdate>
+            <gco:Date>2020-07-20</gco:Date>
+         </gmd:dateOfNextUpdate>
+         <gmd:maintenanceNote>
+            <gco:CharacterString> This metadata was automatically generated from the FGDC Content Standards for Digital Geospatial Metadata standard (version FGDC-STD-001-1998) using the 2019-08-12T11:11:00 version of the FGDC CSDGM to ISO 19139 transform.</gco:CharacterString>
+         </gmd:maintenanceNote>
+         <gmd:contact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Josh Krochmal</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName>
+                  <gco:CharacterString>EDG Steward</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>202.564.8753</gco:CharacterString>
+                           </gmd:voice>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>1200 Pennsylvania Avenue, N.W.</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Washington</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>DC</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>20460</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>krochmal.josh@epa.gov</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:contactInstructions>
+                        <gco:CharacterString>https://www.epa.gov/aboutepa/</gco:CharacterString>
+                     </gmd:contactInstructions>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:contact>
+      </gmd:MD_MaintenanceInformation>
+   </gmd:metadataMaintenance>
+</gmd:MD_Metadata>

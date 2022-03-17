@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <Esri>
+    <PublishedDocID>{1BB5C1B2-4993-45B5-82BE-B4437C799B42}</PublishedDocID>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISProfile>NAP</ArcGISProfile>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>US EPA Region 9 GIS Center</origin>
+        <pubdate>19990701</pubdate>
+        <title>Sole Source Aquifers, Region 9, 2008, US EPA Region 9</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>San Francisco, CA</pubplace>
+          <publish>U.S. Environmental Protection Agency, Region 9</publish>
+        </pubinfo>
+        <onlink/>
+        <onlink>http://www.epa.gov/geospatial/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>There are 7 polygons representing 6 individual sole source aquifer boundaries and one streamflow source area in California, Arizona, and Nevada. Various efforts were combined to create the final product, which represents the Federal Register boundary description. Sole source aquifers are jurisdictional areas, so their boundaries are sometimes political rather than natural. A sole source aquifer is an area for which the ground water has been determined to be the only source of drinking water. Projects which receive federal grants or loan guarantees that are found to be within a sole source aquifer are reviewed to assess whether they have the potential to contaminate the ground water. If this potential exists the sole source aquifer program can deny federal funding until the project is modified.</abstract>
+      <purpose>This Data set is specifically designed for use with ArcGIS and related products. Data can be used for mapping.</purpose>
+      <supplinf>Procedures_Used:  The source coverage was a preexisting coverage of sole source aquifer polygons. It had no metadata, but investigative research was able to turn up the sources of some of the polygon boundaries. Some of these polygons were used and some were discarded. Capo-Cottonwood, Santa Margarita - Scoots Valley, and Nacho-Bis bee: 1) The origin of the data was researched. The original maps with the aquifer boundaries drawn on them were located for the Capo-Cottonwood, Santa Margarita - Scoots Valley, and Nacho-Bis bee sole source aquifers. In two of these cases the accuracy of the digitizing and the original boundary lines drawn on 1:62,500 typo maps were judged to be acceptable by GIS staff and an EPA Hydro geologist. The Capo-Cottonwood aquifer polygon showed signs of poor digitizing accuracy. The Federal Register description of this aquifer said that the aquifer boundary was mostly concurrent with a set of drainage basin boundaries, so a basins coverages was used to create a new polygon, along with the US-Mexico border extracted from a state coverage to form the jurisdictional southern boundary of the aquifer. Octile-Coyote Wells: 2) An original map was also located for the Octile-Coyote Wells aquifer which had not yet been included in the coverage. However the map was at 1:250,000 scale and the boundary line was drawn with a magic marker, so digitizing was ruled out as a method for creating the polygon. The Federal Register description was used to identify existing coverages which could be used to create the boundary. A ridge line was taken from a basins coverage, the US-Mexico border from a state coverage, and a fault from a coverage of California faults. (See for coverage details.) The Elsinore Fault which is supposed to form the eastern boundary did not quite complete the polygon, so some small portions were drawn freehand to match the shape on the 1:250,000 map. The result was approved by an EPA Hydro geologist. Upper Santa Cruz &amp; Aura Basin: 3) The Upper Santa Cruz &amp; Aura Basin sole source aquifer polygon closely matched a photo copy of the map which the EPA had been using to define the boundaries of this sole source aquifer. The polygon was examined and accepted by the EPA Hydro geologist even though its source could not be positively identified. Fresno: 4)The Fresno sole source aquifer boundary description includes rivers, a slough bypass, a canal, county boundaries, basin boundaries, and a few sections where the description is vague. It also includes a stream flow source polygon in addition to the sole source aquifer polygon. The stream flow polygon was not included in the original sole source aquifer application, but all the water from this area flows into the Fresno Sole Source Aquifer, so the EPA judged that this area had to be regulated as well. The appropriate stream, basin, and county coverages were used to match the Federal Register description, and EPA Hydro geologists were consulted on how best to close the gaps in the polygon. A 1:K road coverage was used to define the boundary where it cut through the town of Reedly. February 2002: The U.S. EPA Region 9 Hydro geologist Hillary Hesiod identified the need to adjust the western boundary of the polygon from the "Fresno Slough" to the East toward the "James Bypass" and "Fish Slough" waterways. The new arc was manually digitized in Arc view using the 1:24,000 DRG and saved as a shape file. The shape file was converted to a Arc info coverage using the SHAPEARC command. The new coverage was reviewed in Arc edit and the node errors were corrected. The coverage was built for arcs. The new arc coverage was joined to the source coverage with ArcEdit using the get command. The old arc was selected and deleted. Source attributes were added to the .aat file for the new arc. Revisions This coverage was last updated in February 2002. Fresno Aquifer boundary was revised on February 4, 2002. Campo-Cottonwood Aquifer boundary was revised on Nov 15, 1999. Reviews_Applied_to_Data All arcs were reviewed by a Hydrogeologist (Hillary Hecht) from the U.S. EPA Region 9 Water Division. Related_Spatial_and_Tabular_Data_Sets References_Cited Fresno Sole Source Aquifer: Federal Register / Vol. 44, No. 176 / Monday, September 10, 1979 / Notices Upper Santa Cruz &amp; Avra Basin Sole Source Aquifer: Federal Register / Vol. 49, No. 16 / Tuesday, January 24, 1984 / Notices Santa Margarita Sole Source Aquifer, Scotts Valley: Federal Register / Vol. 50, No. 9 /Monday, January 14, 1985 / Notices Bisbee-Naco Sole Source Aquifer: Federal Register / Vol. 53, No. 190 / Friday, September 30, 1988 / Notices Campo/Cottonwood Creek Sole Source Aquifer: Federal Register / Vol. 58, No. 102 / Friday, May 28, 1993 / Notices Ocotillo-Coyote Wells Sole Source Aquifer: Federal Register / Vol. 61, No. 176 / Tuesday, September 10, 1996 / Notices Petition for Sole Source Aquifer Designation, Alluvial Groundwater Aquifer, Ocotillo-Coyote Wells Basin, California, May 2, 1994</supplinf>
+    </descript>
+    <timeperd>
+      <current>Publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20081209</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-160.242406</westbc>
+        <eastbc>-109.045615</eastbc>
+        <northbc>42.002192</northbc>
+        <southbc>18.921786</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekt>None</placekt>
+        <placekey>California</placekey>
+        <placekey>Nevada</placekey>
+        <placekey>Region 9</placekey>
+      </place>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>EPA GIS Keyword Thesaurus</themekt>
+        <themekey>Ground Water</themekey>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+    <secinfo>
+      <secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst/>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Tests for integrity have not been performed.</logic>
+    <complete>Features represented have not been tested for completeness</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>20081209</procdate>
+        <procdesc>Dataset copied</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20090813</procdate>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>7</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000001</latres>
+        <longres>0.000001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 1980</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>R9_sole_source_aquifers</enttypl>
+        <enttypd>Sole Source Aquifers in Region 9</enttypd>
+        <enttypds>EPA</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Name of aquifer</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <udom>Text name.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape.len</attrlabl>
+        <attrdef>Length</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape.area</attrlabl>
+        <attrdef>Area</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>NAME:  Name of Sole Source Aquifer = Name) The attribute table contains information about each sole source aquifer. Name: Name of sole source aquifer. 2) The is also information about the arcs which form the perimeter of the sole source aquifers. Source: Name and path for the coverage from which the arc was extracted or the method used to generate the arc. Source field values 100K County boundaries: County coverage of California. This was extracted from TIGER county boundaries. 1:100,000 scale. 100K Streams and lakes coverage: This coverage is a hydrography layer which consists of flowing waters (rivers and streams), standing waters (lakes and ponds), and wetlands--both natural and manmade. This coverage originated from USGS Digital Line Graph (DLG) data (1:100,000), but has been edited by Teale for edge matching and by the EPA to add additional attribute data. Center line of 100k lake or double line stream: These arcs represent the approximate center line of double line streams and lakes. They were digitized by EPA Region 9 GIS Center staff from the 100K streams and lakes coverage described above. Digitized from 1:24K topo: These arcs were digitized from sole source aquifer boundaries drawn on 1:24,000 USGS Quad maps by an EPA Hydrogeologist. Digitized from 1:62500 topo: These arcs were digitized from sole source aquifer boundaries drawn on 1:62,500 USGS Quad maps by an EPA Hydrogeologist. Drainage basins coverage: The basins coverage originates from The California Watershed Map (CALWATER version 2.0). The ARC/INFO coverage of CALWATER 2.0 is distributed by the California Department of Fish and Game (DFG), is called "calw20f" and is dated May 9, 1997 (1997.05.09) for its boundary data content. CALWATER boundaries were digitized on a 1:24,000-scale base. Fault lines coverage: This coverage has no metadata. Arcs from this coverages were used because they corresponded with the aquifer boundary line drawn for one aquifer on a 1:250,000 topo map by an EPA Hydrogeologist. The boundary description for this aquifer describes the eastern boundary as a fault. Although the origin of this data is unknown, for the purposes of this coverage its accuracy can be considered to be at least equivalent to interpolation from a 1:250,000 map. Actual scale of data may be larger. Interpolation-Map: These arcs were drawn by EPA Region 9 GIS Center staff to connect boundary features to complete aquifer polygons. Each of these arcs were reviewed and approved by an EPA Hydrogeologist. TIGER 100K Roads coverage: 1992 US Census TIGER Line files Road coverage of Fresno county California. Scale is 1:100,000. Unknown: These arcs, from the original ssource coverage have unknown origins. They have been reviewed and approved by an EPA Hydrogeologist.</eaover>
+      <eadetcit>US EPA Region 9</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>Live Data and Maps</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>(415) 972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20210806</metd>
+    <metfrd>20110620</metfrd>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <dataIdInfo>
+    <idPurp>This Data set is specifically designed for use with ArcGIS and related products. Data can be used for mapping.</idPurp>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;There are 7 polygons representing 6 individual sole source aquifer boundaries and one streamflow source area in California, Arizona, and Nevada. Various efforts were combined to create the final product, which represents the Federal Register boundary description. Sole source aquifers are jurisdictional areas, so their boundaries are sometimes political rather than natural. A sole source aquifer is an area for which the ground water has been determined to be the only source of drinking water. Projects which receive federal grants or loan guarantees that are found to be within a sole source aquifer are reviewed to assess whether they have the potential to contaminate the ground water. If this potential exists the sole source aquifer program can deny federal funding until the project is modified.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idCitation>
+      <resTitle>Sole Source Aquifers, Region 9, 2008, US EPA Region 9</resTitle>
+    </idCitation>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="009">Unrestricted License</RestrictCd>
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="">Empty</RestrictCd>
+        </useConsts>
+        <othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+        <useLimit>EPA Public Domain License</useLimit>
+      </LegConsts>
+    </resConst>
+  </dataIdInfo>
+  <mdDateSt>20170925</mdDateSt>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdFileID>1BB5C1B2-4993-45B5-82BE-B4437C799B42</mdFileID>
+  <mdLang>
+    <languageCode value="eng"/>
+    <countryCode value="US"/>
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004"/>
+  </mdChar>
+</metadata>

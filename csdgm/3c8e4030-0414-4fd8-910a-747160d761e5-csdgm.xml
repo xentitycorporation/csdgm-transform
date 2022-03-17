@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <PublishedDocID>{52CDB9B6-0BE2-4DE4-A7F2-34842C4FED1F}</PublishedDocID>
+    <ModDate>20170920</ModDate>
+    <ModTime>10232500</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISProfile>NAP</ArcGISProfile>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>US Environmental Protection Agency</origin>
+        <pubdate>20150225</pubdate>
+        <title>Carbon Monoxide Air Quality Monitoring Sites, US EPA Region 9, 2013, US EPA Region 9</title>
+        <pubinfo>
+          <pubplace>San Francisco, CA</pubplace>
+          <publish>U.S. Environmental Protection Agency, Region 9</publish>
+        </pubinfo>
+        <onlink>EPARegion9designatedareasand2012_2014designvalues.zip</onlink>
+        <onlink>https://gispub.epa.gov/arcgis/rest/services/Region9/ADMA_2015_AQS_Design_Value/MapServer/33</onlink>
+        <onlink>https://www3.epa.gov/region09/air/maps/index.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Point feature class showing air quality monitoring site locations which measure carbon monoxide, including 2011-2013 design value conecntrations.</abstract>
+      <purpose>For general air quality information.</purpose>
+    </descript>
+    <timeperd>
+      <current>Publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150225</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-160.242406</westbc>
+        <eastbc>-109.045615</eastbc>
+        <northbc>42.002192</northbc>
+        <southbc>18.921786</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>EPA GIS Keyword Thesaurus</themekt>
+        <themekey>Air</themekey>
+        <themekey>Exposure</themekey>
+        <themekey>Health</themekey>
+        <themekey>Monitoring</themekey>
+        <themekey>Regulatory</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arizona</placekey>
+        <placekey>California</placekey>
+        <placekey>Hawaii</placekey>
+        <placekey>Nevada</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+    <secinfo>
+      <secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Fletcher Clover</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>AIR Division</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>(415) 972-3991</cntvoice>
+        <cntemail>clover.fletcher@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region9/air/maps/</cntinst>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Data have been reviewed by EPA Region 9 Air Quality Analysis Office for validity.</logic>
+    <complete>Data are complete for 2013.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <typesrc>online</typesrc>
+        <srccitea>US EPA</srccitea>
+        <srccontr>US EPA</srccontr>
+        <srctime>
+          <srccurr>publication date</srccurr>
+          <timeinfo>
+            <rngdates>
+              <begdate>2010</begdate>
+              <enddate>2012</enddate>
+            </rngdates>
+          </timeinfo>
+        </srctime>
+        <srccite>
+          <citeinfo>
+            <origin>http://www.epa.gov/airtrends/values.html</origin>
+            <pubdate>20130820</pubdate>
+            <title>Design Values</title>
+            <edition>2012</edition>
+            <serinfo>
+              <sername>Carbon Monoxide</sername>
+              <issue>2012</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>U.S. EPA Office of Air and Radiation (OAR) - Office of Air Quality Planning and Standards (OAQPS)</publish>
+            </pubinfo>
+            <onlink>http://www.epa.gov/airtrends/values.html</onlink>
+            <onlink>http://www.epa.gov/airtrends/index.html</onlink>
+          </citeinfo>
+        </srccite>
+      </srcinfo>
+      <procstep>
+        <procdate>20130915</procdate>
+        <procdesc>Data imported to point feature class from Excel carbon monoxide spreadsheet, downlaoded from http://www.epa.gov/airtrends/values.html</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20131017</procdate>
+        <procdesc>Metadata added</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 1980</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CO_sites</enttypl>
+        <enttypd>Air quality monitoring sites in EPA Region 9 which monitored carbon monoxide during the 2010-2012 time period.</enttypd>
+        <enttypds>US EPA</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State_FIPS</attrlabl>
+        <attrdef>Federal Information Processing Standards (FIPS) two character numeric code for a state.</attrdef>
+        <attrdefs>US Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>04</edomv>
+            <edomvd>Arizona</edomvd>
+            <edomvds>US Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>06</edomv>
+            <edomvd>California</edomvd>
+            <edomvds>US Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>15</edomv>
+            <edomvd>Hawaii</edomvd>
+            <edomvds>US Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>32</edomv>
+            <edomvd>Nevada</edomvd>
+            <edomvds>US Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County_FIPs</attrlabl>
+        <attrdef>Federal Information Processing Standards (FIPS) three character numeric code for a county.</attrdef>
+        <attrdefs>US Census Bureau</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>001</rdommin>
+            <rdommax>099</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_ID</attrlabl>
+        <attrdef>Four-digit numeric code assigned to a air quality monitoring site location.</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <udom>Four non-sequential unique whole numbers that are assigned.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>POC</attrlabl>
+        <attrdef>Pollutant occurence code; unique number assigned to a monitor at a monitoring site where more than one monitor measures the same pollutant</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>9</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CO_1hr_DV</attrlabl>
+        <attrdef>2012 design value for 1-hour carbon monoxide</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.5</rdommin>
+            <rdommax>17.8</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CO_1hr_obs</attrlabl>
+        <attrdef>Number of 1-hour observances</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>394</rdommin>
+            <rdommax>8748</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CO_1hr_pct_complete</attrlabl>
+        <attrdef>Percent completeness for 1-hour CO during 2010-2012 time period.</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CO_8hr_obs</attrlabl>
+        <attrdef>Number of 8-hour observances</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <udom>Number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CO_8hr_pct_complete</attrlabl>
+        <attrdef>Percent completeness for 8-hour CO during 2010-2012 time period.</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <udom>Percent number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CO_8hr_DV</attrlabl>
+        <attrdef>2012 design value for 8-hour carbon monoxide</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <udom>Number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CO_designated_area</attrlabl>
+        <attrdef>Name of designated carbon monoxide area.</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CO_designation</attrlabl>
+        <attrdef>Status of area as compared to the carbon monoxide NAAQS.</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Attainment</edomv>
+            <edomvd>any area (other than an area identified in clause (i)) that meets the national primary or secondary ambient air quality standard for the pollutant.</edomvd>
+            <edomvds>US EPA</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Nonattainment</edomv>
+            <edomvd>any area that does not meet (or that contributes to ambient air quality in a nearby area that does not meet) the national primary or secondary ambient air quality standard for the pollutant.</edomvd>
+            <edomvds>US EPA</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Unclassifiable</edomv>
+            <edomvd>any area that cannot be classified on the basis of available information as meeting or not meeting the national primary or secondary ambient air quality standard for the pollutant.</edomvd>
+            <edomvds>US EPA</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CO_classification</attrlabl>
+        <attrdef>Severity of designation</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Serious</edomv>
+            <edomvd>Area has a design value of 16.5 ppm and above.</edomvd>
+            <edomvds>US EPA</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Moderate</edomv>
+            <edomvd>Area has a design value of 9.1 up to 16.4 ppm.</edomvd>
+            <edomvds>US EPA</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Not Classified</edomv>
+            <edomvd>an area designated as an carbon monoxide nonattainment area as of the date of enactment of the Clean Air Act Amendments of 1990 and did not have sufficient data to determine if it is meeting or is not meeting the carbon monoxide standard.</edomvd>
+            <edomvds>US EPA</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Detailed information on designations and classifications of carbon monoxide areas originally designated as in nonattainment. As of September 27, 2010, all Carbon Monoxide areas have been redesignated to maintenance areas.</eaover>
+      <eadetcit>http://www.epa.gov/airquality/greenbk/cindex.html</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20211215</metd>
+    <metfrd>20190225</metfrd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Technical Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>(415) 947-8000</cntvoice>
+        <cntfax>(415) 947-3553</cntfax>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <dataIdInfo>
+    <idPurp>For general air quality information.</idPurp>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Point feature class showing air quality monitoring site locations which measure carbon monoxide, including 2011-2013 design value conecntrations.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idCitation>
+      <resTitle>Air Quality Monitoring Site Points - Carbon Monoxide, US EPA Region 9, 2013, US EPA Region 9</resTitle>
+    </idCitation>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="009">Unrestricted License</RestrictCd>
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="">Empty</RestrictCd>
+        </useConsts>
+        <othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+        <useLimit>EPA Public Domain License</useLimit>
+      </LegConsts>
+    </resConst>
+  </dataIdInfo>
+  <mdDateSt>20170920</mdDateSt>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdFileID>52CDB9B6-0BE2-4DE4-A7F2-34842C4FED1F</mdFileID>
+  <mdLang>
+    <languageCode value="eng"/>
+    <countryCode value="US"/>
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004"/>
+  </mdChar>
+</metadata>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<Esri>
+		<PublishedDocID>{91dc2cb5-0b7e-49f7-8a8a-832298fd5b85}</PublishedDocID>
+	</Esri>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EPA GIS Keyword Thesaurus</themekt>
+				<themekey>Ecosystem</themekey>
+				<themekey>Environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EnviroAtlas</themekt>
+				<themekey>Climate</themekey>
+				<themekey>Ecosystem Services</themekey>
+				<themekey>EnviroAtlas</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Environmental Atlas</themekey>
+				<themekey>Modeling</themekey>
+				<themekey>Potential for Change - Ecosystem Services</themekey>
+				<themekey>Risk</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Alabama</placekey>
+				<placekey>Arizona</placekey>
+				<placekey>Arkansas</placekey>
+				<placekey>California</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>Connecticut</placekey>
+				<placekey>Delaware</placekey>
+				<placekey>Florida</placekey>
+				<placekey>Georgia</placekey>
+				<placekey>Idaho</placekey>
+				<placekey>Illinois</placekey>
+				<placekey>Indiana</placekey>
+				<placekey>Iowa</placekey>
+				<placekey>Kansas</placekey>
+				<placekey>Kentucky</placekey>
+				<placekey>Louisiana</placekey>
+				<placekey>Maine</placekey>
+				<placekey>Maryland</placekey>
+				<placekey>Massachusetts</placekey>
+				<placekey>Michigan</placekey>
+				<placekey>Minnesota</placekey>
+				<placekey>Mississippi</placekey>
+				<placekey>Missouri</placekey>
+				<placekey>Montana</placekey>
+				<placekey>Nebraska</placekey>
+				<placekey>Nevada</placekey>
+				<placekey>New Hampshire</placekey>
+				<placekey>New Jersey</placekey>
+				<placekey>New Mexico</placekey>
+				<placekey>New York</placekey>
+				<placekey>North Carolina</placekey>
+				<placekey>North Dakota</placekey>
+				<placekey>Ohio</placekey>
+				<placekey>Oklahoma</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>Pennsylvania</placekey>
+				<placekey>Rhode Island</placekey>
+				<placekey>South Carolina</placekey>
+				<placekey>South Dakota</placekey>
+				<placekey>Tennessee</placekey>
+				<placekey>Texas</placekey>
+				<placekey>United States</placekey>
+				<placekey>Utah</placekey>
+				<placekey>Vermont</placekey>
+				<placekey>Virginia</placekey>
+				<placekey>Washington</placekey>
+				<placekey>Washington DC</placekey>
+				<placekey>West Virginia</placekey>
+				<placekey>Wisconsin</placekey>
+				<placekey>Wyoming</placekey>
+			</place>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<origin>US Environmental Protection Agency (US EPA)</origin>
+				<title>EnviroAtlas - Potential Evapotranspiration 1950 - 2099 for the Conterminous United States</title>
+				<pubinfo>
+					<publish>U.S. EPA Office of Research &amp; Development (ORD) - National Exposure Research Laboratory (NERL)</publish>
+					<pubplace>Research Triangle Park, NC</pubplace>
+				</pubinfo>
+				<pubdate>20160531</pubdate>
+				<onlink>https://nasanex.s3.amazonaws.com/NEX-DCP30/CONTRIB/EPA/PET/README.txt</onlink>
+				<onlink>https://enviroatlas2.epa.gov/arcgis/rest/services/FutureScenarios</onlink>
+				<onlink>https://www.epa.gov/enviroatlas/enviroatlas-data</onlink>
+				<onlink>https://www.epa.gov/enviroatlas</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>Ground condition</current>
+			<timeinfo>
+				<rngdates>
+					<begdate>19500101</begdate>
+					<enddate>20991231</enddate>
+				</rngdates>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-128.02839229</westbc>
+				<eastbc>-65.20336449</eastbc>
+				<northbc>51.6773602</northbc>
+				<southbc>22.7348894</southbc>
+			</bounding>
+		</spdom>
+		<accconst>None</accconst>
+		<useconst>None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+		<descript>
+			<abstract>The EnviroAtlas Climate Scenarios were generated from NASA Earth Exchange (NEX) Downscaled Climate Projections (NEX-DCP30) ensemble averages (the average of over 30 available climate models) for each of the four representative concentration pathways (RCP) for the contiguous U.S. at 30 arc-second (approx. 800 m2) spatial resolution.  In addition to the three climate variables provided by the NEX-DCP30 dataset (minimum monthly temperature, maximum monthly temperature, and precipitation) a corresponding estimate of potential evapotranspiration (PET) was developed to match the spatial and temporal scales of the input dataset.  PET represents the cumulative amount of water returned to the atmosphere due to evaporation from Earth&#8217;s surface and plant transpiration under ideal circumstances (i.e., a vegetated surface shading the ground and unlimited water supply).  
+
+			PET was calculated using the Hamon PET equation (Hamon, 1961) and CBM model for daylength (Forsythe et al. 1995) for the 4 RCPs (2.6, 4.5, 6.0, 8.5) and organized by season (Winter, Spring, Summer, and Fall) and annually for the years 2006 &#8211; 2099.  Additionally, PET was calculated for the ensemble average of all historic runs and organized similarly for the years 1950 &#8211; 2005.  
+
+			This dataset was produced by the US EPA to support research and online mapping activities related to EnviroAtlas. EnviroAtlas (https://www.epa.gov/enviroatlas) allows the user to interact with a web-based, easy-to-use, mapping application to view and analyze multiple ecosystem services for the contiguous United States. The dataset is available as downloadable data (https://cds.nccs.nasa.gov/nex/) or as an EnviroAtlas map service. Additional descriptive information about each attribute in this dataset can be found in its associated EnviroAtlas Fact Sheet (https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets).</abstract>
+			<purpose>The purpose of the EnviroAtlas Future Scenarios project is to make climate change projections more accessible to a larger interdisciplinary audience by providing tools to visualize and analyze recent, high spatial resolution climate projections.  Downscaled climate models allow the user to see the potential magnitude of climate change at a finer, local scale.  These projections, along with the collection of layers available on EnviroAtlas, allow the user to view current ecosystem services data and conceivable climate projections side-by-side.
+
+			The overall goal of EnviroAtlas is to employ and develop the best available science to map indicators of ecosystem services production, demand, and drivers for the nation.</purpose>
+			<supplinf>Climate projections are, by their nature, imperfect, and cannot be taken as absolute truth. Projections are intended to show the likely response for a given set of circumstances, not actual predictions. Each RCP is based on a number of assumptions about the future including land use, population, energy development, and socio-economic factors.  Each RCP contains multiple models based on varying levels of these assumptions.  EnviroAtlas elected to use the RCP ensemble averages, the average of all available models for each RCP.  The RCP ensemble averages show each scenario's overall trends; however, model-specific variations are lost in the averaging process.  It is important to note these projections are intended to show potential trends and each RCP should be investigated for any further uses.  
+
+			PET was calculated using the Hamon PET equation, a temperature-based PET model.  There are limitations with using a temperature based method to estimate PET.  Under a future, greenhouse climate, the relationships between temperature and net radiation will be different from when the models were derived.  The Hamon PET method remains in use in hydrologic models and has been shown to be acceptable in the modern climate.  Users should be aware that temperature-based models can overestimate future PET when compared to theoretically-based models. </supplinf>
+		</descript>
+		<secinfo>
+			<secsys>https://project-open-data.cio.gov/schema/#accessLevel</secsys>
+			<secclass>public</secclass>
+			<sechandl>Standard Technical Controls</sechandl>
+		</secinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development-Sustainable and Healthy Communities Research Program, EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntperp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<logic>Tests for integrity have not been performed.</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at https://www.epa.gov/geospatial/epa-national-geospatial-data-policy</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>201503</procdate>
+				<procdesc>Obtained NEX-DCP30 ensemble averages for each RCP from the NASA Center for Climate Simulation (NCCS) Thematic Real-time Environmental Distributed Data Services (THREDDS) for the years 2006 - 2099.  </procdesc>
+			</procstep>
+			<procstep>
+				<procdate>201503</procdate>
+				<procdesc>Obtained NEX-DCP30 historic run ensemble averages from NCSS THREDDS for the years 1950 &#8211; 2005.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>201503</procdate>
+				<procdesc>Calculated monthly Potential Evapotranspiration in inches using the Hamon PET method and CBM model for daylight hours.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>201503</procdate>
+				<procdesc>Organized PET by season and annually.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>201503</procdate>
+				<procdesc>Projected dataset to Web Mercator (WGS 84 Web Mercator - auxiliary sphere) using bilinear interpolation. </procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development-Sustainable and Healthy Communities Research Program, EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metd>20211102</metd>
+		<metfrd>20200531</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development-Sustainable and Healthy Communities Research Program, EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>Potential Evapotranspiration</enttypl>
+				<enttypd>Seasonal rate of evapotranspiration under ideal circumstances (i.e., a vegetated surface shading the ground and unlimited water supply) in inches/season</enttypd>
+				<enttypds>US EPA</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>Winter</attrlabl>
+				<attrdef>Months of December from the previous calendar year, January, and February. For the year 2006, all RCP scenarios used the December values from the 2005 Historic Run.  For 1950, Winter included only Jan. and Feb.</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<udom>Total evapotranspiration in inches per season for winter by year for historic or future scenarios.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Spring</attrlabl>
+				<attrdef>Months March, April, and May</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<udom>Total evapotranspiration in inches per season for spring by year for historic or future scenarios.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Summer</attrlabl>
+				<attrdef>Months June, July, and August</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<udom>Total evapotranspiration in inches per season for summer by year for historic or future scenarios.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Fall</attrlabl>
+				<attrdef>Months September, October, November</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<udom>Total evapotranspiration in inches per season for fall by year for historic or future scenarios.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Annual</attrlabl>
+				<attrdef>Months January through December of the same calendar year</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<udom>Total evapotranspiration in inches per year for historic or future scenarios.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eadetcit>https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets</eadetcit>
+			<eaover>The EnviroAtlas Climate Scenarios were created using the NASA Earth Exchange Downscaled Climate Projections (NEX-DCP30).  The NEX-DCP30 provides projections from over 30 Coupled Model Intercomparison Project Phase 5 (CMIP5) General Circulation Model (GCM) simulations for the four Representative Concentration Pathways (RCPs) scenarios as well as ensemble statistics.  NEX-DCP30 ensemble averages (the average of all available models) for each RCP (2.6, 4.5, 6.0, 8.5) were downloaded in Network Common Data Form (NetCDF) by year (2006 - 2099) for the entire CONUS. NEX-DCP30 historic run ensemble averages were downloaded in NetCDF by year (1950 &#8211; 2005).  
+			
+			PET was calculated using the Hamon PET equation [PET = 0.0055 * d * D^2 * Wt] where d is the number of days in the month, D is the mean monthly hours of daylight in units of 12 hours, and Wt is the saturated water vapor density g/m3 at the daily mean temperature.  
+
+			Monthly average of daily daylight (D) was calculated using the CBM model for daylength from Forsythe, et al., 1995. D = 1/12[24 &#8211; 24/&#960; cos^(-1) {(sin(p&#960;/180) + sin (L&#960;/180)sin&#8709;)/(cos(L&#960;/180) cos&#8709;)}], where L is latitude, p is the daylength coefficient 0.8333 based on Sunrise/Sunset occurring when the top of the sun is apparently even with the horizon plus 34 minutes of refraction, and &#8709; = sin^(-1)[0.39795 cos &#952;] where &#952; = 0.2163108 + 2 tan^(-1)[ 0.9671396 tan[0.00860 (J-186)]] where J is the day of year.  
+
+			Wt was estimated using the vapor density function associated with the Hamon equation in Lu et al., 2005.  [Wt = 216.7 ESAT/(T + 273.3)] where [ESAT = 6.108 * e^(17.26939T / (T + 237.3))]. When the mean monthly temperature was below 0&#176;C, PET values were set to zero.  Monthly temperature (T) was calculated as the average of the NEX-DCP30 maximum and minimum monthly temperatures in degrees Celsius: [C = (K - 273.15)].  
+
+			PET was projected into Web Mercator (WGS 84 Web Mercator - auxiliary sphere) using bilinear interpolation and stored in ArcGIS Mosaic Datasets (ArcGIS 10.2).  NEX-DCP30 datasets were manipulated using Python, primarily the netcdf4-python, ArcPy, NumPy, and calendar libraries.  
+
+			Climate scenarios used were from the NEX-DCP30 dataset, prepared by the Climate Analytics Group and NASA Ames Research Center using the NASA Earth Exchange, and distributed by the NASA Center for Climate Simulation (NCCS).
+
+			The scenarios are:
+			
+			Historic &#8211; The historic scenario is the average of all climate models historical runs for the years 1950-2005.
+
+			Scenario I &#8211; RCP 2.6 &#8211; the RCP 2.6 scenario assumes that greenhouse gas emissions peak between 2010 and 2020 with emissions declining substantially beyond 2020. The projected global warming increase compared to the reference period 1986-2005 is approximately 1.8 degree Fahrenheit (range of 0.54 to 3.06) by 2081-2100. Atmospheric C02 is expected to be approximately 425 parts per million in 2100.
+
+			Scenario II &#8211; RCP 4.5 &#8211; the RCP 4.5 scenario is characterized by peak in emissions around 2040 and then a decline. The projected global warming increase compared to the reference period 1986-2005 is approximately 3.24 degrees Fahrenheit (range of 1.98 to 4.68) by 2081-2100. Atmospheric C02 is expected to be approximately 600 parts per million in 2100.
+
+			Scenario III &#8211; RCP 6.0 &#8211; In the RCP 6.0 scenario, emissions peak around 2080 and then decline. The projected global warming increase compared to the reference period 1986-2005 is approximately 3.96 degrees Celsius (range of 2.52 to 5.58) by 2081-2100. Atmospheric C02 is expected to be approximately 725 parts per million in 2100.
+
+			Scenario IV &#8211; RCP 8.5 &#8211; The RCP 8.5 scenario is characterized by increasing greenhouse gas emissions beyond 2100. The projected global warming increase compared to the reference period 1986-2005 is approximately 6.66 degrees Celsius (range of 4.68 to 8.64) by 2081-2100. Atmospheric C02 is expected to be approximately 1225 parts per million in 2100.</eaover>
+		</overview>
+	</eainfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+					<mapprojp>
+						<otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+					</mapprojp>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>800</absres>
+						<ordres>800</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

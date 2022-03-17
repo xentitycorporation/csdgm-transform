@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <PublishedDocID>{00459D47-0A17-4EBB-81BE-761BF0AD758B}</PublishedDocID>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <DataProperties>
+      <itemProps>
+        <imsContentType>001</imsContentType>
+      </itemProps>
+    </DataProperties>
+    <ModDate>20170920</ModDate>
+    <ModTime>12123800</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>NAP</ArcGISProfile>
+  </Esri>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>RaceVesselSpecificLevels</enttypl>
+        <enttypd>Race - Vessel Specific Levels</enttypd>
+        <enttypds>EPA</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Boat</attrlabl>
+        <attrdef>Baot Name</attrdef>
+        <attrdefs>EPA</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Lat</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Long</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Wind_Dir</attrlabl>
+        <attrdef>Wind Direction</attrdef>
+        <attrdefs>EPA</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Wind_Spd</attrlabl>
+        <attrdef>Wind Speed</attrdef>
+        <attrdefs>EPA</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Debris_Lev</attrlabl>
+        <attrdef>Debris Level</attrdef>
+        <attrdefs>EPA</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DbrsCategories</attrlabl>
+        <attrdef>Debris Categories</attrdef>
+        <attrdefs>EPA</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <idinfo>
+    <keywords>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Hawaii</placekey>
+      </place>
+      <theme>
+        <themekey>health</themekey>
+        <themekey>environment</themekey>
+        <themekey>Natural Resources</themekey>
+        <themekey>Water</themekey>
+        <themekey>Human</themekey>
+        <themekey>Cleanup</themekey>
+        <themekey>Hazards</themekey>
+        <themekey>Surface Water</themekey>
+        <themekey>Health</themekey>
+        <themekey>Marine</themekey>
+        <themekey>Risk</themekey>
+        <themekey>Transportation</themekey>
+      </theme>
+    </keywords>
+    <citation>
+      <citeinfo>
+        <origin>US Environmental Protection Agency</origin>
+        <title>Vic-Maui Race Vessel Specific Levels, Maui HI, 2012, US EPA Region 9</title>
+        <pubinfo>
+          <publish>U.S. Environmental Protection Agency, Region 9</publish>
+          <pubplace>San Francisco, CA</pubplace>
+        </pubinfo>
+        <pubdate>20140709</pubdate>
+        <onlink>http://www.epa.maps.arcgis.com/home/item.html?id=84df6802357a4b348cd5f4525e738d6c</onlink>
+        <onlink>http://www.epa.gov/geospatial/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Marine debris degrades ocean habitats, endangers marine and coastal wildlife, causes navigation hazards, results in economic losses to industry and governments, and threatens human health and safety. EPA Pacific Southwest (Region 9) is tapping existing programs and resources to advance the prevention, reduction and clean-up of marine debris in the North Pacific Ocean. EPA Pacific Southwest activities build upon specific recommendations of the Interagency Marine Debris Coordinating Committee by targeting threats and sources of debris and responding to debris impacts. EPA is initiating a three-pronged effort to reduce sources of marine debris, prevent trash from entering the oceans, and assess the human and ecosystem impacts and potential for cleanup.</abstract>
+      <purpose>To provide visiual representation of observed marine debris during VIC-Maui 2012 Race.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-156.616667</westbc>
+        <eastbc>-124.016667</eastbc>
+        <northbc>48.383333</northbc>
+        <southbc>21.050000</southbc>
+      </bounding>
+    </spdom>
+    <timeperd>
+      <current>Publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140710</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>monthly</update>
+    </status>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+    <secinfo>
+      <secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <resdesc>Live Data and Maps</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20210806</metd>
+    <metfrd>20180710</metfrd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <dataqual>
+    <logic>Tests for integrity have not been performed.</logic>
+    <complete>Features represented have not been tested for completeness</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance>coordinate pair</plance>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <mdLang>
+    <languageCode value="eng"/>
+    <countryCode value="US"/>
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004"/>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Cheryl Henley</rpIndName>
+    <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+    <rpPosName>GIS Coordinator</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>415-972-3586</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>MTS-6-1</delPoint>
+        <delPoint>75 Hawthorne Street</delPoint>
+        <city>San Francisco</city>
+        <adminArea>CA</adminArea>
+        <postCode>94105</postCode>
+        <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+      </cntAddress>
+      <cntInstr>http://www.epa.gov/region09/</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007"/>
+    </role>
+  </mdContact>
+  <mdDateSt>20170920</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpIndName>Cheryl Henley</rpIndName>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+        <rpPosName>GIS Coordinator</rpPosName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>415-972-3586</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>75 Hawthorne Street</delPoint>
+            <delPoint>MTS-6-1</delPoint>
+            <city>San Francisco</city>
+            <adminArea>CA</adminArea>
+            <postCode>94105</postCode>
+            <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+          </cntAddress>
+          <cntInstr>http://www.epa.gov/region09/</cntInstr>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005"/>
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.epa.gov/geospatial/</linkage>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://www.epa.maps.arcgis.com/home/item.html?id=84df6802357a4b348cd5f4525e738d6c</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Vic-Maui Race Vessel Specific Levels, Maui HI, 2012, US EPA Region 9</resTitle>
+      <date>
+        <pubDate>2014-07-09</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint>San Francisco, CA</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010"/>
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>US Environmental Protection Agency</rpOrgName>
+        <role>
+          <RoleCd value="006"/>
+        </role>
+      </citRespParty>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Marine debris degrades ocean habitats, endangers marine and coastal wildlife, causes navigation hazards, results in economic losses to industry and governments, and threatens human health and safety. EPA Pacific Southwest (Region 9) is tapping existing programs and resources to advance the prevention, reduction and clean-up of marine debris in the North Pacific Ocean. EPA Pacific Southwest activities build upon specific recommendations of the Interagency Marine Debris Coordinating Committee by targeting threats and sources of debris and responding to debris impacts. EPA is initiating a three-pronged effort to reduce sources of marine debris, prevent trash from entering the oceans, and assess the human and ecosystem impacts and potential for cleanup.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>To provide visiual representation of observed marine debris during VIC-Maui 2012 Race.</idPurp>
+    <idStatus>
+      <ProgCd value="001"/>
+    </idStatus>
+    <idPoC>
+      <rpIndName>Cheryl Henley</rpIndName>
+      <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+      <rpPosName>GIS Coordinator</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum tddtty="">415-972-3586</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>MTS-6-1</delPoint>
+          <delPoint>75 Hawthorne Street</delPoint>
+          <city>San Francisco</city>
+          <adminArea>CA</adminArea>
+          <postCode>94105</postCode>
+          <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+        </cntAddress>
+        <cntInstr>http://www.epa.gov/region09/</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="010"/>
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="005"/>
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>Hawaii</keyword>
+    </placeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Category</resTitle>
+      </thesaName>
+      <keyword>health</keyword>
+      <keyword>environment</keyword>
+    </themeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>EPA GIS Keyword Thesaurus</resTitle>
+      </thesaName>
+      <keyword>Natural Resources</keyword>
+      <keyword>Water</keyword>
+      <keyword>Human</keyword>
+      <keyword>Cleanup</keyword>
+      <keyword>Hazards</keyword>
+      <keyword>Surface Water</keyword>
+      <keyword>Health</keyword>
+      <keyword>Marine</keyword>
+      <keyword>Risk</keyword>
+      <keyword>Transportation</keyword>
+    </themeKeys>
+    <resConst>
+      <SecConsts>
+        <classSys>http://project-open-data.github.io/schema/#accessLevel</classSys>
+        <handDesc>Standard Technical Controls</handDesc>
+        <class>
+          <ClasscationCd value="001">Unclassified</ClasscationCd>
+        </class>
+      </SecConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng"/>
+    </dataLang>
+    <dataExt>
+      <exDesc>Publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2014-07-10</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-156.616667</westBL>
+          <eastBL>-124.016667</eastBL>
+          <southBL>21.05</southBL>
+          <northBL>48.383333</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <idCredit>US EPA Region 9 task ER-14-02150</idCredit>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="009">Unrestricted License</RestrictCd>
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="">Empty</RestrictCd>
+        </useConsts>
+        <othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+        <useLimit>EPA Public Domain License</useLimit>
+      </LegConsts>
+    </resConst>
+    <tpCat>
+      <TopicCatCd value="018"/>
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="007"/>
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="009"/>
+    </tpCat>
+  </dataIdInfo>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="012"/>
+    </maintFreq>
+    <dateNext>20180710</dateNext>
+  </mdMaint>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005"/>
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Tests for integrity have not been performed.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Features represented have not been tested for completeness</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</measDesc>
+    </report>
+  </dqInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="4dd47b5d30ba84186f413ccac431394b" EsriPropertyType="Base64" SourceMetadataSchema="fgdc" SourceMetadataDocId="{00459D47-0A17-4EBB-81BE-761BF0AD758B}">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YSB4bWw6bGFu
+Zz0iZW4iPg0KICA8RXNyaT4NCiAgICA8UHVibGlzaGVkRG9jSUQ+ezAwNDU5RDQ3LTBBMTctNEVC
+Qi04MUJFLTc2MUJGMEFENzU4Qn08L1B1Ymxpc2hlZERvY0lEPg0KICA8L0Vzcmk+DQogIDxlYWlu
+Zm8+DQogICAgPGRldGFpbGVkPg0KICAgICAgPGVudHR5cD4NCiAgICAgICAgPGVudHR5cGw+UmFj
+ZVZlc3NlbFNwZWNpZmljTGV2ZWxzPC9lbnR0eXBsPg0KICAgICAgICA8ZW50dHlwZD5SYWNlIC0g
+VmVzc2VsIFNwZWNpZmljIExldmVsczwvZW50dHlwZD4NCiAgICAgICAgPGVudHR5cGRzPkVQQTwv
+ZW50dHlwZHM+DQogICAgICA8L2VudHR5cD4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxh
+Ymw+T0JKRUNUSUQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5JbnRlcm5hbCBmZWF0dXJl
+IG51bWJlci48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5Fc3JpPC9hdHRyZGVmcz4NCiAg
+ICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlNlcXVlbnRpYWwgdW5pcXVlIHdob2xl
+IG51bWJlcnMgdGhhdCBhcmUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQuPC91ZG9tPg0KICAgICAg
+ICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRy
+bGFibD5TaGFwZTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkZlYXR1cmUgZ2VvbWV0cnku
+PC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RXNyaTwvYXR0cmRlZnM+DQogICAgICAgIDxh
+dHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5Db29yZGluYXRlcyBkZWZpbmluZyB0aGUgZmVhdHVy
+ZXMuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+dHI+DQogICAgICAgIDxhdHRybGFibD5EYXRlPC9hdHRybGFibD4NCiAgICAgIDwvYXR0cj4NCiAg
+ICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+Qm9hdDwvYXR0cmxhYmw+DQogICAgICAgIDxh
+dHRyZGVmPkJhb3QgTmFtZTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVQQTwvYXR0cmRl
+ZnM+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkxhdDwv
+YXR0cmxhYmw+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJs
+Pkxvbmc8L2F0dHJsYWJsPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxh
+dHRybGFibD5XaW5kX0RpcjwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPldpbmQgRGlyZWN0
+aW9uPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVBBPC9hdHRyZGVmcz4NCiAgICAgIDwv
+YXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+V2luZF9TcGQ8L2F0dHJsYWJs
+Pg0KICAgICAgICA8YXR0cmRlZj5XaW5kIFNwZWVkPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRl
+ZnM+RVBBPC9hdHRyZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+YXR0cmxhYmw+RGVicmlzX0xldjwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkRlYnJpcyBM
+ZXZlbDwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVQQTwvYXR0cmRlZnM+DQogICAgICA8
+L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkRicnNDYXRlZ29yaWVzPC9h
+dHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+RGVicmlzIENhdGVnb3JpZXM8L2F0dHJkZWY+DQog
+ICAgICAgIDxhdHRyZGVmcz5FUEE8L2F0dHJkZWZzPg0KICAgICAgPC9hdHRyPg0KICAgIDwvZGV0
+YWlsZWQ+DQogIDwvZWFpbmZvPg0KICA8aWRpbmZvPg0KICAgIDxrZXl3b3Jkcz4NCiAgICAgIDx0
+aGVtZT4NCiAgICAgICAgPHRoZW1la3Q+SVNPIDE5MTE1IFRvcGljIENhdGVnb3J5PC90aGVtZWt0
+Pg0KICAgICAgICA8dGhlbWVrZXk+ZW52aXJvbm1lbnQ8L3RoZW1la2V5Pg0KICAgICAgICA8dGhl
+bWVrZXk+aGVhbHRoPC90aGVtZWtleT4NCiAgICAgIDwvdGhlbWU+DQogICAgICA8dGhlbWU+DQog
+ICAgICAgIDx0aGVtZWt0PkVQQSBHSVMgS2V5d29yZCBUaGVzYXVydXM8L3RoZW1la3Q+DQogICAg
+ICAgIDx0aGVtZWtleT5DbGVhbnVwPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PkhhemFy
+ZHM8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+SGVhbHRoPC90aGVtZWtleT4NCiAgICAg
+ICAgPHRoZW1la2V5Pkh1bWFuPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5Pk1hcmluZTwv
+dGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5OYXR1cmFsIFJlc291cmNlczwvdGhlbWVrZXk+
+DQogICAgICAgIDx0aGVtZWtleT5SaXNrPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PlN1
+cmZhY2UgV2F0ZXI8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+VHJhbnNwb3J0YXRpb248
+L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+V2F0ZXI8L3RoZW1la2V5Pg0KICAgICAgPC90
+aGVtZT4NCiAgICAgIDxwbGFjZT4NCiAgICAgICAgPHBsYWNla3Q+Tm9uZTwvcGxhY2VrdD4NCiAg
+ICAgICAgPHBsYWNla2V5Pkhhd2FpaTwvcGxhY2VrZXk+DQogICAgICA8L3BsYWNlPg0KICAgIDwv
+a2V5d29yZHM+DQogICAgPGNpdGF0aW9uPg0KICAgICAgPGNpdGVpbmZvPg0KICAgICAgICA8b3Jp
+Z2luPlVTIEVudmlyb25tZW50YWwgUHJvdGVjdGlvbiBBZ2VuY3k8L29yaWdpbj4NCiAgICAgICAg
+PHRpdGxlPlZlc3NlbCBTcGVjaWZpYyBMZXZlbHM8L3RpdGxlPg0KICAgICAgICA8cHViaW5mbz4N
+CiAgICAgICAgICA8cHVibGlzaD5VLlMuIEVudmlyb25tZW50YWwgUHJvdGVjdGlvbiBBZ2VuY3ks
+IFJlZ2lvbiA5PC9wdWJsaXNoPg0KICAgICAgICAgIDxwdWJwbGFjZT5TYW4gRnJhbmNpc2NvLCBD
+QTwvcHVicGxhY2U+DQogICAgICAgIDwvcHViaW5mbz4NCiAgICAgICAgPHB1YmRhdGU+MjAxNDA3
+MDk8L3B1YmRhdGU+DQogICAgICAgIDxvbmxpbms+aHR0cDovL3d3dy5lcGEuZ292L3JlZ2lvbjkv
+bWFyaW5lLWRlYnJpcy88L29ubGluaz4NCiAgICAgICAgPG9ubGluaz5odHRwOi8vd3d3LmVwYS5n
+b3YvZ2Vvc3BhdGlhbC88L29ubGluaz4NCiAgICAgIDwvY2l0ZWluZm8+DQogICAgPC9jaXRhdGlv
+bj4NCiAgICA8ZGVzY3JpcHQ+DQogICAgICA8YWJzdHJhY3Q+TWFyaW5lIGRlYnJpcyBkZWdyYWRl
+cyBvY2VhbiBoYWJpdGF0cywgZW5kYW5nZXJzIG1hcmluZSBhbmQgY29hc3RhbCB3aWxkbGlmZSwg
+Y2F1c2VzIG5hdmlnYXRpb24gaGF6YXJkcywgcmVzdWx0cyBpbiBlY29ub21pYyBsb3NzZXMgdG8g
+aW5kdXN0cnkgYW5kIGdvdmVybm1lbnRzLCBhbmQgdGhyZWF0ZW5zIGh1bWFuIGhlYWx0aCBhbmQg
+c2FmZXR5LiAgRVBBIFBhY2lmaWMgU291dGh3ZXN0IChSZWdpb24gOSkgaXMgdGFwcGluZyBleGlz
+dGluZyBwcm9ncmFtcyBhbmQgcmVzb3VyY2VzIHRvIGFkdmFuY2UgdGhlIHByZXZlbnRpb24sIHJl
+ZHVjdGlvbiBhbmQgY2xlYW4tdXAgb2YgbWFyaW5lIGRlYnJpcyBpbiB0aGUgTm9ydGggUGFjaWZp
+YyBPY2Vhbi4gIEVQQSBQYWNpZmljIFNvdXRod2VzdCBhY3Rpdml0aWVzIGJ1aWxkIHVwb24gc3Bl
+Y2lmaWMgcmVjb21tZW5kYXRpb25zIG9mIHRoZSBJbnRlcmFnZW5jeSBNYXJpbmUgRGVicmlzIENv
+b3JkaW5hdGluZyBDb21taXR0ZWUgYnkgdGFyZ2V0aW5nIHRocmVhdHMgYW5kIHNvdXJjZXMgb2Yg
+ZGVicmlzIGFuZCByZXNwb25kaW5nIHRvIGRlYnJpcyBpbXBhY3RzLiAgRVBBIGlzIGluaXRpYXRp
+bmcgYSB0aHJlZS1wcm9uZ2VkIGVmZm9ydCB0byByZWR1Y2Ugc291cmNlcyBvZiBtYXJpbmUgZGVi
+cmlzLCBwcmV2ZW50IHRyYXNoIGZyb20gZW50ZXJpbmcgdGhlIG9jZWFucywgYW5kIGFzc2VzcyB0
+aGUgaHVtYW4gYW5kIGVjb3N5c3RlbSBpbXBhY3RzIGFuZCBwb3RlbnRpYWwgZm9yIGNsZWFudXAu
+PC9hYnN0cmFjdD4NCiAgICAgIDxwdXJwb3NlPlRvIHByb3ZpZGUgdmlzaXVhbCByZXByZXNlbnRh
+dGlvbiBvZiBvYnNlcnZlZCBtYXJpbmUgZGVicmlzIGR1cmluZyBWSUMtTWF1aSAyMDEyIFJhY2Uu
+PC9wdXJwb3NlPg0KICAgIDwvZGVzY3JpcHQ+DQogICAgPHNwZG9tPg0KICAgICAgPGJvdW5kaW5n
+Pg0KICAgICAgICA8d2VzdGJjPi0xNTYuNjE2NjY3PC93ZXN0YmM+DQogICAgICAgIDxlYXN0YmM+
+LTEyNC4wMTY2Njc8L2Vhc3RiYz4NCiAgICAgICAgPG5vcnRoYmM+NDguMzgzMzMzPC9ub3J0aGJj
+Pg0KICAgICAgICA8c291dGhiYz4yMS4wNTAwMDA8L3NvdXRoYmM+DQogICAgICA8L2JvdW5kaW5n
+Pg0KICAgIDwvc3Bkb20+DQogICAgPHRpbWVwZXJkPg0KICAgICAgPGN1cnJlbnQ+UHVibGljYXRp
+b24gZGF0ZTwvY3VycmVudD4NCiAgICAgIDx0aW1laW5mbz4NCiAgICAgICAgPHNuZ2RhdGU+DQog
+ICAgICAgICAgPGNhbGRhdGU+MjAxNDA3MTA8L2NhbGRhdGU+DQogICAgICAgIDwvc25nZGF0ZT4N
+CiAgICAgIDwvdGltZWluZm8+DQogICAgPC90aW1lcGVyZD4NCiAgICA8c3RhdHVzPg0KICAgICAg
+PHByb2dyZXNzPkNvbXBsZXRlPC9wcm9ncmVzcz4NCiAgICAgIDx1cGRhdGU+bW9udGhseTwvdXBk
+YXRlPg0KICAgIDwvc3RhdHVzPg0KICAgIDxhY2Njb25zdD5Ob25lLjwvYWNjY29uc3Q+DQogICAg
+PHVzZWNvbnN0Pk5vbmUuIFBsZWFzZSBjaGVjayBzb3VyY2VzLCBzY2FsZSwgYWNjdXJhY3ksIGN1
+cnJlbnRuZXNzIGFuZCBvdGhlciBhdmFpbGFibGUgaW5mb3JtYXRpb24uIFBsZWFzZSBjb25maXJt
+IHRoYXQgeW91IGFyZSB1c2luZyB0aGUgbW9zdCByZWNlbnQgY29weSBvZiBib3RoIGRhdGEgYW5k
+IG1ldGFkYXRhLiAgQWNrbm93bGVkZ2VtZW50IG9mIHRoZSBFUEEgd291bGQgYmUgYXBwcmVjaWF0
+ZWQuPC91c2Vjb25zdD4NCiAgICA8c2VjaW5mbz4NCiAgICAgIDxzZWNzeXM+aHR0cDovL3Byb2pl
+Y3Qtb3Blbi1kYXRhLmdpdGh1Yi5pby9zY2hlbWEvI2FjY2Vzc0xldmVsPC9zZWNzeXM+DQogICAg
+ICA8c2VjY2xhc3M+cHVibGljPC9zZWNjbGFzcz4NCiAgICAgIDxzZWNoYW5kbD5TdGFuZGFyZCBU
+ZWNobmljYWwgQ29udHJvbHM8L3NlY2hhbmRsPg0KICAgIDwvc2VjaW5mbz4NCiAgICA8cHRjb250
+YWM+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAgPGNudG9yZ3A+DQogICAgICAgICAgPGNudG9y
+Zz5VLlMuIEVudmlyb25tZW50YWwgUHJvdGVjdGlvbiBBZ2VuY3ksIFJlZ2lvbiA5PC9jbnRvcmc+
+DQogICAgICAgICAgPGNudHBlcj5DaGVyeWwgSGVubGV5PC9jbnRwZXI+DQogICAgICAgIDwvY250
+b3JncD4NCiAgICAgICAgPGNudHBvcz5HSVMgQ29vcmRpbmF0b3I8L2NudHBvcz4NCiAgICAgICAg
+PGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsIGFkZHJl
+c3M8L2FkZHJ0eXBlPg0KICAgICAgICAgIDxhZGRyZXNzPjc1IEhhd3Rob3JuZSBTdHJlZXQ8L2Fk
+ZHJlc3M+DQogICAgICAgICAgPGFkZHJlc3M+TVRTLTYtMTwvYWRkcmVzcz4NCiAgICAgICAgICA8
+Y2l0eT5TYW4gRnJhbmNpc2NvPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5DQTwvc3RhdGU+DQog
+ICAgICAgICAgPHBvc3RhbD45NDEwNTwvcG9zdGFsPg0KICAgICAgICA8L2NudGFkZHI+DQogICAg
+ICAgIDxjbnR2b2ljZT40MTUtOTcyLTM1ODY8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZW1haWw+
+aGVubGV5LmNoZXJ5bEBlcGEuZ292PC9jbnRlbWFpbD4NCiAgICAgICAgPGNudGluc3Q+aHR0cDov
+L3d3dy5lcGEuZ292L3JlZ2lvbjA5LzwvY250aW5zdD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8
+L3B0Y29udGFjPg0KICA8L2lkaW5mbz4NCiAgPGRhdGFJZEluZm8+DQogICAgPGVudmlyRGVzYz5N
+aWNyb3NvZnQgV2luZG93cyA3IFZlcnNpb24gNi4xIChCdWlsZCA3NjAxKSBTZXJ2aWNlIFBhY2sg
+MTsgRXNyaSBBcmNHSVMgMTAuMi4xLjM0OTc8L2VudmlyRGVzYz4NCiAgICA8ZGF0YUxhbmc+DQog
+ICAgICA8bGFuZ3VhZ2VDb2RlIHZhbHVlPSJlbmciIC8+DQogICAgICA8Y291bnRyeUNvZGUgdmFs
+dWU9IlVTQSIgLz4NCiAgICA8L2RhdGFMYW5nPg0KICAgIDxpZENpdGF0aW9uPg0KICAgICAgPHJl
+c1RpdGxlPkZsZWV0RGVicmlzTGV2ZWxzPC9yZXNUaXRsZT4NCiAgICAgIDxwcmVzRm9ybT4NCiAg
+ICAgICAgPFByZXNGb3JtQ2QgdmFsdWU9IjAwNSIgLz4NCiAgICAgIDwvcHJlc0Zvcm0+DQogICAg
+PC9pZENpdGF0aW9uPg0KICAgIDxzcGF0UnBUeXBlPg0KICAgICAgPFNwYXRSZXBUeXBDZCB2YWx1
+ZT0iMDAxIiAvPg0KICAgIDwvc3BhdFJwVHlwZT4NCiAgICA8ZGF0YUV4dD4NCiAgICAgIDxnZW9F
+bGU+DQogICAgICAgIDxHZW9CbmRCb3ggZXNyaUV4dGVudFR5cGU9InNlYXJjaCI+DQogICAgICAg
+ICAgPGV4VHlwZUNvZGU+MTwvZXhUeXBlQ29kZT4NCiAgICAgICAgICA8d2VzdEJMPi0xNTYuNjE2
+NjY3PC93ZXN0Qkw+DQogICAgICAgICAgPGVhc3RCTD4tMTI0LjAxNjY2NzwvZWFzdEJMPg0KICAg
+ICAgICAgIDxub3J0aEJMPjQ4LjM4MzMzMzwvbm9ydGhCTD4NCiAgICAgICAgICA8c291dGhCTD4y
+MS4wNTAwMDA8L3NvdXRoQkw+DQogICAgICAgIDwvR2VvQm5kQm94Pg0KICAgICAgPC9nZW9FbGU+
+DQogICAgPC9kYXRhRXh0Pg0KICA8L2RhdGFJZEluZm8+DQogIDxtZExhbmc+DQogICAgPGxhbmd1
+YWdlQ29kZSB2YWx1ZT0iZW5nIiAvPg0KICAgIDxjb3VudHJ5Q29kZSB2YWx1ZT0iVVNBIiAvPg0K
+ICA8L21kTGFuZz4NCiAgPGRpc3RJbmZvPg0KICAgIDxkaXN0Rm9ybWF0Pg0KICAgICAgPGZvcm1h
+dE5hbWU+RmlsZSBHZW9kYXRhYmFzZSBGZWF0dXJlIENsYXNzPC9mb3JtYXROYW1lPg0KICAgIDwv
+ZGlzdEZvcm1hdD4NCiAgPC9kaXN0SW5mbz4NCiAgPG1kSHJMdj4NCiAgICA8U2NvcGVDZCB2YWx1
+ZT0iMDA1IiAvPg0KICA8L21kSHJMdj4NCiAgPG1kSHJMdk5hbWU+ZGF0YXNldDwvbWRIckx2TmFt
+ZT4NCiAgPHJlZlN5c0luZm8+DQogICAgPFJlZlN5c3RlbT4NCiAgICAgIDxyZWZTeXNJRD4NCiAg
+ICAgICAgPGlkZW50Q29kZSBjb2RlPSIzODU3IiAvPg0KICAgICAgICA8aWRDb2RlU3BhY2U+RVBT
+RzwvaWRDb2RlU3BhY2U+DQogICAgICAgIDxpZFZlcnNpb24+OC4yLjY8L2lkVmVyc2lvbj4NCiAg
+ICAgIDwvcmVmU3lzSUQ+DQogICAgPC9SZWZTeXN0ZW0+DQogIDwvcmVmU3lzSW5mbz4NCiAgPHNw
+YXRSZXBJbmZvPg0KICAgIDxWZWN0U3BhdFJlcD4NCiAgICAgIDxnZW9tZXRPYmpzPg0KICAgICAg
+ICA8Z2VvT2JqVHlwPg0KICAgICAgICAgIDxHZW9PYmpUeXBDZCB2YWx1ZT0iMDA0IiAvPg0KICAg
+ICAgICA8L2dlb09ialR5cD4NCiAgICAgICAgPGdlb09iakNudD4xNTg8L2dlb09iakNudD4NCiAg
+ICAgIDwvZ2VvbWV0T2Jqcz4NCiAgICAgIDx0b3BMdmw+DQogICAgICAgIDxUb3BvTGV2Q2QgdmFs
+dWU9IjAwMSIgLz4NCiAgICAgIDwvdG9wTHZsPg0KICAgIDwvVmVjdFNwYXRSZXA+DQogIDwvc3Bh
+dFJlcEluZm8+DQogIDxtZERhdGVTdD4yMDE0MDcxMDwvbWREYXRlU3Q+DQogIDxkaXN0aW5mbz4N
+CiAgICA8cmVzZGVzYz5MaXZlIERhdGEgYW5kIE1hcHM8L3Jlc2Rlc2M+DQogICAgPGRpc3RsaWFi
+Pmh0dHBzOi8vZWRnLmVwYS5nb3YvRVBBX0RhdGFfTGljZW5zZS5odG1sPC9kaXN0bGlhYj4NCiAg
+ICA8ZGlzdHJpYj4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAg
+ICA8Y250b3JnPlUuUy4gRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uIEFnZW5jeSwgUmVnaW9uIDk8
+L2NudG9yZz4NCiAgICAgICAgICA8Y250cGVyPkNoZXJ5bCBIZW5sZXk8L2NudHBlcj4NCiAgICAg
+ICAgPC9jbnRvcmdwPg0KICAgICAgICA8Y250cG9zPkdJUyBDb29yZGluYXRvcjwvY250cG9zPg0K
+ICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2lj
+YWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+NzUgSGF3dGhvcm5lIFN0
+cmVldDwvYWRkcmVzcz4NCiAgICAgICAgICA8YWRkcmVzcz5NVFMtNi0xPC9hZGRyZXNzPg0KICAg
+ICAgICAgIDxjaXR5PlNhbiBGcmFuY2lzY288L2NpdHk+DQogICAgICAgICAgPHN0YXRlPkNBPC9z
+dGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjk0MTA1PC9wb3N0YWw+DQogICAgICAgIDwvY250YWRk
+cj4NCiAgICAgICAgPGNudHZvaWNlPjQxNS05NzItMzU4NjwvY250dm9pY2U+DQogICAgICAgIDxj
+bnRlbWFpbD5oZW5sZXkuY2hlcnlsQGVwYS5nb3Y8L2NudGVtYWlsPg0KICAgICAgICA8Y250aW5z
+dD5odHRwOi8vd3d3LmVwYS5nb3YvcmVnaW9uMDkvPC9jbnRpbnN0Pg0KICAgICAgPC9jbnRpbmZv
+Pg0KICAgIDwvZGlzdHJpYj4NCiAgPC9kaXN0aW5mbz4NCiAgPG1ldGFpbmZvPg0KICAgIDxtZXRk
+PjIwMTQwNzEwPC9tZXRkPg0KICAgIDxtZXRmcmQ+MjAxODA3MTA8L21ldGZyZD4NCiAgICA8bWV0
+c3Rkbj5GR0RDIENvbnRlbnQgU3RhbmRhcmQgZm9yIERpZ2l0YWwgR2Vvc3BhdGlhbCBNZXRhZGF0
+YTwvbWV0c3Rkbj4NCiAgICA8bWV0c3Rkdj5GR0RDLVNURC0wMDEtMTk5ODwvbWV0c3Rkdj4NCiAg
+ICA8bWV0Yz4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICA8
+Y250b3JnPlUuUy4gRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uIEFnZW5jeSwgUmVnaW9uIDk8L2Nu
+dG9yZz4NCiAgICAgICAgICA8Y250cGVyPkNoZXJ5bCBIZW5sZXk8L2NudHBlcj4NCiAgICAgICAg
+PC9jbnRvcmdwPg0KICAgICAgICA8Y250cG9zPkdJUyBDb29yZGluYXRvcjwvY250cG9zPg0KICAg
+ICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWwg
+YWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+NzUgSGF3dGhvcm5lIFN0cmVl
+dDwvYWRkcmVzcz4NCiAgICAgICAgICA8YWRkcmVzcz5NVFMtNi0xPC9hZGRyZXNzPg0KICAgICAg
+ICAgIDxjaXR5PlNhbiBGcmFuY2lzY288L2NpdHk+DQogICAgICAgICAgPHN0YXRlPkNBPC9zdGF0
+ZT4NCiAgICAgICAgICA8cG9zdGFsPjk0MTA1PC9wb3N0YWw+DQogICAgICAgIDwvY250YWRkcj4N
+CiAgICAgICAgPGNudHZvaWNlPjQxNS05NzItMzU4NjwvY250dm9pY2U+DQogICAgICAgIDxjbnRl
+bWFpbD5oZW5sZXkuY2hlcnlsQGVwYS5nb3Y8L2NudGVtYWlsPg0KICAgICAgICA8Y250aW5zdD5o
+dHRwOi8vd3d3LmVwYS5nb3YvcmVnaW9uMDkvPC9jbnRpbnN0Pg0KICAgICAgPC9jbnRpbmZvPg0K
+ICAgIDwvbWV0Yz4NCiAgPC9tZXRhaW5mbz4NCiAgPGRhdGFxdWFsPg0KICAgIDxsb2dpYz5UZXN0
+cyBmb3IgaW50ZWdyaXR5IGhhdmUgbm90IGJlZW4gcGVyZm9ybWVkLjwvbG9naWM+DQogICAgPGNv
+bXBsZXRlPkZlYXR1cmVzIHJlcHJlc2VudGVkIGhhdmUgbm90IGJlZW4gdGVzdGVkIGZvciBjb21w
+bGV0ZW5lc3M8L2NvbXBsZXRlPg0KICAgIDxwb3NhY2M+DQogICAgICA8aG9yaXpwYT4NCiAgICAg
+ICAgPGhvcml6cGFyPkRhdGEgd2VyZSBjb2xsZWN0ZWQgdXNpbmcgbWV0aG9kcyB0aGF0IGhhdmUg
+dW5rbm93biBhY2N1cmFjeSAoRVBBIE5hdGlvbmFsIEdlb3NwYXRpYWwgRGF0YSBQb2xpY3kgW05H
+RFBdIEFjY3VyYWN5IFRpZXIgMTApLiBGb3IgbW9yZSBpbmZvcm1hdGlvbiwgcGxlYXNlIHNlZSBF
+UEEncyBOR0RQIGF0IGh0dHA6Ly9lcGEuZ292L2dlb3NwYXRpYWwvcG9saWNpZXMuaHRtbCk8L2hv
+cml6cGFyPg0KICAgICAgPC9ob3JpenBhPg0KICAgIDwvcG9zYWNjPg0KICA8L2RhdGFxdWFsPg0K
+ICA8c3ByZWY+DQogICAgPGhvcml6c3lzPg0KICAgICAgPHBsYW5hcj4NCiAgICAgICAgPHBsYW5j
+aT4NCiAgICAgICAgICA8cGxhbmNlPmNvb3JkaW5hdGUgcGFpcjwvcGxhbmNlPg0KICAgICAgICAg
+IDxwbGFuZHU+bWV0ZXJzPC9wbGFuZHU+DQogICAgICAgIDwvcGxhbmNpPg0KICAgICAgPC9wbGFu
+YXI+DQogICAgICA8Z2VvZGV0aWM+DQogICAgICAgIDxob3JpemRuPkQgV0dTIDE5ODQ8L2hvcml6
+ZG4+DQogICAgICAgIDxlbGxpcHM+V0dTIDE5ODQ8L2VsbGlwcz4NCiAgICAgICAgPHNlbWlheGlz
+PjYzNzgxMzcuMDwvc2VtaWF4aXM+DQogICAgICAgIDxkZW5mbGF0PjI5OC4yNTcyMjM1NjM8L2Rl
+bmZsYXQ+DQogICAgICA8L2dlb2RldGljPg0KICAgIDwvaG9yaXpzeXM+DQogIDwvc3ByZWY+DQo8
+L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+  <mdFileID>00459D47-0A17-4EBB-81BE-761BF0AD758B</mdFileID>
+</metadata>

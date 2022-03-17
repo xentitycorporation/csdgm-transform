@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>EPA GIS Keyword Thesaurus</themekt>
+				<themekey>Agriculture</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>United States</placekey>
+			</place>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<origin>US Environmental Protection Agency</origin>
+				<title>Concentrated Animal Feeding Operations (CAFOs) per County, US, 2013, US EPA</title>
+				<pubinfo>
+					<publish>U.S. EPA Office of Enforcement and Compliance Assurance (OECA) - Office of Compliance (OC)</publish>
+					<pubplace>Washington, DC</pubplace>
+				</pubinfo>
+				<pubdate>20130509</pubdate>
+				<onlink>https://edg.epa.gov/data/Public/OECA/CAFO_Density.zip</onlink>
+				<onlink>https://geodata.epa.gov/arcgis/rest/services/OECA/CAFO_Density/MapServer</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This downloadable data package contains the following map layer: An ESRI polygon layer which depicts the boundaries of each US county. It has been joined with a US EPA value-added dataset derived from the 2007 USDA Census of Agriculture.  This USDA dataset was procured for EPA through the Office of Water (OW).  Included in this package are a shapefile (v. 10.0), Esri ArcMap map document (v. 10.0) and XML files for this record and the layer level metadata.</abstract>
+			<purpose>The purpose of this downloadable data package is to make US county-level CAFO data available to the public and other interested parties.</purpose>
+		</descript>
+		<timeperd>
+			<current>Publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>2007</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>unknown</update>
+		</status>
+		<accconst>None</accconst>
+		<useconst>None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+		<spdom>
+			<bounding>
+				<westbc>-178.217598</westbc>
+				<eastbc>-66.969271</eastbc>
+				<northbc>71.406235</northbc>
+				<southbc>18.921786</southbc>
+			</bounding>
+		</spdom>
+		<secinfo>
+			<secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+			<secclass>public</secclass>
+			<sechandl>Standard Technical Controls</sechandl>
+		</secinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Enforcement and Compliance Assurance-Office of Compliance</cntorg>
+					<cntper>Kimberly Chavez</cntper>
+				</cntperp>
+				<cntpos>Environmental Protection Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>1200 Pennsylvania Avenue, N.W.</address>
+					<address>Mail Code 2221A</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20460</postal>
+				</cntaddr>
+				<cntvoice>(202) 564-4298</cntvoice>
+				<cntemail>chavez.kimberly@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<mdLang>
+		<languageCode value="eng"/>
+	</mdLang>
+	<mdHrLv>
+		<ScopeCd value="005"/>
+	</mdHrLv>
+	<mdStanName>ArcGIS Metadata</mdStanName>
+	<mdStanVer>1.0</mdStanVer>
+	<dataIdInfo>
+		<dataLang>
+			<languageCode value="eng"/>
+		</dataLang>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox>
+					<westBL>-178.217598</westBL>
+					<eastBL>-66.969271</eastBL>
+					<southBL>18.921786</southBL>
+					<northBL>71.406235</northBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="search">
+					<exTypeCode>1</exTypeCode>
+					<westBL>-178.217598</westBL>
+					<eastBL>-66.969271</eastBL>
+					<northBL>71.406235</northBL>
+					<southBL>18.921786</southBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+	</dataIdInfo>
+	<distInfo>
+		<distTranOps>
+			<transSize>5.606</transSize>
+		</distTranOps>
+	</distInfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>8.9831528411952133e-009</latres>
+				<longres>8.9831528411952133e-009</longres>
+				<geogunit>Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>World Geodetic System 1984</horizdn>
+				<ellips>WGS_1984</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257224</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Enforcement and Compliance Assurance-Office of Compliance</cntorg>
+					<cntper>Kimberly Chavez</cntper>
+				</cntperp>
+				<cntpos>Environmental Protection Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>1200 Pennsylvania Avenue, N.W.</address>
+					<address>Mail Code 2221A</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20460</postal>
+				</cntaddr>
+				<cntvoice>(202) 564-4298</cntvoice>
+				<cntemail>chavez.kimberly@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20211210</metd>
+		<metfrd>20170509</metfrd>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Enforcement and Compliance Assurance-Office of Compliance</cntorg>
+					<cntper>Kimberly Chavez</cntper>
+				</cntorgp>
+				<cntpos>Environmental Protection Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>1200 Pennsylvania Avenue, N.W.</address>
+					<address>Mail Code 2221A</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20460</postal>
+				</cntaddr>
+				<cntvoice>(202) 564-4298</cntvoice>
+				<cntemail>chavez.kimberly@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov</cntinst>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<dataqual>
+		<logic>Tests for integrity have not been performed.</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>20130509</procdate>
+				<procdesc>This layer depicts the boundaries of each US county. A spatial join was completed between the ESRI polygon layer of US Counties and a US EPA value-added dataset derived from the 2007 USDA Census of Agriculture.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+</metadata>

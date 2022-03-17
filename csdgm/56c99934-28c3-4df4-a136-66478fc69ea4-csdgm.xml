@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <Esri>
+    <PublishedDocID>{CAC89A71-0C9F-4B1C-ABE9-E4519202BF4C}</PublishedDocID>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <DataProperties>
+      <itemProps>
+        <imsContentType>002</imsContentType>
+      </itemProps>
+    </DataProperties>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>NAP</ArcGISProfile>
+    <ModDate>20170918</ModDate>
+    <ModTime>7340100</ModTime>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>US EPA Region 9, GIS Center</origin>
+        <pubdate>20120620</pubdate>
+        <title>National Pollution Discharge Elimination System (NPDES) Outfall Points, Region 9, 2007, US EPA Region 9</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>San Francisco, CA</pubplace>
+          <publish>U.S. Environmental Protection Agency, Region 9</publish>
+        </pubinfo>
+        <onlink>https://edg.epa.gov</onlink>
+        <onlink>https://edg.epa.gov/clipship/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Point geospatial dataset representing locations of NPDES outfalls/dischargers for facilities which generally represent the site of the discharge. NPDES (National Pollution Discharge Elimination System) is an EPA permit program that regulates direct discharges from treated waste water that is discharged into waters of the US. Facilities are issued NPDES permits regulating their discharge as required by the Clean Water Act. A facility may have one or more dischargers. The location represents the discharge point of a discrete conveyance such as a pipe or man made ditch.</abstract>
+      <purpose>This data is specifically designed for use with ArcGIS and related software. This data set is useful for determining locations and general information about dischargers.</purpose>
+      <supplinf>The data was extracted from PCS and ICIS and loaded into a spreadsheet. Latitude and longitude data is furnished by the permitted facility and entered into PCS. Latitude-longitude data was generated into a point feature, projected to geographic NAD83. Some discharger locations were acquired from the original permit application.</supplinf>
+    </descript>
+    <timeperd>
+      <current>Publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20120620</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-170.725000</westbc>
+        <eastbc>144.641667</eastbc>
+        <northbc>41.743888</northbc>
+        <southbc>-14.348333</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>California</placekey>
+        <placekey>Arizona</placekey>
+        <placekey>Nevada</placekey>
+        <placekey>Hawaii</placekey>
+        <placekey>Guam</placekey>
+        <placekey>American Samoa</placekey>
+        <placekey>Northern Marianas</placekey>
+      </place>
+      <theme>
+        <themekey>Compliance</themekey>
+        <themekey>environment</themekey>
+        <themekey>NPDES</themekey>
+        <themekey>Waste Water Treatment Plants</themekey>
+        <themekey>Outfalls</themekey>
+        <themekey>Dischargers</themekey>
+        <themekey>Sewage Treatment Plants</themekey>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+    <secinfo>
+      <secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altres>1.000000</altres>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+    <horizsys>
+      <geograph>
+        <latres>0.000001</latres>
+        <longres>0.000001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 1980</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Region 9 NPDES Outfalls</enttypl>
+        <enttypd>Outfalls/dischargers for NPDES permitted facilities</enttypd>
+        <enttypds>PCS/ICIS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>NPDES</attrlabl>
+        <attrdef>Unique Identifier for facility</attrdef>
+        <attrdefs>PCS/ICIS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PIPE</attrlabl>
+        <attrdef>Outfall identifier</attrdef>
+        <attrdefs>PCS/ICIS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CONCAT</attrlabl>
+        <attrdef>Merged of NPDES ID and Pipe number</attrdef>
+        <attrdefs>PCS/ICIS</attrdefs>
+        <attrdomv>
+          <udom>Text - makes this a unique identifier</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAJ_MIN</attrlabl>
+        <attrdef>Major or Minor facility</attrdef>
+        <attrdefs>PCS/ICIS</attrdefs>
+        <attrdomv>
+          <udom>Major or minor facility - text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SIC</attrlabl>
+        <attrdef>Standard Industrial Code</attrdef>
+        <attrdefs>PCS/ICIS</attrdefs>
+        <attrdomv>
+          <udom>Code for type of industry</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SIC_DESCRI</attrlabl>
+        <attrdef>Description of type of industry</attrdef>
+        <attrdefs>PCS/ICIS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FEATURE_DESC</attrlabl>
+        <attrdef>Description of feature</attrdef>
+        <attrdefs>PCS/ICIS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LATITUDE</attrlabl>
+        <attrdef>Latitude value</attrdef>
+        <attrdefs>PCS/ICIS</attrdefs>
+        <attrdomv>
+          <udom>Numeric</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LONGITUDE</attrlabl>
+        <attrdef>Longitude value</attrdef>
+        <attrdefs>PCS/ICIS</attrdefs>
+        <attrdomv>
+          <udom>Numeric</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACCURACY</attrlabl>
+        <attrdef>Accuracy value</attrdef>
+        <attrdefs>PCS/ICIS</attrdefs>
+        <attrdomv>
+          <udom>Numeric</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>METHODE_DESC</attrlabl>
+        <attrdef>Locational method description</attrdef>
+        <attrdefs>PCS/ICIS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SCALE_DESC</attrlabl>
+        <attrdef>Locational source scale</attrdef>
+        <attrdefs>PCS/ICIS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REF_POINT</attrlabl>
+        <attrdef>Reference point - what point represents</attrdef>
+        <attrdefs>PCS/ICIS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Entity Attribute Overview 1: Insert your overview in the database table 2e_Citation</eaover>
+      <eadetcit>Citation 1: Insert your citations in the database table 2e_Citation</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20211028</metd>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metfrd>20120421</metfrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <dataqual>
+    <logic>Tests for integrity have not been performed.</logic>
+    <complete>Features represented have not been tested for completeness</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>20111228</procdate>
+        <procdesc>Outfall data was extracted from the PCS and ICIS databases at the US EPA Region 9. The PCS Database Administrator facilitated the data extraction. Latitude-longitude values were furnished by the regulated facilities SIC code = 4952 was used to extract outfalls for waste water treatment plants.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20120529</procdate>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20120601</procdate>
+        <procdesc>QA'ed location by proximity to facility location.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <mdLang>
+    <languageCode value="eng"/>
+    <countryCode value="US"/>
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004"/>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Cheryl Henley</rpIndName>
+    <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+    <rpPosName>GIS Coordinator</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>415-972-3586</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>75 Hawthorne Street</delPoint>
+        <delPoint>MTS-6-1</delPoint>
+        <city>San Francisco</city>
+        <adminArea>CA</adminArea>
+        <postCode>94105</postCode>
+        <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+      </cntAddress>
+      <cntInstr>http://www.epa.gov/region09/</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007"/>
+    </role>
+  </mdContact>
+  <mdDateSt>20170918</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpIndName>Cheryl Henley</rpIndName>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+        <rpPosName>GIS Coordinator</rpPosName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>415-972-3586</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>MTS-6-1</delPoint>
+            <delPoint>75 Hawthorne Street</delPoint>
+            <city>San Francisco</city>
+            <adminArea>CA</adminArea>
+            <postCode>94105</postCode>
+            <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+          </cntAddress>
+          <cntInstr>http://www.epa.gov/region09/</cntInstr>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005"/>
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>https://edg.epa.gov</linkage>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>https://edg.epa.gov/clipship/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>National Pollution Discharge Elimination System (NPDES) Outfall Points, Region 9, 2007, US EPA Region 9</resTitle>
+      <date>
+        <pubDate>2012-06-20</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>US EPA Region 9, GIS Center</rpOrgName>
+        <role>
+          <RoleCd value="006"/>
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint>San Francisco, CA</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010"/>
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005"/>
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Point geospatial dataset representing locations of NPDES outfalls/dischargers for facilities which generally represent the site of the discharge. NPDES (National Pollution Discharge Elimination System) is an EPA permit program that regulates direct discharges from treated waste water that is discharged into waters of the US. Facilities are issued NPDES permits regulating their discharge as required by the Clean Water Act. A facility may have one or more dischargers. The location represents the discharge point of a discrete conveyance such as a pipe or man made ditch.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>This data is specifically designed for use with ArcGIS and related software. This data set is useful for determining locations and general information about dischargers.</idPurp>
+    <idStatus>
+      <ProgCd value="001"/>
+    </idStatus>
+    <idPoC>
+      <rpIndName>Cheryl Henley</rpIndName>
+      <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+      <rpPosName>GIS Coordinator</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>415-972-3586</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>MTS-6-1</delPoint>
+          <delPoint>75 Hawthorne Street</delPoint>
+          <city>San Francisco</city>
+          <adminArea>CA</adminArea>
+          <postCode>94105</postCode>
+          <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+        </cntAddress>
+        <cntInstr>http://www.epa.gov/region09/</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007"/>
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="008"/>
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>Guam</keyword>
+      <keyword>Arizona</keyword>
+      <keyword>California</keyword>
+      <keyword>Nevada</keyword>
+      <keyword>American Samoa</keyword>
+      <keyword>Hawaii</keyword>
+      <keyword>Northern Marianas</keyword>
+    </placeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>EPA GIS Keyword Thesaurus</resTitle>
+      </thesaName>
+      <keyword>Compliance</keyword>
+    </themeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Category</resTitle>
+      </thesaName>
+      <keyword>environment</keyword>
+    </themeKeys>
+    <themeKeys>
+      <keyword>NPDES</keyword>
+      <keyword>Waste Water Treatment Plants</keyword>
+      <keyword>Outfalls</keyword>
+      <keyword>Dischargers</keyword>
+      <keyword>Sewage Treatment Plants</keyword>
+    </themeKeys>
+    <resConst>
+      <SecConsts>
+        <classSys>http://project-open-data.github.io/schema/#accessLevel</classSys>
+        <handDesc>Standard Technical Controls</handDesc>
+        <class>
+          <ClasscationCd value="001">Unclassified</ClasscationCd>
+        </class>
+      </SecConsts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001"/>
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng"/>
+    </dataLang>
+    <envirDesc>Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-170.725</westBL>
+          <eastBL>144.641667</eastBL>
+          <southBL>-14.348333</southBL>
+          <northBL>41.743888</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>Publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2012-06-20</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>The data was extracted from PCS and ICIS and loaded into a spreadsheet. Latitude and longitude data is furnished by the permitted facility and entered into PCS. Latitude-longitude data was generated into a point feature, projected to geographic NAD83. Some discharger locations were acquired from the original permit application.</suppInfo>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="009">Unrestricted License</RestrictCd>
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="">Empty</RestrictCd>
+        </useConsts>
+        <othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+        <useLimit>EPA Public Domain License</useLimit>
+      </LegConsts>
+    </resConst>
+    <tpCat>
+      <TopicCatCd value="007"/>
+    </tpCat>
+  </dataIdInfo>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="012"/>
+    </maintFreq>
+    <dateNext>20120421</dateNext>
+  </mdMaint>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005"/>
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Tests for integrity have not been performed.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Features represented have not been tested for completeness</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html</measDesc>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Outfall data was extracted from the PCS and ICIS databases at the US EPA Region 9. The PCS Database Administrator facilitated the data extraction. Latitude-longitude values were furnished by the regulated facilities SIC code = 4952 was used to extract outfalls for waste water treatment plants.</stepDesc>
+        <stepDateTm>2011-12-28</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>QA'ed location by proximity to facility location.</stepDesc>
+        <stepDateTm>2012-06-01</stepDateTm>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="421eaf738e4536bf48ab2ba7410e389e" EsriPropertyType="Base64" SourceMetadataSchema="fgdc" SourceMetadataDocId="{CAC89A71-0C9F-4B1C-ABE9-E4519202BF4C}">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPEVz
+cmk+DQogICAgPFB1Ymxpc2hlZERvY0lEPntDQUM4OUE3MS0wQzlGLTRCMUMtQUJFOS1FNDUxOTIw
+MkJGNEN9PC9QdWJsaXNoZWREb2NJRD4NCiAgPC9Fc3JpPg0KICA8aWRpbmZvPg0KICAgIDxjaXRh
+dGlvbj4NCiAgICAgIDxjaXRlaW5mbz4NCiAgICAgICAgPG9yaWdpbj5VUyBFUEEgUmVnaW9uIDks
+IEdJUyBDZW50ZXI8L29yaWdpbj4NCiAgICAgICAgPHB1YmRhdGU+MjAxMjA2MjA8L3B1YmRhdGU+
+DQogICAgICAgIDx0aXRsZT5SZWdpb24gOSBOUERFUyBPdXRmYWxsczwvdGl0bGU+DQogICAgICAg
+IDxnZW9mb3JtPnZlY3RvciBkaWdpdGFsIGRhdGE8L2dlb2Zvcm0+DQogICAgICAgIDxwdWJpbmZv
+Pg0KICAgICAgICAgIDxwdWJwbGFjZT5TYW4gRnJhbmNpc2NvLCBDQTwvcHVicGxhY2U+DQogICAg
+ICAgICAgPHB1Ymxpc2g+VS5TLiBFbnZpcm9ubWVudGFsIFByb3RlY3Rpb24gQWdlbmN5LCBSZWdp
+b24gOTwvcHVibGlzaD4NCiAgICAgICAgPC9wdWJpbmZvPg0KICAgICAgICA8b25saW5rPmh0dHBz
+Oi8vZWRnLmVwYS5nb3Y8L29ubGluaz4NCiAgICAgICAgPG9ubGluaz5odHRwczovL2VkZy5lcGEu
+Z292L2NsaXBzaGlwLzwvb25saW5rPg0KICAgICAgPC9jaXRlaW5mbz4NCiAgICA8L2NpdGF0aW9u
+Pg0KICAgIDxkZXNjcmlwdD4NCiAgICAgIDxhYnN0cmFjdD5Qb2ludCBnZW9zcGF0aWFsIGRhdGFz
+ZXQgcmVwcmVzZW50aW5nIGxvY2F0aW9ucyBvZiBOUERFUyBvdXRmYWxscy9kaXNjaGFyZ2VycyBm
+b3IgZmFjaWxpdGllcyB3aGljaCBnZW5lcmFsbHkgcmVwcmVzZW50IHRoZSBzaXRlIG9mIHRoZSBk
+aXNjaGFyZ2UuIE5QREVTIChOYXRpb25hbCBQb2xsdXRpb24gRGlzY2hhcmdlIEVsaW1pbmF0aW9u
+IFN5c3RlbSkgaXMgYW4gRVBBIHBlcm1pdCBwcm9ncmFtIHRoYXQgcmVndWxhdGVzIGRpcmVjdCBk
+aXNjaGFyZ2VzIGZyb20gdHJlYXRlZCB3YXN0ZSB3YXRlciB0aGF0IGlzIGRpc2NoYXJnZWQgaW50
+byB3YXRlcnMgb2YgdGhlIFVTLiBGYWNpbGl0aWVzIGFyZSBpc3N1ZWQgTlBERVMgcGVybWl0cyBy
+ZWd1bGF0aW5nIHRoZWlyIGRpc2NoYXJnZSBhcyByZXF1aXJlZCBieSB0aGUgQ2xlYW4gV2F0ZXIg
+QWN0LiBBIGZhY2lsaXR5IG1heSBoYXZlIG9uZSBvciBtb3JlIGRpc2NoYXJnZXJzLiBUaGUgbG9j
+YXRpb24gcmVwcmVzZW50cyB0aGUgZGlzY2hhcmdlIHBvaW50IG9mIGEgZGlzY3JldGUgY29udmV5
+YW5jZSBzdWNoIGFzIGEgcGlwZSBvciBtYW4gbWFkZSBkaXRjaC48L2Fic3RyYWN0Pg0KICAgICAg
+PHB1cnBvc2U+VGhpcyBkYXRhIGlzIHNwZWNpZmljYWxseSBkZXNpZ25lZCBmb3IgdXNlIHdpdGgg
+QXJjR0lTIGFuZCByZWxhdGVkIHNvZnR3YXJlLiBUaGlzIGRhdGEgc2V0IGlzIHVzZWZ1bCBmb3Ig
+ZGV0ZXJtaW5pbmcgbG9jYXRpb25zIGFuZCBnZW5lcmFsIGluZm9ybWF0aW9uIGFib3V0IGRpc2No
+YXJnZXJzLjwvcHVycG9zZT4NCiAgICAgIDxzdXBwbGluZj5UaGUgZGF0YSB3YXMgZXh0cmFjdGVk
+IGZyb20gUENTIGFuZCBJQ0lTIGFuZCBsb2FkZWQgaW50byBhIHNwcmVhZHNoZWV0LiBMYXRpdHVk
+ZSBhbmQgbG9uZ2l0dWRlIGRhdGEgaXMgZnVybmlzaGVkIGJ5IHRoZSBwZXJtaXR0ZWQgZmFjaWxp
+dHkgYW5kIGVudGVyZWQgaW50byBQQ1MuIExhdGl0dWRlLWxvbmdpdHVkZSBkYXRhIHdhcyBnZW5l
+cmF0ZWQgaW50byBhIHBvaW50IGZlYXR1cmUsIHByb2plY3RlZCB0byBnZW9ncmFwaGljIE5BRDgz
+LiBTb21lIGRpc2NoYXJnZXIgbG9jYXRpb25zIHdlcmUgYWNxdWlyZWQgZnJvbSB0aGUgb3JpZ2lu
+YWwgcGVybWl0IGFwcGxpY2F0aW9uLjwvc3VwcGxpbmY+DQogICAgPC9kZXNjcmlwdD4NCiAgICA8
+dGltZXBlcmQ+DQogICAgICA8Y3VycmVudD5QdWJsaWNhdGlvbiBkYXRlPC9jdXJyZW50Pg0KICAg
+ICAgPHRpbWVpbmZvPg0KICAgICAgICA8c25nZGF0ZT4NCiAgICAgICAgICA8Y2FsZGF0ZT4yMDEy
+MDYyMDwvY2FsZGF0ZT4NCiAgICAgICAgPC9zbmdkYXRlPg0KICAgICAgPC90aW1laW5mbz4NCiAg
+ICA8L3RpbWVwZXJkPg0KICAgIDxzdGF0dXM+DQogICAgICA8cHJvZ3Jlc3M+Q29tcGxldGU8L3By
+b2dyZXNzPg0KICAgICAgPHVwZGF0ZT5hbm51YWxseTwvdXBkYXRlPg0KICAgIDwvc3RhdHVzPg0K
+ICAgIDxzcGRvbT4NCiAgICAgIDxib3VuZGluZz4NCiAgICAgICAgPHdlc3RiYz4tMTcwLjcyNTAw
+MDwvd2VzdGJjPg0KICAgICAgICA8ZWFzdGJjPjE0NC42NDE2Njc8L2Vhc3RiYz4NCiAgICAgICAg
+PG5vcnRoYmM+NDEuNzQzODg4PC9ub3J0aGJjPg0KICAgICAgICA8c291dGhiYz4tMTQuMzQ4MzMz
+PC9zb3V0aGJjPg0KICAgICAgPC9ib3VuZGluZz4NCiAgICA8L3NwZG9tPg0KICAgIDxrZXl3b3Jk
+cz4NCiAgICAgIDx0aGVtZT4NCiAgICAgICAgPHRoZW1la3Q+Tm9uZTwvdGhlbWVrdD4NCiAgICAg
+ICAgPHRoZW1la2V5Pk5QREVTPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5Pk91dGZhbGxz
+PC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PkRpc2NoYXJnZXJzPC90aGVtZWtleT4NCiAg
+ICAgICAgPHRoZW1la2V5Pldhc3RlIFdhdGVyIFRyZWF0bWVudCBQbGFudHM8L3RoZW1la2V5Pg0K
+ICAgICAgICA8dGhlbWVrZXk+U2V3YWdlIFRyZWF0bWVudCBQbGFudHM8L3RoZW1la2V5Pg0KICAg
+ICAgPC90aGVtZT4NCiAgICAgIDx0aGVtZT4NCiAgICAgICAgPHRoZW1la3Q+SVNPIDE5MTE1IFRv
+cGljIENhdGVnb3J5PC90aGVtZWt0Pg0KICAgICAgICA8dGhlbWVrZXk+ZW52aXJvbm1lbnQ8L3Ro
+ZW1la2V5Pg0KICAgICAgPC90aGVtZT4NCiAgICAgIDx0aGVtZT4NCiAgICAgICAgPHRoZW1la3Q+
+RVBBIEdJUyBLZXl3b3JkIFRoZXNhdXJ1czwvdGhlbWVrdD4NCiAgICAgICAgPHRoZW1la2V5PkNv
+bXBsaWFuY2U8L3RoZW1la2V5Pg0KICAgICAgPC90aGVtZT4NCiAgICAgIDxwbGFjZT4NCiAgICAg
+ICAgPHBsYWNla2V5PkNhbGlmb3JuaWE8L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+QXJp
+em9uYTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtleT5OZXZhZGE8L3BsYWNla2V5Pg0KICAg
+ICAgICA8cGxhY2VrZXk+SGF3YWlpPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5Pkd1YW08
+L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+QW1lcmljYW4gU2Ftb2E8L3BsYWNla2V5Pg0K
+ICAgICAgICA8cGxhY2VrZXk+Tm9ydGhlcm4gTWFyaWFuYXM8L3BsYWNla2V5Pg0KICAgICAgPC9w
+bGFjZT4NCiAgICA8L2tleXdvcmRzPg0KICAgIDxhY2Njb25zdD5Ob25lLjwvYWNjY29uc3Q+DQog
+ICAgPHVzZWNvbnN0Pk5vbmU8L3VzZWNvbnN0Pg0KICAgIDxuYXRpdmU+TWljcm9zb2Z0IFdpbmRv
+d3MgMjAwMCBWZXJzaW9uIDUuMiAoQnVpbGQgMzc5MCkgU2VydmljZSBQYWNrIDI7IEVTUkkgQXJj
+Q2F0YWxvZyA5LjIuMi4xMzUwPC9uYXRpdmU+DQogICAgPHNlY2luZm8+DQogICAgICA8c2Vjc3lz
+Pmh0dHA6Ly9wcm9qZWN0LW9wZW4tZGF0YS5naXRodWIuaW8vc2NoZW1hLyNhY2Nlc3NMZXZlbDwv
+c2Vjc3lzPg0KICAgICAgPHNlY2NsYXNzPnB1YmxpYzwvc2VjY2xhc3M+DQogICAgICA8c2VjaGFu
+ZGw+U3RhbmRhcmQgVGVjaG5pY2FsIENvbnRyb2xzPC9zZWNoYW5kbD4NCiAgICA8L3NlY2luZm8+
+DQogICAgPHB0Y29udGFjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAg
+ICAgICAgIDxjbnRvcmc+VS5TLiBFbnZpcm9ubWVudGFsIFByb3RlY3Rpb24gQWdlbmN5LCBSZWdp
+b24gOTwvY250b3JnPg0KICAgICAgICAgIDxjbnRwZXI+Q2hlcnlsIEhlbmxleTwvY250cGVyPg0K
+ICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRwb3M+R0lTIENvb3JkaW5hdG9yPC9jbnRw
+b3M+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBw
+aHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz43NSBIYXd0aG9y
+bmUgU3RyZWV0PC9hZGRyZXNzPg0KICAgICAgICAgIDxhZGRyZXNzPk1UUy02LTE8L2FkZHJlc3M+
+DQogICAgICAgICAgPGNpdHk+U2FuIEZyYW5jaXNjbzwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+
+Q0E8L3N0YXRlPg0KICAgICAgICAgIDxwb3N0YWw+OTQxMDU8L3Bvc3RhbD4NCiAgICAgICAgPC9j
+bnRhZGRyPg0KICAgICAgICA8Y250dm9pY2U+NDE1LTk3Mi0zNTg2PC9jbnR2b2ljZT4NCiAgICAg
+ICAgPGNudGVtYWlsPmhlbmxleS5jaGVyeWxAZXBhLmdvdjwvY250ZW1haWw+DQogICAgICAgIDxj
+bnRpbnN0Pmh0dHA6Ly93d3cuZXBhLmdvdi9yZWdpb24wOS88L2NudGluc3Q+DQogICAgICA8L2Nu
+dGluZm8+DQogICAgPC9wdGNvbnRhYz4NCiAgPC9pZGluZm8+DQogIDxzcGRvaW5mbz4NCiAgICA8
+ZGlyZWN0PlZlY3RvcjwvZGlyZWN0Pg0KICA8L3NwZG9pbmZvPg0KICA8c3ByZWY+DQogICAgPHZl
+cnRkZWY+DQogICAgICA8YWx0c3lzPg0KICAgICAgICA8YWx0cmVzPjEuMDAwMDAwPC9hbHRyZXM+
+DQogICAgICAgIDxhbHRlbmM+RXhwbGljaXQgZWxldmF0aW9uIGNvb3JkaW5hdGUgaW5jbHVkZWQg
+d2l0aCBob3Jpem9udGFsIGNvb3JkaW5hdGVzPC9hbHRlbmM+DQogICAgICA8L2FsdHN5cz4NCiAg
+ICA8L3ZlcnRkZWY+DQogICAgPGhvcml6c3lzPg0KICAgICAgPGdlb2dyYXBoPg0KICAgICAgICA8
+bGF0cmVzPjAuMDAwMDAxPC9sYXRyZXM+DQogICAgICAgIDxsb25ncmVzPjAuMDAwMDAxPC9sb25n
+cmVzPg0KICAgICAgICA8Z2VvZ3VuaXQ+RGVjaW1hbCBkZWdyZWVzPC9nZW9ndW5pdD4NCiAgICAg
+IDwvZ2VvZ3JhcGg+DQogICAgICA8Z2VvZGV0aWM+DQogICAgICAgIDxob3JpemRuPk5vcnRoIEFt
+ZXJpY2FuIERhdHVtIG9mIDE5ODM8L2hvcml6ZG4+DQogICAgICAgIDxlbGxpcHM+R2VvZGV0aWMg
+UmVmZXJlbmNlIFN5c3RlbSAxOTgwPC9lbGxpcHM+DQogICAgICAgIDxzZW1pYXhpcz42Mzc4MTM3
+LjAwMDAwMDwvc2VtaWF4aXM+DQogICAgICAgIDxkZW5mbGF0PjI5OC4yNTcyMjI8L2RlbmZsYXQ+
+DQogICAgICA8L2dlb2RldGljPg0KICAgIDwvaG9yaXpzeXM+DQogIDwvc3ByZWY+DQogIDxlYWlu
+Zm8+DQogICAgPGRldGFpbGVkPg0KICAgICAgPGVudHR5cD4NCiAgICAgICAgPGVudHR5cGw+UmVn
+aW9uIDkgTlBERVMgT3V0ZmFsbHM8L2VudHR5cGw+DQogICAgICAgIDxlbnR0eXBkPk91dGZhbGxz
+L2Rpc2NoYXJnZXJzIGZvciBOUERFUyBwZXJtaXR0ZWQgZmFjaWxpdGllczwvZW50dHlwZD4NCiAg
+ICAgICAgPGVudHR5cGRzPlBDUy9JQ0lTPC9lbnR0eXBkcz4NCiAgICAgIDwvZW50dHlwPg0KICAg
+ICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5OUERFUzwvYXR0cmxhYmw+DQogICAgICAgIDxh
+dHRyZGVmPlVuaXF1ZSBJZGVudGlmaWVyIGZvciBmYWNpbGl0eTwvYXR0cmRlZj4NCiAgICAgICAg
+PGF0dHJkZWZzPlBDUy9JQ0lTPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAg
+ICAgIDx1ZG9tPlRleHQ8L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+
+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlBJUEU8L2F0dHJsYWJsPg0KICAgICAg
+ICA8YXR0cmRlZj5PdXRmYWxsIGlkZW50aWZpZXI8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVm
+cz5QQ1MvSUNJUzwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRv
+bT5UZXh0PC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAg
+PGF0dHI+DQogICAgICAgIDxhdHRybGFibD5DT05DQVQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0
+cmRlZj5NZXJnZWQgb2YgTlBERVMgSUQgYW5kIFBpcGUgbnVtYmVyPC9hdHRyZGVmPg0KICAgICAg
+ICA8YXR0cmRlZnM+UENTL0lDSVM8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAg
+ICAgICAgPHVkb20+VGV4dCAtIG1ha2VzIHRoaXMgYSB1bmlxdWUgaWRlbnRpZmllcjwvdWRvbT4N
+CiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAg
+ICA8YXR0cmxhYmw+TUFKX01JTjwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPk1ham9yIG9y
+IE1pbm9yIGZhY2lsaXR5PC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+UENTL0lDSVM8L2F0
+dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+TWFqb3Igb3IgbWlu
+b3IgZmFjaWxpdHkgLSB0ZXh0PC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9h
+dHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5TSUM8L2F0dHJsYWJsPg0KICAg
+ICAgICA8YXR0cmRlZj5TdGFuZGFyZCBJbmR1c3RyaWFsIENvZGU8L2F0dHJkZWY+DQogICAgICAg
+IDxhdHRyZGVmcz5QQ1MvSUNJUzwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAg
+ICAgICA8dWRvbT5Db2RlIGZvciB0eXBlIG9mIGluZHVzdHJ5PC91ZG9tPg0KICAgICAgICA8L2F0
+dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5T
+SUNfREVTQ1JJPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+RGVzY3JpcHRpb24gb2YgdHlw
+ZSBvZiBpbmR1c3RyeTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlBDUy9JQ0lTPC9hdHRy
+ZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlRleHQ8L3Vkb20+DQog
+ICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAg
+PGF0dHJsYWJsPkZFQVRVUkVfREVTQzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkRlc2Ny
+aXB0aW9uIG9mIGZlYXR1cmU8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5QQ1MvSUNJUzwv
+YXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5UZXh0PC91ZG9t
+Pg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAg
+ICAgIDxhdHRybGFibD5MQVRJVFVERTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkxhdGl0
+dWRlIHZhbHVlPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+UENTL0lDSVM8L2F0dHJkZWZz
+Pg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+TnVtZXJpYzwvdWRvbT4NCiAg
+ICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+YXR0cmxhYmw+TE9OR0lUVURFPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+TG9uZ2l0dWRl
+IHZhbHVlPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+UENTL0lDSVM8L2F0dHJkZWZzPg0K
+ICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+TnVtZXJpYzwvdWRvbT4NCiAgICAg
+ICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0
+cmxhYmw+QUNDVVJBQ1k8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5BY2N1cmFjeSB2YWx1
+ZTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlBDUy9JQ0lTPC9hdHRyZGVmcz4NCiAgICAg
+ICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPk51bWVyaWM8L3Vkb20+DQogICAgICAgIDwv
+YXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJs
+Pk1FVEhPREVfREVTQzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkxvY2F0aW9uYWwgbWV0
+aG9kIGRlc2NyaXB0aW9uPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+UENTL0lDSVM8L2F0
+dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+VGV4dDwvdWRvbT4N
+CiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAg
+ICA8YXR0cmxhYmw+U0NBTEVfREVTQzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkxvY2F0
+aW9uYWwgc291cmNlIHNjYWxlPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+UENTL0lDSVM8
+L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+VGV4dDwvdWRv
+bT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAg
+ICAgICA8YXR0cmxhYmw+UkVGX1BPSU5UPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+UmVm
+ZXJlbmNlIHBvaW50IC0gd2hhdCBwb2ludCByZXByZXNlbnRzPC9hdHRyZGVmPg0KICAgICAgICA8
+YXR0cmRlZnM+UENTL0lDSVM8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAg
+ICAgPHVkb20+VGV4dDwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4N
+CiAgICA8L2RldGFpbGVkPg0KICAgIDxvdmVydmlldz4NCiAgICAgIDxlYW92ZXI+RW50aXR5IEF0
+dHJpYnV0ZSBPdmVydmlldyAxOiBJbnNlcnQgeW91ciBvdmVydmlldyBpbiB0aGUgZGF0YWJhc2Ug
+dGFibGUgMmVfQ2l0YXRpb248L2Vhb3Zlcj4NCiAgICAgIDxlYWRldGNpdD5DaXRhdGlvbiAxOiBJ
+bnNlcnQgeW91ciBjaXRhdGlvbnMgaW4gdGhlIGRhdGFiYXNlIHRhYmxlIDJlX0NpdGF0aW9uPC9l
+YWRldGNpdD4NCiAgICA8L292ZXJ2aWV3Pg0KICA8L2VhaW5mbz4NCiAgPGRpc3RpbmZvPg0KICAg
+IDxyZXNkZXNjPkRvd25sb2FkYWJsZSBEYXRhPC9yZXNkZXNjPg0KICAgIDxkaXN0bGlhYj5odHRw
+czovL2VkZy5lcGEuZ292L0VQQV9EYXRhX0xpY2Vuc2UuaHRtbDwvZGlzdGxpYWI+DQogICAgPGRp
+c3RyaWI+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAgPGNudG9yZ3A+DQogICAgICAgICAgPGNu
+dG9yZz5VLlMuIEVudmlyb25tZW50YWwgUHJvdGVjdGlvbiBBZ2VuY3ksIFJlZ2lvbiA5PC9jbnRv
+cmc+DQogICAgICAgICAgPGNudHBlcj5DaGVyeWwgSGVubGV5PC9jbnRwZXI+DQogICAgICAgIDwv
+Y250b3JncD4NCiAgICAgICAgPGNudHBvcz5HSVMgQ29vcmRpbmF0b3I8L2NudHBvcz4NCiAgICAg
+ICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsIGFk
+ZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAgICAgIDxhZGRyZXNzPjc1IEhhd3Rob3JuZSBTdHJlZXQ8
+L2FkZHJlc3M+DQogICAgICAgICAgPGFkZHJlc3M+TVRTLTYtMTwvYWRkcmVzcz4NCiAgICAgICAg
+ICA8Y2l0eT5TYW4gRnJhbmNpc2NvPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5DQTwvc3RhdGU+
+DQogICAgICAgICAgPHBvc3RhbD45NDEwNTwvcG9zdGFsPg0KICAgICAgICA8L2NudGFkZHI+DQog
+ICAgICAgIDxjbnR2b2ljZT40MTUtOTcyLTM1ODY8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZW1h
+aWw+aGVubGV5LmNoZXJ5bEBlcGEuZ292PC9jbnRlbWFpbD4NCiAgICAgICAgPGNudGluc3Q+aHR0
+cDovL3d3dy5lcGEuZ292L3JlZ2lvbjA5LzwvY250aW5zdD4NCiAgICAgIDwvY250aW5mbz4NCiAg
+ICA8L2Rpc3RyaWI+DQogIDwvZGlzdGluZm8+DQogIDxtZXRhaW5mbz4NCiAgICA8bWV0ZD4yMDA4
+MDQyMTwvbWV0ZD4NCiAgICA8bWV0c3Rkbj5GR0RDIENvbnRlbnQgU3RhbmRhcmRzIGZvciBEaWdp
+dGFsIEdlb3NwYXRpYWwgTWV0YWRhdGE8L21ldHN0ZG4+DQogICAgPG1ldHN0ZHY+RkdEQy1TVEQt
+MDAxLTE5OTg8L21ldHN0ZHY+DQogICAgPG1ldHRjPmxvY2FsIHRpbWU8L21ldHRjPg0KICAgIDxt
+ZXRmcmQ+MjAxMjA0MjE8L21ldGZyZD4NCiAgICA8bWV0Yz4NCiAgICAgIDxjbnRpbmZvPg0KICAg
+ICAgICA8Y250b3JncD4NCiAgICAgICAgICA8Y250b3JnPlUuUy4gRW52aXJvbm1lbnRhbCBQcm90
+ZWN0aW9uIEFnZW5jeSwgUmVnaW9uIDk8L2NudG9yZz4NCiAgICAgICAgICA8Y250cGVyPkNoZXJ5
+bCBIZW5sZXk8L2NudHBlcj4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICA8Y250cG9zPkdJ
+UyBDb29yZGluYXRvcjwvY250cG9zPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRk
+cnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAg
+PGFkZHJlc3M+NzUgSGF3dGhvcm5lIFN0cmVldDwvYWRkcmVzcz4NCiAgICAgICAgICA8YWRkcmVz
+cz5NVFMtNi0xPC9hZGRyZXNzPg0KICAgICAgICAgIDxjaXR5PlNhbiBGcmFuY2lzY288L2NpdHk+
+DQogICAgICAgICAgPHN0YXRlPkNBPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjk0MTA1PC9w
+b3N0YWw+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPjQxNS05NzItMzU4
+NjwvY250dm9pY2U+DQogICAgICAgIDxjbnRlbWFpbD5oZW5sZXkuY2hlcnlsQGVwYS5nb3Y8L2Nu
+dGVtYWlsPg0KICAgICAgICA8Y250aW5zdD5odHRwOi8vd3d3LmVwYS5nb3YvcmVnaW9uMDkvPC9j
+bnRpbnN0Pg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvbWV0Yz4NCiAgPC9tZXRhaW5mbz4NCiAg
+PGRhdGFJZEluZm8+DQogICAgPGVudmlyRGVzYz5NaWNyb3NvZnQgV2luZG93cyAyMDAwIFZlcnNp
+b24gNS4yIChCdWlsZCAzNzkwKSBTZXJ2aWNlIFBhY2sgMjsgRVNSSSBBcmNDYXRhbG9nIDkuMi4y
+LjEzNTA8L2VudmlyRGVzYz4NCiAgICA8ZGF0YUxhbmc+DQogICAgICA8bGFuZ3VhZ2VDb2RlIHZh
+bHVlPSJlbiIgLz4NCiAgICAgIDxjb3VudHJ5Q29kZSB2YWx1ZT0iVVMiIC8+DQogICAgPC9kYXRh
+TGFuZz4NCiAgICA8Z2VvQm94IGVzcmlFeHRlbnRUeXBlPSJkZWNkZWdyZWVzIj4NCiAgICAgIDx3
+ZXN0Qkw+LTE3MC43MjU8L3dlc3RCTD4NCiAgICAgIDxub3J0aEJMPjQxLjc0Mzg4ODwvbm9ydGhC
+TD4NCiAgICAgIDxzb3V0aEJMPi0xNC4zNDgzMzM8L3NvdXRoQkw+DQogICAgICA8ZWFzdEJMPjE0
+NC42NDE2Njc8L2Vhc3RCTD4NCiAgICAgIDxleFR5cGVDb2RlPjE8L2V4VHlwZUNvZGU+DQogICAg
+PC9nZW9Cb3g+DQogICAgPGlkQ2l0YXRpb24+DQogICAgICA8cmVzVGl0bGU+U0RFLlNERS5SOV9O
+UERFU193d3RwX291dDwvcmVzVGl0bGU+DQogICAgICA8cHJlc0Zvcm0+DQogICAgICAgIDxQcmVz
+Rm9ybUNkIHZhbHVlPSIwMDUiIC8+DQogICAgICA8L3ByZXNGb3JtPg0KICAgIDwvaWRDaXRhdGlv
+bj4NCiAgICA8c3BhdFJwVHlwZT4NCiAgICAgIDxTcGF0UmVwVHlwQ2QgdmFsdWU9IjAwMSIgLz4N
+CiAgICA8L3NwYXRScFR5cGU+DQogICAgPGRhdGFFeHQ+DQogICAgICA8Z2VvRWxlPg0KICAgICAg
+ICA8R2VvQm5kQm94IGVzcmlFeHRlbnRUeXBlPSJuYXRpdmUiPg0KICAgICAgICAgIDx3ZXN0Qkw+
+LTE3MC43MjU8L3dlc3RCTD4NCiAgICAgICAgICA8bm9ydGhCTD40MS43NDM4ODg8L25vcnRoQkw+
+DQogICAgICAgICAgPHNvdXRoQkw+LTE0LjM0ODMzMzwvc291dGhCTD4NCiAgICAgICAgICA8ZWFz
+dEJMPjE0NC42NDE2Njc8L2Vhc3RCTD4NCiAgICAgICAgICA8ZXhUeXBlQ29kZT4xPC9leFR5cGVD
+b2RlPg0KICAgICAgICA8L0dlb0JuZEJveD4NCiAgICAgIDwvZ2VvRWxlPg0KICAgIDwvZGF0YUV4
+dD4NCiAgPC9kYXRhSWRJbmZvPg0KICA8ZGlzdEluZm8+DQogICAgPGRpc3RyaWJ1dG9yPg0KICAg
+ICAgPGRpc3RvclRyYW4+DQogICAgICAgIDxvbkxpbmVTcmM+DQogICAgICAgICAgPG9yRGVzYz4w
+MDI8L29yRGVzYz4NCiAgICAgICAgICA8cHJvdG9jb2w+QXJjU0RFIENvbm5lY3Rpb248L3Byb3Rv
+Y29sPg0KICAgICAgICAgIDxsaW5rYWdlPlNlcnZlcj1lMDkwOXBzZnBrMDAzLmFhLmFkLmVwYS5n
+b3Y7IFNlcnZpY2U9NTE1MTsgRGF0YWJhc2U9UjlHREw7IFVzZXI9UjlHREw7IFZlcnNpb249c2Rl
+LkRFRkFVTFQ8L2xpbmthZ2U+DQogICAgICAgIDwvb25MaW5lU3JjPg0KICAgICAgPC9kaXN0b3JU
+cmFuPg0KICAgICAgPGRpc3RvckZvcm1hdD4NCiAgICAgICAgPGZvcm1hdE5hbWU+U0RFIEZlYXR1
+cmUgQ2xhc3M8L2Zvcm1hdE5hbWU+DQogICAgICA8L2Rpc3RvckZvcm1hdD4NCiAgICA8L2Rpc3Ry
+aWJ1dG9yPg0KICAgIDxkaXN0Rm9ybWF0Pg0KICAgICAgPGZvcm1hdE5hbWU+RmlsZSBHZW9kYXRh
+YmFzZSBGZWF0dXJlIENsYXNzPC9mb3JtYXROYW1lPg0KICAgIDwvZGlzdEZvcm1hdD4NCiAgICA8
+ZGlzdFRyYW5PcHM+DQogICAgICA8dHJhbnNTaXplPjAuMDEyPC90cmFuc1NpemU+DQogICAgPC9k
+aXN0VHJhbk9wcz4NCiAgPC9kaXN0SW5mbz4NCiAgPG1kQ2hhcj4NCiAgICA8Q2hhclNldENkIHZh
+bHVlPSIwMDQiIC8+DQogIDwvbWRDaGFyPg0KICA8bWREYXRlU3Q+MjAwODA0MjE8L21kRGF0ZVN0
+Pg0KICA8bWRIckx2Pg0KICAgIDxTY29wZUNkIHZhbHVlPSIwMDUiIC8+DQogIDwvbWRIckx2Pg0K
+ICA8bWRIckx2TmFtZT5kYXRhc2V0PC9tZEhyTHZOYW1lPg0KICA8bWRMYW5nPg0KICAgIDxsYW5n
+dWFnZUNvZGUgdmFsdWU9ImVuIiAvPg0KICAgIDxjb3VudHJ5Q29kZSB2YWx1ZT0iVVMiIC8+DQog
+IDwvbWRMYW5nPg0KICA8bWRTdGFuTmFtZT5JU08gMTkxMTUgR2VvZ3JhcGhpYyBJbmZvcm1hdGlv
+biAtIE1ldGFkYXRhPC9tZFN0YW5OYW1lPg0KICA8bWRTdGFuVmVyPkRJU19FU1JJMS4wPC9tZFN0
+YW5WZXI+DQogIDxyZWZTeXNJbmZvPg0KICAgIDxSZWZTeXN0ZW0+DQogICAgICA8cmVmU3lzSUQ+
+DQogICAgICAgIDxpZGVudENvZGU+R0NTX05vcnRoX0FtZXJpY2FuXzE5ODM8L2lkZW50Q29kZT4N
+CiAgICAgICAgPGlkQ29kZVNwYWNlPkVQU0c8L2lkQ29kZVNwYWNlPg0KICAgICAgICA8aWRWZXJz
+aW9uPjcuNC4xPC9pZFZlcnNpb24+DQogICAgICA8L3JlZlN5c0lEPg0KICAgIDwvUmVmU3lzdGVt
+Pg0KICA8L3JlZlN5c0luZm8+DQogIDxzcGF0UmVwSW5mbz4NCiAgICA8VmVjdFNwYXRSZXA+DQog
+ICAgICA8Z2VvbWV0T2Jqcz4NCiAgICAgICAgPGdlb09ialR5cD4NCiAgICAgICAgICA8R2VvT2Jq
+VHlwQ2QgdmFsdWU9IjAwNCIgLz4NCiAgICAgICAgPC9nZW9PYmpUeXA+DQogICAgICAgIDxnZW9P
+YmpDbnQ+MDwvZ2VvT2JqQ250Pg0KICAgICAgPC9nZW9tZXRPYmpzPg0KICAgICAgPHRvcEx2bD4N
+CiAgICAgICAgPFRvcG9MZXZDZCB2YWx1ZT0iMDAxIiAvPg0KICAgICAgPC90b3BMdmw+DQogICAg
+PC9WZWN0U3BhdFJlcD4NCiAgPC9zcGF0UmVwSW5mbz4NCiAgPGRhdGFxdWFsPg0KICAgIDxsb2dp
+Yz5UZXN0cyBmb3IgaW50ZWdyaXR5IGhhdmUgbm90IGJlZW4gcGVyZm9ybWVkLjwvbG9naWM+DQog
+ICAgPGNvbXBsZXRlPkZlYXR1cmVzIHJlcHJlc2VudGVkIGhhdmUgbm90IGJlZW4gdGVzdGVkIGZv
+ciBjb21wbGV0ZW5lc3M8L2NvbXBsZXRlPg0KICAgIDxwb3NhY2M+DQogICAgICA8aG9yaXpwYT4N
+CiAgICAgICAgPGhvcml6cGFyPkRhdGEgd2VyZSBjb2xsZWN0ZWQgdXNpbmcgbWV0aG9kcyB0aGF0
+IGhhdmUgdW5rbm93biBhY2N1cmFjeSAoRVBBIE5hdGlvbmFsIEdlb3NwYXRpYWwgRGF0YSBQb2xp
+Y3kgW05HRFBdIEFjY3VyYWN5IFRpZXIgMTApLiBGb3IgbW9yZSBpbmZvcm1hdGlvbiwgcGxlYXNl
+IHNlZSBFUEEncyBOR0RQIGF0IGh0dHA6Ly9lcGEuZ292L2dlb3NwYXRpYWwvcG9saWNpZXMuaHRt
+bDwvaG9yaXpwYXI+DQogICAgICA8L2hvcml6cGE+DQogICAgPC9wb3NhY2M+DQogICAgPGxpbmVh
+Z2U+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGF0ZT4yMDExMTIyODwvcHJvY2Rh
+dGU+DQogICAgICAgIDxwcm9jZGVzYz5PdXRmYWxsIGRhdGEgd2FzIGV4dHJhY3RlZCBmcm9tIHRo
+ZSBQQ1MgYW5kIElDSVMgZGF0YWJhc2VzIGF0IHRoZSBVUyBFUEEgUmVnaW9uIDkuIFRoZSBQQ1Mg
+RGF0YWJhc2UgQWRtaW5pc3RyYXRvciBmYWNpbGl0YXRlZCB0aGUgZGF0YSBleHRyYWN0aW9uLiBM
+YXRpdHVkZS1sb25naXR1ZGUgdmFsdWVzIHdlcmUgZnVybmlzaGVkIGJ5IHRoZSByZWd1bGF0ZWQg
+ZmFjaWxpdGllcyBTSUMgY29kZSA9IDQ5NTIgd2FzIHVzZWQgdG8gZXh0cmFjdCBvdXRmYWxscyBm
+b3Igd2FzdGUgd2F0ZXIgdHJlYXRtZW50IHBsYW50cy48L3Byb2NkZXNjPg0KICAgICAgPC9wcm9j
+c3RlcD4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAgICAgPHByb2NkYXRlPjIwMTIwNTI5PC9wcm9j
+ZGF0ZT4NCiAgICAgICAgPHByb2NkZXNjPk1ldGFkYXRhIGltcG9ydGVkLjwvcHJvY2Rlc2M+DQog
+ICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2RhdGU+MjAx
+MjA2MDE8L3Byb2NkYXRlPg0KICAgICAgICA8cHJvY2Rlc2M+UUEnZWQgbG9jYXRpb24gYnkgcHJv
+eGltaXR5IHRvIGZhY2lsaXR5IGxvY2F0aW9uLjwvcHJvY2Rlc2M+DQogICAgICA8L3Byb2NzdGVw
+Pg0KICAgIDwvbGluZWFnZT4NCiAgPC9kYXRhcXVhbD4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+  <mdFileID>CAC89A71-0C9F-4B1C-ABE9-E4519202BF4C</mdFileID>
+</metadata>

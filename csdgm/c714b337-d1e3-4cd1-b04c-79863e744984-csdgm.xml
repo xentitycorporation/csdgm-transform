@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <idinfo>
+    <keywords>
+      <theme>
+        <themekt>EPA GIS Keyword Thesaurus</themekt>
+        <themekey>Ecology</themekey>
+        <themekey>Environment</themekey>
+        <themekey>Monitoring</themekey>
+        <themekey>Quality</themekey>
+        <themekey>Surface Water</themekey>
+        <themekey>Water</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+      </theme>
+    </keywords>
+    <citation>
+      <citeinfo>
+        <origin>US Environmental Protection Agency</origin>
+        <title>R2 Water Quality Portal Monitoring Stations</title>
+        <pubinfo>
+          <publish>U.S. EPA Office of Environmental Information (OEI)</publish>
+          <pubplace>New York, NY</pubplace>
+        </pubinfo>
+        <pubdate>20170215</pubdate>
+        <onlink>https://www.waterqualitydata.us/portal/</onlink>
+        <onlink>https://www.epa.gov/geospatial/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Water Quality Data Portal (WQP) provides an easy way to access data stored in various large water quality databases. The WQP provides various input parameters on the form including location, site, sampling, and date parameters to filter and customize the returned results. The The Water Quality Portal (WQP) is a cooperative service sponsored by the United States Geological Survey (USGS), the Environmental Protection Agency (EPA) and the National Water Quality Monitoring Council (NWQMC) that integrates publicly available water quality data from the USGS National Water Information System (NWIS) the EPA STOrage and RETrieval (STORET) Data Warehouse, and the USDA ARS Sustaining The Earth&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;s Watersheds - Agricultural Research Database System (STEWARDS).</abstract>
+      <purpose>The Water Quality Portal WQP can return site information (locations where samples were collected), or it can return sample results (analytical data of collected samples). This ArcGIS SDE point feature class (Geographic NAD83) was generated from a WQP  down load of statons in the Region 2 geographic extent.</purpose>
+    </descript>
+    <timeperd>
+      <current>Ground condition</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20170215</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>quarterly</update>
+    </status>
+    <accconst>None</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+    <spdom>
+      <bounding>
+        <westbc>-84.057143</westbc>
+        <eastbc>82.724795</eastbc>
+        <northbc>90.000000</northbc>
+        <southbc>-89.972520</southbc>
+      </bounding>
+    </spdom>
+    <secinfo>
+      <secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+          <cntper>Bob Simpson</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>290 Broadway</address>
+          <city>New York</city>
+          <state>NY </state>
+          <postal>10007</postal>
+        </cntaddr>
+        <cntvoice>(212) 637-3335</cntvoice>
+        <cntfax>(212) 637-3358</cntfax>
+        <cntemail>r2gisdata@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region02/</cntinst>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Tests for integrity have not been performed.</logic>
+    <complete>Features represented have not been tested for completeness</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>02/06/2017</procdate>
+        <procdesc>Ran Site Data Only queries in the Water Quality Portal for NYS, NJ, PR and VI</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+              <cntper>Bob Simpson</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>290 Broadway</address>
+              <city>New York</city>
+              <state>NY </state>
+              <postal>10007</postal>
+            </cntaddr>
+            <cntvoice>(212) 637-3335</cntvoice>
+            <cntfax>(212) 637-3358</cntfax>
+            <cntemail>r2gisdata@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region02/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>02/07/2017</procdate>
+        <procdesc>Selected out stations in Puerto Rico that were migrated from legacy Storet. Created feature class of these records. and defined project </procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+              <cntper>Bob Simpson</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>290 Broadway</address>
+              <city>New York</city>
+              <state>NY </state>
+              <postal>10007</postal>
+            </cntaddr>
+            <cntvoice>(212) 637-3335</cntvoice>
+            <cntfax>(212) 637-3358</cntfax>
+            <cntemail>r2gisdata@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region02/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>02/07/2017</procdate>
+        <procdesc>Defined projection of of these selected  records as GCS-Puerto Rico Datum  </procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+              <cntper>Bob Simpson</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>290 Broadway</address>
+              <city>New York</city>
+              <state>NY </state>
+              <postal>10007</postal>
+            </cntaddr>
+            <cntvoice>(212) 637-3335</cntvoice>
+            <cntfax>(212) 637-3358</cntfax>
+            <cntemail>r2gisdata@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region02/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>02/07/2017</procdate>
+        <procdesc>Added  XY coordinate values to attribute table of these 386 selected   records.</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+              <cntper>Bob Simpson</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>290 Broadway</address>
+              <city>New York</city>
+              <state>NY </state>
+              <postal>10007</postal>
+            </cntaddr>
+            <cntvoice>(212) 637-3335</cntvoice>
+            <cntfax>(212) 637-3358</cntfax>
+            <cntemail>r2gisdata@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region02/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>02/07/2017</procdate>
+        <procdesc>)Created XY  coordinate look-up table of these records. and joined table to main feature class (R2_WQP Stations) </procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+              <cntper>Bob Simpson</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>290 Broadway</address>
+              <city>New York</city>
+              <state>NY </state>
+              <postal>10007</postal>
+            </cntaddr>
+            <cntvoice>(212) 637-3335</cntvoice>
+            <cntfax>(212) 637-3358</cntfax>
+            <cntemail>r2gisdata@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region02/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>02/07/2017</procdate>
+        <procdesc>Calculated new Shape values for these records in main feature class using Python expression. </procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+              <cntper>Bob Simpson</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>290 Broadway</address>
+              <city>New York</city>
+              <state>NY </state>
+              <postal>10007</postal>
+            </cntaddr>
+            <cntvoice>(212) 637-3335</cntvoice>
+            <cntfax>(212) 637-3358</cntfax>
+            <cntemail>r2gisdata@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region02/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <distinfo>
+    <resdesc>Offline Data</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+          <cntper>Bob Simpson</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>290 Broadway</address>
+          <city>New York</city>
+          <state>NY </state>
+          <postal>10007</postal>
+        </cntaddr>
+        <cntvoice>(212) 637-3335</cntvoice>
+        <cntfax>(212) 637-3358</cntfax>
+        <cntemail>r2gisdata@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region02/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20220120</metd>
+    <metfrd>20210215</metfrd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 2, GIS Team</cntorg>
+          <cntper>Bob Simpson</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>290 Broadway</address>
+          <city>New York</city>
+          <state>NY </state>
+          <postal>10007</postal>
+        </cntaddr>
+        <cntvoice>(212) 637-3335</cntvoice>
+        <cntfax>(212) 637-3358</cntfax>
+        <cntemail>r2gisdata@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region02/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00000000434420515487904</absres>
+            <ordres>0.00000000434420515487904</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <Esri>
+    <ModDate>20220106</ModDate>
+    <ModTime>11235300</ModTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISProfile>ISO19115_3</ArcGISProfile>
+    <DataProperties>
+      <itemProps>
+        <itemName>dynamic.R2GIS.R2_WATER_QUALITY_PORTAL_STATIONS</itemName>
+        <nativeExtBox>
+          <westBL>-641576.170536</westBL>
+          <eastBL>11513033.313500</eastBL>
+          <southBL>-7361136.931119</southBL>
+          <northBL>8119471.216743</northBL>
+          <exTypeCode>1</exTypeCode>
+        </nativeExtBox>
+        <itemLocation>
+          <linkage>Server=x0202tnypksql1; Service=sde:sqlserver:x0202tnypksql1\gis; Database=dynamic; User=r2gis; Version=sde.DEFAULT</linkage>
+          <protocol>ArcSDE Connection</protocol>
+        </itemLocation>
+        <imsContentType>003</imsContentType>
+      </itemProps>
+      <coordRef>
+        <type>Projected</type>
+        <geogcsn>GCS_North_American_1983</geogcsn>
+        <csUnits>Linear Unit: Meter (1.000000)</csUnits>
+        <projcsn>R2_Contiguous_Albers_Equal_Area_Conic</projcsn>
+        <peXml>&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.8'&gt;&lt;WKT&gt;PROJCS[&amp;quot;R2_Contiguous_Albers_Equal_Area_Conic&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-72.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,18.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,42.0],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,30.0],UNIT[&amp;quot;Meter&amp;quot;,1.0]]&lt;/WKT&gt;&lt;XOrigin&gt;-19246600&lt;/XOrigin&gt;&lt;YOrigin&gt;-8838121.4334684629&lt;/YOrigin&gt;&lt;XYScale&gt;230191706.96321404&lt;/XYScale&gt;&lt;ZOrigin&gt;0&lt;/ZOrigin&gt;&lt;ZScale&gt;1&lt;/ZScale&gt;&lt;MOrigin&gt;0&lt;/MOrigin&gt;&lt;MScale&gt;1&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+      </coordRef>
+    </DataProperties>
+    <SyncDate>20220106</SyncDate>
+    <SyncTime>11235300</SyncTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+  </Esri>
+  <Binary>
+    <Thumbnail>
+      <Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAYABgAAD/4QBaRXhpZgAATU0AKgAAAAgABQMBAAUAAAABAAAASgMDAAEA
+AAABAAAAAFEQAAEAAAABAQAAAFERAAQAAAABAAAOwlESAAQAAAABAAAOwgAAAAAAAYagAACxj//b
+AEMAAwICAwICAwMDAwQDAwQFCAUFBAQFCgcHBggMCgwMCwoLCw0OEhANDhEOCwsQFhARExQVFRUM
+DxcYFhQYEhQVFP/bAEMBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAMgAawMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAA
+AAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEU
+MoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2Rl
+ZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK
+0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUG
+BwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS
+8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4
+eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri
+4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/APs2xjMd4lttZ45DgbTy2TzyO/OPxFbtrpNz
+Z3xjkiIXaTvYEAgZzggEZ4zg9vSr3hO1MetXYAJEKuokI4DBgBz7gH8M1qzrq9rukxpgVMsXeSRS
+wG3liB8ucOeM7SV+8QSfUxmI9500rpnkYbD+7zt2sY81q8PJjYKxIDE5456np2xxUSxvJFIgTKON
+rL0H4HseM5GCMcVyWuftSfDLwnqEWj3PizRLe6817drOTUYhIkiuVcOgLGMKwYMXwF2tuICsRheN
+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
+eOn4ccUUVlKMYrmS1ZXPI//Z</Data>
+    </Thumbnail>
+  </Binary>
+  <spdoinfo>
+    <ptvctinf>
+      <esriterm Name="dynamic.R2GIS.R2_WATER_QUALITY_PORTAL_STATIONS">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom code="1" Sync="TRUE"/>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">129577</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed Name="dynamic.R2GIS.R2_WATER_QUALITY_PORTAL_STATIONS">
+      <enttyp>
+        <enttypl Sync="TRUE">dynamic.R2GIS.R2_WATER_QUALITY_PORTAL_STATIONS</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">129577</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">OBJECTID</attrlabl>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">Esri</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OrganizationIdentifier</attrlabl>
+        <attalias Sync="TRUE">OrganizationIdentifier</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OrganizationFormalName</attrlabl>
+        <attalias Sync="TRUE">OrganizationFormalName</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MonitoringLocationIdentifier</attrlabl>
+        <attalias Sync="TRUE">MonitoringLocationIdentifier</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MonitoringLocationName</attrlabl>
+        <attalias Sync="TRUE">MonitoringLocationName</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MonitoringLocationTypeName</attrlabl>
+        <attalias Sync="TRUE">MonitoringLocationTypeName</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MonitoringLocationDescriptionTe</attrlabl>
+        <attalias Sync="TRUE">MonitoringLocationDescriptionTe</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HUCEightDigitCode</attrlabl>
+        <attalias Sync="TRUE">HUCEightDigitCode</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">DrainageAreaMeasure_MeasureValu</attrlabl>
+        <attalias Sync="TRUE">DrainageAreaMeasure_MeasureValu</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">DrainageAreaMeasure_MeasureUnit</attrlabl>
+        <attalias Sync="TRUE">DrainageAreaMeasure_MeasureUnit</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ContributingDrainageAreaMeasure</attrlabl>
+        <attalias Sync="TRUE">ContributingDrainageAreaMeasure</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ContributingDrainageAreaMeasu_1</attrlabl>
+        <attalias Sync="TRUE">ContributingDrainageAreaMeasu_1</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LatitudeMeasure</attrlabl>
+        <attalias Sync="TRUE">LatitudeMeasure</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LongitudeMeasure</attrlabl>
+        <attalias Sync="TRUE">LongitudeMeasure</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SourceMapScaleNumeric</attrlabl>
+        <attalias Sync="TRUE">SourceMapScaleNumeric</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HorizontalAccuracyMeasure_Measu</attrlabl>
+        <attalias Sync="TRUE">HorizontalAccuracyMeasure_Measu</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HorizontalAccuracyMeasure_Mea_1</attrlabl>
+        <attalias Sync="TRUE">HorizontalAccuracyMeasure_Mea_1</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HorizontalCollectionMethodName</attrlabl>
+        <attalias Sync="TRUE">HorizontalCollectionMethodName</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HorizontalCoordinateReferenceSy</attrlabl>
+        <attalias Sync="TRUE">HorizontalCoordinateReferenceSy</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">VerticalMeasure_MeasureValue</attrlabl>
+        <attalias Sync="TRUE">VerticalMeasure_MeasureValue</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">VerticalMeasure_MeasureUnitCode</attrlabl>
+        <attalias Sync="TRUE">VerticalMeasure_MeasureUnitCode</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">VerticalAccuracyMeasure_Measure</attrlabl>
+        <attalias Sync="TRUE">VerticalAccuracyMeasure_Measure</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">VerticalAccuracyMeasure_Measu_1</attrlabl>
+        <attalias Sync="TRUE">VerticalAccuracyMeasure_Measu_1</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">VerticalCollectionMethodName</attrlabl>
+        <attalias Sync="TRUE">VerticalCollectionMethodName</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">VerticalCoordinateReferenceSyst</attrlabl>
+        <attalias Sync="TRUE">VerticalCoordinateReferenceSyst</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CountryCode</attrlabl>
+        <attalias Sync="TRUE">CountryCode</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">StateCode</attrlabl>
+        <attalias Sync="TRUE">StateCode</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CountyCode</attrlabl>
+        <attalias Sync="TRUE">CountyCode</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AquiferName</attrlabl>
+        <attalias Sync="TRUE">AquiferName</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FormationTypeText</attrlabl>
+        <attalias Sync="TRUE">FormationTypeText</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AquiferTypeName</attrlabl>
+        <attalias Sync="TRUE">AquiferTypeName</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ConstructionDateText</attrlabl>
+        <attalias Sync="TRUE">ConstructionDateText</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WellDepthMeasure_MeasureValue</attrlabl>
+        <attalias Sync="TRUE">WellDepthMeasure_MeasureValue</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WellDepthMeasure_MeasureUnitCod</attrlabl>
+        <attalias Sync="TRUE">WellDepthMeasure_MeasureUnitCod</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WellHoleDepthMeasure_MeasureVal</attrlabl>
+        <attalias Sync="TRUE">WellHoleDepthMeasure_MeasureVal</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WellHoleDepthMeasure_MeasureUni</attrlabl>
+        <attalias Sync="TRUE">WellHoleDepthMeasure_MeasureUni</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ProviderName</attrlabl>
+        <attalias Sync="TRUE">ProviderName</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1073741822</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STATE_CODE</attrlabl>
+        <attalias Sync="TRUE">STATE_CODE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">XY_PROCESS</attrlabl>
+        <attalias Sync="TRUE">XY_PROCESS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RUN_DATE</attrlabl>
+        <attalias Sync="TRUE">RUN_DATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">POINT_X</attrlabl>
+        <attalias Sync="TRUE">POINT_X</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">POINT_Y</attrlabl>
+        <attalias Sync="TRUE">POINT_Y</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">Esri</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdChar>
+    <CharSetCd value="004"/>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Bob Simpson</rpIndName>
+    <rpOrgName>U.S. Environmental Protection Agency, Region 2, GIS Team</rpOrgName>
+    <rpPosName>GIS Analyst</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>(212) 637-3335</voiceNum>
+        <faxNum>(212) 637-3358</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>290 Broadway</delPoint>
+        <city>New York</city>
+        <adminArea>NY </adminArea>
+        <postCode>10007</postCode>
+        <eMailAdd>r2gisdata@epa.gov</eMailAdd>
+      </cntAddress>
+      <cntInstr>http://www.epa.gov/region02/</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007"/>
+    </role>
+  </mdContact>
+  <mdDateSt Sync="FALSE">2022-01-05</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>https://www.waterqualitydata.us/portal/</linkage>
+        <linkage>http://www.epa.gov/geospatial/</linkage>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>https://www.epa.gov/geospatial/</linkage>
+      </onLineSrc>
+    </distTranOps>
+    <distFormat>
+      <formatName Sync="TRUE">SDE Feature Class</formatName>
+    </distFormat>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>R2 Water Quality Portal Monitoring Stations</resTitle>
+      <date>
+        <pubDate>2017-02-15</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>US Environmental Protection Agency</rpOrgName>
+        <role>
+          <RoleCd value="006"/>
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>U.S. EPA Office of Environmental Information (OEI)</rpOrgName>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint>New York, NY</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010"/>
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" Sync="TRUE"/>
+      </presForm>
+    </idCitation>
+    <idAbs>The Water Quality Data Portal (WQP) provides an easy way to access data stored in various large water quality databases. The WQP provides various input parameters on the form including location, site, sampling, and date parameters to filter and customize the returned results. The The Water Quality Portal (WQP) is a cooperative service sponsored by the United States Geological Survey (USGS), the Environmental Protection Agency (EPA) and the National Water Quality Monitoring Council (NWQMC) that integrates publicly available water quality data from the USGS National Water Information System (NWIS) the EPA STOrage and RETrieval (STORET) Data Warehouse, and the USDA ARS Sustaining The Earth&#195;&#162;&#226;&#8218;&#172;&#226;&#8222;&#162;s Watersheds - Agricultural Research Database System (STEWARDS).</idAbs>
+    <idPurp>The Water Quality Portal WQP can return site information (locations where samples were collected), or it can return sample results (analytical data of collected samples). This ArcGIS SDE point feature class (Geographic NAD83) was generated from a WQP  down load of statons in the Region 2 geographic extent.</idPurp>
+    <idStatus>
+      <ProgCd value="007"/>
+    </idStatus>
+    <idPoC>
+      <rpIndName>Bob Simpson</rpIndName>
+      <rpOrgName>U.S. Environmental Protection Agency, Region 2, GIS Team</rpOrgName>
+      <rpPosName>GIS Analyst</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>(212) 637-3335</voiceNum>
+          <faxNum>(212) 637-3358</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>290 Broadway</delPoint>
+          <city>New York</city>
+          <adminArea>NY </adminArea>
+          <postCode>10007</postCode>
+          <eMailAdd>r2gisdata@epa.gov</eMailAdd>
+        </cntAddress>
+        <cntInstr>http://www.epa.gov/region02/</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007"/>
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="006"/>
+      </maintFreq>
+    </resMaint>
+    <themeKeys>
+      <thesaName>
+        <resTitle>EPA GIS Keyword Thesaurus</resTitle>
+      </thesaName>
+      <keyword>Ecology</keyword>
+      <keyword>Environment</keyword>
+      <keyword>Monitoring</keyword>
+      <keyword>Quality</keyword>
+      <keyword>Surface Water</keyword>
+      <keyword>Water</keyword>
+    </themeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Category</resTitle>
+      </thesaName>
+      <keyword>biota</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Ecology</keyword>
+      <keyword>Environment</keyword>
+      <keyword>Monitoring</keyword>
+      <keyword>Quality</keyword>
+      <keyword>Surface Water</keyword>
+      <keyword>Water</keyword>
+      <keyword>biota</keyword>
+    </searchKeys>
+    <resConst>
+      <Consts>
+        <useLimit>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useLimit>
+      </Consts>
+    </resConst>
+    <resConst>
+      <LegConsts>
+        <useLimit>https://edg.epa.gov/EPA_Data_License.html</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <SecConsts>
+        <class>
+          <ClasscationCd value="public"/>
+        </class>
+        <classSys>http://project-open-data.github.io/schema/#accessLevel</classSys>
+        <handDesc>Standard Technical Controls</handDesc>
+      </SecConsts>
+    </resConst>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <exTypeCode>true</exTypeCode>
+          <westBL>-84.057143</westBL>
+          <eastBL>82.724795</eastBL>
+          <northBL>90.000000</northBL>
+          <southBL>-89.972520</southBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>Ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-02-15</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.0.12790</envirDesc>
+    <dataLang>
+      <languageCode value="eng" Sync="TRUE"/>
+      <countryCode value="USA" Sync="TRUE"/>
+    </dataLang>
+    <spatRpType>
+      <SpatRepTypCd value="001" Sync="TRUE"/>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="search">
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+          <westBL Sync="TRUE">-84.057143</westBL>
+          <eastBL Sync="TRUE">82.724795</eastBL>
+          <northBL Sync="TRUE">90.000000</northBL>
+          <southBL Sync="TRUE">-89.972520</southBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <tpCat>
+      <TopicCatCd value="002"/>
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="007"/>
+    </tpCat>
+  </dataIdInfo>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="012"/>
+    </maintFreq>
+    <dateNext>2021-02-15</dateNext>
+  </mdMaint>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005"/>
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Tests for integrity have not been performed.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Features represented have not been tested for completeness</measDesc>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Ran Site Data Only queries in the Water Quality Portal for NYS, NJ, PR and VI</stepDesc>
+        <stepProc>
+          <rpIndName>Bob Simpson</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 2, GIS Team</rpOrgName>
+          <rpPosName>GIS Analyst</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(212) 637-3335</voiceNum>
+              <faxNum>(212) 637-3358</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>290 Broadway</delPoint>
+              <city>New York</city>
+              <adminArea>NY </adminArea>
+              <postCode>10007</postCode>
+              <eMailAdd>r2gisdata@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region02/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009"/>
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Selected out stations in Puerto Rico that were migrated from legacy Storet. Created feature class of these records. and defined project </stepDesc>
+        <stepProc>
+          <rpIndName>Bob Simpson</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 2, GIS Team</rpOrgName>
+          <rpPosName>GIS Analyst</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(212) 637-3335</voiceNum>
+              <faxNum>(212) 637-3358</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>290 Broadway</delPoint>
+              <city>New York</city>
+              <adminArea>NY </adminArea>
+              <postCode>10007</postCode>
+              <eMailAdd>r2gisdata@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region02/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009"/>
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Defined projection of of these selected  records as GCS-Puerto Rico Datum  </stepDesc>
+        <stepProc>
+          <rpIndName>Bob Simpson</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 2, GIS Team</rpOrgName>
+          <rpPosName>GIS Analyst</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(212) 637-3335</voiceNum>
+              <faxNum>(212) 637-3358</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>290 Broadway</delPoint>
+              <city>New York</city>
+              <adminArea>NY </adminArea>
+              <postCode>10007</postCode>
+              <eMailAdd>r2gisdata@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region02/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009"/>
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Added  XY coordinate values to attribute table of these 386 selected   records.</stepDesc>
+        <stepProc>
+          <rpIndName>Bob Simpson</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 2, GIS Team</rpOrgName>
+          <rpPosName>GIS Analyst</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(212) 637-3335</voiceNum>
+              <faxNum>(212) 637-3358</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>290 Broadway</delPoint>
+              <city>New York</city>
+              <adminArea>NY </adminArea>
+              <postCode>10007</postCode>
+              <eMailAdd>r2gisdata@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region02/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009"/>
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>)Created XY  coordinate look-up table of these records. and joined table to main feature class (R2_WQP Stations) </stepDesc>
+        <stepProc>
+          <rpIndName>Bob Simpson</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 2, GIS Team</rpOrgName>
+          <rpPosName>GIS Analyst</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(212) 637-3335</voiceNum>
+              <faxNum>(212) 637-3358</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>290 Broadway</delPoint>
+              <city>New York</city>
+              <adminArea>NY </adminArea>
+              <postCode>10007</postCode>
+              <eMailAdd>r2gisdata@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region02/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009"/>
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Calculated new Shape values for these records in main feature class using Python expression. </stepDesc>
+        <stepProc>
+          <rpIndName>Bob Simpson</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 2, GIS Team</rpOrgName>
+          <rpPosName>GIS Analyst</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(212) 637-3335</voiceNum>
+              <faxNum>(212) 637-3358</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>290 Broadway</delPoint>
+              <city>New York</city>
+              <adminArea>NY </adminArea>
+              <postCode>10007</postCode>
+              <eMailAdd>r2gisdata@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region02/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009"/>
+          </role>
+        </stepProc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs Name="dynamic.R2GIS.R2_WATER_QUALITY_PORTAL_STATIONS">
+        <geoObjTyp>
+          <GeoObjTypCd value="004" Sync="TRUE"/>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">129577</geoObjCnt>
+      </geometObjs>
+      <topLvl>
+        <TopoLevCd value="001" Sync="TRUE"/>
+      </topLvl>
+    </VectSpatRep>
+  </spatRepInfo>
+  <mdLang>
+    <languageCode value="eng" Sync="TRUE"/>
+    <countryCode value="USA" Sync="TRUE"/>
+  </mdLang>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode code="0" Sync="TRUE"/>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <mdFileID>1241AAC4-829B-40B8-B612-3832E40A3D81</mdFileID>
+</metadata>

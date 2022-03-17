@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <Esri>
+    <PublishedDocID>{864448BC-C62F-40C8-91C7-E9212F97F78E}</PublishedDocID>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>NAP</ArcGISProfile>
+    <ModDate>20170920</ModDate>
+    <ModTime>10561400</ModTime>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>US EPA Region 9 AIR Division</origin>
+        <pubdate>20151001</pubdate>
+        <title>Particulate Matter (Annual, PM-2.5) NAAQS Designations, Region 9, 2011, US EPA Region 9</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>U.S. Environmental Protection Agency, Region 9</publish>
+          <pubplace>San Francisco, CA</pubplace>
+        </pubinfo>
+        <onlink>https://www3.epa.gov/region09/air/maps/r9_pm25-annual.html</onlink>
+        <onlink>https://gispub.epa.gov/arcgis/rest/services/Region9/ADMA_2015_Designated_Areas/MapServer/6</onlink>
+        <onlink>https://www3.epa.gov/region09/air/maps/index.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Designated areas for annual particulate matter less than 2.5 microns, according to the 1997 and 2012 annual PM-2.5 standards. Nonattainment areas are geographic areas which have not met the 12 microgram per cubic meter annual National Ambient Air Quality Standards (NAAQS) for particulate matter air pollution. These standards are part of the Clean Air Act. See Code of Federal Regulations, Section 40 Part 81, for detailed information about Ambient Air Quality Standards. More detailed information about NAAQS can be found on the following web page:http://www.epa.gov/airprogm/oar/oaqps/greenbk</abstract>
+      <purpose>This data set is specifically designed for use with ArcGIS and related software. Data may be used for reference to boundaries of attainment areas in Region 9.</purpose>
+      <supplinf>2012 annual PM-2.5 NAAQS designations effective April 15, 2015.</supplinf>
+    </descript>
+    <timeperd>
+      <current>Publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20151001</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-160.242406</westbc>
+        <eastbc>-109.045615</eastbc>
+        <northbc>42.002192</northbc>
+        <southbc>18.921786</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arizona</placekey>
+        <placekey>California</placekey>
+        <placekey>Hawaii</placekey>
+        <placekey>Nevada</placekey>
+        <placekey>California, Arizona, Nevada, Region 9</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>None</stratkey>
+      </stratum>
+      <theme>
+        <themekey>health</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>environment</themekey>
+        <themekey>Health</themekey>
+        <themekey>Air</themekey>
+        <themekey>Regulatory</themekey>
+        <themekey>Monitoring</themekey>
+        <themekey>Particulate Matter 2.5</themekey>
+        <themekey>Nonattainment</themekey>
+        <themekey>Air Quality</themekey>
+      </theme>
+      <theme>
+        <themekey>health</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>environment</themekey>
+        <themekey>Health</themekey>
+        <themekey>Air</themekey>
+        <themekey>Regulatory</themekey>
+        <themekey>Monitoring</themekey>
+        <themekey>Particulate Matter 2.5</themekey>
+        <themekey>Nonattainment</themekey>
+        <themekey>Air Quality</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Intended use for small scale or regional mapping.</useconst>
+    <datacred>Acknowledgement of US EPA Region 9 GIS Center.</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
+    <crossref>
+      <citeinfo>
+        <title>Particulate Matter 2.5 Nonattainment Areas </title>
+      </citeinfo>
+    </crossref>
+    <secinfo>
+      <secsys>FIPS Pub 199</secsys>
+      <secclass>No Confidentiality</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Fletcher Clover</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>(415) 972-3991</cntvoice>
+        <cntfax>(415) 947-3579</cntfax>
+        <cntemail>clover.fletcher@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Designations and severity classifications are based on information from the CFR</attraccr>
+    </attracc>
+    <logic>The spatial data is based on the Code of Federal Regulations - Protection of Environment, PART 81.</logic>
+    <posacc>
+      <vertacc>
+        <vertaccr>N/A</vertaccr>
+      </vertacc>
+      <horizpa>
+        <horizpar>Horizontal Accuracy is based on the Public Land Survey System (BLM). The spatial data is based on Public Land Survey System (PLSS), and political boundaries such as urban, county and State boundaries, thus the line work reflects the source; for example, PLSS or county.</horizpar>
+        <qhorizpa>
+          <horizpav>40 feet</horizpav>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <typesrc>online</typesrc>
+        <srccitea>US EPA</srccitea>
+        <srccontr>United States Environmental Protection Agency</srccontr>
+        <srctime>
+          <srccurr>publication date</srccurr>
+          <timeinfo>
+            <mdattim>
+              <sngdate>
+                <caldate>April 15</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>2015</caldate>
+              </sngdate>
+            </mdattim>
+          </timeinfo>
+        </srctime>
+        <srccite>
+          <citeinfo>
+            <origin>US EPA</origin>
+            <title>Air Quality Designations for the 2012 Primary Annual Fine Particle (PM2.5)</title>
+            <geoform>vector digital data</geoform>
+            <pubdate>20150129</pubdate>
+            <pubinfo>
+              <publish>U.S. Environmental Protection Agency, Region 9</publish>
+              <pubplace>San Francisco, CA</pubplace>
+            </pubinfo>
+            <serinfo>
+              <sername>R9_annual_PM25_designated_areas.shp</sername>
+              <issue>NA</issue>
+            </serinfo>
+            <onlink>https://federalregister.gov/a/2015-00021</onlink>
+          </citeinfo>
+        </srccite>
+      </srcinfo>
+      <procstep>
+        <procdate>20150129</procdate>
+        <procdesc>Data imported from final Region 9 TSD project data</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20150129</procdate>
+        <procdesc>Metadata created</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20150407</procdate>
+        <procdesc>Final metadata check</procdesc>
+      </procstep>
+    </lineage>
+    <complete>Complete</complete>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+        <altres>0.000100</altres>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>R9_annual_PM25_designated_areas</enttypl>
+        <enttypd>Annual PM-2.5 Nonattainment Areas for US EPA Region 9</enttypd>
+        <enttypds>US EPA</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE_NAME</attrlabl>
+        <attrdef>Two-letter abbreviation of state name.</attrdef>
+        <attrdefs>US Census Bureau</attrdefs>
+        <attrdomv>
+          <udom>Place names</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ANNPM25NAM</attrlabl>
+        <attrdef>Name of annual PM-2.5 NAAQS designated area</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <udom>Place names</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>F1997desig</attrlabl>
+        <attrdef>Designation of area for the 1997 annual PM-2.5 standard</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Nonattainment</edomv>
+            <edomvd>any area that does not meet (or that contributes to ambient air quality in a nearby area that does not meet) the national primary or secondary ambient air quality standard for the pollutant</edomvd>
+            <edomvds>https://federalregister.gov/a/2015-00021</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Unclassifiable/Attainment</edomv>
+            <edomvd>areas either have attaining air quality monitoring data or that air quality information is not available because the areas are not monitored, and the EPA has not determined that the areas contribute to a violation in a nearby area</edomvd>
+            <edomvds>https://federalregister.gov/a/2015-00021</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>F97eff_date</attrlabl>
+        <attrdef>Date upon designations are effective in regards to state implementation plan (SIP) implementation</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <udom>Calendar date</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>F2012desig</attrlabl>
+        <attrdef>Designation of area for the 2012 annual PM-2.5 standard</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Nonattainment</edomv>
+            <edomvd>any area that does not meet (or that contributes to ambient air quality in a nearby area that does not meet) the national primary or secondary ambient air quality standard for the pollutant</edomvd>
+            <edomvds>https://federalregister.gov/a/2015-00021</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>F2012class</attrlabl>
+        <attrdef>severity of pollution levels compared to the 2012 annual PM-2.5 NAAQS in a designated geographic area</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Moderate</edomv>
+            <edomvd>area has six years from effective date of designation to attain the NAAQS</edomvd>
+            <edomvds>US EPA</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>F12eff_date</attrlabl>
+        <attrdef>Date upon designations are effective in regards to state implementation plan (SIP) implementation</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <udom>Calendar date</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+        <attrdef>Hyperlink reference in Federal Register to designated area</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <udom>URL</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eadetcit>US EPA, 2015</eadetcit>
+      <eaover>Attribute information for areas in US EPA Region 9 designated according to the 1997 and 2012 annual fine particle (annual PM-2.5) national ambient air quality standards (NAAQS).</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>US EPA Region 9</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <custom>n/A</custom>
+    <techpreq>ArcGIS 9</techpreq>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Fletcher Clover</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>(415) 972-3991</cntvoice>
+        <cntemail>clover.fletcher@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20211215</metd>
+    <metrd>As needed</metrd>
+    <metfrd>20191001</metfrd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metac>None</metac>
+    <metuc>None</metuc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Technical Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>(415) 947-8000</cntvoice>
+        <cntfax>(415) 947-3553</cntfax>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <history>
+    <log>
+      <item>
+        <changeset>0</changeset>
+        <changetype>Data</changetype>
+        <user>AA\fclover</user>
+        <date>12/4/2009 10:42:32 AM</date>
+      </item>
+    </log>
+  </history>
+  <mdLang>
+    <languageCode value="eng"/>
+    <countryCode value="US"/>
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004"/>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Cheryl Henley</rpIndName>
+    <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+    <rpPosName>GIS Technical Coordinator</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>(415) 947-8000</voiceNum>
+        <faxNum>(415) 947-3553</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>75 Hawthorne Street</delPoint>
+        <city>San Francisco</city>
+        <adminArea>CA</adminArea>
+        <postCode>94105</postCode>
+        <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+      </cntAddress>
+      <cntInstr>http://www.epa.gov/region09/</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007"/>
+    </role>
+  </mdContact>
+  <mdDateSt>20170920</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpIndName>Fletcher Clover</rpIndName>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+        <rpPosName>GIS Analyst</rpPosName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(415) 972-3991</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>75 Hawthorne Street</delPoint>
+            <city>San Francisco</city>
+            <adminArea>CA</adminArea>
+            <postCode>94105</postCode>
+            <eMailAdd>clover.fletcher@epa.gov</eMailAdd>
+          </cntAddress>
+          <cntInstr>http://www.epa.gov/region09/</cntInstr>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005"/>
+        </role>
+      </distorCont>
+      <distorOrdPrc>
+        <ordInstr>n/A</ordInstr>
+      </distorOrdPrc>
+      <distorTran>
+        <onLineSrc>
+          <orDesc>US EPA Region 9</orDesc>
+        </onLineSrc>
+      </distorTran>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>https://www3.epa.gov/region09/air/maps/r9_pm25-annual.html</linkage>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>https://www3.epa.gov/region09/air/maps/index.html</linkage>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>https://gispub.epa.gov/arcgis/rest/services/Region9/ADMA_2015_Designated_Areas/MapServer/6</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>NAAQS Designated Area Polygons - Particulate Matter (Annual, PM-2.5), Region 9, 2011, US EPA Region 9</resTitle>
+      <date>
+        <pubDate>2015-10-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>US EPA Region 9 AIR Division</rpOrgName>
+        <role>
+          <RoleCd value="006"/>
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint>San Francisco, CA</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010"/>
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005"/>
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Designated areas for annual particulate matter less than 2.5 microns, according to the 1997 and 2012 annual PM-2.5 standards. Nonattainment areas are geographic areas which have not met the 12 microgram per cubic meter annual National Ambient Air Quality Standards (NAAQS) for particulate matter air pollution. These standards are part of the Clean Air Act. See Code of Federal Regulations, Section 40 Part 81, for detailed information about Ambient Air Quality Standards. More detailed information about NAAQS can be found on the following web page:http://www.epa.gov/airprogm/oar/oaqps/greenbk&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>This data set is specifically designed for use with ArcGIS and related software. Data may be used for reference to boundaries of attainment areas in Region 9.</idPurp>
+    <idCredit>Acknowledgement of US EPA Region 9 GIS Center.</idCredit>
+    <idStatus>
+      <ProgCd value="001"/>
+    </idStatus>
+    <idPoC>
+      <rpIndName>Fletcher Clover</rpIndName>
+      <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+      <rpPosName>GIS Analyst</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>(415) 972-3991</voiceNum>
+          <faxNum>(415) 947-3579</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>75 Hawthorne Street</delPoint>
+          <city>San Francisco</city>
+          <adminArea>CA</adminArea>
+          <postCode>94105</postCode>
+          <eMailAdd>clover.fletcher@epa.gov</eMailAdd>
+        </cntAddress>
+        <cntInstr>http://www.epa.gov/region09/</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007"/>
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009"/>
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>California</keyword>
+      <keyword>Nevada</keyword>
+      <keyword>Arizona</keyword>
+      <keyword>California</keyword>
+      <keyword>Arizona</keyword>
+      <keyword>Nevada</keyword>
+      <keyword>Region 9</keyword>
+      <keyword>Hawaii</keyword>
+    </placeKeys>
+    <stratKeys>
+      <keyword>None</keyword>
+    </stratKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Category</resTitle>
+      </thesaName>
+      <keyword>health</keyword>
+      <keyword>geoscientificInformation</keyword>
+      <keyword>environment</keyword>
+    </themeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>EPA GIS Keyword Thesaurus</resTitle>
+      </thesaName>
+      <keyword>Health</keyword>
+      <keyword>Air</keyword>
+      <keyword>Regulatory</keyword>
+      <keyword>Monitoring</keyword>
+    </themeKeys>
+    <themeKeys>
+      <keyword>Particulate Matter 2.5</keyword>
+      <keyword>Nonattainment</keyword>
+      <keyword>Air Quality</keyword>
+    </themeKeys>
+    <resConst>
+      <SecConsts>
+        <classSys>FIPS Pub 199</classSys>
+        <handDesc>Standard Technical Controls</handDesc>
+        <class>
+          <ClasscationCd value="001">Unclassified</ClasscationCd>
+        </class>
+      </SecConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Intended use for small scale or regional mapping.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <aggrInfo>
+      <aggrDSName>
+        <resTitle>Particulate Matter 2.5 Nonattainment Areas</resTitle>
+      </aggrDSName>
+      <assocType>
+        <AscTypeCd value="001"/>
+      </assocType>
+    </aggrInfo>
+    <spatRpType>
+      <SpatRepTypCd value="001"/>
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng"/>
+    </dataLang>
+    <envirDesc>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-160.242406</westBL>
+          <eastBL>-109.045615</eastBL>
+          <southBL>18.921786</southBL>
+          <northBL>42.002192</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>Publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2015-10-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>2012 annual PM-2.5 NAAQS designations effective April 15, 2015.</suppInfo>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="009">Unrestricted License</RestrictCd>
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="">Empty</RestrictCd>
+        </useConsts>
+        <othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+        <useLimit>EPA Public Domain License</useLimit>
+      </LegConsts>
+    </resConst>
+    <tpCat>
+      <TopicCatCd value="009"/>
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="008"/>
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="007"/>
+    </tpCat>
+  </dataIdInfo>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="012"/>
+    </maintFreq>
+    <dateNext>20191001</dateNext>
+    <maintNote>Last metadata review date: As needed</maintNote>
+  </mdMaint>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005"/>
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>The spatial data is based on the Code of Federal Regulations - Protection of Environment, PART 81.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Complete</measDesc>
+    </report>
+    <report type="DQQuanAttAcc">
+      <measDesc>Designations and severity classifications are based on information from the CFR</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>Horizontal Accuracy is based on the Public Land Survey System (BLM). The spatial data is based on Public Land Survey System (PLSS), and political boundaries such as urban, county and State boundaries, thus the line work reflects the source; for example, PLSS or county.</measDesc>
+      <measResult>
+        <QuanResult>
+          <quanVal>40 feet</quanVal>
+        </QuanResult>
+      </measResult>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="vertical">
+      <measDesc>N/A</measDesc>
+    </report>
+    <dataLineage>
+      <dataSource>
+        <srcDesc>United States Environmental Protection Agency</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015"/>
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Air Quality Designations for the 2012 Primary Annual Fine Particle (PM2.5)</resTitle>
+          <resAltTitle>US EPA</resAltTitle>
+          <date>
+            <pubDate>2015-01-29</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>US EPA</rpOrgName>
+            <role>
+              <RoleCd value="006"/>
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>San Francisco, CA</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010"/>
+            </role>
+          </citRespParty>
+          <presForm>
+            <PresFormCd value="005"/>
+          </presForm>
+          <presForm>
+            <fgdcGeoform>vector digital data</fgdcGeoform>
+          </presForm>
+          <datasetSeries>
+            <seriesName>R9_annual_PM25_designated_areas.shp</seriesName>
+            <issId>NA</issId>
+          </datasetSeries>
+          <citOnlineRes>
+            <linkage>https://federalregister.gov/a/2015-00021</linkage>
+          </citOnlineRes>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>publication date</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2015-01-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <prcStep>
+        <stepDesc>Data imported from final Region 9 TSD project data</stepDesc>
+        <stepDateTm>2015-01-29</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Metadata created</stepDesc>
+        <stepDateTm>2015-01-29</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Final metadata check</stepDesc>
+        <stepDateTm>2015-04-07</stepDateTm>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="2fa18b9a316aab5e20f1024230dee340" EsriPropertyType="Base64" SourceMetadataSchema="fgdc" SourceMetadataDocId="{864448BC-C62F-40C8-91C7-E9212F97F78E}">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPEVz
+cmk+DQogICAgPFB1Ymxpc2hlZERvY0lEPns4NjQ0NDhCQy1DNjJGLTQwQzgtOTFDNy1FOTIxMkY5
+N0Y3OEV9PC9QdWJsaXNoZWREb2NJRD4NCiAgPC9Fc3JpPg0KICA8aWRpbmZvPg0KICAgIDxjaXRh
+dGlvbj4NCiAgICAgIDxjaXRlaW5mbz4NCiAgICAgICAgPG9yaWdpbj5VUyBFUEEgUmVnaW9uIDkg
+QUlSIERpdmlzaW9uPC9vcmlnaW4+DQogICAgICAgIDxwdWJkYXRlPjIwMTUxMDAxPC9wdWJkYXRl
+Pg0KICAgICAgICA8dGl0bGU+VVMgRVBBIFJlZ2lvbiA5IEFubnVhbCBQTS0yNSBEZXNpZ25hdGVk
+IEFyZWFzPC90aXRsZT4NCiAgICAgICAgPGdlb2Zvcm0+dmVjdG9yIGRpZ2l0YWwgZGF0YTwvZ2Vv
+Zm9ybT4NCiAgICAgICAgPHB1YmluZm8+DQogICAgICAgICAgPHB1Ymxpc2g+VS5TLiBFbnZpcm9u
+bWVudGFsIFByb3RlY3Rpb24gQWdlbmN5LCBSZWdpb24gOTwvcHVibGlzaD4NCiAgICAgICAgICA8
+cHVicGxhY2U+U2FuIEZyYW5jaXNjbywgQ0E8L3B1YnBsYWNlPg0KICAgICAgICA8L3B1YmluZm8+
+DQogICAgICAgIDxvbmxpbms+aHR0cHM6Ly93d3czLmVwYS5nb3YvcmVnaW9uMDkvYWlyL21hcHMv
+cjlfcG0yNS1hbm51YWwuaHRtbDwvb25saW5rPg0KICAgICAgICA8b25saW5rPmh0dHBzOi8vZ2lz
+cHViLmVwYS5nb3YvYXJjZ2lzL3Jlc3Qvc2VydmljZXMvUmVnaW9uOS9BRE1BXzIwMTVfRGVzaWdu
+YXRlZF9BcmVhcy9NYXBTZXJ2ZXIvNjwvb25saW5rPg0KICAgICAgICA8b25saW5rPmh0dHBzOi8v
+d3d3My5lcGEuZ292L3JlZ2lvbjA5L2Fpci9tYXBzL2luZGV4Lmh0bWw8L29ubGluaz4NCiAgICAg
+IDwvY2l0ZWluZm8+DQogICAgPC9jaXRhdGlvbj4NCiAgICA8ZGVzY3JpcHQ+DQogICAgICA8YWJz
+dHJhY3Q+RGVzaWduYXRlZCBhcmVhcyBmb3IgYW5udWFsIHBhcnRpY3VsYXRlIG1hdHRlciBsZXNz
+IHRoYW4gMi41IG1pY3JvbnMsIGFjY29yZGluZyB0byB0aGUgMTk5NyBhbmQgMjAxMiBhbm51YWwg
+UE0tMi41IHN0YW5kYXJkcy4gTm9uYXR0YWlubWVudCBhcmVhcyBhcmUgZ2VvZ3JhcGhpYyBhcmVh
+cyB3aGljaCBoYXZlIG5vdCBtZXQgdGhlIDEyIG1pY3JvZ3JhbSBwZXIgY3ViaWMgbWV0ZXIgYW5u
+dWFsIE5hdGlvbmFsIEFtYmllbnQgQWlyIFF1YWxpdHkgU3RhbmRhcmRzIChOQUFRUykgZm9yIHBh
+cnRpY3VsYXRlIG1hdHRlciBhaXIgcG9sbHV0aW9uLiAgVGhlc2Ugc3RhbmRhcmRzIGFyZSBwYXJ0
+IG9mIHRoZSBDbGVhbiBBaXIgQWN0LiAgU2VlIENvZGUgb2YgRmVkZXJhbCBSZWd1bGF0aW9ucywg
+U2VjdGlvbiA0MCBQYXJ0IDgxLCBmb3IgZGV0YWlsZWQgaW5mb3JtYXRpb24gYWJvdXQgQW1iaWVu
+dCBBaXIgUXVhbGl0eSBTdGFuZGFyZHMuIE1vcmUgZGV0YWlsZWQgaW5mb3JtYXRpb24gYWJvdXQg
+TkFBUVMgY2FuIGJlIGZvdW5kIG9uIHRoZSBmb2xsb3dpbmcgd2ViIHBhZ2U6aHR0cDovL3d3dy5l
+cGEuZ292L2FpcnByb2dtL29hci9vYXFwcy9ncmVlbmJrPC9hYnN0cmFjdD4NCiAgICAgIDxwdXJw
+b3NlPlRoaXMgZGF0YSBzZXQgaXMgc3BlY2lmaWNhbGx5IGRlc2lnbmVkIGZvciB1c2Ugd2l0aCBB
+cmNHSVMgYW5kIHJlbGF0ZWQgc29mdHdhcmUuIERhdGEgbWF5IGJlIHVzZWQgZm9yIHJlZmVyZW5j
+ZSB0byBib3VuZGFyaWVzIG9mIGF0dGFpbm1lbnQgYXJlYXMgaW4gUmVnaW9uIDkuPC9wdXJwb3Nl
+Pg0KICAgICAgPHN1cHBsaW5mPjIwMTIgYW5udWFsIFBNLTIuNSBOQUFRUyBkZXNpZ25hdGlvbnMg
+ZWZmZWN0aXZlIEFwcmlsIDE1LCAyMDE1Ljwvc3VwcGxpbmY+DQogICAgPC9kZXNjcmlwdD4NCiAg
+ICA8dGltZXBlcmQ+DQogICAgICA8Y3VycmVudD5QdWJsaWNhdGlvbiBkYXRlPC9jdXJyZW50Pg0K
+ICAgICAgPHRpbWVpbmZvPg0KICAgICAgICA8c25nZGF0ZT4NCiAgICAgICAgICA8Y2FsZGF0ZT4y
+MDE1MTAwMTwvY2FsZGF0ZT4NCiAgICAgICAgPC9zbmdkYXRlPg0KICAgICAgPC90aW1laW5mbz4N
+CiAgICA8L3RpbWVwZXJkPg0KICAgIDxzdGF0dXM+DQogICAgICA8cHJvZ3Jlc3M+Q29tcGxldGU8
+L3Byb2dyZXNzPg0KICAgICAgPHVwZGF0ZT5BcyBuZWVkZWQ8L3VwZGF0ZT4NCiAgICA8L3N0YXR1
+cz4NCiAgICA8c3Bkb20+DQogICAgICA8Ym91bmRpbmc+DQogICAgICAgIDx3ZXN0YmM+LTE2MC4y
+NDI0MDY8L3dlc3RiYz4NCiAgICAgICAgPGVhc3RiYz4tMTA5LjA0NTYxNTwvZWFzdGJjPg0KICAg
+ICAgICA8bm9ydGhiYz40Mi4wMDIxOTI8L25vcnRoYmM+DQogICAgICAgIDxzb3V0aGJjPjE4Ljky
+MTc4Njwvc291dGhiYz4NCiAgICAgIDwvYm91bmRpbmc+DQogICAgPC9zcGRvbT4NCiAgICA8a2V5
+d29yZHM+DQogICAgICA8dGhlbWU+DQogICAgICAgIDx0aGVtZWt0Pk5vbmU8L3RoZW1la3Q+DQog
+ICAgICAgIDx0aGVtZWtleT5QYXJ0aWN1bGF0ZSBNYXR0ZXIgMi41LCBOb25hdHRhaW5tZW50LCBB
+aXIgUXVhbGl0eTwvdGhlbWVrZXk+DQogICAgICA8L3RoZW1lPg0KICAgICAgPHBsYWNlPg0KICAg
+ICAgICA8cGxhY2VrdD5Ob25lPC9wbGFjZWt0Pg0KICAgICAgICA8cGxhY2VrZXk+QXJpem9uYTwv
+cGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtleT5DYWxpZm9ybmlhPC9wbGFjZWtleT4NCiAgICAg
+ICAgPHBsYWNla2V5Pkhhd2FpaTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtleT5OZXZhZGE8
+L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+Q2FsaWZvcm5pYSwgQXJpem9uYSwgTmV2YWRh
+LCBSZWdpb24gOTwvcGxhY2VrZXk+DQogICAgICA8L3BsYWNlPg0KICAgICAgPHN0cmF0dW0+DQog
+ICAgICAgIDxzdHJhdGt0Pk5vbmU8L3N0cmF0a3Q+DQogICAgICAgIDxzdHJhdGtleT5Ob25lPC9z
+dHJhdGtleT4NCiAgICAgIDwvc3RyYXR1bT4NCiAgICAgIDx0aGVtZT4NCiAgICAgICAgPHRoZW1l
+a3Q+SVNPIDE5MTE1IFRvcGljIENhdGVnb3J5PC90aGVtZWt0Pg0KICAgICAgICA8dGhlbWVrZXk+
+ZW52aXJvbm1lbnQ8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+Z2Vvc2NpZW50aWZpY0lu
+Zm9ybWF0aW9uPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PmhlYWx0aDwvdGhlbWVrZXk+
+DQogICAgICA8L3RoZW1lPg0KICAgICAgPHRoZW1lPg0KICAgICAgICA8dGhlbWVrdD5FUEEgR0lT
+IEtleXdvcmQgVGhlc2F1cnVzPC90aGVtZWt0Pg0KICAgICAgICA8dGhlbWVrZXk+QWlyPC90aGVt
+ZWtleT4NCiAgICAgICAgPHRoZW1la2V5PkhlYWx0aDwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVt
+ZWtleT5Nb25pdG9yaW5nPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PlJlZ3VsYXRvcnk8
+L3RoZW1la2V5Pg0KICAgICAgPC90aGVtZT4NCiAgICA8L2tleXdvcmRzPg0KICAgIDxhY2Njb25z
+dD5Ob25lPC9hY2Njb25zdD4NCiAgICA8dXNlY29uc3Q+SW50ZW5kZWQgdXNlIGZvciBzbWFsbCBz
+Y2FsZSBvciByZWdpb25hbCBtYXBwaW5nLjwvdXNlY29uc3Q+DQogICAgPGRhdGFjcmVkPkFja25v
+d2xlZGdlbWVudCBvZiBVUyBFUEEgUmVnaW9uIDkgR0lTIENlbnRlci48L2RhdGFjcmVkPg0KICAg
+IDxuYXRpdmU+TWljcm9zb2Z0IFdpbmRvd3MgWFAgVmVyc2lvbiA1LjEgKEJ1aWxkIDI2MDApIFNl
+cnZpY2UgUGFjayAzOyBFU1JJIEFyY0NhdGFsb2cgOS4zLjEuMzUwMDwvbmF0aXZlPg0KICAgIDxj
+cm9zc3JlZj4NCiAgICAgIDxjaXRlaW5mbz4NCiAgICAgICAgPHRpdGxlPlBhcnRpY3VsYXRlIE1h
+dHRlciAyLjUgTm9uYXR0YWlubWVudCBBcmVhcyA8L3RpdGxlPg0KICAgICAgPC9jaXRlaW5mbz4N
+CiAgICA8L2Nyb3NzcmVmPg0KICAgIDxzZWNpbmZvPg0KICAgICAgPHNlY3N5cz5GSVBTIFB1YiAx
+OTk8L3NlY3N5cz4NCiAgICAgIDxzZWNjbGFzcz5ObyBDb25maWRlbnRpYWxpdHk8L3NlY2NsYXNz
+Pg0KICAgICAgPHNlY2hhbmRsPlN0YW5kYXJkIFRlY2huaWNhbCBDb250cm9sczwvc2VjaGFuZGw+
+DQogICAgPC9zZWNpbmZvPg0KICAgIDxwdGNvbnRhYz4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAg
+ICA8Y250b3JncD4NCiAgICAgICAgICA8Y250b3JnPlUuUy4gRW52aXJvbm1lbnRhbCBQcm90ZWN0
+aW9uIEFnZW5jeSwgUmVnaW9uIDk8L2NudG9yZz4NCiAgICAgICAgICA8Y250cGVyPkZsZXRjaGVy
+IENsb3ZlcjwvY250cGVyPg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRwb3M+R0lT
+IEFuYWx5c3Q8L2NudHBvcz4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBl
+Pm1haWxpbmcgYW5kIHBoeXNpY2FsIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAgICAgIDxhZGRy
+ZXNzPjc1IEhhd3Rob3JuZSBTdHJlZXQ8L2FkZHJlc3M+DQogICAgICAgICAgPGNpdHk+U2FuIEZy
+YW5jaXNjbzwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+Q0E8L3N0YXRlPg0KICAgICAgICAgIDxw
+b3N0YWw+OTQxMDU8L3Bvc3RhbD4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250dm9p
+Y2U+KDQxNSkgOTcyLTM5OTE8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZmF4Pig0MTUpIDk0Ny0z
+NTc5PC9jbnRmYXg+DQogICAgICAgIDxjbnRlbWFpbD5jbG92ZXIuZmxldGNoZXJAZXBhLmdvdjwv
+Y250ZW1haWw+DQogICAgICAgIDxjbnRpbnN0Pmh0dHA6Ly93d3cuZXBhLmdvdi9yZWdpb24wOS88
+L2NudGluc3Q+DQogICAgICA8L2NudGluZm8+DQogICAgPC9wdGNvbnRhYz4NCiAgPC9pZGluZm8+
+DQogIDxkYXRhcXVhbD4NCiAgICA8YXR0cmFjYz4NCiAgICAgIDxhdHRyYWNjcj5EZXNpZ25hdGlv
+bnMgYW5kIHNldmVyaXR5IGNsYXNzaWZpY2F0aW9ucyBhcmUgYmFzZWQgb24gaW5mb3JtYXRpb24g
+ZnJvbSB0aGUgQ0ZSPC9hdHRyYWNjcj4NCiAgICA8L2F0dHJhY2M+DQogICAgPGxvZ2ljPlRoZSBz
+cGF0aWFsIGRhdGEgaXMgYmFzZWQgb24gdGhlIENvZGUgb2YgRmVkZXJhbCBSZWd1bGF0aW9ucyAt
+IFByb3RlY3Rpb24gb2YgRW52aXJvbm1lbnQsIFBBUlQgODEuPC9sb2dpYz4NCiAgICA8cG9zYWNj
+Pg0KICAgICAgPHZlcnRhY2M+DQogICAgICAgIDx2ZXJ0YWNjcj5OL0E8L3ZlcnRhY2NyPg0KICAg
+ICAgPC92ZXJ0YWNjPg0KICAgICAgPGhvcml6cGE+DQogICAgICAgIDxob3JpenBhcj5Ib3Jpem9u
+dGFsIEFjY3VyYWN5IGlzIGJhc2VkIG9uIHRoZSBQdWJsaWMgTGFuZCBTdXJ2ZXkgU3lzdGVtIChC
+TE0pLiBUaGUgc3BhdGlhbCBkYXRhIGlzIGJhc2VkIG9uIFB1YmxpYyBMYW5kIFN1cnZleSBTeXN0
+ZW0gKFBMU1MpLCBhbmQgcG9saXRpY2FsIGJvdW5kYXJpZXMgc3VjaCBhcyB1cmJhbiwgY291bnR5
+IGFuZCBTdGF0ZSBib3VuZGFyaWVzLCB0aHVzIHRoZSBsaW5lIHdvcmsgcmVmbGVjdHMgdGhlIHNv
+dXJjZTsgZm9yIGV4YW1wbGUsIFBMU1Mgb3IgY291bnR5LjwvaG9yaXpwYXI+DQogICAgICAgIDxx
+aG9yaXpwYT4NCiAgICAgICAgICA8aG9yaXpwYXY+NDAgZmVldDwvaG9yaXpwYXY+DQogICAgICAg
+IDwvcWhvcml6cGE+DQogICAgICA8L2hvcml6cGE+DQogICAgPC9wb3NhY2M+DQogICAgPGxpbmVh
+Z2U+DQogICAgICA8c3JjaW5mbz4NCiAgICAgICAgPHR5cGVzcmM+b25saW5lPC90eXBlc3JjPg0K
+ICAgICAgICA8c3JjY2l0ZWE+VVMgRVBBPC9zcmNjaXRlYT4NCiAgICAgICAgPHNyY2NvbnRyPlVu
+aXRlZCBTdGF0ZXMgRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uIEFnZW5jeTwvc3JjY29udHI+DQog
+ICAgICAgIDxzcmN0aW1lPg0KICAgICAgICAgIDxzcmNjdXJyPnB1YmxpY2F0aW9uIGRhdGU8L3Ny
+Y2N1cnI+DQogICAgICAgICAgPHRpbWVpbmZvPg0KICAgICAgICAgICAgPG1kYXR0aW0+DQogICAg
+ICAgICAgICAgIDxzbmdkYXRlPg0KICAgICAgICAgICAgICAgIDxjYWxkYXRlPkFwcmlsIDE1PC9j
+YWxkYXRlPg0KICAgICAgICAgICAgICA8L3NuZ2RhdGU+DQogICAgICAgICAgICAgIDxzbmdkYXRl
+Pg0KICAgICAgICAgICAgICAgIDxjYWxkYXRlPjIwMTU8L2NhbGRhdGU+DQogICAgICAgICAgICAg
+IDwvc25nZGF0ZT4NCiAgICAgICAgICAgIDwvbWRhdHRpbT4NCiAgICAgICAgICA8L3RpbWVpbmZv
+Pg0KICAgICAgICA8L3NyY3RpbWU+DQogICAgICAgIDxzcmNjaXRlPg0KICAgICAgICAgIDxjaXRl
+aW5mbz4NCiAgICAgICAgICAgIDxvcmlnaW4+VVMgRVBBPC9vcmlnaW4+DQogICAgICAgICAgICA8
+dGl0bGU+QWlyIFF1YWxpdHkgRGVzaWduYXRpb25zIGZvciB0aGUgMjAxMiBQcmltYXJ5IEFubnVh
+bCBGaW5lIFBhcnRpY2xlIChQTTIuNSk8L3RpdGxlPg0KICAgICAgICAgICAgPGdlb2Zvcm0+dmVj
+dG9yIGRpZ2l0YWwgZGF0YTwvZ2VvZm9ybT4NCiAgICAgICAgICAgIDxwdWJkYXRlPjIwMTUwMTI5
+PC9wdWJkYXRlPg0KICAgICAgICAgICAgPHB1YmluZm8+DQogICAgICAgICAgICAgIDxwdWJsaXNo
+PlUuUy4gRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uIEFnZW5jeSwgUmVnaW9uIDk8L3B1Ymxpc2g+
+DQogICAgICAgICAgICAgIDxwdWJwbGFjZT5TYW4gRnJhbmNpc2NvLCBDQTwvcHVicGxhY2U+DQog
+ICAgICAgICAgICA8L3B1YmluZm8+DQogICAgICAgICAgICA8c2VyaW5mbz4NCiAgICAgICAgICAg
+ICAgPHNlcm5hbWU+UjlfYW5udWFsX1BNMjVfZGVzaWduYXRlZF9hcmVhcy5zaHA8L3Nlcm5hbWU+
+DQogICAgICAgICAgICAgIDxpc3N1ZT5OQTwvaXNzdWU+DQogICAgICAgICAgICA8L3NlcmluZm8+
+DQogICAgICAgICAgICA8b25saW5rPmh0dHBzOi8vZmVkZXJhbHJlZ2lzdGVyLmdvdi9hLzIwMTUt
+MDAwMjE8L29ubGluaz4NCiAgICAgICAgICA8L2NpdGVpbmZvPg0KICAgICAgICA8L3NyY2NpdGU+
+DQogICAgICA8L3NyY2luZm8+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGF0ZT4y
+MDE1MDEyOTwvcHJvY2RhdGU+DQogICAgICAgIDxwcm9jZGVzYz5EYXRhIGltcG9ydGVkIGZyb20g
+ZmluYWwgUmVnaW9uIDkgVFNEIHByb2plY3QgZGF0YTwvcHJvY2Rlc2M+DQogICAgICA8L3Byb2Nz
+dGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2RhdGU+MjAxNTAxMjk8L3Byb2Nk
+YXRlPg0KICAgICAgICA8cHJvY2Rlc2M+TWV0YWRhdGEgY3JlYXRlZDwvcHJvY2Rlc2M+DQogICAg
+ICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2RhdGU+MjAxNTA0
+MDc8L3Byb2NkYXRlPg0KICAgICAgICA8cHJvY2Rlc2M+RmluYWwgbWV0YWRhdGEgY2hlY2s8L3By
+b2NkZXNjPg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICA8L2xpbmVhZ2U+DQogICAgPGNvbXBsZXRl
+PkNvbXBsZXRlPC9jb21wbGV0ZT4NCiAgPC9kYXRhcXVhbD4NCiAgPHNwZG9pbmZvPg0KICAgIDxk
+aXJlY3Q+VmVjdG9yPC9kaXJlY3Q+DQogIDwvc3Bkb2luZm8+DQogIDxzcHJlZj4NCiAgICA8aG9y
+aXpzeXM+DQogICAgICA8Z2VvZGV0aWM+DQogICAgICAgIDxob3JpemRuPk5vcnRoIEFtZXJpY2Fu
+IERhdHVtIG9mIDE5ODM8L2hvcml6ZG4+DQogICAgICAgIDxlbGxpcHM+R2VvZGV0aWMgUmVmZXJl
+bmNlIFN5c3RlbSA4MDwvZWxsaXBzPg0KICAgICAgICA8c2VtaWF4aXM+NjM3ODEzNy4wMDAwMDA8
+L3NlbWlheGlzPg0KICAgICAgICA8ZGVuZmxhdD4yOTguMjU3MjIyPC9kZW5mbGF0Pg0KICAgICAg
+PC9nZW9kZXRpYz4NCiAgICA8L2hvcml6c3lzPg0KICAgIDx2ZXJ0ZGVmPg0KICAgICAgPGFsdHN5
+cz4NCiAgICAgICAgPGFsdGVuYz5FeHBsaWNpdCBlbGV2YXRpb24gY29vcmRpbmF0ZSBpbmNsdWRl
+ZCB3aXRoIGhvcml6b250YWwgY29vcmRpbmF0ZXM8L2FsdGVuYz4NCiAgICAgICAgPGFsdHJlcz4w
+LjAwMDEwMDwvYWx0cmVzPg0KICAgICAgPC9hbHRzeXM+DQogICAgPC92ZXJ0ZGVmPg0KICA8L3Nw
+cmVmPg0KICA8ZWFpbmZvPg0KICAgIDxkZXRhaWxlZD4NCiAgICAgIDxlbnR0eXA+DQogICAgICAg
+IDxlbnR0eXBsPlI5X2FubnVhbF9QTTI1X2Rlc2lnbmF0ZWRfYXJlYXM8L2VudHR5cGw+DQogICAg
+ICAgIDxlbnR0eXBkPkFubnVhbCBQTS0yLjUgTm9uYXR0YWlubWVudCBBcmVhcyBmb3IgVVMgRVBB
+IFJlZ2lvbiA5PC9lbnR0eXBkPg0KICAgICAgICA8ZW50dHlwZHM+VVMgRVBBPC9lbnR0eXBkcz4N
+CiAgICAgIDwvZW50dHlwPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5PQkpFQ1RJ
+RDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkludGVybmFsIGZlYXR1cmUgbnVtYmVyLjwv
+YXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVzcmk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0
+cmRvbXY+DQogICAgICAgICAgPHVkb20+U2VxdWVudGlhbCB1bmlxdWUgd2hvbGUgbnVtYmVycyB0
+aGF0IGFyZSBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQogICAgICAgIDwvYXR0cmRv
+bXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNUQVRF
+X05BTUU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5Ud28tbGV0dGVyIGFiYnJldmlhdGlv
+biBvZiBzdGF0ZSBuYW1lLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlVTIENlbnN1cyBC
+dXJlYXU8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+UGxh
+Y2UgbmFtZXM8L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAg
+ICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNoYXBlPC9hdHRybGFibD4NCiAgICAgICAgPGF0
+dHJkZWY+RmVhdHVyZSBnZW9tZXRyeS48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5FU1JJ
+PC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPkNvb3JkaW5h
+dGVzIGRlZmluaW5nIHRoZSBmZWF0dXJlcy48L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQog
+ICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkFOTlBNMjVOQU08
+L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5OYW1lIG9mIGFubnVhbCBQTS0yLjUgTkFBUVMg
+ZGVzaWduYXRlZCBhcmVhPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VVMgRVBBPC9hdHRy
+ZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlBsYWNlIG5hbWVzPC91
+ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQog
+ICAgICAgIDxhdHRybGFibD5GMTk5N2Rlc2lnPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+
+RGVzaWduYXRpb24gb2YgYXJlYSBmb3IgdGhlIDE5OTcgYW5udWFsIFBNLTIuNSBzdGFuZGFyZDwv
+YXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlVTIEVQQTwvYXR0cmRlZnM+DQogICAgICAgIDxh
+dHRyZG9tdj4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAgICAgICAgIDxlZG9tdj5Ob25hdHRhaW5t
+ZW50PC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+YW55IGFyZWEgdGhhdCBkb2VzIG5vdCBt
+ZWV0IChvciB0aGF0IGNvbnRyaWJ1dGVzIHRvIGFtYmllbnQgYWlyIHF1YWxpdHkgaW4gYSBuZWFy
+YnkgYXJlYSB0aGF0IGRvZXMgbm90IG1lZXQpIHRoZSBuYXRpb25hbCBwcmltYXJ5IG9yIHNlY29u
+ZGFyeSBhbWJpZW50IGFpciBxdWFsaXR5IHN0YW5kYXJkIGZvciB0aGUgcG9sbHV0YW50PC9lZG9t
+dmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5odHRwczovL2ZlZGVyYWxyZWdpc3Rlci5nb3YvYS8y
+MDE1LTAwMDIxPC9lZG9tdmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgPC9hdHRyZG9t
+dj4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAgICAgPGVk
+b212PlVuY2xhc3NpZmlhYmxlL0F0dGFpbm1lbnQ8L2Vkb212Pg0KICAgICAgICAgICAgPGVkb212
+ZD5hcmVhcyBlaXRoZXIgaGF2ZSBhdHRhaW5pbmcgYWlyIHF1YWxpdHkgbW9uaXRvcmluZyBkYXRh
+IG9yIHRoYXQgYWlyIHF1YWxpdHkgaW5mb3JtYXRpb24gaXMgbm90IGF2YWlsYWJsZSBiZWNhdXNl
+IHRoZSBhcmVhcyBhcmUgbm90IG1vbml0b3JlZCwgYW5kIHRoZSBFUEEgaGFzIG5vdCBkZXRlcm1p
+bmVkIHRoYXQgdGhlIGFyZWFzIGNvbnRyaWJ1dGUgdG8gYSB2aW9sYXRpb24gaW4gYSBuZWFyYnkg
+YXJlYTwvZWRvbXZkPg0KICAgICAgICAgICAgPGVkb212ZHM+aHR0cHM6Ly9mZWRlcmFscmVnaXN0
+ZXIuZ292L2EvMjAxNS0wMDAyMTwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAg
+IDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJs
+YWJsPkY5N2VmZl9kYXRlPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+RGF0ZSB1cG9uIGRl
+c2lnbmF0aW9ucyBhcmUgZWZmZWN0aXZlIGluIHJlZ2FyZHMgdG8gc3RhdGUgaW1wbGVtZW50YXRp
+b24gcGxhbiAoU0lQKSBpbXBsZW1lbnRhdGlvbjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZz
+PlVTIEVQQTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5D
+YWxlbmRhciBkYXRlPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0K
+ICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5GMjAxMmRlc2lnPC9hdHRybGFibD4NCiAg
+ICAgICAgPGF0dHJkZWY+RGVzaWduYXRpb24gb2YgYXJlYSBmb3IgdGhlIDIwMTIgYW5udWFsIFBN
+LTIuNSBzdGFuZGFyZDwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlVTIEVQQTwvYXR0cmRl
+ZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAgICAgICAgIDxl
+ZG9tdj5Ob25hdHRhaW5tZW50PC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+YW55IGFyZWEg
+dGhhdCBkb2VzIG5vdCBtZWV0IChvciB0aGF0IGNvbnRyaWJ1dGVzIHRvIGFtYmllbnQgYWlyIHF1
+YWxpdHkgaW4gYSBuZWFyYnkgYXJlYSB0aGF0IGRvZXMgbm90IG1lZXQpIHRoZSBuYXRpb25hbCBw
+cmltYXJ5IG9yIHNlY29uZGFyeSBhbWJpZW50IGFpciBxdWFsaXR5IHN0YW5kYXJkIGZvciB0aGUg
+cG9sbHV0YW50PC9lZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5odHRwczovL2ZlZGVyYWxy
+ZWdpc3Rlci5nb3YvYS8yMDE1LTAwMDIxPC9lZG9tdmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAg
+ICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+YXR0cmxhYmw+RjIwMTJjbGFzczwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPnNldmVyaXR5
+IG9mIHBvbGx1dGlvbiBsZXZlbHMgY29tcGFyZWQgdG8gdGhlIDIwMTIgYW5udWFsIFBNLTIuNSBO
+QUFRUyBpbiBhIGRlc2lnbmF0ZWQgZ2VvZ3JhcGhpYyBhcmVhPC9hdHRyZGVmPg0KICAgICAgICA8
+YXR0cmRlZnM+VVMgRVBBPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAg
+IDxlZG9tPg0KICAgICAgICAgICAgPGVkb212Pk1vZGVyYXRlPC9lZG9tdj4NCiAgICAgICAgICAg
+IDxlZG9tdmQ+YXJlYSBoYXMgc2l4IHllYXJzIGZyb20gZWZmZWN0aXZlIGRhdGUgb2YgZGVzaWdu
+YXRpb24gdG8gYXR0YWluIHRoZSBOQUFRUzwvZWRvbXZkPg0KICAgICAgICAgICAgPGVkb212ZHM+
+VVMgRVBBPC9lZG9tdmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4N
+CiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+RjEyZWZmX2Rh
+dGU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5EYXRlIHVwb24gZGVzaWduYXRpb25zIGFy
+ZSBlZmZlY3RpdmUgaW4gcmVnYXJkcyB0byBzdGF0ZSBpbXBsZW1lbnRhdGlvbiBwbGFuIChTSVAp
+IGltcGxlbWVudGF0aW9uPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VVMgRVBBPC9hdHRy
+ZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPkNhbGVuZGFyIGRhdGU8
+L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4N
+CiAgICAgICAgPGF0dHJsYWJsPlNPVVJDRTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkh5
+cGVybGluayByZWZlcmVuY2UgaW4gRmVkZXJhbCBSZWdpc3RlciB0byBkZXNpZ25hdGVkIGFyZWE8
+L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5VUyBFUEE8L2F0dHJkZWZzPg0KICAgICAgICA8
+YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+VVJMPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212
+Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5TaGFwZV9M
+ZW5ndGg8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5MZW5ndGggb2YgZmVhdHVyZSBpbiBp
+bnRlcm5hbCB1bml0cy48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5Fc3JpPC9hdHRyZGVm
+cz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlBvc2l0aXZlIHJlYWwgbnVt
+YmVycyB0aGF0IGFyZSBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQogICAgICAgIDwv
+YXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJs
+PlNoYXBlX0FyZWE8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5BcmVhIG9mIGZlYXR1cmUg
+aW4gaW50ZXJuYWwgdW5pdHMgc3F1YXJlZC48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5F
+c3JpPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlBvc2l0
+aXZlIHJlYWwgbnVtYmVycyB0aGF0IGFyZSBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+
+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgPC9kZXRhaWxlZD4NCiAg
+ICA8b3ZlcnZpZXc+DQogICAgICA8ZWFkZXRjaXQ+VVMgRVBBLCAyMDE1PC9lYWRldGNpdD4NCiAg
+ICAgIDxlYW92ZXI+QXR0cmlidXRlIGluZm9ybWF0aW9uIGZvciBhcmVhcyBpbiBVUyBFUEEgUmVn
+aW9uIDkgZGVzaWduYXRlZCBhY2NvcmRpbmcgdG8gdGhlIDE5OTcgYW5kIDIwMTIgYW5udWFsIGZp
+bmUgcGFydGljbGUgKGFubnVhbCBQTS0yLjUpIG5hdGlvbmFsIGFtYmllbnQgYWlyIHF1YWxpdHkg
+c3RhbmRhcmRzIChOQUFRUykuPC9lYW92ZXI+DQogICAgPC9vdmVydmlldz4NCiAgPC9lYWluZm8+
+DQogIDxkaXN0aW5mbz4NCiAgICA8cmVzZGVzYz5VUyBFUEEgUmVnaW9uIDk8L3Jlc2Rlc2M+DQog
+ICAgPGRpc3RsaWFiPmh0dHBzOi8vZWRnLmVwYS5nb3YvRVBBX0RhdGFfTGljZW5zZS5odG1sPC9k
+aXN0bGlhYj4NCiAgICA8Y3VzdG9tPm4vQTwvY3VzdG9tPg0KICAgIDx0ZWNocHJlcT5BcmNHSVMg
+OTwvdGVjaHByZXE+DQogICAgPGRpc3RyaWI+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAgPGNu
+dG9yZ3A+DQogICAgICAgICAgPGNudG9yZz5VLlMuIEVudmlyb25tZW50YWwgUHJvdGVjdGlvbiBB
+Z2VuY3ksIFJlZ2lvbiA5PC9jbnRvcmc+DQogICAgICAgICAgPGNudHBlcj5GbGV0Y2hlciBDbG92
+ZXI8L2NudHBlcj4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICA8Y250cG9zPkdJUyBBbmFs
+eXN0PC9jbnRwb3M+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRydHlwZT5tYWls
+aW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz43
+NSBIYXd0aG9ybmUgU3RyZWV0PC9hZGRyZXNzPg0KICAgICAgICAgIDxjaXR5PlNhbiBGcmFuY2lz
+Y288L2NpdHk+DQogICAgICAgICAgPHN0YXRlPkNBPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFs
+Pjk0MTA1PC9wb3N0YWw+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPig0
+MTUpIDk3Mi0zOTkxPC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGVtYWlsPmNsb3Zlci5mbGV0Y2hl
+ckBlcGEuZ292PC9jbnRlbWFpbD4NCiAgICAgICAgPGNudGluc3Q+aHR0cDovL3d3dy5lcGEuZ292
+L3JlZ2lvbjA5LzwvY250aW5zdD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L2Rpc3RyaWI+DQog
+IDwvZGlzdGluZm8+DQogIDxtZXRhaW5mbz4NCiAgICA8bWV0ZD4yMDE1MTAwMTwvbWV0ZD4NCiAg
+ICA8bWV0cmQ+QXMgbmVlZGVkPC9tZXRyZD4NCiAgICA8bWV0ZnJkPjIwMTkxMDAxPC9tZXRmcmQ+
+DQogICAgPG1ldHN0ZG4+RkdEQyBDb250ZW50IFN0YW5kYXJkIGZvciBEaWdpdGFsIEdlb3NwYXRp
+YWwgTWV0YWRhdGE8L21ldHN0ZG4+DQogICAgPG1ldHN0ZHY+RkdEQy1TVEQtMDAxLTE5OTg8L21l
+dHN0ZHY+DQogICAgPG1ldHRjPmxvY2FsIHRpbWU8L21ldHRjPg0KICAgIDxtZXRhYz5Ob25lPC9t
+ZXRhYz4NCiAgICA8bWV0dWM+Tm9uZTwvbWV0dWM+DQogICAgPG1ldGM+DQogICAgICA8Y250aW5m
+bz4NCiAgICAgICAgPGNudG9yZ3A+DQogICAgICAgICAgPGNudG9yZz5VLlMuIEVudmlyb25tZW50
+YWwgUHJvdGVjdGlvbiBBZ2VuY3ksIFJlZ2lvbiA5PC9jbnRvcmc+DQogICAgICAgICAgPGNudHBl
+cj5DaGVyeWwgSGVubGV5PC9jbnRwZXI+DQogICAgICAgIDwvY250b3JncD4NCiAgICAgICAgPGNu
+dHBvcz5HSVMgVGVjaG5pY2FsIENvb3JkaW5hdG9yPC9jbnRwb3M+DQogICAgICAgIDxjbnRhZGRy
+Pg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRy
+dHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz43NSBIYXd0aG9ybmUgU3RyZWV0PC9hZGRyZXNzPg0K
+ICAgICAgICAgIDxjaXR5PlNhbiBGcmFuY2lzY288L2NpdHk+DQogICAgICAgICAgPHN0YXRlPkNB
+PC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjk0MTA1PC9wb3N0YWw+DQogICAgICAgIDwvY250
+YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPig0MTUpIDk0Ny04MDAwPC9jbnR2b2ljZT4NCiAgICAg
+ICAgPGNudGZheD4oNDE1KSA5NDctMzU1MzwvY250ZmF4Pg0KICAgICAgICA8Y250ZW1haWw+aGVu
+bGV5LmNoZXJ5bEBlcGEuZ292PC9jbnRlbWFpbD4NCiAgICAgICAgPGNudGluc3Q+aHR0cDovL3d3
+dy5lcGEuZ292L3JlZ2lvbjA5LzwvY250aW5zdD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L21l
+dGM+DQogIDwvbWV0YWluZm8+DQogIDxkYXRhSWRJbmZvPg0KICAgIDxlbnZpckRlc2M+TWljcm9z
+b2Z0IFdpbmRvd3MgNyBWZXJzaW9uIDYuMSAoQnVpbGQgNzYwMSkgU2VydmljZSBQYWNrIDE7IEVz
+cmkgQXJjR0lTIDEwLjIuMS4zNDk3PC9lbnZpckRlc2M+DQogICAgPGRhdGFMYW5nPg0KICAgICAg
+PGxhbmd1YWdlQ29kZSB2YWx1ZT0iZW4iIC8+DQogICAgICA8Y291bnRyeUNvZGUgdmFsdWU9IlVT
+QSIgLz4NCiAgICA8L2RhdGFMYW5nPg0KICAgIDxpZENpdGF0aW9uPg0KICAgICAgPHJlc1RpdGxl
+PlI5X2FubnVhbF9QTTI1X2Rlc2lnbmF0ZWRfYXJlYXM8L3Jlc1RpdGxlPg0KICAgICAgPHByZXNG
+b3JtPg0KICAgICAgICA8UHJlc0Zvcm1DZCB2YWx1ZT0iMDA1IiAvPg0KICAgICAgPC9wcmVzRm9y
+bT4NCiAgICA8L2lkQ2l0YXRpb24+DQogICAgPHNwYXRScFR5cGU+DQogICAgICA8U3BhdFJlcFR5
+cENkIHZhbHVlPSIwMDEiIC8+DQogICAgPC9zcGF0UnBUeXBlPg0KICAgIDxkYXRhRXh0Pg0KICAg
+ICAgPGdlb0VsZT4NCiAgICAgICAgPEdlb0JuZEJveCBlc3JpRXh0ZW50VHlwZT0ibmF0aXZlIj4N
+CiAgICAgICAgICA8d2VzdEJMPi00MTk0MDYxLjQ2NTE4NDwvd2VzdEJMPg0KICAgICAgICAgIDxl
+YXN0Qkw+MTA0MzM5OC40MTUzMjwvZWFzdEJMPg0KICAgICAgICAgIDxub3J0aEJMPjQ1NzI3MC45
+NzY4NDwvbm9ydGhCTD4NCiAgICAgICAgICA8c291dGhCTD4tMTM2MzIzOC41MDgxNDU8L3NvdXRo
+Qkw+DQogICAgICAgICAgPGV4VHlwZUNvZGU+MTwvZXhUeXBlQ29kZT4NCiAgICAgICAgPC9HZW9C
+bmRCb3g+DQogICAgICA8L2dlb0VsZT4NCiAgICA8L2RhdGFFeHQ+DQogICAgPGdlb0JveCBlc3Jp
+RXh0ZW50VHlwZT0iZGVjZGVncmVlcyI+DQogICAgICA8d2VzdEJMPi0xNjYuNDk0NDA3PC93ZXN0
+Qkw+DQogICAgICA8ZWFzdEJMPi0xMDcuNDgwMzI1PC9lYXN0Qkw+DQogICAgICA8bm9ydGhCTD40
+Mi4xMzM4OTc8L25vcnRoQkw+DQogICAgICA8c291dGhCTD4xNy41NzE1MDc8L3NvdXRoQkw+DQog
+ICAgICA8ZXhUeXBlQ29kZT4xPC9leFR5cGVDb2RlPg0KICAgIDwvZ2VvQm94Pg0KICAgIDxkYXRh
+RXh0Pg0KICAgICAgPGdlb0VsZT4NCiAgICAgICAgPEdlb0JuZEJveCBlc3JpRXh0ZW50VHlwZT0i
+c2VhcmNoIj4NCiAgICAgICAgICA8ZXhUeXBlQ29kZT4xPC9leFR5cGVDb2RlPg0KICAgICAgICAg
+IDx3ZXN0Qkw+LTEyMS41ODY4MDA8L3dlc3RCTD4NCiAgICAgICAgICA8ZWFzdEJMPi0xMTUuMzY2
+MzAwPC9lYXN0Qkw+DQogICAgICAgICAgPG5vcnRoQkw+MzkuODkzNjAwPC9ub3J0aEJMPg0KICAg
+ICAgICAgIDxzb3V0aEJMPjMyLjY0MjQwMDwvc291dGhCTD4NCiAgICAgICAgPC9HZW9CbmRCb3g+
+DQogICAgICA8L2dlb0VsZT4NCiAgICA8L2RhdGFFeHQ+DQogIDwvZGF0YUlkSW5mbz4NCiAgPG1k
+TGFuZz4NCiAgICA8bGFuZ3VhZ2VDb2RlIHZhbHVlPSJlbiIgLz4NCiAgICA8Y291bnRyeUNvZGUg
+dmFsdWU9IlVTQSIgLz4NCiAgPC9tZExhbmc+DQogIDxtZFN0YW5OYW1lPklTTyAxOTExNSBHZW9n
+cmFwaGljIEluZm9ybWF0aW9uIC0gTWV0YWRhdGE8L21kU3Rhbk5hbWU+DQogIDxtZFN0YW5WZXI+
+RElTX0VTUkkxLjA8L21kU3RhblZlcj4NCiAgPG1kQ2hhcj4NCiAgICA8Q2hhclNldENkIHZhbHVl
+PSIwMDQiIC8+DQogIDwvbWRDaGFyPg0KICA8bWRIckx2Pg0KICAgIDxTY29wZUNkIHZhbHVlPSIw
+MDUiIC8+DQogIDwvbWRIckx2Pg0KICA8bWRIckx2TmFtZT5kYXRhc2V0PC9tZEhyTHZOYW1lPg0K
+ICA8ZGlzdEluZm8+DQogICAgPGRpc3RyaWJ1dG9yPg0KICAgICAgPGRpc3RvclRyYW4+DQogICAg
+ICAgIDxvbkxpbmVTcmM+DQogICAgICAgICAgPG9yRGVzYz4wMDI8L29yRGVzYz4NCiAgICAgICAg
+ICA8bGlua2FnZT5maWxlOi8vXFxEMDkwOU1GQ0xPVkVSMDFcQ1xXb3Jrc3BhY2VcQUlSMTEwMDAx
+OF9OQUFfbWFwc1xTcGF0aWFsRGF0YXNldHNcQUlSMTEwMDAxOC5nZGI8L2xpbmthZ2U+DQogICAg
+ICAgICAgPHByb3RvY29sPkxvY2FsIEFyZWEgTmV0d29yazwvcHJvdG9jb2w+DQogICAgICAgIDwv
+b25MaW5lU3JjPg0KICAgICAgICA8dHJhbnNTaXplPjAuMDAwPC90cmFuc1NpemU+DQogICAgICA8
+L2Rpc3RvclRyYW4+DQogICAgICA8ZGlzdG9yRm9ybWF0Pg0KICAgICAgICA8Zm9ybWF0TmFtZT5G
+aWxlIEdlb2RhdGFiYXNlIEZlYXR1cmUgQ2xhc3M8L2Zvcm1hdE5hbWU+DQogICAgICA8L2Rpc3Rv
+ckZvcm1hdD4NCiAgICA8L2Rpc3RyaWJ1dG9yPg0KICAgIDxkaXN0Rm9ybWF0Pg0KICAgICAgPGZv
+cm1hdE5hbWU+U2hhcGVmaWxlPC9mb3JtYXROYW1lPg0KICAgIDwvZGlzdEZvcm1hdD4NCiAgICA8
+ZGlzdFRyYW5PcHM+DQogICAgICA8dHJhbnNTaXplPjAuMzkxPC90cmFuc1NpemU+DQogICAgPC9k
+aXN0VHJhbk9wcz4NCiAgPC9kaXN0SW5mbz4NCiAgPHJlZlN5c0luZm8+DQogICAgPFJlZlN5c3Rl
+bT4NCiAgICAgIDxyZWZTeXNJRD4NCiAgICAgICAgPGlkZW50Q29kZT5OQURfMTk4M19DYWxpZm9y
+bmlhX1RlYWxlX0FsYmVyczwvaWRlbnRDb2RlPg0KICAgICAgICA8aWRDb2RlU3BhY2U+RVBTRzwv
+aWRDb2RlU3BhY2U+DQogICAgICAgIDxpZFZlcnNpb24+OC4yLjY8L2lkVmVyc2lvbj4NCiAgICAg
+IDwvcmVmU3lzSUQ+DQogICAgPC9SZWZTeXN0ZW0+DQogIDwvcmVmU3lzSW5mbz4NCiAgPHNwYXRS
+ZXBJbmZvPg0KICAgIDxWZWN0U3BhdFJlcD4NCiAgICAgIDxnZW9tZXRPYmpzPg0KICAgICAgICA8
+Z2VvT2JqVHlwPg0KICAgICAgICAgIDxHZW9PYmpUeXBDZCB2YWx1ZT0iMDAyIiAvPg0KICAgICAg
+ICA8L2dlb09ialR5cD4NCiAgICAgICAgPGdlb09iakNudD40PC9nZW9PYmpDbnQ+DQogICAgICA8
+L2dlb21ldE9ianM+DQogICAgICA8dG9wTHZsPg0KICAgICAgICA8VG9wb0xldkNkIHZhbHVlPSIw
+MDEiIC8+DQogICAgICA8L3RvcEx2bD4NCiAgICA8L1ZlY3RTcGF0UmVwPg0KICA8L3NwYXRSZXBJ
+bmZvPg0KICA8bWREYXRlU3Q+MjAxNTAxMjk8L21kRGF0ZVN0Pg0KICA8aGlzdG9yeT4NCiAgICA8
+bG9nPg0KICAgICAgPGl0ZW0+DQogICAgICAgIDxjaGFuZ2VzZXQ+MDwvY2hhbmdlc2V0Pg0KICAg
+ICAgICA8Y2hhbmdldHlwZT5EYXRhPC9jaGFuZ2V0eXBlPg0KICAgICAgICA8dXNlcj5BQVxmY2xv
+dmVyPC91c2VyPg0KICAgICAgICA8ZGF0ZT4xMi80LzIwMDkgMTA6NDI6MzIgQU08L2RhdGU+DQog
+ICAgICA8L2l0ZW0+DQogICAgPC9sb2c+DQogIDwvaGlzdG9yeT4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+  <mdFileID>864448BC-C62F-40C8-91C7-E9212F97F78E</mdFileID>
+</metadata>

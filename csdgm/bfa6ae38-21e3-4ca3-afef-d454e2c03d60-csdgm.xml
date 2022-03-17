@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <PublishedDocID>{2D393297-DF38-4204-93A6-4C2C22BF25AD}</PublishedDocID>
+    <ModDate>20170920</ModDate>
+    <ModTime>10205300</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>NAP</ArcGISProfile>
+  </Esri>
+  <Esri>
+    <CreaDate>20160120</CreaDate>
+    <CreaTime>16072300</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <SyncOnce>TRUE</SyncOnce>
+    <MapLyrSync>TRUE</MapLyrSync>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+  </Esri>
+  <idinfo>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>EPA GIS Keyword Thesaurus</themekt>
+        <themekey>Air</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arizona</placekey>
+        <placekey>California</placekey>
+        <placekey>Nevada</placekey>
+      </place>
+    </keywords>
+    <citation>
+      <citeinfo>
+        <origin>US Environmental Protection Agency</origin>
+        <title>Air Division Mapping Application NAAQS Designations Map Service, Region 9, 2015, US EPA Region 9</title>
+        <pubinfo>
+          <publish>U.S. Environmental Protection Agency, Region 9</publish>
+          <pubplace>San Francisco, CA</pubplace>
+        </pubinfo>
+        <pubdate>20160120</pubdate>
+        <onlink>https://www3.epa.gov/region09/air/maps/index.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Designated Areas - as of October 1, 2015. A designation is the term EPA uses to describe the air quality in a given area for any of six common air pollutants known as criteria pollutants. After EPA establishes or revises a primary and/or secondary National Ambient Air Quality Standard (NAAQS), the Clean Air Act requires EPA to designate areas as &#226;??attainment&#226;?? (meeting), &#226;??nonattainment&#226;?? (not meeting), or &#226;??unclassifiable&#226;?? (insufficient data) after monitoring data is collected by state, local and tribal governments. Once nonattainment designations take effect, the state and local governments have three years to develop implementation plans outlining how areas will attain and maintain the standards by reducing air pollutant emissions. Air Quality Systems (AQS) 2012-2014 Design Value Data - as of October 1, 2015. A design value is a statistic that describes the air quality status of a given location relative to the level of the National Ambient Air Quality Standards (NAAQS).</abstract>
+      <purpose>This map service contains EPA Region 9 designated areas and 2012-2014 design values  for the Air Division Mapping Application.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-124.409735</westbc>
+        <eastbc>-109.045163</eastbc>
+        <northbc>42.009524</northbc>
+        <southbc>31.332183</southbc>
+      </bounding>
+    </spdom>
+  </idinfo>
+  <distinfo>
+    <resdesc>Live Data and Maps</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20211215</metd>
+    <metfrd>20200120</metfrd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>MTS-6-1</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Air Division Mapping Application NAAQS Designations Map Service, Region 9, 2015, US EPA Region 9</resTitle>
+    </idCitation>
+    <idAbs>Designated Areas - as of October 1, 2015. A designation is the term EPA uses to describe the air quality in a given area for any of six common air pollutants known as criteria pollutants. After EPA establishes or revises a primary and/or secondary National Ambient Air Quality Standard (NAAQS), the Clean Air Act requires EPA to designate areas as &#226;??attainment&#226;?? (meeting), &#226;??nonattainment&#226;?? (not meeting), or &#226;??unclassifiable&#226;?? (insufficient data) after monitoring data is collected by state, local and tribal governments. Once nonattainment designations take effect, the state and local governments have three years to develop implementation plans outlining how areas will attain and maintain the standards by reducing air pollutant emissions. Air Quality Systems (AQS) 2012-2014 Design Value Data - as of October 1, 2015. A design value is a statistic that describes the air quality status of a given location relative to the level of the National Ambient Air Quality Standards (NAAQS).</idAbs>
+    <idPurp>This map service contains EPA Region 9 designated areas and 2012-2014 design values  for the Air Division Mapping Application.</idPurp>
+    <idCredit>Region 9 Air Division</idCredit>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="009">Unrestricted License</RestrictCd>
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="">Empty</RestrictCd>
+        </useConsts>
+        <othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+        <useLimit>EPA Public Domain License</useLimit>
+      </LegConsts>
+    </resConst>
+  </dataIdInfo>
+  <Binary>
+    <Thumbnail>
+      <Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADIASwDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACs2zsbSeKSSa1gkkM8uWeMEnEjAc
+mtKqmnf8ez/9d5v/AEY1AC/2Zp//AD423/fpf8KP7M0//nxtv+/S/wCFWqKAKv8AZmn/APPjbf8A
+fpf8KP7M0/8A58bb/v0v+FWqKAKv9maf/wA+Nt/36X/Cj+zNP/58bb/v0v8AhVqigCr/AGZp/wDz
+423/AH6X/Cj+zNP/AOfG2/79L/hVqigCr/Zmn/8APjbf9+l/wo/szT/+fG2/79L/AIVaooAq/wBm
+af8A8+Nt/wB+l/wo/szT/wDnxtv+/S/4VaooAq/2Zp//AD423/fpf8KP7M0//nxtv+/S/wCFWqKA
+KVhFHDLexxRrGgnGFUYA/dp2q7VW0/4+b/8A67j/ANFpVqgAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKqad/x7P/13m/8ARjVbqpp3/Hs//Xeb/wBGNQBbooooAKKKKACi
+iigAooooAKKKKACiiigAooooAq2n/Hzf/wDXcf8AotKtVVtP+Pm//wCu4/8ARaVaoAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACqmnf8ez/APXeb/0Y1W6qad/x7P8A9d5v
+/RjUAW6KKKACiiigAooooAKKKKACiiigAooooAKKKKAKtp/x83//AF3H/otKtVVtP+Pm/wD+u4/9
+FpVqgAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKqad/x7P/ANd5v/Rj
+Vbqpp3/Hs/8A13m/9GNQBbooooAKKKKACiiigAooooAKKKKACioJr22t7m3tpp40nuCwhjZsF8DJ
+x64FT07MLhRRRSAq2n/Hzf8A/Xcf+i0q1VW0/wCPm/8A+u4/9FpVqgAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKqad/wAez/8AXeb/ANGNVuqmnf8AHs//AF3m/wDRjUAW
+6KKKACiiigAooooAKKKKACiiigDxT4tXV34a1+xv7O6uxNPL9ojd7ghIyF2MqjHAwQTzjkccZru/
+h94k1nxVpc2paja2cVq7D7K1ueSMkMGG5uRgc8Z9Kd8RvDC+J/Cs0casby0BuLbYuWLBT8o/3hx9
+cV4DofifVfCn2zTkuLuxMriSRUwGjdQQCVJyQdy545x3qp1bJc2z0v2t/mtPkddHDqvSap/HF3t3
+T/yevoz6f0+9nvGuxPYy2vkXDRIZCD5qjGHHsau14zY+OZdAvNG06TWjqV3LdH+0ZQQ1u6sAF2yN
+yNvHOACe/QV63pl3NfabDc3FnJZyyAloJD8yckc/z/GpS03238n/AF2Ma1OUGrqye3Zrv3++wtp/
+x83/AP13H/otKtVVtP8Aj5v/APruP/RaVaoMgooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKqad/x7P8A9d5v/RjVbqpp3/Hs/wD13m/9GNQBbooooAKKKKACiiigAooooAKK
+KKACuW8V/D/QvGM9tcalC63EHAlh2h2Xn5CSD8uSTxg5711NFJpPcqMnF3i7M4LVfhPod94ct9Lt
+mkt57WQyW142XdCWyQQCu4e3GODXXaNZXmn6ctvf6k+oThmJneMISCcgYHpV+iiyKlVnJWk79fP7
+9yraf8fN/wD9dx/6LSrVVbT/AI+b/wD67j/0WlWqZmFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABVTTv+PZ/+u83/oxqt1U07/j2f/rvN/6MagC3RRRQAVQ1e8vLGyE1jp7X
+829V8lZAnBPJyQelX6KadncT1QUUUUhhRRRQAUUUUAFFFFABRRRQBVtP+Pm//wCu4/8ARaVaqraf
+8fN//wBdx/6LSrVABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVU07/j
+2f8A67zf+jGq3VTTv+PZ/wDrvN/6MagC3RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBVtP+Pm
+/wD+u4/9FpVqqtp/x83/AP13H/otKtUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABVTTv8Aj2f/AK7zf+jGq3VTTv8Aj2f/AK7zf+jGoAt0UUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAVbT/AI+b/wD67j/0WlWqq2n/AB83/wD13H/otKtUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABVTTv+PZ/+u83/AKMardVNO/49n/67zf8AoxqALdFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFAFW0/4+b/8A67j/ANFpVqqtp/x83/8A13H/AKLSrVABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVmWd/ZwxSRy3cEbiebKtIAR+8bt
+WnRQBU/tTT/+f62/7/L/AI0f2pp//P8AW3/f5f8AGrdFAFT+1NP/AOf62/7/AC/40f2pp/8Az/W3
+/f5f8at0UAVP7U0//n+tv+/y/wCNH9qaf/z/AFt/3+X/ABq3RQBU/tTT/wDn+tv+/wAv+NH9qaf/
+AM/1t/3+X/GrdFAFT+1NP/5/rb/v8v8AjR/amn/8/wBbf9/l/wAat0UAVP7U0/8A5/rb/v8AL/jR
+/amn/wDP9bf9/l/xq3RQBU/tTT/+f62/7/L/AI0f2pp//P8AW3/f5f8AGrdFAFHT5op5r6SGRJEM
+4+ZGBH+rT0q9RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/9k=</Data>
+    </Thumbnail>
+  </Binary>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdate>20160121</procdate>
+        <procdesc>Metadata developed by the USEPA Region 9 GIS Center</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+              <cntper>Cheryl Henley</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>75 Hawthorne Street</address>
+              <address>MTS-6-1</address>
+              <city>San Francisco</city>
+              <state>CA</state>
+              <postal>94105</postal>
+            </cntaddr>
+            <cntvoice>415-972-8536</cntvoice>
+            <cntemail>tangestani.mo@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region09/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <mdDateSt>20170920</mdDateSt>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdFileID>2D393297-DF38-4204-93A6-4C2C22BF25AD</mdFileID>
+  <mdLang>
+    <languageCode value="eng"/>
+    <countryCode value="US"/>
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004"/>
+  </mdChar>
+</metadata>

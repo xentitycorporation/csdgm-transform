@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Terry Vimont, University of Denver, National Park Service, Air Resources Division</origin>
+        <pubdate>20110215</pubdate>
+        <title>Class 1 Wilderness Areas, US EPA Region 9, 2004, USFS</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>San Francisco, CA</pubplace>
+          <publish>U.S. Environmental Protection Agency, Region 9</publish>
+        </pubinfo>
+        <onlink>http://www.epa.gov/region9/air/maps/</onlink>
+        <onlink>http://www.epa.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>US Forest Service Class I Boundaries for US EPA Region 9</abstract>
+      <purpose>US Forest Service Class I boundary set used to create receptor files for modeling purposes.</purpose>
+    </descript>
+    <timeperd>
+      <current>Publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20110215</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-125.00</westbc>
+        <eastbc>-107.00</eastbc>
+        <northbc>42.002192</northbc>
+        <southbc>31.00</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>United States</placekey>
+        <placekey>US Forest Service Wilderness areas</placekey>
+        <placekey>Conterminous US</placekey>
+        <placekey>USA</placekey>
+        <placekey>USFS</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arizona</placekey>
+        <placekey>California</placekey>
+        <placekey>Nevada</placekey>
+      </place>
+      <theme>
+        <themekey>Monitoring</themekey>
+        <themekey>Natural Resources</themekey>
+        <themekey>Permits</themekey>
+        <themekey>Air</themekey>
+        <themekey>environment</themekey>
+        <themekey>health</themekey>
+        <themekey>boundaries</themekey>
+        <themekey>Class I Receptor Boundaries</themekey>
+        <themekey>USFS</themekey>
+        <themekey>Class I boundaries</themekey>
+        <themekey>USDA Forest service</themekey>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>To be used for display and general analysis purposes as the source boundaries for USFS Class I receptor data files.</useconst>
+    <datacred>National Park Service, Air Resources Division.</datacred>
+    <secinfo>
+      <secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>National Park Service, Air Resources Division</cntorg>
+        </cntorgp>
+        <cntpos>GIS Support Staff</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>12795 W. Alameda PArkway</address>
+          <address>PO Box 25287</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225-0287</postal>
+        </cntaddr>
+        <cntfax>303-969-2822</cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attributes checked for accuracy.</attraccr>
+    </attracc>
+    <logic>Data verified against Code of Federal Regulations, title 40 Part 81</logic>
+    <complete>Dataset is believed to be 100% complete using the most up-to-date data available from the US Forest Service. Please contact the Air Resources Division in Lakewood, Colorado with corrections and updates.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>20100512</procdate>
+        <procdesc>Dataset copied.</procdesc>
+      </procstep>
+      <procstep>
+        <procdate>20110215</procdate>
+        <procdesc>Metadata updated.</procdesc>
+      </procstep>
+      <srcinfo>
+        <srcscale>24000-198000</srcscale>
+        <typesrc>electronic mail system</typesrc>
+        <srccitea>USFSwild</srccitea>
+        <srccite>
+          <citeinfo>
+            <origin>USDA Forest Service- Rocky Mountain Research Station, Aldo Leopoldo Wilderness Research Institute</origin>
+            <pubdate>20011116</pubdate>
+            <title>USDA Forest Service Wilderness Areas</title>
+            <edition>Final</edition>
+            <geoform>vector digital data-ArcInfo export</geoform>
+            <onlink>dspildie@fs.fed.us</onlink>
+          </citeinfo>
+        </srccite>
+      </srcinfo>
+      <srcinfo>
+        <srcscale>2000000</srcscale>
+        <typesrc>online</typesrc>
+        <srccitea>natatlas_bowa</srccitea>
+        <srctime>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>200211</pubdate>
+            <title>National Atlas Wilderness Boundary for Boundary Waters Canoe Area</title>
+            <geoform>vector digital data</geoform>
+            <othercit>The USFS bowa wilderness boundary was extremely detailed wilth many islands and inholdings and was not well-suited for creating a receptor file.  The nationalatlas.gov boundary was well-matched to the outer bowa boundaries and easier to use in the receptor data file process. For a more accurate Boundary Waters Canoe Area wilderness boundary,  please contact Dave Spildie at dspildie@fs.fed.us.</othercit>
+            <onlink>http://www.nationalatlas.gov/atlasftp.html</onlink>
+          </citeinfo>
+        </srccite>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 1980</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres>1.000000</altres>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>R9_usfs_class1</enttypl>
+        <enttypd>US Forest Service Class I Areas</enttypd>
+        <enttypds>USFS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NOTES</attrlabl>
+        <attrdef>Address and contact information for source</attrdef>
+        <attrdefs>USFS</attrdefs>
+        <attrdomv>
+          <udom>Address and contact information for source</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Name of Class I area.</attrdef>
+        <attrdefs>USFS</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric place name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>4 character alphacode for wilderness</attrdef>
+        <attrdefs>USFS</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric place name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>Two-letter abbreviation of state name</attrdef>
+        <attrdefs>USFS</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric place name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REGION</attrlabl>
+        <attrdef>USFS region where wilderness is located</attrdef>
+        <attrdefs>USFS</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric place name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SRCSCALE</attrlabl>
+        <attrdef>Scale of source feature</attrdef>
+        <attrdefs>USFS</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SRCINFO</attrlabl>
+        <attrdef>URL/Contact where available</attrdef>
+        <attrdefs>USFS</attrdefs>
+        <attrdomv>
+          <udom>Contact information for source</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>See Detailed tab for attribute information</eaover>
+      <eadetcit>USFS, 2004</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Fletcher Clover</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>(415) 972-3991</cntvoice>
+        <cntemail>clover.fletcher@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20211215</metd>
+    <metfrd>20150215</metfrd>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>National Park Service, Air Resources Division</cntorg>
+          <cntper>Terry Vimont, University of Denver intern</cntper>
+        </cntorgp>
+        <cntpos>GIS Support Staff</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>12795 W. Alameda Parkway</address>
+          <address>PO Box 25287</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225-0287</postal>
+        </cntaddr>
+        <cntvoice>303.969.2153</cntvoice>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <DataProperties>
+      <copyHistory>
+        <copy source="Z:\ADMA\EPA Region 9_US_ForestService_ClassIAreas" dest="\\E0909PSFTH032\MetadataWAF\ADMA\EPA Region 9_US_ForestService_ClassIAreas (1)" date="20170531" time="16483200"/>
+      </copyHistory>
+      <itemProps>
+        <imsContentType>002</imsContentType>
+      </itemProps>
+    </DataProperties>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <scaleRange>
+      <minScale>5000000</minScale>
+      <maxScale>500000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>NAP</ArcGISProfile>
+    <ModDate>20170920</ModDate>
+    <ModTime>10433800</ModTime>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng"/>
+    <countryCode value="US"/>
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004"/>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Terry Vimont, University of Denver intern</rpIndName>
+    <rpOrgName>National Park Service, Air Resources Division</rpOrgName>
+    <rpPosName>GIS Support Staff</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>303.969.2153</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>12795 W. Alameda Parkway</delPoint>
+        <delPoint>PO Box 25287</delPoint>
+        <city>Denver</city>
+        <adminArea>CO</adminArea>
+        <postCode>80225-0287</postCode>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007"/>
+    </role>
+  </mdContact>
+  <mdDateSt>20170920</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpIndName>Fletcher Clover</rpIndName>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+        <rpPosName>GIS Analyst</rpPosName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(415) 972-3991</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>75 Hawthorne Street</delPoint>
+            <city>San Francisco</city>
+            <adminArea>CA</adminArea>
+            <postCode>94105</postCode>
+            <eMailAdd>clover.fletcher@epa.gov</eMailAdd>
+          </cntAddress>
+          <cntInstr>http://www.epa.gov/region09/</cntInstr>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005"/>
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.epa.gov</linkage>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://www.epa.gov/region9/air/maps/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Class 1 Wilderness Area Polygons, US EPA Region 9, 2004, USFS</resTitle>
+      <date>
+        <pubDate>2011-02-15</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Terry Vimont, University of Denver, National Park Service, Air Resources Division</rpOrgName>
+        <role>
+          <RoleCd value="006"/>
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint>San Francisco, CA</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010"/>
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005"/>
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;US Forest Service Class I Boundaries for US EPA Region 9&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>US Forest Service Class I boundary set used to create receptor files for modeling purposes.</idPurp>
+    <idCredit>National Park Service, Air Resources Division.</idCredit>
+    <idStatus>
+      <ProgCd value="001"/>
+    </idStatus>
+    <idPoC>
+      <rpOrgName>National Park Service, Air Resources Division</rpOrgName>
+      <rpPosName>GIS Support Staff</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <faxNum>303-969-2822</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>12795 W. Alameda PArkway</delPoint>
+          <delPoint>PO Box 25287</delPoint>
+          <city>Denver</city>
+          <adminArea>CO</adminArea>
+          <postCode>80225-0287</postCode>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007"/>
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009"/>
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>California</keyword>
+      <keyword>Nevada</keyword>
+      <keyword>Arizona</keyword>
+    </placeKeys>
+    <placeKeys>
+      <keyword>USA</keyword>
+      <keyword>Conterminous US</keyword>
+      <keyword>USFS</keyword>
+      <keyword>US Forest Service Wilderness areas</keyword>
+      <keyword>United States</keyword>
+    </placeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>EPA GIS Keyword Thesaurus</resTitle>
+      </thesaName>
+      <keyword>Monitoring</keyword>
+      <keyword>Natural Resources</keyword>
+      <keyword>Permits</keyword>
+      <keyword>Air</keyword>
+    </themeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Category</resTitle>
+      </thesaName>
+      <keyword>environment</keyword>
+      <keyword>health</keyword>
+      <keyword>boundaries</keyword>
+    </themeKeys>
+    <themeKeys>
+      <keyword>Class I Receptor Boundaries</keyword>
+      <keyword>USFS</keyword>
+      <keyword>Class I boundaries</keyword>
+      <keyword>USDA Forest service</keyword>
+    </themeKeys>
+    <resConst>
+      <SecConsts>
+        <classSys>http://project-open-data.github.io/schema/#accessLevel</classSys>
+        <handDesc>Standard Technical Controls</handDesc>
+        <class>
+          <ClasscationCd value="001">Unclassified</ClasscationCd>
+        </class>
+      </SecConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;To be used for display and general analysis purposes as the source boundaries for USFS Class I receptor data files.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001"/>
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng"/>
+    </dataLang>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-125</westBL>
+          <eastBL>-107</eastBL>
+          <southBL>31</southBL>
+          <northBL>42.002192</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>Publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2011-02-15</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <dataChar>
+      <CharSetCd value="004"/>
+    </dataChar>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="009">Unrestricted License</RestrictCd>
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="">Empty</RestrictCd>
+        </useConsts>
+        <othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+        <useLimit>EPA Public Domain License</useLimit>
+      </LegConsts>
+    </resConst>
+    <tpCat>
+      <TopicCatCd value="007"/>
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="009"/>
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="003"/>
+    </tpCat>
+  </dataIdInfo>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="012"/>
+    </maintFreq>
+    <dateNext>2015-02-15T00:00:00</dateNext>
+  </mdMaint>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005"/>
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Data verified against Code of Federal Regulations, title 40 Part 81</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Dataset is believed to be 100% complete using the most up-to-date data available from the US Forest Service. Please contact the Air Resources Division in Lakewood, Colorado with corrections and updates.</measDesc>
+    </report>
+    <report type="DQQuanAttAcc">
+      <measDesc>Attributes checked for accuracy.</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</measDesc>
+    </report>
+    <dataLineage>
+      <dataSource>
+        <srcMedName>
+          <MedNameCd value="015"/>
+        </srcMedName>
+        <srcScale>
+          <rfDenom>0</rfDenom>
+        </srcScale>
+        <srcCitatn>
+          <resTitle>USDA Forest Service Wilderness Areas</resTitle>
+          <resAltTitle>USFSwild</resAltTitle>
+          <date>
+            <pubDate>2001-11-16</pubDate>
+          </date>
+          <resEd>Final</resEd>
+          <citRespParty>
+            <rpOrgName>USDA Forest Service- Rocky Mountain Research Station, Aldo Leopoldo Wilderness Research Institute</rpOrgName>
+            <role>
+              <RoleCd value="006"/>
+            </role>
+          </citRespParty>
+          <presForm>
+            <fgdcGeoform>vector digital data-ArcInfo export</fgdcGeoform>
+          </presForm>
+          <citOnlineRes>
+            <linkage>dspildie@fs.fed.us</linkage>
+          </citOnlineRes>
+        </srcCitatn>
+      </dataSource>
+      <dataSource>
+        <srcMedName>
+          <MedNameCd value="015"/>
+        </srcMedName>
+        <srcScale>
+          <rfDenom>2000000</rfDenom>
+        </srcScale>
+        <srcCitatn>
+          <resTitle>National Atlas Wilderness Boundary for Boundary Waters Canoe Area</resTitle>
+          <resAltTitle>natatlas_bowa</resAltTitle>
+          <date>
+            <pubDate>2002-11-01</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>U.S. Geological Survey</rpOrgName>
+            <role>
+              <RoleCd value="006"/>
+            </role>
+          </citRespParty>
+          <presForm>
+            <PresFormCd value="005"/>
+          </presForm>
+          <presForm>
+            <fgdcGeoform>vector digital data</fgdcGeoform>
+          </presForm>
+          <otherCitDet>The USFS bowa wilderness boundary was extremely detailed wilth many islands and inholdings and was not well-suited for creating a receptor file. The nationalatlas.gov boundary was well-matched to the outer bowa boundaries and easier to use in the receptor data file process. For a more accurate Boundary Waters Canoe Area wilderness boundary, please contact Dave Spildie at dspildie@fs.fed.us.</otherCitDet>
+          <citOnlineRes>
+            <linkage>http://www.nationalatlas.gov/atlasftp.html</linkage>
+          </citOnlineRes>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>publication date</exDesc>
+        </srcExt>
+      </dataSource>
+      <prcStep>
+        <stepDesc>Metadata updated.</stepDesc>
+        <stepDateTm>2011-02-15</stepDateTm>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="45791f42a8da312ae23bfb37978c6fbb" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YSB4bWw6bGFu
+Zz0iZW4iPg0KICA8aWRpbmZvPg0KICAgIDxjaXRhdGlvbj4NCiAgICAgIDxjaXRlaW5mbz4NCiAg
+ICAgICAgPG9yaWdpbj5UZXJyeSBWaW1vbnQsIFVuaXZlcnNpdHkgb2YgRGVudmVyLCBOYXRpb25h
+bCBQYXJrIFNlcnZpY2UsIEFpciBSZXNvdXJjZXMgRGl2aXNpb248L29yaWdpbj4NCiAgICAgICAg
+PHB1YmRhdGU+MjAxMTAyMTU8L3B1YmRhdGU+DQogICAgICAgIDx0aXRsZT5SOSBVUyBGb3Jlc3Ry
+eSBTZXJ2aWNlIENsYXNzIEkgQXJlYXM8L3RpdGxlPg0KICAgICAgICA8Z2VvZm9ybT52ZWN0b3Ig
+ZGlnaXRhbCBkYXRhPC9nZW9mb3JtPg0KICAgICAgICA8cHViaW5mbz4NCiAgICAgICAgICA8cHVi
+cGxhY2U+U2FuIEZyYW5jaXNjbywgQ0E8L3B1YnBsYWNlPg0KICAgICAgICAgIDxwdWJsaXNoPlUu
+Uy4gRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uIEFnZW5jeSwgUmVnaW9uIDk8L3B1Ymxpc2g+DQog
+ICAgICAgIDwvcHViaW5mbz4NCiAgICAgICAgPG9ubGluaz5odHRwOi8vd3d3LmVwYS5nb3YvcmVn
+aW9uOS9haXIvbWFwcy88L29ubGluaz4NCiAgICAgICAgPG9ubGluaz5odHRwOi8vd3d3LmVwYS5n
+b3Y8L29ubGluaz4NCiAgICAgIDwvY2l0ZWluZm8+DQogICAgPC9jaXRhdGlvbj4NCiAgICA8ZGVz
+Y3JpcHQ+DQogICAgICA8YWJzdHJhY3Q+VVMgRm9yZXN0IFNlcnZpY2UgQ2xhc3MgSSBCb3VuZGFy
+aWVzIGZvciBVUyBFUEEgUmVnaW9uIDk8L2Fic3RyYWN0Pg0KICAgICAgPHB1cnBvc2U+VVNGUyBD
+bGFzcyBJIGJvdW5kYXJ5IHNldCB1c2VkIHRvIGNyZWF0ZSByZWNlcHRvciBmaWxlcyBmb3IgbW9k
+ZWxpbmcgcHVycG9zZXMuPC9wdXJwb3NlPg0KICAgIDwvZGVzY3JpcHQ+DQogICAgPHRpbWVwZXJk
+Pg0KICAgICAgPGN1cnJlbnQ+UHVibGljYXRpb24gZGF0ZTwvY3VycmVudD4NCiAgICAgIDx0aW1l
+aW5mbz4NCiAgICAgICAgPHNuZ2RhdGU+DQogICAgICAgICAgPGNhbGRhdGU+MjAxMTAyMTU8L2Nh
+bGRhdGU+DQogICAgICAgIDwvc25nZGF0ZT4NCiAgICAgIDwvdGltZWluZm8+DQogICAgPC90aW1l
+cGVyZD4NCiAgICA8c3RhdHVzPg0KICAgICAgPHByb2dyZXNzPkNvbXBsZXRlPC9wcm9ncmVzcz4N
+CiAgICAgIDx1cGRhdGU+QXMgbmVlZGVkPC91cGRhdGU+DQogICAgPC9zdGF0dXM+DQogICAgPHNw
+ZG9tPg0KICAgICAgPGJvdW5kaW5nPg0KICAgICAgICA8d2VzdGJjPi0xMjUuMDA8L3dlc3RiYz4N
+CiAgICAgICAgPGVhc3RiYz4tMTA3LjAwPC9lYXN0YmM+DQogICAgICAgIDxub3J0aGJjPjQyLjAw
+MjE5Mjwvbm9ydGhiYz4NCiAgICAgICAgPHNvdXRoYmM+MzEuMDA8L3NvdXRoYmM+DQogICAgICA8
+L2JvdW5kaW5nPg0KICAgIDwvc3Bkb20+DQogICAgPGtleXdvcmRzPg0KICAgICAgPHRoZW1lPg0K
+ICAgICAgICA8dGhlbWVrdD5Ob25lLjwvdGhlbWVrdD4NCiAgICAgICAgPHRoZW1la2V5PlVTREEg
+Rm9yZXN0IHNlcnZpY2U8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+Q2xhc3MgSSBib3Vu
+ZGFyaWVzPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PlVTRlM8L3RoZW1la2V5Pg0KICAg
+ICAgICA8dGhlbWVrZXk+Q2xhc3MgSSBSZWNlcHRvciBCb3VuZGFyaWVzPC90aGVtZWtleT4NCiAg
+ICAgIDwvdGhlbWU+DQogICAgICA8dGhlbWU+DQogICAgICAgIDx0aGVtZWt0PklTTyAxOTExNSBU
+b3BpYyBDYXRlZ29yeTwvdGhlbWVrdD4NCiAgICAgICAgPHRoZW1la2V5PmJvdW5kYXJpZXM8L3Ro
+ZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+ZW52aXJvbm1lbnQ8L3RoZW1la2V5Pg0KICAgICAg
+ICA8dGhlbWVrZXk+aGVhbHRoPC90aGVtZWtleT4NCiAgICAgIDwvdGhlbWU+DQogICAgICA8dGhl
+bWU+DQogICAgICAgIDx0aGVtZWt0PkVQQSBHSVMgS2V5d29yZCBUaGVzYXVydXM8L3RoZW1la3Q+
+DQogICAgICAgIDx0aGVtZWtleT5BaXI8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+TW9u
+aXRvcmluZzwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5OYXR1cmFsIFJlc291cmNlczwv
+dGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5QZXJtaXRzPC90aGVtZWtleT4NCiAgICAgIDwv
+dGhlbWU+DQogICAgICA8cGxhY2U+DQogICAgICAgIDxwbGFjZWtleT5Vbml0ZWQgU3RhdGVzPC9w
+bGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PlVTIEZvcmVzdCBTZXJ2aWNlIFdpbGRlcm5lc3Mg
+YXJlYXM8L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+Q29udGVybWlub3VzIFVTPC9wbGFj
+ZWtleT4NCiAgICAgICAgPHBsYWNla2V5PlVTQTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtl
+eT5VU0ZTPC9wbGFjZWtleT4NCiAgICAgIDwvcGxhY2U+DQogICAgICA8cGxhY2U+DQogICAgICAg
+IDxwbGFjZWt0Pk5vbmU8L3BsYWNla3Q+DQogICAgICAgIDxwbGFjZWtleT5Bcml6b25hPC9wbGFj
+ZWtleT4NCiAgICAgICAgPHBsYWNla2V5PkNhbGlmb3JuaWE8L3BsYWNla2V5Pg0KICAgICAgICA8
+cGxhY2VrZXk+TmV2YWRhPC9wbGFjZWtleT4NCiAgICAgIDwvcGxhY2U+DQogICAgPC9rZXl3b3Jk
+cz4NCiAgICA8YWNjY29uc3Q+Tm9uZS48L2FjY2NvbnN0Pg0KICAgIDx1c2Vjb25zdD5UbyBiZSB1
+c2VkIGZvciBkaXNwbGF5IGFuZCBnZW5lcmFsIGFuYWx5c2lzIHB1cnBvc2VzIGFzIHRoZSBzb3Vy
+Y2UgYm91bmRhcmllcyBmb3IgVVNGUyBDbGFzcyBJIHJlY2VwdG9yIGRhdGEgZmlsZXMuPC91c2Vj
+b25zdD4NCiAgICA8ZGF0YWNyZWQ+TmF0aW9uYWwgUGFyayBTZXJ2aWNlLCBBaXIgUmVzb3VyY2Vz
+IERpdmlzaW9uLjwvZGF0YWNyZWQ+DQogICAgPHNlY2luZm8+DQogICAgICA8c2Vjc3lzPmh0dHA6
+Ly9wcm9qZWN0LW9wZW4tZGF0YS5naXRodWIuaW8vc2NoZW1hLyNhY2Nlc3NMZXZlbDwvc2Vjc3lz
+Pg0KICAgICAgPHNlY2NsYXNzPnB1YmxpYzwvc2VjY2xhc3M+DQogICAgICA8c2VjaGFuZGw+U3Rh
+bmRhcmQgVGVjaG5pY2FsIENvbnRyb2xzPC9zZWNoYW5kbD4NCiAgICA8L3NlY2luZm8+DQogICAg
+PHB0Y29udGFjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAg
+IDxjbnRvcmc+TmF0aW9uYWwgUGFyayBTZXJ2aWNlLCBBaXIgUmVzb3VyY2VzIERpdmlzaW9uPC9j
+bnRvcmc+DQogICAgICAgIDwvY250b3JncD4NCiAgICAgICAgPGNudHBvcz5HSVMgU3VwcG9ydCBT
+dGFmZjwvY250cG9zPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFp
+bGluZyBhbmQgcGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+
+MTI3OTUgVy4gQWxhbWVkYSBQQXJrd2F5PC9hZGRyZXNzPg0KICAgICAgICAgIDxhZGRyZXNzPlBP
+IEJveCAyNTI4NzwvYWRkcmVzcz4NCiAgICAgICAgICA8Y2l0eT5EZW52ZXI8L2NpdHk+DQogICAg
+ICAgICAgPHN0YXRlPkNPPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjgwMjI1LTAyODc8L3Bv
+c3RhbD4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250ZmF4PjMwMy05NjktMjgyMjwv
+Y250ZmF4Pg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvcHRjb250YWM+DQogIDwvaWRpbmZvPg0K
+ICA8ZGF0YXF1YWw+DQogICAgPGF0dHJhY2M+DQogICAgICA8YXR0cmFjY3I+QXR0cmlidXRlcyBj
+aGVja2VkIGZvciBhY2N1cmFjeS48L2F0dHJhY2NyPg0KICAgIDwvYXR0cmFjYz4NCiAgICA8bG9n
+aWM+RGF0YSB2ZXJpZmllZCBhZ2FpbnN0IENvZGUgb2YgRmVkZXJhbCBSZWd1bGF0aW9ucywgdGl0
+bGUgNDAgUGFydCA4MTwvbG9naWM+DQogICAgPGNvbXBsZXRlPkRhdGFzZXQgaXMgYmVsaWV2ZWQg
+dG8gYmUgMTAwJSBjb21wbGV0ZSB1c2luZyB0aGUgbW9zdCB1cC10by1kYXRlIGRhdGEgYXZhaWxh
+YmxlIGZyb20gdGhlIFVTIEZvcmVzdCBTZXJ2aWNlLiBQbGVhc2UgY29udGFjdCB0aGUgQWlyIFJl
+c291cmNlcyBEaXZpc2lvbiBpbiBMYWtld29vZCwgQ29sb3JhZG8gd2l0aCBjb3JyZWN0aW9ucyBh
+bmQgdXBkYXRlcy48L2NvbXBsZXRlPg0KICAgIDxwb3NhY2M+DQogICAgICA8aG9yaXpwYT4NCiAg
+ICAgICAgPGhvcml6cGFyPkRhdGEgd2VyZSBjb2xsZWN0ZWQgdXNpbmcgbWV0aG9kcyB0aGF0IGhh
+dmUgdW5rbm93biBhY2N1cmFjeSAoRVBBIE5hdGlvbmFsIEdlb3NwYXRpYWwgRGF0YSBQb2xpY3kg
+W05HRFBdIEFjY3VyYWN5IFRpZXIgMTApLiBGb3IgbW9yZSBpbmZvcm1hdGlvbiwgcGxlYXNlIHNl
+ZSBFUEEncyBOR0RQIGF0IGh0dHA6Ly9lcGEuZ292L2dlb3NwYXRpYWwvcG9saWNpZXMuaHRtbCk8
+L2hvcml6cGFyPg0KICAgICAgPC9ob3JpenBhPg0KICAgIDwvcG9zYWNjPg0KICAgIDxsaW5lYWdl
+Pg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2RhdGU+MjAxMDA1MTI8L3Byb2NkYXRl
+Pg0KICAgICAgICA8cHJvY2Rlc2M+RGF0YXNldCBjb3BpZWQuPC9wcm9jZGVzYz4NCiAgICAgIDwv
+cHJvY3N0ZXA+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGF0ZT4yMDExMDIxNTwv
+cHJvY2RhdGU+DQogICAgICAgIDxwcm9jZGVzYz5NZXRhZGF0YSB1cGRhdGVkLjwvcHJvY2Rlc2M+
+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHNyY2luZm8+DQogICAgICAgIDxzcmNzY2FsZT4y
+NDAwMC0xOTgwMDA8L3NyY3NjYWxlPg0KICAgICAgICA8dHlwZXNyYz5lbGVjdHJvbmljIG1haWwg
+c3lzdGVtPC90eXBlc3JjPg0KICAgICAgICA8c3JjY2l0ZWE+VVNGU3dpbGQ8L3NyY2NpdGVhPg0K
+ICAgICAgICA8c3JjY2l0ZT4NCiAgICAgICAgICA8Y2l0ZWluZm8+DQogICAgICAgICAgICA8b3Jp
+Z2luPlVTREEgRm9yZXN0IFNlcnZpY2UtIFJvY2t5IE1vdW50YWluIFJlc2VhcmNoIFN0YXRpb24s
+IEFsZG8gTGVvcG9sZG8gV2lsZGVybmVzcyBSZXNlYXJjaCBJbnN0aXR1dGU8L29yaWdpbj4NCiAg
+ICAgICAgICAgIDxwdWJkYXRlPjIwMDExMTE2PC9wdWJkYXRlPg0KICAgICAgICAgICAgPHRpdGxl
+PlVTREEgRm9yZXN0IFNlcnZpY2UgV2lsZGVybmVzcyBBcmVhczwvdGl0bGU+DQogICAgICAgICAg
+ICA8ZWRpdGlvbj5GaW5hbDwvZWRpdGlvbj4NCiAgICAgICAgICAgIDxnZW9mb3JtPnZlY3RvciBk
+aWdpdGFsIGRhdGEtQXJjSW5mbyBleHBvcnQ8L2dlb2Zvcm0+DQogICAgICAgICAgICA8b25saW5r
+PmRzcGlsZGllQGZzLmZlZC51czwvb25saW5rPg0KICAgICAgICAgIDwvY2l0ZWluZm8+DQogICAg
+ICAgIDwvc3JjY2l0ZT4NCiAgICAgIDwvc3JjaW5mbz4NCiAgICAgIDxzcmNpbmZvPg0KICAgICAg
+ICA8c3Jjc2NhbGU+MjAwMDAwMDwvc3Jjc2NhbGU+DQogICAgICAgIDx0eXBlc3JjPm9ubGluZTwv
+dHlwZXNyYz4NCiAgICAgICAgPHNyY2NpdGVhPm5hdGF0bGFzX2Jvd2E8L3NyY2NpdGVhPg0KICAg
+ICAgICA8c3JjdGltZT4NCiAgICAgICAgICA8c3JjY3Vycj5wdWJsaWNhdGlvbiBkYXRlPC9zcmNj
+dXJyPg0KICAgICAgICA8L3NyY3RpbWU+DQogICAgICAgIDxzcmNjaXRlPg0KICAgICAgICAgIDxj
+aXRlaW5mbz4NCiAgICAgICAgICAgIDxvcmlnaW4+VS5TLiBHZW9sb2dpY2FsIFN1cnZleTwvb3Jp
+Z2luPg0KICAgICAgICAgICAgPHB1YmRhdGU+MjAwMjExPC9wdWJkYXRlPg0KICAgICAgICAgICAg
+PHRpdGxlPk5hdGlvbmFsIEF0bGFzIFdpbGRlcm5lc3MgQm91bmRhcnkgZm9yIEJvdW5kYXJ5IFdh
+dGVycyBDYW5vZSBBcmVhPC90aXRsZT4NCiAgICAgICAgICAgIDxnZW9mb3JtPnZlY3RvciBkaWdp
+dGFsIGRhdGE8L2dlb2Zvcm0+DQogICAgICAgICAgICA8b3RoZXJjaXQ+VGhlIFVTRlMgYm93YSB3
+aWxkZXJuZXNzIGJvdW5kYXJ5IHdhcyBleHRyZW1lbHkgZGV0YWlsZWQgd2lsdGggbWFueSBpc2xh
+bmRzIGFuZCBpbmhvbGRpbmdzIGFuZCB3YXMgbm90IHdlbGwtc3VpdGVkIGZvciBjcmVhdGluZyBh
+IHJlY2VwdG9yIGZpbGUuICBUaGUgbmF0aW9uYWxhdGxhcy5nb3YgYm91bmRhcnkgd2FzIHdlbGwt
+bWF0Y2hlZCB0byB0aGUgb3V0ZXIgYm93YSBib3VuZGFyaWVzIGFuZCBlYXNpZXIgdG8gdXNlIGlu
+IHRoZSByZWNlcHRvciBkYXRhIGZpbGUgcHJvY2Vzcy4gRm9yIGEgbW9yZSBhY2N1cmF0ZSBCb3Vu
+ZGFyeSBXYXRlcnMgQ2Fub2UgQXJlYSB3aWxkZXJuZXNzIGJvdW5kYXJ5LCAgcGxlYXNlIGNvbnRh
+Y3QgRGF2ZSBTcGlsZGllIGF0IGRzcGlsZGllQGZzLmZlZC51cy48L290aGVyY2l0Pg0KICAgICAg
+ICAgICAgPG9ubGluaz5odHRwOi8vd3d3Lm5hdGlvbmFsYXRsYXMuZ292L2F0bGFzZnRwLmh0bWw8
+L29ubGluaz4NCiAgICAgICAgICA8L2NpdGVpbmZvPg0KICAgICAgICA8L3NyY2NpdGU+DQogICAg
+ICA8L3NyY2luZm8+DQogICAgPC9saW5lYWdlPg0KICA8L2RhdGFxdWFsPg0KICA8c3Bkb2luZm8+
+DQogICAgPGRpcmVjdD5WZWN0b3I8L2RpcmVjdD4NCiAgPC9zcGRvaW5mbz4NCiAgPHNwcmVmPg0K
+ICAgIDxob3JpenN5cz4NCiAgICAgIDxnZW9kZXRpYz4NCiAgICAgICAgPGhvcml6ZG4+Tm9ydGgg
+QW1lcmljYW4gRGF0dW0gb2YgMTk4MzwvaG9yaXpkbj4NCiAgICAgICAgPGVsbGlwcz5HZW9kZXRp
+YyBSZWZlcmVuY2UgU3lzdGVtIDE5ODA8L2VsbGlwcz4NCiAgICAgICAgPHNlbWlheGlzPjYzNzgx
+MzcuMDAwMDAwPC9zZW1pYXhpcz4NCiAgICAgICAgPGRlbmZsYXQ+Mjk4LjI1NzIyMjwvZGVuZmxh
+dD4NCiAgICAgIDwvZ2VvZGV0aWM+DQogICAgPC9ob3JpenN5cz4NCiAgICA8dmVydGRlZj4NCiAg
+ICAgIDxhbHRzeXM+DQogICAgICAgIDxhbHRyZXM+MS4wMDAwMDA8L2FsdHJlcz4NCiAgICAgICAg
+PGFsdGVuYz5FeHBsaWNpdCBlbGV2YXRpb24gY29vcmRpbmF0ZSBpbmNsdWRlZCB3aXRoIGhvcml6
+b250YWwgY29vcmRpbmF0ZXM8L2FsdGVuYz4NCiAgICAgIDwvYWx0c3lzPg0KICAgIDwvdmVydGRl
+Zj4NCiAgPC9zcHJlZj4NCiAgPGVhaW5mbz4NCiAgICA8ZGV0YWlsZWQ+DQogICAgICA8ZW50dHlw
+Pg0KICAgICAgICA8ZW50dHlwbD5SOV91c2ZzX2NsYXNzMTwvZW50dHlwbD4NCiAgICAgICAgPGVu
+dHR5cGQ+VVMgRm9yZXN0IFNlcnZpY2UgQ2xhc3MgSSBBcmVhczwvZW50dHlwZD4NCiAgICAgICAg
+PGVudHR5cGRzPlVTRlM8L2VudHR5cGRzPg0KICAgICAgPC9lbnR0eXA+DQogICAgICA8YXR0cj4N
+CiAgICAgICAgPGF0dHJsYWJsPk9CSkVDVElEPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+
+SW50ZXJuYWwgZmVhdHVyZSBudW1iZXIuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RXNy
+aTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5TZXF1ZW50
+aWFsIHVuaXF1ZSB3aG9sZSBudW1iZXJzIHRoYXQgYXJlIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVk
+LjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRy
+Pg0KICAgICAgICA8YXR0cmxhYmw+Tk9URVM8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5B
+ZGRyZXNzIGFuZCBjb250YWN0IGluZm9ybWF0aW9uIGZvciBzb3VyY2U8L2F0dHJkZWY+DQogICAg
+ICAgIDxhdHRyZGVmcz5VU0ZTPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAg
+ICAgIDx1ZG9tPkFkZHJlc3MgYW5kIGNvbnRhY3QgaW5mb3JtYXRpb24gZm9yIHNvdXJjZTwvdWRv
+bT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAg
+ICAgICA8YXR0cmxhYmw+U2hhcGU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5GZWF0dXJl
+IGdlb21ldHJ5LjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVTUkk8L2F0dHJkZWZzPg0K
+ICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+Q29vcmRpbmF0ZXMgZGVmaW5pbmcg
+dGhlIGZlYXR1cmVzLjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4N
+CiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+TkFNRTwvYXR0cmxhYmw+DQogICAgICAg
+IDxhdHRyZGVmPk5hbWUgb2YgQ2xhc3MgSSBhcmVhLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJk
+ZWZzPlVTRlM8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+
+QWxwaGFudW1lcmljIHBsYWNlIG5hbWU8L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPklEPC9hdHRybGFibD4N
+CiAgICAgICAgPGF0dHJkZWY+NCBjaGFyYWN0ZXIgYWxwaGFjb2RlIGZvciB3aWxkZXJuZXNzPC9h
+dHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VVNGUzwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRy
+ZG9tdj4NCiAgICAgICAgICA8dWRvbT5BbHBoYW51bWVyaWMgcGxhY2UgbmFtZTwvdWRvbT4NCiAg
+ICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+YXR0cmxhYmw+U1RBVEU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5Ud28tbGV0dGVyIGFi
+YnJldmlhdGlvbiBvZiBzdGF0ZSBuYW1lPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VVNG
+UzwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5BbHBoYW51
+bWVyaWMgcGxhY2UgbmFtZTwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0
+cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+UkVHSU9OPC9hdHRybGFibD4NCiAg
+ICAgICAgPGF0dHJkZWY+VVNGUyByZWdpb24gd2hlcmUgd2lsZGVybmVzcyBpcyBsb2NhdGVkPC9h
+dHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VVNGUzwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRy
+ZG9tdj4NCiAgICAgICAgICA8dWRvbT5BbHBoYW51bWVyaWMgcGxhY2UgbmFtZTwvdWRvbT4NCiAg
+ICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+YXR0cmxhYmw+U1JDU0NBTEU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5TY2FsZSBvZiBz
+b3VyY2UgZmVhdHVyZTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlVTRlM8L2F0dHJkZWZz
+Pg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+UG9zaXRpdmUgcmVhbCBudW1i
+ZXJzPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+dHI+DQogICAgICAgIDxhdHRybGFibD5TUkNJTkZPPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJk
+ZWY+VVJML0NvbnRhY3Qgd2hlcmUgYXZhaWxhYmxlPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRl
+ZnM+VVNGUzwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5D
+b250YWN0IGluZm9ybWF0aW9uIGZvciBzb3VyY2U8L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+
+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNoYXBlX0xl
+bmd0aDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkxlbmd0aCBvZiBmZWF0dXJlIGluIGlu
+dGVybmFsIHVuaXRzLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVzcmk8L2F0dHJkZWZz
+Pg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+UG9zaXRpdmUgcmVhbCBudW1i
+ZXJzIHRoYXQgYXJlIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkLjwvdWRvbT4NCiAgICAgICAgPC9h
+dHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+
+U2hhcGVfQXJlYTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkFyZWEgb2YgZmVhdHVyZSBp
+biBpbnRlcm5hbCB1bml0cyBzcXVhcmVkLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVz
+cmk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+UG9zaXRp
+dmUgcmVhbCBudW1iZXJzIHRoYXQgYXJlIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkLjwvdWRvbT4N
+CiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICA8L2RldGFpbGVkPg0KICAg
+IDxvdmVydmlldz4NCiAgICAgIDxlYW92ZXI+U2VlIERldGFpbGVkIHRhYiBmb3IgYXR0cmlidXRl
+IGluZm9ybWF0aW9uPC9lYW92ZXI+DQogICAgICA8ZWFkZXRjaXQ+VVNGUywgMjAwNDwvZWFkZXRj
+aXQ+DQogICAgPC9vdmVydmlldz4NCiAgPC9lYWluZm8+DQogIDxkaXN0aW5mbz4NCiAgICA8cmVz
+ZGVzYz5Eb3dubG9hZGFibGUgRGF0YTwvcmVzZGVzYz4NCiAgICA8ZGlzdGxpYWI+aHR0cHM6Ly9l
+ZGcuZXBhLmdvdi9FUEFfRGF0YV9MaWNlbnNlLmh0bWw8L2Rpc3RsaWFiPg0KICAgIDxkaXN0cmli
+Pg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgIDxjbnRvcmc+
+VS5TLiBFbnZpcm9ubWVudGFsIFByb3RlY3Rpb24gQWdlbmN5LCBSZWdpb24gOTwvY250b3JnPg0K
+ICAgICAgICAgIDxjbnRwZXI+RmxldGNoZXIgQ2xvdmVyPC9jbnRwZXI+DQogICAgICAgIDwvY250
+b3JncD4NCiAgICAgICAgPGNudHBvcz5HSVMgQW5hbHlzdDwvY250cG9zPg0KICAgICAgICA8Y250
+YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWwgYWRkcmVzczwv
+YWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+NzUgSGF3dGhvcm5lIFN0cmVldDwvYWRkcmVz
+cz4NCiAgICAgICAgICA8Y2l0eT5TYW4gRnJhbmNpc2NvPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0
+ZT5DQTwvc3RhdGU+DQogICAgICAgICAgPHBvc3RhbD45NDEwNTwvcG9zdGFsPg0KICAgICAgICA8
+L2NudGFkZHI+DQogICAgICAgIDxjbnR2b2ljZT4oNDE1KSA5NzItMzk5MTwvY250dm9pY2U+DQog
+ICAgICAgIDxjbnRlbWFpbD5jbG92ZXIuZmxldGNoZXJAZXBhLmdvdjwvY250ZW1haWw+DQogICAg
+ICAgIDxjbnRpbnN0Pmh0dHA6Ly93d3cuZXBhLmdvdi9yZWdpb24wOS88L2NudGluc3Q+DQogICAg
+ICA8L2NudGluZm8+DQogICAgPC9kaXN0cmliPg0KICA8L2Rpc3RpbmZvPg0KICA8bWV0YWluZm8+
+DQogICAgPG1ldGQ+MjAxMTAyMTU8L21ldGQ+DQogICAgPG1ldGZyZD4yMDE1MDIxNTwvbWV0ZnJk
+Pg0KICAgIDxtZXRzdGRuPkZHREMgQ29udGVudCBTdGFuZGFyZHMgZm9yIERpZ2l0YWwgR2Vvc3Bh
+dGlhbCBNZXRhZGF0YTwvbWV0c3Rkbj4NCiAgICA8bWV0c3Rkdj5GR0RDLVNURC0wMDEtMTk5ODwv
+bWV0c3Rkdj4NCiAgICA8bWV0dGM+bG9jYWwgdGltZTwvbWV0dGM+DQogICAgPG1ldGM+DQogICAg
+ICA8Y250aW5mbz4NCiAgICAgICAgPGNudG9yZ3A+DQogICAgICAgICAgPGNudG9yZz5OYXRpb25h
+bCBQYXJrIFNlcnZpY2UsIEFpciBSZXNvdXJjZXMgRGl2aXNpb248L2NudG9yZz4NCiAgICAgICAg
+ICA8Y250cGVyPlRlcnJ5IFZpbW9udCwgVW5pdmVyc2l0eSBvZiBEZW52ZXIgaW50ZXJuPC9jbnRw
+ZXI+DQogICAgICAgIDwvY250b3JncD4NCiAgICAgICAgPGNudHBvcz5HSVMgU3VwcG9ydCBTdGFm
+ZjwvY250cG9zPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGlu
+ZyBhbmQgcGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+MTI3
+OTUgVy4gQWxhbWVkYSBQYXJrd2F5PC9hZGRyZXNzPg0KICAgICAgICAgIDxhZGRyZXNzPlBPIEJv
+eCAyNTI4NzwvYWRkcmVzcz4NCiAgICAgICAgICA8Y2l0eT5EZW52ZXI8L2NpdHk+DQogICAgICAg
+ICAgPHN0YXRlPkNPPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjgwMjI1LTAyODc8L3Bvc3Rh
+bD4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250dm9pY2U+MzAzLjk2OS4yMTUzPC9j
+bnR2b2ljZT4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L21ldGM+DQogIDwvbWV0YWluZm8+DQog
+IDxFc3JpPg0KICAgIDxEYXRhUHJvcGVydGllcz4NCiAgICAgIDxjb3B5SGlzdG9yeT4NCiAgICAg
+ICAgPGNvcHkgc291cmNlPSJaOlxBRE1BXEVQQSBSZWdpb24gOV9VU19Gb3Jlc3RTZXJ2aWNlX0Ns
+YXNzSUFyZWFzIiBkZXN0PSJcXEUwOTA5UFNGVEgwMzJcTWV0YWRhdGFXQUZcQURNQVxFUEEgUmVn
+aW9uIDlfVVNfRm9yZXN0U2VydmljZV9DbGFzc0lBcmVhcyAoMSkiIGRhdGU9IjIwMTcwNTMxIiB0
+aW1lPSIxNjQ4MzIwMCIgLz4NCiAgICAgIDwvY29weUhpc3Rvcnk+DQogICAgPC9EYXRhUHJvcGVy
+dGllcz4NCiAgPC9Fc3JpPg0KPC9tZXRhZGF0YT4=</Data>
+    </Enclosure>
+  </Binary>
+  <mdFileID>F4C62245-C59C-49C2-8334-21AB8F3AE121</mdFileID>
+</metadata>

@@ -1,0 +1,1482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<Esri>
+<PublishedDocID>{60031F80-ED67-487C-84E0-ACE941870463}</PublishedDocID>
+<DataProperties>
+<itemProps>
+<itemName Sync="TRUE">ER_WTP</itemName>
+<nativeExtBox>
+<westBL Sync="TRUE">-164.048000</westBL>
+<eastBL Sync="TRUE">144.897361</eastBL>
+<southBL Sync="TRUE">13.572916</southBL>
+<northBL Sync="TRUE">70.457400</northBL>
+<exTypeCode Sync="TRUE">1</exTypeCode>
+</nativeExtBox>
+<itemLocation>
+<linkage Sync="TRUE">file://\\V18OVHRTPAY708\D$\public\data\ags_autoupdates\igeo\OEI\FRS\ESF3\FRS_ESF3.gdb</linkage>
+<protocol Sync="TRUE">Local Area Network</protocol>
+</itemLocation>
+</itemProps>
+<coordRef>
+<type Sync="TRUE">Geographic</type>
+<geogcsn Sync="TRUE">Longitude / Latitude (NAD 83)</geogcsn>
+<csUnits Sync="TRUE">Angular Unit: Decimal Degree (0.017453)</csUnits>
+<peXml Sync="TRUE">&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.9.0'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;Longitude / Latitude (NAD 83)&amp;quot;,DATUM[&amp;quot;NAD 83&amp;quot;,SPHEROID[&amp;quot;GRS 80&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Decimal Degree&amp;quot;,0.0174532925199433]]&lt;/WKT&gt;&lt;XOrigin&gt;-400&lt;/XOrigin&gt;&lt;YOrigin&gt;-400&lt;/YOrigin&gt;&lt;XYScale&gt;999999999.99999988&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;8.983152841195215e-09&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;/GeographicCoordinateSystem&gt;</peXml>
+</coordRef>
+</DataProperties>
+<SyncDate>20220227</SyncDate>
+<SyncTime>19073500</SyncTime>
+<ModDate>20220227</ModDate>
+<ModTime>19073500</ModTime>
+</Esri>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>US Environmental Protection Agency</origin>
+<pubdate>20160629</pubdate>
+<title>EPA Facility Registry Service (FRS): ER_WTP</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Washington, DC</pubplace>
+<publish>U.S. EPA Office of Environmental Information (OEI)</publish>
+</pubinfo>
+<lworkcit>
+<citeinfo>
+<origin>United States Environmental Protection Agency, Office of Environmental Information</origin>
+<pubdate>20150825</pubdate>
+<title>EPA Facility Registry Service Collection</title>
+<othcit>0fd2712b-62d0-4aaf-ab20-2cbfe8c26b30</othcit>
+<onlink>https://edg-intranet.epa.gov/metadata/catalog/search/resource/details.page?uuid={0fd2712b-62d0-4aaf-ab20-2cbfe8c26b30}</onlink>
+</citeinfo>
+</lworkcit>
+<onlink>https://gisdev1.rtpnc.epa.gov/FRS/downloads/ESF3.gdb.zip</onlink>
+<onlink>https://igeo.epa.gov/arcgis/rest/services/OEI/FRS_ESF3/MapServer</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This web feature service contains location and facility identification information from EPA's Facility Registry System (FRS) for the subset of Waste Water Treatment Plant facilities that link to the National Pollutant Discharge Elimination System (NPDES) module of the Integrated Compliance Information System (ICIS). ICIS tracks NPDES surface water permits issued under the Clean Water Act. Under NPDES, all facilities that discharge pollutants from any point source into waters of the United States are required to obtain a permit. The permit will likely contain limits on what can be discharged, impose monitoring and reporting requirements, and include other provisions to ensure that the discharge does not adversely affect water quality. FRS identifies and geospatially locates facilities, sites or places subject to environmental regulations or of environmental interest. Using vigorous verification and data management procedures, FRS integrates facility data from EPA's national program systems, other federal agencies, and State and tribal master facility records and provides EPA with a centrally managed, single source of comprehensive and authoritative information on facilities. This data set contains the subset of FRS integrated facilities that link to NPDES facilities once the ICIS-NPDES data has been integrated into the FRS database. Additional information on FRS is available at the EPA website https://www.epa.gov/enviro/facility-registry-service-frs.
+			</abstract>
+<purpose>The purpose of this web feature service is to provide users with access to integrated facility information from FRS, limited to the subset of facilities that link to the NPDES database. This subset of data was identified as information that can be used in the Public Works and Engineering Emergency Support Function #3. Additional contact, state ids, NAICs, and SIC attributes are linked by registry id. It contains only active facilities.</purpose>
+<supplinf>This is an EPA-Produced Data Set.  This data set is one in a series of Image and Feature Services published by USEPA.  Additional services can be found at https://edg.epa.gov/</supplinf>
+</descript>
+<timeperd>
+<current>Publication date</current>
+<timeinfo>
+<sngdate>
+<caldate>20210222</caldate>
+</sngdate>
+</timeinfo>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+					-170.685500</westbc>
+<eastbc>
+					144.783000</eastbc>
+<northbc>
+					64.997222</northbc>
+<southbc>
+					-14.273800</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>environment</themekey>
+<themekey>location</themekey>
+<themekey>structure</themekey>
+</theme>
+<theme>
+<themekt>EPA GIS Keyword Thesaurus</themekt>
+<themekey>Cleanup</themekey>
+<themekey>Compliance</themekey>
+<themekey>Contaminant</themekey>
+<themekey>Facilities</themekey>
+<themekey>Regulatory</themekey>
+<themekey>Remediation</themekey>
+<themekey>Sites</themekey>
+<themekey>Toxics</themekey>
+<themekey>Waste</themekey>
+<themekey>Resources</themekey>
+<themekey>Emergency Response</themekey>
+<themekey>Environmental Management</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>United States (US) (USA)</placekey>
+<placekey>conterminous United States (CONUS)</placekey>
+<placekey>Alaska</placekey>
+<placekey>Hawaii</placekey>
+<placekey>District of Columbia</placekey>
+<placekey>Washington DC</placekey>
+<placekey>American Samoa</placekey>
+<placekey>Puerto Rico</placekey>
+<placekey>Virgin Islands</placekey>
+<placekey>Alabama</placekey>
+<placekey>Arizona</placekey>
+<placekey>Arkansas</placekey>
+<placekey>California</placekey>
+<placekey>Colorado</placekey>
+<placekey>Connecticut</placekey>
+<placekey>Delaware</placekey>
+<placekey>Florida</placekey>
+<placekey>Georgia</placekey>
+<placekey>Idaho</placekey>
+<placekey>Illinois</placekey>
+<placekey>Indiana</placekey>
+<placekey>Iowa</placekey>
+<placekey>Kansas</placekey>
+<placekey>Kentucky</placekey>
+<placekey>Louisiana</placekey>
+<placekey>Maine</placekey>
+<placekey>Maryland</placekey>
+<placekey>Massachusetts</placekey>
+<placekey>Michigan</placekey>
+<placekey>Minnesota</placekey>
+<placekey>Mississippi</placekey>
+<placekey>Missouri</placekey>
+<placekey>Montana</placekey>
+<placekey>Nebraska</placekey>
+<placekey>Nevada</placekey>
+<placekey>New Hampshire</placekey>
+<placekey>New Jersey</placekey>
+<placekey>New Mexico</placekey>
+<placekey>New York</placekey>
+<placekey>North Carolina</placekey>
+<placekey>North Dakota</placekey>
+<placekey>Ohio</placekey>
+<placekey>Oklahoma</placekey>
+<placekey>Oregon</placekey>
+<placekey>Pennsylvania</placekey>
+<placekey>Rhode Island</placekey>
+<placekey>South Carolina</placekey>
+<placekey>South Dakota</placekey>
+<placekey>Tennessee</placekey>
+<placekey>Texas</placekey>
+<placekey>Utah</placekey>
+<placekey>Vermont</placekey>
+<placekey>Virginia</placekey>
+<placekey>Washington</placekey>
+<placekey>West Virginia</placekey>
+<placekey>Wisconsin</placekey>
+<placekey>Wyoming</placekey>
+</place>
+<theme>
+<themekt>User</themekt>
+<themekey>ESF3</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+</place>
+</keywords>
+<accconst>These Data Are Restricted to Internal EPA Personnel Only</accconst>
+<useconst>These data should not be distributed.  Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+<secinfo>
+<secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+<secclass>non-public</secclass>
+<sechandl>Standard Technical Controls</sechandl>
+</secinfo>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Headquarters</cntorg>
+<cntper>David Smith</cntper>
+</cntorgp>
+<cntpos>FRS Project Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1200 Pennsylvania Ave, NW</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>(202) 566-0797</cntvoice>
+<cntemail>smith.davidg@epa.gov</cntemail>
+<cntinst>https://www3.epa.gov/</cntinst>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<logic>Locations are tested and reported individually</logic>
+<complete>Completeness of the data set varies for individual features.</complete>
+<posacc>
+<horizpa>
+<horizpar>FRS uses a best-pick algorithm to provide horizontal positional information.  This assigns the latitude and longitude with the best accuracy value to each facility.  Because information in FRS is collected across numerous states and programs, positional accuracy for the data set varies for each individual feature and is stored on a record-level basis. Overall horizontal positional accuracy for the entire data set fluctuates as new information is received and is not estimated for the entire data set within this record. For more information on accuracy of FRS locations, visit https://www.epa.gov/enviro/facility-registry-service-frs.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<procstep>
+<procdesc>Created a view in FRS database that contains FRS faciities in the Emergency Support Functions 3 and 10 universe to include FRP, TRI, CERCLIS, TSCA, RCRA TSD, WWTP - NPDES, RMP, and WTP facilities or interests. Exported this query out to a file geodatabase spatial table using FME. </procdesc>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<esriterm Name="ER_WTP">
+<efeatyp Sync="TRUE">Simple</efeatyp>
+<efeageom Sync="TRUE" code="1">
+</efeageom>
+<esritopo Sync="TRUE">FALSE</esritopo>
+<efeacnt Sync="TRUE">110599</efeacnt>
+<spindex Sync="TRUE">TRUE</spindex>
+<linrefer Sync="TRUE">FALSE</linrefer>
+</esriterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+<horizsys>
+<geograph>
+<latres>0.000001</latres>
+<longres>0.000001</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 1980</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed Name="ER_WTP">
+<enttyp>
+<enttypl Sync="TRUE">ER_WTP</enttypl>
+<enttypd>Attribute table describes point features</enttypd>
+<enttypds>FRS</enttypds>
+<enttypt Sync="TRUE">Feature Class</enttypt>
+<enttypc Sync="TRUE">110599</enttypc>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Unique Number Assigned by ESRI</attrdef>
+<attrdefs>EPA FRS Data Dictionary</attrdefs>
+<attrdomv>
+<udom>Unknown</udom>
+</attrdomv>
+<attalias Sync="TRUE">OBJECTID</attalias>
+<attrtype Sync="TRUE">OID</attrtype>
+<attwidth Sync="TRUE">4</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl>PGM_SYS_ID</attrlabl>
+<attrdef>The identification number, such as the permit number, assigned by an information management system that represents a facility site, waste site, operable unit, or other feature tracked by that Environmental Information System.</attrdef>
+<attrdefs>EPA FRS Data Dictionary</attrdefs>
+<attrdomv>
+<udom>Unknown</udom>
+</attrdomv>
+<attalias Sync="TRUE">PGM_SYS_ID</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">30</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PWSID</attrlabl>
+<attalias Sync="TRUE">PWSID</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">30</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PWSNAME</attrlabl>
+<attalias Sync="TRUE">PWSNAME</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">100</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PWSTYPECODE</attrlabl>
+<attalias Sync="TRUE">PWSTYPECODE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">30</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PWSACTIVITYCODE</attrlabl>
+<attalias Sync="TRUE">PWSACTIVITYCODE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">30</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">RETPOPSRVD</attrlabl>
+<attalias Sync="TRUE">RETPOPSRVD</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">30</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PSOURCE</attrlabl>
+<attalias Sync="TRUE">PSOURCE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">80</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+<attalias Sync="TRUE">Shape</attalias>
+<attrtype Sync="TRUE">Geometry</attrtype>
+<attwidth Sync="TRUE">0</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACID</attrlabl>
+<attalias Sync="TRUE">FACID</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">30</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACNAME</attrlabl>
+<attalias Sync="TRUE">FACNAME</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">80</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACACTIVITYCODE</attrlabl>
+<attalias Sync="TRUE">FACACTIVITYCODE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">30</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACTYPECODE</attrlabl>
+<attalias Sync="TRUE">FACTYPECODE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">30</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACWATERTYPE</attrlabl>
+<attalias Sync="TRUE">FACWATERTYPE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">30</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">AVAILABILITY</attrlabl>
+<attalias Sync="TRUE">AVAILABILITY</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">30</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">VALIDITYINDICATOR</attrlabl>
+<attalias Sync="TRUE">VALIDITYINDICATOR</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">30</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LAT83</attrlabl>
+<attalias Sync="TRUE">LAT83</attalias>
+<attrtype Sync="TRUE">Double</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LONG83</attrlabl>
+<attalias Sync="TRUE">LONG83</attalias>
+<attrtype Sync="TRUE">Double</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LLHORIZDATUM</attrlabl>
+<attalias Sync="TRUE">LLHORIZDATUM</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">30</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">EPA_REGION_CODE</attrlabl>
+<attalias Sync="TRUE">EPA_REGION_CODE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">2</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FEDERAL_FACILITY_CODE</attrlabl>
+<attalias Sync="TRUE">FEDERAL_FACILITY_CODE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">15</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FEDERAL_AGENCY_NAME</attrlabl>
+<attalias Sync="TRUE">FEDERAL_AGENCY_NAME</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">100</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">HUC_12</attrlabl>
+<attalias Sync="TRUE">HUC_12</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">4000</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FEDERAL_LAND_IND</attrlabl>
+<attalias Sync="TRUE">FEDERAL_LAND_IND</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">1</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+</detailed>
+<overview>
+<eaover>Attribute information is derived from FRS database owners and reference material. For additional information regarding attributes listed in this metadata record, please visit the FRS documentation page http://www.epa.gov/enviro/html/fii/documentation.html</eaover>
+<eadetcit>The following sources were used to derive the attribute information presented in the attribute detailed citation EPA FRS Data Dictionary; FRS Development Team, April 1999; FRS Quality Plan, Version 1.1, January 25, 2008, http://www.epa.gov/enviro/html/frs_demo/FRS_Quality_Plan.pdf</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<resdesc>Live Data and Maps</resdesc>
+<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Headquarters</cntorg>
+<cntper>David Smith</cntper>
+</cntorgp>
+<cntpos>FRS Project Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1200 Pennsylvania Ave, NW</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>(202) 566-0797</cntvoice>
+<cntemail>smith.davidg@epa.gov</cntemail>
+<cntinst>https://www3.epa.gov/</cntinst>
+</cntinfo>
+</distrib>
+</distinfo>
+<metainfo>
+<metd>20220301</metd>
+<metfrd>20200616</metfrd>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Research Triangle Park</cntorg>
+<cntper>EPA GIS Agency Central Support</cntper>
+</cntorgp>
+<cntpos>OEI RTP NCC GIS</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>USEPA Mailroom N127-02</address>
+<city>Research Triangle Park</city>
+<state>NC</state>
+<postal>27711</postal>
+</cntaddr>
+<cntvoice>919-767-7493</cntvoice>
+<cntemail>esrisupport@epa.gov</cntemail>
+</cntinfo>
+</metc>
+</metainfo>
+<Esri>
+<DataProperties>
+<copyHistory>
+<copy date="20201117" dest="\\V18OVHRTAY724\D$\Public\Data\dlambe02\ESF3\ESF_3_Metadata\FRS_ER_WWTP_NPDES_metadata (1)" source="D:\Public\Data\dlambe02\ESF3\ESF_3_Metadata\FRS_ER_WWTP_NPDES_metadata" time="13340900">
+</copy>
+</copyHistory>
+<itemProps>
+<imsContentType>001</imsContentType>
+<itemName Sync="TRUE">ER_WTP</itemName>
+<nativeExtBox>
+<westBL Sync="TRUE">-164.048000</westBL>
+<eastBL Sync="TRUE">144.897361</eastBL>
+<southBL Sync="TRUE">13.572916</southBL>
+<northBL Sync="TRUE">70.457400</northBL>
+<exTypeCode Sync="TRUE">1</exTypeCode>
+</nativeExtBox>
+<itemLocation>
+<linkage Sync="TRUE">file://\\V18OVHRTPAY708\D$\public\data\ags_autoupdates\igeo\OEI\FRS\ESF3\FRS_ESF3.gdb</linkage>
+<protocol Sync="TRUE">Local Area Network</protocol>
+</itemLocation>
+</itemProps>
+<coordRef>
+<type Sync="TRUE">Geographic</type>
+<geogcsn Sync="TRUE">Longitude / Latitude (NAD 83)</geogcsn>
+<csUnits Sync="TRUE">Angular Unit: Decimal Degree (0.017453)</csUnits>
+<peXml Sync="TRUE">&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.9.0'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;Longitude / Latitude (NAD 83)&amp;quot;,DATUM[&amp;quot;NAD 83&amp;quot;,SPHEROID[&amp;quot;GRS 80&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Decimal Degree&amp;quot;,0.0174532925199433]]&lt;/WKT&gt;&lt;XOrigin&gt;-400&lt;/XOrigin&gt;&lt;YOrigin&gt;-400&lt;/YOrigin&gt;&lt;XYScale&gt;999999999.99999988&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;8.983152841195215e-09&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;/GeographicCoordinateSystem&gt;</peXml>
+</coordRef>
+</DataProperties>
+<ArcGISFormat>1.0</ArcGISFormat>
+<SyncDate>20220227</SyncDate>
+<SyncTime>19073500</SyncTime>
+<ModDate>20220227</ModDate>
+<ModTime>19073500</ModTime>
+</Esri>
+<mdLang>
+<languageCode value="eng">
+</languageCode>
+<countryCode Sync="TRUE" value="USA">
+</countryCode>
+</mdLang>
+<mdChar>
+<CharSetCd value="004">
+</CharSetCd>
+</mdChar>
+<mdHrLv>
+<ScopeCd value="005">
+</ScopeCd>
+</mdHrLv>
+<mdContact>
+<rpIndName>EPA GIS Agency Central Support</rpIndName>
+<rpOrgName>U.S. Environmental Protection Agency, Research Triangle Park</rpOrgName>
+<rpPosName>OEI RTP NCC GIS</rpPosName>
+<rpCntInfo>
+<cntPhone>
+<voiceNum>919-767-7493</voiceNum>
+</cntPhone>
+<cntAddress addressType="both">
+<delPoint>USEPA Mailroom N127-02</delPoint>
+<city>Research Triangle Park</city>
+<adminArea>NC</adminArea>
+<postCode>27711</postCode>
+<eMailAdd>esrisupport@epa.gov</eMailAdd>
+</cntAddress>
+</rpCntInfo>
+<role>
+<RoleCd value="007">
+</RoleCd>
+</role>
+</mdContact>
+<mdDateSt Sync="TRUE">20220227</mdDateSt>
+<mdStanName>ArcGIS Metadata</mdStanName>
+<mdStanVer>1.0</mdStanVer>
+<distInfo>
+<distributor>
+<distorCont>
+<rpIndName>David Smith</rpIndName>
+<rpOrgName>U.S. Environmental Protection Agency, Headquarters</rpOrgName>
+<rpPosName>FRS Project Manager</rpPosName>
+<rpCntInfo>
+<cntPhone>
+<voiceNum>(202) 566-0797</voiceNum>
+</cntPhone>
+<cntAddress addressType="both">
+<delPoint>1200 Pennsylvania Ave, NW</delPoint>
+<city>Washington</city>
+<adminArea>DC</adminArea>
+<postCode>20460</postCode>
+<eMailAdd>smith.davidg@epa.gov</eMailAdd>
+</cntAddress>
+<cntInstr>https://www3.epa.gov/</cntInstr>
+</rpCntInfo>
+<role>
+<RoleCd value="005">
+</RoleCd>
+</role>
+</distorCont>
+</distributor>
+<distTranOps>
+<onLineSrc>
+<linkage>https://igeo.epa.gov/arcgis/rest/services/OEI/FRS_ESF3/MapServer</linkage>
+</onLineSrc>
+<onLineSrc>
+<linkage>https://gisdev1.rtpnc.epa.gov/FRS/downloads/ESF3.gdb.zip</linkage>
+</onLineSrc>
+</distTranOps>
+<distFormat>
+<formatName Sync="TRUE">File Geodatabase Feature Class</formatName>
+</distFormat>
+</distInfo>
+<dataIdInfo>
+<idCitation>
+<resTitle>EPA Facility Registry Service (FRS): ER_WTP</resTitle>
+<date>
+<pubDate>2016-06-29</pubDate>
+<reviseDate>2/27/2022</reviseDate>
+</date>
+<citRespParty>
+<rpOrgName>U.S. EPA Office of Environmental Information (OEI)</rpOrgName>
+<rpCntInfo>
+<cntAddress>
+<delPoint>Washington, DC</delPoint>
+</cntAddress>
+</rpCntInfo>
+<role>
+<RoleCd value="010">
+</RoleCd>
+</role>
+</citRespParty>
+<citRespParty>
+<rpOrgName>US Environmental Protection Agency</rpOrgName>
+<role>
+<RoleCd value="006">
+</RoleCd>
+</role>
+</citRespParty>
+<presForm>
+<PresFormCd value="005">
+</PresFormCd>
+</presForm>
+<presForm>
+<fgdcGeoform>vector digital data</fgdcGeoform>
+</presForm>
+<collTitle>EPA Facility Registry Service Collection</collTitle>
+</idCitation>
+<idAbs>This web feature service contains location and facility identification information from EPA's Facility Registry System (FRS) for the subset of Waste Water Treatment Plant facilities that link to the National Pollutant Discharge Elimination System (NPDES) module of the Integrated Compliance Information System (ICIS). ICIS tracks NPDES surface water permits issued under the Clean Water Act. Under NPDES, all facilities that discharge pollutants from any point source into waters of the United States are required to obtain a permit. The permit will likely contain limits on what can be discharged, impose monitoring and reporting requirements, and include other provisions to ensure that the discharge does not adversely affect water quality. FRS identifies and geospatially locates facilities, sites or places subject to environmental regulations or of environmental interest. Using vigorous verification and data management procedures, FRS integrates facility data from EPA's national program systems, other federal agencies, and State and tribal master facility records and provides EPA with a centrally managed, single source of comprehensive and authoritative information on facilities. This data set contains the subset of FRS integrated facilities that link to NPDES facilities once the ICIS-NPDES data has been integrated into the FRS database. Additional information on FRS is available at the EPA website https://www.epa.gov/enviro/facility-registry-service-frs.</idAbs>
+<idPurp>The purpose of this web feature service is to provide users with access to integrated facility information from FRS, limited to the subset of facilities that link to the NPDES database. This subset of data was identified as information that can be used in the Public Works and Engineering Emergency Support Function #3. Additional contact, state ids, NAICs, and SIC attributes are linked by registry id. It contains only active facilities.</idPurp>
+<idStatus>
+<ProgCd value="001">
+</ProgCd>
+</idStatus>
+<idPoC>
+<rpIndName>David Smith</rpIndName>
+<rpOrgName>U.S. Environmental Protection Agency, Headquarters</rpOrgName>
+<rpPosName>FRS Project Manager</rpPosName>
+<rpCntInfo>
+<cntPhone>
+<voiceNum>(202) 566-0797</voiceNum>
+</cntPhone>
+<cntAddress addressType="both">
+<delPoint>1200 Pennsylvania Ave, NW</delPoint>
+<city>Washington</city>
+<adminArea>DC</adminArea>
+<postCode>20460</postCode>
+<eMailAdd>smith.davidg@epa.gov</eMailAdd>
+</cntAddress>
+<cntInstr>https://www3.epa.gov/</cntInstr>
+</rpCntInfo>
+<role>
+<RoleCd value="007">
+</RoleCd>
+</role>
+</idPoC>
+<resMaint>
+<maintFreq>
+<MaintFreqCd value="009">
+</MaintFreqCd>
+</maintFreq>
+</resMaint>
+<placeKeys>
+<keyword>South Carolina</keyword>
+<keyword>Oregon</keyword>
+<keyword>District of Columbia</keyword>
+<keyword>North Dakota</keyword>
+<keyword>Connecticut</keyword>
+<keyword>American Samoa</keyword>
+<keyword>Arkansas</keyword>
+<keyword>West Virginia</keyword>
+<keyword>Indiana</keyword>
+<keyword>Kansas</keyword>
+<keyword>New Jersey</keyword>
+<keyword>Colorado</keyword>
+<keyword>North Carolina</keyword>
+<keyword>Michigan</keyword>
+<keyword>Wyoming</keyword>
+<keyword>Nevada</keyword>
+<keyword>Illinois</keyword>
+<keyword>Oklahoma</keyword>
+<keyword>Ohio</keyword>
+<keyword>Vermont</keyword>
+<keyword>Arizona</keyword>
+<keyword>Washington DC</keyword>
+<keyword>Virginia</keyword>
+<keyword>South Dakota</keyword>
+<keyword>Montana</keyword>
+<keyword>Pennsylvania</keyword>
+<keyword>Maryland</keyword>
+<keyword>Maine</keyword>
+<keyword>Georgia</keyword>
+<keyword>California</keyword>
+<keyword>Hawaii</keyword>
+<keyword>New Hampshire</keyword>
+<keyword>Idaho</keyword>
+<keyword>Texas</keyword>
+<keyword>Wisconsin</keyword>
+<keyword>Alaska</keyword>
+<keyword>Kentucky</keyword>
+<keyword>conterminous United States (CONUS)</keyword>
+<keyword>Massachusetts</keyword>
+<keyword>Mississippi</keyword>
+<keyword>United States (US) (USA)</keyword>
+<keyword>Iowa</keyword>
+<keyword>Florida</keyword>
+<keyword>Puerto Rico</keyword>
+<keyword>Louisiana</keyword>
+<keyword>Nebraska</keyword>
+<keyword>New Mexico</keyword>
+<keyword>Utah</keyword>
+<keyword>New York</keyword>
+<keyword>Washington</keyword>
+<keyword>Rhode Island</keyword>
+<keyword>Delaware</keyword>
+<keyword>Missouri</keyword>
+<keyword>Tennessee</keyword>
+<keyword>Minnesota</keyword>
+<keyword>Alabama</keyword>
+<keyword>Virgin Islands</keyword>
+</placeKeys>
+<placeKeys>
+</placeKeys>
+<themeKeys>
+<keyword>Facilities</keyword>
+<keyword>Environmental Management</keyword>
+<keyword>Remediation</keyword>
+<keyword>Contaminant</keyword>
+<keyword>Sites</keyword>
+<keyword>Emergency Response</keyword>
+<keyword>Waste</keyword>
+<keyword>Resources</keyword>
+<keyword>Toxics</keyword>
+<keyword>Cleanup</keyword>
+<keyword>Regulatory</keyword>
+<keyword>Compliance</keyword>
+<thesaName>
+<resTitle>EPA GIS Keyword Thesaurus</resTitle>
+</thesaName>
+</themeKeys>
+<themeKeys>
+<keyword>environment</keyword>
+<keyword>location</keyword>
+<keyword>structure</keyword>
+<thesaName>
+<resTitle>ISO 19115 Topic Category</resTitle>
+</thesaName>
+</themeKeys>
+<themeKeys>
+<keyword>ESF3</keyword>
+<thesaName>
+<resTitle>User</resTitle>
+</thesaName>
+</themeKeys>
+<searchKeys>
+<keyword>South Carolina</keyword>
+<keyword>Oregon</keyword>
+<keyword>District of Columbia</keyword>
+<keyword>North Dakota</keyword>
+<keyword>Connecticut</keyword>
+<keyword>American Samoa</keyword>
+<keyword>Arkansas</keyword>
+<keyword>Facilities</keyword>
+<keyword>West Virginia</keyword>
+<keyword>environment</keyword>
+<keyword>Indiana</keyword>
+<keyword>Kansas</keyword>
+<keyword>New Jersey</keyword>
+<keyword>Colorado</keyword>
+<keyword>North Carolina</keyword>
+<keyword>Michigan</keyword>
+<keyword>Wyoming</keyword>
+<keyword>Nevada</keyword>
+<keyword>Illinois</keyword>
+<keyword>Oklahoma</keyword>
+<keyword>Ohio</keyword>
+<keyword>location</keyword>
+<keyword>Environmental Management</keyword>
+<keyword>Vermont</keyword>
+<keyword>Arizona</keyword>
+<keyword>Washington DC</keyword>
+<keyword>Remediation</keyword>
+<keyword>Contaminant</keyword>
+<keyword>Sites</keyword>
+<keyword>Virginia</keyword>
+<keyword>South Dakota</keyword>
+<keyword>Montana</keyword>
+<keyword>Emergency Response</keyword>
+<keyword>Pennsylvania</keyword>
+<keyword>structure</keyword>
+<keyword>Maryland</keyword>
+<keyword>Maine</keyword>
+<keyword>Georgia</keyword>
+<keyword>California</keyword>
+<keyword>Hawaii</keyword>
+<keyword>New Hampshire</keyword>
+<keyword>ESF3</keyword>
+<keyword>Idaho</keyword>
+<keyword>Waste</keyword>
+<keyword>Texas</keyword>
+<keyword>Wisconsin</keyword>
+<keyword>Alaska</keyword>
+<keyword>Kentucky</keyword>
+<keyword>Resources</keyword>
+<keyword>conterminous United States (CONUS)</keyword>
+<keyword>Massachusetts</keyword>
+<keyword>Toxics</keyword>
+<keyword>Mississippi</keyword>
+<keyword>United States (US) (USA)</keyword>
+<keyword>Cleanup</keyword>
+<keyword>Iowa</keyword>
+<keyword>Regulatory</keyword>
+<keyword>Compliance</keyword>
+<keyword>Florida</keyword>
+<keyword>Puerto Rico</keyword>
+<keyword>Louisiana</keyword>
+<keyword>Nebraska</keyword>
+<keyword>New Mexico</keyword>
+<keyword>Utah</keyword>
+<keyword>New York</keyword>
+<keyword>Washington</keyword>
+<keyword>Rhode Island</keyword>
+<keyword>Delaware</keyword>
+<keyword>Missouri</keyword>
+<keyword>Tennessee</keyword>
+<keyword>Minnesota</keyword>
+<keyword>Alabama</keyword>
+<keyword>Virgin Islands</keyword>
+</searchKeys>
+<resConst>
+<LegConsts>
+<useLimit>https://edg.epa.gov/EPA_Data_License.html</useLimit>
+<othConsts>These Data Are Restricted to Internal EPA Personnel Only</othConsts>
+</LegConsts>
+</resConst>
+<resConst>
+<SecConsts>
+<classSys>http://project-open-data.github.io/schema/#accessLevel</classSys>
+<handDesc>Standard Technical Controls</handDesc>
+</SecConsts>
+</resConst>
+<resConst>
+<Consts>
+<useLimit>These data should not be distributed. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</useLimit>
+</Consts>
+</resConst>
+<aggrInfo>
+<aggrDSName>
+<resTitle>EPA Facility Registry Service Collection</resTitle>
+<date>
+<pubDate>2015-08-25</pubDate>
+</date>
+<citRespParty>
+<rpOrgName>United States Environmental Protection Agency, Office of Environmental Information</rpOrgName>
+<role>
+<RoleCd value="006">
+</RoleCd>
+</role>
+</citRespParty>
+<citOnlineRes>
+<linkage>https://edg-intranet.epa.gov/metadata/catalog/search/resource/details.page?uuid={0fd2712b-62d0-4aaf-ab20-2cbfe8c26b30}</linkage>
+</citOnlineRes>
+</aggrDSName>
+<assocType>
+<AscTypeCd value="002">
+</AscTypeCd>
+</assocType>
+</aggrInfo>
+<spatRpType>
+<SpatRepTypCd value="001">
+</SpatRepTypCd>
+</spatRpType>
+<dataLang>
+<languageCode value="eng">
+</languageCode>
+<countryCode Sync="TRUE" value="USA">
+</countryCode>
+</dataLang>
+<tpCat>
+<TopicCatCd value="007">
+</TopicCatCd>
+</tpCat>
+<tpCat>
+<TopicCatCd value="013">
+</TopicCatCd>
+</tpCat>
+<tpCat>
+<TopicCatCd value="017">
+</TopicCatCd>
+</tpCat>
+<envirDesc Sync="TRUE">Microsoft Windows Server 2012 R2 Version 6.3 (Build 9600) ; Esri ArcGIS 12.9.0.32739</envirDesc>
+<dataExt>
+<geoEle>
+<GeoBndBox>
+<westBL>-170.6855</westBL>
+<eastBL>144.783</eastBL>
+<southBL>-14.2738</southBL>
+<northBL>64.997222</northBL>
+</GeoBndBox>
+</geoEle>
+</dataExt>
+<dataExt>
+<exDesc>Publication date</exDesc>
+<tempEle>
+<TempExtent>
+<exTemp>
+<TM_Instant>
+<tmPosition>2020-12-12</tmPosition>
+</TM_Instant>
+</exTemp>
+</TempExtent>
+</tempEle>
+<geoEle>
+</geoEle>
+</dataExt>
+<suppInfo>This is an EPA-Produced Data Set. This data set is one in a series of Image and Feature Services published by USEPA. Additional services can be found at https://edg.epa.gov/</suppInfo>
+<dataExt>
+<geoEle>
+<GeoBndBox esriExtentType="search">
+<exTypeCode Sync="TRUE">1</exTypeCode>
+<westBL Sync="TRUE">-164.048000</westBL>
+<eastBL Sync="TRUE">144.897361</eastBL>
+<northBL Sync="TRUE">70.457400</northBL>
+<southBL Sync="TRUE">13.572916</southBL>
+</GeoBndBox>
+</geoEle>
+</dataExt>
+</dataIdInfo>
+<mdMaint>
+<maintFreq>
+<MaintFreqCd value="012">
+</MaintFreqCd>
+</maintFreq>
+<dateNext>20200616</dateNext>
+</mdMaint>
+<dqInfo>
+<dqScope>
+<scpLvl>
+<ScopeCd value="005">
+</ScopeCd>
+</scpLvl>
+</dqScope>
+<report type="DQConcConsis">
+<measDesc>Locations are tested and reported individually</measDesc>
+</report>
+<report type="DQCompOm">
+<measDesc>Completeness of the data set varies for individual features.</measDesc>
+</report>
+<report dimension="horizontal" type="DQAbsExtPosAcc">
+<measDesc>FRS uses a best-pick algorithm to provide horizontal positional information. This assigns the latitude and longitude with the best accuracy value to each facility. Because information in FRS is collected across numerous states and programs, positional accuracy for the data set varies for each individual feature and is stored on a record-level basis. Overall horizontal positional accuracy for the entire data set fluctuates as new information is received and is not estimated for the entire data set within this record. For more information on accuracy of FRS locations, visit https://www.epa.gov/enviro/facility-registry-service-frs.</measDesc>
+</report>
+<dataLineage>
+<prcStep>
+<stepDesc>Created a view in FRS database that contains FRS faciities in the Emergency Support Functions 3 and 10 universe to include FRP, TRI, CERCLIS, TSCA, RCRA TSD, WWTP - NPDES, RMP, and WTP facilities or interests. Exported this query out to a file geodatabase spatial table using FME.</stepDesc>
+</prcStep>
+</dataLineage>
+</dqInfo>
+<spatRepInfo>
+<VectSpatRep>
+<geometObjs Name="ER_WTP">
+<geoObjTyp>
+<GeoObjTypCd Sync="TRUE" value="004">
+</GeoObjTypCd>
+</geoObjTyp>
+<geoObjCnt Sync="TRUE">110599</geoObjCnt>
+</geometObjs>
+<topLvl>
+<TopoLevCd Sync="TRUE" value="001">
+</TopoLevCd>
+</topLvl>
+</VectSpatRep>
+</spatRepInfo>
+<Binary>
+<Enclosure>
+<Descript>original metadata</Descript>
+<Data EsriPropertyType="Base64" OriginalFileName="source_metadata.xml" SourceMetadata="yes" SourceMetadataDigest="7f147caae94509886d933083d7cf27f" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+				aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+				VVMgRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uIEFnZW5jeTwvb3JpZ2luPg0KICAgICAgICA8cHVi
+				ZGF0ZT4yMDE2MDYyOTwvcHViZGF0ZT4NCiAgICAgICAgPHRpdGxlPkVQQSBGYWNpbGl0eSBSZWdp
+				c3RyeSBTZXJ2aWNlIChGUlMpOiBFUl9XVFA8L3RpdGxlPg0KICAgICAgICA8Z2VvZm9ybT52ZWN0
+				b3IgZGlnaXRhbCBkYXRhPC9nZW9mb3JtPg0KICAgICAgICA8cHViaW5mbz4NCiAgICAgICAgICA8
+				cHVicGxhY2U+V2FzaGluZ3RvbiwgREM8L3B1YnBsYWNlPg0KICAgICAgICAgIDxwdWJsaXNoPlUu
+				Uy4gRVBBIE9mZmljZSBvZiBFbnZpcm9ubWVudGFsIEluZm9ybWF0aW9uIChPRUkpPC9wdWJsaXNo
+				Pg0KICAgICAgICA8L3B1YmluZm8+DQogICAgICAgIDxsd29ya2NpdD4NCiAgICAgICAgICA8Y2l0
+				ZWluZm8+DQogICAgICAgICAgICA8b3JpZ2luPlVuaXRlZCBTdGF0ZXMgRW52aXJvbm1lbnRhbCBQ
+				cm90ZWN0aW9uIEFnZW5jeSwgT2ZmaWNlIG9mIEVudmlyb25tZW50YWwgSW5mb3JtYXRpb248L29y
+				aWdpbj4NCiAgICAgICAgICAgIDxwdWJkYXRlPjIwMTUwODI1PC9wdWJkYXRlPg0KICAgICAgICAg
+				ICAgPHRpdGxlPkVQQSBGYWNpbGl0eSBSZWdpc3RyeSBTZXJ2aWNlIENvbGxlY3Rpb248L3RpdGxl
+				Pg0KICAgICAgICAgICAgPG90aGNpdD4wZmQyNzEyYi02MmQwLTRhYWYtYWIyMC0yY2JmZThjMjZi
+				MzA8L290aGNpdD4NCiAgICAgICAgICAgIDxvbmxpbms+aHR0cHM6Ly9lZGctaW50cmFuZXQuZXBh
+				Lmdvdi9tZXRhZGF0YS9jYXRhbG9nL3NlYXJjaC9yZXNvdXJjZS9kZXRhaWxzLnBhZ2U/dXVpZD17
+				MGZkMjcxMmItNjJkMC00YWFmLWFiMjAtMmNiZmU4YzI2YjMwfTwvb25saW5rPg0KICAgICAgICAg
+				IDwvY2l0ZWluZm8+DQogICAgICAgIDwvbHdvcmtjaXQ+DQogICAgICAgIDxvbmxpbms+aHR0cHM6
+				Ly9lZGctaW50cmFuZXQuZXBhLmdvdi9kYXRhL1Jlc3RyaWN0ZWQvL09FSS9PSUMvRlJTX0lOVEVS
+				RVNUU19JTlRSQV9kb3dubG9hZC56aXA8L29ubGluaz4NCiAgICAgICAgPG9ubGluaz5odHRwczov
+				L2lnZW8uZXBhLmdvdi9hcmNnaXMvcmVzdC9zZXJ2aWNlcy9PRUkvRlJTX0VTRjMvTWFwU2VydmVy
+				PC9vbmxpbms+DQogICAgICAgIDxvbmxpbms+aHR0cHM6Ly9vcmF0b3IuZXBhLmdvdi9hcmNnaXMv
+				cmVzdC9zZXJ2aWNlcy9PRUkvRlJTX0VTRjMvTWFwU2VydmVyPC9vbmxpbms+DQogICAgICA8L2Np
+				dGVpbmZvPg0KICAgIDwvY2l0YXRpb24+DQogICAgPGRlc2NyaXB0Pg0KICAgICAgPGFic3RyYWN0
+				Pg0KVGhpcyB3ZWIgZmVhdHVyZSBzZXJ2aWNlIGNvbnRhaW5zIGxvY2F0aW9uIGFuZCBmYWNpbGl0
+				eSBpZGVudGlmaWNhdGlvbiBpbmZvcm1hdGlvbiBmcm9tIEVQQSdzIEZhY2lsaXR5IFJlZ2lzdHJ5
+				IFN5c3RlbSAoRlJTKSBmb3IgdGhlIHN1YnNldCBvZiBXYXN0ZSBXYXRlciBUcmVhdG1lbnQgUGxh
+				bnQgZmFjaWxpdGllcyB0aGF0IGxpbmsgdG8gdGhlIE5hdGlvbmFsIFBvbGx1dGFudCBEaXNjaGFy
+				Z2UgRWxpbWluYXRpb24gU3lzdGVtIChOUERFUykgbW9kdWxlIG9mIHRoZSBJbnRlZ3JhdGVkIENv
+				bXBsaWFuY2UgSW5mb3JtYXRpb24gU3lzdGVtIChJQ0lTKS4gSUNJUyB0cmFja3MgTlBERVMgc3Vy
+				ZmFjZSB3YXRlciBwZXJtaXRzIGlzc3VlZCB1bmRlciB0aGUgQ2xlYW4gV2F0ZXIgQWN0LiBVbmRl
+				ciBOUERFUywgYWxsIGZhY2lsaXRpZXMgdGhhdCBkaXNjaGFyZ2UgcG9sbHV0YW50cyBmcm9tIGFu
+				eSBwb2ludCBzb3VyY2UgaW50byB3YXRlcnMgb2YgdGhlIFVuaXRlZCBTdGF0ZXMgYXJlIHJlcXVp
+				cmVkIHRvIG9idGFpbiBhIHBlcm1pdC4gVGhlIHBlcm1pdCB3aWxsIGxpa2VseSBjb250YWluIGxp
+				bWl0cyBvbiB3aGF0IGNhbiBiZSBkaXNjaGFyZ2VkLCBpbXBvc2UgbW9uaXRvcmluZyBhbmQgcmVw
+				b3J0aW5nIHJlcXVpcmVtZW50cywgYW5kIGluY2x1ZGUgb3RoZXIgcHJvdmlzaW9ucyB0byBlbnN1
+				cmUgdGhhdCB0aGUgZGlzY2hhcmdlIGRvZXMgbm90IGFkdmVyc2VseSBhZmZlY3Qgd2F0ZXIgcXVh
+				bGl0eS4gRlJTIGlkZW50aWZpZXMgYW5kIGdlb3NwYXRpYWxseSBsb2NhdGVzIGZhY2lsaXRpZXMs
+				IHNpdGVzIG9yIHBsYWNlcyBzdWJqZWN0IHRvIGVudmlyb25tZW50YWwgcmVndWxhdGlvbnMgb3Ig
+				b2YgZW52aXJvbm1lbnRhbCBpbnRlcmVzdC4gVXNpbmcgdmlnb3JvdXMgdmVyaWZpY2F0aW9uIGFu
+				ZCBkYXRhIG1hbmFnZW1lbnQgcHJvY2VkdXJlcywgRlJTIGludGVncmF0ZXMgZmFjaWxpdHkgZGF0
+				YSBmcm9tIEVQQSdzIG5hdGlvbmFsIHByb2dyYW0gc3lzdGVtcywgb3RoZXIgZmVkZXJhbCBhZ2Vu
+				Y2llcywgYW5kIFN0YXRlIGFuZCB0cmliYWwgbWFzdGVyIGZhY2lsaXR5IHJlY29yZHMgYW5kIHBy
+				b3ZpZGVzIEVQQSB3aXRoIGEgY2VudHJhbGx5IG1hbmFnZWQsIHNpbmdsZSBzb3VyY2Ugb2YgY29t
+				cHJlaGVuc2l2ZSBhbmQgYXV0aG9yaXRhdGl2ZSBpbmZvcm1hdGlvbiBvbiBmYWNpbGl0aWVzLiBU
+				aGlzIGRhdGEgc2V0IGNvbnRhaW5zIHRoZSBzdWJzZXQgb2YgRlJTIGludGVncmF0ZWQgZmFjaWxp
+				dGllcyB0aGF0IGxpbmsgdG8gTlBERVMgZmFjaWxpdGllcyBvbmNlIHRoZSBJQ0lTLU5QREVTIGRh
+				dGEgaGFzIGJlZW4gaW50ZWdyYXRlZCBpbnRvIHRoZSBGUlMgZGF0YWJhc2UuIEFkZGl0aW9uYWwg
+				aW5mb3JtYXRpb24gb24gRlJTIGlzIGF2YWlsYWJsZSBhdCB0aGUgRVBBIHdlYnNpdGUgaHR0cHM6
+				Ly93d3cuZXBhLmdvdi9lbnZpcm8vZmFjaWxpdHktcmVnaXN0cnktc2VydmljZS1mcnMuDQoJCQk8
+				L2Fic3RyYWN0Pg0KICAgICAgPHB1cnBvc2U+VGhlIHB1cnBvc2Ugb2YgdGhpcyB3ZWIgZmVhdHVy
+				ZSBzZXJ2aWNlIGlzIHRvIHByb3ZpZGUgdXNlcnMgd2l0aCBhY2Nlc3MgdG8gaW50ZWdyYXRlZCBm
+				YWNpbGl0eSBpbmZvcm1hdGlvbiBmcm9tIEZSUywgbGltaXRlZCB0byB0aGUgc3Vic2V0IG9mIGZh
+				Y2lsaXRpZXMgdGhhdCBsaW5rIHRvIHRoZSBOUERFUyBkYXRhYmFzZS4gVGhpcyBzdWJzZXQgb2Yg
+				ZGF0YSB3YXMgaWRlbnRpZmllZCBhcyBpbmZvcm1hdGlvbiB0aGF0IGNhbiBiZSB1c2VkIGluIHRo
+				ZSBQdWJsaWMgV29ya3MgYW5kIEVuZ2luZWVyaW5nIEVtZXJnZW5jeSBTdXBwb3J0IEZ1bmN0aW9u
+				ICMzLiBBZGRpdGlvbmFsIGNvbnRhY3QsIHN0YXRlIGlkcywgTkFJQ3MsIGFuZCBTSUMgYXR0cmli
+				dXRlcyBhcmUgbGlua2VkIGJ5IHJlZ2lzdHJ5IGlkLiBJdCBjb250YWlucyBvbmx5IGFjdGl2ZSBm
+				YWNpbGl0aWVzLjwvcHVycG9zZT4NCiAgICAgIDxzdXBwbGluZj5UaGlzIGlzIGFuIEVQQS1Qcm9k
+				dWNlZCBEYXRhIFNldC4gIFRoaXMgZGF0YSBzZXQgaXMgb25lIGluIGEgc2VyaWVzIG9mIEltYWdl
+				IGFuZCBGZWF0dXJlIFNlcnZpY2VzIHB1Ymxpc2hlZCBieSBVU0VQQS4gIEFkZGl0aW9uYWwgc2Vy
+				dmljZXMgY2FuIGJlIGZvdW5kIGF0IGh0dHBzOi8vZWRnLmVwYS5nb3YvPC9zdXBwbGluZj4NCiAg
+				ICA8L2Rlc2NyaXB0Pg0KICAgIDx0aW1lcGVyZD4NCiAgICAgIDxjdXJyZW50PlB1YmxpY2F0aW9u
+				IGRhdGU8L2N1cnJlbnQ+DQogICAgICA8dGltZWluZm8+DQogICAgICAgIDxzbmdkYXRlPg0KICAg
+				ICAgICAgIDxjYWxkYXRlPjIwMjAxMjEyPC9jYWxkYXRlPg0KICAgICAgICA8L3NuZ2RhdGU+DQog
+				ICAgICA8L3RpbWVpbmZvPg0KICAgIDwvdGltZXBlcmQ+DQogICAgPHN0YXR1cz4NCiAgICAgIDxw
+				cm9ncmVzcz5Db21wbGV0ZTwvcHJvZ3Jlc3M+DQogICAgICA8dXBkYXRlPkFzIG5lZWRlZDwvdXBk
+				YXRlPg0KICAgIDwvc3RhdHVzPg0KICAgIDxzcGRvbT4NCiAgICAgIDxib3VuZGluZz4NCiAgICAg
+				ICAgPHdlc3RiYz4NCi0xNzAuNjg1NTAwPC93ZXN0YmM+DQogICAgICAgIDxlYXN0YmM+DQoxNDQu
+				NzgzMDAwPC9lYXN0YmM+DQogICAgICAgIDxub3J0aGJjPg0KNjQuOTk3MjIyPC9ub3J0aGJjPg0K
+				ICAgICAgICA8c291dGhiYz4NCi0xNC4yNzM4MDA8L3NvdXRoYmM+DQogICAgICA8L2JvdW5kaW5n
+				Pg0KICAgIDwvc3Bkb20+DQogICAgPGtleXdvcmRzPg0KICAgICAgPHRoZW1lPg0KICAgICAgICA8
+				dGhlbWVrdD5JU08gMTkxMTUgVG9waWMgQ2F0ZWdvcnk8L3RoZW1la3Q+DQogICAgICAgIDx0aGVt
+				ZWtleT5lbnZpcm9ubWVudDwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5sb2NhdGlvbjwv
+				dGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5zdHJ1Y3R1cmU8L3RoZW1la2V5Pg0KICAgICAg
+				PC90aGVtZT4NCiAgICAgIDx0aGVtZT4NCiAgICAgICAgPHRoZW1la3Q+RVBBIEdJUyBLZXl3b3Jk
+				IFRoZXNhdXJ1czwvdGhlbWVrdD4NCiAgICAgICAgPHRoZW1la2V5PkNsZWFudXA8L3RoZW1la2V5
+				Pg0KICAgICAgICA8dGhlbWVrZXk+Q29tcGxpYW5jZTwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVt
+				ZWtleT5Db250YW1pbmFudDwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5GYWNpbGl0aWVz
+				PC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PlJlZ3VsYXRvcnk8L3RoZW1la2V5Pg0KICAg
+				ICAgICA8dGhlbWVrZXk+UmVtZWRpYXRpb248L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+
+				U2l0ZXM8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+VG94aWNzPC90aGVtZWtleT4NCiAg
+				ICAgICAgPHRoZW1la2V5Pldhc3RlPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PlJlc291
+				cmNlczwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5FbWVyZ2VuY3kgUmVzcG9uc2U8L3Ro
+				ZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+RW52aXJvbm1lbnRhbCBNYW5hZ2VtZW50PC90aGVt
+				ZWtleT4NCiAgICAgIDwvdGhlbWU+DQogICAgICA8cGxhY2U+DQogICAgICAgIDxwbGFjZWt0Pm5v
+				bmU8L3BsYWNla3Q+DQogICAgICAgIDxwbGFjZWtleT5Vbml0ZWQgU3RhdGVzIChVUykgKFVTQSk8
+				L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+Y29udGVybWlub3VzIFVuaXRlZCBTdGF0ZXMg
+				KENPTlVTKTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtleT5BbGFza2E8L3BsYWNla2V5Pg0K
+				ICAgICAgICA8cGxhY2VrZXk+SGF3YWlpPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PkRp
+				c3RyaWN0IG9mIENvbHVtYmlhPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5Pldhc2hpbmd0
+				b24gREM8L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+QW1lcmljYW4gU2Ftb2E8L3BsYWNl
+				a2V5Pg0KICAgICAgICA8cGxhY2VrZXk+UHVlcnRvIFJpY288L3BsYWNla2V5Pg0KICAgICAgICA8
+				cGxhY2VrZXk+VmlyZ2luIElzbGFuZHM8L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+QWxh
+				YmFtYTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtleT5Bcml6b25hPC9wbGFjZWtleT4NCiAg
+				ICAgICAgPHBsYWNla2V5PkFya2Fuc2FzPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PkNh
+				bGlmb3JuaWE8L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+Q29sb3JhZG88L3BsYWNla2V5
+				Pg0KICAgICAgICA8cGxhY2VrZXk+Q29ubmVjdGljdXQ8L3BsYWNla2V5Pg0KICAgICAgICA8cGxh
+				Y2VrZXk+RGVsYXdhcmU8L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+RmxvcmlkYTwvcGxh
+				Y2VrZXk+DQogICAgICAgIDxwbGFjZWtleT5HZW9yZ2lhPC9wbGFjZWtleT4NCiAgICAgICAgPHBs
+				YWNla2V5PklkYWhvPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PklsbGlub2lzPC9wbGFj
+				ZWtleT4NCiAgICAgICAgPHBsYWNla2V5PkluZGlhbmE8L3BsYWNla2V5Pg0KICAgICAgICA8cGxh
+				Y2VrZXk+SW93YTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtleT5LYW5zYXM8L3BsYWNla2V5
+				Pg0KICAgICAgICA8cGxhY2VrZXk+S2VudHVja3k8L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2Vr
+				ZXk+TG91aXNpYW5hPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5Pk1haW5lPC9wbGFjZWtl
+				eT4NCiAgICAgICAgPHBsYWNla2V5Pk1hcnlsYW5kPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNl
+				a2V5Pk1hc3NhY2h1c2V0dHM8L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+TWljaGlnYW48
+				L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+TWlubmVzb3RhPC9wbGFjZWtleT4NCiAgICAg
+				ICAgPHBsYWNla2V5Pk1pc3Npc3NpcHBpPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5Pk1p
+				c3NvdXJpPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5Pk1vbnRhbmE8L3BsYWNla2V5Pg0K
+				ICAgICAgICA8cGxhY2VrZXk+TmVicmFza2E8L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+
+				TmV2YWRhPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5Pk5ldyBIYW1wc2hpcmU8L3BsYWNl
+				a2V5Pg0KICAgICAgICA8cGxhY2VrZXk+TmV3IEplcnNleTwvcGxhY2VrZXk+DQogICAgICAgIDxw
+				bGFjZWtleT5OZXcgTWV4aWNvPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5Pk5ldyBZb3Jr
+				PC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5Pk5vcnRoIENhcm9saW5hPC9wbGFjZWtleT4N
+				CiAgICAgICAgPHBsYWNla2V5Pk5vcnRoIERha290YTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFj
+				ZWtleT5PaGlvPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5Pk9rbGFob21hPC9wbGFjZWtl
+				eT4NCiAgICAgICAgPHBsYWNla2V5Pk9yZWdvbjwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtl
+				eT5QZW5uc3lsdmFuaWE8L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+UmhvZGUgSXNsYW5k
+				PC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PlNvdXRoIENhcm9saW5hPC9wbGFjZWtleT4N
+				CiAgICAgICAgPHBsYWNla2V5PlNvdXRoIERha290YTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFj
+				ZWtleT5UZW5uZXNzZWU8L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+VGV4YXM8L3BsYWNl
+				a2V5Pg0KICAgICAgICA8cGxhY2VrZXk+VXRhaDwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtl
+				eT5WZXJtb250PC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PlZpcmdpbmlhPC9wbGFjZWtl
+				eT4NCiAgICAgICAgPHBsYWNla2V5Pldhc2hpbmd0b248L3BsYWNla2V5Pg0KICAgICAgICA8cGxh
+				Y2VrZXk+V2VzdCBWaXJnaW5pYTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtleT5XaXNjb25z
+				aW48L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+V3lvbWluZzwvcGxhY2VrZXk+DQogICAg
+				ICA8L3BsYWNlPg0KICAgICAgPHRoZW1lPg0KICAgICAgICA8dGhlbWVrdD5Vc2VyPC90aGVtZWt0
+				Pg0KICAgICAgICA8dGhlbWVrZXk+RVNGMzwvdGhlbWVrZXk+DQogICAgICA8L3RoZW1lPg0KICAg
+				ICAgPHBsYWNlPg0KICAgICAgICA8cGxhY2VrdD5Ob25lPC9wbGFjZWt0Pg0KICAgICAgPC9wbGFj
+				ZT4NCiAgICA8L2tleXdvcmRzPg0KICAgIDxhY2Njb25zdD5UaGVzZSBEYXRhIEFyZSBSZXN0cmlj
+				dGVkIHRvIEludGVybmFsIEVQQSBQZXJzb25uZWwgT25seTwvYWNjY29uc3Q+DQogICAgPHVzZWNv
+				bnN0PlRoZXNlIGRhdGEgc2hvdWxkIG5vdCBiZSBkaXN0cmlidXRlZC4gIFBsZWFzZSBjaGVjayBz
+				b3VyY2VzLCBzY2FsZSwgYWNjdXJhY3ksIGN1cnJlbmN5IGFuZCBvdGhlciBhdmFpbGFibGUgaW5m
+				b3JtYXRpb24uIFBsZWFzZSBjb25maXJtIHRoYXQgeW91IGFyZSB1c2luZyB0aGUgbW9zdCByZWNl
+				bnQgY29weSBvZiBib3RoIGRhdGEgYW5kIG1ldGFkYXRhLiAgQWNrbm93bGVkZ2VtZW50IG9mIHRo
+				ZSBFUEEgd291bGQgYmUgYXBwcmVjaWF0ZWQuPC91c2Vjb25zdD4NCiAgICA8bmF0aXZlPk1pY3Jv
+				c29mdCBXaW5kb3dzIFhQIFZlcnNpb24gNS4xIChCdWlsZCAyNjAwKSBTZXJ2aWNlIFBhY2sgMzsg
+				RVNSSSBBcmNDYXRhbG9nIDkuMy4xLjMwMDA8L25hdGl2ZT4NCiAgICA8c2VjaW5mbz4NCiAgICAg
+				IDxzZWNzeXM+aHR0cDovL3Byb2plY3Qtb3Blbi1kYXRhLmdpdGh1Yi5pby9zY2hlbWEvI2FjY2Vz
+				c0xldmVsPC9zZWNzeXM+DQogICAgICA8c2VjY2xhc3M+bm9uLXB1YmxpYzwvc2VjY2xhc3M+DQog
+				ICAgICA8c2VjaGFuZGw+U3RhbmRhcmQgVGVjaG5pY2FsIENvbnRyb2xzPC9zZWNoYW5kbD4NCiAg
+				ICA8L3NlY2luZm8+DQogICAgPHB0Y29udGFjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxj
+				bnRvcmdwPg0KICAgICAgICAgIDxjbnRvcmc+VS5TLiBFbnZpcm9ubWVudGFsIFByb3RlY3Rpb24g
+				QWdlbmN5LCBIZWFkcXVhcnRlcnM8L2NudG9yZz4NCiAgICAgICAgICA8Y250cGVyPkRhdmlkIFNt
+				aXRoPC9jbnRwZXI+DQogICAgICAgIDwvY250b3JncD4NCiAgICAgICAgPGNudHBvcz5GUlMgUHJv
+				amVjdCBNYW5hZ2VyPC9jbnRwb3M+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRy
+				dHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAgICA8
+				YWRkcmVzcz4xMjAwIFBlbm5zeWx2YW5pYSBBdmUsIE5XPC9hZGRyZXNzPg0KICAgICAgICAgIDxj
+				aXR5Pldhc2hpbmd0b248L2NpdHk+DQogICAgICAgICAgPHN0YXRlPkRDPC9zdGF0ZT4NCiAgICAg
+				ICAgICA8cG9zdGFsPjIwNDYwPC9wb3N0YWw+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAg
+				PGNudHZvaWNlPigyMDIpIDU2Ni0wNzk3PC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGVtYWlsPnNt
+				aXRoLmRhdmlkZ0BlcGEuZ292PC9jbnRlbWFpbD4NCiAgICAgICAgPGNudGluc3Q+aHR0cHM6Ly93
+				d3czLmVwYS5nb3YvPC9jbnRpbnN0Pg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvcHRjb250YWM+
+				DQogIDwvaWRpbmZvPg0KICA8ZGF0YXF1YWw+DQogICAgPGxvZ2ljPkxvY2F0aW9ucyBhcmUgdGVz
+				dGVkIGFuZCByZXBvcnRlZCBpbmRpdmlkdWFsbHk8L2xvZ2ljPg0KICAgIDxjb21wbGV0ZT5Db21w
+				bGV0ZW5lc3Mgb2YgdGhlIGRhdGEgc2V0IHZhcmllcyBmb3IgaW5kaXZpZHVhbCBmZWF0dXJlcy48
+				L2NvbXBsZXRlPg0KICAgIDxwb3NhY2M+DQogICAgICA8aG9yaXpwYT4NCiAgICAgICAgPGhvcml6
+				cGFyPkZSUyB1c2VzIGEgYmVzdC1waWNrIGFsZ29yaXRobSB0byBwcm92aWRlIGhvcml6b250YWwg
+				cG9zaXRpb25hbCBpbmZvcm1hdGlvbi4gIFRoaXMgYXNzaWducyB0aGUgbGF0aXR1ZGUgYW5kIGxv
+				bmdpdHVkZSB3aXRoIHRoZSBiZXN0IGFjY3VyYWN5IHZhbHVlIHRvIGVhY2ggZmFjaWxpdHkuICBC
+				ZWNhdXNlIGluZm9ybWF0aW9uIGluIEZSUyBpcyBjb2xsZWN0ZWQgYWNyb3NzIG51bWVyb3VzIHN0
+				YXRlcyBhbmQgcHJvZ3JhbXMsIHBvc2l0aW9uYWwgYWNjdXJhY3kgZm9yIHRoZSBkYXRhIHNldCB2
+				YXJpZXMgZm9yIGVhY2ggaW5kaXZpZHVhbCBmZWF0dXJlIGFuZCBpcyBzdG9yZWQgb24gYSByZWNv
+				cmQtbGV2ZWwgYmFzaXMuIE92ZXJhbGwgaG9yaXpvbnRhbCBwb3NpdGlvbmFsIGFjY3VyYWN5IGZv
+				ciB0aGUgZW50aXJlIGRhdGEgc2V0IGZsdWN0dWF0ZXMgYXMgbmV3IGluZm9ybWF0aW9uIGlzIHJl
+				Y2VpdmVkIGFuZCBpcyBub3QgZXN0aW1hdGVkIGZvciB0aGUgZW50aXJlIGRhdGEgc2V0IHdpdGhp
+				biB0aGlzIHJlY29yZC4gRm9yIG1vcmUgaW5mb3JtYXRpb24gb24gYWNjdXJhY3kgb2YgRlJTIGxv
+				Y2F0aW9ucywgdmlzaXQgaHR0cHM6Ly93d3cuZXBhLmdvdi9lbnZpcm8vZmFjaWxpdHktcmVnaXN0
+				cnktc2VydmljZS1mcnMuPC9ob3JpenBhcj4NCiAgICAgIDwvaG9yaXpwYT4NCiAgICA8L3Bvc2Fj
+				Yz4NCiAgICA8bGluZWFnZT4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAgICAgPHByb2NkZXNjPkNy
+				ZWF0ZWQgYSB2aWV3IGluIEZSUyBkYXRhYmFzZSB0aGF0IGNvbnRhaW5zIEZSUyBmYWNpaXRpZXMg
+				aW4gdGhlIEVtZXJnZW5jeSBTdXBwb3J0IEZ1bmN0aW9ucyAzIGFuZCAxMCB1bml2ZXJzZSB0byBp
+				bmNsdWRlIEZSUCwgVFJJLCBDRVJDTElTLCBUU0NBLCBSQ1JBIFRTRCwgV1dUUCAtIE5QREVTLCBS
+				TVAsIGFuZCBXVFAgZmFjaWxpdGllcyBvciBpbnRlcmVzdHMuIEV4cG9ydGVkIHRoaXMgcXVlcnkg
+				b3V0IHRvIGEgZmlsZSBnZW9kYXRhYmFzZSBzcGF0aWFsIHRhYmxlIHVzaW5nIEZNRS4gPC9wcm9j
+				ZGVzYz4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgPC9saW5lYWdlPg0KICA8L2RhdGFxdWFsPg0K
+				ICA8c3Bkb2luZm8+DQogICAgPGRpcmVjdD5WZWN0b3I8L2RpcmVjdD4NCiAgICA8cHR2Y3RpbmY+
+				DQogICAgICA8c2R0c3Rlcm0+DQogICAgICAgIDxzZHRzdHlwZT5FbnRpdHkgcG9pbnQ8L3NkdHN0
+				eXBlPg0KICAgICAgICA8cHR2Y3RjbnQ+MTc2MzY8L3B0dmN0Y250Pg0KICAgICAgPC9zZHRzdGVy
+				bT4NCiAgICA8L3B0dmN0aW5mPg0KICA8L3NwZG9pbmZvPg0KICA8c3ByZWY+DQogICAgPHZlcnRk
+				ZWY+DQogICAgICA8YWx0c3lzPg0KICAgICAgICA8YWx0cmVzPjEuMDAwMDAwPC9hbHRyZXM+DQog
+				ICAgICAgIDxhbHRlbmM+RXhwbGljaXQgZWxldmF0aW9uIGNvb3JkaW5hdGUgaW5jbHVkZWQgd2l0
+				aCBob3Jpem9udGFsIGNvb3JkaW5hdGVzPC9hbHRlbmM+DQogICAgICA8L2FsdHN5cz4NCiAgICA8
+				L3ZlcnRkZWY+DQogICAgPGhvcml6c3lzPg0KICAgICAgPGdlb2dyYXBoPg0KICAgICAgICA8bGF0
+				cmVzPjAuMDAwMDAxPC9sYXRyZXM+DQogICAgICAgIDxsb25ncmVzPjAuMDAwMDAxPC9sb25ncmVz
+				Pg0KICAgICAgICA8Z2VvZ3VuaXQ+RGVjaW1hbCBkZWdyZWVzPC9nZW9ndW5pdD4NCiAgICAgIDwv
+				Z2VvZ3JhcGg+DQogICAgICA8Z2VvZGV0aWM+DQogICAgICAgIDxob3JpemRuPk5vcnRoIEFtZXJp
+				Y2FuIERhdHVtIG9mIDE5ODM8L2hvcml6ZG4+DQogICAgICAgIDxlbGxpcHM+R2VvZGV0aWMgUmVm
+				ZXJlbmNlIFN5c3RlbSAxOTgwPC9lbGxpcHM+DQogICAgICAgIDxzZW1pYXhpcz42Mzc4MTM3LjAw
+				MDAwMDwvc2VtaWF4aXM+DQogICAgICAgIDxkZW5mbGF0PjI5OC4yNTcyMjI8L2RlbmZsYXQ+DQog
+				ICAgICA8L2dlb2RldGljPg0KICAgIDwvaG9yaXpzeXM+DQogIDwvc3ByZWY+DQogIDxlYWluZm8+
+				DQogICAgPGRldGFpbGVkPg0KICAgICAgPGVudHR5cD4NCiAgICAgICAgPGVudHR5cGw+RVJfV1dU
+				UF9OUERFUzwvZW50dHlwbD4NCiAgICAgICAgPGVudHR5cGQ+QXR0cmlidXRlIHRhYmxlIGRlc2Ny
+				aWJlcyBwb2ludCBmZWF0dXJlczwvZW50dHlwZD4NCiAgICAgICAgPGVudHR5cGRzPkZSUzwvZW50
+				dHlwZHM+DQogICAgICA8L2VudHR5cD4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+
+				T0JKRUNUSUQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5VbmlxdWUgTnVtYmVyIEFzc2ln
+				bmVkIGJ5IEVTUkk8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5FUEEgRlJTIERhdGEgRGlj
+				dGlvbmFyeTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5V
+				bmtub3duPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAg
+				PGF0dHI+DQogICAgICAgIDxhdHRybGFibD5WRVJTSU9OX05NQlI8L2F0dHJsYWJsPg0KICAgICAg
+				ICA8YXR0cmRlZj5UaGUgdmVyc2lvbiBvZiB0aGUgcGVybWl0IHdoZW4gYSBtb2RpZmljYXRpb24g
+				b3IgcmVpc3N1YW5jZSBpcyBhcHBsaWVkIHRvIHRoZSBwZXJtaXQuPC9hdHRyZGVmPg0KICAgICAg
+				ICA8YXR0cmRlZnM+RU5WSVJPRkFDVFM8L2F0dHJkZWZzPg0KICAgICAgPC9hdHRyPg0KICAgICAg
+				PGF0dHI+DQogICAgICAgIDxhdHRybGFibD5QRVJNSVRfVFlQRV9DT0RFPC9hdHRybGFibD4NCiAg
+				ICAgICAgPGF0dHJkZWY+VGhlIGNvZGUgZGVzY3JpYmluZyB0aGUgdHlwZSBvZiBwZXJtaXQuPC9h
+				dHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RU5WSVJPRkFDVFM8L2F0dHJkZWZzPg0KICAgICAg
+				PC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5GQUNJTElUWV9UWVBFX0lO
+				RElDQVRPUjwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlRoaXMgYWxsb3dzIHJldHJpZXZh
+				bCBvbiBhIHNpbmdsZSBmaWVsZCB0byBkZXRlcm1pbmUgaWYgdGhlIGZhY2lsaXR5IGlzIGEgUE9U
+				VyAsIE5vbi1QT1RXLCBvciBGZWRlcmFsIGZhY2lsaXR5LjwvYXR0cmRlZj4NCiAgICAgICAgPGF0
+				dHJkZWZzPkVOVklST0ZBQ1RTPC9hdHRyZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRy
+				Pg0KICAgICAgICA8YXR0cmxhYmw+QUdFTkNZX1RZUEVfQ09ERTwvYXR0cmxhYmw+DQogICAgICAg
+				IDxhdHRyZGVmPlRoZSBjb2RlIG9mIHRoZSBnb3Zlcm5tZW50IGFnZW5jeTwvYXR0cmRlZj4NCiAg
+				ICAgICAgPGF0dHJkZWZzPkVOVklST0ZBQ1RTPC9hdHRyZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAg
+				ICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+TUFKT1JfTUlOT1JfU1RBVFVTX0ZMQUc8L2F0
+				dHJsYWJsPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5U
+				T1RBTF9ERVNJR05fRkxPV19OTUJSPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+VGhpcyBp
+				cyB0aGUgZmxvdyB0aGF0IGEgcGVybWl0dGVkIGZhY2lsaXR5IHdhcyBkZXNpZ25lZCB0byBhY2Nv
+				bW1vZGF0ZS48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5FTlZJUk9GQUNUUzwvYXR0cmRl
+				ZnM+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkFDVFVB
+				TF9BVkVSQUdFX0ZMT1dfTk1CUjwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlRoZSBmbG93
+				IHRoYXQgYSBwZXJtaXR0ZWQgZmFjaWxpdHkgYWN0dWFsbHkgaGFkIGF0IHRoZSB0aW1lIG9mIGFw
+				cGxpY2F0aW9uLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVOVklST0ZBQ1RTPC9hdHRy
+				ZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+U1RB
+				VEVfV0FURVJfQk9EWTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlRoZSBhdHRyaWJ1dGUg
+				dG8gc3RvcmUgdGhlIHN0YXRlP3MgY29kZSB0byBpZGVudGlmeSB0aGUgd2F0ZXIgYm9keSBpbnRv
+				IHdoaWNoIHRoZSBQZXJtaXQgZGlzY2hhcmdlcy48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVm
+				cz5FTlZJUk9GQUNUUzwvYXR0cmRlZnM+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAg
+				ICAgICAgPGF0dHJsYWJsPlNUQVRFX1dBVEVSX0JPRFlfTkFNRTwvYXR0cmxhYmw+DQogICAgICAg
+				IDxhdHRyZGVmPlRoZSBhdHRyaWJ1dGUgdG8gc3RvcmUgdGhlIHN0YXRlP3MgbmFtZSBmb3IgdGhl
+				IHdhdGVyIGJvZHkgaW50byB3aGljaCB0aGUgUGVybWl0IGRpc2NoYXJnZXMuPC9hdHRyZGVmPg0K
+				ICAgICAgICA8YXR0cmRlZnM+RU5WSVJPRkFDVFM8L2F0dHJkZWZzPg0KICAgICAgPC9hdHRyPg0K
+				ICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5GQUNJTElUWV9UWVBFX0NPREU8L2F0dHJs
+				YWJsPg0KICAgICAgICA8YXR0cmRlZj5UaGUgY29kZSBmb3IgdGhlIGZhY2lsaXR5IHR5cGUuPC9h
+				dHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RU5WSVJPRkFDVFM8L2F0dHJkZWZzPg0KICAgICAg
+				PC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5GQUNJTElUWV9UWVBFX0RF
+				U0M8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5UaGUgdGV4dCBmb3IgdGhlIGZhY2lsaXR5
+				IHR5cGUgYXMgaWRlbnRpZmllZCBieSB0aGUgZmFjaWxpdHkgY29kZS48L2F0dHJkZWY+DQogICAg
+				ICAgIDxhdHRyZGVmcz5FTlZJUk9GQUNUUzwvYXR0cmRlZnM+DQogICAgICA8L2F0dHI+DQogICAg
+				ICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlBFUk1JVF9OQU1FPC9hdHRybGFibD4NCiAgICAg
+				ICAgPGF0dHJkZWY+VGhpcyBpcyB0aGUgbmFtZSBvZiB0aGUgTWFzdGVyIEdlbmVyYWwgUGVybWl0
+				PC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RU5WSVJPRkFDVFM8L2F0dHJkZWZzPg0KICAg
+				ICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5QRVJNSVRfU1RBVFVT
+				X0NPREU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5UaGlzIGlzIHRoZSBjb2RlIHRoYXQg
+				ZGVzY3JpYmVzIHdoZXRoZXIgdGhlIHBlcm1pdCBpcyBFZmZlY3RpdmUsIEV4cGlyZWQsIEFkbWlu
+				aXN0cmF0aXZlbHkgQ29udGludWVkLCBQZW5kaW5nLCBOb3QgTmVlZGVkLCBSZXRpcmVkLCBvciBU
+				ZXJtaW5hdGVkLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVOVklST0ZBQ1RTPC9hdHRy
+				ZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+QUNU
+				SVZFX1NUQVRVUzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkEgWS9OIGNvZGUgdGhhdCBp
+				bmRpY2F0ZXMgd2hldGhlciB0aGUgZW52aXJvbm1lbnRhbCBpbnRlcmVzdCBpcyBhY3RpdmUgYXQg
+				dGhlIGZhY2lsaXR5IG9yIHNpdGUuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVBBIEZS
+				UyBEYXRhIERpY3Rpb25hcnk8L2F0dHJkZWZzPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+
+				DQogICAgICAgIDxhdHRybGFibD5IVUM4X0NPREU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRl
+				Zj5UaGUgOCBkaWdpdCBoeWRyb2xvZ2ljIHVuaXQgY29kZSAoSFVDKSB0aGF0IHJlcHJlc2VudHMg
+				YSBnZW9ncmFwaGljIGFyZWEgcmVwcmVzZW50aW5nIHBhcnQgb3IgYWxsIG9mIGEgc3VyZmFjZSBk
+				cmFpbmFnZSBiYXNpbiwgYSBjb21iaW5hdGlvbiBvZiBkcmFpbmFnZSBiYXNpbnMsIG9yIGEgZGlz
+				dGluY3QgaHlkcm9sb2dpYyBmZWF0dXJlLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlVu
+				aXRlZCBTdGF0ZXMgR2VvbG9naWNhbCBTdXJ2ZXkgaGllcmFyY2hpY2FsIHN5c3RlbSBvZiBoeWRy
+				b2xvZ2ljIHVuaXRzPC9hdHRyZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAg
+				ICAgICA8YXR0cmxhYmw+RkFDX1VSTDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlRoZSBV
+				bmlmb3JtIFJlc291cmNlIExvY2F0b3IgKFVSTCkgYWRkcmVzcyBvZiB0aGUgRW52aXJvbm1lbnRh
+				bCBJbnRlcmVzdCBQcm9maWxlIGZvciB0aGlzIGZhY2lsaXR5LiBUaGUgcHJvZmlsZSBsaXN0cyB0
+				aGUgZW52aXJvbm1lbnRhbCBpbnRlcmVzdHMgZm9yIHRoZSBmYWNpbGl0eSBhbG9uZyB3aXRoIGxp
+				bmtzIHRvIHRoZSBpbnRlcmVzdCByZXBvcnRzICh3aGVyZSBhdmFpbGFibGUpLCBpbmNsdWRpbmcg
+				YSBsaW5rIHRvIHRoZSBGUlMgRmFjaWxpdHkgRGV0YWlsIFJlcG9ydC48L2F0dHJkZWY+DQogICAg
+				ICAgIDxhdHRyZGVmcz5GUlMgRGV2ZWxvcG1lbnQgVGVhbTwvYXR0cmRlZnM+DQogICAgICA8L2F0
+				dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkdFT19MT0NfUkVGX0lEPC9hdHRy
+				bGFibD4NCiAgICAgICAgPGF0dHJkZWY+QSBzZXF1ZW50aWFsIHJlZmVyZW5jZSBudW1iZXIgYXNz
+				aWduZWQgdG8gYSBsYXRpdHVkZSBhbmQgbG9uZ2l0dWRlIGNvb3JkaW5hdGUgcGFpci48L2F0dHJk
+				ZWY+DQogICAgICAgIDxhdHRyZGVmcz5GUlMgRGV2ZWxvcG1lbnQgVGVhbTwvYXR0cmRlZnM+DQog
+				ICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlJFR0lTVFJZX0lE
+				PC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+VGhlIGlkZW50aWZpY2F0aW9uIG51bWJlciBh
+				c3NpZ25lZCBieSB0aGUgRVBBIEZhY2lsaXR5IFJlZ2lzdHJ5IFNlcnZpY2UgdG8gdW5pcXVlbHkg
+				aWRlbnRpZnkgYSBmYWNpbGl0eSBzaXRlLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVQ
+				QSBGUlMgRGF0YSBEaWN0aW9uYXJ5PC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAg
+				ICAgICAgIDx1ZG9tPlVua25vd248L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8
+				L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlBSSU1BUllfTkFNRTwvYXR0
+				cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlRoZSBwdWJsaWMgb3IgY29tbWVyY2lhbCBuYW1lIG9m
+				IGEgZmFjaWxpdHkgc2l0ZSAoaS5lLiwgdGhlIGZ1bGwgbmFtZSB0aGF0IGNvbW1vbmx5IGFwcGVh
+				cnMgb24gaW52b2ljZXMsIHNpZ25zLCBvciBvdGhlciBidXNpbmVzcyBkb2N1bWVudHMsIG9yIGFz
+				IGFzc2lnbmVkIGJ5IHRoZSBzdGF0ZSB3aGVuIHRoZSBuYW1lIGlzIGFtYmlndW91cykuPC9hdHRy
+				ZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVBBIEZSUyBEYXRhIERpY3Rpb25hcnk8L2F0dHJkZWZz
+				Pg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+VW5rbm93bjwvdWRvbT4NCiAg
+				ICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+				YXR0cmxhYmw+TE9DQVRJT05fQUREUkVTUzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlRo
+				ZSBhZGRyZXNzIHRoYXQgZGVzY3JpYmVzIHRoZSBwaHlzaWNhbCAoZ2VvZ3JhcGhpYykgbG9jYXRp
+				b24gb2YgdGhlIGZyb250IGRvb3Igb3IgbWFpbiBlbnRyYW5jZSBvZiBhIGZhY2lsaXR5IHNpdGUs
+				IGluY2x1ZGluZyB1cmJhbi1zdHlsZSBzdHJlZXQgYWRkcmVzcyBvciBydXJhbCBhZGRyZXNzLjwv
+				YXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVQQSBGUlMgRGF0YSBEaWN0aW9uYXJ5PC9hdHRy
+				ZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlVua25vd248L3Vkb20+
+				DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAg
+				ICAgPGF0dHJsYWJsPkNJVFlfTkFNRTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlRoZSBu
+				YW1lIG9mIHRoZSBjaXR5LCB0b3duLCB2aWxsYWdlIG9yIG90aGVyIGxvY2FsaXR5LCB3aGVuIGlk
+				ZW50aWZpYWJsZSwgd2l0aGluIHdob3NlIGJvdW5kYXJpZXMgKHRoZSBtYWpvcml0eSBvZiApIHRo
+				ZSBmYWNpbGl0eSBzaXRlIGlzIGxvY2F0ZWQuIFRoaXMgaXMgbm90IGFsd2F5cyB0aGUgc2FtZSBh
+				cyB0aGUgY2l0eSB1c2VkIGZvciBVU1BTIG1haWwgZGVsaXZlcnkuPC9hdHRyZGVmPg0KICAgICAg
+				ICA8YXR0cmRlZnM+RVBBIEZSUyBEYXRhIERpY3Rpb25hcnk8L2F0dHJkZWZzPg0KICAgICAgICA8
+				YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+VW5rbm93bjwvdWRvbT4NCiAgICAgICAgPC9hdHRy
+				ZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+Q09V
+				TlRZX05BTUU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5UaGUgbmFtZSBvZiB0aGUgVS5T
+				LiBjb3VudHkgb3IgY291bnR5IGVxdWl2YWxlbnQgaW4gd2hpY2ggdGhlIGZhY2lsaXR5IHNpdGUg
+				aXMgcGh5c2ljYWxseSBsb2NhdGVkLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVQQSBG
+				UlMgRGF0YSBEaWN0aW9uYXJ5PC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAg
+				ICAgIDx1ZG9tPlVua25vd248L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0
+				dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkZJUFNfQ09ERTwvYXR0cmxhYmw+
+				DQogICAgICAgIDxhdHRyZGVmPlRoZSBjb2RlIHRoYXQgcmVwcmVzZW50cyB0aGUgY291bnR5IG9y
+				IGNvdW50eSBlcXVpdmFsZW50IGFuZCB0aGUgc3RhdGUgb3Igc3RhdGUgZXF1aXZhbGVudCBvZiB0
+				aGUgVW5pdGVkIFN0YXRlcy48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5FUEEgRlJTIERh
+				dGEgRGljdGlvbmFyeTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8
+				dWRvbT5Vbmtub3duPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0K
+				ICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5TVEFURV9DT0RFPC9hdHRybGFibD4NCiAg
+				ICAgICAgPGF0dHJkZWY+VGhlIFUuUy4gUG9zdGFsIFNlcnZpY2UgYWJicmV2aWF0aW9uIHRoYXQg
+				cmVwcmVzZW50cyB0aGUgc3RhdGUgb3Igc3RhdGUgZXF1aXZhbGVudCBmb3IgdGhlIFUuUy4gYW5k
+				IENhbmFkYS48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5FUEEgRlJTIERhdGEgRGljdGlv
+				bmFyeTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5Vbmtu
+				b3duPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+				dHI+DQogICAgICAgIDxhdHRybGFibD5QT1NUQUxfQ09ERTwvYXR0cmxhYmw+DQogICAgICAgIDxh
+				dHRyZGVmPlRoZSBjb21iaW5hdGlvbiBvZiB0aGUgNS1kaWdpdCBab25lIEltcHJvdmVtZW50IFBs
+				YW4gKFpJUCkgY29kZSBhbmQgdGhlIGZvdXItZGlnaXQgZXh0ZW5zaW9uIGNvZGUgKGlmIGF2YWls
+				YWJsZSkgdGhhdCByZXByZXNlbnRzIHRoZSBnZW9ncmFwaGljIHNlZ21lbnQgdGhhdCBpcyBhIHN1
+				YnVuaXQgb2YgdGhlIFpJUCBDb2RlLCBhc3NpZ25lZCBieSB0aGUgVS5TLiBQb3N0YWwgU2Vydmlj
+				ZSB0byBhIGdlb2dyYXBoaWMgbG9jYXRpb247IG9yIHRoZSBwb3N0YWwgem9uZSBzcGVjaWZpYyB0
+				byB0aGUgY291bnRyeSwgb3RoZXIgdGhhbiB0aGUgVS5TLiwgd2hlcmUgdGhlIGZhY2lsaXR5IHNp
+				dGUgaXMgbG9jYXRlZC48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5FUEEgRlJTIERhdGEg
+				RGljdGlvbmFyeTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRv
+				bT5Vbmtub3duPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAg
+				ICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5QR01fU1lTX0FDUk5NPC9hdHRybGFibD4NCiAg
+				ICAgICAgPGF0dHJkZWY+VGhlIGFiYnJldmlhdGVkIG5hbWUgdGhhdCByZXByZXNlbnRzIHRoZSBu
+				YW1lIG9mIGFuIGluZm9ybWF0aW9uIG1hbmFnZW1lbnQgc3lzdGVtIGZvciBhbiBlbnZpcm9ubWVu
+				dGFsIHByb2dyYW0uPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVBBIEZSUyBEYXRhIERp
+				Y3Rpb25hcnk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+
+				VW5rbm93bjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAg
+				IDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+UEdNX1NZU19JRDwvYXR0cmxhYmw+DQogICAgICAg
+				IDxhdHRyZGVmPlRoZSBpZGVudGlmaWNhdGlvbiBudW1iZXIsIHN1Y2ggYXMgdGhlIHBlcm1pdCBu
+				dW1iZXIsIGFzc2lnbmVkIGJ5IGFuIGluZm9ybWF0aW9uIG1hbmFnZW1lbnQgc3lzdGVtIHRoYXQg
+				cmVwcmVzZW50cyBhIGZhY2lsaXR5IHNpdGUsIHdhc3RlIHNpdGUsIG9wZXJhYmxlIHVuaXQsIG9y
+				IG90aGVyIGZlYXR1cmUgdHJhY2tlZCBieSB0aGF0IEVudmlyb25tZW50YWwgSW5mb3JtYXRpb24g
+				U3lzdGVtLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVQQSBGUlMgRGF0YSBEaWN0aW9u
+				YXJ5PC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlVua25v
+				d248L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0
+				cj4NCiAgICAgICAgPGF0dHJsYWJsPkxBVElUVURFODM8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0
+				cmRlZj5UaGUgbWVhc3VyZSBvZiB0aGUgYW5ndWxhciBkaXN0YW5jZSBvbiBhIG1lcmlkaWFuIG5v
+				cnRoIG9yIHNvdXRoIG9mIHRoZSBlcXVhdG9yIGluIE5BRDgzPC9hdHRyZGVmPg0KICAgICAgICA8
+				YXR0cmRlZnM+TGF0aXR1ZGUvTG9uZ2l0dWRlIERhdGEgU3RhbmRhcmQsIFN0YW5kYXJkIE5vOiBF
+				WDAwMDAxNy4yLCBKYW51YXJ5IDYsIDIwMDYsIERhdGEgRWxlbWVudDogTGF0aXR1ZGUgTWVhc3Vy
+				ZS4gaHR0cDovL3d3dy5leGNoYW5nZW5ldHdvcmsubmV0L3N0YW5kYXJkcy9MYXRfTG9uZ19TdGFu
+				ZGFyZF8wOF8xMV8yMDA2X0ZpbmFsLnBkZjwvYXR0cmRlZnM+DQogICAgICA8L2F0dHI+DQogICAg
+				ICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkxPTkdJVFVERTgzPC9hdHRybGFibD4NCiAgICAg
+				ICAgPGF0dHJkZWY+VGhlIG1lYXN1cmUgb2YgdGhlIGFuZ3VsYXIgZGlzdGFuY2Ugb24gYSBtZXJp
+				ZGlhbiBlYXN0IG9yIHdlc3Qgb2YgdGhlIHByaW1lIG1lcmlkaWFuIGluIE5BRDgzLjwvYXR0cmRl
+				Zj4NCiAgICAgICAgPGF0dHJkZWZzPkxhdGl0dWRlL0xvbmdpdHVkZSBEYXRhIFN0YW5kYXJkLCBT
+				dGFuZGFyZCBObzogRVgwMDAwMTcuMiwgSmFudWFyeSA2LCAyMDA2LCBEYXRhIEVsZW1lbnQ6IExv
+				bmdpdHVkZSBNZWFzdXJlLiBodHRwOi8vd3d3LmV4Y2hhbmdlbmV0d29yay5uZXQvc3RhbmRhcmRz
+				L0xhdF9Mb25nX1N0YW5kYXJkXzA4XzExXzIwMDZfRmluYWwucGRmPC9hdHRyZGVmcz4NCiAgICAg
+				IDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+QUNDVVJBQ1lfVkFMVUU8
+				L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5UaGUgaG9yaXpvbnRhbCBtZWFzdXJlLCBpbiBt
+				ZXRlcnMsIG9mIHRoZSByZWxhdGl2ZSBhY2N1cmFjeSBvZiB0aGUgbGF0aXR1ZGUgYW5kIGxvbmdp
+				dHVkZSBjb29yZGluYXRlcy48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5MYXRpdHVkZS9M
+				b25naXR1ZGUgRGF0YSBTdGFuZGFyZCwgU3RhbmRhcmQgTm86IEVYMDAwMDE3LjIsIEphbnVhcnkg
+				NiwgMjAwNiwgRGF0YSBFbGVtZW50OiBIb3Jpem9udGFsIEFjY3VyYWN5IE1lYXN1cmUuIGh0dHA6
+				Ly93d3cuZXhjaGFuZ2VuZXR3b3JrLm5ldC9zdGFuZGFyZHMvTGF0X0xvbmdfU3RhbmRhcmRfMDhf
+				MTFfMjAwNl9GaW5hbC5wZGY8L2F0dHJkZWZzPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+
+				DQogICAgICAgIDxhdHRybGFibD5DT0xMRUNUX01USF9ERVNDPC9hdHRybGFibD4NCiAgICAgICAg
+				PGF0dHJkZWY+VGhlIG5hbWUgdGhhdCBpZGVudGlmaWVzIHRoZSBtZXRob2QgdXNlZCB0byBkZXRl
+				cm1pbmUgdGhlIGxhdGl0dWRlIGFuZCBsb25naXR1ZGUgY29vcmRpbmF0ZXMgZm9yIGEgcG9pbnQg
+				b24gdGhlIGVhcnRoLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkxhdGl0dWRlL0xvbmdp
+				dHVkZSBEYXRhIFN0YW5kYXJkLCBTdGFuZGFyZCBObzogRVgwMDAwMTcuMiwgSmFudWFyeSA2LCAy
+				MDA2LCBEYXRhIEVsZW1lbnQ6IEhvcml6b250YWwgQ29sbGVjdGlvbiBNZXRob2QgTmFtZSBodHRw
+				Oi8vd3d3LmV4Y2hhbmdlbmV0d29yay5uZXQvc3RhbmRhcmRzL0xhdF9Mb25nX1N0YW5kYXJkXzA4
+				XzExXzIwMDZfRmluYWwucGRmPC9hdHRyZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRy
+				Pg0KICAgICAgICA8YXR0cmxhYmw+UkVGX1BPSU5UX0RFU0M8L2F0dHJsYWJsPg0KICAgICAgICA8
+				YXR0cmRlZj5UaGUgbmFtZSB0aGF0IGlkZW50aWZpZXMgdGhlIHBsYWNlIGZvciB3aGljaCBnZW9n
+				cmFwaGljIGNvb3JkaW5hdGVzIHdlcmUgZXN0YWJsaXNoZWQuPC9hdHRyZGVmPg0KICAgICAgICA8
+				YXR0cmRlZnM+TGF0aXR1ZGUvTG9uZ2l0dWRlIERhdGEgU3RhbmRhcmQsIFN0YW5kYXJkIE5vOiBF
+				WDAwMDAxNy4yLCBKYW51YXJ5IDYsIDIwMDYsIERhdGEgRWxlbWVudDogR2VvZ3JhcGhpYyBSZWZl
+				cmVuY2UgUG9pbnQgTmFtZSBodHRwOi8vd3d3LmV4Y2hhbmdlbmV0d29yay5uZXQvc3RhbmRhcmRz
+				L0xhdF9Mb25nX1N0YW5kYXJkXzA4XzExXzIwMDZfRmluYWwucGRmPC9hdHRyZGVmcz4NCiAgICAg
+				IDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+Q1JFQVRFX0RBVEU8L2F0
+				dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5BIHN5c3RlbS1nZW5lcmF0ZWQgdmFsdWUgdGhhdCBy
+				ZXByZXNlbnRzIHRoZSBjYWxlbmRhciBkYXRlIGFuZCB0aW1lIHRoZSBjb3JyZXNwb25kaW5nIGlu
+				Zm9ybWF0aW9uIHdhcyBwb3N0ZWQgdG8gdGhlIGRhdGFiYXNlLjwvYXR0cmRlZj4NCiAgICAgICAg
+				PGF0dHJkZWZzPkZSUyBEZXZlbG9wbWVudCBUZWFtLCBNYXkgMjAwMC48L2F0dHJkZWZzPg0KICAg
+				ICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5VUERBVEVfREFURTwv
+				YXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkEgc3lzdGVtLWdlbmVyYXRlZCB2YWx1ZSB0aGF0
+				IHJlcHJlc2VudHMgdGhlIG1vc3QgcmVjZW50IGNhbGVuZGFyIGRhdGUgYW5kIHRpbWUgdGhlIGNv
+				cnJlc3BvbmRpbmcgaW5mb3JtYXRpb24gd2FzIHVwZGF0ZWQgaW4gdGhlIGRhdGFiYXNlLjwvYXR0
+				cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkEgc3lzdGVtLWdlbmVyYXRlZCB2YWx1ZSB0aGF0IHJl
+				cHJlc2VudHMgdGhlIG1vc3QgcmVjZW50IGNhbGVuZGFyIGRhdGUgYW5kIHRpbWUgdGhlIGNvcnJl
+				c3BvbmRpbmcgaW5mb3JtYXRpb24gd2FzIHVwZGF0ZWQgaW4gdGhlIGRhdGFiYXNlLjwvYXR0cmRl
+				ZnM+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkxBU1Rf
+				UkVQT1JURURfREFURTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlRoZSBtb3N0IHJlY2Vu
+				dCBkYXRlIHRoZSBjb3JyZXNwb25kaW5nIGVudmlyb25tZW50YWwgaW50ZXJlc3QgZGF0YSB3YXMg
+				cmVwb3J0ZWQgdG8gdGhlIFNvdXJjZSBvZiBEYXRhLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJk
+				ZWZzPkZSUyBEZXZlbG9wbWVudCBUZWFtLCBBcHJpbCAyMDAwLjwvYXR0cmRlZnM+DQogICAgICA8
+				L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlBVQkxJQ19JTkQ8L2F0dHJs
+				YWJsPg0KICAgICAgICA8YXR0cmRlZj5JbmRpY2F0ZXMgd2hldGhlciBvciBub3QgdGhlIGFzc29j
+				aWF0ZWQgZGF0YSBpcyBhY2Nlc3NpYmxlIGJ5IHRoZSBwdWJsaWMgb24gdGhlIGludGVybmV0Ljwv
+				YXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkZSUyBEZXZlbG9wbWVudCBUZWFtLCBGZWJydWFy
+				eSAyMDAyPC9hdHRyZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+				YXR0cmxhYmw+SU5URVJFU1RfVFlQRTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlRoZSBy
+				ZWd1bGF0b3J5IGludGVyZXN0IHR5cGUgaWRlbnRpZmllZCBmb3IgdGhlIGZhY2lsaXR5LjwvYXR0
+				cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVQQSBGUlMgRGF0YSBEaWN0aW9uYXJ5PC9hdHRyZGVm
+				cz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlVua25vd248L3Vkb20+DQog
+				ICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAg
+				PGF0dHJsYWJsPlNIQVBFPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+RmVhdHVyZSBnZW9t
+				ZXRyeS48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5FU1JJPC9hdHRyZGVmcz4NCiAgICAg
+				ICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPkNvb3JkaW5hdGVzIGRlZmluaW5nIHRoZSBm
+				ZWF0dXJlcy48L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAg
+				PC9kZXRhaWxlZD4NCiAgICA8b3ZlcnZpZXc+DQogICAgICA8ZWFvdmVyPkF0dHJpYnV0ZSBpbmZv
+				cm1hdGlvbiBpcyBkZXJpdmVkIGZyb20gRlJTIGRhdGFiYXNlIG93bmVycyBhbmQgcmVmZXJlbmNl
+				IG1hdGVyaWFsLiBGb3IgYWRkaXRpb25hbCBpbmZvcm1hdGlvbiByZWdhcmRpbmcgYXR0cmlidXRl
+				cyBsaXN0ZWQgaW4gdGhpcyBtZXRhZGF0YSByZWNvcmQsIHBsZWFzZSB2aXNpdCB0aGUgRlJTIGRv
+				Y3VtZW50YXRpb24gcGFnZSBodHRwOi8vd3d3LmVwYS5nb3YvZW52aXJvL2h0bWwvZmlpL2RvY3Vt
+				ZW50YXRpb24uaHRtbDwvZWFvdmVyPg0KICAgICAgPGVhZGV0Y2l0PlRoZSBmb2xsb3dpbmcgc291
+				cmNlcyB3ZXJlIHVzZWQgdG8gZGVyaXZlIHRoZSBhdHRyaWJ1dGUgaW5mb3JtYXRpb24gcHJlc2Vu
+				dGVkIGluIHRoZSBhdHRyaWJ1dGUgZGV0YWlsZWQgY2l0YXRpb24gRVBBIEZSUyBEYXRhIERpY3Rp
+				b25hcnk7IEZSUyBEZXZlbG9wbWVudCBUZWFtLCBBcHJpbCAxOTk5OyBGUlMgUXVhbGl0eSBQbGFu
+				LCBWZXJzaW9uIDEuMSwgSmFudWFyeSAyNSwgMjAwOCwgaHR0cDovL3d3dy5lcGEuZ292L2Vudmly
+				by9odG1sL2Zyc19kZW1vL0ZSU19RdWFsaXR5X1BsYW4ucGRmPC9lYWRldGNpdD4NCiAgICA8L292
+				ZXJ2aWV3Pg0KICA8L2VhaW5mbz4NCiAgPGRpc3RpbmZvPg0KICAgIDxyZXNkZXNjPkxpdmUgRGF0
+				YSBhbmQgTWFwczwvcmVzZGVzYz4NCiAgICA8ZGlzdGxpYWI+aHR0cHM6Ly9lZGcuZXBhLmdvdi9F
+				UEFfRGF0YV9MaWNlbnNlLmh0bWw8L2Rpc3RsaWFiPg0KICAgIDxkaXN0cmliPg0KICAgICAgPGNu
+				dGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgIDxjbnRvcmc+VS5TLiBFbnZpcm9u
+				bWVudGFsIFByb3RlY3Rpb24gQWdlbmN5LCBIZWFkcXVhcnRlcnM8L2NudG9yZz4NCiAgICAgICAg
+				ICA8Y250cGVyPkRhdmlkIFNtaXRoPC9jbnRwZXI+DQogICAgICAgIDwvY250b3JncD4NCiAgICAg
+				ICAgPGNudHBvcz5GUlMgUHJvamVjdCBNYW5hZ2VyPC9jbnRwb3M+DQogICAgICAgIDxjbnRhZGRy
+				Pg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRy
+				dHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz4xMjAwIFBlbm5zeWx2YW5pYSBBdmUsIE5XPC9hZGRy
+				ZXNzPg0KICAgICAgICAgIDxjaXR5Pldhc2hpbmd0b248L2NpdHk+DQogICAgICAgICAgPHN0YXRl
+				PkRDPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjIwNDYwPC9wb3N0YWw+DQogICAgICAgIDwv
+				Y250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPigyMDIpIDU2Ni0wNzk3PC9jbnR2b2ljZT4NCiAg
+				ICAgICAgPGNudGVtYWlsPnNtaXRoLmRhdmlkZ0BlcGEuZ292PC9jbnRlbWFpbD4NCiAgICAgICAg
+				PGNudGluc3Q+aHR0cHM6Ly93d3czLmVwYS5nb3YvPC9jbnRpbnN0Pg0KICAgICAgPC9jbnRpbmZv
+				Pg0KICAgIDwvZGlzdHJpYj4NCiAgPC9kaXN0aW5mbz4NCiAgPG1ldGFpbmZvPg0KICAgIDxtZXRk
+				PjIwMjAxMjEyPC9tZXRkPg0KICAgIDxtZXRmcmQ+MjAyMDA2MTY8L21ldGZyZD4NCiAgICA8bWV0
+				c3Rkbj5GR0RDIENvbnRlbnQgU3RhbmRhcmRzIGZvciBEaWdpdGFsIEdlb3NwYXRpYWwgTWV0YWRh
+				dGE8L21ldHN0ZG4+DQogICAgPG1ldHN0ZHY+RkdEQy1TVEQtMDAxLTE5OTg8L21ldHN0ZHY+DQog
+				ICAgPG1ldHRjPmxvY2FsIHRpbWU8L21ldHRjPg0KICAgIDxtZXRjPg0KICAgICAgPGNudGluZm8+
+				DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgIDxjbnRvcmc+VS5TLiBFbnZpcm9ubWVudGFs
+				IFByb3RlY3Rpb24gQWdlbmN5LCBSZXNlYXJjaCBUcmlhbmdsZSBQYXJrPC9jbnRvcmc+DQogICAg
+				ICAgICAgPGNudHBlcj5FUEEgR0lTIEFnZW5jeSBDZW50cmFsIFN1cHBvcnQ8L2NudHBlcj4NCiAg
+				ICAgICAgPC9jbnRvcmdwPg0KICAgICAgICA8Y250cG9zPk9FSSBSVFAgTkNDIEdJUzwvY250cG9z
+				Pg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5
+				c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+VVNFUEEgTWFpbHJv
+				b20gTjEyNy0wMjwvYWRkcmVzcz4NCiAgICAgICAgICA8Y2l0eT5SZXNlYXJjaCBUcmlhbmdsZSBQ
+				YXJrPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5OQzwvc3RhdGU+DQogICAgICAgICAgPHBvc3Rh
+				bD4yNzcxMTwvcG9zdGFsPg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxjbnR2b2ljZT45
+				MTktNzY3LTc0OTM8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZW1haWw+ZXNyaXN1cHBvcnRAZXBh
+				LmdvdjwvY250ZW1haWw+DQogICAgICA8L2NudGluZm8+DQogICAgPC9tZXRjPg0KICA8L21ldGFp
+				bmZvPg0KICA8RXNyaT4NCiAgICA8RGF0YVByb3BlcnRpZXM+DQogICAgICA8Y29weUhpc3Rvcnk+
+				DQogICAgICAgIDxjb3B5IHNvdXJjZT0iRDpcUHVibGljXERhdGFcZGxhbWJlMDJcRVNGM1xFU0Zf
+				M19NZXRhZGF0YVxGUlNfRVJfV1dUUF9OUERFU19tZXRhZGF0YSIgZGVzdD0iXFxWMThPVkhSVEFZ
+				NzI0XEQkXFB1YmxpY1xEYXRhXGRsYW1iZTAyXEVTRjNcRVNGXzNfTWV0YWRhdGFcRlJTX0VSX1dX
+				VFBfTlBERVNfbWV0YWRhdGEgKDEpIiBkYXRlPSIyMDIwMTExNyIgdGltZT0iMTMzNDA5MDAiIC8+
+				DQogICAgICA8L2NvcHlIaXN0b3J5Pg0KICAgIDwvRGF0YVByb3BlcnRpZXM+DQogIDwvRXNyaT4N
+				CjwvbWV0YWRhdGE+</Data>
+</Enclosure>
+</Binary>
+<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+<refSysInfo>
+<RefSystem>
+<refSysID>
+<identCode Sync="TRUE" code="0">
+</identCode>
+</refSysID>
+</RefSystem>
+</refSysInfo>
+</metadata>

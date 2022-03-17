@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<Esri>
+		<PublishedDocID>{284d232c-1067-453f-9e4a-3f16de42b1b4}</PublishedDocID>
+	</Esri>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>climatologyMeteorologyAtmosphere</themekey>
+				<themekey>environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EPA GIS Keyword Thesaurus</themekt>
+				<themekey>Air</themekey>
+				<themekey>Ecosystem</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Exposure</themekey>
+				<themekey>Modeling</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Alabama</placekey>
+				<placekey>Arizona</placekey>
+				<placekey>Arkansas</placekey>
+				<placekey>California</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>Connecticut</placekey>
+				<placekey>Delaware</placekey>
+				<placekey>Florida</placekey>
+				<placekey>Georgia</placekey>
+				<placekey>Idaho</placekey>
+				<placekey>Illinois</placekey>
+				<placekey>Indiana</placekey>
+				<placekey>Iowa</placekey>
+				<placekey>Kansas</placekey>
+				<placekey>Kentucky</placekey>
+				<placekey>Louisiana</placekey>
+				<placekey>Maine</placekey>
+				<placekey>Maryland</placekey>
+				<placekey>Massachusetts</placekey>
+				<placekey>Michigan</placekey>
+				<placekey>Minnesota</placekey>
+				<placekey>Mississippi</placekey>
+				<placekey>Missouri</placekey>
+				<placekey>Montana</placekey>
+				<placekey>Nebraska</placekey>
+				<placekey>Nevada</placekey>
+				<placekey>New Hampshire</placekey>
+				<placekey>New Jersey</placekey>
+				<placekey>New Mexico</placekey>
+				<placekey>New York</placekey>
+				<placekey>North Carolina</placekey>
+				<placekey>North Dakota</placekey>
+				<placekey>Ohio</placekey>
+				<placekey>Oklahoma</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>Pennsylvania</placekey>
+				<placekey>Rhode Island</placekey>
+				<placekey>South Carolina</placekey>
+				<placekey>South Dakota</placekey>
+				<placekey>Tennessee</placekey>
+				<placekey>Texas</placekey>
+				<placekey>United States</placekey>
+				<placekey>Utah</placekey>
+				<placekey>Vermont</placekey>
+				<placekey>Virginia</placekey>
+				<placekey>Washington</placekey>
+				<placekey>Washington DC</placekey>
+				<placekey>West Virginia</placekey>
+				<placekey>Wisconsin</placekey>
+				<placekey>Wyoming</placekey>
+			</place>
+			<theme>
+				<themekt>EnviroAtlas</themekt>
+				<themekey>12-digit HUCs</themekey>
+				<themekey>Air</themekey>
+				<themekey>Climate</themekey>
+				<themekey>Ecosystem Services</themekey>
+				<themekey>EnviroAtlas</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Environmental Atlas</themekey>
+				<themekey>Exposure</themekey>
+				<themekey>Modeling</themekey>
+			</theme>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Environmental Protection Agency (US EPA)</origin>
+				<title>EnviroAtlas - Atmospheric Nitrogen and Sulfur Deposition by 12-digit HUC for the Conterminous United States (2016)</title>
+				<pubinfo>
+					<publish>U.S. EPA Office of Research and Development (ORD) - Center for Public Health and Environmental Assessment (CPHEA)</publish>
+					<pubplace>Research Triangle Park, NC</pubplace>
+				</pubinfo>
+				<pubdate>20200915</pubdate>
+				<onlink>https://edg.epa.gov/data/PUBLIC/ORD/ENVIROATLAS</onlink>
+				<onlink>https://enviroatlas.epa.gov/arcgis/rest/services</onlink>
+				<onlink>https://www.epa.gov/enviroatlas/enviroatlas-data</onlink>
+				<onlink>https://www.epa.gov/enviroatlas</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>Publication date</current>
+			<timeinfo>
+				<rngdates>
+					<begdate>20160101</begdate>
+					<enddate>20161231</enddate>
+				</rngdates>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-128.02839229</westbc>
+				<eastbc>-65.20336449</eastbc>
+				<northbc>51.6773602</northbc>
+				<southbc>22.7348894</southbc>
+			</bounding>
+		</spdom>
+		<accconst>None.</accconst>
+		<useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgment of the EPA would be appreciated.</useconst>
+		<descript>
+			<abstract>This EnviroAtlas dataset includes annual nitrogen and sulfur deposition within each 12-digit HUC subwatershed for the year 2016.  Values are provided for total oxidized nitrogen (HNO3, NO, NO2, N2O5, NH3, HONO, PAN, organic nitrogen, and particulate NO3), oxidized nitrogen wet deposition, oxidized nitrogen dry deposition, total reduced nitrogen (NH3 and particulate NH4), reduced nitrogen dry deposition, reduced nitrogen wet deposition, total dry nitrogen deposition, total wet nitrogen deposition, total nitrogen deposition (wet+dry), total sulfur (SO2 + particulate SO4) dry deposition, total sulfur wet deposition, and total sulfur deposition.  The dataset is based on output from the Community Multiscale Air Quality modeling system (CMAQ) run using the bidirectional flux option for the 12-km grid size for the US, Canada, and Mexico.  This dataset was produced by the US EPA to support research and online mapping activities related to EnviroAtlas. EnviroAtlas (https://www.epa.gov/enviroatlas) allows the user to interact with a web-based, easy-to-use, mapping application to view and analyze multiple ecosystem services for the contiguous United States. The dataset is available as downloadable data (https://edg.epa.gov/data/Public/ORD/EnviroAtlas) or as an EnviroAtlas map service. Additional descriptive information about each attribute in this dataset can be found in its associated EnviroAtlas Fact Sheet (https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets).</abstract>
+			<purpose>Air quality models are an important tool for translating between nitrogen emissions and ecological exposure.   The purpose of this data is to provide the information from the air quality model (CMAQ) on the resultant spatial variation in the exposure due to the complex emissions patterns and their transport and transformation. This dataset can be used as input to watershed models as part of Total Maximum Daily Loads (TMDL) calculations and to biogeochemical models as part of critical loads analyses. The overall goal of EnviroAtlas is to employ and develop the best available science to map indicators of ecosystem services production, demand, and drivers for the nation.</purpose>
+			<supplinf>The CMAQ modeling system relies on first principles to the extent possible and the best available science underlies the modeling algorithms.  Still, the chemistry and physics of the atmosphere are very complicated and there are uncertainties in the model representations that result in uncertainties in the predicted concentrations and deposition fluxes.  There are also uncertainties in the model inputs including the emissions, meteorology, and land use.  Emissions are the best available as part of the National Emissions Inventory (NEI), yet emission estimates are believed to be an important source of uncertainty.  The data have been summarized based on HUCs but actual atmospheric deposition will vary within the HUC.  </supplinf>
+		</descript>
+		<secinfo>
+			<secsys>https://project-open-data.github.io/schema/#accessLevel</secsys>
+			<secclass>public</secclass>
+			<sechandl>Standard Technical Controls</sechandl>
+		</secinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntperp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<logic>Tests for integrity have not been performed.</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>20190630</procdate>
+				<procdesc>2016 WRF (Weather Research Forecast model) v4.1.1 runs completed</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20190709</procdate>
+				<procdesc>2016 MCIP (Meteorology-Chemistry Input Processor) runs completed</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20191004</procdate>
+				<procdesc>2016 Environmental Policy Integrated Climate (EPIC) model fertilizer application amount and timing produced (http://www.cmascenter.org).</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200505</procdate>
+				<procdesc>2016 CMAQ (Community Multiscale Air Quality) model run completed</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200526</procdate>
+				<procdesc>2016 CMAQ Model data processed using CMAQ CALC_TMETRIC post-processor to create a gridded file containing annual total deposition values</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200527</procdate>
+				<procdesc>R script used to create GEOTIFF file containing annual deposition values</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20200915</procdate>
+				<procdesc>Resampled GeoTIFF rasters from 12km to 30m so they will align better with 12-digit HUC boundaries and produce more accurate zonal statistics.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>202001016</procdate>
+				<procdesc>Used ArcGIS Zonal Statistics as Table with statistics type = Mean  to reallocate 2016 gridded data to 12-digit HUCs.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<plandu>meters</plandu>
+					<coordrep>
+						<absres>0.000001</absres>
+						<ordres>0.000001</ordres>
+					</coordrep>
+				</planci>
+				<mapproj>
+					<mapprojn>Albers Conical Equal Area</mapprojn>
+					<albers>
+						<stdparll>29.500000</stdparll>
+						<stdparll>45.500000</stdparll>
+						<longcm>-96.000000</longcm>
+						<latprjo>23.000000</latprjo>
+						<feast>0.000000</feast>
+						<fnorth>0.000000</fnorth>
+					</albers>
+				</mapproj>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20210907</metd>
+		<metfrd>20240527</metfrd>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>AMAD_20201016</enttypl>
+				<enttypd>2016 CMAQ atmospheric deposition by 12-digit HUC</enttypd>
+				<enttypds>US EPA</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>AWD_OXN_T</attrlabl>
+				<attrdef>Wet Deposition of Total Oxidized N (kg-N/ha)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.01</rdommin>
+						<rdommax>4.30</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AWD_REDN_T</attrlabl>
+				<attrdef>Wet Deposition of Total Reduced N (kg-N/ha)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.01</rdommin>
+						<rdommax>4.15</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AWD_S_T</attrlabl>
+				<attrdef>Wet Deposition of Total Sulfur (kg-S/ha)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.01</rdommin>
+						<rdommax>6.33</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DD_OXN_T</attrlabl>
+				<attrdef>Dry Deposition of Total Oxidized N (kg-N/ha)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.29</rdommin>
+						<rdommax>6.02</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DD_REDN_T</attrlabl>
+				<attrdef>Dry Deposition of Total Reduced N (kg-N/ha)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.11</rdommin>
+						<rdommax>29.70</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DD_S_T</attrlabl>
+				<attrdef>Dry Deposition of Total Sulfur (kg-S/ha)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.05</rdommin>
+						<rdommax>10.67</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>TD_OXN_T</attrlabl>
+				<attrdef>Total Deposition of Total Oxidized N (kg-N/ha)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.37</rdommin>
+						<rdommax>7.70</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>TD_REDN_T</attrlabl>
+				<attrdef>Total Deposition of Total Reduced N (kg-N/ha)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.14</rdommin>
+						<rdommax>32.38</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>TD_S_T</attrlabl>
+				<attrdef>Total Deposition of Total Sulfur (kg-S/ha)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.07</rdommin>
+						<rdommax>13.25</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>TD_N_T</attrlabl>
+				<attrdef>Total Deposition of Nitrogen (Oxidized + Reduced) (kg-N/ha)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.54</rdommin>
+						<rdommax>35.87</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DD_N_T</attrlabl>
+				<attrdef>Dry Deposition of Total N (kg-N/ha)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.45</rdommin>
+						<rdommax>31.62</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AWD_N_T</attrlabl>
+				<attrdef>Wet Deposition of Total N (kg-N/ha)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0.02</rdommin>
+						<rdommax>7.92</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>The Community Multiscale Air Quality (CMAQ) modeling system (www.epa.gov/cmaq) was run for the CONUS domain using a 12 km grid size and a Lambert Conformal projection assuming a spherical earth with radius 6370.0 km.  Additional modeling details are provided below.
+*	Chemical transport modeling was done using CMAQ v5.3.1 with bi-directional NH3 air-surface exchange using the Surface Tiled Aerosol and Gaseous Exchange (STAGE) deposition formulation, CB6r3 chemical mechanism, aero7 aerosol module.
+*	CMAQ v5.3.1 lightning NOx was adjusted using lightning strike data.
+*	Boundary conditions for the CMAQ run were developed using Hemispheric CMAQ (H-CMAQ) v5.3.1 with a grid spacing of 108 x 108 km on a polar stereographic grid covering the northern hemisphere and a vertical resolution of 44 layers.  Meteorological data for H-CMAQ were obtained from WRF v4.1.1 (https://www.mmm.ucar.edu/weather-research-and-forecasting-model). Emissions were from the OAQPS 2016v1 modeling platform, 2015 China inventory + projected 2010 Hemispheric Transport of Air Pollutants (HTAP) v2 inventory. H-CMAQ was run using full halogen and DMS chemistry, the STAGE deposition model, and the CB6R3M_AE7_KMTBR chemical mechanism. 
+*	FEST-C (Fertilizer Emission Scenario Tool for CMAQ)/EPIC v1.4 was used to develop the chemical fertilizer application schedule that is year specific with chemical specification of form applied for use by the bidirectional NH3 algorithm.
+*	Biogenic Emissions Land-use Database, version 4 (BELD4) crop distributions in EPIC and CMAQ, and biogenic emissions.
+*	Anthropogenic emissions are from the OAQPS 2016v1 modeling platform.
+*	Meteorological data used to drive CMAQ were developed using the Weather Research Forecast model, version 4.1.1 (WRF v4.1.1) meteorology simulated for 2016 with vertical Resolution: 35 layers from the surface to the top of the free troposphere with layer 1 nominally 19 m tall. The following options were used with WRF:
+	--	Land cover: 2011 National Land Cover Database (NLCD, https://www.mrlc.gov/data/nlcd-2011-land-cover-conus-0)
+	--	Data assimilation: based on version-2 four-dimensional data assimilation (FDDA) with no nudging in the planetary boundary layer and used blended 3-hourly reanalysis fields (combination of 3-hour Meteorological Assimilation Data Ingest System (MADIS) data and intermediate 12km North American Mesoscale Model (NAM) 3-hour forecast)
+	--	Run parameters:
+		-	Morrison double-moment microphysics; 
+		-	RRTMG longwave and shortwave radiation;
+		-	Kain Fritsch with kfeta_trigger = 1 (default trigger); 
+		-	Lightning data assimilation; 
+		-	Pleim-Xiu land-surface model and surface layer/ ACM2 PBL. 
+	--	WRF post-processing to create inputs for CMAQ was done with the Meteorology-Chemistry Input Processor (MCIP) v5.0.  
+			</eaover>
+			<eadetcit>https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets</eadetcit>
+		</overview>
+	</eainfo>
+	<Esri>
+		<DataProperties>
+			<copyHistory>
+				<copy source="E:\QC\SubmissionsToQC\Deposition\editing\AMAD_20201016" dest="\\D2626UMCULLER1\E$\QC\SubmissionsToQC\Deposition\_ready\for Barb\AMAD_20201016" date="20201022" time="11310100"/>
+			</copyHistory>
+		</DataProperties>
+	</Esri>
+</metadata>

@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.fgdc.gov/metadata/fgdc-std-001-1998.xsd">
+   <Esri>
+      <PublishedDocID>{88E53742-CF0D-443C-94AF-8139C09471F9}</PublishedDocID>
+   </Esri>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>US Environmental Protection Agency, Office of Water</origin>
+            <pubdate>20150501</pubdate>
+            <title>EPA Office of Water (OW): TMDLs on Impaired Waters NHDPlus Indexed Dataset</title>
+            <edition>20150501</edition>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+               <pubplace>Washington, DC</pubplace>
+               <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>https://watersgeo.epa.gov/arcgis/rest/services/OWRAD_NP21/TMDL_NP21/MapServer/</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>The Total Maximum Daily Load (TMDL) Tracking System contains information on waters that are Not Supporting their designated uses. These waters are listed by the state as impaired under Section 303(d) of the Clean Water Act. The status of TMDLs are also tracked. TMDLs are pollution control measures that reduce the discharge of pollutants into impaired waters. A TMDL or Total Maximum Daily Load is a calculation of the maximum amount of a pollutant that a waterbody can receive and still meet water quality standards, and an allocation of that amount to the pollutant's sources. What is a total maximum daily load (TMDL)? Water quality standards are set by States, Territories, and Tribes. They identify the uses for each waterbody, for example, drinking water supply, contact recreation (swimming), and aquatic life support (fishing), and the scientific criteria to support that use. A TMDL is the sum of the allowable loads of a single pollutant from all contributing point and nonpoint sources. The calculation must include a margin of safety to ensure that the waterbody can be used for the purposes the state has designated. The calculation must also account for seasonal variation in water quality. The Clean Water Act, section 303, establishes the water quality standards and TMDL programs.</abstract>
+         <purpose>The purpose of this application is to provide a summary of the TMDL program that are available for EPA Regions and the states. There are a few ways to access these reports. Go to http://www.epa.gov/waters/tmdl to access the tools that provide the TMDL reports for the nation, state, or region.</purpose>
+         <supplinf>This is an EPA-produced data set. Additional information regarding this data set is available at http://water.epa.gov/lawsregs/lawsguidance/cwa/tmdl/index.cfm</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>20150501</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>In work</progress>
+         <update>Continually</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-160</westbc>
+            <eastbc>-64</eastbc>
+            <northbc>50</northbc>
+            <southbc>17</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>ISO 19115 Topic Category</themekt>
+            <themekey>environment</themekey>
+            <themekey>health</themekey>
+            <themekey>inlandWaters</themekey>
+         </theme>
+         <theme>
+            <themekt>EPA GIS Keyword Thesaurus</themekt>
+            <themekey>Contaminant</themekey>
+            <themekey>Ecology</themekey>
+            <themekey>Environment</themekey>
+            <themekey>Estuary</themekey>
+            <themekey>Health</themekey>
+            <themekey>Monitoring</themekey>
+            <themekey>Quality</themekey>
+            <themekey>Surface Water</themekey>
+            <themekey>Water</themekey>
+         </theme>
+         <place>
+            <placekt>None</placekt>
+            <placekey>United States</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Environmental Protection Agency, Headquarters</cntorg>
+               <cntper>Wendy Reid</cntper>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>1200 Pennsylvania Avenue, NW MC 4503T</address>
+               <city>Washington</city>
+               <state>DC</state>
+               <postal>20460</postal>
+            </cntaddr>
+            <cntvoice>202-566-1705</cntvoice>
+            <cntemail>reid.wendy@epa.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <secinfo>
+         <secsys>FIPS Pub 199</secsys>
+         <secclass>No Confidentiality</secclass>
+         <sechandl>Standard Technical Controls</sechandl>
+      </secinfo>
+   </idinfo>
+   <dataqual>
+      <complete>Features represented have not been tested for completeness.</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>See NHDPlus documentation for information on positional accuracy.</horizpar>
+         </horizpa>
+         <vertacc>
+            <vertaccr>See NHDPlus documentation for information on positional accuracy.</vertaccr>
+         </vertacc>
+      </posacc>
+      <logic>Tests for integrity have not been performed.</logic>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Environmental Protection Agency (USEPA) and the U.S. Geological Survey (USGS).</origin>
+                  <pubdate>2012</pubdate>
+                  <title>National Hydrography Dataset Plus - NHDPlus</title>
+                  <edition>2.10</edition>
+                  <geoform>vector digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Washington, DC</pubplace>
+                     <publish>U.S. Environmental Protection Agency</publish>
+                  </pubinfo>
+                  <onlink>https://www.epa.gov/waterdata/nhdplus-national-hydrography-dataset-plus</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2012</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>NHDPlus</srccitea>
+            <srccontr>NHDPlus v2.1 is the source of all reached indexed events in the EPA Reach Address Database.</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>303D event data extracted from RAD archive per list of source featureids provided by ATTAINS Program.</procdesc>
+            <srcused>NHDPlus</srcused>
+            <procdate>20150501</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>303D event data restructured and published as TMDL event data.</procdesc>
+            <procdate>20150501</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spref>
+      <horizsys>
+         <geograph>
+            <latres>0.000001</latres>
+            <longres>0.000001</longres>
+            <geogunit>Decimal degrees</geogunit>
+         </geograph>
+         <geodetic>
+            <horizdn>North American Datum of 1983</horizdn>
+            <ellips>Geodetic Reference System 1980</ellips>
+            <semiaxis>6378137.000000</semiaxis>
+            <denflat>298.257222</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>tmdl_p</enttypl>
+            <enttypd>Point Event Table</enttypd>
+            <enttypds>Reach Address Database</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Permanent_Identifier</attrlabl>
+            <attrdef>40-char GUID value that uniquely identifies the occurrence of each event.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>40-byte Global Universal Unique Identifier</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>EventDate</attrlabl>
+            <attrdef>The date the event was created or updated.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Date value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ReachCode</attrlabl>
+            <attrdef>Unique identifier composed of two parts. The first eight digits are the subbasin code defines by FIPS 103, next six digits is a randomly assigned sequential number unique within a Cataloging Unit, length 14.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value of 14 bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ReachSMDate</attrlabl>
+            <attrdef>Date that the reach code was assigned.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Date value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ReachResolution</attrlabl>
+            <attrdef>Code for source resolution: 1=Local resolution, 2=High resolution, 3=Medium resolution.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>2</rdommin>
+                  <rdommax>3</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Feature_Permanent_Identifier</attrlabl>
+            <attrdef>40-char GUID value that uniquely identifies the NHD feature upon which the event is located.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>40-byte Global Universal Unique Identifier</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FeatureClassRef</attrlabl>
+            <attrdef>Domain value indicating the type of NHD feature the event is associated with.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>5</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_Originator</attrlabl>
+            <attrdef>The organization responsible for the submission of the data. In most cases this is a state abbreviation.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 130 bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_DataDesc</attrlabl>
+            <attrdef>Supplemental data relevant to the event.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 100 bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_FeatureID</attrlabl>
+            <attrdef>Key field linking the event to source program data.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Codes of varied formats no more than 100 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FeatureDetailURL</attrlabl>
+            <attrdef>Http link leading to online resources with further information about the event.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Http internet link no more than 255 bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>EventOffset</attrlabl>
+            <attrdef>Event display offset</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>999999999999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Measure</attrlabl>
+            <attrdef>Measure location of the event along the NHD reach.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>EventType</attrlabl>
+            <attrdef>Domain value indicating the program for which the event has been created.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>10001</rdommin>
+                  <rdommax>10999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>GeogState</attrlabl>
+            <attrdef>Abbreviation of US state or state equivalent where the majority of the event is located.</attrdef>
+            <attrdefs>U.S. Postal Service</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Official USPS state abbreviations, as shown in Publication 65, National 5-Digit ZIP Code and Post Office Directory</codesetn>
+                  <codesets>U.S. Postal Service</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Cycle_Year</attrlabl>
+            <attrdef>Cycle year of data</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>String value indicating year four bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Start_Date</attrlabl>
+            <attrdef>Start date of data</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>4/1/1998</rdommin>
+                  <rdommax>4/1/2100</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>End_Date</attrlabl>
+            <attrdef>End date of data</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>4/1/1998</rdommin>
+                  <rdommax>4/1/2100</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>WBD_HUC12</attrlabl>
+            <attrdef>WBD HUC12 subwatershed that most encompasses the NHD feature</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>12-digit numeric code for the subwatershed.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>WBD_HUC12_Percent</attrlabl>
+            <attrdef>Percentage of the feature contained within the WBD12 unit</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>0.999999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>InNetwork</attrlabl>
+            <attrdef>Flag indicating whether an event occurs on an NHD flowline which is part of the NHDPlus network.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>Y/N value of 1 byte.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Navigable</attrlabl>
+            <attrdef>Flag indicating whether an event occurs on an NHD flowline which may be navigated using NHDPlus tools.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>Y/N value of 1 byte.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Coastal</attrlabl>
+            <attrdef>Flag indicating whether an event occurs on an NHD flowline which has a Coastal FCode.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>Y/N value of 1 byte.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Vertices</attrlabl>
+            <attrdef>Numeric count of individual vertices in the Event feature.</attrdef>
+            <attrdefs>RAD</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>524288</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Vendor geometry type</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Geometry Object</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ObjectID</attrlabl>
+            <attrdef>Vendor required surrogate key.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>2147483647</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>tmdl_l</enttypl>
+            <enttypd>Line Event Table</enttypd>
+            <enttypds>Reach Address Database</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Permanent_Identifier</attrlabl>
+            <attrdef>40-char GUID value that uniquely identifies the occurrence of each event.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>40-byte Global Universal Unique Identifier</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>EventDate</attrlabl>
+            <attrdef>The date the event was created or updated.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Date value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ReachCode</attrlabl>
+            <attrdef>Unique identifier composed of two parts. The first eight digits are the subbasin code defines by FIPS 103, next six digits is a randomly assigned sequential number unique within a Cataloging Unit, length 14.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value of 14 bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ReachSMDate</attrlabl>
+            <attrdef>Date that the reach code was assigned.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Date value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ReachResolution</attrlabl>
+            <attrdef>Code for source resolution: 1=Local resolution, 2=High resolution, 3=Medium resolution.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>2</rdommin>
+                  <rdommax>3</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Feature_Permanent_Identifier</attrlabl>
+            <attrdef>40-char GUID value that uniquely identifies the NHD feature upon which the event is located.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>40-byte Global Universal Unique Identifier</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FeatureClassRef</attrlabl>
+            <attrdef>Domain value indicating the type of NHD feature the event is associated with.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>5</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_Originator</attrlabl>
+            <attrdef>The organization responsible for the submission of the data. In most cases this is a state abbreviation.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 130 bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_DataDesc</attrlabl>
+            <attrdef>Supplemental data relevant to the event.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 100 bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_FeatureID</attrlabl>
+            <attrdef>Key field linking the event to source program data.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Codes of varied formats no more than 100 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FeatureDetailURL</attrlabl>
+            <attrdef>Http link leading to online resources with further information about the event.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Http internet link no more than 255 bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>EventOffset</attrlabl>
+            <attrdef>Event display offset</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Event display offset</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FMeasure</attrlabl>
+            <attrdef>Linear from measure</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>TMeasure</attrlabl>
+            <attrdef>Linear to measure</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>EventType</attrlabl>
+            <attrdef>Domain value indicating the program for which the event has been created.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>10001</rdommin>
+                  <rdommax>10999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Event_LengthKM</attrlabl>
+            <attrdef>Length of linear event record in meters.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0.00001</rdommin>
+                  <rdommax>999999999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>GeogState</attrlabl>
+            <attrdef>Abbreviation of US state or state equivalent where the majority of the event is located.</attrdef>
+            <attrdefs>U.S. Postal Service</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Official USPS state abbreviations, as shown in Publication 65, National 5-Digit ZIP Code and Post Office Directory</codesetn>
+                  <codesets>U.S. Postal Service</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Cycle_Year</attrlabl>
+            <attrdef>Cycle year of data</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>String value indicating year four bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Start_Date</attrlabl>
+            <attrdef>Start date of data</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>4/1/1998</rdommin>
+                  <rdommax>4/2/2100</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>End_Date</attrlabl>
+            <attrdef>End date of data</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>4/1/1998</rdommin>
+                  <rdommax>4/2/2100</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>WBD_HUC12</attrlabl>
+            <attrdef>WBD HUC12 subwatershed that most encompasses the NHD feature</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>12-digit numeric code for the subwatershed.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>WBD_HUC12_Percent</attrlabl>
+            <attrdef>Percentage of the feature contained within the WBD12 unit</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>0.999999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>InNetwork</attrlabl>
+            <attrdef>Flag indicating whether an event occurs on an NHD flowline which is part of the NHDPlus network.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>Y/N value of 1 byte.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Navigable</attrlabl>
+            <attrdef>Flag indicating whether an event occurs on an NHD flowline which may be navigated using NHDPlus tools.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>Y/N value of 1 byte.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Coastal</attrlabl>
+            <attrdef>Flag indicating whether an event occurs on an NHD flowline which has a Coastal FCode.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>Y/N value of 1 byte.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Vertices</attrlabl>
+            <attrdef>Numeric count of individual vertices in the Event feature.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>524288</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Vendor geometry type</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Geometry Object</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ObjectID</attrlabl>
+            <attrdef>Vendor required surrogate key.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>2147483647</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>tmdl_a</enttypl>
+            <enttypd>Area Event Table</enttypd>
+            <enttypds>Reach Address Database</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Permanent_Identifier</attrlabl>
+            <attrdef>40-char GUID value that uniquely identifies the occurrence of each event.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>40-byte Global Universal Unique Identifier</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>EventDate</attrlabl>
+            <attrdef>The date the event was created or updated.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Date value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ReachCode</attrlabl>
+            <attrdef>Unique identifier composed of two parts. The first eight digits are the subbasin code defines by FIPS 103, next six digits is a randomly assigned sequential number unique within a Cataloging Unit, length 14.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value of 14 bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ReachSMDate</attrlabl>
+            <attrdef>Date that the reach code was assigned.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Date value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ReachResolution</attrlabl>
+            <attrdef>Code for source resolution: 1=Local resolution, 2=High resolution, 3=Medium resolution.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>2</rdommin>
+                  <rdommax>3</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Feature_Permanent_Identifier</attrlabl>
+            <attrdef>40-char GUID value that uniquely identifies the NHD feature upon which the event is located.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>40-byte Global Universal Unique Identifier</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FeatureClassRef</attrlabl>
+            <attrdef>Domain value indicating the type of NHD feature the event is associated with.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>5</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_Originator</attrlabl>
+            <attrdef>The organization responsible for the submission of the data. In most cases this is a state abbreviation.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 130 bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_DataDesc</attrlabl>
+            <attrdef>Supplemental data relevant to the event.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 100 bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_FeatureID</attrlabl>
+            <attrdef>Key field linking the event to source program data.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Codes of varied formats no more than 100 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FeatureDetailURL</attrlabl>
+            <attrdef>Http link leading to online resources with further information about the event.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Http internet link no more than 255 bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>EventType</attrlabl>
+            <attrdef>Domain value indicating the program for which the event has been created.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>10001</rdommin>
+                  <rdommax>10999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Event_AreaSQKM</attrlabl>
+            <attrdef>Area of areal event record in square kilometers.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0.00001</rdommin>
+                  <rdommax>999999999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>GeogState</attrlabl>
+            <attrdef>Abbreviation of US state or state equivalent where the majority of the event is located.</attrdef>
+            <attrdefs>U.S. Postal Service</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Official USPS state abbreviations, as shown in Publication 65, National 5-Digit ZIP Code and Post Office Directory</codesetn>
+                  <codesets>U.S. Postal Service</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Cycle_Year</attrlabl>
+            <attrdef>Cycle year of data</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>String value indicating year four bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Start_Date</attrlabl>
+            <attrdef>Start date of data</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>4/1/1998</rdommin>
+                  <rdommax>4/1/2100</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>End_Date</attrlabl>
+            <attrdef>End date of data</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>4/1/1998</rdommin>
+                  <rdommax>4/1/2100</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>WBD_HUC12</attrlabl>
+            <attrdef>WBD HUC12 subwatershed that most encompasses the NHD feature</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>12-digit numeric code for the subwatershed.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>WBD_HUC12_Percent</attrlabl>
+            <attrdef>Percentage of the feature contained within the WBD12 unit</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>0.999999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>NHDReach_CAC</attrlabl>
+            <attrdef>For reached area events, this value is the coefficient of areal correspondence between the event geometry and its parent NHD reach geometry.  A value of 1 indicates the area event geometry is equal to the parent reach geometry.  The majority of area events in the RAD are equal to the entire parent reach.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>1</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Vertices</attrlabl>
+            <attrdef>Numeric count of individual vertices in the Event feature.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>524288</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Vendor geometry type</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Geometry Object</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ObjectID</attrlabl>
+            <attrdef>Vendor required surrogate key.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>2147483647</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>tmdl_evt2meta</enttypl>
+            <enttypd>Event2Metadata Table</enttypd>
+            <enttypds>Reach Address Database</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Permanent_Identifier</attrlabl>
+            <attrdef>40-char GUID value that uniquely identifies the occurrence of each event.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>40-byte Global Universal Unique Identifier</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Meta_ProcessID</attrlabl>
+            <attrdef>Unique permanent ID value which uniquely identifies a process.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>40-byte Global Universal Unique Identifier</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ObjectID</attrlabl>
+            <attrdef>Vendor required surrogate key.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>2147483647</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>tmdl_metadata</enttypl>
+            <enttypd>Event Metadata Table</enttypd>
+            <enttypds>Reach Address Database</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Meta_ProcessID</attrlabl>
+            <attrdef>Unique permanent ID value which uniquely identifies a process.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>40-byte Global Universal Unique Identifier</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ProcessDescription</attrlabl>
+            <attrdef>Process used to create the event data.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Explanation of the process used to create the data, including parameters or tolerances.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ProcessDate</attrlabl>
+            <attrdef>Date when the data was completed.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>4/1/1998</rdommin>
+                  <rdommax>4/1/2100</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AttributeAccuracyReport</attrlabl>
+            <attrdef>Explanation of entities and assignments of values in dataset.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 1800 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>LogicalConsistencyReport</attrlabl>
+            <attrdef>Explanation of fidelity and relationships in dataset, and tests used.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 1000 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CompletenessReport</attrlabl>
+            <attrdef>Information about omissions, criteria, definitions used to derive dataset.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 2400 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HorizPositionalAccuracyReport</attrlabl>
+            <attrdef>Horizontal coordinate measurements and description of test used.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 3100 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>VertPositionalAccuracyReport</attrlabl>
+            <attrdef>Vertical coordinate measurements and description of test used.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 3100 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>MetadataStandardName</attrlabl>
+            <attrdef>Name of the metadata standard used to document the dataset.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 100 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>MetadataStandardVersion</attrlabl>
+            <attrdef>Identification of the version of the metadata standard used to document it.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 40 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>MetadataDate</attrlabl>
+            <attrdef>Date the metadata was last created or updated.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Date value.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DatasetCredit</attrlabl>
+            <attrdef>Recognition of those who contributed to the dataset.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 4000 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ContactOrganization</attrlabl>
+            <attrdef>Name or organization to which type of contact applies.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 100 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AddressType</attrlabl>
+            <attrdef>Information provided about the address, i.e. mailing, physical, etc.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 40 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Address</attrlabl>
+            <attrdef>Address line for the address.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 100 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>City</attrlabl>
+            <attrdef>City of the address.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 40 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>StateOrProvince</attrlabl>
+            <attrdef>State or province of the address.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 30 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PostalCode</attrlabl>
+            <attrdef>ZIP or other postal code of the address.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 20 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ContactVoiceTelephone</attrlabl>
+            <attrdef>Telephone number to reach organization or individual.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 40 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ContactInstructions</attrlabl>
+            <attrdef>Supplemental instructions to contact organization or individual.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 120 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ContactEmailAddress</attrlabl>
+            <attrdef>Email address to reach organization or individual.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 40 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ObjectID</attrlabl>
+            <attrdef>Vendor required surrogate key.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>2147483647</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>tmdl_srccit</enttypl>
+            <enttypd>Source Citation Metadata</enttypd>
+            <enttypds>Reach Address Database</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Source_DatasetID</attrlabl>
+            <attrdef>Unique permanent ID value which uniquely identifies a source citation record.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>40-byte Global Universal Unique Identifier</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Title</attrlabl>
+            <attrdef>Name by which the dataset is known.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 255 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SourceCitationAbbreviation</attrlabl>
+            <attrdef>Short form alias for source citation.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 255 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Originator</attrlabl>
+            <attrdef>Name of organization or individual who developed the dataset.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 400 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PublicationDate</attrlabl>
+            <attrdef>Date the dataset is published or made available for release.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Date value.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>BeginningDate</attrlabl>
+            <attrdef>First year of the event (if range of dates applies).</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Date value.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>EndingDate</attrlabl>
+            <attrdef>Last year of the event (if range of dates applies).</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Date value.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SourceContribution</attrlabl>
+            <attrdef>Brief statement identifying information contributed by source to dataset.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 255 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SourceScaleDenominator</attrlabl>
+            <attrdef>Denomination of representative fraction on a map.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Numeric scale value.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>TypeOfSourceMedia</attrlabl>
+            <attrdef>The medium of the source dataset, i.e. paper, CD-ROM, online, etc.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 255 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CalendarDate</attrlabl>
+            <attrdef>The year (if single date applies).</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Date value.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SourceCurrentnessReference</attrlabl>
+            <attrdef>The basis on which the source time period of content information of the source data set is determined.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 255 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Meta_ProcessID</attrlabl>
+            <attrdef>Unique permanent ID value which uniquely identifies a process.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>40-byte Global Universal Unique Identifier</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ObjectID</attrlabl>
+            <attrdef>Vendor required surrogate key.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>2147483647</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>tmdl_sfid</enttypl>
+            <enttypd>Source Feature ID Summary Table</enttypd>
+            <enttypds>Reach Address Database</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Source_FeatureID</attrlabl>
+            <attrdef>Key field linking the event to source program data.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>Codes of varied formats no more than 100 characters in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Source_Originator</attrlabl>
+            <attrdef>The organization responsible for the submission of the data. In most cases this is a state abbreviation.</attrdef>
+            <attrdefs>USGS NHD Model 2.2.1</attrdefs>
+            <attrdomv>
+               <udom>String value no more than 130 bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Start_Date</attrlabl>
+            <attrdef>Start date of data</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>4/1/1998</rdommin>
+                  <rdommax>4/1/2100</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Cycle_Year</attrlabl>
+            <attrdef>Cycle year of data</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>String value indicating year four bytes in length.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Event_Count</attrlabl>
+            <attrdef>Count of RAD events having this source feature id.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>999999999999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Load_Date</attrlabl>
+            <attrdef>Initial date the source feature ID was loaded into the reach address database.  This represents the date of data processing and has no reflection on the vintage of the events themselves which are expressed through EventDate, Start_Date and Cycle_Year.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>Date value.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Update_Date</attrlabl>
+            <attrdef>Optional date tracking any subsequent updates to the source feature ID.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>Date value.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Loader_ID</attrlabl>
+            <attrdef>ID of the authority submitting the source feature ID to the reach address database.  This represents the agent doing the indexing and submitting the data through EPA's CDX gateway and does not represent the source of the data which is designated via the Source Originator field.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <udom>String value.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Total_Points</attrlabl>
+            <attrdef>Total count of all point events participating in the Source Feature ID.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>999999999999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Total_LengthKm</attrlabl>
+            <attrdef>Total length in kilometers of all line events participating in the Source Feature ID.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>999999999999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Total_AreaSqKm</attrlabl>
+            <attrdef>Total area in square kilometers of all area events participating in the Source Feature ID.</attrdef>
+            <attrdefs>Reach Address Database</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>999999999999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ObjectID</attrlabl>
+            <attrdef>Vendor required surrogate key.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>2147483647</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>US EPA Headquarters</cntorg>
+               <cntper>Office of Water</cntper>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>1200 Pennsylvania Avenue, NW MC 4503T</address>
+               <city>Washington</city>
+               <state>DC</state>
+               <postal>20460</postal>
+            </cntaddr>
+            <cntvoice>202-566-1705</cntvoice>
+            <cntemail>reid.wendy@epa.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <resdesc>Live Data and Maps</resdesc>
+      <distliab>Although these data have been processed successfully on a computer system at the Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Shapefile or File Geodatabase</formname>
+               <formcont>These spatial files represent the most up-to-date publicly available Water program data by State or arbitrary region from the Reach Address Database (RAD).</formcont>
+               <filedec>Zip (compressed) file</filedec>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://edg.epa.gov/clipship/</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>ArcGIS Server Map Service</formname>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://watersgeo.epa.gov/ArcGIS/rest/services/OWRAD_NP21/TMDL_NP21/MapServer/</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>ArcGIS Server WMS Service</formname>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://watersgeo.epa.gov/ArcGIS/services/OWRAD_NP21/TMDL_NP21/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>ArcGIS Server REST interface</formname>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://watersgeo.epa.gov/ArcGIS/rest/services/OWRAD_NP21/TMDL_NP21/MapServer?f=json&amp;pretty=true</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>ArcGIS Server SOAP interface</formname>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://watersgeo.epa.gov/ArcGIS/services/OWRAD_NP21/TMDL_NP21/MapServer?wsdl</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20211026</metd>
+      <metfrd>20200718</metfrd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>US EPA Headquarters</cntorg>
+               <cntper>Office of Water</cntper>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>1200 Pennsylvania Avenue, NW MC 4503T</address>
+               <city>Washington</city>
+               <state>DC</state>
+               <postal>20460</postal>
+            </cntaddr>
+            <cntvoice>202-566-1705</cntvoice>
+            <cntemail>reid.wendy@epa.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+      <metuc>{88E53742-CF0D-443C-94AF-8139C09471F9}</metuc>
+   </metainfo>
+</metadata>

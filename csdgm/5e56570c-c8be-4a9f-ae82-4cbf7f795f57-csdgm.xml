@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <PublishedDocID>{CBA1BF20-864D-43AA-9F9A-E029F1D23C6F}</PublishedDocID>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <DataProperties>
+      <itemProps>
+        <imsContentType>002</imsContentType>
+      </itemProps>
+    </DataProperties>
+    <scaleRange>
+      <minScale>50000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>NAP</ArcGISProfile>
+    <ModDate>20170914</ModDate>
+    <ModTime>12382000</ModTime>
+  </Esri>
+  <idinfo>
+    <keywords>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arizona</placekey>
+        <placekey>California</placekey>
+        <placekey>Hawaii</placekey>
+        <placekey>Nevada</placekey>
+      </place>
+      <theme>
+        <themekey>society</themekey>
+        <themekey>boundaries</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>Human</themekey>
+        <themekey>Air</themekey>
+      </theme>
+    </keywords>
+    <citation>
+      <citeinfo>
+        <origin>US Census Bureau</origin>
+        <title>Census 2012 Core Based Statistical Area (CBSAs) Polygons with Population Estimates, US EPA Region 9, 2014, USCB</title>
+        <pubinfo>
+          <publish>U.S. Environmental Protection Agency, Region 9</publish>
+          <pubplace>San Francisco, CA</pubplace>
+        </pubinfo>
+        <pubdate>20151001</pubdate>
+        <onlink>https://edg.epa.gov</onlink>
+        <onlink>https://www.census.gov/geo/maps-data/data/tiger-line.html</onlink>
+        <onlink>https://www.census.gov/geo/maps-data/data/tiger-line.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Core Based Statistical Areas (CBSAs) from the US Census Bureau's TIGER files download website, joined with 2014 population estimate data downloaded from the US Census Bureau's population estimates website.</abstract>
+      <purpose>For general demographic information and boundary delineation in US EPA Region 9.</purpose>
+    </descript>
+    <timeperd>
+      <current>Publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20151001</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+    <spdom>
+      <bounding>
+        <westbc>-178.443593</westbc>
+        <eastbc>-109.047612</eastbc>
+        <northbc>42.002207</northbc>
+        <southbc>18.865460</southbc>
+      </bounding>
+    </spdom>
+    <secinfo>
+      <secsys>FIPS Pub 199</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Fletcher Clover</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>AIR Division</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>(415) 972-3991</cntvoice>
+        <cntemail>clover.fletcher@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region9/air/maps/</cntinst>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Tests for integrity have not been performed.</logic>
+    <complete>Features represented have not been tested for completeness</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdate>20151001</procdate>
+        <procdesc>Downloaded national nation-level geography database</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+              <cntper>Fletcher Clover</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>75 Hawthorne Street</address>
+              <address>AIR Division</address>
+              <city>San Francisco</city>
+              <state>CA</state>
+              <postal>94105</postal>
+            </cntaddr>
+            <cntvoice>(415) 972-3991</cntvoice>
+            <cntemail>clover.fletcher@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region9/air/maps/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>20151001</procdate>
+        <procdesc>Downloaded CSV file, "Metropolitan and micropolitan statistical area population and estimated components of change: April 1, 2010 to July 1, 2012 (CBSA-EST2012-alldata)"</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+              <cntper>Fletcher Clover</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>75 Hawthorne Street</address>
+              <address>AIR Division</address>
+              <city>San Francisco</city>
+              <state>CA</state>
+              <postal>94105</postal>
+            </cntaddr>
+            <cntvoice>(415) 972-3991</cntvoice>
+            <cntemail>clover.fletcher@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region9/air/maps/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>20151001</procdate>
+        <procdesc>Imported CSV file into downloaded geodatabase</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+              <cntper>Fletcher Clover</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>75 Hawthorne Street</address>
+              <address>AIR Division</address>
+              <city>San Francisco</city>
+              <state>CA</state>
+              <postal>94105</postal>
+            </cntaddr>
+            <cntvoice>(415) 972-3991</cntvoice>
+            <cntemail>clover.fletcher@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region9/air/maps/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>20151001</procdate>
+        <procdesc>Joined CSV table and CBSA feature class, using  'GEOID' and 'CBSA' as join fields.</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+              <cntper>Fletcher Clover</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>75 Hawthorne Street</address>
+              <address>AIR Division</address>
+              <city>San Francisco</city>
+              <state>CA</state>
+              <postal>94105</postal>
+            </cntaddr>
+            <cntvoice>(415) 972-3991</cntvoice>
+            <cntemail>clover.fletcher@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region9/air/maps/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdate>20151001</procdate>
+        <procdesc>Deleted unnecessary information and created metadata.</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+              <cntper>Fletcher Clover</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>75 Hawthorne Street</address>
+              <address>AIR Division</address>
+              <city>San Francisco</city>
+              <state>CA</state>
+              <postal>94105</postal>
+            </cntaddr>
+            <cntvoice>(415) 972-3991</cntvoice>
+            <cntemail>clover.fletcher@epa.gov</cntemail>
+            <cntinst>http://www.epa.gov/region9/air/maps/</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <srcinfo>
+        <srcscale>2400</srcscale>
+        <typesrc>online</typesrc>
+        <srccitea>US Census</srccitea>
+        <srccontr>US Census</srccontr>
+        <srctime>
+          <srccurr>publication date</srccurr>
+          <timeinfo>
+            <sngdate>
+              <caldate>2013</caldate>
+            </sngdate>
+          </timeinfo>
+        </srctime>
+        <srccite>
+          <citeinfo>
+            <origin>US Census Bureau TIGER/Line shapefiles</origin>
+            <title>2014 TIGER/Line shapefiles</title>
+            <edition>2014</edition>
+            <geoform>vector digital data</geoform>
+            <pubdate>20140701</pubdate>
+            <pubinfo>
+              <publish>US Census Bureau</publish>
+              <pubplace>Washington, DC</pubplace>
+            </pubinfo>
+            <serinfo>
+              <sername>2014 TIGER/Line&#194;&#174; Shapefiles: Core Based Statistical Areas</sername>
+              <issue>tl_2014_us_cbsa.zip</issue>
+            </serinfo>
+            <onlink>https://www.census.gov/geo/maps-data/data/tiger-geodatabases.html</onlink>
+            <onlink>http://www.census.gov/geo/maps-data/data/tiger.html</onlink>
+          </citeinfo>
+        </srccite>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+  </spdoinfo>
+  <distinfo>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Although these data have been processed successfully on a computer system at the Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Cheryl Henley</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>415-972-3586</cntvoice>
+        <cntfax>415-947-3553</cntfax>
+        <cntemail>henley.cheryl@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region09/</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20220218</metd>
+    <metfrd>20191001</metfrd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+          <cntper>Fletcher Clover</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>75 Hawthorne Street</address>
+          <address>AIR Division</address>
+          <city>San Francisco</city>
+          <state>CA</state>
+          <postal>94105</postal>
+        </cntaddr>
+        <cntvoice>(415) 972-3991</cntvoice>
+        <cntemail>clover.fletcher@epa.gov</cntemail>
+        <cntinst>http://www.epa.gov/region9/air/maps/</cntinst>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CBSA_2014_pop</enttypl>
+        <enttypd>Core Based Statistial Areas with 2014 Population Estimates</enttypd>
+        <enttypds>US Census Bureau</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID_1</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOID</attrlabl>
+        <attrdef>Metropolitan statistical area/micropolitan statistical area identifier; metropolitan statistical area/micropolitan statistical area code.</attrdef>
+        <attrdefs>US Census Bureau</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>12540</rdommin>
+            <rdommax>49740</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAMELSAD</attrlabl>
+        <attrdef>Current name and the translated legal/statistical area description code for metropolitan statistical area/micropolitan statistical area.</attrdef>
+        <attrdefs>US Census Bureau</attrdefs>
+        <attrdomv>
+          <udom>Place name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CENSUS2010POP</attrlabl>
+        <attrdef>4/1/2010 resident Census 2010 population</attrdef>
+        <attrdefs>U.S. Census Bureau, Population Division</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>16528</rdommin>
+            <rdommax>12828837</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>POPESTIMATE2014</attrlabl>
+        <attrdef>Estimated resident population in 2014</attrdef>
+        <attrdefs>U.S. Census Bureau, Population Division</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>17279</rdommin>
+            <rdommax>13262220</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Annual Resident Population Estimates and Estimated Components of Resident Population Change for Metropolitan and Micropolitan Statistical Areas and Their Geographic Components: April 1, 2010 to July 1, 2014</eaover>
+      <eadetcit>U.S. Census Bureau, Population Division, March 2013</eadetcit>
+    </overview>
+  </eainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <mdLang>
+    <languageCode value="eng"/>
+    <countryCode value="US"/>
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004"/>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Fletcher Clover</rpIndName>
+    <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+    <rpPosName>GIS Analyst</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>(415) 972-3991</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>AIR Division</delPoint>
+        <delPoint>75 Hawthorne Street</delPoint>
+        <city>San Francisco</city>
+        <adminArea>CA</adminArea>
+        <postCode>94105</postCode>
+        <eMailAdd>clover.fletcher@epa.gov</eMailAdd>
+      </cntAddress>
+      <cntInstr>http://www.epa.gov/region9/air/maps/</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007"/>
+    </role>
+  </mdContact>
+  <mdDateSt>20170914</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpIndName>Cheryl Henley</rpIndName>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+        <rpPosName>GIS Coordinator</rpPosName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>415-972-3586</voiceNum>
+            <faxNum>415-947-3553</faxNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>75 Hawthorne Street</delPoint>
+            <city>San Francisco</city>
+            <adminArea>CA</adminArea>
+            <postCode>94105</postCode>
+            <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+          </cntAddress>
+          <cntInstr>http://www.epa.gov/region09/</cntInstr>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005"/>
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>https://edg.epa.gov</linkage>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>https://www.census.gov/geo/maps-data/data/tiger-line.html</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Census 2012 Core Based Statistical Area (CBSAs) Polygons with Population Estimates, US EPA Region 9, 2014, USCB</resTitle>
+      <date>
+        <pubDate>2015-10-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint>San Francisco, CA</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010"/>
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>US Census Bureau</rpOrgName>
+        <role>
+          <RoleCd value="006"/>
+        </role>
+      </citRespParty>
+    </idCitation>
+    <idAbs>Core Based Statistical Areas (CBSAs) from the US Census Bureau's TIGER files download website, joined with 2014 population estimate data downloaded from the US Census Bureau's population estimates website.</idAbs>
+    <idPurp>For general demographic information and boundary delineation in US EPA Region 9.</idPurp>
+    <idStatus>
+      <ProgCd value="001"/>
+    </idStatus>
+    <idPoC>
+      <rpIndName>Fletcher Clover</rpIndName>
+      <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+      <rpPosName>GIS Analyst</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>(415) 972-3991</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>75 Hawthorne Street</delPoint>
+          <delPoint>AIR Division</delPoint>
+          <city>San Francisco</city>
+          <adminArea>CA</adminArea>
+          <postCode>94105</postCode>
+          <eMailAdd>clover.fletcher@epa.gov</eMailAdd>
+        </cntAddress>
+        <cntInstr>http://www.epa.gov/region9/air/maps/</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007"/>
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009"/>
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>Arizona</keyword>
+      <keyword>California</keyword>
+      <keyword>Nevada</keyword>
+      <keyword>Hawaii</keyword>
+    </placeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Category</resTitle>
+      </thesaName>
+      <keyword>society</keyword>
+      <keyword>boundaries</keyword>
+      <keyword>geoscientificInformation</keyword>
+    </themeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>EPA GIS Keyword Thesaurus</resTitle>
+      </thesaName>
+      <keyword>Human</keyword>
+      <keyword>Air</keyword>
+    </themeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>User</resTitle>
+      </thesaName>
+    </themeKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>Although these data have been processed successfully on a computer system at the Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</useLimit>
+        <accessConsts>
+          <RestrictCd value="">Empty</RestrictCd>
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="">Empty</RestrictCd>
+        </useConsts>
+        <othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <SecConsts>
+        <classSys>FIPS Pub 199</classSys>
+        <handDesc>Standard Technical Controls</handDesc>
+        <class>
+          <ClasscationCd value="001">Unclassified</ClasscationCd>
+        </class>
+      </SecConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001"/>
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng"/>
+    </dataLang>
+    <dataExt>
+      <exDesc>Publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2015-10-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-178.443593</westBL>
+          <eastBL>-109.047612</eastBL>
+          <southBL>18.86546</southBL>
+          <northBL>42.002207</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="009">Unrestricted License</RestrictCd>
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="">Empty</RestrictCd>
+        </useConsts>
+        <othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+        <useLimit>EPA Public Domain License</useLimit>
+      </LegConsts>
+    </resConst>
+    <tpCat>
+      <TopicCatCd value="016"/>
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="008"/>
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="003"/>
+    </tpCat>
+  </dataIdInfo>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="012"/>
+    </maintFreq>
+    <dateNext>20191001</dateNext>
+  </mdMaint>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005"/>
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Tests for integrity have not been performed.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Features represented have not been tested for completeness</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</measDesc>
+    </report>
+    <dataLineage>
+      <dataSource>
+        <srcDesc>US Census</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015"/>
+        </srcMedName>
+        <srcScale>
+          <rfDenom>2400</rfDenom>
+        </srcScale>
+        <srcCitatn>
+          <resTitle>2014 TIGER/Line shapefiles</resTitle>
+          <resAltTitle>US Census</resAltTitle>
+          <date>
+            <pubDate>2014-07-01</pubDate>
+          </date>
+          <resEd>2014</resEd>
+          <citRespParty>
+            <rpOrgName>US Census Bureau</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Washington, DC</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010"/>
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>US Census Bureau TIGER/Line shapefiles</rpOrgName>
+            <role>
+              <RoleCd value="006"/>
+            </role>
+          </citRespParty>
+          <presForm>
+            <PresFormCd value="005"/>
+          </presForm>
+          <presForm>
+            <fgdcGeoform>vector digital data</fgdcGeoform>
+          </presForm>
+          <datasetSeries>
+            <seriesName>2014 TIGER/Line&#194;&#174; Shapefiles: Core Based Statistical Areas</seriesName>
+            <issId>tl_2014_us_cbsa.zip</issId>
+          </datasetSeries>
+          <citOnlineRes>
+            <linkage>https://www.census.gov/geo/maps-data/data/tiger-geodatabases.html</linkage>
+          </citOnlineRes>
+          <citOnlineRes>
+            <linkage>https://www.census.gov/geo/maps-data/data/tiger.html</linkage>
+          </citOnlineRes>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>publication date</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2013-01-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <prcStep>
+        <stepDesc>Imported CSV file into downloaded geodatabase</stepDesc>
+        <stepDateTm>2015-10-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Fletcher Clover</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+          <rpPosName>GIS Analyst</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(415) 972-3991</voiceNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>AIR Division</delPoint>
+              <delPoint>75 Hawthorne Street</delPoint>
+              <city>San Francisco</city>
+              <adminArea>CA</adminArea>
+              <postCode>94105</postCode>
+              <eMailAdd>clover.fletcher@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region9/air/maps/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009"/>
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Joined CSV table and CBSA feature class, using 'GEOID' and 'CBSA' as join fields.</stepDesc>
+        <stepDateTm>2015-10-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Fletcher Clover</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+          <rpPosName>GIS Analyst</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(415) 972-3991</voiceNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>75 Hawthorne Street</delPoint>
+              <delPoint>AIR Division</delPoint>
+              <city>San Francisco</city>
+              <adminArea>CA</adminArea>
+              <postCode>94105</postCode>
+              <eMailAdd>clover.fletcher@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region9/air/maps/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009"/>
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Downloaded national nation-level geography database</stepDesc>
+        <stepDateTm>2015-10-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Fletcher Clover</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+          <rpPosName>GIS Analyst</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(415) 972-3991</voiceNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>AIR Division</delPoint>
+              <delPoint>75 Hawthorne Street</delPoint>
+              <city>San Francisco</city>
+              <adminArea>CA</adminArea>
+              <postCode>94105</postCode>
+              <eMailAdd>clover.fletcher@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region9/air/maps/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009"/>
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Deleted unnecessary information and created metadata.</stepDesc>
+        <stepDateTm>2015-10-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Fletcher Clover</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+          <rpPosName>GIS Analyst</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(415) 972-3991</voiceNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>AIR Division</delPoint>
+              <delPoint>75 Hawthorne Street</delPoint>
+              <city>San Francisco</city>
+              <adminArea>CA</adminArea>
+              <postCode>94105</postCode>
+              <eMailAdd>clover.fletcher@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region9/air/maps/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009"/>
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Downloaded CSV file, "Metropolitan and micropolitan statistical area population and estimated components of change: April 1, 2010 to July 1, 2012 (CBSA-EST2012-alldata)"</stepDesc>
+        <stepDateTm>2015-10-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Fletcher Clover</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+          <rpPosName>GIS Analyst</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(415) 972-3991</voiceNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>AIR Division</delPoint>
+              <delPoint>75 Hawthorne Street</delPoint>
+              <city>San Francisco</city>
+              <adminArea>CA</adminArea>
+              <postCode>94105</postCode>
+              <eMailAdd>clover.fletcher@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region9/air/maps/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009"/>
+          </role>
+        </stepProc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="d103755e79109b15bbb00b0f67396ec5" EsriPropertyType="Base64" SourceMetadataSchema="fgdc" SourceMetadataDocId="{CBA1BF20-864D-43AA-9F9A-E029F1D23C6F}">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YSB4bWw6bGFu
+Zz0iZW4iPg0KICA8RXNyaT4NCiAgICA8UHVibGlzaGVkRG9jSUQ+e0NCQTFCRjIwLTg2NEQtNDNB
+QS05RjlBLUUwMjlGMUQyM0M2Rn08L1B1Ymxpc2hlZERvY0lEPg0KICA8L0Vzcmk+DQogIDxpZGlu
+Zm8+DQogICAgPGtleXdvcmRzPg0KICAgICAgPHRoZW1lPg0KICAgICAgICA8dGhlbWVrdD5JU08g
+MTkxMTUgVG9waWMgQ2F0ZWdvcnk8L3RoZW1la3Q+DQogICAgICAgIDx0aGVtZWtleT5ib3VuZGFy
+aWVzPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5Pmdlb3NjaWVudGlmaWNJbmZvcm1hdGlv
+bjwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5zb2NpZXR5PC90aGVtZWtleT4NCiAgICAg
+IDwvdGhlbWU+DQogICAgICA8dGhlbWU+DQogICAgICAgIDx0aGVtZWt0PkVQQSBHSVMgS2V5d29y
+ZCBUaGVzYXVydXM8L3RoZW1la3Q+DQogICAgICAgIDx0aGVtZWtleT5BaXI8L3RoZW1la2V5Pg0K
+ICAgICAgICA8dGhlbWVrZXk+SHVtYW48L3RoZW1la2V5Pg0KICAgICAgPC90aGVtZT4NCiAgICAg
+IDxwbGFjZT4NCiAgICAgICAgPHBsYWNla3Q+Tm9uZTwvcGxhY2VrdD4NCiAgICAgICAgPHBsYWNl
+a2V5PkFyaXpvbmE8L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+Q2FsaWZvcm5pYTwvcGxh
+Y2VrZXk+DQogICAgICAgIDxwbGFjZWtleT5IYXdhaWk8L3BsYWNla2V5Pg0KICAgICAgICA8cGxh
+Y2VrZXk+TmV2YWRhPC9wbGFjZWtleT4NCiAgICAgIDwvcGxhY2U+DQogICAgICA8dGhlbWU+DQog
+ICAgICAgIDx0aGVtZWt0PlVzZXI8L3RoZW1la3Q+DQogICAgICA8L3RoZW1lPg0KICAgIDwva2V5
+d29yZHM+DQogICAgPGNpdGF0aW9uPg0KICAgICAgPGNpdGVpbmZvPg0KICAgICAgICA8b3JpZ2lu
+PlVTIENlbnN1cyBCdXJlYXU8L29yaWdpbj4NCiAgICAgICAgPHRpdGxlPkNvcmUgQmFzZWQgU3Rh
+dGlzdGljYWwgQXJlYXMgaW4gVVMgRVBBIFJlZ2lvbiA5LCB3aXRoIDIwMTQgUG9wdWxhdGlvbiBF
+c3RpbWF0ZXM8L3RpdGxlPg0KICAgICAgICA8cHViaW5mbz4NCiAgICAgICAgICA8cHVibGlzaD5V
+LlMuIEVudmlyb25tZW50YWwgUHJvdGVjdGlvbiBBZ2VuY3ksIFJlZ2lvbiA5PC9wdWJsaXNoPg0K
+ICAgICAgICAgIDxwdWJwbGFjZT5TYW4gRnJhbmNpc2NvLCBDQTwvcHVicGxhY2U+DQogICAgICAg
+IDwvcHViaW5mbz4NCiAgICAgICAgPHB1YmRhdGU+MjAxNTEwMDE8L3B1YmRhdGU+DQogICAgICAg
+IDxvbmxpbms+aHR0cDovL2VkZy5lcGEuZ292PC9vbmxpbms+DQogICAgICAgIDxvbmxpbms+aHR0
+cDovL3d3dy5jZW5zdXMuZ292L2dlby9tYXBzLWRhdGEvZGF0YS90aWdlci1saW5lLmh0bWw8L29u
+bGluaz4NCiAgICAgICAgPG9ubGluaz5odHRwOi8vd3d3LmNlbnN1cy5nb3YvZ2VvL21hcHMtZGF0
+YS9kYXRhL3RpZ2VyLWxpbmUuaHRtbDwvb25saW5rPg0KICAgICAgPC9jaXRlaW5mbz4NCiAgICA8
+L2NpdGF0aW9uPg0KICAgIDxkZXNjcmlwdD4NCiAgICAgIDxhYnN0cmFjdD5Db3JlIEJhc2VkIFN0
+YXRpc3RpY2FsIEFyZWFzIChDQlNBcykgZnJvbSB0aGUgVVMgQ2Vuc3VzIEJ1cmVhdSdzIFRJR0VS
+IGZpbGVzIGRvd25sb2FkIHdlYnNpdGUsIGpvaW5lZCB3aXRoIDIwMTQgcG9wdWxhdGlvbiBlc3Rp
+bWF0ZSBkYXRhIGRvd25sb2FkZWQgZnJvbSB0aGUgVVMgQ2Vuc3VzIEJ1cmVhdSdzIHBvcHVsYXRp
+b24gZXN0aW1hdGVzIHdlYnNpdGUuPC9hYnN0cmFjdD4NCiAgICAgIDxwdXJwb3NlPkZvciBnZW5l
+cmFsIGRlbW9ncmFwaGljIGluZm9ybWF0aW9uIGFuZCBib3VuZGFyeSBkZWxpbmVhdGlvbiBpbiBV
+UyBFUEEgUmVnaW9uIDkuPC9wdXJwb3NlPg0KICAgIDwvZGVzY3JpcHQ+DQogICAgPHRpbWVwZXJk
+Pg0KICAgICAgPGN1cnJlbnQ+UHVibGljYXRpb24gZGF0ZTwvY3VycmVudD4NCiAgICAgIDx0aW1l
+aW5mbz4NCiAgICAgICAgPHNuZ2RhdGU+DQogICAgICAgICAgPGNhbGRhdGU+MjAxNTEwMDE8L2Nh
+bGRhdGU+DQogICAgICAgIDwvc25nZGF0ZT4NCiAgICAgIDwvdGltZWluZm8+DQogICAgPC90aW1l
+cGVyZD4NCiAgICA8c3RhdHVzPg0KICAgICAgPHByb2dyZXNzPkNvbXBsZXRlPC9wcm9ncmVzcz4N
+CiAgICAgIDx1cGRhdGU+QXMgbmVlZGVkPC91cGRhdGU+DQogICAgPC9zdGF0dXM+DQogICAgPGFj
+Y2NvbnN0Pk5vbmUuPC9hY2Njb25zdD4NCiAgICA8dXNlY29uc3Q+Tm9uZS4gUGxlYXNlIGNoZWNr
+IHNvdXJjZXMsIHNjYWxlLCBhY2N1cmFjeSwgY3VycmVudG5lc3MgYW5kIG90aGVyIGF2YWlsYWJs
+ZSBpbmZvcm1hdGlvbi4gUGxlYXNlIGNvbmZpcm0gdGhhdCB5b3UgYXJlIHVzaW5nIHRoZSBtb3N0
+IHJlY2VudCBjb3B5IG9mIGJvdGggZGF0YSBhbmQgbWV0YWRhdGEuICBBY2tub3dsZWRnZW1lbnQg
+b2YgdGhlIEVQQSB3b3VsZCBiZSBhcHByZWNpYXRlZC48L3VzZWNvbnN0Pg0KICAgIDxzcGRvbT4N
+CiAgICAgIDxib3VuZGluZz4NCiAgICAgICAgPHdlc3RiYz4tMTc4LjQ0MzU5Mzwvd2VzdGJjPg0K
+ICAgICAgICA8ZWFzdGJjPi0xMDkuMDQ3NjEyPC9lYXN0YmM+DQogICAgICAgIDxub3J0aGJjPjQy
+LjAwMjIwNzwvbm9ydGhiYz4NCiAgICAgICAgPHNvdXRoYmM+MTguODY1NDYwPC9zb3V0aGJjPg0K
+ICAgICAgPC9ib3VuZGluZz4NCiAgICA8L3NwZG9tPg0KICAgIDxzZWNpbmZvPg0KICAgICAgPHNl
+Y3N5cz5GSVBTIFB1YiAxOTk8L3NlY3N5cz4NCiAgICAgIDxzZWNjbGFzcz5wdWJsaWM8L3NlY2Ns
+YXNzPg0KICAgICAgPHNlY2hhbmRsPlN0YW5kYXJkIFRlY2huaWNhbCBDb250cm9sczwvc2VjaGFu
+ZGw+DQogICAgPC9zZWNpbmZvPg0KICAgIDxwdGNvbnRhYz4NCiAgICAgIDxjbnRpbmZvPg0KICAg
+ICAgICA8Y250b3JncD4NCiAgICAgICAgICA8Y250b3JnPlUuUy4gRW52aXJvbm1lbnRhbCBQcm90
+ZWN0aW9uIEFnZW5jeSwgUmVnaW9uIDk8L2NudG9yZz4NCiAgICAgICAgICA8Y250cGVyPkZsZXRj
+aGVyIENsb3ZlcjwvY250cGVyPg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRwb3M+
+R0lTIEFuYWx5c3Q8L2NudHBvcz4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0
+eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAgICAgIDxh
+ZGRyZXNzPjc1IEhhd3Rob3JuZSBTdHJlZXQ8L2FkZHJlc3M+DQogICAgICAgICAgPGFkZHJlc3M+
+QUlSIERpdmlzaW9uPC9hZGRyZXNzPg0KICAgICAgICAgIDxjaXR5PlNhbiBGcmFuY2lzY288L2Np
+dHk+DQogICAgICAgICAgPHN0YXRlPkNBPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjk0MTA1
+PC9wb3N0YWw+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPig0MTUpIDk3
+Mi0zOTkxPC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGVtYWlsPmNsb3Zlci5mbGV0Y2hlckBlcGEu
+Z292PC9jbnRlbWFpbD4NCiAgICAgICAgPGNudGluc3Q+aHR0cDovL3d3dy5lcGEuZ292L3JlZ2lv
+bjkvYWlyL21hcHMvPC9jbnRpbnN0Pg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvcHRjb250YWM+
+DQogIDwvaWRpbmZvPg0KICA8ZGF0YXF1YWw+DQogICAgPGxvZ2ljPlRlc3RzIGZvciBpbnRlZ3Jp
+dHkgaGF2ZSBub3QgYmVlbiBwZXJmb3JtZWQuPC9sb2dpYz4NCiAgICA8Y29tcGxldGU+RmVhdHVy
+ZXMgcmVwcmVzZW50ZWQgaGF2ZSBub3QgYmVlbiB0ZXN0ZWQgZm9yIGNvbXBsZXRlbmVzczwvY29t
+cGxldGU+DQogICAgPHBvc2FjYz4NCiAgICAgIDxob3JpenBhPg0KICAgICAgICA8aG9yaXpwYXI+
+RGF0YSB3ZXJlIGNvbGxlY3RlZCB1c2luZyBtZXRob2RzIHRoYXQgaGF2ZSB1bmtub3duIGFjY3Vy
+YWN5IChFUEEgTmF0aW9uYWwgR2Vvc3BhdGlhbCBEYXRhIFBvbGljeSBbTkdEUF0gQWNjdXJhY3kg
+VGllciAxMCkuIEZvciBtb3JlIGluZm9ybWF0aW9uLCBwbGVhc2Ugc2VlIEVQQSdzIE5HRFAgYXQg
+aHR0cDovL2VwYS5nb3YvZ2Vvc3BhdGlhbC9wb2xpY2llcy5odG1sKTwvaG9yaXpwYXI+DQogICAg
+ICA8L2hvcml6cGE+DQogICAgPC9wb3NhY2M+DQogICAgPGxpbmVhZ2U+DQogICAgICA8cHJvY3N0
+ZXA+DQogICAgICAgIDxwcm9jZGF0ZT4yMDE1MTAwMTwvcHJvY2RhdGU+DQogICAgICAgIDxwcm9j
+ZGVzYz5Eb3dubG9hZGVkIG5hdGlvbmFsIG5hdGlvbi1sZXZlbCBnZW9ncmFwaHkgZGF0YWJhc2U8
+L3Byb2NkZXNjPg0KICAgICAgICA8cHJvY2NvbnQ+DQogICAgICAgICAgPGNudGluZm8+DQogICAg
+ICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICAgICAgPGNudG9yZz5VLlMuIEVudmlyb25tZW50
+YWwgUHJvdGVjdGlvbiBBZ2VuY3ksIFJlZ2lvbiA5PC9jbnRvcmc+DQogICAgICAgICAgICAgIDxj
+bnRwZXI+RmxldGNoZXIgQ2xvdmVyPC9jbnRwZXI+DQogICAgICAgICAgICA8L2NudG9yZ3A+DQog
+ICAgICAgICAgICA8Y250cG9zPkdJUyBBbmFseXN0PC9jbnRwb3M+DQogICAgICAgICAgICA8Y250
+YWRkcj4NCiAgICAgICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsIGFkZHJl
+c3M8L2FkZHJ0eXBlPg0KICAgICAgICAgICAgICA8YWRkcmVzcz43NSBIYXd0aG9ybmUgU3RyZWV0
+PC9hZGRyZXNzPg0KICAgICAgICAgICAgICA8YWRkcmVzcz5BSVIgRGl2aXNpb248L2FkZHJlc3M+
+DQogICAgICAgICAgICAgIDxjaXR5PlNhbiBGcmFuY2lzY288L2NpdHk+DQogICAgICAgICAgICAg
+IDxzdGF0ZT5DQTwvc3RhdGU+DQogICAgICAgICAgICAgIDxwb3N0YWw+OTQxMDU8L3Bvc3RhbD4N
+CiAgICAgICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgICAgIDxjbnR2b2ljZT4oNDE1KSA5NzIt
+Mzk5MTwvY250dm9pY2U+DQogICAgICAgICAgICA8Y250ZW1haWw+Y2xvdmVyLmZsZXRjaGVyQGVw
+YS5nb3Y8L2NudGVtYWlsPg0KICAgICAgICAgICAgPGNudGluc3Q+aHR0cDovL3d3dy5lcGEuZ292
+L3JlZ2lvbjkvYWlyL21hcHMvPC9jbnRpbnN0Pg0KICAgICAgICAgIDwvY250aW5mbz4NCiAgICAg
+ICAgPC9wcm9jY29udD4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgICA8cHJvY3N0ZXA+DQogICAg
+ICAgIDxwcm9jZGF0ZT4yMDE1MTAwMTwvcHJvY2RhdGU+DQogICAgICAgIDxwcm9jZGVzYz5Eb3du
+bG9hZGVkIENTViBmaWxlLCAiTWV0cm9wb2xpdGFuIGFuZCBtaWNyb3BvbGl0YW4gc3RhdGlzdGlj
+YWwgYXJlYSBwb3B1bGF0aW9uIGFuZCBlc3RpbWF0ZWQgY29tcG9uZW50cyBvZiBjaGFuZ2U6IEFw
+cmlsIDEsIDIwMTAgdG8gSnVseSAxLCAyMDEyIChDQlNBLUVTVDIwMTItYWxsZGF0YSkiPC9wcm9j
+ZGVzYz4NCiAgICAgICAgPHByb2Njb250Pg0KICAgICAgICAgIDxjbnRpbmZvPg0KICAgICAgICAg
+ICAgPGNudG9yZ3A+DQogICAgICAgICAgICAgIDxjbnRvcmc+VS5TLiBFbnZpcm9ubWVudGFsIFBy
+b3RlY3Rpb24gQWdlbmN5LCBSZWdpb24gOTwvY250b3JnPg0KICAgICAgICAgICAgICA8Y250cGVy
+PkZsZXRjaGVyIENsb3ZlcjwvY250cGVyPg0KICAgICAgICAgICAgPC9jbnRvcmdwPg0KICAgICAg
+ICAgICAgPGNudHBvcz5HSVMgQW5hbHlzdDwvY250cG9zPg0KICAgICAgICAgICAgPGNudGFkZHI+
+DQogICAgICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9h
+ZGRydHlwZT4NCiAgICAgICAgICAgICAgPGFkZHJlc3M+NzUgSGF3dGhvcm5lIFN0cmVldDwvYWRk
+cmVzcz4NCiAgICAgICAgICAgICAgPGFkZHJlc3M+QUlSIERpdmlzaW9uPC9hZGRyZXNzPg0KICAg
+ICAgICAgICAgICA8Y2l0eT5TYW4gRnJhbmNpc2NvPC9jaXR5Pg0KICAgICAgICAgICAgICA8c3Rh
+dGU+Q0E8L3N0YXRlPg0KICAgICAgICAgICAgICA8cG9zdGFsPjk0MTA1PC9wb3N0YWw+DQogICAg
+ICAgICAgICA8L2NudGFkZHI+DQogICAgICAgICAgICA8Y250dm9pY2U+KDQxNSkgOTcyLTM5OTE8
+L2NudHZvaWNlPg0KICAgICAgICAgICAgPGNudGVtYWlsPmNsb3Zlci5mbGV0Y2hlckBlcGEuZ292
+PC9jbnRlbWFpbD4NCiAgICAgICAgICAgIDxjbnRpbnN0Pmh0dHA6Ly93d3cuZXBhLmdvdi9yZWdp
+b245L2Fpci9tYXBzLzwvY250aW5zdD4NCiAgICAgICAgICA8L2NudGluZm8+DQogICAgICAgIDwv
+cHJvY2NvbnQ+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8
+cHJvY2RhdGU+MjAxNTEwMDE8L3Byb2NkYXRlPg0KICAgICAgICA8cHJvY2Rlc2M+SW1wb3J0ZWQg
+Q1NWIGZpbGUgaW50byBkb3dubG9hZGVkIGdlb2RhdGFiYXNlPC9wcm9jZGVzYz4NCiAgICAgICAg
+PHByb2Njb250Pg0KICAgICAgICAgIDxjbnRpbmZvPg0KICAgICAgICAgICAgPGNudG9yZ3A+DQog
+ICAgICAgICAgICAgIDxjbnRvcmc+VS5TLiBFbnZpcm9ubWVudGFsIFByb3RlY3Rpb24gQWdlbmN5
+LCBSZWdpb24gOTwvY250b3JnPg0KICAgICAgICAgICAgICA8Y250cGVyPkZsZXRjaGVyIENsb3Zl
+cjwvY250cGVyPg0KICAgICAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICAgICAgPGNudHBvcz5H
+SVMgQW5hbHlzdDwvY250cG9zPg0KICAgICAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgICAg
+IDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAg
+ICAgICAgICAgPGFkZHJlc3M+NzUgSGF3dGhvcm5lIFN0cmVldDwvYWRkcmVzcz4NCiAgICAgICAg
+ICAgICAgPGFkZHJlc3M+QUlSIERpdmlzaW9uPC9hZGRyZXNzPg0KICAgICAgICAgICAgICA8Y2l0
+eT5TYW4gRnJhbmNpc2NvPC9jaXR5Pg0KICAgICAgICAgICAgICA8c3RhdGU+Q0E8L3N0YXRlPg0K
+ICAgICAgICAgICAgICA8cG9zdGFsPjk0MTA1PC9wb3N0YWw+DQogICAgICAgICAgICA8L2NudGFk
+ZHI+DQogICAgICAgICAgICA8Y250dm9pY2U+KDQxNSkgOTcyLTM5OTE8L2NudHZvaWNlPg0KICAg
+ICAgICAgICAgPGNudGVtYWlsPmNsb3Zlci5mbGV0Y2hlckBlcGEuZ292PC9jbnRlbWFpbD4NCiAg
+ICAgICAgICAgIDxjbnRpbnN0Pmh0dHA6Ly93d3cuZXBhLmdvdi9yZWdpb245L2Fpci9tYXBzLzwv
+Y250aW5zdD4NCiAgICAgICAgICA8L2NudGluZm8+DQogICAgICAgIDwvcHJvY2NvbnQ+DQogICAg
+ICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2RhdGU+MjAxNTEw
+MDE8L3Byb2NkYXRlPg0KICAgICAgICA8cHJvY2Rlc2M+Sm9pbmVkIENTViB0YWJsZSBhbmQgQ0JT
+QSBmZWF0dXJlIGNsYXNzLCB1c2luZyAgJ0dFT0lEJyBhbmQgJ0NCU0EnIGFzIGpvaW4gZmllbGRz
+LjwvcHJvY2Rlc2M+DQogICAgICAgIDxwcm9jY29udD4NCiAgICAgICAgICA8Y250aW5mbz4NCiAg
+ICAgICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgICAgICA8Y250b3JnPlUuUy4gRW52aXJvbm1l
+bnRhbCBQcm90ZWN0aW9uIEFnZW5jeSwgUmVnaW9uIDk8L2NudG9yZz4NCiAgICAgICAgICAgICAg
+PGNudHBlcj5GbGV0Y2hlciBDbG92ZXI8L2NudHBlcj4NCiAgICAgICAgICAgIDwvY250b3JncD4N
+CiAgICAgICAgICAgIDxjbnRwb3M+R0lTIEFuYWx5c3Q8L2NudHBvcz4NCiAgICAgICAgICAgIDxj
+bnRhZGRyPg0KICAgICAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWwgYWRk
+cmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgICAgIDxhZGRyZXNzPjc1IEhhd3Rob3JuZSBTdHJl
+ZXQ8L2FkZHJlc3M+DQogICAgICAgICAgICAgIDxhZGRyZXNzPkFJUiBEaXZpc2lvbjwvYWRkcmVz
+cz4NCiAgICAgICAgICAgICAgPGNpdHk+U2FuIEZyYW5jaXNjbzwvY2l0eT4NCiAgICAgICAgICAg
+ICAgPHN0YXRlPkNBPC9zdGF0ZT4NCiAgICAgICAgICAgICAgPHBvc3RhbD45NDEwNTwvcG9zdGFs
+Pg0KICAgICAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICAgICAgPGNudHZvaWNlPig0MTUpIDk3
+Mi0zOTkxPC9jbnR2b2ljZT4NCiAgICAgICAgICAgIDxjbnRlbWFpbD5jbG92ZXIuZmxldGNoZXJA
+ZXBhLmdvdjwvY250ZW1haWw+DQogICAgICAgICAgICA8Y250aW5zdD5odHRwOi8vd3d3LmVwYS5n
+b3YvcmVnaW9uOS9haXIvbWFwcy88L2NudGluc3Q+DQogICAgICAgICAgPC9jbnRpbmZvPg0KICAg
+ICAgICA8L3Byb2Njb250Pg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxwcm9jc3RlcD4NCiAg
+ICAgICAgPHByb2NkYXRlPjIwMTUxMDAxPC9wcm9jZGF0ZT4NCiAgICAgICAgPHByb2NkZXNjPkRl
+bGV0ZWQgdW5uZWNlc3NhcnkgaW5mb3JtYXRpb24gYW5kIGNyZWF0ZWQgbWV0YWRhdGEuPC9wcm9j
+ZGVzYz4NCiAgICAgICAgPHByb2Njb250Pg0KICAgICAgICAgIDxjbnRpbmZvPg0KICAgICAgICAg
+ICAgPGNudG9yZ3A+DQogICAgICAgICAgICAgIDxjbnRvcmc+VS5TLiBFbnZpcm9ubWVudGFsIFBy
+b3RlY3Rpb24gQWdlbmN5LCBSZWdpb24gOTwvY250b3JnPg0KICAgICAgICAgICAgICA8Y250cGVy
+PkZsZXRjaGVyIENsb3ZlcjwvY250cGVyPg0KICAgICAgICAgICAgPC9jbnRvcmdwPg0KICAgICAg
+ICAgICAgPGNudHBvcz5HSVMgQW5hbHlzdDwvY250cG9zPg0KICAgICAgICAgICAgPGNudGFkZHI+
+DQogICAgICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9h
+ZGRydHlwZT4NCiAgICAgICAgICAgICAgPGFkZHJlc3M+NzUgSGF3dGhvcm5lIFN0cmVldDwvYWRk
+cmVzcz4NCiAgICAgICAgICAgICAgPGFkZHJlc3M+QUlSIERpdmlzaW9uPC9hZGRyZXNzPg0KICAg
+ICAgICAgICAgICA8Y2l0eT5TYW4gRnJhbmNpc2NvPC9jaXR5Pg0KICAgICAgICAgICAgICA8c3Rh
+dGU+Q0E8L3N0YXRlPg0KICAgICAgICAgICAgICA8cG9zdGFsPjk0MTA1PC9wb3N0YWw+DQogICAg
+ICAgICAgICA8L2NudGFkZHI+DQogICAgICAgICAgICA8Y250dm9pY2U+KDQxNSkgOTcyLTM5OTE8
+L2NudHZvaWNlPg0KICAgICAgICAgICAgPGNudGVtYWlsPmNsb3Zlci5mbGV0Y2hlckBlcGEuZ292
+PC9jbnRlbWFpbD4NCiAgICAgICAgICAgIDxjbnRpbnN0Pmh0dHA6Ly93d3cuZXBhLmdvdi9yZWdp
+b245L2Fpci9tYXBzLzwvY250aW5zdD4NCiAgICAgICAgICA8L2NudGluZm8+DQogICAgICAgIDwv
+cHJvY2NvbnQ+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHNyY2luZm8+DQogICAgICAgIDxz
+cmNzY2FsZT4yNDAwPC9zcmNzY2FsZT4NCiAgICAgICAgPHR5cGVzcmM+b25saW5lPC90eXBlc3Jj
+Pg0KICAgICAgICA8c3JjY2l0ZWE+VVMgQ2Vuc3VzPC9zcmNjaXRlYT4NCiAgICAgICAgPHNyY2Nv
+bnRyPlVTIENlbnN1czwvc3JjY29udHI+DQogICAgICAgIDxzcmN0aW1lPg0KICAgICAgICAgIDxz
+cmNjdXJyPnB1YmxpY2F0aW9uIGRhdGU8L3NyY2N1cnI+DQogICAgICAgICAgPHRpbWVpbmZvPg0K
+ICAgICAgICAgICAgPHNuZ2RhdGU+DQogICAgICAgICAgICAgIDxjYWxkYXRlPjIwMTM8L2NhbGRh
+dGU+DQogICAgICAgICAgICA8L3NuZ2RhdGU+DQogICAgICAgICAgPC90aW1laW5mbz4NCiAgICAg
+ICAgPC9zcmN0aW1lPg0KICAgICAgICA8c3JjY2l0ZT4NCiAgICAgICAgICA8Y2l0ZWluZm8+DQog
+ICAgICAgICAgICA8b3JpZ2luPlVTIENlbnN1cyBCdXJlYXUgVElHRVIvTGluZSBzaGFwZWZpbGVz
+PC9vcmlnaW4+DQogICAgICAgICAgICA8dGl0bGU+MjAxNCBUSUdFUi9MaW5lIHNoYXBlZmlsZXM8
+L3RpdGxlPg0KICAgICAgICAgICAgPGVkaXRpb24+MjAxNDwvZWRpdGlvbj4NCiAgICAgICAgICAg
+IDxnZW9mb3JtPnZlY3RvciBkaWdpdGFsIGRhdGE8L2dlb2Zvcm0+DQogICAgICAgICAgICA8cHVi
+ZGF0ZT4yMDE0MDcwMTwvcHViZGF0ZT4NCiAgICAgICAgICAgIDxwdWJpbmZvPg0KICAgICAgICAg
+ICAgICA8cHVibGlzaD5VUyBDZW5zdXMgQnVyZWF1PC9wdWJsaXNoPg0KICAgICAgICAgICAgICA8
+cHVicGxhY2U+V2FzaGluZ3RvbiwgREM8L3B1YnBsYWNlPg0KICAgICAgICAgICAgPC9wdWJpbmZv
+Pg0KICAgICAgICAgICAgPHNlcmluZm8+DQogICAgICAgICAgICAgIDxzZXJuYW1lPjIwMTQgVElH
+RVIvTGluZcKuIFNoYXBlZmlsZXM6IENvcmUgQmFzZWQgU3RhdGlzdGljYWwgQXJlYXM8L3Nlcm5h
+bWU+DQogICAgICAgICAgICAgIDxpc3N1ZT50bF8yMDE0X3VzX2Nic2EuemlwPC9pc3N1ZT4NCiAg
+ICAgICAgICAgIDwvc2VyaW5mbz4NCiAgICAgICAgICAgIDxvbmxpbms+aHR0cDovL3d3dy5jZW5z
+dXMuZ292L2dlby9tYXBzLWRhdGEvZGF0YS90aWdlci1nZW9kYXRhYmFzZXMuaHRtbDwvb25saW5r
+Pg0KICAgICAgICAgICAgPG9ubGluaz5odHRwOi8vd3d3LmNlbnN1cy5nb3YvZ2VvL21hcHMtZGF0
+YS9kYXRhL3RpZ2VyLmh0bWw8L29ubGluaz4NCiAgICAgICAgICA8L2NpdGVpbmZvPg0KICAgICAg
+ICA8L3NyY2NpdGU+DQogICAgICA8L3NyY2luZm8+DQogICAgPC9saW5lYWdlPg0KICA8L2RhdGFx
+dWFsPg0KICA8c3Bkb2luZm8+DQogICAgPGRpcmVjdD5WZWN0b3I8L2RpcmVjdD4NCiAgPC9zcGRv
+aW5mbz4NCiAgPGRpc3RpbmZvPg0KICAgIDxyZXNkZXNjPkRvd25sb2FkYWJsZSBEYXRhPC9yZXNk
+ZXNjPg0KICAgIDxkaXN0bGlhYj5BbHRob3VnaCB0aGVzZSBkYXRhIGhhdmUgYmVlbiBwcm9jZXNz
+ZWQgc3VjY2Vzc2Z1bGx5IG9uIGEgY29tcHV0ZXIgc3lzdGVtIGF0IHRoZSBFbnZpcm9ubWVudGFs
+IFByb3RlY3Rpb24gQWdlbmN5LCBubyB3YXJyYW50eSBleHByZXNzZWQgb3IgaW1wbGllZCBpcyBt
+YWRlIHJlZ2FyZGluZyB0aGUgYWNjdXJhY3kgb3IgdXRpbGl0eSBvZiB0aGUgZGF0YSBvbiBhbnkg
+b3RoZXIgc3lzdGVtIG9yIGZvciBnZW5lcmFsIG9yIHNjaWVudGlmaWMgcHVycG9zZXMsIG5vciBz
+aGFsbCB0aGUgYWN0IG9mIGRpc3RyaWJ1dGlvbiBjb25zdGl0dXRlIGFueSBzdWNoIHdhcnJhbnR5
+LiBJdCBpcyBhbHNvIHN0cm9uZ2x5IHJlY29tbWVuZGVkIHRoYXQgY2FyZWZ1bCBhdHRlbnRpb24g
+YmUgcGFpZCB0byB0aGUgY29udGVudHMgb2YgdGhlIG1ldGFkYXRhIGZpbGUgYXNzb2NpYXRlZCB3
+aXRoIHRoZXNlIGRhdGEgdG8gZXZhbHVhdGUgZGF0YSBzZXQgbGltaXRhdGlvbnMsIHJlc3RyaWN0
+aW9ucyBvciBpbnRlbmRlZCB1c2UuIFRoZSBVLlMuIEVudmlyb25tZW50YWwgUHJvdGVjdGlvbiBB
+Z2VuY3kgc2hhbGwgbm90IGJlIGhlbGQgbGlhYmxlIGZvciBpbXByb3BlciBvciBpbmNvcnJlY3Qg
+dXNlIG9mIHRoZSBkYXRhIGRlc2NyaWJlZCBhbmQvb3IgY29udGFpbmVkIGhlcmVpbi48L2Rpc3Rs
+aWFiPg0KICAgIDxkaXN0cmliPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0K
+ICAgICAgICAgIDxjbnRvcmc+VS5TLiBFbnZpcm9ubWVudGFsIFByb3RlY3Rpb24gQWdlbmN5LCBS
+ZWdpb24gOTwvY250b3JnPg0KICAgICAgICAgIDxjbnRwZXI+Q2hlcnlsIEhlbmxleTwvY250cGVy
+Pg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRwb3M+R0lTIENvb3JkaW5hdG9yPC9j
+bnRwb3M+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFu
+ZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz43NSBIYXd0
+aG9ybmUgU3RyZWV0PC9hZGRyZXNzPg0KICAgICAgICAgIDxjaXR5PlNhbiBGcmFuY2lzY288L2Np
+dHk+DQogICAgICAgICAgPHN0YXRlPkNBPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjk0MTA1
+PC9wb3N0YWw+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPjQxNS05NzIt
+MzU4NjwvY250dm9pY2U+DQogICAgICAgIDxjbnRmYXg+NDE1LTk0Ny0zNTUzPC9jbnRmYXg+DQog
+ICAgICAgIDxjbnRlbWFpbD5oZW5sZXkuY2hlcnlsQGVwYS5nb3Y8L2NudGVtYWlsPg0KICAgICAg
+ICA8Y250aW5zdD5odHRwOi8vd3d3LmVwYS5nb3YvcmVnaW9uMDkvPC9jbnRpbnN0Pg0KICAgICAg
+PC9jbnRpbmZvPg0KICAgIDwvZGlzdHJpYj4NCiAgPC9kaXN0aW5mbz4NCiAgPG1ldGFpbmZvPg0K
+ICAgIDxtZXRkPjIwMTUxMDAxPC9tZXRkPg0KICAgIDxtZXRmcmQ+MjAxOTEwMDE8L21ldGZyZD4N
+CiAgICA8bWV0c3Rkbj5GR0RDIENvbnRlbnQgU3RhbmRhcmQgZm9yIERpZ2l0YWwgR2Vvc3BhdGlh
+bCBNZXRhZGF0YTwvbWV0c3Rkbj4NCiAgICA8bWV0c3Rkdj5GR0RDLVNURC0wMDEtMTk5ODwvbWV0
+c3Rkdj4NCiAgICA8bWV0Yz4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250b3JncD4NCiAg
+ICAgICAgICA8Y250b3JnPlUuUy4gRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uIEFnZW5jeSwgUmVn
+aW9uIDk8L2NudG9yZz4NCiAgICAgICAgICA8Y250cGVyPkZsZXRjaGVyIENsb3ZlcjwvY250cGVy
+Pg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRwb3M+R0lTIEFuYWx5c3Q8L2NudHBv
+cz4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBo
+eXNpY2FsIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAgICAgIDxhZGRyZXNzPjc1IEhhd3Rob3Ju
+ZSBTdHJlZXQ8L2FkZHJlc3M+DQogICAgICAgICAgPGFkZHJlc3M+QUlSIERpdmlzaW9uPC9hZGRy
+ZXNzPg0KICAgICAgICAgIDxjaXR5PlNhbiBGcmFuY2lzY288L2NpdHk+DQogICAgICAgICAgPHN0
+YXRlPkNBPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjk0MTA1PC9wb3N0YWw+DQogICAgICAg
+IDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPig0MTUpIDk3Mi0zOTkxPC9jbnR2b2ljZT4N
+CiAgICAgICAgPGNudGVtYWlsPmNsb3Zlci5mbGV0Y2hlckBlcGEuZ292PC9jbnRlbWFpbD4NCiAg
+ICAgICAgPGNudGluc3Q+aHR0cDovL3d3dy5lcGEuZ292L3JlZ2lvbjkvYWlyL21hcHMvPC9jbnRp
+bnN0Pg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvbWV0Yz4NCiAgPC9tZXRhaW5mbz4NCiAgPGVh
+aW5mbz4NCiAgICA8ZGV0YWlsZWQ+DQogICAgICA8ZW50dHlwPg0KICAgICAgICA8ZW50dHlwbD5D
+QlNBXzIwMTRfcG9wPC9lbnR0eXBsPg0KICAgICAgICA8ZW50dHlwZD5Db3JlIEJhc2VkIFN0YXRp
+c3RpYWwgQXJlYXMgd2l0aCAyMDE0IFBvcHVsYXRpb24gRXN0aW1hdGVzPC9lbnR0eXBkPg0KICAg
+ICAgICA8ZW50dHlwZHM+VVMgQ2Vuc3VzIEJ1cmVhdTwvZW50dHlwZHM+DQogICAgICA8L2VudHR5
+cD4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+T0JKRUNUSURfMTwvYXR0cmxhYmw+
+DQogICAgICAgIDxhdHRyZGVmPkludGVybmFsIGZlYXR1cmUgbnVtYmVyLjwvYXR0cmRlZj4NCiAg
+ICAgICAgPGF0dHJkZWZzPkVzcmk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAg
+ICAgICAgPHVkb20+U2VxdWVudGlhbCB1bmlxdWUgd2hvbGUgbnVtYmVycyB0aGF0IGFyZSBhdXRv
+bWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8
+L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkdFT0lEPC9hdHRybGFibD4N
+CiAgICAgICAgPGF0dHJkZWY+TWV0cm9wb2xpdGFuIHN0YXRpc3RpY2FsIGFyZWEvbWljcm9wb2xp
+dGFuIHN0YXRpc3RpY2FsIGFyZWEgaWRlbnRpZmllcjsgbWV0cm9wb2xpdGFuIHN0YXRpc3RpY2Fs
+IGFyZWEvbWljcm9wb2xpdGFuIHN0YXRpc3RpY2FsIGFyZWEgY29kZS48L2F0dHJkZWY+DQogICAg
+ICAgIDxhdHRyZGVmcz5VUyBDZW5zdXMgQnVyZWF1PC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJk
+b212Pg0KICAgICAgICAgIDxyZG9tPg0KICAgICAgICAgICAgPHJkb21taW4+MTI1NDA8L3Jkb21t
+aW4+DQogICAgICAgICAgICA8cmRvbW1heD40OTc0MDwvcmRvbW1heD4NCiAgICAgICAgICA8L3Jk
+b20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAg
+ICAgICAgPGF0dHJsYWJsPk5BTUVMU0FEPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+Q3Vy
+cmVudCBuYW1lIGFuZCB0aGUgdHJhbnNsYXRlZCBsZWdhbC9zdGF0aXN0aWNhbCBhcmVhIGRlc2Ny
+aXB0aW9uIGNvZGUgZm9yIG1ldHJvcG9saXRhbiBzdGF0aXN0aWNhbCBhcmVhL21pY3JvcG9saXRh
+biBzdGF0aXN0aWNhbCBhcmVhLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlVTIENlbnN1
+cyBCdXJlYXU8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+
+UGxhY2UgbmFtZTwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAg
+ICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+Q0VOU1VTMjAxMFBPUDwvYXR0cmxhYmw+DQog
+ICAgICAgIDxhdHRyZGVmPjQvMS8yMDEwIHJlc2lkZW50IENlbnN1cyAyMDEwIHBvcHVsYXRpb248
+L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5VLlMuIENlbnN1cyBCdXJlYXUsIFBvcHVsYXRp
+b24gRGl2aXNpb248L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHJk
+b20+DQogICAgICAgICAgICA8cmRvbW1pbj4xNjUyODwvcmRvbW1pbj4NCiAgICAgICAgICAgIDxy
+ZG9tbWF4PjEyODI4ODM3PC9yZG9tbWF4Pg0KICAgICAgICAgIDwvcmRvbT4NCiAgICAgICAgPC9h
+dHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+
+UE9QRVNUSU1BVEUyMDE0PC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+RXN0aW1hdGVkIHJl
+c2lkZW50IHBvcHVsYXRpb24gaW4gMjAxNDwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlUu
+Uy4gQ2Vuc3VzIEJ1cmVhdSwgUG9wdWxhdGlvbiBEaXZpc2lvbjwvYXR0cmRlZnM+DQogICAgICAg
+IDxhdHRyZG9tdj4NCiAgICAgICAgICA8cmRvbT4NCiAgICAgICAgICAgIDxyZG9tbWluPjE3Mjc5
+PC9yZG9tbWluPg0KICAgICAgICAgICAgPHJkb21tYXg+MTMyNjIyMjA8L3Jkb21tYXg+DQogICAg
+ICAgICAgPC9yZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAg
+PGF0dHI+DQogICAgICAgIDxhdHRybGFibD5TaGFwZTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRy
+ZGVmPkZlYXR1cmUgZ2VvbWV0cnkuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RXNyaTwv
+YXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5Db29yZGluYXRl
+cyBkZWZpbmluZyB0aGUgZmVhdHVyZXMuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAg
+ICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5TaGFwZV9MZW5ndGg8
+L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5MZW5ndGggb2YgZmVhdHVyZSBpbiBpbnRlcm5h
+bCB1bml0cy48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5Fc3JpPC9hdHRyZGVmcz4NCiAg
+ICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlBvc2l0aXZlIHJlYWwgbnVtYmVycyB0
+aGF0IGFyZSBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQogICAgICAgIDwvYXR0cmRv
+bXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNoYXBl
+X0FyZWE8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5BcmVhIG9mIGZlYXR1cmUgaW4gaW50
+ZXJuYWwgdW5pdHMgc3F1YXJlZC48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5Fc3JpPC9h
+dHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlBvc2l0aXZlIHJl
+YWwgbnVtYmVycyB0aGF0IGFyZSBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQogICAg
+ICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgPC9kZXRhaWxlZD4NCiAgICA8b3Zl
+cnZpZXc+DQogICAgICA8ZWFvdmVyPkFubnVhbCBSZXNpZGVudCBQb3B1bGF0aW9uIEVzdGltYXRl
+cyBhbmQgRXN0aW1hdGVkIENvbXBvbmVudHMgb2YgUmVzaWRlbnQgUG9wdWxhdGlvbiBDaGFuZ2Ug
+Zm9yIE1ldHJvcG9saXRhbiBhbmQgTWljcm9wb2xpdGFuIFN0YXRpc3RpY2FsIEFyZWFzIGFuZCBU
+aGVpciBHZW9ncmFwaGljIENvbXBvbmVudHM6IEFwcmlsIDEsIDIwMTAgdG8gSnVseSAxLCAyMDE0
+PC9lYW92ZXI+DQogICAgICA8ZWFkZXRjaXQ+VS5TLiBDZW5zdXMgQnVyZWF1LCBQb3B1bGF0aW9u
+IERpdmlzaW9uLCBNYXJjaCAyMDEzPC9lYWRldGNpdD4NCiAgICA8L292ZXJ2aWV3Pg0KICA8L2Vh
+aW5mbz4NCiAgPHNwcmVmPg0KICAgIDxob3JpenN5cz4NCiAgICAgIDxwbGFuYXI+DQogICAgICAg
+IDxtYXBwcm9qPg0KICAgICAgICAgIDxtYXBwcm9qbj5XR1MgMTk4NCBXZWIgTWVyY2F0b3IgQXV4
+aWxpYXJ5IFNwaGVyZTwvbWFwcHJvam4+DQogICAgICAgICAgPG1hcHByb2pwPg0KICAgICAgICAg
+ICAgPG90aGVycHJqPlBST0pDU1siV0dTXzE5ODRfV2ViX01lcmNhdG9yX0F1eGlsaWFyeV9TcGhl
+cmUiLEdFT0dDU1siR0NTX1dHU18xOTg0IixEQVRVTVsiRF9XR1NfMTk4NCIsU1BIRVJPSURbIldH
+U18xOTg0Iiw2Mzc4MTM3LjAsMjk4LjI1NzIyMzU2M11dLFBSSU1FTVsiR3JlZW53aWNoIiwwLjBd
+LFVOSVRbIkRlZ3JlZSIsMC4wMTc0NTMyOTI1MTk5NDMzXV0sUFJPSkVDVElPTlsiTWVyY2F0b3Jf
+QXV4aWxpYXJ5X1NwaGVyZSJdLFBBUkFNRVRFUlsiRmFsc2VfRWFzdGluZyIsMC4wXSxQQVJBTUVU
+RVJbIkZhbHNlX05vcnRoaW5nIiwwLjBdLFBBUkFNRVRFUlsiQ2VudHJhbF9NZXJpZGlhbiIsMC4w
+XSxQQVJBTUVURVJbIlN0YW5kYXJkX1BhcmFsbGVsXzEiLDAuMF0sUEFSQU1FVEVSWyJBdXhpbGlh
+cnlfU3BoZXJlX1R5cGUiLDAuMF0sVU5JVFsiTWV0ZXIiLDEuMF0sQVVUSE9SSVRZWyJFUFNHIiwz
+ODU3XV08L290aGVycHJqPg0KICAgICAgICAgIDwvbWFwcHJvanA+DQogICAgICAgIDwvbWFwcHJv
+aj4NCiAgICAgICAgPHBsYW5jaT4NCiAgICAgICAgICA8cGxhbmNlPmNvb3JkaW5hdGUgcGFpcjwv
+cGxhbmNlPg0KICAgICAgICAgIDxjb29yZHJlcD4NCiAgICAgICAgICAgIDxhYnNyZXM+MC4wMDAx
+PC9hYnNyZXM+DQogICAgICAgICAgICA8b3JkcmVzPjAuMDAwMTwvb3JkcmVzPg0KICAgICAgICAg
+IDwvY29vcmRyZXA+DQogICAgICAgICAgPHBsYW5kdT5tZXRlcnM8L3BsYW5kdT4NCiAgICAgICAg
+PC9wbGFuY2k+DQogICAgICA8L3BsYW5hcj4NCiAgICAgIDxnZW9kZXRpYz4NCiAgICAgICAgPGhv
+cml6ZG4+RCBXR1MgMTk4NDwvaG9yaXpkbj4NCiAgICAgICAgPGVsbGlwcz5XR1MgMTk4NDwvZWxs
+aXBzPg0KICAgICAgICA8c2VtaWF4aXM+NjM3ODEzNy4wPC9zZW1pYXhpcz4NCiAgICAgICAgPGRl
+bmZsYXQ+Mjk4LjI1NzIyMzU2MzwvZGVuZmxhdD4NCiAgICAgIDwvZ2VvZGV0aWM+DQogICAgPC9o
+b3JpenN5cz4NCiAgPC9zcHJlZj4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+  <mdFileID>CBA1BF20-864D-43AA-9F9A-E029F1D23C6F</mdFileID>
+</metadata>

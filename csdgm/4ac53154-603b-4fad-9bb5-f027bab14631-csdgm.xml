@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<Esri>
+		<PublishedDocID>{ee057db8-dc92-4171-9566-e7e8cfd0cb26}</PublishedDocID>
+	</Esri>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EPA GIS Keyword Thesaurus</themekt>
+				<themekey>Ecosystem</themekey>
+				<themekey>Environment</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Alabama</placekey>
+				<placekey>Arizona</placekey>
+				<placekey>Arkansas</placekey>
+				<placekey>California</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>Connecticut</placekey>
+				<placekey>Delaware</placekey>
+				<placekey>Florida</placekey>
+				<placekey>Georgia</placekey>
+				<placekey>Idaho</placekey>
+				<placekey>Illinois</placekey>
+				<placekey>Indiana</placekey>
+				<placekey>Iowa</placekey>
+				<placekey>Kansas</placekey>
+				<placekey>Kentucky</placekey>
+				<placekey>Louisiana</placekey>
+				<placekey>Maine</placekey>
+				<placekey>Maryland</placekey>
+				<placekey>Massachusetts</placekey>
+				<placekey>Michigan</placekey>
+				<placekey>Minnesota</placekey>
+				<placekey>Mississippi</placekey>
+				<placekey>Missouri</placekey>
+				<placekey>Montana</placekey>
+				<placekey>Nebraska</placekey>
+				<placekey>Nevada</placekey>
+				<placekey>New Hampshire</placekey>
+				<placekey>New Jersey</placekey>
+				<placekey>New Mexico</placekey>
+				<placekey>New York</placekey>
+				<placekey>North Carolina</placekey>
+				<placekey>North Dakota</placekey>
+				<placekey>Ohio</placekey>
+				<placekey>Oklahoma</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>Pennsylvania</placekey>
+				<placekey>Rhode Island</placekey>
+				<placekey>South Carolina</placekey>
+				<placekey>South Dakota</placekey>
+				<placekey>Tennessee</placekey>
+				<placekey>Texas</placekey>
+				<placekey>United States</placekey>
+				<placekey>Utah</placekey>
+				<placekey>Vermont</placekey>
+				<placekey>Virginia</placekey>
+				<placekey>Washington</placekey>
+				<placekey>Washington DC</placekey>
+				<placekey>West Virginia</placekey>
+				<placekey>Wisconsin</placekey>
+				<placekey>Wyoming</placekey>
+			</place>
+			<theme>
+				<themekt>EnviroAtlas</themekt>
+				<themekey>12-digit HUCs</themekey>
+				<themekey>Agriculture</themekey>
+				<themekey>Ecosystem Services</themekey>
+				<themekey>EnviroAtlas</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Environmental Atlas</themekey>
+				<themekey>Green Space</themekey>
+				<themekey>Land Cover</themekey>
+				<themekey>Surface Water</themekey>
+				<themekey>Water</themekey>
+				<themekey>Wetlands</themekey>
+			</theme>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<origin>US Environmental Protection Agency (US EPA)</origin>
+				<title>EnviroAtlas - 2016 Land Cover Proportions by 12-digit HUC for the Conterminous United States</title>
+				<pubinfo>
+					<publish>U.S. EPA Office of Research and Development (ORD) - Center for Public Health and Environmental Assessment (CPHEA)</publish>
+					<pubplace>Research Triangle Park, NC</pubplace>
+				</pubinfo>
+				<pubdate>20200121</pubdate>
+				<onlink>https://edg.epa.gov/data/PUBLIC/ORD/ENVIROATLAS/National</onlink>
+				<onlink>https://enviroatlas.epa.gov/arcgis/rest/services/National/National2016_master/MapServer</onlink>
+				<onlink>https://www.epa.gov/enviroatlas/enviroatlas-data</onlink>
+				<onlink>https://www.epa.gov/enviroatlas</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>Ground condition</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>2016</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-128.02839229</westbc>
+				<eastbc>-65.20336449</eastbc>
+				<northbc>51.6773602</northbc>
+				<southbc>22.7348894</southbc>
+			</bounding>
+		</spdom>
+		<accconst>None</accconst>
+		<useconst>None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+		<descript>
+			<abstract>This EnviroAtlas dataset represents the percentage of land area that is classified as natural, forest, wetland, agricultural, and developed land cover using the EnviroAtlas hybrid 2016 Cropland Data Layer (CDL) - 2016 National Land Cover Dataset (NLCD) for each 12-digit hydrologic unit code (HUC) in the conterminous United States. 
+
+This dataset was produced by the US EPA to support research and online mapping activities related to EnviroAtlas. EnviroAtlas (https://www.epa.gov/enviroatlas) allows the user to interact with a web-based, easy-to-use, mapping application to view and analyze multiple ecosystem services for the contiguous United States. The dataset is available as downloadable data (https://edg.epa.gov/data/Public/ORD/EnviroAtlas) or as an EnviroAtlas map service. Additional descriptive information about each attribute in this dataset can be found in its associated EnviroAtlas Fact Sheet (https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets).</abstract>
+			<purpose>This dataset is useful for evaluating the potential value of ecosystem services provided by vegetation communities, and the impacts of developed land cover. The overall goal of EnviroAtlas is to employ and develop the best available science to map indicators of ecosystem services production, demand, and drivers for the nation.</purpose>
+		</descript>
+		<secinfo>
+			<secsys>https://project-open-data.github.io/schema/#accessLevel</secsys>
+			<secclass>public</secclass>
+			<sechandl>Standard Technical Controls</sechandl>
+		</secinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntperp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<logic>Tests for integrity have not been performed.</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at https://epa.gov/geospatial/policies.html</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>20191029</procdate>
+				<procdesc>Obtained the EnviroAtlas hybrid 2016 Cropland Data Layer (CDL) and NLCD 2016 land cover raster (cdlnlcd2016_EA.tif). Source: https://www.epa.gov/enviroatlas.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20191029</procdate>
+				<procdesc>Did a setnull operation on the cdlnlcd2016_EA.tif to eliminate the edge areas (Value = 100). Did this because in ATtILA all unaccounted for grid values are included in the land area measures used in the percentage calculations. Output raster: cdlnlcd2016_EA_ND.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20160302</procdate>
+				<procdesc>Obtained the NHDPlusV2 Watershed Boundary Dataset (WBD) Snapshot, EnviroAtlas version. Source: https://www.epa.gov/enviroatlas.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20191106</procdate>
+				<procdesc>Calculations were done using the Land Cover Proportions tool in the Landscape Characteristics toolset of the ATtILA for ArcGIS toolbox (ATtILA 10_0.tbx, 2/16/2016 version) in ArcGIS. Calculated NINDEX, pFor, pWtl, pDev, pAgr, pAgrp, pAgrc, pFor90, pWtl95, and pdev. Used NHDPlusV2_WBDSnapshot_EnviroAtlas_CONUS as the reporting unit feature and cdlnlcd2016_EA_ND as the land cover grid. Used a user-defined land cover scheme (CDL NLCD Hybrid 2016 ICELAND) for the hybrid CDL-NLCD dataset. The ICELAND designation in the land cover scheme indicates that areas of perennial ice is considered as available LAND in the percentage calculations.
+				</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<plandu>meters</plandu>
+					<coordrep>
+						<absres>0.000001</absres>
+						<ordres>0.000001</ordres>
+					</coordrep>
+				</planci>
+				<mapproj>
+					<mapprojn>Albers Conical Equal Area</mapprojn>
+					<albers>
+						<stdparll>29.500000</stdparll>
+						<stdparll>45.500000</stdparll>
+						<longcm>-96.000000</longcm>
+						<latprjo>23.000000</latprjo>
+						<feast>0.000000</feast>
+						<fnorth>0.000000</fnorth>
+					</albers>
+				</mapproj>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metd>20220301</metd>
+		<metfrd>20240121</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development - Center for Public Health and Environmental Assessment (CPHEA), EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>LandCover_CONUS_20200603</enttypl>
+				<enttypd>Percentage of land area within 12-digit hydrologic unit classified as various land cover super classes.</enttypd>
+				<enttypds>US EPA</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>HUC_12</attrlabl>
+				<attrdef>Twelve Digit Hydrologic Unit Code. This field provides a unique 12-digit code for each subwatershed. Numbers were assigned in an upstream to downstream fashion. Where no downstream/upstream relationship could be determined, numbers were assigned in a clockwise fashion.</attrdef>
+				<attrdefs>Federal Guidelines, Requirements, and Procedures for the National Watershed Boundary Dataset; Chapter 3 of Section A; Federal Standards, Book 11, Collection and Delineation of Spatial Data; Techniques and Methods 11-A3.</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>010000000000</rdommin>
+						<rdommax>999999999999</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NINDEX</attrlabl>
+				<attrdef>Percentage of WBD 12-digit Hydrologic Unit land area that is classified as natural land cover (63, 64, 87, 131, 141, 142, 143, 152, 171, 190, 195)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PFOR</attrlabl>
+				<attrdef>Percentage of WBD 12-digit Hydrologic Unit land area that is classified as forest (63, 141, 142, 143)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PWETL</attrlabl>
+				<attrdef>Percentage of WBD 12-digit Hydrologic Unit land area that is classified as wetland (87, 190, 195)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PDEV</attrlabl>
+				<attrdef>Percentage of WBD 12-digit Hydrologic Unit land area that is classified as developed (82, 121, 122, 123, 124)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PAGT</attrlabl>
+				<attrdef>Percentage of WBD 12-digit Hydrologic Unit land area that is classified as agriculture (1-6, 10-14, 21-39, 41-51, 52-61, 66-72, 74-77, 92, 181-182, 204-214, 216-227, 229-250, 254)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PAGP</attrlabl>
+				<attrdef>Percentage of WBD 12-digit Hydrologic Unit land area that is classified as pasture (36, 37, 58, 60, 181, 224)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>98.78</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PAGC</attrlabl>
+				<attrdef>Percentage of WBD 12-digit Hydrologic Unit land area that is classified as cropland (1-6, 10-14, 21-35, 38, 39, 41-51, 52-57, 59, 61, 66-72, 74-77, 182, 204-214, 216-223, 225-227, 229-250, 254)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PFOR90</attrlabl>
+				<attrdef>Percentage of WBD 12-digit Hydrologic Unit land area that is classified as forest and/or woody wetland (141, 142, 143, 190)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PWETL95</attrlabl>
+				<attrdef>Percentage of WBD 12-digit Hydrologic Unit land area that is classified as emergent herbaceous wetlands (195)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eadetcit>https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets</eadetcit>
+			<eaover>The metric was generated using the ATtILA tool (https://www.epa.gov/enviroatlas/attila-toolbox), an ArcGIS tool for calculating commonly used landscape metrics. The land cover input is the EnviroAtlas 2016 CDL-NLCD, a raster dataset that is a hybrid of the 2016 NLCD (www.mrlc.gov/) and the 2016 CDL (https://www.nass.usda.gov/Research_and_Science/Cropland/SARS1a.php). For more information on the metric calculation, please see the ATtILA User's Manual included with the toolbox. A comprehensive list of metric creation steps is included in the Processing Steps.</eaover>
+		</overview>
+	</eainfo>
+</metadata>

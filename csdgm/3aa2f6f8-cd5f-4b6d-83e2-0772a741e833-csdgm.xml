@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<Esri>
+		<PublishedDocID>DFA4090C-4D41-468D-A06A-D41E545E2305</PublishedDocID>
+	</Esri>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>US Environmental Protection Agency</origin>
+				<title>Cleanups In My Community (CIMC) - Brownfields Grant Jurisdictions, National Layer</title>
+				<pubinfo>
+					<publish>U.S. EPA Office of Land and Emergency Management (OLEM)</publish>
+					<pubplace>Washington, DC</pubplace>
+				</pubinfo>
+				<pubdate>2013</pubdate>
+				<onlink>https://edg.epa.gov/metadata/</onlink>
+				<onlink>https://map22.epa.gov/arcgis/rest/services/cimc/Cleanups/MapServer</onlink>
+				<onlink>https://www.epa.gov/cleanups/cleanups-my-community</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract> This data layer provides access to Brownfields Grant Jurisdictions as part of the CIMC web service.  The data represent polygonal boundaries that show different types of grants.  Only properties benefiting from EPA Brownfields grant funding and technical assistance appear in Cleanups in My Community. There are different types of grants and each grant covers a specific area of geography. Grant areas can overlap, and often do. On the map, Brownfields jurisdictions will be shown as colored boundaries. Grant Jurisdictions have their own reports and fact sheet. For more information on Brownfields grants, see Brownfields Grants and Funding at https://www.epa.gov/brownfields/types-brownfields-grant-funding.
+
+The CIMC web service was initially published in 2013, but the data are updated twice a month. The full schedule for data updates in CIMC is located here: https://ofmpub.epa.gov/frs_public2/frs_html_public_pages.frs_refresh_stats.
+			</abstract>
+			<purpose>The data in this service was developed primarily for the CIMC web application, but can generally be used more broadly. Cleanups in My Community is intended to provide information about sites that are being cleaned up, or have been cleaned up, in your community or anywhere in the United States. For more information on data uses, please visithttps://www.epa.gov/cimc.</purpose>
+		</descript>
+		<timeperd>
+			<current>Ground Condition.  Please note that though the CIMC web service was initially published in 2013, the data are updated on the 18th of each month.  The full schedule for data updates in CIMC is located here: https://ofmpub.epa.gov/frs_public2/frs_html_public_pages.frs_refresh_stats.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>2015</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Monthly</update>
+		</status>
+		<accconst>None.</accconst>
+		<useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EPA GIS Keyword Thesaurus</themekt>
+				<themekey>Sites</themekey>
+				<themekey>Cleanup</themekey>
+				<themekey>Emergency</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Facilities</themekey>
+				<themekey>Ground</themekey>
+				<themekey>Ground Water</themekey>
+				<themekey>Hazardous Waste</themekey>
+				<themekey>Health</themekey>
+				<themekey>Human</themekey>
+				<themekey>Impact</themekey>
+				<themekey>Land</themekey>
+				<themekey>Regulatory</themekey>
+				<themekey>Remediation</themekey>
+				<themekey>Emergency Response</themekey>
+				<themekey>Risk</themekey>
+				<themekey>Spills</themekey>
+				<themekey>Toxics</themekey>
+				<themekey>Waste</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>United States</placekey>
+			</place>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-176.652500</westbc>
+				<eastbc>151.783720</eastbc>
+				<northbc>70.455278</northbc>
+				<southbc>-14.360100</southbc>
+			</bounding>
+		</spdom>
+		<secinfo>
+			<secsys>FIPS Pub 199</secsys>
+			<secclass>No Confidentiality</secclass>
+			<sechandl>Standard Technical Controls</sechandl>
+		</secinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency</cntorg>
+					<cntper>James (Trip) Hook</cntper>
+				</cntperp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>1301 Constitution Avenue N.W.</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20004</postal>
+				</cntaddr>
+				<cntvoice/>
+				<cntemail>Hook.James@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/cleanups/cleanups-my-community</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<logic>Tests for integrity have not been performed.</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Location information for EPA data provided via the CIMC web service are collected using many techniques. The processes used to collect location information for each type of data are as follows: Incidents of National Significance are derived from the official epa.gov web pages for each incident. Locations are collected for each incident individually, and may have varying accuracy. In the case where the original EPA pages did not provide a lat/long, a coordinate was placed manually based on the description provided about the site. Location information for Resource Conservation and Recovery Act (RCRA) data are initially entered by the regulated facility. Location information for Brownfields data are originally entered by the Brownfields grantee. Location information for Superfund data are initially entered by the remedial project manager for each superfund site. Location information for Emergency Responses are initially entered by the On Scene Coordinator for each response. After initial data entry using the methods described above, locations are verified using a detailed process called the Facility Registry System (FRS) "Best Pick" Process. This process uses a number of routines and algorithms to validate location data for each site and to select the best location. Information regarding this process is available here: https://www.epa.gov/sites/production/files/2015-09/documents/frs_representative_point_processing.pdf 
+Because locations are assigned using numerous different methods, the accuracy level assigned to the data set is EPA National Geospatial Data Policy (NGDP) Tier 10 - Data were collected using methods that have unknown accuracy (EPA NGDP Accuracy Tier 10). For more information, please see EPA's NGDP at https://www.epa.gov/geospatial/geospatial-policies-and-standards.
+				</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>2015</procdate>
+				<procdesc>The Brownfields data are reported by grant recipients via the ACRES database and updated and stored in Envirofacts monthly. For more information on the data updates to Envirofacts, please visit the Envirofacts Data Update page. Data in CIMC are updated twice a month. The full schedule for data updates in CIMC is located here: https://ofmpub.epa.gov/frs_public2/frs_html_public_pages.frs_refresh_stats.</procdesc>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntorg>U.S. Environmental Protection Agency</cntorg>
+							<cntper>James (Trip) Hook</cntper>
+						</cntperp>
+						<cntpos>GIS Coordinator</cntpos>
+						<cntaddr>
+							<addrtype>mailing</addrtype>
+							<address>1301 Constitution Avenue N.W.</address>
+							<city>Washington</city>
+							<state>DC</state>
+							<postal>20004</postal>
+						</cntaddr>
+						<cntvoice/>
+						<cntemail>Hook.James@epa.gov</cntemail>
+						<cntinst>https://www.epa.gov/cleanups/cleanups-my-community</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<distinfo>
+		<resdesc>Live Data and Maps</resdesc>
+		<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency</cntorg>
+					<cntper>James (Trip) Hook</cntper>
+				</cntorgp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>1301 Constitution Avenue N.W.</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20004</postal>
+				</cntaddr>
+				<cntvoice/>
+				<cntemail>Hook.James@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/cleanups/cleanups-my-community</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20211110</metd>
+		<metfrd>201909</metfrd>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency</cntorg>
+					<cntper>James (Trip) Hook</cntper>
+				</cntperp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>1301 Constitution Avenue N.W.</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20004</postal>
+				</cntaddr>
+				<cntvoice/>
+				<cntemail>Hook.James@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/cleanups/cleanups-my-community</cntinst>
+			</cntinfo>
+		</metc>
+	</metainfo>
+
+	<eainfo>
+		<overview>
+			<eaover>Attribute fields for CIMC data are derived from many sources.  Each field is described in detail below.</eaover>
+			<eadetcit>For more information about Cleanups in My Community data, go to https://www.epa.gov/cleanups/cleanups-my-community</eadetcit>
+		</overview>
+		<detailed>
+			<enttyp>
+				<enttypl>Brownfield Grant Jurisdictions</enttypl>
+				<enttypd>Feature class that contains all Brownfields grant jurisdiction polygons.</enttypd>
+				<enttypds>EPA</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>JURISDICTION_ID</attrlabl>
+				<attrdef>Jurisdiction ID Number.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Jurisdiction ID Number.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>JURISDICTION_TYPE</attrlabl>
+				<attrdef>Jurisdiction Type (City, State, County)</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Jurisdiction Type (City, State, County)</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>JOB_G</attrlabl>
+				<attrdef>Job Training Grant. Annual Environmental Workforce Development and Job Training grants allow nonprofit and other organizations to recruit, train, and place predominantly low-income and minority, unemployed and under-employed people living in areas affected by solid and hazardous waste. Residents learn the skills needed to secure full-time, sustainable employment in the environmental field, including assessment and cleanup. These green jobs reduce environmental contamination and build more sustainable futures for communities.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Y=Yes, N=No</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>JOB_P</attrlabl>
+				<attrdef>Job Training Pilot. Annual Environmental Workforce Development and Job Training grants allow nonprofit and other organizations to recruit, train, and place predominantly low-income and minority, unemployed and under-employed people living in areas affected by solid and hazardous waste. Residents learn the skills needed to secure full-time, sustainable employment in the environmental field, including assessment and cleanup. These green jobs reduce environmental contamination and build more sustainable futures for communities.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Y=Yes, N=No</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>ASSESS_G</attrlabl>
+				<attrdef>Assessment Grant</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Y=Yes, N=No</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>ASSESS_P</attrlabl>
+				<attrdef>Assessment Pilot</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Y=Yes, N=No</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>CLEANUP_G</attrlabl>
+				<attrdef>Cleanup Grant</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Y=Yes, N=No</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>RLF_G</attrlabl>
+				<attrdef>Revolving Loan Fund Grant</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Y=Yes, N=No</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>RLF_P</attrlabl>
+				<attrdef>Revolving Loan Fund Pilot</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Y=Yes, N=No</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>ST_TRIBE_G</attrlabl>
+				<attrdef>State and Tribal Grant</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Y=Yes, N=No</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>JURISDICTION_NAME</attrlabl>
+				<attrdef>Jurisdiction Name</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Name of Jurisdiction (City, State, County)</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>MAP_ORDER</attrlabl>
+				<attrdef>Order to display polygons on map.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Numeric code to identify order</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>MAP_CODE</attrlabl>
+				<attrdef>Code for Map Display</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>JG=Job Training Grants, JP=Job Training Pilot, AG=Assessment Grants, AP=Assessment Pilots, CG=Cleanup Grants, RLF_G=RLF Grants, RLF_P=RLF Pilots, ST_TRIBE_G=State and Tribal 128(a) Grants, M=Multiple Grant Types</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>NUMPOLYS</attrlabl>
+				<attrdef>Number of Polygons associated with Grant Area</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Positive number representing total grant boundaries.</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>VE_CENTER</attrlabl>
+				<attrdef>Center Point of Polygon. Created for use with Bing Maps API.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Latitude and longitude of center point.</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>VE_BB</attrlabl>
+				<attrdef>Bounding Box of Polygon(s)</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Latitude and longitude of bounding box representing the polygon area. Created for use with Bing Maps API.</udom>
+				</attrdomv>
+			</attr>
+
+
+			<attr>
+				<attrlabl>VE_DESC&#160;</attrlabl>
+				<attrdef>Description of Types of Grants associated with this boundary. Used to display the list of grants associated with each polygon.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Description of Types of Grants associated with this boundary. </udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>TBA_G</attrlabl>
+				<attrdef>Targeted Brownfield Assessment Grant</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Targeted Brownfield Assessment Grant; Y=Yes, N=No</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MP_G&#160;</attrlabl>
+				<attrdef>Multi-purpose Grants</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Y=Yes, N=No</udom>
+				</attrdomv>
+			</attr>
+
+
+			<attr>
+				<attrlabl>VE_JTGRANTS</attrlabl>
+				<attrdef>Description of how many Job Training Grants at this site. Created for use with Bing Maps API.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Description of how many Job Training Grants at this site.</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>VE_JTPILOTS</attrlabl>
+				<attrdef>Description of how many Job Training Pilots at this site.  Created for use with Bing Maps API.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Description of how many Job Training Pilots at this site</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>VE_ASSESSPILOTS</attrlabl>
+				<attrdef>Description of how many Assessment Pilots at this site.  Created for use with Bing Maps API.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Description of how many Assessment Pilots at this site</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>VE_CLEANUPGRANTS</attrlabl>
+				<attrdef>Description of how many Cleanup Grants at this site.  Created for use with Bing Maps API.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Description of how many Cleanup Grants at this site</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>VE_RLFGRANTS</attrlabl>
+				<attrdef>Description of how many Revolving Loan Fund Grants at this site.  Created for use with Bing Maps API.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Description of how many Revolving Loan Fund Grants at this site</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>VE_CLEANUPGRANTS</attrlabl>
+				<attrdef>Description of how many Cleanup Grants at this site.  Created for use with Bing Maps API.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Cleanup Grants</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>VE_128AGRANTS</attrlabl>
+				<attrdef>Description of how many 128A Grants at this site.  Created for use with Bing Maps API.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Description of how many 128A Grants at this site</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>VE_TBAGRANTS</attrlabl>
+				<attrdef>Description of how many Targeted Brownfield Assessment Grants at this site.  Created for use with Bing Maps API.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Description of how many Targeted Brownfield Assessment Grants at this site</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>VE_MPGRANTS&#160;</attrlabl>
+				<attrdef>Description of how many Multi-purpose Grants at this site.  Created for use with Bing Maps API.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Description of how many Multi-purpose Grants at this site</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>VE_RLFPILOTS</attrlabl>
+				<attrdef>Description of how many Revolving Loan Fund Pilots at this site.  Created for use with Bing Maps API.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Description of how many Revolving Loan Fund Pilots at this site</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>STATE_CODE</attrlabl>
+				<attrdef>Two character state abbreviation</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Two character state abbreviation</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>COUNTY</attrlabl>
+				<attrdef>County Name</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>County Name</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>AWP_G</attrlabl>
+				<attrdef>Area-Wide Planning Grants</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Area-Wide Planning Grants</udom>
+				</attrdomv>
+			</attr>
+
+			<attr>
+				<attrlabl>VE_AWPGRANTS</attrlabl>
+				<attrdef>Description of how many Area-Wide Planning Grants at this site.  Created for use with Bing Maps API.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Description of how many Area-Wide Planning Grants at this site</udom>
+				</attrdomv>
+			</attr>
+<attr>
+				<attrlabl>BF_128A_P_IND</attrlabl>
+				<attrdef>Brownfields Properties that belongs to State Tribal 128a Pilot grants.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields Properties that belongs to State Tribal 128a Pilot grants.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_AWP_IND</attrlabl>
+				<attrdef>Brownfields Properties that belongs to Area wide planning grants.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields Properties that belongs to Area wide planning grants.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_PROPERTY_NAME</attrlabl>
+				<attrdef>Brownfields Property Name</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields Property Name</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BF_SHOWCASE_IND</attrlabl>
+				<attrdef>Brownfields Properties that belongs to Showcase grants.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Brownfields Properties that belongs to Showcase grants.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CONGRESSIONAL_DISTRICT</attrlabl>
+				<attrdef>Congression district value for a given Site.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Congression district value for a given Site.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DATA_REFRESH_DT</attrlabl>
+				<attrdef>Date refreshed in CIMC</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Date refreshed in CIMC</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ERR_LAT_LONG</attrlabl>
+				<attrdef>Flag to denote either Latitude or Longitude or both are invalid in CIMC.</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Flag to denote either Latitude or Longitude or both are invalid in CIMC.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_AGENCY_OWNER</attrlabl>
+				<attrdef>Federal Facility Docket flag to identify Agency Owner</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket flag to identify Agency Owner</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_BRAC_IND</attrlabl>
+				<attrdef>Federal Facility Docket's BRAC flag from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's BRAC flag from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_BRAC_ROUND</attrlabl>
+				<attrdef>Federal Facility Docket's BRAC Round value from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's BRAC Round value from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_EJ_CODE</attrlabl>
+				<attrdef>Federal Facility Docket's Environmental Justice code</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Environmental Justice code</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_FEDERAL_AGENCY</attrlabl>
+				<attrdef>Federal Facility Docket's Federal Agency information</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Federal Agency information</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_FF_IND</attrlabl>
+				<attrdef>Federal Facility Docket's Superfund Site Id from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Superfund Site Id from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_GMS_SURVEY_RESULT_CODE</attrlabl>
+				<attrdef>Federal Facility Docket's Ground Migration Survey Result code from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Ground Migration Survey Result code from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_HES_SURVEY_RESULT_CODE</attrlabl>
+				<attrdef>Federal Facility Docket's Human Exposure Survey Result code from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Human Exposure Survey Result code from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_HRS_SCORE</attrlabl>
+				<attrdef>Federal Facility Docket's HRS score from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's HRS score from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_LISTING_DATE</attrlabl>
+				<attrdef>Federal Facility Docket's Listing Date</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Listing Date</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_NON_NPL_STATUS</attrlabl>
+				<attrdef>Federal Facility Docket's Non NPL Status code from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Non NPL Status code from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_NON_NPL_STATUS_NAME</attrlabl>
+				<attrdef>Federal Facility Docket's Non NPL Status Name from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Non NPL Status Name from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_NPL_STATUS_NAME</attrlabl>
+				<attrdef>Federal Facility Docket's NPL Status Name from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's NPL Status Name from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_ONGOING_DISPUTE_IND</attrlabl>
+				<attrdef>Federal Facility Docket's Ongoing Dispute indicator from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Ongoing Dispute indicator from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_RCRA_CA_IND</attrlabl>
+				<attrdef>Federal Facility Docket's indicator for RCRA Corrective Action</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's indicator for RCRA Corrective Action</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_RCRA_GW_CONTROL</attrlabl>
+				<attrdef>Federal Facility Docket's flag for RCRA Ground Water Control</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's flag for RCRA Ground Water Control</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_RCRA_HANDLER_ID</attrlabl>
+				<attrdef>Federal Facility Docket's RCRA Handler Id</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's RCRA Handler Id</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_RCRA_HE_CONTROL</attrlabl>
+				<attrdef>Federal Facility Docket's flag for RCRA Human Exposure</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's flag for RCRA Human Exposure</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_SF_NPL_IND</attrlabl>
+				<attrdef>Federal Facility Docket's NPL Status code from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's NPL Status code from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FD_SF_SITE_ID</attrlabl>
+				<attrdef>Federal Facility Docket's Superfund Site Id from SPUD</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Federal Facility Docket's Superfund Site Id from SPUD</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>GIS_REFRESH_DT</attrlabl>
+				<attrdef>Date on which GIS refresh took place</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Date on which GIS refresh took place</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_DRUPAL_DOC_NODEID</attrlabl>
+				<attrdef>RCRA Regions Drupal Documents Nodeid for Profile pages</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA Regions Drupal Documents Nodeid for Profile pages</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_DRUPAL_SITE_NODEID</attrlabl>
+				<attrdef>RCRA Regions Drupal Site Nodeid for Profile pages</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA Regions Drupal Site Nodeid for Profile pages</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_HANDLER_NAME</attrlabl>
+				<attrdef>RCRA Site name</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA Site name</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RCRA_RAU_IND</attrlabl>
+				<attrdef>RCRA Ready for Anticipated Use Indicator</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>RCRA Ready for Anticipated Use Indicator</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>REPOW_BF</attrlabl>
+				<attrdef>Flag to identify Repowering Brownfields site</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Flag to identify Repowering Brownfields site</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>REPOW_RCRA</attrlabl>
+				<attrdef>Flag to identify Repowering RCRA site</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Flag to identify Repowering RCRA site</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>REPOW_REF_KEY</attrlabl>
+				<attrdef>Repowering Reference Key</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Repowering Reference Key</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>REPOW_REF_URL</attrlabl>
+				<attrdef>Repowering Profile URL</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Repowering Profile URL</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>REPOW_REF_URL_APEX</attrlabl>
+				<attrdef>Repowering Profile URL for Apex use</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Repowering Profile URL for Apex use</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>REPOW_SF</attrlabl>
+				<attrdef>Flag to identify Repowering Superfund site</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Flag to identify Repowering Superfund site</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SAA_SITE</attrlabl>
+				<attrdef>Flag to idenfity Superfund SAA site</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Flag to idenfity Superfund SAA site</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_ADMIN_FLAG</attrlabl>
+				<attrdef>Flag to identify Superfune Administrator/task force site</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Flag to identify Superfune Administrator/task force site</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_NON_NPL_STATUS_CATEGORY</attrlabl>
+				<attrdef>Superfund Non NPL Status Category</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Superfund Non NPL Status Category</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_NON_NPL_STATUS_SUBCATEG</attrlabl>
+				<attrdef>Superfund Non NPL Status Sub Category</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Superfund Non NPL Status Sub Category</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_NPL_CODE_ALL</attrlabl>
+				<attrdef>Superfund NPL Codes (all of them in one)</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Superfund NPL Codes (all of them in one)</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF_SITE_NAME</attrlabl>
+				<attrdef>Superfund Site name</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Superfund Site name</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ACS_URL</attrlabl>
+				<attrdef>American Community Survey (Census) URL</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>American Community Survey (Census) URL</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DESC</attrlabl>
+				<attrdef>Description</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Description</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>New Site</attrlabl>
+				<attrdef>Site newly added to CIMC</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Site newly added to CIMC</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF Non NPL Code </attrlabl>
+				<attrdef>Superfund Non NPL code</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Superfund Non NPL code</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SF Non NPL Status</attrlabl>
+				<attrdef>Superfund Non NPL Status</attrdef>
+				<attrdefs>EPA</attrdefs>
+				<attrdomv>
+					<udom>Superfund Non NPL Status</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+					<mapprojp>
+						<otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+					</mapprojp>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.0001</absres>
+						<ordres>0.0001</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

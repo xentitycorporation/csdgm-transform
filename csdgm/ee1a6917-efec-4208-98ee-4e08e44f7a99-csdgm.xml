@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.fgdc.gov/metadata/fgdc-std-001-1998.xsd">
+   <Esri>
+      <PublishedDocID>{FC0DD0E8-E2D7-422C-AC4C-F7ABF413C773}</PublishedDocID>
+   </Esri>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>US Environmental Protection Agency, Office of Water</origin>
+            <pubdate>20150501</pubdate>
+            <title>EPA Office of Water (OW): 305(b) Waters As Assessed by Assessed Uses</title>
+            <edition>20150501</edition>
+            <geoform>tabular digital data</geoform>
+            <pubinfo>
+               <pubplace>Washington, DC</pubplace>
+               <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>https://water.epa.gov/scitech/datait/tools/waters/data/downloads.cfm</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>Under Section 305(b) of the CWA, the states, territories, and other jurisdictions of the United States are required to submit reports on the quality of their waters to the U.S. Environmental Protection Agency (EPA) every 2 years. Historically, the states submitted these reports in hardcopy format, and EPA prepared a national hardcopy report that summarized these findings (see http://www.epa.gov/305b). For more information, please see EPA&#8217;s Integrated Reporting Guidance at: ttp://www.epa.gov/owow/tmdl/guidance.html.</abstract>
+         <purpose>To data can be used to identify the spatial extent of assessed waters within each state.  The attribute information provided (e.g., designated uses, location, and waterbody name) is reported by States to EPA under CWA Section 305(b), and can be associated with the geospatial information (305(b) Waters as Assessed NHD Indexed Dataset found at http://www.epa.gov/waters/data/downloads.html).  The attribute information can be viewed via ATTAINS available at http://www.epa.gov/waters/ir or downloaded via the AskWATERS Expert Query available at http://www.epa.gov/waters/tools.</purpose>
+         <supplinf>305(b) attributes are provided for usage with 305(b) geospatial information from the EPA Reach Address Database.  Use the provided ESRI_KEY for joining tables.  Note that there is a many-to-many relationship between attributes and geospatial records.</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>20150501</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>In work</progress>
+         <update>Continually</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-180</westbc>
+            <eastbc>180</eastbc>
+            <northbc>90</northbc>
+            <southbc>-90</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>assessed waters</themekey>
+            <themekey>305b</themekey>
+            <themekey>TMDL</themekey>
+            <themekey>clean water act</themekey>
+            <themekey>CWA</themekey>
+            <themekey>point source</themekey>
+            <themekey>EPA</themekey>
+            <themekey>Stream</themekey>
+            <themekey>reach</themekey>
+         </theme>
+         <theme>
+            <themekt>ISO 19115 Topic Category</themekt>
+            <themekey>environment</themekey>
+            <themekey>inlandWaters</themekey>
+         </theme>
+         <place>
+            <placekt>None</placekt>
+            <placekey>US</placekey>
+            <placekey>National</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Wendy Reid</cntper>
+               <cntorg>U.S. Environmental Protection Agency, Headquarters</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>1200 Pennsylvania Avenue, NW MC 4503T</address>
+               <city>Washington</city>
+               <state>DC</state>
+               <postal>20460</postal>
+            </cntaddr>
+            <cntvoice>202-566-1705</cntvoice>
+            <cntemail>reid.wendy@epa.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <secinfo>
+         <secsys>FIPS Pub 199</secsys>
+         <secclass>No Confidentiality</secclass>
+         <sechandl>Standard Technical Controls</sechandl>
+      </secinfo>
+   </idinfo>
+   <dataqual>
+      <complete>Data represents ATTAINS information for the time period indicated.</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>NA</horizpar>
+         </horizpa>
+         <vertacc>
+            <vertaccr>NA</vertaccr>
+         </vertacc>
+      </posacc>
+      <logic>NA</logic>
+      <lineage>
+         <procstep>
+            <procdesc>New national extract constructed for ATTAINS data download refresh by referencing ATTAINS program data filtering data by assessment units georefenced in the EPA Reach Address Database.</procdesc>
+            <procdate>20150501</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>SnapShot_Date and ESRI_Key fields added for documentation and convenience when using ESRI GIS products.</procdesc>
+            <procdate>20150501</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spref>
+      <horizsys>
+         <geograph>
+            <latres>0.000001</latres>
+            <longres>0.000001</longres>
+            <geogunit>Decimal degrees</geogunit>
+         </geograph>
+         <geodetic>
+            <horizdn>North American Datum of 1983</horizdn>
+            <ellips>Geodetic Reference System 1980</ellips>
+            <semiaxis>6378137.000000</semiaxis>
+            <denflat>298.257222</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>ATTGEO_305BUSES</enttypl>
+            <enttypd>305(b) Assessed Waters by Assessed Uses</enttypd>
+            <enttypds>ATTAINS</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Assessment_Unit_ID</attrlabl>
+            <attrdef>Unique ID assigned to each state waterbody or segment. The first two characters are the state abbreviation.  The following characters are the water&#8217;s Waterbody System ID, another state-derived ID, or an arbitrary ID assigned by the state.  This field is included for all entries.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Cycle_Year</attrlabl>
+            <attrdef>The even numbered year associated with the list or assessment (e.g., 1996, 1998, 2000). This field is included for all entries.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1998</rdommin>
+                  <rdommax>9999</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>State</attrlabl>
+            <attrdef>The state abbreviation (US Postal) for the state. This field is included for all entries.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>State Abbreviation</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>IR_Status</attrlabl>
+            <attrdef>Flag (Y/N) indicating whether the state data submission is integrated or a separate 303(d) and 305(b).</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AU_Waterbody_Report</attrlabl>
+            <attrdef>URL of EPA-hosted ATTAINS waterbody report.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Assessment_Unit_Name</attrlabl>
+            <attrdef>Water name of the assessed waterbody (e.g., Mississippi River). This field is included for all entries.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Assessment_Status</attrlabl>
+            <attrdef>The state-reported attainment status of the water.  The Water Status is calculated based on a review of all assessed designated uses.  If all designated uses are fully supporting then the Water Status is "Good".  If one designated use is not supporting, not attainable, or is partially supporting, then the Water Status is "Impaired".  If the water is neither "Good" nor "Impaired" and at least one designated use is threatened, then the Water Status is "Threatened".  For waters where no designated uses were assessed then the Water Status is NULL.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Assessment_Unit_EPA_Category</attrlabl>
+            <attrdef>The overall integrated report category of the assessment unit reported by EPA, i.e. 1 thru 5.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Cycle_Last_Assessed</attrlabl>
+            <attrdef>Last cycle in which this assessment unit was assessed.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AU_Use_ID</attrlabl>
+            <attrdef>Numeric ID assigned to the designated use.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AU_Use_Desc</attrlabl>
+            <attrdef>State water quality standards specify which designated uses, such as recreation, aquatic life use support, or drinking water supply that individual waters should support.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AU_Parent_Use_ID</attrlabl>
+            <attrdef>ID associated with the "parent" designated use.  The parent designated use represents an EPA-assigned, general categorization for the specific, state-reported designated uses.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AU_Parent_Use_Desc</attrlabl>
+            <attrdef>Designated use group name such as &#8216;Recreation&#8217; or &#8216;Agricultural&#8217;.  The parent designated use represents an EPA-assigned, general categorization for the specific, state-reported designated uses.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AU_Attainment_Status</attrlabl>
+            <attrdef>Code for the attainment status for a particular assessment unit's designated use.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Snapshot_Date</attrlabl>
+            <attrdef>Date of extraction from the ATTAINS system.</attrdef>
+            <attrdefs>ATTAINS</attrdefs>
+            <attrdomv>
+               <udom>Date value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ESRI_Key</attrlabl>
+            <attrdef>Convenience key provided to aid in join and relates activies in ESRI software.</attrdef>
+            <attrdefs>RAD</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ObjectID</attrlabl>
+            <attrdef>Unique numeric identifier used in ESRI software activities.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>2147483647</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>US EPA Headquarters</cntorg>
+               <cntper>Office of Water</cntper>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>1200 Pennsylvania Avenue, NW MC 4503T</address>
+               <city>Washington</city>
+               <state>DC</state>
+               <postal>20460</postal>
+            </cntaddr>
+            <cntvoice>202-566-1705</cntvoice>
+            <cntemail>reid.wendy@epa.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <resdesc>Live Data and Maps</resdesc>
+      <distliab>https://edg.epa.gov/EPA_Data_License.htm</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Tabular Data</formname>
+               <formcont>National Extracts</formcont>
+               <filedec>Zipped (compressed) file</filedec>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.epa.gov/scitech/datait/tools/waters/data/downloads.cfm</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20211026</metd>
+      <metfrd>20170501</metfrd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>US EPA Headquarters</cntorg>
+               <cntper>Office of Water</cntper>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>1200 Pennsylvania Avenue, NW MC 4503T</address>
+               <city>Washington</city>
+               <state>DC</state>
+               <postal>20460</postal>
+            </cntaddr>
+            <cntvoice>202-566-1705</cntvoice>
+            <cntemail>reid.wendy@epa.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+      <metuc>{FC0DD0E8-E2D7-422C-AC4C-F7ABF413C773}</metuc>
+   </metainfo>
+</metadata>

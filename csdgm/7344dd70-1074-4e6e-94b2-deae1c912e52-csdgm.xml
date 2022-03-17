@@ -1,0 +1,1664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<Esri>
+<ArcGISFormat>1.0</ArcGISFormat>
+<DataProperties>
+<itemProps>
+<imsContentType export="False">003</imsContentType>
+<itemLocation>
+<linkage Sync="TRUE">file://\\DESKTOP-HR20C8N\Users\Innovate\Desktop\ERCloudPrimLibrary\EPA_SDWA.gdb</linkage>
+<protocol Sync="TRUE">Local Area Network</protocol>
+</itemLocation>
+<itemName Sync="TRUE">RoofCatchment_CNMI_2008_SDWIS</itemName>
+<nativeExtBox>
+<westBL Sync="TRUE">16220199.141200</westBL>
+<eastBL Sync="TRUE">16224290.132500</eastBL>
+<southBL Sync="TRUE">1703526.908800</southBL>
+<northBL Sync="TRUE">1715432.725700</northBL>
+<exTypeCode Sync="TRUE">1</exTypeCode>
+</nativeExtBox>
+</itemProps>
+<coordRef>
+<type Sync="TRUE">Projected</type>
+<geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn>
+<csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+<peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.8'&gt;&lt;WKT&gt;PROJCS[&amp;quot;WGS_1984_Web_Mercator_Auxiliary_Sphere&amp;quot;,GEOGCS[&amp;quot;GCS_WGS_1984&amp;quot;,DATUM[&amp;quot;D_WGS_1984&amp;quot;,SPHEROID[&amp;quot;WGS_1984&amp;quot;,6378137.0,298.257223563]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Mercator_Auxiliary_Sphere&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,0.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,0.0],PARAMETER[&amp;quot;Auxiliary_Sphere_Type&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,3857]]&lt;/WKT&gt;&lt;XOrigin&gt;-20037700&lt;/XOrigin&gt;&lt;YOrigin&gt;-30241100&lt;/YOrigin&gt;&lt;XYScale&gt;10000&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102100&lt;/WKID&gt;&lt;LatestWKID&gt;3857&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+<projcsn Sync="TRUE">WGS_1984_Web_Mercator_Auxiliary_Sphere</projcsn>
+</coordRef>
+</DataProperties>
+<scaleRange>
+<minScale>150000000</minScale>
+<maxScale>5000</maxScale>
+</scaleRange>
+<ArcGISProfile>NAP</ArcGISProfile>
+<CreaDate>20181025</CreaDate>
+<CreaTime>13250200</CreaTime>
+<SyncOnce>FALSE</SyncOnce>
+<SyncDate>20210128</SyncDate>
+<SyncTime>15343100</SyncTime>
+<ModDate>20210128</ModDate>
+<ModTime>15343100</ModTime>
+</Esri>
+<idinfo>
+<spdom>
+<bounding>
+<westbc>-170.798629</westbc>
+<eastbc>145.800412</eastbc>
+<northbc>42.016006</northbc>
+<southbc>-14.347560</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>EPA GIS Keyword Thesaurus</themekt>
+<themekey>Compliance</themekey>
+<themekey>Conservation</themekey>
+<themekey>Drinking Water</themekey>
+<themekey>Ground Water</themekey>
+<themekey>Health</themekey>
+<themekey>Human</themekey>
+<themekey>Inspections</themekey>
+<themekey>Management</themekey>
+<themekey>Monitoring</themekey>
+<themekey>Natural Resources</themekey>
+<themekey>Permits</themekey>
+<themekey>Regulatory</themekey>
+<themekey>Risk</themekey>
+<themekey>Surface Water</themekey>
+<themekey>Water</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Hawaii</placekey>
+</place>
+<theme>
+<themekey>Water</themekey>
+<themekey>Conservation</themekey>
+<themekey>Management</themekey>
+<themekey>Monitoring</themekey>
+<themekey>Surface Water</themekey>
+<themekey>Ground Water</themekey>
+<themekey>Regulatory</themekey>
+<themekey>Drinking Water</themekey>
+<themekey>Natural Resources</themekey>
+<themekey>Health</themekey>
+<themekey>Compliance</themekey>
+<themekey>Inspections</themekey>
+<themekey>Risk</themekey>
+<themekey>Permits</themekey>
+<themekey>Human</themekey>
+<themekey>inlandWaters</themekey>
+<themekey>health</themekey>
+<themekey>society</themekey>
+</theme>
+</keywords>
+<descript>
+<abstract>EPA&#226;??s Safe Drinking Water Information System (SDWIS) databases store information about drinking water. The federal version (SDWIS/FED) stores the information EPA needs to monitor approximately 156,000 public water systems.</abstract>
+<purpose>Data management plays a critical role in helping states and EPA protect public health. The Safe Drinking Water Information System (SDWIS) federal and state databases contain information submitted by states, EPA regions, and public water systems in conformance with reporting requirements established by the Safe Drinking Water Act (SDWA) and related regulations and guidance.</purpose>
+</descript>
+<citation>
+<citeinfo>
+<origin>US Environmental Protection Agency</origin>
+<pubinfo>
+<publish>U.S. Environmental Protection Agency, Region 9</publish>
+<pubplace>San Francisco, CA</pubplace>
+</pubinfo>
+<pubdate>20130307</pubdate>
+<title>Roof Catchments, US EPA Region 9, 2013, SDWIS</title>
+<onlink>http://water.epa.gov/scitech/datait/databases/drink/sdwisfed/basicinformation.cfm#overview</onlink>
+<onlink>http://edg.epa.gov</onlink>
+</citeinfo>
+</citation>
+<timeperd>
+<current>Publication date</current>
+<timeinfo>
+<sngdate>
+<caldate>20130307</caldate>
+</sngdate>
+</timeinfo>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>annually</update>
+</status>
+<accconst>These Data Are Restricted to Internal EPA Personnel Only</accconst>
+<useconst>These data should not be distributed.  Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+<secinfo>
+<secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+<secclass>non-public</secclass>
+<sechandl>Standard Technical Controls</sechandl>
+</secinfo>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+<cntper>Cheryl Henley</cntper>
+</cntorgp>
+<cntpos>GIS Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>75 Hawthorne Street</address>
+<address>MTS-6-1</address>
+<city>San Francisco</city>
+<state>CA</state>
+<postal>94105</postal>
+</cntaddr>
+<cntvoice>415-972-3586</cntvoice>
+<cntemail>henley.cheryl@epa.gov</cntemail>
+<cntinst>http://www.epa.gov/region09/</cntinst>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<eainfo>
+<detailed Name="RoofCatchment_CNMI_2008_SDWIS">
+<enttyp>
+<enttypl>Region 9 Roof Catchment</enttypl>
+<enttypds>SDWIS</enttypds>
+<enttypt Sync="TRUE">Feature Class</enttypt>
+<enttypc Sync="TRUE">7</enttypc>
+</enttyp>
+<attr>
+<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+<attalias Sync="TRUE">OBJECTID</attalias>
+<attrtype Sync="TRUE">OID</attrtype>
+<attwidth Sync="TRUE">4</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+<attrdef Sync="TRUE">Internal feature number.</attrdef>
+<attrdefs Sync="TRUE">Esri</attrdefs>
+<attrdomv>
+<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACID</attrlabl>
+<attalias Sync="TRUE">FACID</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">ID</attrlabl>
+<attalias Sync="TRUE">ID</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACNAME</attrlabl>
+<attalias Sync="TRUE">FACNAME</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACSTATEASGNID</attrlabl>
+<attalias Sync="TRUE">FACSTATEASGNID</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACACTIVITYCODE</attrlabl>
+<attalias Sync="TRUE">FACACTIVITYCODE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACDEACTIVATIONDATE</attrlabl>
+<attalias Sync="TRUE">FACDEACTIVATIONDATE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACWATERTYPE</attrlabl>
+<attalias Sync="TRUE">FACWATERTYPE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACTYPECODE</attrlabl>
+<attalias Sync="TRUE">FACTYPECODE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACAVAILABILITY</attrlabl>
+<attalias Sync="TRUE">FACAVAILABILITY</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">SELLERPWSID</attrlabl>
+<attalias Sync="TRUE">SELLERPWSID</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">SELLERTRTCODE</attrlabl>
+<attalias Sync="TRUE">SELLERTRTCODE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">SOURCETRTIND</attrlabl>
+<attalias Sync="TRUE">SOURCETRTIND</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PWSID</attrlabl>
+<attalias Sync="TRUE">PWSID</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PWSTYPECODE</attrlabl>
+<attalias Sync="TRUE">PWSTYPECODE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PWSNAME</attrlabl>
+<attalias Sync="TRUE">PWSNAME</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PWSACTIVITYCODE</attrlabl>
+<attalias Sync="TRUE">PWSACTIVITYCODE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PWSDEACTIVATIONDATE</attrlabl>
+<attalias Sync="TRUE">PWSDEACTIVATIONDATE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PWSWHOLESALERIND</attrlabl>
+<attalias Sync="TRUE">PWSWHOLESALERIND</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PWSRETPOPSERVD</attrlabl>
+<attalias Sync="TRUE">PWSRETPOPSERVD</attalias>
+<attrtype Sync="TRUE">Double</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PWSSVCCONN</attrlabl>
+<attalias Sync="TRUE">PWSSVCCONN</attalias>
+<attrtype Sync="TRUE">Double</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PWSOWNERCODE</attrlabl>
+<attalias Sync="TRUE">PWSOWNERCODE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">SUBMISSIONSTATUSCODE</attrlabl>
+<attalias Sync="TRUE">SUBMISSIONSTATUSCODE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">VALIDITYINDICATOR_1</attrlabl>
+<attalias Sync="TRUE">VALIDITYINDICATOR_1</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FIRSTREPORTEDDATE_1</attrlabl>
+<attalias Sync="TRUE">FIRSTREPORTEDDATE_1</attalias>
+<attrtype Sync="TRUE">Date</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LASTREPORTEDDATE_1</attrlabl>
+<attalias Sync="TRUE">LASTREPORTEDDATE_1</attalias>
+<attrtype Sync="TRUE">Date</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACNAME1</attrlabl>
+<attalias Sync="TRUE">FACNAME1</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACSTATEASGNID1</attrlabl>
+<attalias Sync="TRUE">FACSTATEASGNID1</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACACTIVITYCODE1</attrlabl>
+<attalias Sync="TRUE">FACACTIVITYCODE1</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACDEACTIVATIONDATE1</attrlabl>
+<attalias Sync="TRUE">FACDEACTIVATIONDATE1</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACWATERTYPE1</attrlabl>
+<attalias Sync="TRUE">FACWATERTYPE1</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACTYPECODE1</attrlabl>
+<attalias Sync="TRUE">FACTYPECODE1</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FACAVAILABILITY1</attrlabl>
+<attalias Sync="TRUE">FACAVAILABILITY1</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">SELLERPWSID1</attrlabl>
+<attalias Sync="TRUE">SELLERPWSID1</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">SELLERTRTCODE1</attrlabl>
+<attalias Sync="TRUE">SELLERTRTCODE1</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">SOURCETRTIND1</attrlabl>
+<attalias Sync="TRUE">SOURCETRTIND1</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LATITUDE</attrlabl>
+<attalias Sync="TRUE">LATITUDE</attalias>
+<attrtype Sync="TRUE">Double</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LONGITUDE</attrlabl>
+<attalias Sync="TRUE">LONGITUDE</attalias>
+<attrtype Sync="TRUE">Double</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LLCOLLECTIONMETH</attrlabl>
+<attalias Sync="TRUE">LLCOLLECTIONMETH</attalias>
+<attrtype Sync="TRUE">Double</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LLHORIZACCURACY</attrlabl>
+<attalias Sync="TRUE">LLHORIZACCURACY</attalias>
+<attrtype Sync="TRUE">Double</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LLHORIZDATUM</attrlabl>
+<attalias Sync="TRUE">LLHORIZDATUM</attalias>
+<attrtype Sync="TRUE">Double</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LLDESCRIPTION</attrlabl>
+<attalias Sync="TRUE">LLDESCRIPTION</attalias>
+<attrtype Sync="TRUE">Double</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LLSOURCESCALE</attrlabl>
+<attalias Sync="TRUE">LLSOURCESCALE</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LLGEOMETRICTYPE</attrlabl>
+<attalias Sync="TRUE">LLGEOMETRICTYPE</attalias>
+<attrtype Sync="TRUE">Double</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LLCOLLECTIONDATE</attrlabl>
+<attalias Sync="TRUE">LLCOLLECTIONDATE</attalias>
+<attrtype Sync="TRUE">Date</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LLSOURCECODE</attrlabl>
+<attalias Sync="TRUE">LLSOURCECODE</attalias>
+<attrtype Sync="TRUE">Double</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LLVERIFICATIONMETHOD</attrlabl>
+<attalias Sync="TRUE">LLVERIFICATIONMETHOD</attalias>
+<attrtype Sync="TRUE">Double</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LLCOMMENTS</attrlabl>
+<attalias Sync="TRUE">LLCOMMENTS</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">VALIDITYINDICATOR</attrlabl>
+<attalias Sync="TRUE">VALIDITYINDICATOR</attalias>
+<attrtype Sync="TRUE">String</attrtype>
+<attwidth Sync="TRUE">255</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">FIRSTREPORTEDDATE</attrlabl>
+<attalias Sync="TRUE">FIRSTREPORTEDDATE</attalias>
+<attrtype Sync="TRUE">Date</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">LASTREPORTEDDATE</attrlabl>
+<attalias Sync="TRUE">LASTREPORTEDDATE</attalias>
+<attrtype Sync="TRUE">Date</attrtype>
+<attwidth Sync="TRUE">8</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">Shape</attrlabl>
+<attalias Sync="TRUE">Shape</attalias>
+<attrtype Sync="TRUE">Geometry</attrtype>
+<attwidth Sync="TRUE">0</attwidth>
+<atprecis Sync="TRUE">0</atprecis>
+<attscale Sync="TRUE">0</attscale>
+<attrdef Sync="TRUE">Feature geometry.</attrdef>
+<attrdefs Sync="TRUE">Esri</attrdefs>
+<attrdomv>
+<udom Sync="TRUE">Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<resdesc>Offline Data</resdesc>
+<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+<cntper>Cheryl Henley</cntper>
+</cntorgp>
+<cntpos>GIS Technical Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>75 Hawthorne Street</address>
+<city>San Francisco</city>
+<state>CA</state>
+<postal>94105</postal>
+</cntaddr>
+<cntvoice>(415) 947-8000</cntvoice>
+<cntemail>henley.cheryl@epa.gov</cntemail>
+<cntinst>http://www.epa.gov/region09/</cntinst>
+</cntinfo>
+</distrib>
+</distinfo>
+<metainfo>
+<metd>20211028</metd>
+<metfrd>20170307</metfrd>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Region 9</cntorg>
+<cntper>Cheryl Henley</cntper>
+</cntorgp>
+<cntpos>GIS Technical Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>75 Hawthorne Street</address>
+<city>San Francisco</city>
+<state>CA</state>
+<postal>94105</postal>
+</cntaddr>
+<cntvoice>(415) 947-8000</cntvoice>
+<cntemail>henley.cheryl@epa.gov</cntemail>
+<cntinst>http://www.epa.gov/region09/</cntinst>
+</cntinfo>
+</metc>
+</metainfo>
+<dataqual>
+<logic>Tests for integrity have not been performed.</logic>
+<complete>Features represented have not been tested for completeness</complete>
+<posacc>
+<horizpa>
+<horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<procstep>
+<procdate>20130307</procdate>
+<procdesc>Metadata Template Developed by the R9 GIS Center</procdesc>
+</procstep>
+</lineage>
+</dataqual>
+<spref>
+<horizsys>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 1980</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<mdLang>
+<languageCode value="eng">
+</languageCode>
+<countryCode value="US">
+</countryCode>
+</mdLang>
+<mdChar>
+<CharSetCd value="004">
+</CharSetCd>
+</mdChar>
+<mdHrLv>
+<ScopeCd value="005">
+</ScopeCd>
+</mdHrLv>
+<mdContact>
+<rpIndName>Cheryl Henley</rpIndName>
+<rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+<rpPosName>GIS Technical Coordinator</rpPosName>
+<rpCntInfo>
+<cntPhone>
+<voiceNum>(415) 947-8000</voiceNum>
+</cntPhone>
+<cntAddress addressType="both">
+<delPoint>75 Hawthorne Street</delPoint>
+<city>San Francisco</city>
+<adminArea>CA</adminArea>
+<postCode>94105</postCode>
+<eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+</cntAddress>
+<cntInstr>http://www.epa.gov/region09/</cntInstr>
+</rpCntInfo>
+<role>
+<RoleCd value="007">
+</RoleCd>
+</role>
+</mdContact>
+<mdDateSt Sync="FALSE">2021-01-28</mdDateSt>
+<mdStanName>ArcGIS Metadata</mdStanName>
+<mdStanVer>1.0</mdStanVer>
+<distInfo>
+<distributor>
+<distorCont>
+<rpIndName>Cheryl Henley</rpIndName>
+<rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+<rpPosName>GIS Technical Coordinator</rpPosName>
+<rpCntInfo>
+<cntPhone>
+<voiceNum>(415) 947-8000</voiceNum>
+</cntPhone>
+<cntAddress addressType="both">
+<delPoint>75 Hawthorne Street</delPoint>
+<city>San Francisco</city>
+<adminArea>CA</adminArea>
+<postCode>94105</postCode>
+<eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+</cntAddress>
+<cntInstr>http://www.epa.gov/region09/</cntInstr>
+</rpCntInfo>
+<role>
+<RoleCd value="005">
+</RoleCd>
+</role>
+</distorCont>
+</distributor>
+<distTranOps>
+<onLineSrc>
+<linkage>http://water.epa.gov/scitech/datait/databases/drink/sdwisfed/basicinformation.cfm#overview</linkage>
+</onLineSrc>
+<onLineSrc>
+<linkage>http://edg.epa.gov</linkage>
+</onLineSrc>
+</distTranOps>
+<distFormat>
+<formatName Sync="TRUE">File Geodatabase Feature Class</formatName>
+</distFormat>
+</distInfo>
+<dataIdInfo>
+<idCitation>
+<resTitle>Roof Catchments Northern Mariana Islands, US EPA Region 9, 2008, SDWIS</resTitle>
+<date>
+<pubDate>2013-03-07</pubDate>
+</date>
+<citRespParty>
+<rpOrgName>US Environmental Protection Agency</rpOrgName>
+<role>
+<RoleCd value="006">
+</RoleCd>
+</role>
+</citRespParty>
+<citRespParty>
+<rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+<rpCntInfo>
+<cntAddress>
+<delPoint>San Francisco, CA</delPoint>
+</cntAddress>
+</rpCntInfo>
+<role>
+<RoleCd value="010">
+</RoleCd>
+</role>
+</citRespParty>
+<presForm>
+<PresFormCd value="005" Sync="TRUE">
+</PresFormCd>
+</presForm>
+</idCitation>
+<idAbs>EPA&#226;??s Safe Drinking Water Information System (SDWIS) databases store information about drinking water. The federal version (SDWIS/FED) stores the information EPA needs to monitor approximately 156,000 public water systems.</idAbs>
+<idPurp>Data management plays a critical role in helping states and EPA protect public health. The Safe Drinking Water Information System (SDWIS) federal and state databases contain information submitted by states, EPA regions, and public water systems in conformance with reporting requirements established by the Safe Drinking Water Act (SDWA) and related regulations and guidance.</idPurp>
+<idStatus>
+<ProgCd value="001">
+</ProgCd>
+</idStatus>
+<idPoC>
+<rpIndName>Cheryl Henley</rpIndName>
+<rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+<rpPosName>GIS Coordinator</rpPosName>
+<rpCntInfo>
+<cntPhone>
+<voiceNum tddtty="">415-972-3586</voiceNum>
+</cntPhone>
+<cntAddress addressType="both">
+<delPoint>75 Hawthorne Street</delPoint>
+<delPoint>MTS-6-1</delPoint>
+<city>San Francisco</city>
+<adminArea>CA</adminArea>
+<postCode>94105</postCode>
+<eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+</cntAddress>
+<cntInstr>http://www.epa.gov/region09/</cntInstr>
+</rpCntInfo>
+<role>
+<RoleCd value="010">
+</RoleCd>
+</role>
+</idPoC>
+<resMaint>
+<maintFreq>
+<MaintFreqCd value="008">
+</MaintFreqCd>
+</maintFreq>
+</resMaint>
+<placeKeys>
+<thesaName>
+<resTitle>EPA Place Names</resTitle>
+<date>
+<pubDate>2015-01-31</pubDate>
+</date>
+<citOnlineRes>
+<linkage>https://ofmpub.epa.gov/sor_internet/registry/termreg/searchandretrieve/taxonomies/search.do?search=&amp;searchString=&amp;taxonomyName=WBT%20-%20Geographic%20Locations</linkage>
+<orFunct>
+<OnFunctCd value="002">
+</OnFunctCd>
+</orFunct>
+<orName>Web Taxonomy - Geographic Locations</orName>
+</citOnlineRes>
+</thesaName>
+<thesaLang>
+<languageCode value="eng">
+</languageCode>
+<countryCode value="US">
+</countryCode>
+</thesaLang>
+<keyword>United States</keyword>
+</placeKeys>
+<themeKeys>
+<thesaName>
+<resTitle>EPA GIS Keyword Thesaurus</resTitle>
+<date>
+<pubDate>2013-03-07T00:00:00</pubDate>
+</date>
+<citOnlineRes>
+<linkage>https://www.epa.gov/geospatial/epa-metadata-technical-specification</linkage>
+<orFunct>
+<OnFunctCd value="002">
+</OnFunctCd>
+</orFunct>
+<orName>EPA Metadata Technical Specification</orName>
+</citOnlineRes>
+</thesaName>
+<keyword>Compliance</keyword>
+<keyword>Conservation</keyword>
+<keyword>Drinking Water</keyword>
+<keyword>Ground Water</keyword>
+<keyword>Health</keyword>
+<keyword>Human</keyword>
+<keyword>Inspections</keyword>
+<keyword>Management</keyword>
+<keyword>Monitoring</keyword>
+<keyword>Natural Resources</keyword>
+<keyword>Permits</keyword>
+<keyword>Regulatory</keyword>
+<keyword>Risk</keyword>
+<keyword>Surface Water</keyword>
+<keyword>Water</keyword>
+</themeKeys>
+<themeKeys>
+<thesaName>
+<resTitle>ISO 19115 Topic Category</resTitle>
+<date>
+<pubDate>2013-03-07T00:00:00</pubDate>
+</date>
+</thesaName>
+<keyword>inlandWaters</keyword>
+<keyword>health</keyword>
+<keyword>society</keyword>
+<keyword>CNMI</keyword>
+</themeKeys>
+<resConst>
+<SecConsts>
+<classSys>http://project-open-data.github.io/schema/#accessLevel</classSys>
+<handDesc>Standard Technical Controls</handDesc>
+<class>
+<ClasscationCd value="001">Unclassified</ClasscationCd>
+</class>
+</SecConsts>
+</resConst>
+<resConst>
+<Consts>
+<useLimit>These data should not be distributed. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</useLimit>
+</Consts>
+</resConst>
+<dataLang>
+<languageCode value="eng">
+</languageCode>
+<countryCode value="USA" Sync="TRUE">
+</countryCode>
+</dataLang>
+<dataExt>
+<geoEle>
+<GeoBndBox>
+<westBL>-170.798629</westBL>
+<eastBL>145.800412</eastBL>
+<southBL>-14.34756</southBL>
+<northBL>42.016006</northBL>
+</GeoBndBox>
+</geoEle>
+</dataExt>
+<dataExt>
+<exDesc>Publication date</exDesc>
+<tempEle>
+<TempExtent>
+<exTemp>
+<TM_Instant>
+<tmPosition>2013-03-07</tmPosition>
+</TM_Instant>
+</exTemp>
+</TempExtent>
+</tempEle>
+</dataExt>
+<resConst>
+<LegConsts>
+<accessConsts>
+<RestrictCd value="009">Unrestricted License</RestrictCd>
+</accessConsts>
+<useConsts>
+<RestrictCd value="">Empty</RestrictCd>
+</useConsts>
+<othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+<useLimit>EPA Public Domain License</useLimit>
+</LegConsts>
+</resConst>
+<envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</envirDesc>
+<spatRpType>
+<SpatRepTypCd value="001" Sync="TRUE">
+</SpatRepTypCd>
+</spatRpType>
+<idCredit>SDWIS, U.S. Environmental Protection Agency, Region 9</idCredit>
+<themeKeys>
+<thesaLang>
+<languageCode value="eng">
+</languageCode>
+<countryCode value="US">
+</countryCode>
+</thesaLang>
+<thesaName>
+<resTitle>Federal Program Inventory</resTitle>
+<date>
+<pubDate>2013-09-16T00:00:00</pubDate>
+</date>
+<citOnlineRes>
+<linkage>https://www.performance.gov/federalprograminventory</linkage>
+<orFunct>
+<OnFunctCd value="002">
+</OnFunctCd>
+</orFunct>
+<orName>Federal Program Inventory</orName>
+</citOnlineRes>
+</thesaName>
+<keyword>020:038</keyword>
+</themeKeys>
+<dataExt>
+<geoEle>
+<GeoBndBox esriExtentType="search">
+<exTypeCode Sync="TRUE">1</exTypeCode>
+<westBL Sync="TRUE">145.708528</westBL>
+<eastBL Sync="TRUE">145.745278</eastBL>
+<northBL Sync="TRUE">15.227500</northBL>
+<southBL Sync="TRUE">15.124278</southBL>
+</GeoBndBox>
+</geoEle>
+</dataExt>
+<tpCat>
+<TopicCatCd value="016">
+</TopicCatCd>
+</tpCat>
+<tpCat>
+<TopicCatCd value="012">
+</TopicCatCd>
+</tpCat>
+<tpCat>
+<TopicCatCd value="009">
+</TopicCatCd>
+</tpCat>
+</dataIdInfo>
+<mdMaint>
+<maintFreq>
+<MaintFreqCd value="012">
+</MaintFreqCd>
+</maintFreq>
+<dateNext>2017-03-07T00:00:00</dateNext>
+</mdMaint>
+<dqInfo>
+<dqScope>
+<scpLvl>
+<ScopeCd value="005">
+</ScopeCd>
+</scpLvl>
+</dqScope>
+<report type="DQConcConsis">
+<measDesc>Tests for integrity have not been performed.</measDesc>
+</report>
+<report type="DQCompOm">
+<measDesc>Features represented have not been tested for completeness</measDesc>
+</report>
+<report type="DQAbsExtPosAcc" dimension="horizontal">
+<measDesc>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html</measDesc>
+</report>
+<dataLineage>
+<prcStep>
+<stepDesc>Metadata Template Developed by the R9 GIS Center</stepDesc>
+<stepDateTm>2013-03-07</stepDateTm>
+</prcStep>
+</dataLineage>
+</dqInfo>
+<mdFileID>99B99EBE-593D-4005-909A-C1DE1380F3B8</mdFileID>
+<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+<refSysInfo>
+<RefSystem>
+<refSysID>
+<identCode code="3857" Sync="TRUE">
+</identCode>
+<idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+<idVersion Sync="TRUE">8.8(9.3.1.2)</idVersion>
+</refSysID>
+</RefSystem>
+</refSysInfo>
+<spatRepInfo>
+<VectSpatRep>
+<geometObjs Name="RoofCatchment_CNMI_2008_SDWIS">
+<geoObjTyp>
+<GeoObjTypCd value="004" Sync="TRUE">
+</GeoObjTypCd>
+</geoObjTyp>
+<geoObjCnt Sync="TRUE">7</geoObjCnt>
+</geometObjs>
+<topLvl>
+<TopoLevCd value="001" Sync="TRUE">
+</TopoLevCd>
+</topLvl>
+</VectSpatRep>
+</spatRepInfo>
+<spdoinfo>
+<ptvctinf>
+<esriterm Name="RoofCatchment_CNMI_2008_SDWIS">
+<efeatyp Sync="TRUE">Simple</efeatyp>
+<efeageom code="1" Sync="TRUE">
+</efeageom>
+<esritopo Sync="TRUE">FALSE</esritopo>
+<efeacnt Sync="TRUE">7</efeacnt>
+<spindex Sync="TRUE">TRUE</spindex>
+<linrefer Sync="TRUE">FALSE</linrefer>
+</esriterm>
+</ptvctinf>
+</spdoinfo>
+<Binary>
+<Thumbnail>
+<Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsK
+CwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAKgBIADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD7zooo
+r7U/PAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK0NH0ltTmOTsiX7zf0FROcacXOWyNKd
+OVSShFasz6K7OSNLOER20KyR919a5nVoxDcKRAYVfoO1ebRzCFWpyWtfY9StltSjT9pe9tylRRRX
+qnjhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFPjheZsKM0m1
+FXZSTk7IW3t3uZQiDJPf0967LT7FY4URRtiUdv4j61T0XTfLiGfuE5Lf3j/hW3uC8AcCvlsZivby
+5Y/CvxPrcDg/q8eaXxP8BkkYVcKMVk6ppP29QepXkVryNupleYeocs3h2TbnzNrZ6YqjJaNbs0Uq
+/Pn5ZAeD7V2ciButZep2QmjPH0NdUcXXha0mcksHh53vBanMMpjYqRgikqeZSynP3k4/CoK+qw9d
+Yimpo+RxNB4eo4MKKKK6TlCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKXafQ/lUy
+lGCvJ2RcYym7RV2TWNuLmdVdtkY5Zj2FdVHbW9rCJG2+T/CqisGzv7PTLYTXSbY1yWMgxk+wrEuv
+Eep+JrhoNHtT5HTzG4AFfKY7Fe2naL91H1+BwnsIc0l7zNLxF8ULPRY28iL7QY/vRx9aj0r4uabr
+mmvNp6Ca8UZ+yyyiL65Y9MVPYfD+30+382aFbm7YZdn6V5rD4P03xVHqbeHNRjdlucyrZ7WVyBkx
+kkdOfxrzPevqepZHo0fxXsJY9AX7JN9q1RvmgDA/Z0+Yl2PcYUkeoq94V8dReI9EutXlhhs7CEFv
+MW5WVgoGTvUD5TjHB9a8Q0nXLC68eCK6s7yx1qyJPmRXB2mQIFDlM7eBngDHNeuaH4dtNW0LWI5L
+yaW41Yj7TPsRDgAKAFUYAwP1q+ZMTVjU0z4keHtavYbO1vWe4mfYitC6/Nt3AEkcZHI9a6ORdykY
+rnLHwDY2WqQ3yzSs0dw1yEIAGSgRR9FA4rp2pgcveWpjmc4471lyptbj7p6V1l5b7ieODWBfW3l5
+B6ZyDXdgcR7CpZ/CzzMfhvrFK8fiRn0UUV9cfGhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUVcstJub7BjTCf3m4FTKcYLmk7IuEJVHywV2bXh/RYZLQXMqh3c/KD0FaV4bbR7GSd1HyjOcc5q
+fTLVrS0jiY52DFY/iZv7Qlt7CP5mZwzj0FfG4is6s5Svp0Pt8NRVGnGKVn1MCx8N3fiq6W+1A7bT
+OUh6cV3FpZW+mwiOCJY1HZRUsaLbwKijAAwBVeSR+mK5krHVch1ONr2F4GwIJAVk55IIwRXn9xD4
+R+BOjyzaVpKWzXkmTDC7EyPjqdxOK7243yEKuc1498SvD76hq1oL+VljEm9VPTAqZOw4nD+G9H1b
+xr8RJvEcVmLS2aQlh2xjGK9w8JxtaySxnorYNV/Cc1mtjH9iVFh+78vrW/bWYs2dwc7zk1EVbUtm
+5GwZRinVmzXn2SGMgZLtj6VorjHDZrUzGyRiRcVj3VuLlHjPUVt43CqU0BgkY4yGPNAHJ3Fu8bE4
+4HBqCuoubUNKrrjHcGq19Y27QMyxqrgZyte7hswUYqFRfM+exWWuUnUpP5GBRRRX0B84FFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUVveHdFW6/0qYZjBwqnufWsa1aNGDnI3o0ZV5qERmh6AbtlmuBth7Ker
+f/WrrVjVFCqoCjoBSbRxgYoeQRqWY4AFfJ18RPESvLY+xw+Ghh48sd+448VzWnXEUOoX11OwBDbV
+z1/CrguLjVpGEb+TCDgMOpoXw+obLuHPXJWuTfY7Cwt8bhQVXCnkbjipI9rffkWoriygjTLZZu3N
+ZV1M68BPLjHViaNgN9ZoI2wGGT71yvxK0d9d0MRWqq1wrAq3cfSqOu3S2MMNxbyM+W5YHirmna09
+5gKfkAyTUt30HY4PTmbwvam0e3uIWU5Pynn3Faem+JhqMf7uadlV9rDPK/hW34t124kjW0tIg88n
+y7toOPeqHhLwedHuHup3zuGWB6E1nbWyL6G3cWeoSRhI5sxsMqzDmore41yzh2yW5nK/xqeorpIZ
+FkUYIwOlTrdIBtzmtLEXOe0nW5NQVmjn2SI2GhfGRW+9yJYMsfmxWffeELK/kM6BreZjkvEcE1w2
+pX134Z8cWWkR3bXUF0hZlkOSmKNtw0Z3rSbo25xVKab/AIl8hPXGM1MzYtyT3FUtRPl2KL3JrejH
+mqxj5owry5KUpeTMiiiivuD4EKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiigAsQB1oAkt4WuJkjXqxxXoFvClr
+bxxIPlQYrJ0fQFsts0h3S4/AVqXFwlsu5zgV8vjsTGtJRhsj63L8LKhFynuyUcday9YuGmh8mHln
+ODT2vZJMtsIQc47mpLOSG5yyrtfPIPWvKPWEtYfsqxRgYCjmr0sgjjZvQVFJgsOeabffLZyH0GaY
+FOGQSyM7Hc56D0rh/GWtS3kv2C0PyA/vJB3PpU95rj29qGVirTSFCe+BWW3yxxuq5BflmrKTvoWk
+aVhAl5piW8xLGMUxXXSZ0jDfK/G3vRrt6+nzQRWij94AWYdqkg0UXWpxXMrl0Vc47Uhl1DbxSSDd
+vlxuBA5prXV1qEaoi9f4a0Lazh89sKM4wDWL4g8Ujw5dmzs9Pl1bUvL8xLK3ZFkfkDALsq988ntV
+CNyCxuNiKXwcc4rUs9P8lgz5OK8i0X9oaF/Ctl4g1XQbzRtLvdRisI7i8lhA+d2QvhHbhSh64z2r
+0Jfih4Wh8NW2tz6/Yx6bcSNFFcGUbXYZ3KO+Rg59Mc1pyuO5F7nUXl9b2Nq000ixxqM5Y4rx/wAJ
+qNd8U6tq9zummMpjgc9BGOmK6bxtcaJZaDceIdSv2fRbaH7STCfMV1ONu0D7xbIAx1yKy/DfiYfY
+b681Lw3feEdNtIVmF1qjwiNkPf5HYqR3DAVLTbKR1zZZkjHPrVLWnG5EB6Vlt8SPCtjZ219P4h0+
+OK8Zlt3aUASbThiPYHv096wNe+J3hjSNS1y31DWEhutIt1u7uPYx2xsMrggYJxjgeor0cDFe1U5u
+yR52OlN0nTpq7Z0FFY03jTw7bw6dNLrllDHqKb7UzSbDIucZwegzxk4Ga2mUoxU9RX1UakZ/C7ny
+E6c6fxKwlFFFWZBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABUlrG01xEijLMwA/Oo63fD1h5d6k0oAC9j2NcuJxEMPC8n
+q9jqw9GVeooxXqdWF2qPpWdLJ9pujGibyvUntWnUK26rKZFGCetfHM+5GxWqxjB+bPrTLiFY/nQA
+P7VbzUEiiZSQeRSAhUsrbnqpquqQ+SYlbLNxgU+4vgP3SkNMeAMVLb6bGux5EUyDnOKQzmNc8Ohf
+D++NN08eZAPQVyPhmYard/Z1HmHaWbd0GK9B1y4a1a4Rz+7kTAOfauR0G1h0ZmJXyRPlRIfes3uU
+thk2IWd5iZMHCnOMD6VvaXdRpZkkEqy965GF3W5uIJmBjjc/M3HeutsJLWGxBLqUx3PFJbjOR03x
+VqN5rF7DaqGS2OEL8D8avabpLf28+uXzGa+fCllHyRr6CszRbRbfxFqrwS5gmw+zHRskcH0rog5E
+bJn5WxmvocBhYukqzV2z5vH4uaquinZL/I4qw+HDW/g/wros15BK2j6tFqMj7GKyKk8km0DHXDjr
+6Vh+IvgzJqTQXNveW0s1vquo3q2ksk0MLxXezKlo8MGXZ2BByR3r1CivUlg6UtzzY4+tHY5e/wDA
+VtffD8+F45vsEQsobeJoS8kcDx7ShUOclQyjqckVzOofDPXvE1x4ruNYvtJgm1rSBprpY/aGilkD
+g+c6OSF+UbcKK9OoqZYGhLpYqOY4iN9bnGeOvAt5r19Pc6RdWEAvNFbQ7iO+hZljiLEiSIL/ABDc
+3B4OBzxVfUPhrcz/APCT2VvqFsNN1rQ4NNMk6OZ4pYY2RWwOGU5BPORiu7op/UqS2D+0K/Wx574k
++Hms6/DcMLzSoLjVNGj0fUQ0crrCqM5EkB45w54bHIBr0COFbeGOJGZkjRUDN1IAxk/lTqK2p0IU
+m3E5q2JnWSUugUUUV0HKFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRV630W7ucER7FPd+KidSNNXm7GkKc6jtBXKNKkbSMFVSzHoAM
+1vw+F1XDTz8dwo/rW3p+kpDGfKjEEfeaTqa82rmNKKtT95nqUcsrTfv+6jI0nQfIjE9wu+ZuEi7j
+/wCvW/FbLY2vkAD7RKPm77FqWN4oc/ZgZJOnnP0/Cmxx7NxzvZuSx6mvn61WVafPPf8AI+ko0YYe
+PJBEg4AFV7qQxgHcQPQCnTSOg+Rdx9KhhuhMcSRlHHtWBuRSCWbH7tlX1DYNRG627beJWB/iY1fu
+LhYYmZmCr3JNYiahHcSFbUF27tjikM2oRDxgLuH50y/1C30+EPPNHArHarSOFBPpzWLcaffO26OT
+a1cF8Qrq4uLq00K6tXu0u1PmXCwiT7OhOCV/2iO/brRfoFjsdckgmuNhlRrhRvMW8bgvrjPT3p66
+fba3a20qOkkIbho2BGR7ivFb7R9RutU1PUPsU3k/Om0YGF3ImEfOZN0a5x0H410dk+oWuiSadY+Z
+pk99qKTCOFgHt7dnG447Hap/76pWRRtfFzSbHSdKe5hleK9cbUVTncfesDwX4oub7TV0i3tReSEY
+kmYfKv41Vj8J+KfEFvJFcy3TJLbvzeOGCZm+RR/tKg69813cNrp/w38L+YyqvlqNzd2aocdbj6HG
+3Wl3XgvV7W9nlxZ3D/Z2iznAPRvwP8zXY1yqw3/jTUIdQ1IeTp8ZDQ2uPvehNdVX1OWRqRpNSWnQ
++SzSVOVVODu+oUUUV7B4oUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU+K3lmbEcbOf9kZobS1Y0m9EMorTg8O3k3LII
+l9XNaum+F0aT5v8ASWH4IPqa4qmMo0/tXfkd1LA16r+Gy8zG0vS5L6dCUIgB+ZzwMV2UdvJct+6X
+5BxvbgCpFitrchWP2iRekacIv1qldawrTeU8gY9oo+FH1r5zFYl4iSb0SPp8LhY4WLSd2y8rQQHM
+a/apR/G33R9KbJ5ly2ZW3DsvYfhWa813H8zPFHH2FUtP8RI1retLIG8mTbuWuPmO46B5FhUlmwtU
+ZNahTO1xj1rhNS8Tanqk5trCJpFP8VVP7B15mw+1GbvnOKz5uw+U9Ptb6G6j3Kw/Oqeo6xFAxjjc
+F/avObS38U6czoUVkH8ROOK7Dw/paS2az3K/vW5YZzmnzNhaxRujcX0wCFrgdTk4UV0Wk+RBb4Kq
+jjg7aytY1WKyCwxQgg8BVqKHUkslU3K+Sre1GwF/xlrg0rwrqd1a3MNvdJAwgknztWTB2k456181
+eDb7xFql9jV7sXmrzqIjMmcCEDG7nuea734java+KLpdP0hZ764Z8FVyIgfU1zGj6HeW+pDS7CXf
+qsnyXd0vIiT0FZyd2XFWNjVLuVltvDGjn7RcO2XkHIQepNei+Efh5DpE3228ka7vWXG5+i1d8G+A
+rHwra7oU826YfPO/LNXT/dGKqMerJb6FdoxGuFFec/Ec/wBra9oukTH/AEV2aaRR/FtGQD7Zr0aS
+TZXllo03iPxNdapMdsNo7QQqO+OprqoQdSrGKV9TlxFRU6MpN20/E6FVCqABgDgCloor7c+ECiii
+gQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVfsdIk1C3aSN1BU42mqFbOg6tb6crr
+KH+Y5yORXNiJVI026W51YaNOVRKrsZEkbQyMjqVZTgg02rWp3Yvb2SUDCk4H0qrW0G5RTkrMxmlG
+TUXdBRRRVmYUUUUAFFFFABRRRQAUUUUAFFFFABWxpOgm+jWaVykZPCgcmq1ho8962SpjjHVmH8q6
+2HbDGigYVQFAFeRjcZ7NclJ6ntYHB+1fPVXu/mVoNDtLfkQhsd35q5DscbIF3t0wg4qdrdAoN2/l
+q3SFTljSmSTbshAtofRR8x+pr5+VSU9Zts+lhThT0irCGFIMfaH8xu0Ef9aiuriWRNmPJj/55px+
+Zp8cYi3ce5NVbmQ3HyRMv+02elZX7GpRnvNyi3gO1m+83oKzryFZFMensGnXlpOtWPI+1O0EKlIc
+4kmPf2FZ3iK6/sPy47ceRbkZZ1GSahjM/XPEcWhWgW9k33TDCwjkk+1Yui2dzB4Ze4ut0Ul1M0pj
+PXBPA/KsLVp1uNYOp28M1zJ0V5Bnb/hV/wAH+KIdQ1aKz1ZpI335j3fdPtWV7ss9M0Sxt7CwildM
+Oy5x3qb7Q1xcZSPZGO56ms3VNZlubjybGFWhQ7TMTgfQVmSapqvnsLe33KnHPQmtLkWNnXroxxiT
+PKcke1WtNnfVLVHjXZCV+9XF3Vp4h1C1uWuVWMuMKimtm1utWtdHjgsliJjjwSexxQnqOxRvL+Nr
+yaNF3SRNw1P1y8NxHBHsDb1wfypNE8P+XaS/bZd11KSTIvr7VLLZ3WnzQgol3HjgnhhS1GYUNnLY
+KbXTbdEuGH3sdM966DwL4NTw7ayvKfOvLht8snc+1X9HltrpmuI1w5O057e1bsOBwBk01HqJsnjk
+Crt6YqncSfveOlPlBjbk1XnlVV3E1ZJHNMFU561ymmeG5rOa68sgwSyGQDuCetbw3XU3HCg8e9X2
+K2sRZuAOtXTqTpzUqbszKrThUg41FdHLzQtBIUYYIplT3lybqdn7dqgr7am5OCc9z4WqoKbVPYKK
+KK0MgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAltLV7y4SGP7zetddY6LBp8Qyokm7uR/Ks7wzp5XN44xxtjH8zW6zbVr5zMMTKU/ZQe
+i3Pp8uwsYw9rNavb0GNgD2qzbxi1jFxKMyNxFH/WmWsKspuJuIF6D++aGkaeYyycMeAv90eleNtq
+e6PVTuLud8jdWpzEKuScVHLdpCpJ5PoKz7i+8+MlQy9tjCi4hbzWFt5I0K8SHaGNUZIpEvpmiUvF
+IAcdgfWuXmvLnVdZSTaVtLKUqcfxNiuzhvEjt0YZ2t27VF7jCwt41hI5yOQrHiidoJsC6jQup4U8
+g0HbNKJoTsGMMueop1ubP5nA3lOrP2qgKF+unafZSt5SxZ6YXqa5DT/CcWtO15K6k7jtVBjH5Va8
+ZX1zr0ottNAa3j5eQdPzp3gmZLO0mijn3uz8k9j6Vno2X0NFNPigi2LM3lrwcfw1Qj1C70GOWZz9
+qsi+FbuKGkaOTUDIrkZ3fL3NVZNaght7ZGjbypuPLYZ5pAamvau1vHa3aEtEfvhf4feqXh+abU7G
+5mtZBJHcF9pDdO386wvGF1N/Z06wMY0ZPmReqijwHp9wvhy1ghzCV3eYS3OCc5xRfULaHQ2erHQb
+WKHUztkJ2JJjK+3NaNza3t/LbiJtqKdxkFZv2FNW01orw5zgqf7vpW/4fkeGxUSNuVTtDetUuwif
+SdBXTLdlDbndi5Y+pqyrG0myfmU1dkk6Gs663SNnPy1WxI28ut6lweKyRdRyFnkk+RTjaDVuTCqE
+PJJrnHtRZ3k8atuQnePbPat8PS9vUVO9rnPiK3sKTqWvY6O3uIJJgfNWONfU1n6vqf2yQrHxEP1r
+Oor6WhgKdGXPe58xXzCpXhyWsFFFFekeUFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFOjjaRgqjLHoKbSpjcMgkexwaHtoNb6l2PQ72UjEJXP
+djitmx8KxoQ1y/mH+6vArWs1YW8RYbTtHGc06a4S3ieSV1jjUZZ2IAA9Sa+Wq4+tK8U7eh9ZRy+h
+C0mr+orKsKBY1wqjAAohhFzIFY4jVd0h9vSq9nqNtqltHPZXEV5BJ9ySBw6t9CODVm8Y2VobdSDN
+J80n+FeZvqz1kuxK0guGDn5IlGI09Peql1ewQttaQBj05rNkhv25eQBOoxWfLiUmIjcx/iNJyGXp
+oLy4lO3bt6jmoLzVGtLVVcbpydg+ppmmw3cJ2mcl142nkYpZoP7Q1QxyfdjUcj+8akZRtopLC3ng
+WEKJCW3N1Y1Ppl5LJiKeLai8A1vR6aqxhJfn9CetZep2IsFeZ5hsxkLnFFmFywksdrHlVWNfVupr
+jvEniK4vGu7aH9zbMu0OBjJqiviiW68Q+XO22Mjag/ho1JZEuLi1aINuw8fuO9Q3fYqxY1H+0bXw
+9Y2enqqecAHlB596Zpsawx32lxyYneMYkA+63rW7Y2aJb24bcSi7gua5fT5ZY/El3eBWETfIyY/W
+kA2PXrvSfL02cDzd4RppO9b11pbRCK68nzY4zuZf7v0rJvtLm1rxFZi4jVbXBcy56kDjFdjptyGt
+HhlkXdGfLO7v6GmkDOWlvo7m7iuBEj28mVZTx+dWdNt5Pt8UljJ8ik+ZG/GF9qsXVrblp4pbeMnO
+QoXBI9RVLwTZXEUl20hK2pnxEHPIXHIo6h0Jb1lk1OG2YYimbajxnv6GuvsZLeWzjhUqrJ1TuKxd
+Q0G21G1gto5HingcusydjWdHJc6V4hgt7grM8y/LNHwSfQinsI6+K5MjSIx+ZelRzXAWMqOtU2lu
+ZpjshMKg8lqla3HG6QZz0q9yTOvbho2znDdqzmYsxJ5Jq3qkyTXREQ+ReM+tU6+qwOFVGHPJe8z5
+HMMU60+SL91BRRRXqHkhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABUlvbyXUojiUu57CmKrSMFUFmPAArstJsVsbOMGMJOw+c9TXFisSsPC+7
+Z3YTCvEztskczrWly6XaW3lI11e3EqwxwqQBuOTySRxgGqtro/iaK6RpNGjYIdzKLmPP/oVdHrzD
++0vD4zz/AGin/oD14Z8WtF1C+8fatN4Ysrx3e2njvvstvPFIfu7i0hO2QEAhQuMZrwlja8k7vc+l
+/s/DppqOx7eutaxb3VmL3SPJt7mZYFkSaNsM2cdGPFcD+1d8NvFHxQ+DeqaB4ahL6jJNBK1o0nlr
+dxJIGeLf0GQO/Bxg8GjwRBLp/hK4aK3ubHRW8TK+lwXKsjJb7U6BuQu8SED3r1nR9UlWNXmkLxM2
+z5u3vXnTjF+6+p3yipxcX1Pm79iP4NeLfg3o/iefxPY/2P8A2nPG1jo/nLJ5e1SHmYKSqFjgYB5C
+5r6A1bSZbyJpEnMdyOQ+ev1rYk/0WaUSNubqHPVh2p17YqNJfKbp8As3cZNZwpqEFCOyIpU1Rgqc
+dkcZ/aN0sfk3AJK9Wj5FW7HUrWULG0S4/vA81sW+lwCJQh2tjml/saARurorBvbBp2ZtoJb+SWIi
+VgcdSKoaRBIl1cRSj94HLBvUdqn02OSwuJrd1Z4icxt1rVnaO3jaZsAKMlqYinqF09rpU05Hzxrk
+V5j4y1y61nQ82blmXl2Haur8d608WhxSRNtjlba2OpFcz4bt44bqTzcG1uFxg8dazlq7FR7lbw14
+fF14d3ufMkbJD91b1rT802JtUvsPKo2ox6GobTzvDdxJYzN/oUzZhkHVaTxvar/xK4hI3lNJy/vx
+ip2QySxvJ4bq4+174hj92Np4/H0plvZrqnmyCRdwON0Jww+orZ1jUxbtFbRKCfLGZSM9qytBtWk1
+z7cG8uBVIYKMbmp+QF6PR760mtop2+0QE5iYjBU+9JLe3NneSxTae5ZeVki5BHvXSm8F5CsqglIj
+jb3+tSWTrNNkfP8A7VVbsI4q61d9S8yKNRHIowqzRnK1JpOnTaXbyriS5Lnc3YA+1dbqEUdvdqyx
+LufgnbTdSVbeEuzYOOoosFzG0dprmS7aO43SbNvlyDBWi4hjtW3ud92f489KfpcPl2dxfSLslmBz
+7+lZ+SevNetl+FjWfPPZHj5ji5UEoQ3Zem1i5mUKX28YJXqapFixySSaSivpoU4U/gVj5adWdT43
+cKKKK0MgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+sQwZj3sMjOAK569eGHh7SexvRoyrz5IleitVdPtJo2YSvCwGdrDcKyjwTzmpoYmniVemyq2HqYdp
+T6ki27sxAHTvTZF8t2U84OKsyRlrfzScLtAUepqGO1kk5C8ep4rOlXbXPUkkv66l1KNmoQTbNbwt
+JAl1IHAEzD5Cf1FdIqyXEmyNdzd/QfWsHQ/Db3EnmyNsjQ53eldFLOFgMduCkI6v/E9eBjakKtXm
+g7r+tj6bAU6lOjy1Fb+upQ1zSLa+t44BNNHPDMsouoW2sjDI4/M1Vk8P3Ealzr+qAY5JlX/4mrsl
+wrW7qw2Y6VmNdNrMZtd5jVepHeuDmPSOfn0u61rVIof7TvruytpFkxO4Klx0PAFdbqcYi0+OIHa2
+4D8amsobaxjFuoCk/maXyBdT/OMrEePc+tLXqBbF4be3iWSFZpEHyMT0pmmz3U988kuEXblw3Qr9
+Kr3jtkLGvzevpS6LI6aiYpX3CRCozTvqgImvYvtkiQK5XdlSBxitGRj5YOKZbqq5QgblJB4qVueP
+WgQgJ3dOPWsDxddv9ia1QYaUYDVtz3C2sJLdAKy76+tJbTzp9pABKA9c0nsM4vVokutMi8yXzHtV
+5jU9TVGzifXLPKYhC/6vb13e9GktJ9nv7qVfmlZtqHoBTfDdrc28c9yhwyvkQr/EKxNCxdRX1/Db
+pfRNE1suG2rnd71rLd6frunKshDrGQu3+JSO9XrfWlvWk8xVSJRtbjkfWsBdFil1CWazk8iQn7q9
+D71QjVt9PtpZQn2iQqeFbPI9qpa9YNa2s0UBZjjPzPVi21JILj7Ncx+ROOdv98f3hWV4gurh2W1V
+hsupAsc4HT2IpdAN3wTerfaHbKXMjSI0e89cg1pNu01ozF83zYZan8N6XFp2noEChVXagHb1P406
+4CCYMeoq0tCSa9nSRfPIDIvJ9qyLqc3hVh88QOd1Zms6s6agbK2ziQfvT2A/xqOGRoLX7MpJjBzz
+1rtw+FniXpou5w4nFwwq97V9i5qOoC4Cxx5WNf1qjRRX1lKlGjDkhsfH1q068+eb1CiiitjAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigArrLmxia0R
+Auwqo2sPpXFalqNvpGn3N9dyrBa20TTSyN0VFGSfyFcv8Kf2rPA/xk8RNoOjPf2uoCAzwLqFsYlu
+YlwCyH15B2nBwc4r5/N5R5YQb3voe7lUoqclJ6vY9J+w3KyBAnmZ6bRnNQyWaOxLLtbuBxXX2qjT
+rX7Q4/fyDEant71kXGnmRWlRst1YGvnY+0oa0pNM+gqUYVFaSuZZjG1QBwvStrS9FMyie4PlW459
+Cal0/RY7dFuL08HlYh1atCaQzfOy4Vfux9l/+vSjBv3qhcYKIk1x5gAx5Vuowsfr7mqn24SSbMZW
+szULye5m8uIb/YU1TJHsCoVIHNauRoTeJELWM3kttbZuzXI+DdWaSS4mly0URwx96l8fNfQ6RdXc
+W/EYHC+neqHg9Ft9BucsGFzhs/3TUN6l9D0O4t47q3W5iboNwNUfDOrtfWs88gwPMKr74qHzg2hr
+CsnlxhcM3c/SsXT9cjWT7GI2giCny+OuOpq76k2Orn1i2EhQP+9xwvrU9owZba4HZwfwNcBrBntf
+s1yZNy7959gDXf6e0ctuApyrru496E7sLF51Ed5cL0y24fiKz9Q1JNPkXefvdKvxyfbV8vIF1H9x
+j/GPSsW+s1uLgSSLl1OCrfw1T8hCXl4ZAC33D2rFmhE0Y4zGrdMdKv3wZvKRDuGcGkuoWt4/Jiw6
+tyQKzZSKDW8LJtz+6IxtxisyRbdbj/Q5jHIowYz0qLWIbu1kM0O54FGSme9c/YRzSTPcGB5HdvmD
+SY61Fxm3bahFcNKsrC3kj/iz941v6UkEjJOidBlpMYGKxdL8OxLOx+zIjD5gzOWx+FdF9laHcDcR
+kFMYUY/SqVxGH4kgiknhukYtLC3yN14q3a2K6m0W6BkJIbdggKR35qG10kySblvZIhnlccGuitdB
+jmtw7TyYz/ePNNINjmtcjuNNuGltzdrH2aM7l/KqljrV5Mx33Ucx/uupRq7ubasSRIMovHNcV4ik
+WbW4bGONVCp5sjAc+1XTjzTSte/QyqS5YOV7eZbj8tVkkYK00nX2qGkHHFLX2eHw8MPFxj1PisTi
+Z4mSlPoFFFFdRxhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFAGfr+iWviXQ7/Sb5DJZ3sD28yg4JVgQcH8a4n4BfscaL8I/HkfiJdf1DXZo7VoL
+SO7SNFgjfbuJ2gbmO0LnjjPHNaPxV17WvDum6TNpkzadp0ly66pq0Vj9tks4gmUYRdwW4LYOK6u8
++K0XgX4a6VrP2m28Vm6tuL6G6t7JJlCk7kV3AJPTauTmvnMzVOrON46x6+p9FluHX8WVn28jvtWk
+a+uiyPtVDtUe1WdPhURvPMSYYuT/ALRrzXS/ida63rnhxrN7kafqvh2bWo7dok5UNHjLZyGAfGBx
+TPA3x2t/Hk3hy0m8OX+hWOu2Ul9plxdSRstyEALhgrZU4bcM9RXka9T6O56OmoPdXjyMvHb2HpRc
+RSXEmElKoe2K8v0H47aVf6tr2myac1rcaZp0mqAQ3sFyJYkJDLmNjsfIHyt61c8E/GVfF+r2Fhce
+HtQ0Q6npn9rafLdSRsJ4AVDZCklGG9eD2NEld3RK8z0WGzi0+Hdgb+7GqxvoZGYg7z7DNJc+VcQB
+5pCU/uk8VXSayaYRLMvP8K8CsmUW/OTUFNs0OY2HzBl4rzC+t/7F1TVI7XP2eRtqIOgY+lep3NrF
+awiaAfMvPB61xXiyzbTdQtbiMAxTNlgw6NSkhxOl0vTPL022WcbtkYJ+tJJZ2lwoLR4ZcjdjoDVY
+eJ444o4pCNrYQSDsa09NlikkaGVRuUZHvT0Ecv400p/sBdGxaKnzYrb8H3i3FjBIOQYlx/Kq2tW8
+mrNd6XEdkUi7S388Va0/TW8P6UU4EUaBQfYUtncOhae5aO6yG2EHIatDVMXFjDer8kjfK3v71zNi
+X1e8hQHhm5x6V02qsjMtsv3IF2geppx2YFPSIUe3Errl6zdXEdnM94ZfKCfwseGrUsr5VZ4yuMe1
+ULwDULh4Vg8zaM+XIODT6B1OPt75tetLuYu0MLOQq+1QWEaWsiyKvQ9CetM8RedbWNzcWbeULVv3
+sKgBcd6raDqEXiCCCaFpCsfO5RxmsupZ00ck0cpvVISDoQR1qCdhEv2y4d2iIyAg4rQaee60o2sL
+gyKOuOtZ00M7KllIZTuGCOCBVCLE0xm0uOS0UvlwRt6nmtO61S6hkjUPGiKv+rPXNSaHp0mnw+RG
+u0D7zOeanutNFxI7O6hcYFOzEZkviV41x9kkaU9Mfd/OsG3tp5NQuL+6dTNMAoReiqO1L4lt10PU
+dOuUdhbSOYpRnjLfdP51cr6DLaNOS9q/iTPnM0r1Iv2S+FoKKKK+gPnAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAzPEWk3utWcENjr+
+oeH3jZi0lgsTGQEAYYSI3THGPWqtv+z/AKLqXh3QksdS1DS/7Ds57RHjMcjTRTNulDb1IDEjO5QC
+M8VvKu5gMge5rtNAiWHR7xVlWUbPvL0714uYwjGKkt2z6DK6k5T5HskcfoPwl07RV0ySxmuZJtE8
+PTaLapKy4eNguC3H3soK434N/AFtD8L+G/8AhJdT1C9v7DRn0+KwklTyrHzVCzCNlGSSBgEk4HSv
+bbXC2t6/fYFplvNArYWdGY8YBr53mta59IeO2H7PuleCoTJ/a2p6jG2lyaIvmCJBDbOc8BEGWH94
+5J71veG/BWk22raBfW9zcyy6Lpb6TCrkbWiYxkluPvfux09TXp0kazRlXG4HtUCWMNvEywxpGT6C
+h3ApeVC8ZVhhfWqS6CtxIWjmYL9BV+7t28sJn5iasWjCGBlPDKMmp9QMrR2NxNJbSvk2z4Lf3vSt
+DU9Nt9Uj8qdNyrzWdoaGO6uWkH/Hw+4VvswVSTTWwHmHizTY7PxBpFjBlIZX3v8AhXT+H7J7y8uL
+s5CfcT3xVfxJaJc+INLkKkk7l+ldNpqpawpAnIWoS1G9jPvrJ4LxZlPGcniovEmpRx6HcI7hXYbV
+rWv5/wB0QvJ7DFeUfETU549T0zSpWCi6Yl+OVUU5OyBanWeELj+ybq0MjbldcFq6XVrG4jlLQRtJ
+Gzbgy88GuD0lR9niiRy23gE9hXUw67c6dEAsxZEHIPIFSmrWY2RvcSxsFA2tn0qWS9aGSeSNfNm2
+YFaMzpr2ix3qr+9U/Nt9KrSRJDMrDgN1q7COWXQpLjQ9TWYYeaNmb61yHwzY2vh0WkgCQCVsPjly
+K9C17XItNkmgkwtvNEQGHc+lcJ4LhaG0ghdWMcTuwVh6nis3uUjt9N228U0g+WMDPNbFjBBLZ/bF
+Tc3UZrOazEipIWwMYMfrVu31L92YlVUC8Yq0J+RchX9y7lsM3b0qFLaO5DZHzr0I6VIWMyAbSW74
+qaBRbwgqw296okw9S0ldTs5LW5iyG7jqPQ1gBmtbj7HNkTIuRn+IetdneTrDiUsAK5fxJPFdX9o0
+AzMCdzDsvvXXhK06NRKGt+hxYyhCtSbnpbqRUUUV9kfEBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAV2HhoBdBuznIP+cVx9dh4a/wCR
+du/96vKzL+CvU9nK/wCO/Q0LUbrG9HX5RUFrplvG2/yQrDkHmrFr/wAed79BVW5vWiAaQN5LfxKO
+RXyzjF2bR9WzQWReeaXH41gxeSt0JIXZg3UZzW5Cp2etVcRh+IL7+y7iKcq7RAc7BmubvPGUmouL
+XTbK4knlPzuUwFFdVrNob4OrMyxqOgOK5iO3m0torq0keaPfseFjniodykdDb3/l4eS3kVUX+71N
+Ok1sxDdLhQ/3Rg4A+tR+XDdRjyIfNzyUc8D2pF02edfLkXyYx0VelPURdSKK8liuiBvUYXBzirUY
+WJSF5Pc1j2C/Z/Mh+YMpwBWjDayH52faBzTAtR7FYKxy55rxb4uQkePdLnydqxkc9K9BTxTb/bpt
+oZgjeWXA/M1xnxVurbUIdMeE5n87g98e9RLVFR3JLC/+xyMh4YjcK6SSQzWsSnaglXnJ61zMkInt
+4XAy+0AkfSugWZrjT44SoLKuFNShnSeC2dZLi1JBiWPAFOv2zFHxlsYA9aZ4KtWtvPdzlvK5pY7x
+VbMn3hwoI4rT7KJOV+JGjx/2ALlpWjmj+aNRyN1N8HzGSxgFyil5FByB3rU8eajA3hy4W4UB2X5B
+6n2rH8Fabc2WnwPP9yRdwz1FR9ofQ6TVE/dKYwdy9hRZxrZwrJNC0krdfSqzXBmlMauxI4GKux2s
+kzRkzNnHOTVATLJKszSBMZHc4qWOFvL6rtznHWkkt5SyKMv/AHmqeG1ZYz5jcjoBVElG8tY5oyCa
+5CO4FxqF1tGUjIQNWp4l1R7J4bWJ909w2No52L3aqMNvHaQCJDuOcs3qa7MHSnUrRlFaJ7nBja1O
+FGUZPVrYdRRRX2J8UFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABXbaVGbfwyin5TK4rjbeE3FxHGoyWOK6HV9JttQ8T2OnXMb3ENvpzy
+iFZWQF9wGeCOa8TMpaRpn0GU09ZVPkblswFne89hQkwmXBUEd+9eGRfEjSZb650iDwgbrWhdLbR2
+9rrDSQudjuwaQHCsqocrg8kV3XhO70zVbrw9qujQzWlnqumtcGGSV253JgHJPIyRXgONkfSHcraw
+K4IQA+1OkmxkJ1FTbRiqFwyrIQc/UVIjkdUvL3VdWaBHYRR9VSk1LRdRtdOE9nJueNt5hP8AF61p
+aPJDa6pIhGZJCea6ZI1Vyai1yr2OU0rVkkhhmjlEMkgyY3HOfStj+1jGvzJuJ6gHmn32k2t23lyI
+q85G3hgfUVT1LTzYIkltEzOOr9TT2DQuW6RXjeYgMbHrmqXia9/s3TJVSf8AfOpVFzyTTf7QNnE0
+8iyF2GFDVzfjKC9Nnb3kUBaSIbtv60m9A6lWG2u9HfT7Up5sk8e92964nxHri6h4mjtDGsQXgSLy
+M966HTPilYTKt1fR+TNjylbup6VyWnWi6t4xvpbZT9k2gIzd2PU1k7dC15nf6Tp7QW8exhPn+KtW
+OOaTUNscbeUi5LY6mrnhjQvJtSsjfP2q5qEItFUiVmfuAeMVdhGj4fuGjvo1bAVxsIzVXU4Vt5p1
+fBAfAOcYFX9GsI7ZP7QmXy0HKDuTWRrmoR3MixbI3lnc8k5C5q+hJx/jyZL7VNItoHL+W26QL6V0
++qXwihjt0IEmwYUVzvh+2jtfFl9bMd5VRj0/AV0l1bxNICAA+eWqEMi0SCa6eRWfYQM9K2o7ZoZE
+UPk5qvYyLHblgA2fStCxU3G134aqQi8o8teetUdSvBa2s0uCVRdxxVmaT5sCqGqTLDYTM3ICnNVf
+QR55osg1Fp9SeTzZLhzjP/LNQeFrUrI8MR7dPlkOAZJWYL7Vr19dgJKWHi0rHxmPi44iV3cKKKK7
+zzgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooA2fCdv9o1mLP8PNT61qB0zxX9ukiuTBNayQLNbR7yjbhjj9an8E24WSe7b7sa1uQlSg5B
+Y8mvlcdO9d+R9jl0OXDrzPEbjwDpFxfSazPq3iD+3WkUw6lHYRRmParrjYF2kkOwJIz0rtvCNnZ2
+l5oWn6PbXcenaTpzWoe6TaTyuPqTgmu2mGdPtRj7zsT+tNW3YqGGBmvPcnsemWz0rD8SXy6bYSSE
+Zdhha1uIbcl+g5Nc/cQvrO9fK3wdPmqGBk+God0yXc5JL8L3ANdHNdXMbLI4Dw+qDkVlaBojabcz
+hHk8jPCucgGugh2qrxk4b0NJbDe5RmWAq0zs5B5DZ6U6B7jydxBKNyDWBf3MttqU0DHMbKBGO3Nd
+XYOfskKkj5Rg0biMbUL5YWiLqCIxk5qxDq1tcRypIyltm7aay9RU6hqzQL0JwRWV4k/4lpidF2yr
++62k9R1qb2HueY+PPC8EOvaNLs8myvZjvRTgbh/KrujrCfDVzfTPHaSWrqr2ttC4mhcnHlnLHcTl
+cHAzW7461iCPw7p86J9puo9wWINhgSME57YrkdH1e0vNJlWW3n3XckclxI05Mu9CChDY4246YpLl
+W5ep6Ro/jBo7CRUiuLa7S+i00xzor/vWKk9GwQFPXNWk8XWd14mGli3uijXr2P2tgvlGZYzIVHOc
+YB5x1FR+G9F0h4bAwrMyxXj3++SUsWmZSCzHvwxqtofgk6OIb6SdrzV/PmneJpS0MbysS7KPUqcZ
++ta+7YjU2l+I1l4gukto7K7t7EWk13DcyhRHLDEQpcDOQCemRzXNabrR1yZnispopEgiuUS6VVLR
+yZ2kYJx0PBrX8O+EdBsFuNPvPtsMtxZ/2cplnLCOEknYhxwOa6C98KQaZeXc9sGM0yRKSTkeWgIQ
+D06n86cuWSugOJ+1Np2slFtxFeuMtk54rauJbqO1V5AXRWywQgk1ymra1Dod1dSzfPeTNtUnsK39
+Fu764aCd0AgMeMse9c6LNa31KJYRJEGEXTb71t6fqUcjKFViMcmqDWSNDI6ooZuTg9fyrO/0iKPd
+Czru4XLHir2JOtXLMTnIrM1iNryzngHyuykCp7OSRLUEyKJEXLg9KknUzRiULhqok8/0eRUje2K7
+JoThl/rWjUd5brJ4m/dDDFMvUhBUkHrX02WVeal7O3wny2aUeSqql/i/QKKKK9g8QKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAOy8Pxm
+Lw3M2OZHx9eatNG0S7s4qS3i8nSdPiAxu+c/lT7gDyWyOgr4itLnqOXc+/ox9nTjDsh0iBreyQ8D
+YW/Hiqt1q1vYKFd8HoM1PqMggaBScbYgDWC2ijV5WlmPf5BnoM9aye5qQ32p6hdKzQQFo+4PQ1St
+fHgsWMVzp08YXgsgytb+tSCzs0ii4ZjjisfxJOljpMSKoZydxFQMunVGuW32hVlYbtrZFSrb3cyi
+YTL5vdNuBj0qDSbxbqGCZXChh91QAK3biSOG3aSQgBRnrTEcXNb3v9sLNdR+VCo2gsciun0+8tIl
+S3jmWR+vWvP/ABF4in1fVIdLtDt81x82e1d1o+k21tGCkSnsW71Md9BszNc3adrQu0DGMod20d6p
+applvqNuLuZ2aUrlQx+7WxqV5HDcLEUaRpXAA68U7XIUtdNmm8tUIXAp2A8k1rR1uLJriPcojbaU
+7nnk1iWUEbXzBY9ttF8oUd2NdHqV1M9pJLG4yTg46CqUemx2+gwMshku5bgOyr1xmsGjU7Dw1Zz6
+bpojk+R2bcvsK6XSrVrzVBArf6xcs3pUmksLiFN6jdsH3h04qx4e0WW38RNdxyk2+35gegraK2M7
+lq903RYZQ11eOrKeC7ADI9OKg1vXba5tnks5w4hTbuDD5qqeLV3RxSrjyzOeD/dNcJ4ot42voE0s
+MrN/rl/hI+lOUrAkczqm/wAaa7b2UKLFIvLs38Iz1r1hEsdL0WCyaQSmJMbsda47SfDy6fqRmjjV
+ZHG0nPb2rsdNs4WjAkXlW+91zURGytpbGSWR7dZDGp5VgcfhWhc6aYWikCFg7ZYMelW7OzFqzqrl
+kY55NaJUSRKp+bHIzVpElWTT1+ysEOC45qu1xJaxrE4yo/j7YrW6+wqndr5KnI3KaYjnYYT/AGtc
+TouQSFU+1RahGRcMSPm747+hqzfQ+XcRvCPLVj8wHete18vzEcopYDGa0oV5Yeopx+fmc2Jw6xNP
+kZyrIy43KR9RSV1mtRRzWEhIG5RkGuTr67C4n6zFytax8li8N9Vmo3vcKKKK7DhCiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKnsbdrq8iiUZLNUFdL
+4Ls1a4lu5B8sIyPrXNiansqUpHXhaXtq0YnRXAC3EUQ+7DGB+Jplwf3LfTFRLIzM0jdXO40MvmMo
+9WA/WvjOp9yN13Z52G/hRcfrVVd7Rh4V2nHJqTxBDJNPK8YJMbAY/CqtncSS/Kf3Y75pPcCaHSxK
+RLNKZTnO2qmuaQt5Z3ZHDsmFJ7VbSSWN8RnehPWk1TU47K1kab+FcmjQDgPDN5PHYNaIjSXFs+Me
+o9aoeJvEGtatdDSbSPy327p3Y4VB71Q8KeIri41DxDq0S4t4m2R+hxVHxVdar4d8D2Nwt5/Z9/ru
+sWtpc6kygm0imk2lxu4BxgAngFhWSvLRFnS+GtLCanFcyyB5oI/LwqkEse/Nek2bSx248tVZT/ET
+XmevXz/Cjw3bwWeqTa3rN/dbLT+2i9074Qsyr5QBwAM8kAZPNctb/H7X9U0fRrvStM0m3N14cfxD
+PHfzyADY2HiTb69ienfNaxjYh6nu9vp6xXDTMd0h55HT6V538UvFsi39ppVjOFkZsSe2a43xT8Yd
+e+xa/qOhPHZyAaI8a35aRI0umw4CjoeRk1zviTxNcWvjrVL65sLS4g0u5s7W8PmyLLI8+zLQr0Cg
+uMBsk4PTFEou1kNHZaXob2libd5DM8kmWc11mg6SLO7bcob+7xnFYfw7muNQHiA3M73BtvEN/bxG
+Q52xrIAqj2HpXG+BfiD4s1LS/hi15YXlvb6jrQtrnWJJoSl2gWc7NoO4D5R2H3alU9R3Pf8ATtNl
+luCEHQZJPQfWtaRkit/s8LYiUZkk/vGvnKHx9q+pafodxHf3VuJvDmvzuonY7pIpkWNye5UZx6Zr
+0y3164/4Vp4exK01/d6fAWkY5Y5jUsxPrWjXKiQ1HXpdavhDFH/o1uxy394iuUtVnnv7jUHkwNxU
+RqeMVo6Xem1v4rVMNI+Q35Umnab9nt5Fzlt53D8a5tzTY2tHsX1CZZySExxnrXZWNmI7VkODWRpE
+flJEqrgY5rd3HaRWsUQyhHHslwDnBrQizimxwqgOByal4UVQhRUV0oaFgalFNmH7thQBzU+6aTaB
+gCr8H3lHemmPy2JIyKWJgxDDpmpla+isNC60sjWLgHvk/SuYrrpmEyNHn7wrlrqA207Ie3Svocrq
+q0qfzPm82pO8aq9CKiiivePngooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKhu5DDazSL95EZh+AoGTV3WnWv8AZ+hxRf8ALS4OT9K8w1WbSvDOj6fd6r4i
+1KO5urdZhHDBGyBiBgE7CFBJA5Pevk/4GftLfFP4gfGzR9AvvEUl5b3k1zHeabHZRI1lFGjncPly
+mwqoO77xOOpFfLZhjoT5Kcb6s+kwtH6lNOrvLRW/U/QT2p8MZa6gUDPzbj9BWXoF5JfaHY3U7bpZ
+IFd2Axkkc1srutYQf+XmYcf7C15iPfDPmyTN2Zzj+VZWpabJNnZKI174HNasahEC9hVa8U8lc0MC
+C1h8u1AyRt6Vw/ieS5uluIhJkSZUV0t1fXYzBCgYnjd6Vi6rbsdRsbVF3OPmdqhjRi+BvBpj0F7G
+T5QZvMc+o9K3vEdjb6lbtpd7Yw3+nyJ5clvcIGiYf7QNdTp1kLCB2I5xmsx2fVJNwQbVai1kO5yV
+x8L/AA1F4ZSyOiWS2cM5uYoTGSBIRgsMnOSOPpxXJ+LvhbokVvaatPp9pLa2GnCwttMa3AiQebvy
+MHpjjbjFeraldf8AEysNOfHzAsa5zWMeINSFoeLW2fdIo746ChyYFW38G2fiDTbs6hZWs1tfRxpc
+o8Y/eKo+QH/d7elY9x4T0f8A4Syzu2060d7EokE7wgsAo+Tk9dvYnpXo37i1tBDvCSkbto7VNZ+G
+W1KzSa4EUAk5GeDRrsgHaD4ds45na3to7eCSVrq4KDAeRjlmPuTTovDek+Tp1pb6bbw6fpk3n2US
+pxDJ83zr6H5m/OpL7XLDT5oNEgm3zsu5tvOatvMljCrSsFTufSr8iWcZ4g8E2emwwtpun2KxRQTW
+y28kfAjlOZFHoGIya5K81KTTNClnMRgFsohjgI+WMAYAX2xXpWu6l5mxIU8wEZ3dq5XVNNkvtNki
+ut32eRssFGSayldlROf8EWMtzdLqLnzGC5HOeorstN0edmeRxtVjmub0+NLbVi2nxvDEi7RHnAOO
+5rUbWroyiJptrE/dSpRTO0trcRqOnAqymGHHNc9pTXLSMXclMcZratJMbkPJrVEFqlapAo696hmB
+zgdKZI7ouaiaRpsqKkX5lx2pyoqt6GgZlXUTMJI1OCB1qppbqYjGfvqea0r+MwuZF/GsmaPy5PPi
+79VqZDRoiM+aGziq2u6a9wFliXJUcip45wyoRV9WD8A1rRqyozU47oxrUo1oOEtmcMwKkgjBorsr
+zR47iFyqKHI645rkrq3a1mMbrtPYGvqMPjqdZ8r0Z8piMvqUFzLVEVFFFekeWFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFVNXEjaTeiIqJfIfYW6Z2nGat0jKGBB
+GQeCDQNbn59fC74e/EnXPiXplvfahe6aUnabVNQ1bVgbOSMZxkeYVkydu1QOAO2K+4vCOk2emfEb
+WPFV7qPh+xa509rSU2+opM9ywIKsMgbAAD8oz1ru/DfgPQIrCW4udHsXZh8itApPPTjFWz4F8Oxx
+Atotj6E+Qv8AhXwqpLDt04ty1Z9vhYclJPXXXV33L3g628vwxpc0+DAlrGy4/jO0YrVDNJI0r/fb
+t6D0pljGrWn2FQqLGoMCqMBcdqdC3mKGpM7CSjGQeM0UopCIfs6LkhRurNh0srqDXc3zPjCqB0q3
+ePNIyJCNozlmPpVS61ZY5vLyS3QYpDLElrPK3mLLg/3T0xVWG2NnJKp43c/SpLfVdzbD1U81PcfL
+IkuRsIwaAOa1JWXVmvipeWAZVfVaoeG7Fpo3uCyl7qYv+A7VqeOPNs7NLu3OSgIf/dxVLwzIH0ey
+uIgTG0TMPqTUdSuhe8P+HGvtQvdQvLj9wsm0fQU/xN4mia+SygVwkcZKkd60PC8y3Vne2LHYzNlM
+9zVDUPD+1nuZSBND/DVfZ0Dqcb4N0R0mvdYu2d7p5CkTSfwiuy1bxBYw6S0d2HkDKVxjvijS2ivr
+F0wEYHOK57ULGXUb6G3DZVSfu9MVGy0DcreC/EbyQvC6MYlYiPzeuM8Vm+LNU1NtQjt4MxWmcv5e
+Rn6mtCOK20+8eLzAcHaDnvWD4knunle2EjKTx8vvUPaxS3LFgbiRWlZy4JwpzmrlujRsbopmReDn
+t71fsLVNH8JmQR7pIiGbcfzqjZx3OrXTS2zEQzDt2pgdBY+Jk+0LFFGZ0AG9wOK6DLyKJbcZDcis
+nRfDf9ktEh+cNy2a0ntr7TZWe2/eQ9fLatFfqR6G2r7lTPBxzQzDNV7S8W8hDj5W6MvpUi53GqJH
+qozTHO44qSPheeTTU5mII4xzQBRYFs7qqrsW4CN37VtbFHYflWXqUf75SOOKqMFJ2ZS1IpY/LYhR
+gUlvuaYfMR61PBMZVO9en8XrVm3gVGLOOO1RKLi7AQXlzcW6BoCJFHVTVE3Frqx2ypiUDBDdR9K0
+dQAtwu3gHtWBrWraZp1uZ7q5jgdeevJo2DcpXdjNZysCC8WflYdvY1BT4PEz6hb7rWFtjDiSZcDH
+sO9M5ZtzHLetfT4GpiJRSmvd7vf/AIJ8nj6eGjJum/e7Lb/gBRRRXrnjBRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFbHh3RTqlxvf5YI+WbtUOl6LLqUicbUY4HvXV3SrZ
+2n2Gz42/fb1PpXj4zGKKdKD1PcwGCdRqrUWnTz/4B+f9v8O/jM37UgvxBry58QmdtWW5Y6d/Z4lz
+gAtt8sRHaIyM57Z5r9A7iHzoSgOD61l2iSrNtXKnvnpWvzXzUaXsW7O93c+hp0VRvZt3d9f62Kdr
+HJYv5ituZeQP5itGbas4ZOI5l3j696rMtTW/7+A2zNtdTuiY/wAqq/NudG4u7mlI3cUyNi2QRtYH
+BU9jSyb9w2dO9IkiupfLTA/Gs+zst90bhlwP9qptSvJbfCpGJWP8NQ6ffG4yrwyRN/dqeozK06VJ
+tavbXupzmtCzZ7hbm2lOWXlTWPbX1vbeLJlj4LDDE+tb+k28n2i4uZeN5wo9qSGzlvEcWpa5jS7c
+eVGy4mnYcBa6bQ9OttL0mGzj+5EmwFu/vWj5kMhKkAetZmqXCxxuUPKjgCna2ot9ChqVwumrugPz
+A54rXt9a0/W4Yhch4pmXaT61yUMzXUJkZcljzWz4b8PzzSLc3JMUKHPPSkm76FFu40n+z7wqhyuM
+g+oNc94s1yw0XRbsLIIrvyyBt+9mtzxPrhgM0sMe/wCXagPfFecaLoMmuXlzqOonzuT+67D2qZPo
+g82ZHhDS7nXI7a5dnSMtvdmzXWHTRqOvRiGPcFcMWPTaK1rW+Gnw+TbQRxx9hiomvJWYkNsz12DF
+epRyytNJy09TyauaUYu0dS5qWjxTWtxA8wVJuNucVBYN/wAI7bpbW6LtAyCw5qoSW5JyaK9SllkI
+SUpO55dXNJzi4wVvM14/EtyrZdUk/DFXY/E0MzDzo3j91ORXN0V1zwNCf2behxwx+Ih9q/qdRFJu
+lM9q25P4h61sIyyRq4PBFcdo2ofYbn5v9W4w1dNZXCNIYw3BOQK+cxWHeHqW6PY+mwmJWJp36rcu
+LTtveiNcsfSpODXGdpGPmBNMZQ2cjtU3Tio5IyoyKYFdbdUUKBxViTYuAfvYpjHbGzd1FR2duzq0
+spy7dB6UAee/ETxdcRzQaVpH77Ubhtiv2T1Ncpo/h61l1meK+ma/vrMhpWkOV3n29qtX2PBvjqSS
+7kSRMtJAzHJGeorO+H873WueIJ3y3nSrIGPfOa2wUVUxMVJX/wCGOXHSlTw0nHT/AIc7iloor7Y+
+GCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK2dH0dZ4xcznMWeEH8VY
+1dh4TK/2c80g3JbkkL6mvPx1SdOjeDsenl9KFWtaauabEabBnAFzKMKo/gWq8ce33qvNM08jSOcs
+xyf8KlhmCqFIJr5HmufY2LQHfFI1LmueuPExW7CogMKthmPUiuijQqV21BbHNWr06CTqPc6HqKZt
+yRg4IOQR2NZtpqatL5e8HLM3vgk7f8+1a8YVuQc/Q1k4uLszaMlJXRJlrpd4GLmP76/319aI5FdQ
+y9DSfMrrIhw69PQ+1DgOouIlwv8Ay1j7qfWgso6lbsP36PtZR09a5HVdU1TUG8izDRORgt2rptUv
+DOwt4Ru9WFWbezSONcqNwHWoeobHLeF/AY0+F5bq5kuL2Vt0kjH9BXXtItrGFJz2AFOVSqMRy1YL
+agI9YYTPsijHO48euaPhDci1nWEW5W1gPzhdz+tZlp5+ozPuOFzwKxdHm/tjVdS1DnY8pSM9sD0r
+ufDOnKyvLN/qY+W96le8yiTR9BjVRPMNkEfJJ/iqW61J766aNTsgTonanX1615g/djH3UHQVQkjU
+xvKrbfU1e2iEM1uzS80m4AO2QLlW9DXEeGbmX+z5EkG2QuQwrpLjWFmuUtg3mErzs5H41mGxNpcz
+McAyHO0dq68DFVMTG5wY+Tp4aVmOooor7I+JCiiigAooooAK6Tw2JbiEsQCsbYBxzXN1p6TrMtiV
+iyPJLZPHPPeuHGUpVqLjFanoYGtGjWUpOyOvjZ26jFSr8oNRxsZFVjjb1yO9TcV8ifZjTgdaHZdm
+SeBUVwyrG248YrA1XW1sSsTfvHbkRr2+tLYZqyTfam8uEHB6tS6nfDTdMuJ/+eMZb8hXNR69cxxC
+R1KKzZCqO1cN8XPH19P4VuIdPtpo5G+Vjjkr3qeZJDtqcjHqVprGqS6jf3aTXczHZGWztrtfCFrD
+DYSSIP30kh8zjpjoPpj+dct8I/BdvY6KmqXIS4ursbl3DcEX0+teipGsa7UUKPRRivfy7ByptV59
+UfOZljY1E6EOjHUUUV9AfOhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFdl4Zgkj0m8ikG0sm8flXG12nhOQy2bg8jyip/A15OZX9krdz2crt7Z33sR1JEhPQc01V3Ip9qe
+ZjbxuwXcQOF9a+VR9Yy03PFcLdR+VcypjG1iMfjXZabM80Z8xdrD17+vFVdU0KG8kaVWMcp6+hr1
+sDiI4eb59meRjsPPEwi6e6KHhuzibdM0ZMhbAfsMA/4muit7W309W8tBGGOTjvWXo1jPZxlHl2or
+7sLghv04rWaSKXJ3BsCufFTU60pRd0dGEp8lGKas0Pa4i253cVRtdQla8aSHG3GCp6EVE+NpBHB7
+UtsqQZ2/KDXMpK2p3mh50EvMlntb+9CcU4JbNjZcvETwFkXNR/LtBBH51JAFWM3UillU4jX+8fWh
+CHyWdxCDgLKP9g4P5VzmqeGLbU5DLJvZCOQCR+FbytN5nn7v32c+2PSnvJaySljHMCeTGOlKyYHN
+aVoSlhDa2+yNOB2ArduIVsbH7FGwMr8yEdvao9R1iS3Cwoot4zxtXr+dRSQsdjKMA8n3o0WwFNeI
+Sp4bOKxNcs3mtoomlYR78sqnGRW3Ism5jnBFYd1crNq3k7vkVfzNTIaI5La302JVgj2M4zu6mqzM
+WOScmrF7MJpAB0Xiq9fVZfR9nRu1Zs+QzKt7Styxd0vzCiiivUPJCiiigAooooAKKKKANLTNcnsp
+FV3MkOMbT2HtV+58Q3NxIIrBFZj/ABSHAHvXPUAleQcGvOxGBp1nzLRnp4fH1aC5XqjSmubtlaM3
+qz3Uhwdo+VPpWDqmj6hp8yT/AGj7Q7/KN3arisVOQcH1FOaRpMbmLY9a895Tqve06norN9HeOvQS
+31R4Is3sBkCLhViG7JqnfXFnqFncxy20ttLJEwVnUHkirdFaTyqFnySMoZtNNc8Uc78P9Pk03wpa
+QurDDPjd/vE/1roqkhna32bcbU6Ljjmq3k/6QZQxy3Ve1ehRjVowhTavbrc86tKlWnOona/SxLRR
+RXacIUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABXZeEGVrKV1/1YjOD
+6+9casEl0ywxDMkh2iu70y3Fjo84HGFEI/z+NfN5lWbqxorZK79eh9FlNL4qj9CvHwij2pcZPNNj
+kWTIU/d4NNa48mYAxs6kcbQTzmvEs72Po27bliPIbNMiF21xJvKGHPy46jj/ABzUrQfaFChmXJyS
+pxVvb5UfyjJH61aIerIJkIVYl/i6mqupCOztmYcMOmKsMxuG+VcY61l6plpEjPftUsofaO10OvFX
+1tl2EdW9ao28ZjwBwav20Ml7MFB2qvLv6CpQx1paeYzNIdsEfLN6+1StObqTzCNqLwiegpJrhJm8
+iIYt4/8Ax4+tOHNaeSESL0phQhywGa+RbX9vC5m+Mo8N/wDCKRN4ZfWP7GS9S6Ju93mmLzvL24Kl
+v4M5xz14r6+3Zx6VEKkKl+R3toYU60K1+R3s7P1MzU7Nr23cjiQcimwSSR6fAJf9aBg1cvJPLUuD
+0rONx9qUHp7VRuVru78tHZjjNc3bx7Z3upOSTgLVvX7gJIkbHG48VT8wsPat8PReIqqHQ5sVXWHp
+OfUDySaKKK+2Wmh8K3d3CiiigQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUqqZGCqMsTgCgZs6PCsMIuNuZWJCk9hX
+WxRwrp8ME7eW8xLA+h7VmWOk/Pawk9ANy/Tk1cvmFzJI2PlX5F+gr43EVFUqSmup93h6apUYwKa2
+MlhcssvO45U9jUx54HAqW3vV2CC5XzIuzfxLRc27wp+7cOjj5JMcfQ1y/FqdLEtrVoyG852H904x
+/KrTLuXAOKhs42ht0RjuI9On0p8+5oyqHDUyFsMjzG2GXk/xCqGpR/MHHLetWFJztdm3fSnXSq1v
+x1FQyinZsu1i4zjmtSZfs9tFbrwXG+Qjv7Vj6fG1xdpEOFZufpWleTGW/fbwq4jH4U1tcYoHYU92
+8tkPY0ijn1qWRVZPmGRTJPLZP2d/h1D8SF8ap4XtV8Reebv7QC2z7Qf+W3l52+Z/tYznnrzXqSn7
+uevWqu3fNk9Kr3l8YbogDIVf50RjraIlFLZCahISrrmsXznt24rQvJjIqEDluaoXinyXA+/jIqGW
+YmpKb68WWRtwXoKKgt2MhLk89CKnr6fK6cY0fadWfKZpUlKt7N7L9Qooor2DxQooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAK3NAsCuLtx7ID/OszT7Q3l0qfw9W+ldaTuVI0Xbj5VArxsxxPs4+yjuz3MtwvtJe2lstv
+Uu2rtHazXBPzufLTj9f8+lRiPC7e1PvpBA8Vsg+WFefqf8/rUccxZsY4xzXzb7H1AixKrZHJqe2K
+kNbScRSHKt/damD1p8aiRSGGQaEIcoMbGOT5ZB+vuKNqs2e4p2VmVYJ2w3/LKXuPY1wWteIvEP8A
+besW1jdaRptnpaIbifUQ+PmAOQR2q7dAOxuJtvHWqe5pJuQzFuMCvN5/GGpxQQXEnjLwekVxny5C
+8mGwcHH411ng7WtatdW1PT9WNhcXEaRyRXFkrBdrDvupOLQzrrS2GlqZZMG4YYSMdvc1DDblCWZt
+zE5p0PzZdm8xz1Y9akqQHLndSzH5QKWMU2b5m4qhEaLzVSW1WXdI45Y/pV5BzUN4223OB900r22G
+ZbDNxgcgCk8ndISR1FS2Me6MseSxqZ4toqbAcZcQi31CWNeB1FFXfENsw3Sx8tWdBIJolYfjXv5V
+VVpUn6nzubUneNVehJRRRXvnzoUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAdJ4bhVbGeUcuzbfpW3pqBZHuHHyQr
+n/gVc54YuvLa4jJ6rvA+ldJc5t7GC36PIfMevkcdFxxEmz7TL5KWHjYqPIZGaR/vMcmlt5Cjk4yK
+TaG61KsJ254A9TXmnok+7dyOhqZFx0qpHiMZJ39goqylvcN87FYI/WT/AArREjbgDy23dMcVwFk8
+8+reOALOTUpTHAqwxhd7/IOm7jI68+leg7rZWyS9446dlrB1Hw3Y6lqb3s0LQzyABjbzPHuxwM7S
+M1SdmM8u8NfCvW7rw1baLqGkrDaXuvS31zPciMzrbZDhX28BmYYwvGK9Gs40j+IWsoMKq28ShfbF
+THwZp4IIkvR/2+yn/wBmrQ0PQbDSbiUJB891hXnd2d+OnLE03K+gi+qBOlSIO9RqrIzRt99DtP8A
+jU+Aq4qEAfdrPvrlQrKr/Mf7tJqN1tXy1PJ61ShZukaAt64zSbKS6mpb7hCm7rinzKJI2B/iGKZB
+v8lfM+93qZcdDQSUrSA20IjPY06b7tTyR7mBFMkjyOlAzHvLbzY2X1Fc79lazhdWHyRn71ddIY1b
+BbmsO6tJGEqN8yyN19qcZypyU47omcI1IuE1ozKoqSS2khkKMm0DoexFR19rRrQrR5oM+FrUJ0J8
+s0FFFFbnOFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAafhsK2sW4b7pbnNdbeRtJfTluApxz2GOK5jRdFuJZFuGHlIvIz1
+NddcIbhredV3JJtWTHYg96+XzGUZ1fddz67LIyjRtJW1K0NjJKpckQx/33/pUvlWmMGWaXH9wYFP
+vMzXMoY5CNhV7DikX5VNeXoj1gSZLdcW0Ow95JOTVeTdM26RmkP+10p/Wjp7UCGgGl8sbs9TSJKj
+ttDBmp5pDENNZdy8cHqKWkkYqpIoA8l/aO/aQ074EW+hSNpNxrmp6wZAlnbyLGEWPG93Zug+YAYB
+ya6f4RfGHSfjF8P7PxRpkE9kkzPFJZ3WPNhlRirI2CQeR1BwQRVD46fAbwn8ZtN0y01+K5S604vN
+a39nMYpkLjDKCOGU4HBBHAqb4ffD/Rvhd4RsfDeg27W2mWYbYJHLuzMxZnZjyzFiST71n+8VR3ty
+/jcxjGr7VttcltO9ze1CZjGzE/Mx61e0WUMnJ5K1zUOsnVtUvrMQLDHaEgs0w81sDO4R4ztPY5p9
+j4ksHjhVJGOXeOTerIyFULngj0quV3OnSx10l7HFxncfaqz6k5PyqAK5618UadeWs08MkzLEiyFf
+IcMyt0ZRjke9VpvF+nbYWW5IjljEodYXbapYrluPl5GOadn2FodQ2qOoy20Cq0l9PeZ8pGkA9BgV
+Da/Y44zLcsZZQcbOtSPqNzOuyBBbx9PeouMitrjzlORhh1FWUTzMg1VhtRE24sWc9avW6ncSVO3F
+Cv1GylJCJleJ/oDWFcQvZzeVKCp7Hsa6yS1EjDHBqveRLcERzIDjoa7KGInhpc0DixGHhio8s+hz
+NFbzaJEy5LFB61T1TSxZwK8bFz3+le9HM6TS5k0z56eVVYt8rTRm0Ug55pa9ffVHjbaMKKKKBBRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABWp
+olxY28mblCZM8M3Kj8Ky6KzqU1Vi4N2NaVR0pqaV7dzvYtRglX91IrfQ0R3U1sxaJgA3VcZFcEGK
+8g4q1b6pc25G2VmA/hbkV4c8rktYSPfp5svtx+47WO4Tc25suxyc08Zkb2rH0/XrW6IWdRFJ79Pz
+ra3DAK9K8ipSnSlyzVj2adaFZc0HcqXlybUhVXJPc1nyTyTfeYn2rXkVZMb1DY5GaaLeLdvCDNEZ
+Rj0OhMz7OOTzldV47k1qUUVEpczuJu43r2qVYwV5FNXk4rO1XUTBII1JHb5epNRoldha5Zl1xrKQ
+2scsMkka7ipILqvbIzWDqWpXOqS+Yy4C8fKMVga1p2qXGq6vLaW9xBLNaWsa3CDBOJcuAfXaf0qu
+2l39nrUf7y8ngt7qdLd/MLfKY1KFvVd24c03FyW407Fu88PjVbs3FzPdOGR4YtoRPL3DBwwXJ/E1
+Lb+AbHSbVx9qb7Tl3VTtUFjGU6KBjisbTbPxLdWKQ3V3eKXuoRMu0rsXLbyrFjx06Vf/ALP1izvn
+u4zdXRW8mQQPL8rQeUdvX/aA596aTXUCO38FxS6bBBPc3VzdrHChkGwqoTnZjGGGT3q9ZeDbKDTm
+tVlmMTwG2JVlPG8t2GM5JrDsdP166jSS8ivxax38EoRGYOFIO/HJJAOKuzWOuw2cYEV6Plm8lbfC
+kTGQ7C/+ziqs+4aHWR2qhv3aEn6ZNWltApj86VYfMYIoY8sx6Ae9cutj4gtb5r7N1NKLxl+zrJiM
+xeV2H+93qjodn4gvLy3a9gufs6ajbzqs2TsG1t/Uk4BxU8iDmPRlsYocYG4+ppsi7m9quSfdFQOv
+pSJI1jGap6oqx7T3zitWGMbc96xPECsssf8AdpMZb+WS0CEVSki87chGV6VLCxFmQT82OKq2lwVt
+Z3k4285pDOfu4/J1CeEfdTGPxFMqC2la6ee5Y585yV/3RwKnr7LBxcaEEz4fGSUsRNruFFFFdhxB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFaOma1NYuqs2+HPKt2+lZ1FZ1KcakeWaujWnUnSlzQdmd/byx3UYkRw6HuKk2BV+Wu
+GsNSm0+TdG3y90PQ12Ol6pFqUOY/ldfvIe1fL4nByw/vLWJ9ZhcbDEe69JE9KF3U8rmlOIxnGa4D
+0ivcXC2q5PLHoKwL3fIA6jL7sitrU54FjHmYyORWTFceblooyw7ZqJa6Foik+1XnM8pC/wB1elS2
+9oNwVFy3rVqHzdpLrgVPHMFySAB7VKiHMcRD44ik1vWLL935drC7QOASXaMfPn15/lV9/GkdrFeS
+jT5pktFh8yRSoBeQLtABP+1WtJoOjyWcNu1qvlxbtuCQfmBDc9TnNRap4XstU0e8socWwumiaRuT
+nYVx+i4rb3SbsrP47XLW66fO1/E0omtgy/IsYUsc9Dw61BqHxCMdnez6fpkt5HbLCxkdwi/vQpUf
+k1a7+DdIe2WH7O2A7OZPMbexYANls5IIA/KrEvh3TZLO8tjbKILoIJVViM7AAuPTAAo90RpRl2jR
+nQxOVBZCc7TjpmncmoYdkUKIrMVVQo3MSeB3PenLICcCoAtNyopigGnBuKZuxVATY9KytWg+0Ruc
+8oMitNW4zmqOrHZbsB1bikwMaxuGuZfK9RVHUrg2l7JYYyGQnNZ/iyG8s30BbO8ktJLjUEWQRgfP
+GAXYE9hhT+dcZr3iuabVNV1TRNS86BcWrGaUFBI7gb1H8KqMjPfNK2haOl0kn+z4Qxyyja3sRxir
+lc7b6zcQ+FbCa2h33t5deSpunLjGTufPcYXIp3hbXtR1iUrewW8aG1WcGEEEZcqM59QM19XQxUbQ
+pta2R8fiMFNOdRPRNnQUUUV6R5IUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVd0e8ezvomTkMdrL6g1SqazkSG6hkkGUV
+gTioqRUoNNXNacnGaknY9CyKq3zzFcQkA1njxBbzPwwVfU0T65BHjDBvoa+LdKonZxf3H3KrU2rq
+S+8hbTZLiQGZsqOcCrSTQq3lRldy9QKzZvECEkKDj2rDNw6yOyOy7jng11UcDVqvVcvqcdfMKVFK
+z5vQ7ZV3AU7yV6EVxi6ndL0nf86mXXLxf+WufqK6HllXo0c8c1ovdM6w20f92ozb7vu8VgxeJpl+
++gYexq7B4mgbiRGQ/TNcssDXh9m51Qx2Hn9q3qW5IbkfcZSKiaxuJPvzFfZauW+oW90B5cqsfTPN
+UZ9ehtrpo2ycfxCuaNGpKXKou51SrU4x5nJWLX2V7dAqvn/epyrLHywz9Kot4htmbOT+VSjWoZ2V
+VmUeu7iqeHqx1cH9xKxFGWimvvLyXQHDgqx9anUhl65pq+U0YyVNMERhO5RlP7tYm5Lv2xsfSuZ8
+f6pqWn6HPNpFidS1OOMtBaAgeY/YZJ6V0F0xntnRAQe1U7O0uGvPtM+0Kq4Cik9dBnAQ+MdWm8M2
+Fzrmn/2ZqiR4ntzg7JOQcEE9f61maWp8gRFYhLdSbpkSNeEHODxSfFPVW/tDTdNh2/ab25AUt0HP
+U1r6ZpyadbhAd8h5eQjljXbgsLLEVOZ/Cv6sefjsWsPT5V8T/q5eWQrtAC4X7o2jA+lBkOMYAGAO
+ABwOgptFfXcsd7Hx3PK1rhRRRVEBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRSqrSMFUFmPAAoGJRWm
+fD92sPmMFXjO3PNZhBUkEYNZQqwqXUHexrUo1KdnONrhRRRWpiFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAKxU5Bwfajr1oooGFFFFAi3ZalLZ
+yLg74weUPSu2srtLy3SSPoRXn1amh6obCbY3Mbn8q8rG4VVI88F7y/E9nAYx0pezm/df4HZ8Y6VX
+uLgLG4HpVhWDR57YrOuE8u3mk6g9K+YPqjxLxlcHVPidotrZqZJrEmWduyoev867euQh00r4sW/V
+ttzcyuHb1jXt/Kuvr6LKl+6k/M+YzZ/voryCiiivaPDCiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiigA
+k4HJoAVFaRgqgsxOABXY6Lo66bDvcA3DDk/3fao9A0MWkYuJlzMwyAf4f/r1qynBr5zHYz2n7qm9
+OvmfUYDBezXtai16eQyQ7utc9rmk9biIc9WX+tb5YN0qGSTqMcV5lGtKjNTiepWoxrwcJHD0Vqat
+pZt8zxj90x5HpWXX2FGrGtBTifFVqMqE3CQUUUVsYBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB3WkyG40uIk5YrzVHWrp4tPMXR
+2+XNJ4VmBtDH3BNJ4hXEalu3evisRHkqSiu595hpc9KEvI88s4fM8QXROdlqojT0JYZJ/Stmqdj5
+ctxd3Cj5mk2Z7YFXK+mwEOTDx89T5PHz58RLy0Ciiiu888KKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK6
+fw9oflqt1cL83VEYdPeq/h3RRPi6nX92PuKf4veuq/lXhY7F70qfz/yPocvwV7Vqi9F+odOarStu
+qSSTPA6VERxXgH0ZHiopVOARUyqaeygjpSAqw7JkeKQblbjBrl9V01tPuCMZjb7p/pXTTIY8sOlH
+kx6tZlHGfQ9wa7sJiXh5+T3PPxmFWJhp8S2OMoqW6tXs7h4nHzKair66MlJJrY+NlFxbi9wooopk
+hRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFAF/Sb42kxH97p9aseIdVS4t/LicPMwxtz933NZFJ7968yvgYV6nO3buerh8wnQp+ztft5DLeE
+W8KRjnaMZ9akoor0klFWR5jbk7sKKKKZIUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFKql2CqMk8ACgYlT2dnLfTCO
+JNx79gK1rPwuzKGuJNv+wvWui0+xisogkSbR+p+teTXzCnBWp6v8D2MPltSo06mi/EmgjEMEaY2h
+VA2+lOdtqindRzUD5zjtXzbd3dn1KVlZDaSloqBiUtFOWgCOVNwIxWUjnT7sDkRsa2SM1l6xDvty
+f4hyKQyv4osRJGl0g5HDfSuZrsbOT7dp7RP97biuQljMUjIeqnFfS5bWc4Om+h8vmlFQmqi6jaKK
+K9k8MKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACun0HSPs8YuJl/esPkH90VW8PaKZ5Bczr+
+7X7in+I+v0rpzHXg4/F/8uafz/yPosvwf/L6ovT/ADEWP5aerdhTWbim5rwj6Eezc0knzAYptHSg
+CPNKKdtFFSAm2loooAKp333c4z7VcJqrc/MKBlWxXazbeMda5vVP+QhN/vV0yfu9xHUjmuVvJPMu
+pW6/NXs5Wv3kn5Hh5s17KK8yGiiivpD5cKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoopURpHVVGWY4AoG
+T2dhNfSbYkyB1bsK3tN8OxwyCSZhKQeFA4/GtDT7EWNgkP8AH1f61bjXaK+ZxOOqTk403aJ9Vhcv
+pwipVFeRKuFwAMAUueKbnbSK27ivJPYG0UuDRTASl3UlLQAlFFPYYFADKKKVsUAMkbFVbhulS3DY
+TPeq+d2CakZDM2yJ29BXJsdzE10mrSeXZPz14rmq+hyuPuykfNZtL3oRCiiivcPACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKAP//Z</Data>
+</Thumbnail>
+</Binary>
+</metadata>

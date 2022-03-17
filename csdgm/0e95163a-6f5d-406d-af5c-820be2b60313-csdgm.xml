@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<Esri>
+<PublishedDocID>5F885038-3D3F-4E2F-8FAF-13A1BB34CF7</PublishedDocID>
+</Esri>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>US Environmental Protection Agency</origin>
+<pubdate>20060104</pubdate>
+<title>1:6000  Scale (6K) Quadrangles developed by USEPA to Support Reconnaissance, and Tactical and Strategic Planning for Emergency Responses and Homeland Security Events (Region 5 Extract)</title>
+<geoform Sync="TRUE">vector digital data</geoform>
+<edition>Draft</edition>
+<pubinfo>
+<publish>U.S. EPA Office of Land and Emergency Management (OLEM) - Office of Emergency Management (OEM)</publish>
+<pubplace>Washington, DC</pubplace>
+</pubinfo>
+<lworkcit>
+<citeinfo>
+<origin>United States Environmental Protection Agency, Office of Land and Emergency Management (OLEM), Office of Emergency Management (OEM)</origin>
+<pubdate>2014</pubdate>
+<title>1:6000  Scale (6K) Quadrangles developed by USEPA to Support Reconnaissance, and Tactical and Strategic Planning for Emergency Responses and Homeland Security Events (Downloadable Data)</title>
+<othcit>722451B3-3B3C-41FD-A081-B307F47C47B3</othcit>
+<onlink>https://edg.epa.gov/metadata/catalog/search/resource/details.page?uuid=%7B722451B3-3B3C-41FD-A081-B307F47C47B3%7D</onlink>
+</citeinfo>
+</lworkcit>
+<onlink>https://edg.epa.gov/data/Public/OLEM/6kquadr5.zip</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Reference quads for emergency response reconnaissance developed for use by the US Environmental Protection Agency.  Grid cells are based on densification of the USGS Quarterquad (1:12,000 scale or 12K) grids for the continental United States, Alaska, Hawaii and Puerto Rico and are roughly equivalent to 1:6000 scale (6K) quadrangles approximately 2 miles long on each side.  Note:  This file is a regional subset that has been extracted from a national file 6K quad file.  Each regional extract includes a 20 mile buffer of tiles around each EPA Region.  To access the national layer (size is greater than 80MB), go to https://edg.epa.gov/data/Public/OLEM/6kquads_epa.zip.</abstract>
+<purpose>To provide a base reference grid system for the entire United States as a pre-staged resource for tracking and planning emergency response activities such as reconnaisance of debris after natural disasters, oil spill cleanups and planning of monitoring activities.</purpose>
+<supplinf>Developed by Weston Solutions for the United States Environmental Protection Agency.  During an EPA response, 6K quad layer should be related to a look-up table (see example table in MS Access file included in the download file) tblMASTER_STATE_GRID_LU_4SDE100406) to update and map response status efforts.  The Lookup table to be used in ArcSDE to relate many 6k quad grid cells to different geographies (State and County).  24k grids for Alaska and non-CONUS areas also included because their shapes boundaries do not exactly match with child 6k cells. 
+		
+		Data elements of the lookup table:
+
+				REC_NUM	Number	unique id - comes from unique record number created in parent grid layers. Initially named as 6k_ref, then Ref_6k
+				Ref_ID	Text	Created by concatenating [STATE]-[Rec_Num].  Initially was named as Ref_6ks
+				STATE	Text	State Name - there can be multiple records with same rec_num but different state name
+				STATUS	Text	Current Grid Cell Status field. Default value is 'NA'.  Other possible values are 'Open', 'Closed' and 'Active'
+				LOCKSTATUS	Text	Indicates a locked value for record.  Possible valuesare 'NA'(default), 'Open', 'Closed' and 'Active'
+				LOCK_CMNT	Text	When LocakStatus field value is not NA then, a comment in this field indicates who implemented lockstatus, and why.
+				QQQUAD_REF	Number	Value from Rec_num field of '24ksubquadbound.shp'  or orginal SubQuad layer which was created only for gulf coast hurricane prone areas.
+				QQQUADREFT	Text	Ref_ID value from '24ksubquadbound.shp'
+				CONUS	Yes/No	identifies grid cells which will be part of final 6k quad layer but Continental US areas only
+				SEL_12K	Yes/No	Identifies all cells that intersect with 12k layer. Initially named as 12k_sel</supplinf>
+</descript>
+<timeperd>
+<current>Publication date</current>
+<timeinfo>
+<sngdate>
+<caldate>200608</caldate>
+</sngdate>
+</timeinfo>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-97.531250</westbc>
+<eastbc>-80.187500</eastbc>
+<northbc>49.656250</northbc>
+<southbc>36.687500</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>environment</themekey>
+<themekey>007</themekey>
+</theme>
+<theme>
+<themekt>EPA GIS Keyword Thesaurus</themekt>
+<themekey>Disaster</themekey>
+<themekey>Response</themekey>
+<themekey>Spills</themekey>
+</theme>
+<theme>
+<themekey>emergency response</themekey>
+<themekey>homeland security</themekey>
+<themekey>reference grid</themekey>
+<themekt>None</themekt>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>MN</placekey>
+<placekey>WI</placekey>
+<placekey>MI</placekey>
+<placekey>IL</placekey>
+<placekey>IN</placekey>
+<placekey>OH</placekey>
+</place>
+<theme>
+<themekt>User</themekt>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+<secinfo>
+<secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+<secclass>public</secclass>
+<sechandl>Standard Technical Controls</sechandl>
+</secinfo>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</cntorg>
+<cntper>Josh Krochmal</cntper>
+</cntorgp>
+<cntpos>EDG Steward</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1200 Pennsylvania Avenue, N.W.</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>202.564.8753</cntvoice>
+<cntemail>krochmal.josh@epa.gov</cntemail>
+<cntinst>https://www.epa.gov/aboutepa/</cntinst>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<logic>Tests for integrity have not been performed.</logic>
+<complete>Features represented have not been tested for completeness</complete>
+<posacc>
+<horizpa>
+<horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<procstep>
+<procdate>200608</procdate>
+<procdesc>
+				quads6k_us.shp layer is extracted from a base layer 'vectorgrid.shp'.  Vectorgrid layer extents are as follows:
+
+				MinX: -179
+				MaxX: -64
+
+				MinY: 17
+				MaxY: 72
+
+				These extents cover all CONUS, Alaska, Hawaii, and Puerto Rico.
+
+				Total number of records in vectorgrid.shp is approx. 6.5 million.
+
+				Grid Cell Height - .03125 degrees
+				Grid Cell width - .03125 degrees
+
+				quads6k_us.shp:
+
+				This layer is slightly different from 12k or 24k quad layers.  It is created strictly as 1/4th scale of a 24k quad grid, which is 1/4th of 7.5 Degrees X 7.5
+				Degrees i.e. 0.03125 degrees X 0.03125 degrees.
+
+				Actual Quad map differ from strictly square grid shape, in some areas outside of CONUS.
+
+				Field Definitions for 6k Quad Layer:
+
+				Label (Text) - Label value (Unique).
+
+				Sel_12k (T/F):  Identifies all cells that intersect with 12k layer. Initially named as 12k_sel
+
+				QQQuad_ref (Number): Value from Rec_num field of '24ksubquadbound.shp'  or orginal SubQuad layer which was created only for gulf coast hurricane prone areas.
+
+				QQQuadRefT (Text): Ref_ID value from '24ksubquadbound.shp'
+
+				Final_sel (T/F): identifies grid cells which will be part of final 6k quad layer.
+
+				Conus (T/F):  identifies grid cells which will be part of final 6k quad layer but Continental US areas only
+
+				Rec_num (Number): Unique id for each 6k tile. Initially named as 6k_ref, then Ref_6k
+
+				Link table tblMASTER_STATE_GRID_LU_4SDE - this is a lookup table for identifying all 6k grid tiles that belong to each single state.  This table has many duplicate records with same value for ref_num.  However ref_id value is unique.
+
+				State: State that each tile belongs to.  This field is found in link table
+
+				Ref_ID (string): a concatenated string id [State]-[Ref_6k].  Initially named as Ref_6ks
+				</procdesc>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</cntorg>
+<cntper>Josh Krochmal</cntper>
+</cntorgp>
+<cntpos>EDG Steward</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1200 Pennsylvania Avenue, N.W.</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>202.564.8753</cntvoice>
+<cntemail>krochmal.josh@epa.gov</cntemail>
+<cntinst>https://www.epa.gov/aboutepa/</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdate>20061129</procdate>
+<procdesc>Metadata imported.</procdesc>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</cntorg>
+<cntper>Josh Krochmal</cntper>
+</cntorgp>
+<cntpos>EDG Steward</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1200 Pennsylvania Avenue, N.W.</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>202.564.8753</cntvoice>
+<cntemail>krochmal.josh@epa.gov</cntemail>
+<cntinst>https://www.epa.gov/aboutepa/</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdate>20070104</procdate>
+<procdesc>Dataset copied.</procdesc>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</cntorg>
+<cntper>Josh Krochmal</cntper>
+</cntorgp>
+<cntpos>EDG Steward</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1200 Pennsylvania Avenue, N.W.</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>202.564.8753</cntvoice>
+<cntemail>krochmal.josh@epa.gov</cntemail>
+<cntinst>https://www.epa.gov/aboutepa/</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdate>20060102</procdate>
+<procdesc>Assigned state abbreviation codes for grid cells whose centers that fell in coastal waters, large inland waters and for U.S. commonwealths, territories and associated areas such as Puerto Rico, US Virgin Islands and pacific islands and territories.</procdesc>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</cntorg>
+<cntper>Josh Krochmal</cntper>
+</cntorgp>
+<cntpos>EDG Steward</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1200 Pennsylvania Avenue, N.W.</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>202.564.8753</cntvoice>
+<cntemail>krochmal.josh@epa.gov</cntemail>
+<cntinst>https://www.epa.gov/aboutepa/</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct Sync="TRUE">Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>1270281</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.000001</latres>
+<longres>0.000001</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 1980</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>Fields include unique identifiers and labeling information for use in linking to EPA response data and for referring to other spatial identifiers such as USGS Quarterquad identification, State, Zip Code and others.</eaover>
+<eadetcit>Field Definitions for 6k Quad Layer:
+				Field Name	Type	Length	Description
+				QQQUAD_REF	Number	16	Value from Rec_num field of '24ksubquadbound.shp'  or orginal SubQuad layer which was created only for gulf coast hurricane prone areas.
+				QQQUADREFT	Text	16	Ref_ID value from '24ksubquadbound.shp'
+				FINAL_SEL	Yes/No	1	Identifies grid cells which will be part of final 6k quad layer.
+				CONUS	                      Yes/No	1	identifies grid cells which will be part of final 6k quad layer but Continental US areas only
+				REF_6K	                      Number	16	Original unique id field.  Identical to final unique id field, REC_NUM
+				SEL_12K            	Yes/No	1	Identifies all cells that intersect with 12k (3.5 minute) quad layer. Initially named as 12k_sel
+				REC_NUM	Number	16	unique id - comes from unique record number created in parent grid layers. Initially named as 6k_ref, then Ref_6k
+				Q24K_NAME	Text	100	Name of parent 24k polygon - If available and if exists
+				Q24K_ID	                     Text	100	ID of parent 24k polygon -If available and if exists
+				Q12K_ID	                     Text	100	ID of parent 12k polygon - If available and if exists
+				Q12K_NAME	Text	100	Name of parent 12k polygon - If available and if exists
+				SRCTHMNAME	Text	100	name of parent GRID data shapefile.  Current layer includes data from three shapefiles - Quads6k_us20060911.shp, Pacific_grid1sel.shp, and Pacific_grid2sel.shp
+				NATGRID	Text	254	US National Grid Coordinate of grid cell centerpoint
+				LONG         	Number	16	Longitude in Decimal Degrees of center point of Grid Cell
+				LONG_POS	Number	16	Absolute value of longitude center point
+				CTR_ZIP    	Text	10	Zip code of center point of grid cell
+				CTR_ST    	Text	16	State abbreviation code for US State, commonwealth or territory either at center of grid cell or within related water features.</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<resdesc>Downloadable Data</resdesc>
+<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</cntorg>
+<cntper>Josh Krochmal</cntper>
+</cntorgp>
+<cntpos>EDG Steward</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1200 Pennsylvania Avenue, N.W.</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>202.564.8753</cntvoice>
+<cntemail>krochmal.josh@epa.gov</cntemail>
+<cntinst>https://www.epa.gov/aboutepa/</cntinst>
+</cntinfo>
+</distrib>
+</distinfo>
+<metainfo>
+<metd Sync="TRUE">20201022</metd>
+<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+<metfrd>20200720</metfrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Office of Land and Emergency Management - Office of Emergency Management</cntorg>
+<cntper>Josh Krochmal</cntper>
+</cntorgp>
+<cntpos>EDG Steward</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1200 Pennsylvania Avenue, N.W.</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>202.564.8753</cntvoice>
+<cntemail>krochmal.josh@epa.gov</cntemail>
+<cntinst>https://www.epa.gov/aboutepa/</cntinst>
+</cntinfo>
+</metc>
+</metainfo>
+<Esri>
+<ModDate>20070125</ModDate>
+<ModTime>13371500</ModTime>
+<MetaID>{8364F9E8-5882-48E8-9C71-AB0577970CB8}</MetaID>
+<CreaDate>20070129</CreaDate>
+<CreaTime>11583300</CreaTime>
+<SyncOnce>TRUE</SyncOnce>
+</Esri>
+<mdDateSt Sync="TRUE">20070125</mdDateSt>
+</metadata>

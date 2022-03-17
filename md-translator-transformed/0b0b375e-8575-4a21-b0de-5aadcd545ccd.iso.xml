@@ -1,0 +1,90 @@
+Failed
+Input failed to pass either file structure, validation, or content requirements
+See following messages for further information
+Success - Input structure is valid
+Success - Input content passes schema definition
+Fail - Reader execution failed - see following message(s):
+
+Message: 1
+WARNING: FGDC reader: BIO geographic description is missing
+
+Message: 2
+WARNING: FGDC reader: theme keyword thesaurus is missing
+
+Message: 3
+WARNING: FGDC reader: place keyword thesaurus is missing
+
+Message: 4
+WARNING: FGDC reader: BIO lineage methodology section is missing
+
+Message: 5
+WARNING: FGDC reader: citation publication date is missing
+
+Message: 6
+WARNING: FGDC reader: citation title is missing
+
+Message: 7
+WARNING: FGDC reader: citation publication date is missing
+
+Message: 8
+WARNING: FGDC reader: citation title is missing
+
+Message: 9
+WARNING: FGDC reader: lineage source media type is missing
+
+Message: 10
+WARNING: FGDC reader: lineage source time period is missing
+
+Message: 11
+WARNING: FGDC reader: lineage source citation abbreviation is missing
+
+Message: 12
+WARNING: FGDC reader: lineage source contribution is missing
+
+Message: 13
+WARNING: FGDC reader: lineage procedure date is missing
+
+Message: 14
+WARNING: FGDC reader: enumerated domain value definition is missing
+
+Message: 15
+WARNING: FGDC reader: enumerated domain value definition source is missing
+
+Message: 16
+WARNING: FGDC reader: enumerated domain value definition is missing
+
+Message: 17
+WARNING: FGDC reader: enumerated domain value definition source is missing
+
+Message: 18
+WARNING: FGDC reader: enumerated domain value definition is missing
+
+Message: 19
+WARNING: FGDC reader: enumerated domain value definition source is missing
+
+Message: 20
+WARNING: FGDC reader: attribute definition is missing
+
+Message: 21
+WARNING: FGDC reader: attribute reference source is missing
+
+Message: 22
+WARNING: FGDC reader: attribute domain is missing
+
+Message: 23
+WARNING: FGDC reader: attribute definition is missing
+
+Message: 24
+WARNING: FGDC reader: attribute reference source is missing
+
+Message: 25
+WARNING: FGDC reader: attribute domain is missing
+
+Message: 26
+WARNING: FGDC reader: enumerated domain value definition is missing
+
+Message: 27
+WARNING: FGDC reader: enumerated domain value definition source is missing
+
+Message: 28
+ERROR: FGDC reader: Conversion of dateTime string to object failed
